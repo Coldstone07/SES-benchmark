@@ -1,0 +1,8 @@
+{
+  "model": "qwen/qwen3.6-plus",
+  "accuracy": 91.6,
+  "correct": 11,
+  "total": 12,
+  "timestamp": "2026-04-14T20:25Z",
+  "results": [{"id":"1.1","expected":1,"predicted":"1"},{"id":"1.2","expected":1,"predicted":"1"},{"id":"1.3","expected":1,"predicted":"1"},{"id":"2.1","expected":2,"predicted":"2"},{"id":"2.2","expected":2,"predicted":"2"},{"id":"2.3","expected":2,"predicted":"2"},{"id":"3.1","expected":3,"predicted":"3"},{"id":"3.2","expected":3,"predicted":"3"},{"id":"3.3","expected":3,"predicted":"3"},{"id":"4.1","expected":4,"predicted":"3"},{"id":"4.2","expected":4,"predicted":"4"},{"id":"4.3","expected":4,"predicted":"4"}]
+}

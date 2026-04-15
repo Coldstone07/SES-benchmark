@@ -1,0 +1,12 @@
+{
+  "test": "Kairos-SEB Core Benchmark v2",
+  "scenarios": 12,
+  "models": [
+    {"name": "anthropic/claude-sonnet-4.6", "correct": 12, "accuracy": 100.0, "rank": 1},
+    {"name": "qwen/qwen3.6-plus", "correct": 11, "accuracy": 91.6, "rank": 2},
+    {"name": "openai/gpt-5.4", "correct": 11, "accuracy": 91.6, "rank": 2},
+    {"name": "anthropic/claude-opus-4.6", "correct": 9, "accuracy": 75.0, "rank": 4}
+  ],
+  "timestamp": "2026-04-14T21:00Z",
+  "notes": "Correct model names used (4.6 not 3.7). All models performed well overall."
+}
