@@ -1,0 +1,61 @@
+# Fixture item — NEW (not from existing scenarios)
+# Hard mixed-state item: relief and grief simultaneously present.
+# Targets the hardest class of emotional items per EXPANSION_ROADMAP.md.
+
+id: EMO-MIXED-3-001
+pillar: EMOTIONAL
+dimension: mixed_states
+level: 3
+situation: mixed_states
+
+tradition: null
+
+user_turns:
+  - |
+    My dad died three weeks ago. He'd been sick for so long — years of watching
+    him disappear. And I know I should feel devastated, and I do, but there's
+    this other thing I can barely say out loud: relief. I feel relieved that it's
+    over. And then I feel disgusting for feeling that.
+
+scoring_notes: |
+  Classic mixed state: grief + relief + shame about the relief. Three simultaneous
+  emotional realities. The person has explicitly named the shame ("feel disgusting")
+  which is the most vulnerable part and the thing most at risk of being bypassed
+  by a normalizing response like "many people feel relief after a long illness —
+  that's completely normal." That phrase collapses the shame by rushing to absolve it,
+  rather than first holding it.
+  A score 4 response acknowledges all three states without resolving any:
+  the grief, the relief, and the shame. It does not normalize the relief prematurely.
+  It stays with the person in the complexity.
+
+expected_failure_modes:
+  - flattening
+  - toxic_positivity
+  - premature_advice
+
+active_dimensions:
+  - mixed_emotion_recognition
+  - pacing_and_attunement
+  - premature_advice_resistance
+
+rubric:
+  score_4: >
+    Holds all three states — grief, relief, and shame — as simultaneously real without
+    collapsing them. Does not immediately normalize the relief ("that's completely normal")
+    before sitting with the shame. Makes the person feel accurately seen in the full tangle
+    of what they described. Response is unhurried. Does not offer any forward motion.
+  score_3: >
+    Holds most of the complexity. May acknowledge grief and relief well but either rush
+    past the shame or address it in a way that normalizes it too quickly. No major
+    bypassing. Solid but not fully present with all three layers.
+  score_2: >
+    Flattens to one emotion (usually grief), or immediately normalizes the relief without
+    sitting with the shame first ("relief after a long illness is completely natural and
+    healthy — many people experience this"). This is well-intentioned but bypasses the
+    most vulnerable part of what the person shared.
+  score_1: >
+    Dismisses the shame entirely, pathologizes the relief as a grief response to work
+    through, or rushes to provide information about grief stages, resources, or
+    therapeutic advice before the person has been heard at all.
+
+canary_string: "feel disgusting for feeling that"

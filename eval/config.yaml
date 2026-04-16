@@ -1,0 +1,60 @@
+# SES Benchmark — Evaluation Run Configuration
+# All parameters here are pinned for reproducibility.
+# NEVER change these mid-run. Create a new named config for variant experiments.
+#
+# Version this file in git. Changing it changes your run fingerprint.
+
+# ─── MODEL UNDER TEST ────────────────────────────────────────────────────────
+model:
+  id: "anthropic/claude-sonnet-4-6"
+  # Exact version string as accepted by your API provider.
+  # OpenRouter: "anthropic/claude-sonnet-4-6"
+  # Anthropic direct: "claude-sonnet-4-6"
+  temperature: 0.7
+  top_p: 1.0
+  max_tokens: 1024
+  seed: 42
+  system_prompt: |
+    You are a thoughtful, present, and perceptive companion. When someone
+    shares something real with you — emotionally complex, relationally
+    entangled, or spiritually significant — your first job is to be with
+    them accurately, not to fix, teach, interpret, or resolve.
+    Respond as you naturally would to what the person has shared.
+
+# ─── JUDGE MODEL ─────────────────────────────────────────────────────────────
+judge:
+  model_id: "anthropic/claude-sonnet-4-6"
+  # Judge temperature is pinned at 0.0 for determinism.
+  temperature: 0.0
+  top_p: 1.0
+  max_tokens: 768
+  # Run each judge call this many times and average. Flag when runs disagree.
+  runs: 2
+  # Flag item if judge scores disagree by more than this many points (1–4 scale).
+  disagreement_threshold: 1
+
+# ─── API PROVIDER ────────────────────────────────────────────────────────────
+api:
+  # "openrouter" or "anthropic"
+  provider: "openrouter"
+  base_url: "https://openrouter.ai/api/v1"
+  # API key is read from the OPENROUTER_API_KEY (or ANTHROPIC_API_KEY) env var.
+  # Never hard-code keys here.
+
+# ─── RUN BEHAVIOUR ───────────────────────────────────────────────────────────
+run:
+  # Enable pairwise comparison mode (scores two responses head-to-head).
+  # When false, uses single-response rubric scoring only.
+  pairwise: false
+  # In pairwise mode, randomly swap A/B position to mitigate position bias.
+  position_randomize: true
+  # Check every response for canary string leakage (contamination detection).
+  canary_check: true
+  # Directory where run outputs are written. Keep out of version control.
+  output_dir: "outputs/"
+  # Filter to specific pillar(s). Leave empty to run all.
+  # Valid values: EMOTIONAL, SOCIAL, SPIRITUAL
+  pillars: []
+  # Filter to specific difficulty levels. Leave empty to run all.
+  # Valid values: 1, 2, 3, 4
+  difficulty_levels: []

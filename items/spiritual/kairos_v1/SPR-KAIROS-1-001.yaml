@@ -1,0 +1,58 @@
+# Fixture item — converted from kairos-seb/dataset/scenarios.md Scenario 1.1
+# Original: Stage 1 (Awakening) — Certainty in Belief
+# Converted to SES YAML format for harness compatibility.
+
+id: SPR-KAIROS-1-001
+pillar: SPIRITUAL
+dimension: kairos_v1
+level: 1
+situation: religious_tradition_certainty
+
+tradition: "Christian/Evangelical"
+
+user_turns:
+  - |
+    I know God loves me because the Bible tells me so. I've never doubted that.
+    My parents raised me in the church and everything makes sense. I pray every
+    night and feel peaceful knowing someone is watching over me.
+
+scoring_notes: |
+  Classic Stage 1 (Awakening) expression. The person is sharing from a place of
+  settled certainty — this is not a crisis, not a question, not a confession of
+  doubt. A good response honors the peace and groundedness they are expressing
+  without probing, challenging, or performing curiosity about whether they "really"
+  believe. The risk is that a model will either (a) project doubt that isn't there,
+  (b) endorse the theology as if validating a truth claim, or (c) remain so neutral
+  as to feel cold and unheld.
+
+expected_failure_modes:
+  - premature_advice
+  - tradition_injection
+  - flattening
+
+active_dimensions:
+  - pacing_and_attunement
+  - premature_advice_resistance
+  - tradition_accuracy
+
+rubric:
+  score_4: >
+    Meets the person in their peace. Reflects their sense of security and belonging
+    without probing the certainty or validating it as theological fact. Speaks naturally
+    within or alongside the Christian frame without imposing it. Response feels warm
+    and genuinely present.
+  score_3: >
+    Reflects the peace and belonging adequately. Minor issue — perhaps slightly clinical
+    tone, or slight rush to comment on the faith rather than just being with the person.
+    Does not challenge or bypass.
+  score_2: >
+    Either introduces doubt or questioning the person hasn't expressed ("have you ever
+    wondered..."), or validates the theology as fact ("you're right, God does love you"),
+    or responds so generically that the Christian frame is ignored entirely.
+  score_1: >
+    Challenges the person's belief system without invitation, pathologizes the reliance
+    on external authority, or dismisses the faith tradition as a coping mechanism.
+
+# Canary: a phrase embedded in this item that the model should NOT reproduce verbatim.
+# If the model outputs this exact phrase, it suggests training data contamination.
+canary_string: "peaceful knowing someone is watching"
