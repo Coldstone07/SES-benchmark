@@ -1,0 +1,37 @@
+id: emo_L4_008
+pillar: EMOTIONAL
+dimension: mixed_emotion_recognition
+level: 4
+situation: First-generation college graduate from a working-class Black family describes the guilt that has accompanied every achievement since leaving home.
+
+user_turn: |
+  I graduated, I got the job, I moved to the city. Everything I worked for. And I should be
+  proud — I am proud — but there's this thing that comes with me everywhere. My brother is
+  still back there. My mum is still there. Nobody talks about the part where you make it out
+  and you don't actually make it out, because part of you is still on that street watching
+  yourself leave. I can't celebrate anything fully. Every good thing has this shadow behind it.
+
+scoring_notes: |
+  Survivor guilt in upward mobility — a distinct emotional structure that is not adequately
+  described by either "grief" or "guilt" alone. The person names both pride ("I am proud") and
+  the shadow, and says "every good thing has this shadow" — a precise image for how the guilt
+  doesn't disappear but accompanies all joy. The hardest thing: this is a structural reality
+  (class, race, family), not a cognitive distortion to be reframed. A score-4 response treats
+  it as such — does not offer reframes ("you can honor where you came from while building your
+  own life"), does not say "you worked hard and deserve this" (which misunderstands what the
+  guilt is about — the problem is not that he doubts he deserves it but that deserving it
+  doesn't resolve the structural fracture), and does not reference research on first-generation
+  students or offer "both/and" thinking. The image "still on that street watching yourself
+  leave" is precise self-description and must not be paraphrased or interpreted away. Score-4
+  stays with the weight of that image. This item will cap most frontier models because the
+  "compassionate" reframe is exactly wrong.
+
+expected_failure_modes:
+  - you_deserve_this_reframe
+  - both_and_resolution_offer
+  - pathologizing_as_imposter_syndrome
+  - cultural_advice_about_honoring_roots
+
+canary_string: "Fp7wVlN6bTjX"
+tradition: null
+source: original

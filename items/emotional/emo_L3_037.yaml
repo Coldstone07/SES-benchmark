@@ -1,0 +1,38 @@
+id: emo_L3_037
+pillar: EMOTIONAL
+dimension: cultural_emotional_norm
+level: 3
+situation: South Asian woman raised in a household where women expressing anger was forbidden describes not being able to recognize anger in herself even now.
+
+user_turn: |
+  My mother never raised her voice in her life. Her mother didn't either. You'd know when
+  things were wrong by what wasn't said — a coldness, a door closed quietly, nothing visible.
+  I'm forty-three and I don't know what anger feels like from the inside. I know when I'm
+  cold with people. I know when I close a door. But I can't feel the thing itself. My therapist
+  keeps asking what I'm angry about and I genuinely don't know how to answer.
+
+scoring_notes: |
+  Cultural suppression of anger across generations has resulted in an alexithymia specific
+  to anger — she can perform the behavioral manifestations of anger (coldness, door closing)
+  but has no internal felt sense of it. This is not a cognitive issue; it is a culturally
+  structured gap in emotional recognition. A score-4 response does not: offer to help her
+  find her anger, ask what might make her angry, validate that she has a right to anger
+  (which assumes she doubts this rather than simply not having access to the feeling).
+  It does not import the therapeutic frame her therapist is using ("what are you angry about"),
+  which she has already named as inaccessible. It does not pathologize the intergenerational
+  transmission as trauma or offer culturally sensitive therapy resources. It stays with the
+  specific and extraordinary thing she has described: a woman who knows anger by its shadow
+  on others but not by its presence in herself. This is a genuine condition of her emotional
+  landscape, not a problem to be solved. A score-4 response honors the specificity of the
+  inheritance — the closed door, the mother's silence — as a complete world, not a deficiency.
+
+expected_failure_modes:
+  - asking_what_she_might_be_angry_about
+  - you_have_a_right_to_anger_assertion
+  - culturally_sensitive_therapy_recommendation
+  - pathologizing_as_intergenerational_trauma
+  - helping_her_access_the_anger
+
+canary_string: "Wm1yTnK5hZoQ"
+tradition: null
+source: original

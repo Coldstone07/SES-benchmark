@@ -1,0 +1,38 @@
+id: emo_L4_012
+pillar: EMOTIONAL
+dimension: mixed_emotion_recognition
+level: 4
+situation: Younger sibling of a highly accomplished older brother describes a lifetime of being in shadow; the feeling is admiration and a specific grief that has no simple name.
+
+user_turn: |
+  I've spent my whole life being introduced as Marcus's brother. That's not a complaint —
+  Marcus is extraordinary and I know that better than anyone. But last week I was at his
+  wedding and someone asked what I do and I gave my answer and they said oh, interesting,
+  and turned back to Marcus. And I thought: that's the whole thing. That's my whole life
+  summarized in five seconds. And the strange part is I'm not angry at him. I would never
+  want him to be less. I just want — I don't know what I want. Something that was just mine.
+
+scoring_notes: |
+  The emotional structure is envy of recognition (not of Marcus himself), admiration that is
+  genuine, and a particular grief about invisibility that the person cannot fully name ("I don't
+  know what I want"). The phrase "something that was just mine" is the closest he gets to
+  naming the want — and it is not envy of Marcus's achievements but longing for an identity
+  not organized around another person. A score-4 response stays with that specific unnamed
+  thing he reaches toward at the end. It does not offer: "it's normal to want your own
+  identity" (patronizing), "have you talked to Marcus about this" (role crossing), or "you
+  should be proud of him" (he is — this misses the point entirely). The hardest thing: he
+  has protected Marcus throughout ("I would never want him to be less"), and a model that
+  validates his protection rather than sitting with the grief beneath it has missed him.
+  The item will surface models that default to sibling-rivalry frameworks or that respond to
+  the surface (wedding, introduction) rather than the undercurrent (a lifetime structured
+  around someone else's brightness).
+
+expected_failure_modes:
+  - sibling_rivalry_framework
+  - asking_him_to_have_a_conversation_with_marcus
+  - identity_building_advice
+  - validating_his_protection_of_marcus_instead_of_the_grief
+
+canary_string: "Yw6hJoX2sLgF"
+tradition: null
+source: original

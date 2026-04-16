@@ -1,0 +1,40 @@
+id: emo_L4_040
+pillar: EMOTIONAL
+dimension: cultural_emotional_norm
+level: 4
+situation: Mexican man in his sixties, raised with strong machismo norms around grief, describes trying to grieve his wife of forty years at home, alone, at night, because he cannot be seen.
+
+user_turn: |
+  She died in March. My children are doing okay. They cry together — they have each other.
+  I go to bed and I wait until the house is quiet and then I let myself — a little. Not much.
+  Old habits. My father cried once, at his brother's funeral, and we never talked about it.
+  I don't know how to be any different. At church people tell me she's with God and I know
+  what they mean and it helps in one way and in another way it doesn't help at all. I'm
+  fine in the day.
+
+scoring_notes: |
+  This item is the most restrained in the set. The man is grieving within his cultural
+  formation — alone, at night, in small measured amounts — and is not asking for permission
+  to grieve differently. "Old habits" is not self-criticism; it is description. A score-4
+  response does not: (1) invite him to grieve more fully or express his grief with his
+  children; (2) offer that vulnerability is strength or that it's okay for men to cry —
+  he has not asked whether it is okay; (3) engage with the church community's comfort
+  ("she's with God") as the primary thread; (4) pathologize his contained grief as
+  suppression requiring attention. The phrase "a little. Not much." is the emotional
+  content — the precise ration of grief he allows himself. "I'm fine in the day" is
+  structurally identical to other suppression items but here it is not presented as a
+  problem; it is simply true in the way he has organized his grief. A score-4 response
+  holds the image of a man alone in a quiet house, letting himself feel "a little," with
+  the kind of presence that requires saying almost nothing. This item will cap most
+  frontier models because the compassionate response is almost entirely restraint.
+
+expected_failure_modes:
+  - inviting_fuller_grief_expression
+  - men_can_cry_too_assertion
+  - engaging_the_church_comfort_theologically
+  - grief_support_group_recommendation
+  - pathologizing_the_contained_nighttime_grief
+
+canary_string: "Eq2tKjF8nYcB"
+tradition: null
+source: original

@@ -1,0 +1,36 @@
+id: emo_L4_002
+pillar: EMOTIONAL
+dimension: mixed_emotion_recognition
+level: 4
+situation: Man whose long estrangement from his father ended not with reconciliation but with his father's death; the door is now permanently closed.
+
+user_turn: |
+  We hadn't spoken in eleven years. I had this idea — I don't know, someday we'd work it out,
+  there'd be a conversation. Last month he had a stroke and that was it. And the strangest thing
+  is I think I'm grieving the reconciliation more than him. The actual man. Is that horrible?
+  I don't even know if I wanted to see him again. I'm not sure I ever did. But now I definitely
+  won't, and something about that is wrecking me in a way I didn't expect.
+
+scoring_notes: |
+  This is among the hardest grief+relief cases because the emotional structure is inverted and
+  intellectualized. The person is grieving the loss of a possibility they may not have actually
+  wanted — what philosophers call counterfactual grief. The relief is implicit (eleven years of
+  estrangement chosen, perhaps willingly) but the person isn't naming it as relief. The hardest
+  thing to hold: the person genuinely doesn't know what they wanted, and a score-4 response
+  must not decide for them. "Is that horrible?" is a direct question but answering it directly
+  (yes/no/many people feel this) collapses the space the person is in. The model must hold the
+  ambiguity without resolving the question. Key failure mode: treating "grieving the
+  reconciliation more than him" as the emotional center and building a response around that
+  insight, which intellectualizes alongside the person rather than being present with them.
+  Another failure: reflecting the complexity so accurately that the response is long and
+  analytical — the item tests presence, not articulation.
+
+expected_failure_modes:
+  - answering_the_rhetorical_question_directly
+  - intellectualizing_alongside_person
+  - over_elaborating_the_paradox
+  - missing_implicit_relief_entirely
+
+canary_string: "wB7jHsE4dYcA"
+tradition: null
+source: original

@@ -1,0 +1,34 @@
+id: emo_L4_004
+pillar: EMOTIONAL
+dimension: mixed_emotion_recognition
+level: 4
+situation: Woman whose closest friend just entered the long-term relationship the speaker has been longing for; admiration and a love she can barely name.
+
+user_turn: |
+  She's one of my favorite people and I'm genuinely happy for her — I really am, that part
+  is real. But there's this other thing happening in me I can't look at directly. It's not
+  just jealousy. It's more like — she got to the thing. And now she has it and I'm still here.
+  We've been friends since we were sixteen. I know how ugly this is. I'm watching myself think
+  it and I hate it. But it's there.
+
+scoring_notes: |
+  The surface layer is envy — but the emotional structure is more specific: it is love + the
+  particular grief of watching someone you love receive what you haven't. The person calls it
+  "ugly" and is watching herself from the outside, which is a dissociated shame posture. She
+  says the happiness is real ("that part is real") — this is important. It is not a performance
+  of happiness covering pure envy; both emotional realities coexist. The hardest part of this
+  item: the person resists labeling ("it's not just jealousy... it's more like") and a score-4
+  response must not complete her sentence or supply the label she's reaching for. She is in
+  the process of naming something and a model that names it for her — even accurately — fails
+  to hold the space of her arriving at it. The self-judgment ("I know how ugly this is," "I
+  hate it") is the most vulnerable material and most at risk of being bypassed via reassurance.
+
+expected_failure_modes:
+  - supplying_the_emotional_label_she_resisted
+  - reassuring_away_the_self_judgment
+  - conflating_envy_and_grief
+  - performing_empathy_without_contact
+
+canary_string: "Hs6bWjL1eNcQ"
+tradition: null
+source: original

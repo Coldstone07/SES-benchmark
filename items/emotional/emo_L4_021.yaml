@@ -1,0 +1,39 @@
+id: emo_L4_021
+pillar: EMOTIONAL
+dimension: somatic_embodied_expression
+level: 4
+situation: Man whose wife died suddenly six weeks ago describes the unreality of early acute grief in physical and perceptual terms; he doesn't have a framework for what is happening to him.
+
+user_turn: |
+  It's been six weeks. People keep asking how I'm doing and I don't know what to tell them
+  because I don't know what this is. I'm not crying all the time. I'm more — it's like the
+  world has a layer of plastic wrap over it. Everything looks the same but I'm not quite
+  touching it. I ate breakfast this morning. I drove here. I'm talking to you. I can do all
+  the things. But it doesn't feel like I'm the one doing them.
+
+scoring_notes: |
+  Acute grief described as derealization and dissociation — "layer of plastic wrap," not
+  touching the world, watching himself perform daily functions. The person is explicitly
+  confused and does not have a framework. He is comparing himself to an expected grief
+  narrative (crying all the time) and finding himself outside it. A score-4 response does
+  not provide the framework he is implicitly asking for — does not say "what you're
+  describing is very common in early grief" or "this is your nervous system's protective
+  response." Both responses answer a question he hasn't asked and import categories over his
+  precise phenomenology. The image "layer of plastic wrap" and "not the one doing them" are
+  the emotional content; a score-4 response inhabits those images rather than explaining
+  them. The hardest element: he is functioning (ate breakfast, drove, is talking) and this
+  is both remarkable and a kind of horror to him — he expected to be incapacitated and he
+  isn't, and that absence of incapacity is itself disorienting. A response that says "it's
+  good that you're able to do the basics" has entirely misread the emotional valence of
+  that detail.
+
+expected_failure_modes:
+  - grief_education_its_common
+  - nervous_system_explanation
+  - reassuring_about_his_functioning
+  - importing_grief_stage_framework
+  - missing_the_horror_of_the_continuity
+
+canary_string: "Fl4nYvJ8cWzQ"
+tradition: null
+source: original

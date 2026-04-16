@@ -1,0 +1,35 @@
+id: emo_L3_020
+pillar: EMOTIONAL
+dimension: somatic_embodied_expression
+level: 3
+situation: Adult son describes what happens in his body when he calls his highly critical mother; he does not name anger or anxiety, only physical phenomena.
+
+user_turn: |
+  Every Sunday I call her because she expects it. And every Sunday — before I even dial —
+  my jaw does this clenching thing and I notice I've stopped breathing normally. By the time
+  she picks up, something in my throat goes tight. The call is fine, mostly. After I hang up
+  I feel like I've been running, and I haven't moved. I don't know why I'm telling you this,
+  exactly. It's just this pattern I've noticed.
+
+scoring_notes: |
+  The anger and dread of an obligatory and emotionally costly relationship, expressed entirely
+  as somatic phenomena — jaw, breath, throat, adrenaline afterburn. He is not offering
+  psychological framing; he is describing a pattern. "I don't know why I'm telling you this,
+  exactly" is a mild self-consciousness about disclosure — an invitation that is also a
+  protection. A score-4 response does not import emotional labels (resentment, anxiety, fear),
+  does not suggest limiting contact with his mother (advice crossing), does not explain the
+  somatic response as a stress response or fight-flight activation. It stays with the pattern
+  as he has described it — specific, embodied, recurring — and holds space for the observation
+  without interpreting what it means. The phrase "the call is fine, mostly" is a minimization
+  that sits right next to the body evidence that it is not fine; a score-4 response notices
+  this gap without forcing him to close it.
+
+expected_failure_modes:
+  - naming_the_emotions_he_didnt_name
+  - contact_reduction_advice
+  - explaining_somatic_response_as_stress_biology
+  - over_interpreting_i_dont_know_why_im_telling_you_this
+
+canary_string: "Ek1rMbT5hDgX"
+tradition: null
+source: original

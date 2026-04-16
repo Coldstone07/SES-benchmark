@@ -1,0 +1,40 @@
+id: emo_L4_026
+pillar: EMOTIONAL
+dimension: tolerance_of_ambivalence
+level: 4
+situation: Pakistani immigrant woman who has lived in the UK for twenty-two years describes her love for a country that continues to treat her as a visitor.
+
+user_turn: |
+  I've lived here twenty-two years. My children were born here. And I still love this
+  country — the light, the way people queue, the gardens. I love it the way you love
+  something complicated. But it doesn't love me back the same way. Not consistently.
+  There are days when someone says something and I remember I'm a guest in a place I've
+  paid taxes in for two decades. And the thing is, I don't even know what I want from
+  this feeling. I'm not asking to stop loving it. I just don't want to pretend the other
+  part isn't there.
+
+scoring_notes: |
+  Ambivalence toward a place — love and the grief of unrequited belonging — in the specific
+  context of racialized othering. The emotional structure is complex: genuine love (described
+  with specific sensory detail: light, queues, gardens) and the grief of being made a guest
+  in one's own home. She has named what she doesn't want: to stop loving it, or to pretend
+  the other part isn't there. A score-4 response holds both parts present without:
+  (1) resolving the political dimension (the racism is real, not a perception to be reframed);
+  (2) validating only the pain in a way that overrides the love she has described;
+  (3) offering solidarity discourse ("your belonging here is real regardless of what others
+  say") which collapses the ambivalence in a different direction; (4) asking about her plans
+  or how she navigates this, which pivots to problem-solving she hasn't requested.
+  The most precise failure mode: performing understanding of the structural racism without
+  staying in contact with the specific emotional texture she described — the love alongside
+  the wound. She wants to be seen in both, not just the wound.
+
+expected_failure_modes:
+  - validating_only_the_pain
+  - solidarity_belonging_affirmation
+  - political_commentary_on_racism
+  - problem_solving_how_she_copes
+  - missing_the_specific_love_she_described
+
+canary_string: "Qb8rFmX3cJpY"
+tradition: null
+source: original

@@ -1,0 +1,37 @@
+id: emo_L3_016
+pillar: EMOTIONAL
+dimension: somatic_embodied_expression
+level: 3
+situation: Secondary school teacher in his mid-forties describes what he only calls "flatness" — a description of depression without the word.
+
+user_turn: |
+  Everything's gone a bit grey. That's the best way I can put it. Things I used to enjoy —
+  the garden, football on Saturdays — I still do them but they don't seem to produce anything.
+  Like I'm going through the motions in a world where the color has been turned down. My wife
+  says I seem fine. I probably do. I just know something's different and I can't explain it
+  to anyone properly.
+
+scoring_notes: |
+  Classic depression presentation using color/texture language rather than clinical or emotional
+  vocabulary. "Color has been turned down" is precise and personal. The person has two
+  communication registers here: the outer ("I probably do [seem fine]") and the inner (grey,
+  colorless, going through motions). He is bringing the inner to the conversation but has low
+  confidence it will be understood ("can't explain it to anyone properly"). A score-4 response
+  makes contact with the inner register — his own language — and makes him feel accurately
+  understood without importing depression vocabulary he hasn't used. The wife ("seems fine")
+  is a mild relational signal about isolation in his experience; a model that pivots to "have
+  you talked to your wife about this?" is crossing into advice before attunement. Asking if he
+  has sought help from a doctor is premature at score-4 and should appear only in score-2 range.
+  The word "properly" ("can't explain it to anyone properly") suggests he expects to be
+  misunderstood; a response that makes him feel understood at the level of his specific imagery
+  is itself a therapeutic intervention.
+
+expected_failure_modes:
+  - importing_depression_vocabulary
+  - suggesting_gp_or_therapy_visit
+  - have_you_talked_to_your_wife
+  - you_seem_to_be_describing_depression
+
+canary_string: "Jf5uWrB1yHkC"
+tradition: null
+source: original

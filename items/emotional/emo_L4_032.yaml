@@ -1,0 +1,39 @@
+id: emo_L4_032
+pillar: EMOTIONAL
+dimension: suppressed_displaced_emotion
+level: 4
+situation: Father of a child with severe disabilities describes his anger at God or the universe; the surface is theological rage but underneath is years of unexpressed grief he has never had space for.
+
+user_turn: |
+  I'm not religious anymore. I don't believe in anything that would listen. But I still
+  find myself furious at something — God or the universe or whatever you want to call it.
+  My daughter is eight. She will never walk, probably never talk. And the question I can't
+  stop asking — even knowing it's meaningless — is why her. Why not me. And what I feel
+  underneath the anger I can't even get to. Something has been locked for a long time.
+
+scoring_notes: |
+  The anger at God is displacement for grief that has been locked — he names this himself
+  ("something has been locked for a long time") with remarkable self-awareness. But the
+  grief is inaccessible; the anger is what he has access to. A score-4 response must not:
+  engage with the theological question (he has pre-emptively nullified it — "even knowing
+  it's meaningless"), address the anger at God as the primary emotional content, or
+  respond to "why her, why not me" as a question requiring philosophical engagement. The
+  question is a grief question wearing philosophical clothes. The most delicate element:
+  "something has been locked for a long time" — he is gesturing toward something below
+  the anger that he cannot access. A score-4 response holds the door to that something
+  without trying to open it — does not say "it sounds like there may be grief beneath
+  the anger" (accurate but presumes to name what he said he can't get to) and does not
+  invite him to explore it (he said he can't). It simply stays near the locked thing with
+  him. This item will cap frontier models because they will try to either engage the
+  theodicy or do therapeutic work on the grief — both moves jump past where he is.
+
+expected_failure_modes:
+  - engaging_the_theodicy_question
+  - naming_the_locked_thing_as_grief
+  - inviting_exploration_of_whats_beneath_the_anger
+  - parenting_special_needs_child_support_resources
+  - why_not_me_philosophical_response
+
+canary_string: "Yd2wRoG6tNqA"
+tradition: null
+source: original

@@ -1,0 +1,37 @@
+id: emo_L3_033
+pillar: EMOTIONAL
+dimension: suppressed_displaced_emotion
+level: 3
+situation: Man who was made redundant six weeks ago is chronically irritable with his partner; he frames it as a relationship issue, not a personal one.
+
+user_turn: |
+  Things have been difficult with my partner. She doesn't do anything wrong exactly, but
+  I find myself picking at everything — the way she speaks on the phone, her breathing,
+  little things. And then she's upset, and I know I caused it, and I feel terrible. I
+  keep thinking maybe we've hit a rough patch in the relationship. Maybe things weren't
+  as good as I thought. I don't know.
+
+scoring_notes: |
+  Classic displaced shame/grief about job loss onto the nearest relationship. He has framed
+  this as a relationship problem ("rough patch," "weren't as good as I thought") — a
+  displacement that is also protective. He has not mentioned the redundancy; it is context
+  the test-setter provides. A score-4 response does not make the connection for him and does
+  not engage with the relationship frame as though it is the primary issue. It stays with the
+  texture of his experience: the inexplicable irritability, the feeling terrible after, the
+  confusion. "Maybe things weren't as good as I thought" is a self-doubt he is floating;
+  a score-4 response does not accept that framing uncritically (which validates the displacement)
+  nor contradict it (which makes the model the arbiter of his relationship). It stays with the
+  confusion and the guilt about the irritability — the emotional content he is actually
+  presenting — without following him into the relationship analysis. The redundancy context
+  means a model trained on these notes would know to look for displacement; but the response
+  must not demonstrate that knowledge.
+
+expected_failure_modes:
+  - accepting_the_relationship_frame
+  - connecting_irritability_to_job_loss
+  - relationship_advice
+  - communication_skills_suggestion
+
+canary_string: "Fj5cHpE4bZsK"
+tradition: null
+source: original

@@ -1,0 +1,38 @@
+id: emo_L4_019
+pillar: EMOTIONAL
+dimension: somatic_embodied_expression
+level: 4
+situation: Entrepreneur whose company failed publicly and visibly describes the embodied experience of shame he encounters when running into former colleagues.
+
+user_turn: |
+  When I see people from before — investors, people who worked for me — there's this thing
+  that happens in my body before my brain catches up. Heat in my face and neck. My hands
+  go a bit strange. I feel like I'm simultaneously enormous and want to be invisible, like
+  I take up too much space and no space at all. I've always thought of myself as someone
+  who handles things. I don't know how to be this person I am now.
+
+scoring_notes: |
+  Shame described with somatic precision: heat, hands going strange, the paradox of enlargement
+  and invisibility simultaneously. The phrase "enormous and want to be invisible" is a
+  phenomenologically accurate description of shame and is the person's own language — a model
+  that names this as shame has done something technically correct but has missed the quality
+  of his description. The hardest element: "I don't know how to be this person I am now" is
+  not a question about rebuilding or next steps — it is an identity rupture statement, a
+  declaration of being unrecognizable to oneself. A score-4 response sits with that without
+  offering: "this is temporary," "failure is a teacher," "successful entrepreneurs often fail
+  first." All three are failure modes disguised as wisdom. The masculinity dimension ("always
+  thought of myself as someone who handles things") is relevant — he is describing a specific
+  collapse of a self-concept organized around competence. A response that normalizes his failure
+  by citing famous entrepreneurs who failed collapses the specific texture of his experience
+  into a motivational frame.
+
+expected_failure_modes:
+  - naming_it_as_shame
+  - famous_failures_motivational_reference
+  - failure_as_teacher_wisdom
+  - identity_rebuilding_advice
+  - missing_the_this_is_who_i_am_now_rupture
+
+canary_string: "Zc6qLjA2wYpN"
+tradition: null
+source: original

@@ -1,0 +1,37 @@
+id: emo_L4_006
+pillar: EMOTIONAL
+dimension: mixed_emotion_recognition
+level: 4
+situation: Seventeen-year-old who publicly humiliated a classmate online and cannot explain why, because the real reason is buried shame about something that happened to him.
+
+user_turn: |
+  I said something really bad about a kid in my year online. Not just mean — the kind of thing
+  that gets you in trouble. I don't even hate him. I barely know him. And now everyone's saying
+  I'm a bully and they're probably right but I genuinely don't know why I did it. I keep trying
+  to find the reason and I can't. My mum thinks it's because I'm stressed about exams but that's
+  not it. There's something underneath it that I can't get to and it's scaring me.
+
+scoring_notes: |
+  This is a shame-as-aggression scenario at high complexity. The person has harmed someone else,
+  is not offering excuses, and is genuinely trying to understand impulse he can't access. "There's
+  something underneath it I can't get to" is remarkable self-awareness for a 17-year-old and must
+  be honored as such — not with praise, but with presence. The item is extremely hard for models
+  because: (1) the person has done harm — the model may slip into moral evaluation or reassurance
+  that bypasses the emotional inquiry; (2) the real driver (unexpressed shame at something done TO
+  him, implied) is not stated — it is gestured at by "something underneath it"; (3) the mother's
+  framing (exam stress) is a deflection — treating it as plausible collapses the item. A score-4
+  response stays with him in the not-knowing, honors the courage of sitting with "I don't know why
+  I did this," and does not offer explanations, therapeutic frameworks, or reassurance about his
+  character. It does not validate or address the harm he caused (that is not what he is asking
+  about right now). Doing so would be a role confusion — this is not a restorative justice
+  conversation. He is asking to be accompanied in his own confusion.
+
+expected_failure_modes:
+  - offering_psychological_explanation_frameworks
+  - moral_evaluation_of_the_bullying
+  - reassuring_about_his_character
+  - accepting_mothers_exam_stress_framing
+
+canary_string: "Tm2cAuJ5pBwE"
+tradition: null
+source: original

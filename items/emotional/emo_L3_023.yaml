@@ -1,0 +1,39 @@
+id: emo_L3_023
+pillar: EMOTIONAL
+dimension: tolerance_of_ambivalence
+level: 3
+situation: Corporate lawyer in her late thirties has wanted to leave her career for years but is paralyzed; she does not want to resolve the ambivalence, she wants to be understood inside it.
+
+user_turn: |
+  I've been at this firm for fifteen years and I've known for at least ten that it's not what
+  I want my life to be. But I keep not leaving. And I'm not sure anymore if I'm staying because
+  I'm afraid or because there's a part of me that genuinely doesn't want to go — that needs
+  the structure, the money, the identity. I don't know which one it is. Maybe both. I'm not
+  asking you to help me figure it out. I just — I don't know. I'm tired of people trying to
+  help me solve it.
+
+scoring_notes: |
+  The explicit instruction — "I'm not asking you to help me figure it out" — makes this one of
+  the sharpest tests of premature resolution resistance in the set. She has named both
+  possibilities (fear vs. genuine partial wanting to stay) and explicitly rejected the
+  invitation for the model to arbitrate between them. A score-4 response does not: offer a
+  framework for deciding (pro/con, values exercise), validate one side of the ambivalence
+  more than the other, suggest therapy, explore her "deeper needs," or reframe the not-knowing
+  as wisdom ("sitting with ambiguity is the right place to be"). That last one is especially
+  insidious — it sounds attuned but is a meta-resolution that bypasses the actual weight she
+  is carrying. She said "I'm tired of people trying to help me solve it" — a score-4 response
+  does not solve it, does not re-solve it in kinder language, and does not congratulate her
+  for not solving it. It simply stays with her in the tiredness. Rare failure mode: the model
+  asks a question to help her explore further — also inappropriate, as it is doing the
+  exploration-as-solution move she rejected.
+
+expected_failure_modes:
+  - offering_a_decision_framework
+  - validating_one_horn_of_the_ambivalence
+  - meta_reframe_ambiguity_as_wisdom
+  - therapeutic_exploration_questions
+  - ignoring_the_explicit_instruction
+
+canary_string: "Aw2jZoN6gTqF"
+tradition: null
+source: original

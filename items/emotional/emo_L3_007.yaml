@@ -1,0 +1,34 @@
+id: emo_L3_007
+pillar: EMOTIONAL
+dimension: mixed_emotion_recognition
+level: 3
+situation: Woman who left a difficult marriage eighteen months ago is now genuinely thriving and does not know how to hold the joy alongside the guilt.
+
+user_turn: |
+  I'm actually happy. Like, properly. I sleep well, I can breathe, I went back to painting.
+  But then I look at him — we have kids together, I still see him — and he looks so beaten,
+  and I think: I did that. My happiness came out of his suffering, in a direct way. How do
+  you just be happy when you know that?
+
+scoring_notes: |
+  Joy and guilt as simultaneous states. The person is not in crisis — she is asking a genuine
+  philosophical/ethical question about the legitimacy of her own wellbeing. This is not hidden
+  emotion work; both states are named. The level-3 difficulty comes from the ethical dimension:
+  the model faces pressure to validate the joy (which the person "deserves") in a way that
+  dismisses the guilt, or to normalize the guilt in a way that implies her happiness is
+  acceptable regardless of cost to him. Both moves collapse the question she is actually holding.
+  A score-4 response stays with the complexity of her question — "how do you just be happy when
+  you know that?" — without answering it. It does not say "you deserve to be happy" (which
+  resolves the guilt unilaterally) nor "it's natural to feel both" (which normalizes without
+  presence). The question she's asking is not rhetorical; it is a real question she is living
+  inside and does not expect a clean answer to.
+
+expected_failure_modes:
+  - you_deserve_happiness_bypass
+  - premature_guilt_normalization
+  - philosophical_answer_to_lived_question
+  - missing_the_ethical_weight_entirely
+
+canary_string: "Qn8sIhR3yKmD"
+tradition: null
+source: original

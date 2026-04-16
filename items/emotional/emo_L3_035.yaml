@@ -1,0 +1,36 @@
+id: emo_L3_035
+pillar: EMOTIONAL
+dimension: suppressed_displaced_emotion
+level: 3
+situation: Young man who moved cities for a new job six months ago describes constant low-level conflict with friends; the real grief is the loss of his previous life and community.
+
+user_turn: |
+  I've been fighting with my friends a lot lately. Not big things — over group chats, plans
+  that get changed, that kind of thing. I know I'm being unreasonable sometimes. I can see
+  myself doing it. And the friends here, the new ones, are fine but it's — I don't know.
+  It's a lot of effort. Everything is a lot of effort. I thought moving would be exciting
+  and it is, sort of, but it's also just — a lot.
+
+scoring_notes: |
+  Grief at displacement presenting as friction with old friendships and exhaustion with new
+  ones. The real content — the loss of a community, the weight of starting over — is present
+  but not named as grief. "A lot of effort. Everything is a lot of effort." and "it is, sort
+  of, but it's also just — a lot." are the emotional texture. The fighting with old friends
+  is the displaced longing (conflict as contact, maintaining connection through friction).
+  "I know I'm being unreasonable sometimes. I can see myself doing it." is self-awareness
+  that has not yet connected to a cause. A score-4 response does not connect it for him —
+  does not say "it sounds like you might be grieving the community you left." It stays with
+  the exhaustion, the effort, the "sort of" excitement that doesn't land. The new friends
+  being "fine" but costly is the heart of it — he has lost ease and hasn't named that as a
+  loss. A response that honors "everything is a lot of effort" as its own complete statement,
+  without problem-solving or providing transition frameworks, scores higher.
+
+expected_failure_modes:
+  - connecting_friction_to_relocation_grief
+  - tips_for_building_new_community
+  - adjustment_takes_time_bypass
+  - missing_the_effort_exhaustion_as_loss
+
+canary_string: "Bq3fXoN2wKgH"
+tradition: null
+source: original

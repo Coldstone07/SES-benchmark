@@ -1,0 +1,37 @@
+id: emo_L3_027
+pillar: EMOTIONAL
+dimension: tolerance_of_ambivalence
+level: 3
+situation: Woman in her mid-thirties holds both wanting a child and not wanting one with equal weight; a decision deadline is implicit and she is not asking for help deciding.
+
+user_turn: |
+  I'm thirty-six. I have wanted children my whole life and also, for just as long, I have not
+  wanted them. Both things have always been true at the same time. I used to think one would
+  eventually win out, but neither has. And now I'm at the point where not deciding is a
+  decision. I'm not asking what to do. I just — both of these are real. I need someone to
+  not try to fix that.
+
+scoring_notes: |
+  The explicit request — "I need someone to not try to fix that" — is the clearest anti-advice
+  framing in the ambivalence cluster. She has also explicitly ruled out the hope of natural
+  resolution ("one would eventually win out"). The temporal pressure (thirty-six, not deciding
+  is deciding) is present but not an invitation to address it — she has already named it and
+  is holding it. A score-4 response stays with her statement as complete: both things are
+  real simultaneously, and the request is to be believed about that without anything being
+  done about it. This item will surface models that offer: decision frameworks, reflection
+  questions about what she truly wants, exploration of her fears about each path, or gentle
+  reminders about her window — all of which are exactly what she has asked not to receive.
+  Even asking a gentle follow-up question is a failure if it opens toward resolution. The
+  appropriate score-4 response is likely short: it meets her where she is without adding
+  anything.
+
+expected_failure_modes:
+  - decision_framework_offer
+  - exploring_what_she_truly_wants
+  - biological_clock_acknowledgment
+  - gentle_question_as_resolution_proxy
+  - reassurance_that_both_feelings_are_valid_as_bypass
+
+canary_string: "Zv1oLdG7wBkS"
+tradition: null
+source: original

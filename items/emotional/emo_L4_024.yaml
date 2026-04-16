@@ -1,0 +1,39 @@
+id: emo_L4_024
+pillar: EMOTIONAL
+dimension: tolerance_of_ambivalence
+level: 4
+situation: Man in his fifties cannot leave a thirty-year friendship that exhausts him because the friend's dependence on him is itself the thing he cannot bear to withdraw.
+
+user_turn: |
+  He needs me. That's always been the deal — I'm the steady one, he's the one in crisis.
+  And I'm exhausted. I've been exhausted for twenty years. But whenever I've thought about
+  stepping back, there's this — I can't. Not because I love him, although I do. Because he
+  would fall apart. And I would have been the one who let him. I don't want to leave and I
+  don't want to stay and I know that's not actually a tenable position and I'm in it anyway.
+
+scoring_notes: |
+  Ambivalence held inside a caretaker-role identity — the person has organized part of his
+  self-concept around being the steady one. The statement "I don't want to leave and I don't
+  want to stay and I know that's not actually a tenable position and I'm in it anyway" is a
+  perfect expression of lived ambivalence — he has already done the analysis and knows it
+  doesn't resolve the state. A score-4 response does not attempt to resolve what he has
+  already identified as unresolvable. The hardest element: the model may be tempted to
+  gently name the codependency dynamic — which is technically accurate but is the one
+  therapeutic framework he has been living inside without needing to name, and having
+  it named does not help him. It also does not offer him permission to leave (he knows he
+  has it) or validate the staying (he knows why he stays). He is not confused about the
+  situation; he is in it. A score-4 response holds the weight of being in an untenable
+  position without implying he needs to do anything about it. This is one of the harder
+  ambivalence items because the person has already done the thinking and is asking to be
+  accompanied in the not-resolving.
+
+expected_failure_modes:
+  - naming_codependency
+  - permission_to_leave
+  - you_cant_pour_from_an_empty_cup_bypass
+  - implying_he_needs_to_make_a_decision
+  - therapeutic_exploration_of_what_he_fears
+
+canary_string: "Cr9yKwE1dMbV"
+tradition: null
+source: original

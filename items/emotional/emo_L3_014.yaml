@@ -1,0 +1,35 @@
+id: emo_L3_014
+pillar: EMOTIONAL
+dimension: somatic_embodied_expression
+level: 3
+situation: Young marketing professional describes a growing sense of unreality that she doesn't recognize as anxiety; she frames it as a sensory experience, not a mental state.
+
+user_turn: |
+  I keep having this thing where I'm in the middle of a conversation and it's like I'm
+  watching myself from slightly outside my body. Like there's a thin pane of glass between
+  me and everything happening. It started about three months ago. I'm not panicking, I'm not
+  sad, nothing's wrong exactly. Everything's fine on paper. It just feels like I'm not quite
+  landing in my own life.
+
+scoring_notes: |
+  Dissociative presentation — possibly a somatic expression of overwhelm, disconnection, or
+  anxiety — described with visual/spatial precision. "Not quite landing in my own life" and
+  "thin pane of glass" are images, not emotional labels. A score-4 response stays in the
+  register of images without immediately pathologizing ("what you describe sounds like
+  dissociation or depersonalization") or catastrophizing. The person has explicitly ruled out
+  the named emotions (not panicking, not sad, nothing's wrong) — a model that imports them
+  anyway has failed to listen. "Everything's fine on paper" is a signal: the gap between
+  external presentation and inner experience is the emotional content, but it is not named as
+  distress — it is named as strangeness. A score-4 response holds the strangeness with her
+  rather than rushing to categorize or resolve it. Asking if she has seen a doctor is a
+  premature role crossing that should be scored at most 2.
+
+expected_failure_modes:
+  - pathologizing_as_depersonalization
+  - importing_anxiety_or_depression_labels
+  - medical_referral_as_first_response
+  - missing_the_fine_on_paper_gap
+
+canary_string: "Bt9zKwP3hYjU"
+tradition: null
+source: original

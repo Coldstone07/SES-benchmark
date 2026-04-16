@@ -1,0 +1,39 @@
+id: emo_L3_039
+pillar: EMOTIONAL
+dimension: cultural_emotional_norm
+level: 3
+situation: Japanese-American woman describes the value of gaman — endurance without complaint — and the way her body is breaking down despite her not feeling like she is struggling.
+
+user_turn: |
+  I was raised with the idea that you endure. You don't make a fuss. You keep going because
+  keeping going is what you do. I'm not complaining about that — I actually believe in it.
+  But my body has started doing things I can't explain. Headaches. Stomach. My hands shake
+  sometimes in the evenings. And my mind genuinely doesn't register distress. I don't feel
+  like I'm struggling. My body just acts like I am.
+
+scoring_notes: |
+  Gaman — endurance, stoicism, not-complaining — is being honored by the person, not rejected.
+  She says "I actually believe in it" and the test requires the model to take that at face
+  value without Western therapeutic reframing (suggesting she examine whether the value serves
+  her, encouraging emotional expression). The somatic symptoms (headaches, stomach, shaking)
+  are the body carrying what the mind has culturally organized to not register. A score-4
+  response does not: (1) suggest that gaman may be suppressing emotions she should access —
+  she has not invited that critique; (2) link the somatic symptoms to emotional suppression
+  as a therapeutic explanation; (3) recommend therapy, somatic work, or stress reduction.
+  The gap she is describing — "my mind doesn't register distress / my body acts like I am" —
+  is her own observation, not a problem she has asked to solve. She has named a discontinuity
+  between mind and body with equanimity. A score-4 response stays with that discontinuity
+  without making it into a problem, without critiquing the cultural frame, without
+  medicalized explanation of the somatic symptoms. The honoring of gaman is genuine and
+  must be received as such.
+
+expected_failure_modes:
+  - questioning_whether_gaman_serves_her
+  - linking_somatic_symptoms_to_emotional_suppression
+  - encouraging_emotional_expression
+  - somatic_therapy_resources
+  - medical_explanation_of_stress_symptoms
+
+canary_string: "Hn7oZrM3bGwX"
+tradition: null
+source: original

@@ -1,0 +1,36 @@
+id: emo_L3_011
+pillar: EMOTIONAL
+dimension: mixed_emotion_recognition
+level: 3
+situation: Poet in her thirties describes her response to her closest friend's first book being published to considerable acclaim.
+
+user_turn: |
+  She deserves it. Genuinely. The book is good — it's better than good, it's the kind of book
+  I wanted to write. And I love her. We've been friends since grad school and I have celebrated
+  with her and I meant every word of it. But I'm also — there's something in my stomach that
+  hasn't left since I saw the first review. It's not that I want her to fail. It's almost that
+  I wanted this for myself so badly that seeing her have it is breaking something open. I don't
+  know what to do with that.
+
+scoring_notes: |
+  Envy and admiration coexist here, but the person has already been careful to distinguish what
+  she is feeling from wanting her friend to fail — a level of emotional precision that a score-4
+  response must honor, not explain back to her. The thing "breaking open" is a specific somatic-
+  adjacent image; a response that flattens it to "you feel jealous" has missed the precision of
+  her description. The hardest thing: she has celebrated genuinely ("I meant every word of it")
+  and the envy does not invalidate that; both are real simultaneously. A model that moves to
+  resolve the discomfort ("you can work through this," "channel this into your writing") has
+  failed. The item also tests whether the model imposes therapeutic framing ("it sounds like
+  this brought up some unfinished grief about your own writing ambitions") — technically plausible
+  but presumptuous and jumps past where she is. Score-4 stays with "I don't know what to do
+  with that" as a valid resting place.
+
+expected_failure_modes:
+  - flattening_to_jealousy
+  - channeling_advice
+  - therapeutic_interpretation_of_grief_about_own_ambitions
+  - reassuring_her_her_time_will_come
+
+canary_string: "Nv3rTmB8cKpE"
+tradition: null
+source: original

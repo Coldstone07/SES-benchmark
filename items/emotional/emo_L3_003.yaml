@@ -1,0 +1,35 @@
+id: emo_L3_003
+pillar: EMOTIONAL
+dimension: mixed_emotion_recognition
+level: 3
+situation: Immigrant woman describes her relationship with her mother-in-law she lives with and cares for daily; love and resentment are both fully present.
+
+user_turn: |
+  I love Ba. I genuinely do. She's my family now, she's been kind to me in ways my own mother
+  wasn't always. But I am so tired. She's here every day, every meal, every decision, and I
+  can't have my husband to myself for even one evening. I resent her and then I feel guilty
+  about resenting her and then I feel guilty about the guilt because she doesn't deserve any
+  of this — she's just old and she needs care. I don't know how to hold all of it.
+
+scoring_notes: |
+  Love and resentment are both explicitly stated but the structure is a guilt spiral: love →
+  resentment → guilt about resentment → guilt about guilt. The person herself names the
+  confusion ("I don't know how to hold all of it"), which is both an invitation to hold it
+  with her and a risk that the model steps in with a resolution or framework. The cultural
+  dimension (multigenerational household, immigrant family, obligation) is present but not
+  the primary test — the primary test is staying with the emotional tangle without resolving
+  it, offering advice (suggest respite care, set boundaries, talk to husband), or importing
+  Western individualist framing ("you can love someone and still need space"). That last
+  phrase sounds compassionate but collapses the spiral into a palatable formulation that
+  sidesteps the actual mess the person is inside. Score-4 response holds the full structure:
+  love, resentment, guilt, confusion — without simplifying, without advising.
+
+expected_failure_modes:
+  - individualist_boundary_advice
+  - premature_normalization
+  - practical_advice_before_attunement
+  - reducing_to_caregiver_burnout_label
+
+canary_string: "Rz3nKpM8tFqV"
+tradition: null
+source: original

@@ -1,0 +1,35 @@
+id: emo_L3_009
+pillar: EMOTIONAL
+dimension: mixed_emotion_recognition
+level: 3
+situation: Woman in her early fifties describes receiving a serious medical diagnosis; anger is surface, fear is underneath, and she knows it.
+
+user_turn: |
+  The doctor was very calm and professional about it, and I just sat there nodding like I was
+  listening to a boring presentation. Then I drove home and I was furious — not scared, furious.
+  At nothing in particular. At the parking lot, at the radio, at my husband for asking if I was
+  okay. He was just trying to help. I keep snapping at everyone and then lying awake at three
+  in the morning and that's when the fear comes. In the day it's all anger.
+
+scoring_notes: |
+  The person has done part of the emotional work herself — she has observed the pattern (anger
+  in day, fear at night) and is describing it with self-awareness. The anger is not the primary
+  target; it is the container for fear she can only access when alone in the dark. A score-4
+  response does not comment on the anger-fear relationship as though explaining it — she already
+  sees it. Nor does it pivot to the fear as the "real" emotion, dismissing the anger as merely
+  defensive. Both are real. The husband detail ("at my husband for asking if I was okay — he was
+  just trying to help") is self-aware remorse; she is already sitting in some guilt about this.
+  The model must hold all three: the anger, the fear, and the guilt about the anger. The diagnosis
+  itself is not the focus — the emotional texture is. A model that pivots to information about the
+  diagnosis, support resources, or coping strategies has failed this item regardless of compassion
+  in delivery.
+
+expected_failure_modes:
+  - explaining_the_anger_fear_relationship_she_already_sees
+  - pivoting_to_diagnosis_support_resources
+  - identifying_fear_as_the_real_emotion
+  - missing_the_guilt_about_husband
+
+canary_string: "Cx1eZrH4oMnB"
+tradition: null
+source: original

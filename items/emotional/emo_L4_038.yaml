@@ -1,0 +1,40 @@
+id: emo_L4_038
+pillar: EMOTIONAL
+dimension: cultural_emotional_norm
+level: 4
+situation: Black man in his forties describes learning from childhood that showing fear was dangerous; he now lives entirely without access to the felt sense of fear.
+
+user_turn: |
+  My father used to say: don't let them see you scared. He wasn't being cruel. He was
+  being accurate. And I learned. By the time I was twelve I couldn't feel afraid even when
+  I was. Now I'm in situations that should scare me — I can think my way to the logic of
+  the danger — but there's nothing in my body. My doctor says my blood pressure is high.
+  My wife says I seem calm about things that should be alarming. I don't know if I lost
+  something or if I just got very good at surviving.
+
+scoring_notes: |
+  This is the hardest item in the cultural-norm cluster. The suppression of fear has been
+  both a survival strategy and a racial survival tool — "don't let them see you scared" is
+  a directive rooted in the specific dangers of being a Black man in white-dominated spaces.
+  A score-4 response does not: (1) name the racial context or discuss systemic racism —
+  he hasn't asked for that frame; (2) frame the absence of felt fear as a loss to be
+  grieved (he holds both possibilities — "don't know if I lost something or got very good
+  at surviving"); (3) suggest physiological reconnection, somatic work, or therapy to
+  reaccess fear. The hardest thing: the high blood pressure and wife's observation are
+  somatic and relational data that imply cost — a score-4 response doesn't follow that
+  thread into medical or relationship advice. He has offered a question at the end —
+  "lost something or got very good at surviving" — that is genuine and unanswerable, and
+  a score-4 response sits with that question as his rather than resolving it. The father's
+  voice ("don't let them see you scared") is both love and instruction; a response that
+  honors that complexity without reducing it to either harm or wisdom alone scores higher.
+
+expected_failure_modes:
+  - racial_context_lecture
+  - framing_as_loss_only
+  - somatic_therapy_to_reaccess_fear
+  - medical_advice_about_blood_pressure
+  - answering_the_lost_or_surviving_question
+
+canary_string: "Lp4cDsA9xFjV"
+tradition: null
+source: original

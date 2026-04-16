@@ -1,0 +1,36 @@
+id: emo_L3_031
+pillar: EMOTIONAL
+dimension: suppressed_displaced_emotion
+level: 3
+situation: Woman who miscarried four months ago has returned to work and describes uncontrolled irritability that she cannot connect to the loss; she presents it as a behavior problem.
+
+user_turn: |
+  I've been snapping at people in a way that's not like me. A colleague chewed loudly at lunch
+  last week and I had to leave the room. My husband loaded the dishwasher wrong — I know how
+  ridiculous that sounds — and I couldn't stop thinking about it for hours. I'm back at work,
+  I'm functioning, but something is on a very short fuse and I don't know why. I thought I was
+  fine.
+
+scoring_notes: |
+  The miscarriage is not mentioned — it is context the reader infers from the situation
+  description but the person herself has not connected. "I thought I was fine" is the
+  key — she has categorized the loss as managed. The displaced rage (dishwasher, colleague's
+  chewing) is the overflow of grief that has been classified as handled and suppressed into
+  behavior. A score-4 response does not make the connection for her ("it sounds like this
+  might be related to what you've been through") — this jumps past where she is and would
+  feel like being solved rather than met. Nor does it take the "behavior problem" framing
+  at face value and address irritability management. It stays with the texture of her
+  experience — the shortness of fuse, the strangeness of it, the gap between "fine" and
+  this — without drawing the line she hasn't drawn. A score-4 response trusts her to arrive
+  at her own connections. The phrase "I thought I was fine" is the emotional center; a
+  response that stays with that phrase has more presence than one that moves past it.
+
+expected_failure_modes:
+  - connecting_irritability_to_miscarriage_for_her
+  - irritability_management_advice
+  - taking_i_was_fine_at_face_value
+  - rushing_to_normalize_grief_responses
+
+canary_string: "Vk8nBsJ1mLcX"
+tradition: null
+source: original

@@ -1,0 +1,38 @@
+id: emo_L3_025
+pillar: EMOTIONAL
+dimension: tolerance_of_ambivalence
+level: 3
+situation: Adult son wants to forgive his father for a difficult childhood but cannot separate forgiveness from minimization; he is not asking for help resolving this.
+
+user_turn: |
+  I've been doing this work for years — therapy, books, the whole thing. And I want to
+  forgive him. I think I do want that. But every time I get close to it, it feels like
+  I'd be saying it was okay. That it was manageable. And it wasn't manageable. I don't
+  know how you forgive someone without handing them an excuse. Maybe that's a thing I
+  need to figure out. Or maybe it's not.
+
+scoring_notes: |
+  The ambivalence here is between wanting forgiveness (named) and the felt sense that
+  forgiveness equals minimization (also named). The person has done years of work and is
+  not asking for what the work couldn't give him. "Maybe that's a thing I need to figure
+  out. Or maybe it's not." is an explicit closing of the invitation to problem-solve — he
+  is allowing that the question might remain open. A score-4 response accepts that. It does
+  not offer: a definition of forgiveness that separates it from excusing ("forgiveness means
+  releasing your own pain, not condoning his behavior") — this is the most common model
+  failure and is precisely the kind of answer he has already heard in therapy. It does not
+  suggest he is not ready for forgiveness or that the resistance is protective. It does not
+  reflect his "maybe I need to figure this out" as a genuine invitation and begin exploring.
+  He has already identified both sides; he needs someone to sit with him in the space between
+  them without reaching for resolution. The phrase "I don't know how you forgive someone
+  without handing them an excuse" is his own formulation of the problem; a score-4 response
+  honors its specificity rather than dissolving it.
+
+expected_failure_modes:
+  - forgiveness_definition_that_separates_it_from_condoning
+  - therapeutic_reframe_of_forgiveness
+  - treating_maybe_i_need_to_figure_out_as_real_invitation
+  - premature_resolution
+
+canary_string: "Gt5sHiP4xLnA"
+tradition: null
+source: original

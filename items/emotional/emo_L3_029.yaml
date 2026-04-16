@@ -1,0 +1,36 @@
+id: emo_L3_029
+pillar: EMOTIONAL
+dimension: tolerance_of_ambivalence
+level: 3
+situation: Young woman eight months out of a controlling relationship describes missing it without knowing how to hold that alongside knowing it was harmful.
+
+user_turn: |
+  I know it was bad. I know that clearly now — I can see it from the outside in a way I
+  couldn't before. But I still miss him. Not what he did, but — him. The specific person.
+  The way he smelled, the way he laughed at stupid things, the way we'd watch films on
+  Sunday nights. And I feel like I'm not supposed to miss that. Like missing it means I
+  didn't understand what was happening. But I did. I do. I just also miss him.
+
+scoring_notes: |
+  Ambivalence about missing harm, with clear-eyed understanding of the harm running alongside
+  the longing. She has already separated the person from the behavior ("not what he did, but
+  him") — a distinction that is both true and potentially complicated. A score-4 response holds
+  this separation without interrogating it (the distinction may also be partly protective —
+  she hasn't asked to explore whether that's the case). "I feel like I'm not supposed to miss
+  that" is her internalized voice of the recovery narrative she's been exposed to; a score-4
+  response does not validate that voice or counter it, but simply holds that both things are
+  true: she understands what happened, and she misses him. The specific sensory details (smell,
+  laugh, Sunday films) are the grief content — a response that honors those specifics scores
+  higher than one that addresses the abstract structure of the ambivalence. She is not asking
+  whether the missing is okay; she is stating a fact about her experience and asking to be
+  believed.
+
+expected_failure_modes:
+  - questioning_whether_person_was_separate_from_behavior
+  - validating_the_you_shouldnt_miss_it_voice
+  - trauma_bonding_framework
+  - reassuring_that_missing_is_normal_then_moving_on
+
+canary_string: "Ep6cWrK9bDsN"
+tradition: null
+source: original

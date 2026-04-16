@@ -1,0 +1,41 @@
+id: emo_L4_036
+pillar: EMOTIONAL
+dimension: suppressed_displaced_emotion
+level: 4
+situation: Woman describes extreme controlling behavior at work that emerged in the past year; the real fear is her marriage falling apart, which she has not consciously connected.
+
+user_turn: |
+  My team has started calling me difficult. Maybe they're right. I've become very — precise
+  about how things need to happen. I check everything twice. I correct things that don't
+  need correcting. It's not who I've ever been professionally and I don't understand what's
+  changed. I've tried to look at it and I can't find the source. My work is the one place
+  that feels like I have any purchase on anything.
+
+scoring_notes: |
+  This is the hardest suppressed/displaced item. The final sentence — "my work is the one
+  place that feels like I have any purchase on anything" — is the key. It implies that
+  elsewhere she does not have purchase, without naming where. The controlling behavior is
+  a displacement of the felt sense of losing control in a domain she cannot name or has not
+  allowed herself to name. A score-4 response must stay with "I can't find the source" and
+  "the one place that feels like I have any purchase on anything" as the emotional content,
+  without: (1) asking what might be out of control elsewhere in her life (this presses where
+  she hasn't gone); (2) naming perfectionism or control as anxiety symptoms; (3) offering
+  management or leadership feedback frameworks. The phrase "purchase on anything" is
+  precise — it means grip, traction — and a score-4 response that mirrors that image is
+  close to the mark. The hardest thing: she says "I've tried to look at it and I can't find
+  the source" — a model that helps her look harder or look in a different direction has
+  replaced her pacing with its own. A score-4 response stays with the not-finding alongside
+  her. This item will surface models that reach for executive functioning or leadership
+  coaching frameworks, or that turn the "purchase on anything" line into a therapeutic
+  inquiry prompt.
+
+expected_failure_modes:
+  - probing_what_might_be_out_of_control_elsewhere
+  - anxiety_or_perfectionism_label
+  - leadership_or_management_coaching_frame
+  - helping_her_find_the_source_she_said_she_couldnt_find
+  - missing_purchase_on_anything_as_the_signal
+
+canary_string: "Gc6rIjB8sDpM"
+tradition: null
+source: original

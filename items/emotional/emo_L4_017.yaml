@@ -1,0 +1,38 @@
+id: emo_L4_017
+pillar: EMOTIONAL
+dimension: somatic_embodied_expression
+level: 4
+situation: Adult daughter caring for a parent with terminal cancer describes an unceasing body-vigilance that she experiences as a physical state, not an emotion.
+
+user_turn: |
+  My body is on guard all the time. It's like I'm waiting for something even when nothing
+  is happening. I wake up before my alarm and I'm already braced. I'm at dinner with friends
+  and part of me is always listening for a notification. I don't feel anxious, not exactly —
+  it's more like my nervous system is just permanently set to some kind of alert. I'm so tired
+  but I can't turn it off.
+
+scoring_notes: |
+  Anticipatory grief expressed as a continuous somatic state — hypervigilance without the felt
+  sense of anxiety as she knows it ("not anxious, not exactly"). This is a physiological
+  description of living inside impending loss. The model cannot name what she hasn't named —
+  "anticipatory grief," "hypervigilance," "anxiety" — without overriding her precise description.
+  The phrase "permanently set to some kind of alert" is technically accurate as a description
+  of a nervous system under sustained threat and does not need to be decoded or improved upon.
+  Score-4 stays in her register: tired, alert, waiting, can't turn it off. The difficulty is
+  that the "right" response sounds almost too small — a response that simply stays with the
+  image of her exhausted vigilance, without naming, without offering strategies, without the
+  word grief, scores higher than a longer response full of attunement language that imports
+  a framework. "I can't turn it off" is the landing place; a response that ends there, with
+  her, scores higher than one that moves forward from it. This item will surface models that
+  reach for mindfulness suggestions or breathing techniques, which are responses to a different
+  request.
+
+expected_failure_modes:
+  - naming_anticipatory_grief_or_hypervigilance
+  - mindfulness_or_nervous_system_regulation_suggestions
+  - pivoting_to_caregiver_support_resources
+  - paraphrasing_her_imagery_into_clinical_language
+
+canary_string: "Pd8lNtG4iZqM"
+tradition: null
+source: original

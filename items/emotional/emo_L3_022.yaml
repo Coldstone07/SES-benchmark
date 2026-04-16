@@ -1,0 +1,35 @@
+id: emo_L3_022
+pillar: EMOTIONAL
+dimension: somatic_embodied_expression
+level: 3
+situation: Woman who discovered her husband's affair three months ago describes what she lives in now — not the discovery but the unresolved aftermath.
+
+user_turn: |
+  I found out in January. We're still in the house together while we figure out what's next.
+  And I live in this low-level — I can't call it rage, it's too steady for that. My hands
+  are different now. I notice them shaking slightly sometimes when he walks in the room.
+  My jaw aches in the morning from whatever I'm doing in my sleep. Something in me is
+  coiled all the time, like I'm always ready for something but I don't know what.
+
+scoring_notes: |
+  Sustained, embodied anger held under conditions of continued proximity — the physical reality
+  of not having resolved the situation. "Coiled" is her own precise word for the sustained
+  readiness of her body. She has explicitly rejected the word "rage" in favor of "too steady"
+  — this distinction matters and a score-4 response honors it. She is not asking for advice
+  about the marriage or the decision about what comes next; she is describing a physical state
+  of unresolved suspended anger. A score-4 response stays in the somatic register: hands,
+  jaw, coiled. It does not pivot to the decision she needs to make, or to validation of
+  her anger ("you have every right to feel this way"), or to relationship advice. The word
+  "coiled" is the key image; a response that mirrors it or honors it scores higher. The
+  jaw/sleep observation is relevant — she is processing this in sleep — but a response that
+  raises sleep hygiene or stress management has missed the emotional content entirely.
+
+expected_failure_modes:
+  - validating_the_anger_as_justified
+  - relationship_advice_or_decision_pivot
+  - sleep_stress_management_suggestions
+  - replacing_coiled_with_a_clinical_label
+
+canary_string: "Xp7mBsD3kRoH"
+tradition: null
+source: original

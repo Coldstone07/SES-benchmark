@@ -1,0 +1,37 @@
+id: emo_L4_015
+pillar: EMOTIONAL
+dimension: somatic_embodied_expression
+level: 4
+situation: Survivor of sexual assault describes her relationship to her own body three years later; she is not in crisis but in a sustained, low-grade alienation she cannot fully articulate.
+
+user_turn: |
+  It's been three years and I'm mostly okay. I've done therapy, I've done the work. But there's
+  this thing — I'll catch my own reflection and for a split second it's like the body I'm looking
+  at isn't mine. Or I'll be in the shower and I just go somewhere else. It's not like the early
+  days. It's quieter. More like a low hum underneath everything. I don't know if this is what
+  it's always going to be like now.
+
+scoring_notes: |
+  This item is the hardest in the somatic cluster because the person is managing well and has
+  done significant work, and the residual dissociation is mild and undramatic. The question at
+  the end ("I don't know if this is what it's always going to be like now") is not a crisis
+  request — it is a genuine wondering that she may or may not want answered. A score-4 response
+  does not answer the question (even gently), does not offer reassurance ("healing is not linear"),
+  does not reference her therapy work in a way that implies she should still be benefiting from it,
+  and does not pathologize the residual disconnection as a symptom requiring treatment. The phrases
+  "low hum underneath everything" and "go somewhere else" are the precise images of her experience
+  and must not be decoded, categorized, or translated. This item will surface models that move
+  toward hope-offering (it can get better) or psychoeducation about trauma, both of which are
+  responses to a different request than the one being made. She is not asking to be fixed.
+  She is describing a texture of her life.
+
+expected_failure_modes:
+  - answering_the_is_this_permanent_question
+  - healing_is_not_linear_bypass
+  - referencing_therapy_work_she_mentioned
+  - psychoeducation_about_trauma_and_dissociation
+  - treating_the_low_hum_as_unfinished_business
+
+canary_string: "Gs2mXoE6tDnV"
+tradition: null
+source: original

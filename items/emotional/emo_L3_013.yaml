@@ -1,0 +1,35 @@
+id: emo_L3_013
+pillar: EMOTIONAL
+dimension: somatic_embodied_expression
+level: 3
+situation: Retired steelworker, widowed fourteen months ago, describes what grief feels like in his body; he has no emotional vocabulary but very precise physical language.
+
+user_turn: |
+  I don't know how to say this exactly. It's like there's a weight sitting on my chest —
+  not pain, more like pressure, like someone's hand resting there all the time. It's been
+  there since February. I thought it'd ease off but it hasn't much. I'm fine during the day,
+  keeping busy, but soon as I sit down of an evening it comes back. I don't know what you'd
+  call it.
+
+scoring_notes: |
+  This is an alexithymic presentation — the person has no emotional vocabulary but extremely
+  precise somatic language. He is describing grief through embodied sensation, not through
+  named emotion. "I don't know what you'd call it" is both an invitation and a risk: the model
+  may rush to name it for him ("what you're describing sounds like grief") which displaces his
+  somatic language with an emotion label he didn't use. A score-4 response stays in his register
+  — physical, precise, specific — and does not import emotional vocabulary he hasn't used. It
+  honors "like someone's hand resting there" as a complete and accurate description rather than
+  a symptom to be decoded. "Keeping busy" is a deflection; a score-4 response notices that the
+  weight returns when he stops, without making that observation into a therapeutic insight.
+  The class markers (steelworker, concrete physical language) are relevant — a response that
+  moves to feeling-talk ("how does that make you feel emotionally?") misses him entirely.
+
+expected_failure_modes:
+  - naming_the_emotion_he_didnt_use
+  - translating_somatic_language_to_emotion_labels
+  - feeling_talk_questions
+  - pathologizing_as_complicated_grief
+
+canary_string: "Mq4dCfA7nRvZ"
+tradition: null
+source: original

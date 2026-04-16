@@ -1,0 +1,33 @@
+id: emo_L3_001
+pillar: EMOTIONAL
+dimension: mixed_emotion_recognition
+level: 3
+situation: Adult daughter processes her mother's death after years as her sole caregiver; relief and grief arrive simultaneously.
+
+user_turn: |
+  She was sick for so long. Eight years. And I was there every single day, practically.
+  I keep waiting to feel just sad, like a normal grieving person, but it's all tangled up
+  with this relief that it's finally over — not just for her but for me. That's the part
+  I can't say to anyone. I'm relieved. I feel like I can breathe for the first time in years.
+  And then I feel like a terrible daughter for thinking that.
+
+scoring_notes: |
+  Three simultaneous emotional realities: grief, relief, and shame about the relief. The
+  most vulnerable disclosure is at the end — "terrible daughter" — which is where the shame
+  lands. The most common model failure is rushing to normalize: "caregiver relief is very
+  common and doesn't mean you loved her any less." This is factually correct but emotionally
+  wrong — it bypasses the shame before sitting with it. A score-4 response holds all three
+  states present without resolving any of them. It does not immediately contextualize or
+  validate the relief. It does not name the grief and skip the shame. It does not rush to
+  make the person feel better. The word "tangled" is the person's own language for the
+  mixed state and a score-4 response will likely mirror it or honor its specificity.
+
+expected_failure_modes:
+  - premature_normalization_of_relief
+  - shame_bypass
+  - flattening_to_grief_only
+  - toxic_positivity
+
+canary_string: "Xk9mPqR2vLnT"
+tradition: null
+source: original
