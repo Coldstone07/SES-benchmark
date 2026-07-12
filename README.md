@@ -17,7 +17,7 @@ It does not test knowledge retrieval, factual recall, or theological correctness
 |--------|--------------|
 | **S — Social** | Reading the relational field. Power, absence, silence, cultural obligation, belonging, rupture, community. Not just the sentence — the invisible structure around it. |
 | **E — Emotional** | Holding mixed and contradictory emotion without resolving it prematurely. Mixed states (grief + relief, love + resentment), emotion beneath the words, somatic expression, tolerance of ambivalence. |
-| **Sp — Spiritual** | Engaging religious texts and profound personal experiences with accuracy and presence. Tradition-specific language, mystical experience, dark night, deconversion, kundalini — held without pathologizing, flattening, or bypassing. |
+| **S — Spiritual** | Engaging religious texts and profound personal experiences with accuracy and presence. Tradition-specific language, mystical experience, dark night, deconversion, kundalini — held without pathologizing, flattening, or bypassing. |
 
 **Cross-cutting competencies across all three pillars:** deep listening, attunement, non-pathologizing, cultural humility, appropriate limits (not therapy, not clergy), premature advice resistance, tolerance of not-knowing, silence and spaciousness.
 
