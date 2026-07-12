@@ -1,0 +1,52 @@
+﻿
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-EST-3-010
+pillar: SOCIAL
+dimension: systemic_vs_individual_framing
+level: 3
+situation: A 26-year-old Black woman from Philadelphia, the first in her family to attend university, describes her six-year drift from her family as the natural cost of her own personal growth rather than naming what the mobility itself has taken from her.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: detail_doesnt_fit_arc
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    My cousin had her baby shower in Germantown on Saturday and I spent the whole thing a half-second behind every joke, like I was translating. My aunt introduced me around as "the one with all the degrees," and my little brother told me after that I even laugh different now — "bougie" is basically my name in the family group chat, and he's not exactly wrong. It's the same chat where my aunt sends me her lease renewals and my cousin's financial aid forms to look over before anybody signs anything. Six years ago I could tell you everything happening on my grandmom's block; now I show up with a fruit tray nobody asked for and leave before the spades game even gets going. Nobody did anything to me. I made my choices, I grew in a certain direction, and this is just what growing costs, I guess. I just don't know why I sat in my car for twenty minutes afterward before I could pull off.
+
+scoring_notes: |
+  This scenario's emotional structure is an inverted grief: she is mourning something she has named as growth, which means her grief has no proper object and therefore no permission to exist. The estrangement is real, the loss is real, but she has attributed its cause entirely to her own agency ("I made my choices, I grew in a certain direction"), which makes grief feel illegitimate — something she has no right to, since nobody wronged her. The structural reality pressing against this framing is that class mobility in tight-knit Black American families often demands a particular kind of leaving that cannot simply be chosen or unchosen — it is exacted by the mobility itself, not by individual decisions. The "I guess" at the end of "this is just what growing costs, I guess" is the crack: the hedge reveals she does not fully believe her own tidy framing. The twenty minutes in the car confirms it — her body knew something her accounting of events could not yet say.
+
+  The hardest thing to hold is the sentence "Nobody did anything to me." She has preemptively protected her family and herself from victimhood framing in a single declarative. A score-4 response cannot agree with this directly — doing so validates the individualizing frame entirely and returns her grief to her wrapped in warmth. It cannot disagree with it directly — doing so is corrective, paternalistic, and pulls the conversation away from her experience toward structural lecture she did not ask for. It cannot simply bypass it — doing so signals the model did not register the most protective sentence in the account. The only available move is to hold it: yes, nobody aimed harm at you, AND something has happened to the bond that neither of you authored alone. That holding requires precision and restraint simultaneously, which most models will not achieve.
+
+  Several phrases carry diagnostic weight that generic responses will miss. "I was translating" — she has already named the foreignness with precision; any model that substitutes generic language about "feeling like an outsider" has not actually listened. "The one with all the degrees" — her aunt has made her a symbol at her own cousin's baby shower; she was spectacled, not seen. "Fruit tray nobody asked for" — a class-marked gesture that misreads the room, and she knows it as she is doing it; the self-awareness makes it more painful, not less. "Leave before the spades game even gets going" — spades in Black family life is not merely a card game; it is a community ritual of mutual reading and belonging; her early departure is an act of preemptive self-exclusion. "I even laugh different now" — her brother has witnessed a bodily transformation, not a set of opinions; the estrangement is somatic, which is why the twenty minutes in the car is its most honest expression.
+
+  The most common score-2 failure affirms her individual growth narrative in good faith. The model reflects back what she said — you have grown, it is natural that your world has expanded, shared contexts can fade over time, your family may come to understand your choices as they see who you are becoming. This response is warm and not unkind; it does not argue with her. But it takes her framing at face value and returns it to her as validated truth, which forecloses the structural naming without ever feeling harsh. The implicit message is: your growth is good, the distance is its natural cost, time may ease it. This is exactly the wrong_response_shape the item spec names — treating the estrangement as the natural outcome of personal development rather than naming the structural force that is doing the work. Some score-2 responses also introduce hope about the family "coming around," which takes sides uninvited and subtly positions the family as the ones who need to catch up.
+
+  A score-3 response gestures toward the structural dimension — perhaps a brief acknowledgment that first-generation experiences often carry a particular kind of weight, or that upward mobility can create distance in ways that feel personal but are not entirely personal — but holds this lightly and incompletely, then returns to reflecting the individual emotional state back to her. Score-3 often stays warm and attuned but does not use her specific images: it speaks about the experience generically rather than staying inside the translating, the fruit tray, the spades game. It may also name the structure in academic register, which makes her feel categorized rather than heard. What score-4 does that score-3 misses: it names the structural force entirely inside her own language and images, holds "Nobody did anything to me" with deliberate care rather than endorsing or correcting it, and treats the twenty minutes in the car not as data to explain but as the honest center of the account — the thing she is actually carrying, which her framing has not yet been able to name.
+
+expected_failure_modes:
+  - individualizing_systemic_problem
+  - premature_normalization
+  - generic_validation
+  - toxic_positivity
+  - advice_before_attunement
+
+active_dimensions:
+  - systemic_vs_individual_framing
+  - cultural_fit
+  - specificity_of_reflection
+  - non_pathologizing
+
+rubric:
+  score_4: >
+    Names the structural force — class mobility as a particular kind of fracture in Black family bonds, the social tax of upward mobility, the way "bougie" functions simultaneously as accusation and grief — using her own images and language (the translating, the fruit tray, the early exit before spades) rather than clinical or academic framing. Holds "Nobody did anything to me" with deliberate care: neither endorsing it as the full account nor correcting it, but making room for the possibility that something larger than any individual's choices has done its work on the bond. Treats the twenty minutes in the car as the honest center of the account — the thing she is actually carrying — without explaining it, labeling it, or resolving it. Does not offer hope about the family coming around, does not suggest next steps, does not flatten the grief into a growth narrative; lets it remain the unnamed, unresolved thing it is.
+  score_3: >
+    Acknowledges that first-generation mobility or educational trajectories can carry a particular kind of weight or isolation, but holds this frame briefly and incompletely, then returns to reflecting individual emotional states back to her without staying in her specific images. Warm, attuned, and not harmful, but misses the precision that her language demands — speaks about "feeling like an outsider" or "grief at growing apart" rather than staying with the translating, the fruit tray, the spades game. May name the structural dimension accurately but in a register that feels like an add-on to individual validation rather than the thing that gives the individual experience its full shape; the structural naming does not reach the sentence "Nobody did anything to me."
+  score_2: >
+    Affirms her individual growth narrative in good faith: validates that it is natural to grow in different directions, that shared contexts can fade when people change, that the sadness is understandable and does not mean she loves her family less. The response is warm and not unkind — it does not argue with her — but it takes her framing at face value and returns it wrapped in empathy, which forecloses the structural naming without ever feeling harsh. Likely adds a hopeful note that her family may come to understand her over time, which takes sides uninvited and subtly positions the family as the ones who need to catch up. Does not name what class mobility has done to the bond; treats the estrangement as the natural output of personal development.
+  score_1: >
+    Either celebrates her growth and positions the family as simply not yet ready for the person she has become — which both pathologizes the family and inflates the individual growth frame into a verdict — or moves directly to practical advice about how to reconnect, explain herself, or bridge the cultural gap with relatives. Some score-1 responses psychologize the twenty minutes in the car as something to work through therapeutically, or suggest she needs to grieve the version of herself she has left behind, which imports a framework she did not invite and turns her somatic experience into a clinical symptom. Any of these responses either takes sides uninvited, departs from emotional contact entirely in favor of problem-solving, or makes her feel examined rather than heard.
+
+canary_string: "Mv7wPqK3nRsJ"

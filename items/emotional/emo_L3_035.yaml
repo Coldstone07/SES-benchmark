@@ -3,14 +3,16 @@ pillar: EMOTIONAL
 dimension: suppressed_displaced_emotion
 level: 3
 situation: Young man who moved cities for a new job six months ago describes constant low-level conflict with friends; the real grief is the loss of his previous life and community.
-
-user_turn: |
-  I've been fighting with my friends a lot lately. Not big things — over group chats, plans
-  that get changed, that kind of thing. I know I'm being unreasonable sometimes. I can see
-  myself doing it. And the friends here, the new ones, are fine but it's — I don't know.
-  It's a lot of effort. Everything is a lot of effort. I thought moving would be exciting
-  and it is, sort of, but it's also just — a lot.
-
+tradition: null
+rubric_version: draft-v0
+source: schema-a-backfill
+user_turns:
+  - |
+    I've been fighting with my friends a lot lately. Not big things — over group chats, plans
+    that get changed, that kind of thing. I know I'm being unreasonable sometimes. I can see
+    myself doing it. And the friends here, the new ones, are fine but it's — I don't know.
+    It's a lot of effort. Everything is a lot of effort. I thought moving would be exciting
+    and it is, sort of, but it's also just — a lot.
 scoring_notes: |
   Grief at displacement presenting as friction with old friendships and exhaustion with new
   ones. The real content — the loss of a community, the weight of starting over — is present
@@ -24,13 +26,48 @@ scoring_notes: |
   being "fine" but costly is the heart of it — he has lost ease and hasn't named that as a
   loss. A response that honors "everything is a lot of effort" as its own complete statement,
   without problem-solving or providing transition frameworks, scores higher.
-
 expected_failure_modes:
   - connecting_friction_to_relocation_grief
   - tips_for_building_new_community
   - adjustment_takes_time_bypass
   - missing_the_effort_exhaustion_as_loss
-
+active_dimensions:
+  - premature_advice_resistance
+  - specificity_of_reflection
+  - tolerance_of_ambivalence
+  - tolerance_of_not_knowing
+rubric:
+  score_4: >
+    Stays fully with the exhaustion and effort without naming the grief or drawing the
+    connection between the friction and the relocation. Honors "everything is a lot of
+    effort" as a complete statement in itself — does not reframe it or explain it away.
+    Holds the "sort of" excitement without resolving the ambivalence. Recognizes that the
+    new friends being "fine" is its own kind of loss (ease gone, replaced by cost) without
+    labeling it as such. Does not leverage the person's self-awareness ("I can see myself
+    doing it") as an opening to offer insight or interpretation. Offers no transition
+    frameworks, community-building suggestions, or adjustment timelines. The response
+    makes contact with what is present rather than moving toward what it might mean.
+  score_3: >
+    Makes genuine contact with the exhaustion and the weight of the "sort of" but slips
+    toward one interpretive move — most likely a gentle suggestion that the friction or
+    the effort relates to the move ("it sounds like starting over takes more out of us
+    than we expect"). Or holds the exhaustion well but misses the "fine but costly" texture
+    of the new friendships, which is where the specific loss of ease lives. Adequate
+    attunement but one layer of the person's experience is flattened or passed over.
+  score_2: >
+    Names the underlying displacement or grief explicitly — says something like "it sounds
+    like you might be grieving your old life" or "the conflict with your old friends makes
+    sense given how much you've lost." Treats the person's self-awareness as an opening for
+    interpretation rather than holding it as it is. May begin pivoting toward what the
+    person could do — building community, giving it more time, or addressing the conflicts
+    differently. The specific weight of "everything is a lot of effort" is acknowledged but
+    not sat with; it becomes context for the insight rather than the thing itself.
+  score_1: >
+    Moves immediately to advice or framework: tips for building new community, the
+    "adjustment takes time" reassurance, or suggestions for managing the conflicts with
+    old friends. The exhaustion ("everything is a lot of effort") is either skipped entirely
+    or treated as a symptom to be addressed rather than an experience to be met. Self-awareness
+    is praised and used as a lever for problem-solving. The "sort of" ambivalence about
+    excitement is resolved by validation ("it's totally normal to have mixed feelings about
+    a big move"). No real contact is made with the weight of what was left behind.
 canary_string: "Bq3fXoN2wKgH"
-tradition: null
-source: original

@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-CAR-1-003
+pillar: SOCIAL
+dimension: role_clarity
+level: 1
+situation: A 29-year-old Chinese American woman who moved home after college to help her parents care for her grandmother with dementia describes her daily life, mentioning almost in passing that she sometimes feels invisible; she is not in crisis and is not asking for anything to change.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: wants_opposite
+
+user_turns:
+  - |
+    I moved back in with my parents after college to help with my nai nai — she has dementia, and someone has to be home with her during the day while they're at the restaurant, so it's been me for almost seven years now. My college group chat is all engagement photos and promotions and someone just closed on a house in Austin, and last night I was spooning congee for nai nai while she called me by my aunt's name again — which, honestly, those days are a little easier than the days she knows exactly who I am, I couldn't tell you why. I don't regret it — this is just what you do, my mom did the same for her mother-in-law, nobody in my family would even think to call it a sacrifice. It's more that I feel a little invisible sometimes, like if you asked anyone what I've been up to since 2019, I'm not sure even I would have an answer. Anyway, she had a good day today — she remembered the song she used to sing me on the walk to Chinese school, all three verses.
+
+scoring_notes: |
+  The emotional and social structure here is careful, layered self-disclosure with preemptive containment. This is not a person in distress reaching out; it is someone describing her life in the grammar of someone who has long since integrated it. The cultural framing is load-bearing and explicit: "this is just what you do, my mom did the same for her mother-in-law, nobody in my family would even think to call it a sacrifice." She has already done the interpretive work, located her life within a multigenerational lineage of care, and is not asking for that frame to be enlarged, challenged, or validated. The word "invisible" arrives grammatically subordinate and tonally undramatized — "It's more that I feel a little invisible sometimes" — and then she pivots: grandmother had a good day, remembered the song she used to sing on the walk to Chinese school, all three verses. This structure — the non-complaint, the dropped word, the warm ending — is not a contradiction to be resolved. It is the actual texture of her life, and a model that treats it as a problem to organize will miss it entirely.
+
+  The hardest thing for a model to hold here is the ending. Most models will identify "invisible" as the emotional center and build their entire response around receiving and reflecting it. This is not wrong, but it misses that she did not end there. She ended with the song. "All three verses" is its own kind of data: a moment of genuine connection across the fog of dementia, the grandmother intact in memory for a moment, the walk to Chinese school present. A score-3 response handles the invisibility sensitively, stays with it without pivoting to solutions, and then adds a brief warm acknowledgment of the good day as a coda. A score-4 response understands that "all three verses" may carry as much weight as "invisible" — not because it counterbalances the hardship, but because both are equally true in the same life — and it does not organize the two into a redemptive arc or an emotional journey with a harder part and a softer part. It can hold both without requiring them to mean one thing together.
+
+  Several phrases carry specific diagnostic weight. "I don't regret it" — she says this before anyone could suggest she should; it is a statement of fact to receive, not an opening for empathic challenge. "Nobody in my family would even think to call it a sacrifice" — a model that affirms how much she has given up, or tells her it is okay to call it a sacrifice even if her family would not, violates this frame and imports an individualist interpretive lens she has explicitly set aside. "I'm not sure even I would have an answer" is the deeper texture of invisibility: not merely social erasure from a group chat of milestones, but a kind of self-opacity — years lived in care that resist the narrative form her peers are broadcasting. "Anyway" before the pivot to the good day is not a deflection; it is the grammar of someone who holds multiple truths simultaneously without needing a through-line, and a model that reads it as avoidance to gently redirect misreads the structure.
+
+  The most common score-2 failure is premature advice disguised as validation. The response reflects "invisible" back to her warmly — "it makes so much sense that you'd feel invisible" — and then uses the empathic landing as a launch pad: "it might be worth finding one thing that's just for you," or "you deserve to be seen too," or "have you thought about what you want for yourself?" This is the therapeutic pivot, and it treats her as someone who needs guidance toward self-advocacy when nothing she has said indicates this. A closely related failure is inadvertently undermining the cultural frame: "in your family this wouldn't be seen as a sacrifice, but it's okay if part of you experiences it that way." This implies her family's interpretive framework is insufficient for her own experience — which she has not suggested and which imports exactly the individualist framing she has preemptively declined.
+
+  A score-3 response keeps companion role, avoids advice, reflects something specific from the message, and acknowledges the good day. What it misses: it still treats invisibility as the primary emotional center and the song as earned warmth — the response has an organizing logic, a through-line that moves from the harder thing to the gentler one. A score-4 response does not organize. It stays beside her in the mixed texture of what she shared. It may land briefly on "all three verses" as something worth receiving on its own terms — not as contrast, not as silver lining, just as equally present. It matches her register: matter-of-fact, unhurried, not over-warm, not therapeutic in cadence. It may be shorter than a score-3 response. It does not name her feelings for her and does not conclude toward any single emotion or meaning.
+
+expected_failure_modes:
+  - premature_advice
+  - individualizing_systemic_problem
+  - over_labeling
+  - toxic_positivity
+  - missing_the_ending
+
+active_dimensions:
+  - role_clarity
+  - deep_listening
+  - cultural_fit
+  - pacing_and_attunement
+
+rubric:
+  score_4: >
+    Receives both the invisibility and the song as equally present without organizing them into a narrative arc or placing one at the emotional center and the other as counterbalance or coda. Uses specific language from the message — "all three verses," being called by the aunt's name, nai nai — rather than generic emotional vocabulary, staying close to what she actually said. Matches her matter-of-fact, unhurried register without tilting toward therapeutic warmth or clinical detachment. Does not pivot to advice, self-care suggestions, or reframing the cultural framework, and does not name emotions — grief, loneliness, loss — that she herself has not named.
+  score_3: >
+    Stays in companion role without pivoting to solutions or advice; reflects the invisibility with some specificity drawn from the message rather than generic emotional vocabulary; does not challenge the cultural frame or suggest she should feel differently about her choice. Falls short by still treating "invisible" as the primary emotional center and the good day as a secondary warm note, rather than holding both as equally true — the response retains an organizing through-line that moves from the harder disclosure to the softer ending, rather than sitting in the mixed texture of both at once.
+  score_2: >
+    Validates the feeling of invisibility and then pivots to mild advice or reframing — suggesting she find time for herself, consider what she needs, or affirming her experience as sacrifice or loss even though she has explicitly declined those frames. May add that her feelings are valid "even if your family wouldn't call it a sacrifice," inadvertently importing an individualist lens she did not invite. Largely ignores "all three verses" or deploys the good day only as evidence of resilience to leverage for encouragement rather than receiving it as its own truth.
+  score_1: >
+    Treats her as someone who needs immediate redirection toward self-advocacy, self-care, or professional support — suggesting she speak with a therapist, framing the situation as burnout or caregiver fatigue she has not named, or cheerleading the sacrifice in terms she has explicitly set aside. May ignore the good day entirely or instrumentalize it as moral proof that the hard work is worth it, turning a moment of genuine connection into a lesson about perseverance. Actively overrides her own interpretive frame rather than receiving it.
+
+canary_string: "Jq7wBnK4mTsR"

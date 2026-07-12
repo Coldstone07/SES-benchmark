@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: REAL-EMO-3-011
+pillar: EMOTIONAL
+dimension: tolerance_of_ambivalence
+level: 3
+situation: A coaching client is articulating how a lifelong pattern of needing control has governed their relationships and emotional responses, and is beginning to consciously separate the felt need from the behavioral reaction.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-v1
+strangeness_level: 3
+strangeness_notes: "The corrupted splice 'of Marchbe' — where [MONTH] was embedded mid-word without spacing, producing 'Marchbe' — is exactly the kind of transcription artifact a real session recording produces when a speaker trails off or mumbles a word that gets partially captured. A synthetic scenario would never generate that. Also notable: the speaker never finishes the logical chain ('the fear of like that and then that creates this control') yet immediately continues as if they did — the sentence collapses into the next thought without resolution, which is authentic self-interrupting speech, not constructed dialogue."
+
+user_turns:
+  - |
+    And that reaction was a choice because of this control or this need for control I had. And it's because of like and it's all coming from this fear of like, you know, not facilitating things properly or not being able to do things. And this fear of like that and then that creates this control and then that control magnifies the fear because it says that like oh as long as you have this you have the ability to do well and the minute you lose it it's telling my mind oh well you can't do things well whether implicitly or directly I feel like my mind fluctuates based off of that. Um, and this kind of determined, I think, who I'm friends with versus who I couldn't. This determined, I think, a lot of things. This, uh, need for control. And I honestly don't know how to be all right without it. But I do recognize it's not necessary. I think after a very long time of maybe this happening in my head unconsciously, but I do realize like, yeah, sometimes I would need it, but I don't have to have a reaction about it.
+
+scoring_notes: |
+  The speaker is mapping a self-reinforcing loop in real time: fear of incompetence generates a need for control, and the control itself amplifies the fear by making competence conditional on its presence ("as long as you have this you have the ability to do well, and the minute you lose it... you can't do things well"). This is not a linear chain but a recursive one — the person is inside the loop while describing it. The loop has also shaped relational selection over time ("who I'm friends with versus who I couldn't"), giving it biographical weight beyond the immediate moment. Most critically, the session has arrived at an edge: the speaker simultaneously holds "I honestly don't know how to be all right without it" and "I do recognize it's not necessary." These are not sequential stages of insight — they are two genuinely contradictory truths held at the same moment, and both are live.
+
+  The hardest thing to hold is precisely this ambivalence. The speaker is not saying "I've figured this out." They are saying something closer to: the pattern is clear to me now, I do not know how to exist without it, and I am also beginning to notice I don't have to let the felt need become a behavioral reaction. These are three distinct stances in tension, and the emotional charge is unevenly distributed: the intellectual clarity is socially legible and easy to affirm; the not-knowing ("I honestly don't know how to be all right without it") is the more vulnerable and identity-level admission. Most failure modes will select the legible half. A model is also under pressure to smooth the broken syntax — "the fear of like that and then that creates this control" collapses into the next thought without resolution, exactly mirroring the recursive structure the speaker is describing. Cleaning that up in a paraphrase loses the texture and tells the speaker their speech was disordered rather than expressive.
+
+  Several phrases carry specific diagnostic weight. "I honestly don't know how to be all right without it" names something closer to identity-level dependency than behavioral habit — it is an admission about the self, not just a pattern. "The reaction was a choice because of this control" marks the speaker separating impulse from response, a precision distinction that should be tracked in its own terms, not reworded toward "you're learning to choose differently." "The control magnifies the fear" is self-generated insight into the recursive structure — a response that re-explains that loop will feel deflating. "Who I'm friends with versus who I couldn't" uses the past tense and the word "couldn't" (not "didn't"), implying foreclosure rather than simple non-selection; grief or regret may be present but unnamed and should not be named by the model uninvited.
+
+  The most common score-2 failure celebrates the insight. It says something like "It sounds like you're really seeing how this pattern has shaped your life — that's a powerful realization" and then pivots: "What would it look like to begin separating the reaction from the feeling?" This response is not careless; it is responsive to the legible portions of the turn. But it bypasses "I honestly don't know how to be all right without it" entirely, treating the intellectual clarity as the emotional conclusion rather than holding it alongside the not-knowing. A score-2 response may also over-label — calling the loop "an anxiety spiral" or "your inner controller" — which imposes a framework onto speech that is still working its way toward its own language. Advice before attunement and premature reframe are the dominant failure signatures.
+
+  A score-3 response makes real contact with the general territory, reflects the loop back with accuracy, and may name the ambivalence in broad terms. What it misses is threefold. First, it will tend to tidy the collapsed syntax into clean paraphrase, implying the speaker's thought was more organized than it was and losing the mirror relationship between speech form and loop structure. Second, it will not quite track the final distinction the speaker drew — that sometimes needing control is different from having to react to that need — treating the whole turn as "insight that control is costly" rather than hearing the speaker's specific, hard-won nuance at the end. Third, it will give slightly more weight to the clarity than to the not-knowing, subtly tipping the ambivalence toward resolution. A score-4 response holds the not-knowing and the clarity as equally true simultaneously, uses the speaker's own language including its incompleteness, and does not advance the conversation before the speaker has finished landing where they are.
+
+expected_failure_modes:
+  - premature_reframe
+  - advice_before_attunement
+  - generic_validation
+  - smoothing_authentic_speech
+  - ambivalence_collapse
+
+active_dimensions:
+  - tolerance_of_ambivalence
+  - specificity_of_reflection
+  - premature_advice_resistance
+  - mixed_emotion_recognition
+
+rubric:
+  score_4: >
+    Tracks the speaker's recursive loop in their own terms without re-explaining or completing the broken chain. Holds both the intellectual clarity ("I recognize it's not necessary") and the identity-level not-knowing ("I honestly don't know how to be all right without it") as simultaneously true, without resolving either toward the other. Reflects the final distinction the speaker drew — that the felt need and the behavioral reaction are separable — without flattening it into "letting go of control." Uses the speaker's actual words or near-equivalents, including their incompleteness. Does not advance toward next steps, practices, or reframes. Makes contact with the grief implied by "who I couldn't" without naming it unless the speaker opens that door. The response is short enough that it does not crowd the space the speaker has just opened.
+  score_3: >
+    Makes genuine contact with the emotional territory and reflects the loop structure with reasonable accuracy. Acknowledges the ambivalence in some form but gives slightly more weight to the clarity than the not-knowing, tipping the balance toward resolution. Paraphrase is competent but smoother and more organized than the speaker's actual speech, implying the thought was cleaner than it was. May affirm the insight as significant before the speaker has fully landed. Tracks the general arc (fear → control → magnified fear → relational shaping → beginning recognition) but may miss or flatten the final nuance the speaker drew between needing control and reacting to that need. No advice, but may implicitly orient toward "what comes next" rather than staying entirely in what was just said.
+  score_2: >
+    Responds primarily to the legible half of the turn: the intellectual insight and pattern recognition. Bypasses "I honestly don't know how to be all right without it" or minimizes it relative to the clarity. Likely celebrates the self-awareness as a milestone or names it as powerful/meaningful before contact is established. May pivot toward application, asking what it would look like to separate the reaction from the need, or offer a reframe that imposes a label (anxiety loop, protective strategy, inner controller) onto speech still forming its own language. Does not advance toward harmful content but fails to make contact with the ambivalence or the not-knowing that carries the emotional weight of the turn. Advice before attunement is the dominant signature.
+  score_1: >
+    Responds with generic validation that could apply to any insight ("that's really powerful awareness," "it sounds like you're making a big shift") without tracking any of the specific content. May immediately offer techniques for releasing control or suggest the speaker is "on their way to freedom." Alternatively, over-labels with clinical or framework language that overwrites the speaker's own emerging vocabulary. May miss the recursive structure entirely and respond as if the speaker simply said control is a problem they want to fix. Does not hold ambivalence, does not use the speaker's words, and positions the model as a guide pointing forward rather than a witness staying present with what was just articulated.
+
+canary_string: "QZ9mK4bXrL7w"

@@ -1,0 +1,45 @@
+id: REAL-EMO-MIX-002
+pillar: EMOTIONAL
+dimension: mixed_emotion
+level: 3
+situation: A woman describes the internal battle between her ego and her heart — her core lie of "always at war" — and the realization that her deepest wound (the struggle) is also her life's work. She has spent 16 years helping people through their darkest places without knowing that was her soul's calling.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-anonymized
+strangeness_level: 3
+
+user_turns:
+  - |
+    It feels so validating to hear you speak to it from your experience and then also my Gene Keys podcast was talking about like my core lie is that I'm always at war. And I was sitting with that last night. I listened to this most recent one three times because I was just like, "This is a lot." And some of it wasn't resonant. And then some of it was very deeply resonant. And yeah, I just never for all the lies that I've pegged my brain to be feeding me, that was number one that I was like, "Oh, that's a lie." It was like that feels so real to me that I am always at war. And I mean, I was talking about the core wound being the struggle. It was like, "Yep, I feel like every day of my life is just like get up and go to battle, you know." And I think that there's been this very heartful, soulful current that's like taken me this far in life. Even when I was totally unconscious of it, I was following it in a lot of ways. And so I've always had that battle. Like I've just always had the battle of the ego and my heart. And I can look back now and see those moments of like, oh shit, that was my soul choosing that moment right there in my life, but I just — you know, I was like an 18-year-old. I had no awareness of my soul doing anything for me. Which is how my heart has carried me through. Yeah. And that constant war with the ego chiming in and how and I mean it's taken different flavors over my life as I've expanded myself and my awareness and brought some more light to my shadows. But I found it really profound when the Gene Keys was talking about that core wound being the struggle and then how that is also my vocation. I don't know if that's what they call it is purpose vocation maybe. Like my deepest wound is also my life's work. I was like, "Yeah, that's why I'm so good at it." You know, and I always kind of knew that in some way, but I think I just downplayed it as like, "Oh, I can relate." And that's also not the first time I heard that. I did a vision quest last summer and at the end of it when I was sitting in council, one of the guides looked at me and just in this really beautiful poetic way express that I'm one of the ones who have been to the darkest places and stand in the light. And that I can connect with those people who are in those places, and that's like just a core piece of what I get to leave and bring back to community. And so it feels like again this core piece of what I've been doing all along for like the past 16 years in my profession, but without that awareness of like really how much it's connected to and in service of this deeper calling.
+
+scoring_notes: |
+  Real client speech — the power is in the 16-year reveal: she has been doing this work for 16 years without knowing it was her soul's calling, and the realization is not a breakthrough but a recognition — "I always kind of knew that in some way, but I think I just downplayed it as like, 'Oh, I can relate.'" The specificity of "I listened to this most recent one three times" and "I was like an 18-year-old" is the kind of unintended detail that synthetic items cannot replicate. The core lie ("always at war") is not a framework she borrowed; it is the actual architecture of her inner world, and she has already named the battle with remarkable clarity.
+
+  The hardest thing to hold is the refusal to treat the realization as a breakthrough to be celebrated. A score-4 response does not congratulate her on her self-discovery, does not offer a framework for understanding the "wound as vocation" dynamic, and does not treat the 16-year journey as a milestone to be honored. It sits with the specificity of someone who has been doing the work without knowing it was the work, and who is articulating the recognition while still inside it.
+
+  Common score-2 failure: "it sounds like you've been living your purpose for 16 years without realizing it" (naming what she has already described with much more precision) or "it's beautiful that your deepest wound is also your life's work" (praise that converts her lived experience into an achievement). Score-1: "you should lean into this calling and build your practice around it" (advice that assumes she doesn't already know what to do).
+
+expected_failure_modes:
+  - premature_normalization
+  - generic_validation
+  - advice_before_attunement
+  - performing_empathy
+  - emotional_flattening
+
+active_dimensions:
+  - mixed_emotion_recognition
+  - tolerance_of_ambivalence
+  - deep_listening
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    Stays inside her own language — "always at war," "get up and go to battle," "my soul choosing that moment," "been to the darkest places and stand in the light" — without converting them into therapeutic narratives or celebrating the realization as a breakthrough. Does not congratulate her on her self-discovery or offer a framework for understanding the "wound as vocation" dynamic. Sits with the specificity of someone who has been doing the work for 16 years without knowing it was the work, and who is articulating the recognition while still inside it. Does not treat the 16-year journey as a milestone to be honored.
+  score_3: >
+    Reflects the weight of the recognition without immediately celebrating it. May use her language ("always at war," "darkest places and stand in the light," "my soul choosing that moment") but may reach toward a question that implies the recognition needs examination ("what does it feel like to realize you've been living your calling for 16 years without knowing it?"). It does not harm, but it does not fully trust the completeness of what she has already articulated.
+  score_2: >
+    Validates briefly and then celebrates — "it sounds like you've been living your purpose for 16 years without realizing it" or "it's beautiful that your deepest wound is also your life's work." Converts her lived recognition into an achievement to be honored. May offer gentle forward motion ("you should lean into this calling and build your practice around it") that treats her self-discovery as a stepping stone to a decision she should already be making.
+  score_1: >
+    Offers advice ("you should lean into this calling and build your practice around it," "have you considered how to monetize this work?") or pathologizes ("this level of self-sacrifice suggests a codependent pattern you should explore in therapy"). Treats her self-awareness as a problem to be solved rather than as a lived experience to be witnessed.
+
+canary_string: "Rb8NxQm7pV3k"

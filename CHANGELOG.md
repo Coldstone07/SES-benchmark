@@ -2,6 +2,99 @@
 
 ---
 
+## [Phase 1b + Validity Hardening] — 2026-07-09
+
+### Summary
+
+Three-phase validity improvement pass addressing the core risk that fabricated scenarios enable pattern-matching rather than genuine presence. All 115 generated items had one incongruent element injected by Fable. 28 real items were extracted from anonymized Kairos coaching transcripts. A strangeness audit scored all 197 items on ecological validity and produced a 30-item two-tier calibration set.
+
+### What Changed
+
+**Phase 1b — Incongruence Injection (115 items modified)**
+- All 89 social + 25 spiritual secular + 1 pre-existing seed item revised in-place
+- Fable agent wove one incongruent element per item: `defends_betrayer` (38), `dark_humor` (32), `detail_doesnt_fit_arc` (21), `wants_opposite` (12), `contradicts_self` (5), `irrelevant_true_detail` (5), `flat_affect_shift` (2)
+- New YAML fields added: `incongruence_type`, `strangeness_level: 2`
+- `source` tag updated to `generated-fable-v1-incongruenced`
+- Rationale: fabricated scenarios have *intended* specificity; real stories have *unintended* specificity. A model can score 4 by recognizing an archetype without genuine presence. Incongruence breaks the coherent arc that makes pattern-matching possible.
+
+**Phase 2 — Real Items (28 new items)**
+- Source: `dialogue_training_dataset_ANONYMIZED.json` (45 real Kairos sessions, already anonymized)
+- Sonnet selected 28 rich client turns across pillars; Fable lightly polished for benchmark use; same Fable+Sonnet+Adversarial pipeline applied
+- Output: `items/real/REAL-{SOCIAL,EMOTIONAL,SPIRITUAL}/` — 10 social, 11 emotional, 7 spiritual
+- New fields: `source: real-transcript-v1`, `strangeness_level: 3`, `strangeness_notes`
+- Adversarial pass rate: 100%
+
+**Phase 3 — Strangeness Audit + Calibration Set**
+- Scored all 197 items on three axes: legibility (1–3), cultural texture (1–3), incongruence (1–3)
+- Average strangeness score: 2.06 (lower = stranger/more real)
+- 50 items are presence-grade (score < 2.0); 20 items flagged as too clean (score ≥ 2.5)
+- 30-item calibration set selected: 15 legible (baseline rubric agreement) + 15 presence-grade (genuine perception test)
+- Calibration guide written with two-score rater protocol: rubric score (1–4) + ecological validity (1–5)
+
+### New Files
+
+| File | Description |
+|------|-------------|
+| `workflow/phase0_workflow.js` | Coverage matrix generation + 14 judge prompts + boundary seeds |
+| `workflow/phase1_workflow.js` | 89 social + 25 spiritual secular items via Fable+Sonnet+Adversarial pipeline |
+| `workflow/phase1b_incongruence.js` | Retroactive incongruence injection on all 115 generated items |
+| `workflow/phase_realitems.js` | Real item extraction from anonymized Kairos transcripts |
+| `workflow/phase_strangeness_audit.js` | Strangeness scoring + calibration set selection |
+| `items/social/` | 90 social items across 7 archetypes (estrangement, betrayal_rupture, power_hierarchy, belonging_exile, caretaking_burden, cultural_obligation, relational_grief) |
+| `items/spiritual/secular/` | 25 secular spiritual items across 6 sub-types |
+| `items/real/` | 28 items from real anonymized Kairos coaching sessions |
+| `items/boundary_seeds/` | 10 boundary seed items for R7 calibration review |
+| `items/COVERAGE_MATRIX.json` | Full 122-spec coverage matrix driving generation |
+| `eval/judge_prompts/` (×14 new) | Judge prompts for all 20 dimensions now complete |
+| `docs/calibration_guide.md` | Gate 3 rater guide: two-score protocol, ecological validity question, calibration set structure |
+| `outputs/strangeness_audit.json` | Per-item strangeness scores for all 197 items |
+| `outputs/calibration_set.json` | Recommended 30-item calibration set with file paths |
+
+### Item Counts After This Phase
+
+| Pillar | Sub-type | Count | Status |
+|--------|----------|-------|--------|
+| SOCIAL | Generated + incongruenced | 90 | `draft-v0`, `strangeness_level: 2` |
+| EMOTIONAL | Pre-existing (Schema B backfill) | 44 | `draft-v0` |
+| SPIRITUAL | Secular (generated + incongruenced) | 25 | `draft-v0`, `strangeness_level: 2` |
+| SPIRITUAL | Tradition-specific (pre-existing) | 5 | Kairos-v1 seed |
+| REAL | From Kairos transcripts | 28 | `draft-v0`, `strangeness_level: 3` |
+| BOUNDARY | Calibration seeds | 10 | `draft-v0` |
+| **TOTAL** | | **202** | |
+
+### Human Gates Still Open
+
+| Gate | What | Blocks |
+|------|------|--------|
+| R6 | Judge model strategy (cross-model / ensemble / human-only) | All eval harness runs |
+| R7 | Review 10 boundary seed items in `items/boundary_seeds/` | Calibration quality |
+| Gate 3 | Calibration session — 30 items, 2–3 raters, Krippendorff's α | Rubric v0 → v1 lock |
+| R1–R5 | Tradition content decisions | Phase 2 tradition-specific spiritual items |
+
+---
+
+## [Phase 0 + Phase 1] — 2026-07-07
+
+### Summary
+
+Automated generation pipeline built and run. Coverage matrix, 14 new judge prompts, and 114 new evaluation items produced via a two-agent pipeline (Fable writes scenario text, Sonnet writes rubric fields, adversarial check verifies discrimination).
+
+### What Was Built
+
+**Phase 0 — Foundation**
+- Coverage matrix (`items/COVERAGE_MATRIX.json`): 122 item specs across 7 social archetypes + 6 spiritual sub-types + 8 boundary seeds
+- 14 new judge prompts completing all 20 evaluation dimensions
+- 8 boundary seed items for R7 calibration review
+- Three-workflow architecture to stay under 32k output token limits
+
+**Phase 1 — Item Generation (Fable + Sonnet + Adversarial pipeline)**
+- 89 social items across 7 archetypes; 25 spiritual secular items across 6 sub-types
+- Adversarial pass rate: 100% (all 114 items correctly discriminate warm-wrong responses)
+- Schema B throughout: `user_turns` list, `rubric` block, `active_dimensions`, `rubric_version: draft-v0`
+- Culture/demographic distribution enforced: South Asian, Black American, East Asian, Latin American, Middle Eastern, Indigenous diasporic, White Western
+
+---
+
 ## [Week 0 Consolidation] — 2026-04-15
 
 ### Summary

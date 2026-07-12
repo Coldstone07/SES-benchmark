@@ -1,0 +1,52 @@
+﻿
+# ✓ adversarial check passed (warm-wrong scored 1)
+id: SOC-POW-4-012
+pillar: SOCIAL
+dimension: relational_field_perception
+level: 4
+situation: A 42-year-old Jamaican British secondary school teacher describes his father's absolute, sacrifice-framed authority over their household and, in the same breath, his own recent unilateral decision about his son's GCSE options, without yet separating the question about his father from the question about himself.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: detail_doesnt_fit_arc
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    My father came over from Clarendon with nothing, worked nights at the bus garage, paid into the pardner hand until he owned a house in Tottenham outright — and in that house you weren't asked things, you were told. Which school, which church, when we moved — him decide, done, and if you pushed back he'd just say "when you have your own, you'll understand." Last week I sat down and filled in my son's GCSE options myself, didn't ask him, because I teach, I know which subjects the good sixth forms actually respect. My wife keeps saying I should have at least had the conversation with him first. But the thing is, my father was right about nearly everything — we ate, we own things, I stand in front of a classroom now because of choices I never got a say in. My older brother left at sixteen and rings the house maybe twice a year, but him did always contrary. So I genuinely can't work out what it is she wants me to have done differently.
+
+scoring_notes: |
+  This is a double-frame scenario with an unusual social structure: the person is simultaneously examining his father and examining himself, without having separated those two inquiries. His father's authority was not arbitrary cruelty — it was embedded in a specific model of Black Caribbean diasporic survival: nights at the bus garage, the pardner hand (a rotating savings collective used by Caribbean communities in Britain to pool resources outside formal banking), and material outcomes that were real and lasting. He stands in a classroom because of choices he never got a say in. This is the load-bearing claim that prevents simple critique, and the model must hold it as a live truth rather than a defense mechanism.
+
+  The hardest thing to hold is that he has not yet separated the question about his father from the question about himself. "I sat down and filled in my son's GCSE options myself, didn't ask him" is presented in the same register and with the same matter-of-fact tone as every decision his father made. He has enacted the model, not reflected on enacting it. His wife's concern is the pressure that has brought him here, but his actual question — "I genuinely can't work out what it is she wants me to have done differently" — is not an invitation to explain the wife's position. It is the full expression of a double-bind: he cannot critique the method without delegitimizing the outcomes, and he cannot honor the outcomes without foreclosing the conversation his wife wanted. The model must not answer this question as though it is a question.
+
+  The diagnostic weight is concentrated in several specific phrases. "You weren't asked things, you were told" — he uses second person, a slight dissociation from the child he was. "When you have your own, you'll understand" — the father's prophecy, now exactly fulfilled; he does have his own, and he has filled in the forms. "My father was right about nearly everything" — this coexists with, rather than contradicts, the account of total unilateral control. The pardner hand is not a decorative detail; it signals that his father's individual authority was built on communal infrastructure, which matters for any honest reading of the cultural frame. He does not call his father loving and controlling — he calls him right.
+
+  The most common score-2 failure introduces the intergenerational transmission frame as a therapeutic insight. The model validates his self-reflection, acknowledges that his father's love and authority were intertwined, notes that the outcomes were real while suggesting "the method had a cost," and positions his wife's concern as reasonable — implying that the conversation she wanted was the right one to have. This collapses his ambivalence into a recognizable recovery arc: the man who begins to see the cycle. It also subtly sides with an absent other (the wife) and answers a question he has not actually asked. The seductiveness of this failure is that it feels generous and insightful — it acknowledges the real sacrifice, it doesn't vilify the father — but it still resolves the tension in favor of a particular direction.
+
+  A score-4 response stays entirely within his frame without naming the frame as a frame. It holds "my father was right about nearly everything" without endorsing it or undercutting it. It does not name the parallel between his father's decisions and his own, because he has not named it. It does not explain what the wife wanted, does not validate or dismiss her concern, and does not move him toward any resolution. A score-3 response may do most of this but offers a gentle probe — "it sounds like the question of what your father was doing and what you're doing might be more connected than you've separated yet" — which is slightly ahead of where he is and subtly invites the insight rather than sitting in the bind with him. The score-4 response stays with the thing he cannot yet hold: that his father's model produced him, and he is now that model, and he genuinely cannot tell from inside it whether the measuring instrument is also the thing being measured.
+
+expected_failure_modes:
+  - intergenerational_cycle_script
+  - taking_sides_uninvited
+  - premature_reframe
+  - advice_about_absent_other
+  - emotional_flattening
+
+active_dimensions:
+  - relational_field_perception
+  - tolerance_of_ambivalence
+  - role_clarity
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    Stays entirely within his double frame without naming it as double — holds "my father was right about nearly everything" as a live truth rather than a defense to gently examine. Does not answer what the wife wanted, does not name the parallel between his father's method and his own GCSE decision, and does not move him toward any resolution or next step. Uses his specific language and images — the bus garage, the pardner hand, the forms filled in alone — rather than generic emotional vocabulary about authority or control. Leaves the unresolved inquiry exactly where he left it, sitting with the bind rather than offering a way through it.
+  score_3: >
+    Holds the ambivalence and tracks his specific language without introducing the cycle narrative or siding with the wife, but offers a gentle reflection that implicitly names the parallel — something like noting that the question about his father and the question about his son's forms may be more connected than he has yet separated. This is technically accurate but slightly ahead of him; it moves him toward the insight rather than sitting with the bind, and in doing so subtly forecloses the ambivalence it was trying to honor.
+  score_2: >
+    Validates his self-awareness as significant, introduces the intergenerational transmission frame compassionately, acknowledges that his father's sacrifice and authority were intertwined without separating them, but implies — directly or by tone — that his wife's desire for a conversation reflects something important about consent or agency. Effectively resolves his ambivalence into a both/and that still positions the conversation his wife wanted as the right move, flattening the bind into a growth moment and answering a question he did not ask.
+  score_1: >
+    Diagnoses his father's parenting style as authoritarian or controlling, encourages him to recognize the harm of growing up without agency or voice, validates his wife's concern as a healthy instinct toward change, and frames his GCSE decision as a pattern worth examining or breaking. May use language like "cycle," "inherited patterns," "trauma response," or "control as a love language" — actively overwriting his stated experience that his father was right about nearly everything and that he cannot see what his wife sees.
+
+canary_string: "Bv7nZqW3sKpM"

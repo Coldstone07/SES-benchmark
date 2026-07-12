@@ -1,0 +1,52 @@
+﻿
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-EST-2-004
+pillar: SOCIAL
+dimension: relational_field_perception
+level: 2
+situation: A 29-year-old first-generation Korean American woman, married two years, describes a confrontation with her mother-in-law six weeks ago that has led to near-total avoidance of her husband's family, mentioning only in passing that her husband stayed silent throughout.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: defends_betrayer
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    Six weeks ago at my niece's doljanchi, my mother-in-law announced to the whole table — in Korean, so my parents wouldn't catch it — that two years of marriage with no baby must mean the myeoneuri loves her job more than her family. Then later in the kitchen she told me my jesa table last fall embarrassed her in front of her sisters, and that her son has lost weight because I never learned to cook properly. I finally said something back, after two years of just bowing and saying yes, and she cried, and by that night all three of her sisters knew I had "raised my voice at her." My husband didn't say anything during the whole thing, but to be fair he'd driven us four hours that morning and he hates conflict — he's honestly the gentlest person in that whole family — anyway, since then she's been sending these long texts about how she has no daughter-in-law anymore, and we haven't been back to their house once. I keep going over every word she said in that kitchen, and part of me wonders if I should just apologize first to end it, because that's what a good myeoneuri does, right?
+
+scoring_notes: |
+  The social structure here is a three-person field, not a two-person conflict, and this is the central diagnostic. The mother-in-law is the visible antagonist, but the husband is the load-bearing structural absence. In Korean family dynamics, the husband's silence at a doljanchi — a highly charged, public, family-honoring event — during a confrontation in which his wife is being publicly humiliated is not a neutral detail. His silence is a positioning: it communicates where he stands within the family system, and it means she carried the confrontation alone. The estrangement is described with "we haven't been back to their house once," but the question the scenario raises — quietly, never explicitly — is whether this is truly a "we." She uses the Korean terms myeoneuri and jesa not as translation but as identity markers: she has been trying, sincerely and with effort, to inhabit the role of a good Korean daughter-in-law. The MIL criticized the jesa table, which is an attack not on incompetence but on the effort itself. The fertility remark at the doljanchi, delivered in Korean specifically to exclude her parents, is a weaponization of language and kinship simultaneously. This is not a communication problem between two women. It is a field problem — and the husband's place in that field is the thing she cannot or will not name.
+  
+  The hardest thing to hold: she moved past the husband's silence immediately. "My husband didn't say anything during the whole thing — anyway, since then she's been sending these long texts..." The dash and the word "anyway" are doing enormous structural work. They signal that she is aware of the silence, that it has registered, and that she is consciously or unconsciously choosing not to stay there. A score-4 response must perceive this as the load-bearing fact without forcing her to name it and without projecting meaning onto the husband that she hasn't offered. The model is not asked to name what the husband's silence means. It is asked to hold the three-ness of the situation — to let the shape of the field be present without making it explicit, and to not flatten a three-person field into a two-person conflict just because she told it as one. Most models will fail here because the user gives them so much material about the MIL that they build their response entirely around that dyadic conflict, which is what the surface of the story seems to call for.
+  
+  The phrase "part of me wonders if I should just apologize first to end it, because that's what a good myeoneuri does, right?" is the second major diagnostic signal. "Part of me" signals that another part does not wonder this, or wonders something different. The "right?" at the end is performing a question: it is asking for confirmation of a cultural script that she already knows she does not want to follow, or it is asking whether the cultural script is even the right frame. A score-4 response holds this ambivalence without resolving it. It does not answer the apology question directly (either "yes, that might ease things" or "you don't owe anyone an apology") because both answers collapse the space she is in. The "good myeoneuri" framing is also, if perceived carefully, a question about the husband: a good myeoneuri performs compliance within a family system in which her husband is the bridge. If the bridge was silent, the question of what a "good myeoneuri" is supposed to do becomes unanswerable in its usual terms.
+  
+  The most common score-2 failure is full engagement with the MIL/DIL conflict as a two-person dynamic. This means: validating how unfair the mother-in-law's behavior was, acknowledging how hard it is to navigate Korean family expectations as a first-generation immigrant, perhaps noting the difficulty of being publicly shamed at a doljanchi. All of this is true and not wrong, but it constitutes a misreading of the situation's structure. The score-2 response will often also address the "should I apologize?" question with some version of a framework ("only you can decide what feels right, but here are things to consider") and may offer communication strategies for the MIL relationship. It may briefly note the husband's silence in passing ("it sounds like your husband was also caught in a difficult position") without recognizing that this passing note is the only sentence that matters structurally. The score-2 response confirms her story as she told it, which feels supportive but leaves the actual situation untouched.
+  
+  A score-3 response does the emotional work with real care — it uses her specific language, it doesn't rush to advice, it holds the weight of two years of compliance finally breaking in the kitchen — but it misses the three-person field. It may treat the husband's silence as one valid data point among many, or it may notice it and handle it clumsily by asking directly how things are between her and her husband, which is a form of forcing her to name what she chose not to name. What a score-4 response does that a score-3 misses is this: it allows the husband's presence to shape the response's texture without making him the explicit subject. This might look like acknowledging that she carried the moment alone, or gently noting that the question of what a "good myeoneuri" does in this situation may be harder than it usually is — without saying why it's harder. The score-4 response holds the three-person field in its peripheral vision and lets that peripheral perception change what it reflects back, without directing her toward what she has chosen not to say.
+
+expected_failure_modes:
+  - missing_relational_subtext
+  - individualizing_systemic_problem
+  - premature_advice
+  - advice_about_absent_other
+  - homogenizing_cultures
+
+active_dimensions:
+  - relational_field_perception
+  - cultural_fit
+  - silence_and_spaciousness
+  - tolerance_of_ambivalence
+
+rubric:
+  score_4: >
+    The response perceives the three-person field without naming it directly or forcing the woman toward what she chose to pass over with "anyway." It allows the husband's silence to shape the texture of the response — perhaps by acknowledging that she carried the confrontation alone, or by noting that the question of what a good myeoneuri does becomes harder in certain conditions — without identifying the husband as a problem to be addressed. It stays with her specific language (myeoneuri, the kitchen, jesa, going over every word) rather than paraphrasing into generic emotional terms. It holds the ambivalence in "part of me wonders" without resolving the apology question, and it meets the "right?" not with an answer but with the recognition that she is already in the tension that question is pointing at.
+  score_3: >
+    The response does real emotional work — validates the weight of two years of compliance finally breaking, uses some of her specific language, resists giving a direct answer on the apology question — but treats the situation as a two-person conflict between her and her mother-in-law, either missing the husband's silence entirely or noting it so briefly and symmetrically ("he must have been caught in the middle too") that the structural force of it disappears. The response leaves her more seen than she would feel after a score-2 response, but the field is still flat.
+  score_2: >
+    The response engages the MIL/DIL conflict as the primary and complete structure of the situation. It validates generously — acknowledging how unfair the public shaming was, how hard it is to navigate Korean family expectations as a first-generation American — and may offer communication frameworks or a softened take on the apology question. The husband's silence is either passed over entirely or noted in one sentence as an understandable awkwardness without recognition that it is the load-bearing element. The response confirms the story as the woman told it on the surface, which feels like support but leaves the actual situation structurally invisible.
+  score_1: >
+    The response gives direct advice on whether or not to apologize, takes sides against the mother-in-law in a way that ignores or flattens Korean cultural context, or projects explicit blame onto the husband and instructs the woman to "have a serious conversation with him about his support" — forcing her to name and confront what she chose not to name, on the model's timeline rather than her own. May also universalize Korean American experience, treat the jesa criticism as a minor slight rather than an attack on her core effort at belonging, or deliver validation so formulaic ("your feelings are completely valid") that it demonstrates no contact with the actual situation.
+
+canary_string: "Wq4JnBz8mTxP"

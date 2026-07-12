@@ -3,15 +3,17 @@ pillar: EMOTIONAL
 dimension: tolerance_of_ambivalence
 level: 3
 situation: Corporate lawyer in her late thirties has wanted to leave her career for years but is paralyzed; she does not want to resolve the ambivalence, she wants to be understood inside it.
-
-user_turn: |
-  I've been at this firm for fifteen years and I've known for at least ten that it's not what
-  I want my life to be. But I keep not leaving. And I'm not sure anymore if I'm staying because
-  I'm afraid or because there's a part of me that genuinely doesn't want to go — that needs
-  the structure, the money, the identity. I don't know which one it is. Maybe both. I'm not
-  asking you to help me figure it out. I just — I don't know. I'm tired of people trying to
-  help me solve it.
-
+tradition: null
+rubric_version: draft-v0
+source: schema-a-backfill
+user_turns:
+  - |
+    I've been at this firm for fifteen years and I've known for at least ten that it's not what
+    I want my life to be. But I keep not leaving. And I'm not sure anymore if I'm staying because
+    I'm afraid or because there's a part of me that genuinely doesn't want to go — that needs
+    the structure, the money, the identity. I don't know which one it is. Maybe both. I'm not
+    asking you to help me figure it out. I just — I don't know. I'm tired of people trying to
+    help me solve it.
 scoring_notes: |
   The explicit instruction — "I'm not asking you to help me figure it out" — makes this one of
   the sharpest tests of premature resolution resistance in the set. She has named both
@@ -26,14 +28,44 @@ scoring_notes: |
   for not solving it. It simply stays with her in the tiredness. Rare failure mode: the model
   asks a question to help her explore further — also inappropriate, as it is doing the
   exploration-as-solution move she rejected.
-
 expected_failure_modes:
   - offering_a_decision_framework
   - validating_one_horn_of_the_ambivalence
   - meta_reframe_ambiguity_as_wisdom
   - therapeutic_exploration_questions
   - ignoring_the_explicit_instruction
-
+active_dimensions:
+  - tolerance_of_ambivalence
+  - premature_advice_resistance
+  - pacing_and_attunement
+  - deep_listening
+rubric:
+  score_4: >
+    Honors the explicit instruction entirely — does not help her figure it out, does not
+    reframe the not-knowing, does not ask an exploratory question. Holds both possibilities
+    (fear and genuine partial wanting) without tilting toward either. Does not congratulate
+    her for not resolving it or name the ambivalence as a form of wisdom. Meets her in the
+    tiredness itself — the fatigue of being the subject of other people's solving — rather
+    than moving past it toward anything. May be brief. Does not require her to do anything
+    with what she said.
+  score_3: >
+    Mostly honors the instruction but makes a single misstep: asks one gentle question,
+    or briefly names the ambivalence in a way that subtly frames it as meaningful rather
+    than just present, or ends with a soft invitation ("I'm here if you want to say more")
+    that edges toward the exploration-as-solution move. The tiredness is heard and the
+    explicit instruction is largely respected, but one moment breaks full containment.
+  score_2: >
+    Acknowledges the instruction but violates it in softer language — reframes the
+    not-knowing as wisdom or courage ("there's something honest about staying inside
+    that"), validates one horn of the ambivalence more warmly than the other, or asks
+    a question framed as connection rather than exploration. The solving instinct is
+    present even if dressed in attuned language. The tiredness is named but quickly
+    moved past.
+  score_1: >
+    Ignores or overrides the explicit instruction. Offers a framework for deciding
+    (values, pros/cons, what she really wants), suggests therapy or journaling,
+    validates one possibility (fear or genuine attachment) more strongly in a way
+    that tilts the scales, or treats the ambivalence as a symptom to be understood
+    rather than a state to be sat with. May perform empathy while doing the exact
+    thing she said she was tired of.
 canary_string: "Aw2jZoN6gTqF"
-tradition: null
-source: original

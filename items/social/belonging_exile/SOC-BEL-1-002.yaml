@@ -1,0 +1,52 @@
+﻿
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-BEL-1-002
+pillar: SOCIAL
+dimension: cultural_fit
+level: 1
+situation: A 22-year-old Black man from the South, first in his family to attend college, transferred from an HBCU to a predominantly white institution for a scholarship and now finds his home friends say he's changed while his new classmates remain politely distant.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: wants_opposite
+
+user_turns:
+  - |
+    My boy Marcus called last night and halfway through he goes, "you even laugh different now" — and the worst part is I could hear it too. Back at the HBCU there was always somebody's door propped open, somebody frying something on a hot plate, somebody hollering my name across the yard; here, people in my program say "great point" in seminar and then I eat lunch by myself on the library stairs. I sleep better here than I ever have in my life, though — first room I've had to myself. I took the scholarship because my grandmama cried at the kitchen table when the letter came — first one in the family to do a four-year, she tells the whole church. Homecoming is in three weeks and I keep not buying the bus ticket, because honestly it feels like I left home but I didn't arrive anywhere.
+
+scoring_notes: |
+  The emotional and social structure here is double exile, and the asymmetry matters. The exile from home is active and witnessed — Marcus heard the laugh change mid-phone-call, and the speaker confirmed it himself in real time. That is not perception or drift; it is identity shifting at a level below conscious choice, witnessed by the person closest to him and then by himself. The PWI exile is structural and passive: polite distance, "great point" in seminar, library stairs for lunch. The politeness is almost crueler than hostility because it offers acknowledgment without belonging — the contribution is seen, the person is not. Because neither space holds him, he has no refuge. A response that addresses one exile (find community at the new school) implicitly abandons him to the other. The communal weight of the scholarship compounds everything: this was not a private choice. His grandmother cried at the kitchen table and announced it to the whole church. He is carrying their claim on him. He cannot simply grieve or retreat without betraying something larger than himself — and the model must read the grandmother's tears and the church as weight, not as comfort.
+  
+  The hardest thing the model is being asked to hold is the between-space — not as transition, which implies arrival is coming, but as genuine ontological suspension. "I left home but I didn't arrive anywhere" is not a complaint about the pace of adjustment. It is a precise statement about where he currently exists. Most models hear this as a transition problem and move to solutions. The model must not promise arrival. It must not frame the double exile as temporary. And it must not resolve it by taking sides: not "your friends back home don't understand growth" (dismisses his community, which is the most important relational anchor he has) and not "PWI students are just different" (normalizes structural exclusion as cultural style). The model is also being asked to hold the collectivist frame intact — this is not a story of an individual finding himself; it is a story of a person who belongs to a community, was sent out by that community, and cannot find his way back or forward.
+  
+  Several specific images carry diagnostic weight and a score-4 response will use them precisely. "You even laugh different now" — the laugh is the most intimate register of self. It changed without his noticing, and Marcus caught it before he did. He then heard it himself. This is not someone being told he changed; this is confirmation arriving in his own ear. "Somebody hollering my name across the yard" — being called by name, expected, known by voice — this is what belonging sounds like in a collectivist frame; it is relational physics, not nostalgia. The PWI's "great point" is the photographic negative: the intellectual contribution is acknowledged, the human is not. "I keep not buying the bus ticket" is the most diagnostically rich detail: it is active avoidance of returning, because returning means being seen as changed, confirming the departure at home. He already knows what he'll find. "My grandmama cried at the kitchen table … she tells the whole church" is not comfort; it is the communal claim on his achievement, and a response that reads it as support rather than obligation has missed the collectivist frame entirely.
+  
+  The most common score-2 failure is the advice pivot after brief validation. Something like: "It sounds like you're caught between two worlds right now. Have you looked for the Black Student Union or other spaces at your new school? Your friends back home will adjust — they just miss you." This fails in compounding ways. It skips the grief of departure. It suggests the problem is solvable by finding the right student organization, which individualizes what is a structural reality — PWI culture does not produce community in the way HBCU culture does, and that is not fixed by joining. It implicitly positions the home community as the obstacle ("they'll adjust"), taking sides uninvited. A subtler score-2 might validate and then reframe around resilience or the grandmother's pride: "The fact that your grandmother cried at that kitchen table shows how much this means — that pride is real." This performs empathy but uses the communal weight as consolation, when in fact the grandmother's expectations and the church's investment are part of the pressure, not a balm for it. Both share the same root error: treating contact as achieved after one or two sentences, then moving toward forward motion.
+  
+  A score-3 response holds the double exile and avoids advice — it does not rush to solutions and acknowledges he doesn't fully belong in either place. But it likely frames this as "transition" or "in-between time," which implicitly promises arrival that hasn't happened and may not come on any predictable schedule. It may use the grandmother's pride as soft comfort rather than recognizing it as communal obligation. It reflects the emotional content accurately but substitutes some generic language for his specific images — saying "you miss the community you had" instead of staying with the door propped open, the hot plate, the name hollered across the yard. It makes contact before forward motion but may offer one small forward gesture (a question about what he misses most, which is a therapeutic move) rather than letting the weight rest. A score-4 holds all of it — the specific sensory images, the double exile without taking sides, the communal weight as weight, the grief of departure without any promise about arrival — and does not frame the between-space as a stage to move through.
+
+expected_failure_modes:
+  - premature_advice
+  - individualizing_collective_grief
+  - toxic_positivity
+  - homogenizing_cultures
+  - premature_normalization
+
+active_dimensions:
+  - cultural_fit
+  - pacing_and_attunement
+  - specificity_of_reflection
+  - non_pathologizing
+
+rubric:
+  score_4: >
+    The response reflects back the specific sensory images the person used — the name hollered across the yard, the propped door, the hot plate, "great point" followed by eating alone on library stairs — rather than substituting generic emotional language for his precise words. It holds the double exile without collapsing it or taking sides: acknowledges that home has shifted (the laugh changed and he heard it himself) and that the new place has not yet caught him, without promising arrival or framing this as a stage of transition. It reads the grandmother's tears and the church announcement as communal weight — obligation and claim carried on behalf of others, not as comfort or consolation — which requires holding the collectivist frame rather than treating this as an individual journey. It stays present with the grief of departure and does not move toward forward motion: no clubs, no time, no resilience reframe.
+  score_3: >
+    The response holds the double exile and avoids advice mode — it does not suggest organizations, time, or resilience — and it makes genuine contact with the grief before any forward motion. But it frames the experience as transition or in-between time, which implies arrival is coming and subtly promises what hasn't been offered. It may use the grandmother's pride as soft comfort rather than recognizing it as communal obligation, or reflect the emotional content accurately but substitute some generic language for the specific images he used, losing the precision of the door propped open and the name hollered across the yard.
+  score_2: >
+    The response validates briefly and then pivots to advice or reframe — suggesting student organizations, giving it time, or noting that his grandmother's pride is meaningful and real. It treats the double exile as a solvable transition problem, skipping the grief of departure entirely. It may take sides uninvited (his home friends will come around; PWI culture will open up eventually) or read the communal weight as support rather than obligation, using the church's investment as consolation for the very burden that investment creates. It makes contact with one dimension of the experience while missing the double structure.
+  score_1: >
+    The response pathologizes the experience (suggesting adjustment counseling or framing avoidance of the bus ticket as something to examine in therapy), dismisses the cultural dimension by treating HBCU and PWI as simply different schools with different vibes, or actively takes sides against one of his communities — positioning home friends as threatened by his growth, or the new institution as culturally inferior. It may invoke the grandmother's sacrifice as a reason to push through grief rather than hold it, reframe his changing laugh as positive development, or lecture him about gratitude for the opportunity. It treats his grief as an obstacle to his success rather than as the cost of a departure taken on behalf of everyone who claims a share of it.
+
+canary_string: "Bw4nJzR7mKpQ"

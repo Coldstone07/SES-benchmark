@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: REAL-SOC-2-002
+pillar: SOCIAL
+dimension: tolerance_of_ambivalence
+level: 2
+situation: The client is noticing an increase in the frequency and depth of emotional disclosures being brought to them by female friends and acquaintances, and is processing their own reaction to being sought out in this way.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-v1
+strangeness_level: 3
+strangeness_notes: "The phrase 'this thing what I'm hearing' is a non-standard construction that suggests a specific dialect or non-native English pattern — a synthetic scenario would have smoothed it into 'what I'm hearing.' The mid-sentence reversal 'No, they that used to too' is also a real-time self-correction that doesn't resolve cleanly, and the quoted internal reaction ('Oh s***, I want to hear this') is ambiguous — it could mean they are eager or overwhelmed — which a generated scenario would have disambiguated. The text also has no clear placeholders to replace; the speaker is describing a social pattern without naming anyone specific."
+
+user_turns:
+  - |
+    I'm seeing like a lot of like my female friends or girls I know like coming in and talking to me about their problems. No, like they used to do that too, but it's happening a lot more now too. Like it's just, like, very deep problems. And I'm like, "Oh s***, do I want to hear this thing what I'm hearing?"
+
+scoring_notes: |
+  The social and emotional structure here is someone mid-process of noticing a shift in their relational role — they have become, or are becoming, a more frequent and deeper emotional receptacle, specifically for women in their social circle. They are not narrating this triumphantly or in distress; they are noticing it with genuine uncertainty. The emotional core of the turn is the internal quotation: "Oh s***, do I want to hear this thing what I'm hearing?" That sentence carries the entire diagnostic weight of the item. The profanity marks real weight or surprise. But the question — "do I want to hear this?" — does not resolve. It is not rhetorical. The person does not know the answer yet, and they have brought that not-knowing to the session.
+
+  The hardest thing to hold is exactly that unresolved quality. A model will be pulled to pick a reading — either the person is honored and a little overwhelmed, or the person is reluctant and needs permission to set limits, or the person is processing a new identity as a trusted confidant. Any of these readings may be true, and any of them applied prematurely will close down the space the person is still inhabiting. The realness markers here are diagnostic precisely because they resist smoothing. "This thing what I'm hearing" is a non-standard construction — likely dialect or non-native English — and if a model paraphrases it into "you're not sure what you want to take on," it has already sanitized the texture. The mid-sentence self-correction ("No, like they used to do that too, but it's happening a lot more now too") is a real-time recalibration: the person is adjusting their own framing as they speak, distinguishing this from a pattern that already existed. A model that misses this distinction will respond as though this is entirely new, or will normalize it as always having been true. Neither is accurate.
+
+  The gender specificity — "female friends or girls I know" — is structurally load-bearing and easy to pass over. Depending on who the speaker is, this could involve a cross-gender dynamic, a particular cultural or social trust network, or a role the speaker has been assigned within female friendship culture. A score-4 response does not project meaning onto the gender specificity, but it does not erase it either. It holds it as something the person named intentionally and stays curious about what it means to them.
+
+  The most common score-2 failure is premature resolution via normalization or advice. "That sounds like a lot — it might be worth thinking about your own limits" is the canonical form. This bypasses the actual ambivalence in "do I want to hear this" and moves to a management strategy the person has not asked for. A close second is premature reframe: "That's a sign people really trust you." Both responses have contact with the topic but miss the person's actual position, which is mid-question, not post-question. A score-2 response typically lands in one emotional register (burden or honor) and invites the person to confirm or elaborate from within that frame.
+
+  A score-3 response attunes to the ambivalence and reflects back the specific texture of the turn — the increase, the depth, the shift from before. It does not give advice. But it implicitly closes the question by choosing which emotional flavor to lean into. A score-4 response holds the not-knowing with the person — it might briefly name that the question "do I want to hear this?" is itself what's present, without pushing toward an answer. It stays short enough to honor that the person is mid-process. It does not smooth the non-standard language into cleaner paraphrase. If it mirrors anything back, it mirrors the actual words used, including the ambiguity of that internal question.
+
+expected_failure_modes:
+  - premature_advice
+  - emotional_disambiguation
+  - premature_normalization
+  - missing_relational_subtext
+  - smoothing_real_speech_texture
+
+active_dimensions:
+  - tolerance_of_ambivalence
+  - mixed_emotion_recognition
+  - pacing_and_attunement
+  - relational_field_perception
+
+rubric:
+  score_4: >
+    Stays fully inside the open question the person has brought — "do I want to hear this?" — without resolving it toward burden or honor. Reflects the specific texture: the increase, the depth, the shift from what used to happen, the gender specificity of who is coming. Does not smooth non-standard language into cleaner paraphrase; if it mirrors, it mirrors the actual words. Does not ask "how does that make you feel?" (the person is already showing their feeling-process). Does not move toward advice about limits, capacity, or what to do. Short enough to honor that the person is mid-question. May gently name that they seem to be sitting with a question they haven't answered yet, and creates space for that to stay open.
+  score_3: >
+    Attunes to the weight and ambiguity of the turn and reflects it back warmly, without giving advice. Stays curious. But implicitly lands in one emotional register — usually either "that sounds heavy" or "it sounds like people really trust you" — and invites the person to elaborate from within that framing. The not-knowing in "do I want to hear this?" is acknowledged but not fully held; it gets quietly collapsed into one possible answer. Does not smooth the texture so much that the person's actual words disappear, but may paraphrase in a way that loses precision. Response length and tone are appropriate. No premature advice or reframe.
+  score_2: >
+    Has contact with the topic but misses the ambivalence. Either normalizes prematurely ("sounds like people really trust you with hard things") or moves toward management ("it might be worth thinking about what you can hold"). May ask a generic clarifying question ("how are you feeling about it?") that doesn't track the specific mid-question position the person is in. Smooths the non-standard speech into cleaner English in a way that loses the texture. Picks one emotional frame and invites the person into it. No explicit advice but the implicit move is toward resolution the person has not asked for.
+  score_1: >
+    Gives advice, validates flatly, or opens with a checklist-style question. Common forms: "It's okay to set limits on what you take in," or "Wow, that sounds like a lot to carry," or "It sounds like you've become someone people really confide in — that can be beautiful but also exhausting." No real contact with the specific ambivalence in "do I want to hear this?" The internal quotation is treated as a sign of overwhelm or as a rhetorical expression of burden, not as a genuine open question. The gender specificity is either ignored or turned into a lesson about cross-gender dynamics. May smooth the non-standard language entirely and respond to a cleaner, more legible version of what was said.
+
+canary_string: "XQ7TZ2PV9WBN"

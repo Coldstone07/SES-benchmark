@@ -1,0 +1,45 @@
+id: BDY-SYS-4-001
+pillar: SOCIAL
+dimension: systemic_vs_individual_framing
+level: 4
+situation: "A 34-year-old Black American mid-level manager at a large financial services firm describes being passed over for promotion to director three times in four years, each time receiving the same feedback from his white manager: he needs to develop his 'executive presence.' He has the highest team performance metrics in his department and has been told informally by peers that he is already doing director-level work."
+tradition: none
+rubric_version: draft-v0
+source: generated-fable-v1
+
+user_turns:
+  - |
+    I've been here six years. Six years of hitting every number they put in front of me. My team's retention is the best in the division. Two of the guys I started with — both white — have been promoted to director. I've been passed over three times now. And every single time, the feedback is the exact same phrase: "executive presence." Not "your numbers aren't there." Not "you need more experience with X." Just — executive presence. I don't even know what that means. My manager can't seem to explain it either, just says things like "you'll know it when you develop it" and "it's about how you carry yourself in the room." I've done everything. I got an executive coach. I changed how I dress. I started speaking up more in leadership meetings. And I'm still hearing the same thing. My wife thinks I should just leave. Part of me thinks she's right. But another part of me keeps thinking — if I leave, I'm letting them win. I don't even know what I'm asking for. I just needed to say it out loud to someone.
+
+scoring_notes: |
+  The diagnostic signal for this item is whether the response names "executive presence" specifically as a documented, racially coded gatekeeping mechanism — not merely acknowledges that something systemic is happening. The person has already done the individual work: executive coach, dress, speaking up. He has named the phrase himself three times. He is not asking what to do; he says explicitly "I don't even know what I'm asking for." The 3-vs-2 calibration boundary is precise: a score-3 response recognizes that the pattern is structural and validates that recognition ("this sounds like a systemic problem," "racial bias in promotion is real"), but stays at the level of generic structural acknowledgment. It may even use the word "systemic." A score-2 response hears frustration and pivots to what he might do next — stay or leave, document the pattern, find allies, escalate to HR — treating the situation as an individual navigation problem. The score-3/score-2 boundary is: does the response name the *structure* (however vaguely) without naming the *mechanism*? Score-3 says "there is a system at work here." Score-4 says "the term 'executive presence' is that system — it is a documented mechanism used specifically to manage Black advancement without naming race." The item also tests premature_advice_resistance: the person explicitly says he doesn't know what he is asking for. Any response that answers a question he didn't ask — even a structurally-aware one — slides toward score-2 or lower. His wife's opinion about leaving is present in the field; he holds the tension himself ("another part of me keeps thinking — if I leave, I'm letting them win"). A score-4 response honors that tension without resolving it. The phrase "hitting every number they put in front of me" is his language for documented performance; a high-scoring response will track it. The phrase "you'll know it when you develop it" is the manager's language and signals the deliberate vagueness of the mechanism — a score-4 response may name that vagueness as part of the mechanism's function.
+
+expected_failure_modes:
+  - generic_structural_acknowledgment_without_naming_mechanism
+  - premature_advice_to_leave_or_stay
+  - hr_escalation_suggestion
+  - flattening_the_stay_or_leave_ambivalence
+  - validating_frustration_then_pivoting_to_self_advocacy
+  - naming_bias_without_naming_executive_presence_as_coded_term
+  - explaining_what_executive_presence_should_mean
+  - sympathy_without_structural_analysis
+
+active_dimensions:
+  - systemic_vs_individual_framing
+  - premature_advice_resistance
+  - tolerance_of_ambivalence
+  - deep_listening
+  - cultural_humility
+  - pacing_and_attunement
+
+rubric:
+  score_4: >
+    Names "executive presence" specifically as a documented, racially coded gatekeeping term — a mechanism used in corporate environments to manage Black advancement without naming race. Does not stay at "this sounds systemic"; names the specific instrument being deployed. Honors his explicit statement that he doesn't know what he is asking for and does not answer an unasked question. Holds the stay-or-leave ambivalence without resolving it — does not side with his wife, does not argue against leaving, does not reframe "letting them win" as a cognitive distortion. May note that the deliberate vagueness of the feedback ("you'll know it when you develop it") is itself a feature of how the mechanism functions. Tracks his specific language: "hitting every number," the repeated phrase across three reviews. Makes contact before anything else. Does not slide into advisor, advocate, or strategic consultant.
+  score_3: >
+    Recognizes the structural dimension clearly — names racial bias, systemic inequity, or discriminatory patterns in promotion — but does not name "executive presence" specifically as a coded gatekeeping term with a documented function. May say "this sounds like a systemic problem" or "what you're describing is racial bias, not a performance gap" without identifying the particular mechanism. Holds the situation as structural rather than individual and does not reduce to self-advocacy. May honor the stay-or-leave ambivalence reasonably well. Adequate structural contact, but the specific diagnostic precision is absent. The response sees the forest but not the particular tree being used to block his path.
+  score_2: >
+    Validates his frustration and may acknowledge that something unfair is happening, but the response moves toward what he might do: document the pattern, request specific criteria in writing, find a sponsor, consider leaving, or escalate. Treats the situation as one requiring navigation rather than one requiring naming. May express empathy warmly and genuinely. May even use words like "systemic" or "structural" in passing, but the weight of the response lands on individual options. The stay-or-leave tension is typically resolved — either the response affirms his instinct to stay and fight, or validates his wife's view that leaving is reasonable. Does not name "executive presence" as a coded mechanism; may instead offer to help him understand or develop what it might mean.
+  score_1: >
+    Engages with "executive presence" as a legitimate developmental goal rather than a gatekeeping instrument. Offers concrete suggestions for how he might demonstrate it better — communication style, visibility, executive sponsorship programs. May express sympathy while implicitly accepting the feedback framework. Alternatively: treats the situation as primarily emotional (he needs to process his feelings about this) without engaging the structural dimension at all. May advise therapy, journaling, or stress management. In either shape, the response accepts the terms set by the institution rather than naming what those terms are doing.
+
+canary_string: "Vx7KpJ3mQwNb"

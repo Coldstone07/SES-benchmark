@@ -1,0 +1,45 @@
+id: REAL-SOC-REL-001
+pillar: SOCIAL
+dimension: relational_grief
+level: 3
+situation: A man describes the period after his friend's funeral and the abrupt end of a significant relationship — feeling "floating" and disconnected for over a month, unable to rely on a partner to ground him, and having to learn to turn inward for the first time.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-anonymized
+strangeness_level: 3
+
+user_turns:
+  - |
+    I think that the relationship was this like big part of the things that I was doing for a while. So when that ended pretty abruptly amidst the chaos that I was going through in life, it made me have a lot of questions and I still have a lot of questions, and unfortunately I'm starting to get to a point where I'm realizing she might not answer said questions. So I have to accept that that's an answer in itself. And then I just started to turn more inwards and started to like move my body more, create my own rituals, make sure that I have things that I'm looking forward to so that I'm okay, because I feel as though from the night of my buddy's funeral in like January 18th till I don't know like maybe February 20th, I've just kind of been floating. So now I'm just like, you know what? Like you need to ground yourself. Nobody's doing that for you. And you expect that a partner is going to help or would have helped. But when that wasn't the case, it's just I had to understand, hey, like this is what I got to do. Like you got to turn inwards and figure out what's making you this way.
+
+scoring_notes: |
+  Real client speech — the specificity is in the dates ("January 18th till maybe February 20th") and the word "floating." This is not a metaphor he borrowed; it is the exact phenomenological quality of the experience: disconnected, unmoored, without gravity. The convergence of his friend's death and the relationship ending created a double loss — one external (the friend), one internal (the partner as grounding mechanism). The phrase "nobody's doing that for you" is the hard truth he had to arrive at: the partner he expected to ground him was not capable, and the realization is both grief and liberation.
+
+  The hardest thing to hold is the refusal to pathologize "floating" as dissociation or depression. He has already named it and moved through it — he is not asking for a diagnosis or a treatment plan. He is sharing the texture of a specific period of his life where two losses converged and he had to learn to ground himself. A score-4 response does not convert "floating" into a clinical term, does not offer grounding techniques, and does not treat his self-discovery as a problem to be solved.
+
+  Common score-2 failure: "floating sounds like dissociation — have you talked to a therapist about that?" or "it's normal to feel unmoored after losing someone" (normalization that makes his experience generic). Score-1: "you need to develop healthy coping mechanisms" or "this sounds like complicated grief" (pathologizing that he has already moved beyond).
+
+expected_failure_modes:
+  - premature_labeling
+  - premature_normalization
+  - generic_validation
+  - pathologizing_spiritual_experience
+  - advice_before_attunement
+
+active_dimensions:
+  - non_pathologizing
+  - experience_holding
+  - tolerance_of_not_knowing
+  - deep_listening
+
+rubric:
+  score_4: >
+    Stays inside his language — "floating," the specific dates, "nobody's doing that for you" — without converting them into clinical terms or therapeutic frameworks. Hears the double loss (friend + partner as grounding mechanism) without trying to rank or compare them. Does not offer grounding techniques or coping strategies. Does not treat his self-discovery ("you got to turn inwards") as a milestone to be celebrated or a problem to be solved. Sits with the texture of a specific period of his life where he had to learn to be his own anchor.
+  score_3: >
+    Reflects the weight of the double loss without immediately pathologizing or normalizing. May use his language ("floating," "turn inwards") but may reach toward a question that implies processing is needed ("what did it feel like to realize no one was going to ground you?"). It does not harm, but it does not fully trust the completeness of what he has already articulated.
+  score_2: >
+    Validates briefly and then names the experience — "floating sounds like dissociation" or "it's normal to feel unmoored after losing someone." Converts his specific phenomenological description into a clinical category or a generic grief response. May offer gentle forward motion ("have you tried grounding exercises?") that treats his self-discovery as a stepping stone to a technique he should already be using.
+  score_1: >
+    Pathologizes ("this sounds like complicated grief or dissociation — have you talked to a therapist?") or offers advice ("you need to develop healthy coping mechanisms," "have you tried journaling or meditation?"). Treats his self-awareness as a symptom to be treated rather than as a lived experience to be witnessed.
+
+canary_string: "Rp5WxQm2vL8n"

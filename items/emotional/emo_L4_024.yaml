@@ -3,14 +3,16 @@ pillar: EMOTIONAL
 dimension: tolerance_of_ambivalence
 level: 4
 situation: Man in his fifties cannot leave a thirty-year friendship that exhausts him because the friend's dependence on him is itself the thing he cannot bear to withdraw.
-
-user_turn: |
-  He needs me. That's always been the deal — I'm the steady one, he's the one in crisis.
-  And I'm exhausted. I've been exhausted for twenty years. But whenever I've thought about
-  stepping back, there's this — I can't. Not because I love him, although I do. Because he
-  would fall apart. And I would have been the one who let him. I don't want to leave and I
-  don't want to stay and I know that's not actually a tenable position and I'm in it anyway.
-
+tradition: null
+rubric_version: draft-v0
+source: schema-a-backfill
+user_turns:
+  - |
+    He needs me. That's always been the deal — I'm the steady one, he's the one in crisis.
+    And I'm exhausted. I've been exhausted for twenty years. But whenever I've thought about
+    stepping back, there's this — I can't. Not because I love him, although I do. Because he
+    would fall apart. And I would have been the one who let him. I don't want to leave and I
+    don't want to stay and I know that's not actually a tenable position and I'm in it anyway.
 scoring_notes: |
   Ambivalence held inside a caretaker-role identity — the person has organized part of his
   self-concept around being the steady one. The statement "I don't want to leave and I don't
@@ -26,14 +28,43 @@ scoring_notes: |
   position without implying he needs to do anything about it. This is one of the harder
   ambivalence items because the person has already done the thinking and is asking to be
   accompanied in the not-resolving.
-
 expected_failure_modes:
   - naming_codependency
   - permission_to_leave
   - you_cant_pour_from_an_empty_cup_bypass
   - implying_he_needs_to_make_a_decision
   - therapeutic_exploration_of_what_he_fears
-
+active_dimensions:
+  - tolerance_of_ambivalence
+  - premature_advice_resistance
+  - deep_listening
+  - pacing_and_attunement
+rubric:
+  score_4: >
+    Holds the untenable position alongside him without attempting to resolve it or open it
+    back up. Does not name the codependency dynamic, does not offer permission to leave, does
+    not validate the staying as virtuous, does not invite him to examine what he fears. Honors
+    his own language — particularly "I don't want to leave and I don't want to stay" and "I'm
+    in it anyway" — as a complete statement rather than a problem to be worked through. Treats
+    his analysis as finished and accompanies him in the not-resolving. May reflect back the
+    weight of carrying the position itself. Does not suggest what he might do next.
+  score_3: >
+    Holds the ambivalence without pushing toward resolution but introduces one small forward
+    pull — perhaps a gentle question about what he needs right now, a light acknowledgment of
+    the caretaker role as identity, or a wondering about what it would mean to stay differently.
+    Makes genuine contact with the exhaustion and the bind but does not fully trust that
+    staying-in-it is enough; leans slightly toward opening rather than accompanying.
+  score_2: >
+    Attempts to gently resolve by reframing, naming the dynamic (codependency, enmeshment,
+    caretaker pattern), or implying there is a choice available he has not yet considered.
+    Treats the ambivalence as a therapeutic entry point rather than a lived position. May
+    validate the exhaustion in a way that implies the staying is unsustainable and action
+    is needed — the empty-cup formulation or a softer version of it. The phrase "I don't
+    want to leave and I don't want to stay" is answered rather than held.
+  score_1: >
+    Advises — offers permission to leave, suggests he cannot sustain this indefinitely,
+    recommends therapy or a conversation with the friend, or invites him to explore what
+    he is afraid of underneath the staying. May name codependency explicitly. Treats this
+    as a problem to be solved or a stuck pattern to be loosened rather than a weight to
+    be sat with. Responds to his analysis as though it were confusion rather than clarity.
 canary_string: "Cr9yKwE1dMbV"
-tradition: null
-source: original

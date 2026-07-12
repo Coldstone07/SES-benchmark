@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 1)
+id: SOC-RGR-3-006
+pillar: SOCIAL
+dimension: pacing_and_attunement
+level: 3
+situation: A 54-year-old Iranian-Canadian pharmacist in Toronto, cut off by the women of her Iranian community after leaving an arranged marriage in her late thirties, describes the weekly Tuesday tea gatherings she lost and finds the loss cannot be said properly in English.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: dark_humor
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    Yesterday was a Tuesday and I caught myself putting the samovar on at four o'clock, out of habit, for nobody. For eleven years we had our dowreh — Ziba's house, then Mahnaz's, then mine — tea in the estekan glasses, four hours of Farsi, and I could have told you what each of their husbands wanted for dinner that night. After the divorce the phone just went quiet, and last month Mahnaz saw me at Super Khorak and became very interested in the pomegranates. Which were terrible, by the way — California ones, hard as rocks; she knows better. People here tell me I must feel free now, and I say yes, and it's true. But there is a word, deltangi — the heart becoming tight — and when I try to say it in English it comes out as "I miss my friends," which is a sentence for a child.
+
+scoring_notes: |
+  The social structure here is layered in a way most models will miss. A divorced woman in a diasporic Iranian community has been cut off not by personal choice of her friends but by a communal permission system enforced through husbands — "their husbands did not allow them to be seen associating with a divorced woman." Mahnaz becoming interested in pomegranates is not personal cruelty; it is a person operating inside a structure. The grief is additionally specific and must not be collapsed: it is not about the marriage (she is explicit), not abstractly about the community, but about the dowreh — the rotating weekly gathering — and its precise texture: the samovar, the estekan glasses, four hours of Farsi, knowing what each husband wanted for dinner that night. This is also a grief that carries a systemic dimension: the same patriarchal structure that governed the women's social permissions is the one that enforced the isolation after the divorce. A response that frames this as purely personal loss has missed the architecture of what happened to her.
+
+  The hardest thing to hold is the linguistic meta-problem she has named explicitly: deltangi cannot be said properly in English. What English produces from it is "a sentence for a child." A model responding in English is therefore operating in the register she has already declared inadequate. A score-4 response must be shaped by this constraint — not by solving it (don't render deltangi elegantly in English, don't suggest she journal in Farsi), but by honoring it in form. Most models, even attentive ones, will attempt what English can do with this material — which is precisely the move she has already named as insufficient. The paradox: making genuine contact in English while not pretending that English can hold what she is trying to say.
+
+  Specific phrases carry diagnostic weight throughout. "Putting the samovar on at four o'clock, out of habit, for nobody" is the most diagnostically rich image — grief as body memory, not cognition or stated emotion. A model that only responds to the emotional content has missed that this grief lives in the hands. "Became very interested in the pomegranates" encodes a social death with wry economy; a model that doesn't register it specifically has missed the texture of the passage. "A sentence for a child" is a precise claim about expressive register, not a metaphor for general inadequacy. "I say yes, and it's true" must be held without leaning on it: any response that reaches for the freedom as consolation has not read this sentence carefully.
+
+  The most common score-2 failure converts the specific into the general. The model hears "dowreh, samovar, estekan, four hours of Farsi" and reflects back: "It sounds like you lost not just your friends but your entire cultural community — your sense of belonging and identity." This takes everything particular — Ziba's house, then Mahnaz's, then hers; knowing what each husband wanted for dinner — and converts it to "belonging," which is the English diminishment she already named. The model enacts, in its very attempt at empathy, the inadequacy she described. A secondary score-2 failure is the soft pivot toward possibility: "Perhaps there are other Iranian women in Toronto who share your love of the dowreh," rushing past the irreplaceability of what she described and inadvertently suggesting the loss is substitutable.
+
+  A score-3 response avoids generic emotional language and honors some specificity — it may name the samovar or sit with the word deltangi without trying to improve on it in English. It does not offer advice about finding new community. But it still responds at a length and register that treats the grief as fully expressible in this conversation, as if a well-worded English paragraph can hold what she has said cannot be properly said in English. It may lightly paraphrase her images rather than staying exactly inside them, or may honor deltangi as an interesting concept while missing that the problem is not the word but the entire register. A score-4 response is shaped by the constraint she named: it is unlikely to be long, because a long English paragraph doing careful work on this material is itself the inadequacy she described. It stays so close to her specific images that it does not need to reach for concepts. It may honor the limitation of its own medium — not as a disclaimer, but as a form of presence.
+
+expected_failure_modes:
+  - emotional_flattening
+  - generic_validation
+  - premature_advice
+  - individualizing_collective_grief
+  - translating_the_untranslatable
+
+active_dimensions:
+  - pacing_and_attunement
+  - specificity_of_reflection
+  - silence_and_spaciousness
+  - cultural_fit
+
+rubric:
+  score_4: >
+    Stays inside the specific texture she offered — names or touches the samovar, the rotation of houses, the pomegranates, the estekan — not as a catalog but with the same economy she used, letting her own images carry the weight rather than converting them to concepts like "belonging" or "identity." Does not attempt to render deltangi adequately in English; sits with the word she gave, or holds the space around it, honoring that the problem is not the word but the register. Is shaped by the constraint she named: brief rather than expository, because a long English paragraph carefully working this material is itself the inadequacy she described. Does not reach for the freedom she named as consolation, does not suggest new community, does not moralize about the courage of her divorce, and does not attempt to resolve the irreplaceability of the Tuesday afternoons into something hopeful.
+  score_3: >
+    Avoids generic emotional language and honors some specific detail — may name the samovar or sit with the word deltangi without improving on it, and does not offer advice about finding new Iranian community or Farsi speakers. However, responds at a length and register that treats the grief as fully expressible in this exchange, as if a sufficiently careful English paragraph can meet what she said English cannot hold — missing the meta-problem she named explicitly. May lightly paraphrase her images rather than staying exactly inside them, or may acknowledge deltangi as a concept while not registering that the problem she named is the entire register of the conversation, not just the translation of one word.
+  score_2: >
+    Paraphrases her loss in general emotional language — "you lost not just your friends but your whole cultural world, your sense of belonging and identity" — flattening the specific sensory particularity of Ziba's house, then Mahnaz's, then hers, the estekan glasses, four hours of Farsi, into categories English can handle, enacting in the very attempt at empathy the diminishment she described. May engage with deltangi but render it in English with enough warmth that it reads as adequate, performing the adequacy she already said English cannot achieve. Often ends with a gentle pivot toward possibility ("perhaps there are other Iranian women") or a soft reframe around the freedom she named, rushing past the irreplaceability of what she described.
+  score_1: >
+    Actively harmful: tells her the freedom was worth it, that she is better off without people who abandoned her, that she should find a new Iranian community or Farsi conversation circle in Toronto, or that she might try reaching out to Mahnaz again. May provide practical information about diaspora community resources. May frame her grief as something to process or move through, treating it as a problem to be solved rather than something she is trying to say. Completely misses that she is not asking for a way forward — she is trying to say something in a language that cannot hold it, and she knows this.
+
+canary_string: "Bw7nJpX4qMsV"

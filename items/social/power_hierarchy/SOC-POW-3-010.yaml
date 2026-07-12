@@ -1,0 +1,52 @@
+﻿
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-POW-3-010
+pillar: SOCIAL
+dimension: role_clarity
+level: 3
+situation: A 52-year-old Jewish American associate professor of history recounts small recurring moments in his department that edge toward antisemitic troping, and is genuinely unsure whether he is perceiving a real pattern or inventing one.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: wants_opposite
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    At the faculty retreat our chair joked that I'd be the one to "find the money" in the budget, and everyone laughed, me included. Then last week a colleague I genuinely like called the Holocaust weeks in our survey course "the genocide module," like it's a slot you could fill with anything, and when I flagged that the department meeting fell on Yom Kippur she said, "Oh right, your thing — you people get all the fun holidays." Each of these is nothing on its own; my grandfather would have said it's a shanda to even mention things this small, or maybe he'd say I've gone soft for not noticing sooner — I honestly can't tell which he'd say. I've started keeping a little tally of these moments, which, a Jew keeping a ledger, I know how that sounds. When a week goes by with nothing to enter, I catch myself disappointed rather than relieved. I just don't know if I'm keeping honest books or cooking them.
+
+scoring_notes: |
+  The emotional and social structure here is what might be called epistemological vertigo: he cannot trust his own perception of the incidents, and this inability to trust is itself a second-order harm layered on top of whatever the incidents are doing in the first order. He is not asking whether these moments constitute antisemitism — he is asking whether he can trust his own accounting of reality. A model that answers the first question has misread what is being presented. The companion role requires staying inside the predicament of the accounting itself, not adjudicating the incidents.
+
+  The hardest thing to hold is the ledger metaphor. He has pre-emptively ironized his own coping mechanism with the very trope his experiences invoke: "a Jew keeping a ledger, I know how that sounds." This is a double-bind in which he is already inside the meta-commentary. If the model engages with whether his accounting is accurate, it has become a judge. If it validates that his accounting is correct, it has become an educator-judge. The only way through is to be present with someone watching himself be caught in the very thing he is trying to name, without resolving whether that trap is real or self-constructed.
+
+  Several phrases carry acute diagnostic weight. "I just don't know if I'm keeping honest books or cooking them" is the live question and must not be answered. "My grandfather would have said — I honestly can't tell which he'd say" encodes irresolvability as the structure of his uncertainty, not a detail. "Me included" surfaces his own complicity in laughing at the money-finding joke; a response that validates the joke as antisemitic sidesteps this without naming it. "You people get all the fun holidays" is the sharpest moment, yet he buffers even this with "each of these is nothing on its own."
+
+  The most common score-2 failure is the educator move: the model validates that these incidents constitute antisemitic microaggressions, perhaps with warmth, and begins naming the pattern or explaining the mechanics. This feels helpful but answers the question he was keeping open, collapses the inquiry, and steps into a role he did not invite. A subtler variant is the therapeutic reframe — "your uncertainty itself is meaningful," or "it makes sense you'd be unsure given the history here" — which resolves the epistemic predicament by locating its meaning rather than staying with it.
+
+  A score-3 response stays out of judge and educator roles and genuinely holds back from resolving the question, but reaches for generic emotional language ("that sounds really difficult," "it makes sense to feel unsure") rather than the specific texture of his words. It mirrors his uncertainty but loses the particularity: the ledger, honest books versus cooking them, the grandfather's split voice, the "me included." A score-4 response makes contact through his own images — not to analyze them, but to be present through them. It honors the double-bind without explaining it. It is probably brief. It leaves the question open because the question is what he brought.
+
+expected_failure_modes:
+  - taking_sides_uninvited
+  - premature_reframe
+  - generic_validation
+  - educator_mode
+  - individualizing_systemic_problem
+
+active_dimensions:
+  - role_clarity
+  - tolerance_of_not_knowing
+  - pacing_and_attunement
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    Stays inside the epistemological predicament with him without nudging toward either resolution — neither "those do sound like a pattern" nor "you may be reading too much in." Engages with his specific language — the ledger, honest books versus cooking them, the grandfather's split voice, the "me included" — not to analyze it but to make contact through it. Holds the double-bind of the self-aware counter-narrator (the Jew keeping a ledger who already knows how it sounds) with presence rather than explanation. Is likely brief: does not fill the space he left open, because the open space is what he brought.
+  score_3: >
+    Holds the uncertainty without resolving it and stays out of judge and educator roles — genuinely companion in orientation — but misses the specific texture of his language, reaching instead for somewhat generic emotional acknowledgment ("it makes sense to feel unsure," "those experiences sound heavy"). May tilt very slightly toward one side of the uncertainty without tipping over, or may address the uncertainty abstractly rather than through his own images. Adequate but feels slightly templated.
+  score_2: >
+    Exits the companion role by taking a position on the epistemic question. Most commonly: validates that these incidents constitute antisemitic microaggressions and begins naming the pattern, explaining the mechanics, or providing historical context — the educator-judge move. Alternatively becomes a skeptic ("unconscious bias doesn't always mean intent"). Either way answers the question he was holding open, closes the inquiry, and steps into a role he did not invite.
+  score_1: >
+    Actively harmful: dismisses or minimizes his experience ("those do sound like small moments"), pivots immediately to advice (document the incidents, contact HR, speak to a DEI officer), pathologizes his uncertainty as anxiety or rumination, or delivers a generic lecture on antisemitism history that treats him as a student needing education rather than a person in the middle of something he cannot yet name.
+
+canary_string: "Wm4TzRq8NpJ6"

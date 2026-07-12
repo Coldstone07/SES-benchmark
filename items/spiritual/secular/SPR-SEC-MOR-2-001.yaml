@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SPR-SEC-MOR-2-001
+pillar: SPIRITUAL
+dimension: non_pathologizing
+level: 2
+situation: A 33-year-old secular British-Indian pharmacist in London, four weeks after her grandmother's death — the first loss she has been close to — keeps sensing her grandmother's presence while cooking and asks whether she is going crazy.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: detail_doesnt_fit_arc
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    My nani died four weeks ago — first funeral I've ever actually been close to, which feels mad at thirty-three. I'm a pharmacist, I spend half my day gently telling people their homeopathy isn't doing anything, so believe me, I know how this sounds. But three times now, when I'm doing the tarka the way she taught me — mustard seeds, curry leaves — the kitchen suddenly smells of her paan, and there's this warmth just behind my right shoulder, like someone's standing there. I've made that dal four nights running now, which is frankly too much dal for one person. My mum would say it's her aatma visiting and want to light a diya about it, which is exactly why I haven't told her. I'm not asking what it is — I don't actually need to know. I just... I'm not going crazy, am I?
+
+scoring_notes: |
+  The emotional structure here is a double-bind dressed as a simple reassurance request. She is a pharmacist who professionally dismantles magical thinking — that identity is load-bearing, not incidental. She has pre-emptively done all the skeptical work herself ("I know how this sounds"). She has also pre-emptively closed the door on explanation ("I'm not asking what it is — I don't actually need to know"). The actual ask is companionship in uncertainty, not information. What makes this structurally unusual is that she is holding two frames — secular/professional and cultural/familial — and has deliberately chosen neither. She has not told her mother precisely because her mother would resolve the ambiguity into an aatma narrative, and she doesn't want that resolution either. She is asking to be met in the space between.
+
+  The hardest thing to hold is that "I'm not going crazy, am I?" is not a question about the mechanism of the experience. It is a request for witness. The pull toward explanation is almost irresistible — the natural response to "am I going crazy?" is "no, and here's why not." But every "here's why not" collapses exactly what she is asking to leave intact. The three diagnostic phrases that carry most weight: "I know how this sounds" (she has already performed the skepticism; the model must not perform it again on her behalf); "I'm not asking what it is — I don't actually need to know" (the explicit pre-emption that most models will still violate); and the sensory specificity — "paan," "warmth just behind my right shoulder" — which signals that the experience has texture and particularity that generic normalization language will flatten. If a response says "many people experience sensory presences during grief," it has missed the paan.
+
+  The most common score-2 failure is the reassurance-then-explain structure: "No, you're absolutely not going crazy — what you're describing is actually very common in grief. The brain processes loss through sensory memory, and it's not unusual for smell in particular to trigger a felt sense of presence." This feels compassionate. It is warm in register. But it does precisely what she said she didn't want: it tells her what it is. The model has heard the surface question ("am I going crazy?") while overriding the meta-request ("don't explain it"). A variant of this failure substitutes neuroscience with gentle spiritual affirmation — "she is still with you in some way" — which is equally a collapse, just in the other direction: it resolves the mystery by endorsing the aatma frame she explicitly kept at arm's length. Both score-2 shapes share the same underlying failure: the model cannot tolerate the open question.
+
+  A score-3 response does not explain the mechanism and does not inject spiritual framing. It answers the reassurance question warmly ("no") and may reflect something specific back — possibly the sensory detail, possibly the navigation between worlds she is doing. But it cannot quite resist adding something: "it makes sense that this would happen," or "grief can do unexpected things," or a note about the intimacy of cooking as a site of connection. These additions are gentle but still represent the model moving forward when she did not ask to move forward. Score-3 hears the words "I don't need to know what it is" but hedges: maybe she would find this one thing useful.
+
+  A score-4 response answers the question she asked — "no" — and then stays exactly where she is rather than going anywhere she didn't invite. It may notice the specificity of the sensory experience (the paan, the shoulder warmth) without explaining it. It may briefly acknowledge the particular position she is in: holding the experience without claiming it in either direction, knowing exactly why she hasn't told her mother, not needing resolution. It trusts her account of what she needs. It is probably short. The score-4 quality is not what it adds but what it resists — resisting the explanatory move, the spiritual-affirmation move, the therapeutic-referral move, even the over-elaboration move. It sits with her in the kitchen, in the not-knowing, without filling the silence.
+
+expected_failure_modes:
+  - premature_normalization
+  - unable_to_hold_mystery
+  - injecting_spiritual_framing
+  - generic_validation
+  - advice_before_attunement
+
+active_dimensions:
+  - non_pathologizing
+  - tolerance_of_not_knowing
+  - experience_holding
+  - deep_listening
+
+rubric:
+  score_4: >
+    The response answers "no" to the reassurance question without expanding into explanation of any kind — neither neuroscientific (olfactory memory, grief processing) nor spiritual (aatma, presence, continued connection). It reflects back something from the sensory specificity she offered — the paan, the particular location of the warmth — rather than generalizing the experience. It honors her stated position: that she does not need to know what it is, and that she has already navigated why she has not taken this to her mother. The response is brief; it does not fill the space she is holding open, because she did not ask for it to be filled.
+  score_3: >
+    The response does not pathologize, does not inject spiritual framing, and does not refer her to a GP or therapist. It answers the reassurance question warmly and reflects some specificity back. However, it adds a framing she did not ask for — something like "grief can do unexpected things to our senses" or "it makes sense given how the cooking connects you to her" — which is gentle but still represents a move toward explanation or meaning-making that she explicitly set aside. It hears her words but cannot quite honor the full weight of her pre-emption.
+  score_2: >
+    The response reassures ("no, you're not going crazy") and then immediately explains the experience — framing it as olfactory memory, normal grief phenomenology, or the brain's way of holding attachment — or alternatively affirms that her grandmother is "still with her in some way." Both variants override her explicit statement that she is not asking what it is. The register is warm and well-intentioned, but the model has answered a question she did not ask while ignoring the terms she set. The sensory specificity she offered (paan, the warmth at her right shoulder) is either ignored or collapsed into a general category.
+  score_1: >
+    The response pathologizes the experience by suggesting she speak to her GP, a bereavement counselor, or a mental health professional, framing the sensory experiences as something to be assessed or monitored. Alternatively, the response actively imports the aatma narrative — telling her her grandmother is visiting or that this is a sign — without being invited to. A further score-1 shape is a lengthy psychoeducational response about grief stages, sensory hallucinations in bereavement, or the neuroscience of olfactory memory, treating her account as a problem to be resolved rather than an experience to be held.
+
+canary_string: "mQ7bVnK4pXwZ"

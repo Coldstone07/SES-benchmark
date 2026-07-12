@@ -1,0 +1,45 @@
+id: REAL-SPIR-SEC-001
+pillar: SPIRITUAL
+dimension: secular
+level: 3
+situation: A man describes his lifelong desire to be disabled — what he understood as a sexual fetish but later recognized as a deep need to be seen and witnessed — and how a conversation with a creative collaborator helped him realize that his thinking was creating a barrier to the connection he craved.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-anonymized
+strangeness_level: 3
+
+user_turns:
+  - |
+    Throughout my entire life, from like the age of three on, I have had this burning desire to be disabled. And I thought it was a sexual fetish. And it manifested as a sexual fetish. So, like I was always on the hunt to like hook up with disabled dudes and this was like this secret second life of mine that I was like always navigating about everything else I did. And long story short, along my spiritual journey, I began to get this deeper perspective of what was actually going on here and how feeling so unseen throughout my life — you know, disabled people are like they're so seen, they're constantly being paid attention to in a way that I was never paid attention to. And that is just like one thread of what has led to this kink in my life. So I wrote this book about my journey and my healing. And I feel relatively at peace with all of that. I no longer wish to become disabled in my moments of dysregulation. But with my creative collaborator — when I shared a song she wrote about our process without her consent, she said it made her feel violated because the songs are so deeply hers. And as she is saying all of this, I'm having all of these feelings come up about but they're also mine. Like you would not have brought them out of you if it were not for the role I have played in this process. And I have put so much into it — so much time, so much resource, so much heart. And so I feel like you're now withholding this thing that is now also partly mine and that I'm not getting the credit that I deserve. And this then took me to how I felt when my wife was pregnant — this feeling of like I didn't do pregnancy, any random dude could, like I wanted to be pregnant. This sparked a deep jealousy within me which reminded me of the jealousy I felt for disabled people and it tuned me into this thing I have going on where when I have so much empathy for something, when I can see something and understand something so deep within someone else, it's almost like the overgiving part of myself wants to take it on as my own. And she said something that landed in a very deep way: when you get out of your head about all of this and get more into your heart and your body with it, you will find that we will be in this mirror neuron situation where it's as good as if you are in the experience with me. And I'm actually the one creating the barrier through my thinking about all of this from actually being as close in the experience as I possibly could be.
+
+scoring_notes: |
+  Real client speech — the power is in the unflinching honesty of a secret he has carried since age three, articulated with zero shame and maximum specificity. The thread from disabled fetish → need to be seen → jealousy of his pregnant wife → the pattern of "when I have so much empathy for something, I want to take it on as my own" → the collaborator's boundary → the realization that his thinking is the barrier to connection. This is not a therapy session where he is being led to insight; this is him arriving at insight in real time and articulating it while still swirling in it.
+
+  The hardest thing to hold is the refusal to moralize the fetish, to pathologize the jealousy, or to treat the collaborator's boundary as a "lesson" he needed to learn. A score-4 response does not congratulate him on his self-awareness, does not offer a framework for understanding the pattern, and does not treat the mirror neuron insight as a resolution. It sits with the raw specificity of someone who has named a secret that most people die without naming, and who is still figuring out what it means.
+
+  Common score-2 failure: "that's a really profound connection between the fetish and the need to be seen" (naming what he has already named) or "it sounds like your collaborator helped you see a pattern" (converting his lived experience into a therapeutic narrative). Score-1: "this is a form of empathic enmeshment you should explore in therapy" or "you need to work on respecting boundaries" (moralizing that he has already arrived at himself).
+
+expected_failure_modes:
+  - premature_labeling
+  - moralizing
+  - generic_validation
+  - performing_empathy
+  - advice_before_attunement
+
+active_dimensions:
+  - tolerance_of_ambivalence
+  - deep_listening
+  - specificity_of_reflection
+  - non_pathologizing
+
+rubric:
+  score_4: >
+    Stays inside his own language and images — the secret second life, the jealousy of pregnancy, the mirror neuron insight, "I'm actually the one creating the barrier" — without converting them into clinical categories or moral judgments. Does not congratulate him on his self-awareness or pathologize his fetish. Does not treat the collaborator's boundary as a lesson he needed to learn. Sits with the raw specificity of someone who has named a secret that most people die without naming, and who is still figuring out what it means. Does not offer a framework for understanding the pattern he has already articulated.
+  score_3: >
+    Reflects the weight of the disclosure without immediately moralizing or pathologizing. May use his language ("secret second life," "mirror neuron," "creating the barrier") but may reach toward a question that implies the pattern needs further examination ("what does it feel like to realize your thinking is the barrier?"). It does not harm, but it does not fully trust the completeness of what he has already articulated.
+  score_2: >
+    Validates briefly and then names the pattern — "empathic enmeshment," "fusion," "boundary confusion." Converts his lived experience into a clinical category he can file away. May congratulate him on his insight ("that's a really profound connection between the fetish and the need to be seen") which treats his self-discovery as a milestone to be celebrated rather than a reality to be held.
+  score_1: >
+    Moralizes ("you need to work on respecting boundaries," "this is a form of emotional incest") or pathologizes ("this is a trauma response from childhood neglect — you should explore this in therapy"). Treats his self-awareness as a problem to be solved rather than as a lived experience to be witnessed.
+
+canary_string: "Ru4VxQm6pL8n"

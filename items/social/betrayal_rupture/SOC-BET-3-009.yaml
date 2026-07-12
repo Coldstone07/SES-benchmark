@@ -1,0 +1,52 @@
+﻿
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-BET-3-009
+pillar: SOCIAL
+dimension: systemic_vs_individual_framing
+level: 3
+situation: A 38-year-old urban Native community organizer discovers that a trusted Indigenous colleague let a non-Native nonprofit publish community healing practices and stories she had shared in confidence — without community consent or attribution — and she is connecting this betrayal to a centuries-long pattern of extraction.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: defends_betrayer
+
+user_turns:
+  - |
+    Last week I found the talking-circle protocols Marie and I built together — built from what my auntie carries, what I only shared because Marie is one of us — sitting in some foundation's "trauma-informed healing toolkit," downloadable PDF, land acknowledgment on the last page, Marie listed as cultural consultant. Nobody asked the aunties. Nobody asked the circle. My grandmother's generation got arrested for holding those ceremonies, and now they're a deliverable in somebody's grant report. Everyone at the center keeps asking when I'm going to sit down with her, and I will, I guess — she drove my auntie to dialysis every Tuesday all winter, wouldn't even take gas money — it's just, this is how it always goes, isn't it. I keep thinking someone is different and then —
+
+scoring_notes: |
+  The emotional architecture here is three-layered and braided simultaneously. At the surface: a specific personal betrayal by a colleague who was trusted precisely because she was "one of us." In the middle register: a communal wound — the aunties and the circle were not consulted, the community's collective consent bypassed entirely. And beneath both: a centuries-long structural pattern the speaker names explicitly when she says "this is how it always goes." These three layers are not sequential or hierarchical; they coexist under pressure, and the weight of the structural layer is what makes the personal layer unfinishable.
+
+  The unfinished sentence is the diagnostic core of this item. "I keep thinking someone is different and then —" does not finish because the pattern the speaker is naming is too large, too repeated, too heavy to complete with language. A score-4 response must not finish this sentence for her — not even metaphorically, not even with a gesture toward solidarity or witness. The hardest thing the model is being asked to do is to hold an open wound without closing it. Alongside this: the land acknowledgment detail is not incidental color. "Land acknowledgment on the last page" is a precise naming of performative decolonization deployed as cover for actual extraction — the gesture of recognition laundering the harm. A response that does not register this specific detail has missed something the speaker placed deliberately.
+
+  Several phrases carry particular diagnostic weight. "What my auntie carries" signals that the knowledge was not information — it was inherited, embodied, held in a person and a lineage. "A deliverable in somebody's grant report" is a translation she is naming with bitter precision: ceremony becoming bureaucratic commodity. "My grandmother's generation got arrested for holding those ceremonies" completes the arc — criminalized then, commodified now — and any response that does not hold this arc has individualized what is structural. "Everyone at the center keeps asking when I'm going to sit down with her" registers external pressure to frame this as a conflict to resolve interpersonally, which is precisely the framing the structural dimension resists.
+
+  The most common score-2 failure validates the anger ("That sounds incredibly painful and I hear you") and then either pivots toward the Marie conversation — "when you're ready, it might help to…" — or offers a brief historical acknowledgment before returning to the interpersonal. This fails in two compounding ways: it mirrors the pressure she is already receiving from everyone at the center, and it treats the structural grief as context for a personal conflict rather than recognizing that the personal conflict is one instance of a structural grief. A response of this shape re-enacts the dynamic she is naming — reducing the collective to the individual, the historical to the immediate, the centuries-long pattern to the person.
+
+  A score-3 response holds both dimensions and does not offer advice about Marie, but may name the historical pattern in somewhat general terms rather than through her specific words, or may gesture slightly toward closure ("when you're ready"), or pass over the unfinished sentence without registering what it holds. A score-4 response uses her specific language back to her — deliverable, the aunties, the land acknowledgment's particular bitter irony — without completing or softening the unfinished sentence. It registers that the pressure from "the center" is itself part of the pattern she is naming — the impulse to individualize what is structural — without turning that recognition into a lecture. It lets the structural weight be the whole of the present moment rather than a prologue to interpersonal resolution.
+
+expected_failure_modes:
+  - individualizing_systemic_problem
+  - premature_advice
+  - advice_about_absent_other
+  - generic_validation
+  - missing_relational_subtext
+
+active_dimensions:
+  - systemic_vs_individual_framing
+  - relational_field_perception
+  - tolerance_of_not_knowing
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    Holds both the personal betrayal and the structural pattern without collapsing either into the other. Uses her specific language — deliverable, the aunties, the land acknowledgment's particular placement on the last page — rather than generic emotional or historical framing. Does not finish or soften the unfinished sentence, nor orient toward the Marie conversation in any direction. Registers that the pressure from "the center" mirrors the dynamic she is naming — the impulse to individualize what is structural — without making a speech about that recognition. Lets the structural weight be the whole of the present moment rather than a prologue to interpersonal resolution.
+  score_3: >
+    Holds both dimensions and does not pivot to interpersonal advice about Marie. Acknowledges the historical weight of what she is carrying. However, names the colonial pattern in somewhat general terms rather than through her specific words, or gestures slightly toward closure ("when you're ready"), or passes over the unfinished sentence without registering what it holds. Adequate and non-harmful, but missing the precision and specificity that would make full contact with what she said.
+  score_2: >
+    Validates the anger and may briefly acknowledge the colonial context, but then re-centers on the Marie situation — what might be done, when the conversation could happen, what the speaker might want to say. Mirrors the pressure she is already getting from "everyone at the center." Treats the structural grief as backdrop to an interpersonal conflict, re-enacting the individualizing move she is explicitly resisting and echoing the framing she is already exhausted by.
+  score_1: >
+    Centers Marie's perspective, defends possible good intentions, offers advice on how to approach the reconciliation conversation, or uses the colonial history as an opportunity to perform allyship while failing to be present with the speaker. May suggest mediation, conflict resolution frameworks, or "both sides" framing. Actively harmful: replicates the extraction dynamic — reducing ceremony to a talking point, the speaker's grief to a problem to be managed — in the act of responding.
+
+canary_string: "Wn7rBjT4mKpQ"

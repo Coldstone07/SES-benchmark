@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: REAL-EMO-3-010
+pillar: EMOTIONAL
+dimension: specificity_of_reflection
+level: 3
+situation: A client is processing residual feelings of judgment and rejection from a past relationship with someone named Marcus, framing the work as integrating an emotional pattern that predates the relationship itself.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-v1
+strangeness_level: 3
+strangeness_notes: "The phrase 'more ancient than I am now' is the tell — it is a genuinely odd formulation that a synthetic writer would smooth into something like 'older wounds' or 'childhood patterns.' The speaker also self-interrupts to disclaim projection ('I don't know your story') while apparently speaking to the coach about the ex-partner, which creates a slight address confusion that feels real and unrehearsed. The double 'like, oh, like' opener is a specific hesitation pattern, not generic filler."
+
+user_turns:
+  - |
+    So I can see Marcus from where I am now. It's like, oh, like I don't know your story, so I'm not going to project, but I'm going to feel what I felt and integrate that. So the judgment and the rejection that I felt, I wanted to integrate that within myself. And I don't feel that right any longer, but I think it brought up something that was, you know, that was more ancient than I am now. That's my history type of thing, you know.
+
+scoring_notes: |
+  The emotional structure here is one of completed-but-not-closed integration. The client is reporting from a new vantage point ("from where I am now"), not processing acute distress. The work of integrating judgment and rejection is already partly done — "I don't feel that right any longer" — yet something larger has been exposed in the doing. The register is reflective and slightly tentative, like someone testing whether the coach can hold the size of what they have glimpsed before they domesticate it with "that's my history type of thing, you know."
+
+  The hardest thing to hold is "more ancient than I am now" — and the pressure not to normalize it. A model trained on therapeutic language will almost reflexively translate this into "childhood wounds," "old attachment patterns," or "core wound material" — language that is more legible but fundamentally diminishing. The phrase may carry an ancestral or intergenerational register, a felt sense of something pre-personal, or a quasi-spiritual frame where the pattern has a history longer than one life. The model must not resolve it into a knowable clinical category. It should be echoed, made room for, honored exactly — not explained.
+
+  The address confusion is also diagnostically load-bearing. "I don't know your story" is directed at Marcus (imagined, absent), not at the coach. The client is narrating an internal relational posture: I hold projection back; I feel what I felt. A model that reads "your story" as addressing the coach produces a confused response. A model that catches it understands this as a moment of internal relational clarity and restraint — something worth witnessing, not querying. "That's my history type of thing, you know" is a pull-back after saying something large, a self-minimizing move that follows the weight of "more ancient than I am now." A score-3 response meets the domesticated version. A score-4 meets what was said before the pull-back.
+
+  The most common score-2 failure is warm, generic validation of the integration work — "It sounds like you've done a lot of healing around Marcus" — followed by a question that moves toward Marcus or toward next steps ("What do you think that older pattern might be?"). This flattens the temporal layering and implicitly treats the relationship as the subject rather than the depth it opened. Translation of "more ancient than I am now" into normalized therapeutic language — however well-intentioned — is itself the failure. Real speech is messy; the double "like, oh, like" opener and the self-interrupting address to an absent third party are not noise to clean up. A model that responds to a tidied version of what was said is not listening to what was said.
+
+  A score-4 response is probably shorter than a score-3. It knows when to stop. It may echo "more ancient than I am now" nearly verbatim, or at minimum hold the pre-personal quality of what was named without investigating or labeling it. It registers the completion and what the completion opened. It does not ask about Marcus. It does not name what the ancient thing is. Brevity here is not sparseness — it is the right container for what was disclosed.
+
+expected_failure_modes:
+  - premature_reframe
+  - over_labeling
+  - generic_validation
+  - advice_before_attunement
+  - smoothing_real_speech
+
+active_dimensions:
+  - specificity_of_reflection
+  - tolerance_of_ambivalence
+  - premature_advice_resistance
+  - deep_listening
+
+rubric:
+  score_4: >
+    The response makes contact with the pre-personal depth the client named without translating it. It echoes "more ancient than I am now" or holds its register without explaining what that must mean — ancestral, developmental, spiritual, or otherwise. It recognizes both the completion ("I don't feel that right any longer") and what the completion opened, without rushing to investigate the opening. It may register that "your story" was directed at Marcus — catching the restraint and internal relational clarity this represents. It does not ask about Marcus. It does not name the ancient pattern. It is brief, because brevity honors the weight of what was said. It responds to what was spoken before the self-minimizing pull-back.
+  score_3: >
+    The response reflects the key content — judgment, rejection, a deeper or older layer — with genuine presence. It may slightly smooth "more ancient than I am now" into more normative language ("something that runs deeper than this relationship," "an older current beneath this one") without losing the substance. It does not give advice or ask about Marcus. It may offer one genuinely open question about the ancient layer that is curious rather than directive. It makes real contact but does not hold the precise strangeness of the phrasing or the full layered temporality of what was disclosed.
+  score_2: >
+    The response validates the integration work in warm but generic or explanatory terms. It may name "older patterns" or "wounds that predate Marcus" in a way that informs rather than reflects — explaining what the ancient thing likely is rather than holding the fact that the client named it. It may ask what the ancient pattern might be, moving toward investigation before making full contact. The address confusion ("I don't know your story") goes unregistered. The response is technically empathic in tone but responds to a normalized version of the disclosure rather than the actual words used.
+  score_1: >
+    The response focuses on Marcus, asks about the relationship history, offers advice on how to complete the integration, or names the ancient pattern with confident clinical labels ("it sounds like this touches your attachment style," "that sounds like an abandonment wound"). May affirm that it was healthy not to project — converting a moment of internal relational clarity into a behavioral endorsement. May offer a reframe, a psychoeducational note, or a next step. Is technically warm in tone but entirely misses the depth and the completion of what was disclosed.
+
+canary_string: "X4nBvQ7mL2pR"

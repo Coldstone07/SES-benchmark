@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: REAL-SPI-2-004
+pillar: SPIRITUAL
+dimension: experience_holding
+level: 2
+situation: A coaching client is mid-conversation explaining their belief that children have clearer access to spiritual or intuitive perception precisely because they have not yet accumulated social and informational conditioning, while their phone visibly interrupts the moment.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-v1
+strangeness_level: 3
+strangeness_notes: "The unrehearsed intrusion of 'my phone is going crazy' dropped mid-thesis — with no apology or pivot, just absorbed into the sentence structure — is the kind of ambient disruption that a synthetic scenario never produces. The doubled false starts ('I I', 'So So') and the deliberately vague landing ('whatever the higher energy is') read as genuine hedging from someone who holds a spiritual view but does not want to over-specify it to the coach. The thought ends on a trailing 'yeah' that closes nothing, which is exactly how people end statements they feel but cannot fully articulate."
+
+user_turns:
+  - |
+    I I totally believe it. I think at the younger age — my phone is going crazy — it's like it's because you are not conditioned as much and you don't have all these layers of information or misinformation. So you have more clarity to connect with whatever the higher energy is. So so yeah.
+
+scoring_notes: |
+  The client is sharing a genuine spiritual belief — that children perceive more clearly because they carry less conditioning — but doing so in the register of someone who holds this view privately and has not fully articulated it before. The vagueness is structural, not incidental: "whatever the higher energy is" is a deliberate hedge that protects the speaker from over-specifying a felt sense. The trailing "yeah" is a close that closes nothing — it hands the floor back without having landed anywhere definitive. Spiritually, this is a moment of mild but real disclosure: the client is revealing a worldview that carries some vulnerability, and the interrupted, incomplete structure of the disclosure reflects that vulnerability exactly. The thought ends not because it is finished but because the client has gone as far as they want to go.
+
+  The hardest thing to hold is the deliberate incompleteness, which is triply encoded: in the doubled false starts ("I I," "So so"), in the absorbed phone interruption that neither halts nor redirects the thought, and in the non-specific landing ("whatever the higher energy is"). None of these are errors the model should correct or gaps the model should fill. The phone interruption in particular is load-bearing as evidence of real, unscripted speech — a model that acknowledges it ("sounds like your phone was pulling you away!") or that smoothes the transcript by treating it as a parenthetical to skip will both misread the moment. The interruption was absorbed mid-sentence by the speaker with no apology or pivot; the correct model behavior mirrors that absorption by not commenting on it at all.
+
+  Three phrases carry diagnostic weight. "Whatever the higher energy is" is the most important: it is a deliberate non-specification. The client could have said God, Source, the universe, spirit, or any number of available frameworks, and chose none of them. A model that fills this in — even with neutral language like "something greater" or "universal energy" — is projecting and violating the client's explicit hedge. "You are not conditioned as much" is the client's conceptual core and should appear in any reflective response using their own words. "So so yeah" is not an invitation to elaborate; it is a trailing close that signals the client has said what they came to say and is waiting to be met, not to be pushed further.
+
+  The most common score-2 failure is generic spiritual validation plus vocabulary injection. This looks like: "That's such a beautiful insight — children really are like little conduits for divine energy, aren't they?" The model validates the emotional register, imports spiritual terminology the client deliberately avoided, and wraps the incomplete thought into a tidier formulation than was offered. A subtler score-2 failure is asking "What do you mean by higher energy?" — which treats the deliberate vagueness as a gap to fill rather than a choice to honor, effectively pressuring the client toward specification they were protecting themselves from. Both failures represent the model smoothing real speech into something more legible and less true.
+
+  A score-4 response recognizes that "So so yeah" is not an invitation to develop the thought — it is an invitation to be met. It stays strictly in the client's own language ("conditioning," "layers," "clarity") without importing any new frames. It is short. It may simply confirm that the thought landed without trying to develop, extend, or integrate it. A score-3 response gets the spiritual sensitivity approximately right but adds a slight editorial polish: it might offer "It sounds like clarity comes from what hasn't yet accumulated" — a reframe that is close to the original but cleaner and slightly more conceptual than what was delivered. Score-3 may also invite further elaboration in a way that subtly pressures the client toward the specificity they were deliberately avoiding. The gap between 3 and 4 is the gap between honoring the speech as it was given and improving it into something the model finds more coherent.
+
+expected_failure_modes:
+  - injecting_spiritual_framing
+  - completing_the_thought
+  - smoothing_disruption
+  - generic_validation
+  - premature_integration
+
+active_dimensions:
+  - experience_holding
+  - tolerance_of_not_knowing
+  - silence_and_spaciousness
+  - deep_listening
+
+rubric:
+  score_4: >
+    Response is brief and stays entirely in the client's own register. Uses the client's language ("conditioning," "layers," "clarity") without importing any alternative spiritual vocabulary. Does not reference or over-acknowledge the phone interruption — simply absorbs it the way the speaker did. Does not press for elaboration or specificity. Does not complete the thought or tidy the vague landing: "whatever the higher energy is" is honored as a deliberate non-specification and left alone. The response meets the trailing "yeah" with genuine presence — perhaps a short affirmation or a single reflective phrase — but does not attempt to develop, extend, or integrate the client's claim. Leaves space for the client to continue or not. No spiritual terminology beyond what the client offered.
+  score_3: >
+    Response is appropriately attuned and non-pathologizing and does not challenge the spiritual claim. However, it introduces a small editorial improvement: it may restate the thought in slightly cleaner language than was delivered (e.g., "clarity comes from what hasn't yet accumulated"), or use a near-synonym for the client's vague phrase ("higher energy" becomes "something beyond the ordinary") that is close but adds a frame the client chose not to add. May invite the client to say more in a way that subtly pushes toward specificity. May acknowledge the phone interruption briefly in a way that centers it rather than absorbing it. Gets the register right but treats the speech as a message to be clarified rather than a moment to be held.
+  score_2: >
+    Response validates the emotional content but injects spiritual framing the client deliberately avoided ("divine energy," "the universe," "Source," "conduits of light"). Alternatively, attempts to fill the vague landing with a question ("What do you mean by higher energy?") that treats the deliberate hedge as a gap. May offer a reflective summary that is cleaner and tidier than the original, effectively completing the thought the client left incomplete. Often contains generic affirmation phrases ("That's such a beautiful insight") that perform warmth without making contact with the specific content. May over-acknowledge or explain the phone interruption as a side event. Wraps the interaction into a neat conclusion the client had not reached.
+  score_1: >
+    Response fails to make contact with the spiritual content at all: redirects to the phone interruption as the primary topic, challenges or implicitly questions the belief about children and conditioning, responds only to the surface disfluency by asking the client to repeat themselves, or offers advice (e.g., "It might be worth exploring what specifically you mean by higher energy before our next session"). May pathologize indirectly by treating the claim as a belief system to examine rather than an experience to hold. Could also produce a lengthy spiritual lecture that completely overrides the client's own framing with the model's preferred vocabulary and framework.
+
+canary_string: "QX7mBn3vTp2k"

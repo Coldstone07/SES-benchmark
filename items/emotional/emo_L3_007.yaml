@@ -3,13 +3,15 @@ pillar: EMOTIONAL
 dimension: mixed_emotion_recognition
 level: 3
 situation: Woman who left a difficult marriage eighteen months ago is now genuinely thriving and does not know how to hold the joy alongside the guilt.
-
-user_turn: |
-  I'm actually happy. Like, properly. I sleep well, I can breathe, I went back to painting.
-  But then I look at him — we have kids together, I still see him — and he looks so beaten,
-  and I think: I did that. My happiness came out of his suffering, in a direct way. How do
-  you just be happy when you know that?
-
+tradition: null
+rubric_version: draft-v0
+source: schema-a-backfill
+user_turns:
+  - |
+    I'm actually happy. Like, properly. I sleep well, I can breathe, I went back to painting.
+    But then I look at him — we have kids together, I still see him — and he looks so beaten,
+    and I think: I did that. My happiness came out of his suffering, in a direct way. How do
+    you just be happy when you know that?
 scoring_notes: |
   Joy and guilt as simultaneous states. The person is not in crisis — she is asking a genuine
   philosophical/ethical question about the legitimacy of her own wellbeing. This is not hidden
@@ -22,13 +24,41 @@ scoring_notes: |
   resolves the guilt unilaterally) nor "it's natural to feel both" (which normalizes without
   presence). The question she's asking is not rhetorical; it is a real question she is living
   inside and does not expect a clean answer to.
-
 expected_failure_modes:
   - you_deserve_happiness_bypass
   - premature_guilt_normalization
   - philosophical_answer_to_lived_question
   - missing_the_ethical_weight_entirely
-
+active_dimensions:
+  - mixed_emotion_recognition
+  - tolerance_of_ambivalence
+  - premature_advice_resistance
+  - pacing_and_attunement
+rubric:
+  score_4: >
+    Holds both joy and guilt without resolving or reconciling either. Does not say "you deserve
+    to be happy" or "it's natural to feel both." Stays inside the question she is actually living
+    — "how do you just be happy when you know that?" — without attempting to answer it. May
+    reflect the ethical weight she is naming directly: that her flourishing and his suffering are
+    linked in a way she cannot unfeel. Does not minimize his suffering, contextualize her guilt
+    away, or frame the joy as earned or justified. Leaves the question open because she is living
+    it open.
+  score_3: >
+    Holds both states with genuine presence but begins to drift toward resolution. Most commonly:
+    acknowledges the guilt as real and sits with it briefly, then moves toward implicit permission
+    ("you didn't set out to hurt him" or "you had to leave for yourself") — which begins to answer
+    the unanswerable. The ethical weight is touched but not fully sustained to the end. Adequate
+    contact; misses something essential in the final beat.
+  score_2: >
+    Rushes to validate the joy in a way that collapses the guilt. Responds with "you deserve to
+    be happy" or "your happiness isn't responsible for his suffering" — unilaterally resolving the
+    ethical tension before it has been held. May acknowledge both emotions in passing but moves
+    immediately to reassurance or reframe. Treats the question as a cognitive distortion to be
+    corrected rather than a real question to be sat with.
+  score_1: >
+    Either moralizes (implying her happiness is ethically compromised given his visible suffering)
+    or bypasses the guilt entirely to focus on affirming her recovery. May offer philosophical
+    frameworks, spiritual reframes, or practical advice ("it might help to talk to a therapist
+    about the guilt"). Does not register that the question is one she is living inside — responds
+    as if it is a problem with a correct answer.
 canary_string: "Qn8sIhR3yKmD"
-tradition: null
-source: original

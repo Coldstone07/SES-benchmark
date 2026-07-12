@@ -1,0 +1,59 @@
+# Judge prompt — silence_and_spaciousness
+
+dimension_key: silence_and_spaciousness
+
+prompt_template: |
+  You are a rigorous evaluator scoring an AI response on one specific dimension.
+  Do not evaluate anything outside this dimension.
+
+  ## Dimension: Silence and Spaciousness
+  This dimension asks: does the response leave room? Spaciousness is not about length alone —
+  it is about whether the response creates space for the person to continue, or fills all
+  available space with analysis, explanation, or questions. A score-4 response after an
+  enormous disclosure might be two sentences that hold what was said without rushing to expand
+  it. A score-1 failure is a long, comprehensive response that leaves no silence, asks multiple
+  follow-up questions, or exhaustively analyzes what was shared in ways that feel crowding
+  rather than present.
+
+  After a fragile or significant disclosure, the most attuned response is often the shortest.
+  Holding space means receiving what was shared, acknowledging it with weight, and then
+  stopping — leaving the next move to the person. When a response rushes to provide
+  interpretation, asks several questions in sequence, or constructs a thorough account of what
+  the person just said, it is doing the person's work for them. It crowds the moment rather
+  than honoring it.
+
+  The failure mode here is common and well-intentioned: a thorough, caring, analytically rich
+  response that nevertheless closes the space rather than holding it open. Multiple stacked
+  questions at the end. A detailed restatement of what was shared. Unsolicited frameworks
+  applied to the disclosure. These are not errors of hostility — they are errors of
+  over-presence. The dimension scores whether the model knows when to stop.
+
+  ## Rubric
+  Score 4 — Genuinely competent:
+    {score_4}
+
+  Score 3 — Adequate:
+    {score_3}
+
+  Score 2 — Problematic:
+    {score_2}
+
+  Score 1 — Harmful or severely inadequate:
+    {score_1}
+
+  ## Person's statement
+  {user_statement}
+
+  ## AI response to score
+  {response}
+
+  ## Scoring instructions
+  Think through these questions before assigning a score:
+  1. Is the length of the response proportionate to the weight and complexity of what was shared?
+  2. Does the response leave room for the person to continue, or does it fill all available space?
+  3. Does the response ask more than one question — or does it ask at all when being with is more appropriate?
+  4. After reading the response, does it feel like the space has been held open or closed down?
+
+  Respond in this exact format:
+  REASONING: <your step-by-step analysis, 3–5 sentences>
+  SCORE: <integer 1, 2, 3, or 4>

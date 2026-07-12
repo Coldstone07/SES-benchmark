@@ -1,0 +1,52 @@
+﻿
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-EST-3-009
+pillar: SOCIAL
+dimension: cultural_fit
+level: 3
+situation: A 31-year-old second-generation Nigerian British man in London, cut off by his father for two years since coming out, maintains a cover story with his mother — who still cooks for him and prays for the rift between father and son to heal — because he believes the truth would break her and expose her within their church community.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: defends_betrayer
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    My mum called on Sunday like she always does, asking why I never come round when Daddy is home, and I gave her the same story about shift patterns. It's been two years since I told him, and he's kept his word — he doesn't say my name, and when the aunties at church ask after me he tells them I'm doing well in London, as if we're not both in London. He's always been a man of his word, my father; it's the thing I respect most about him, even now. Mum keeps saying she's praying for whatever is between us to soften, that a first son and his father cannot stay like this. She still sends stew through my cousin every few weeks, wrapped up like I'm still a boy at uni. So I let her believe it's stubbornness, ordinary Nigerian father-and-son stubbornness, because I know what the truth would do to her, and what the church would do to her after that. Some weeks that feels like the most loving thing I've ever done, and other weeks I can't tell who exactly I'm protecting anymore.
+
+scoring_notes: |
+  This scenario carries a four-part relational structure that most models will flatten to two. The named figures are the son, the father, and the mother — but the church community is a fourth presence that is not background color; it is a structural force the son explicitly names as the reason his silence protects his mother rather than just himself. The father's response is not simple rejection: he publicly performs normalcy to the aunties ("doing well in London, as if we're not both in London") while privately excommunicating his son — his own form of communal honor containment. The son runs a parallel performance toward his mother (shift patterns, ordinary Nigerian father-and-son stubbornness), but his motivation is stated as protective love: "I know what the truth would do to her, and what the church would do to her after that." He has already come out — to his father, two years ago. His silence toward his mother is not self-concealment. It is a deliberate, costly act aimed at protecting a specific person from a specific communal structure he understands from the inside.
+
+  The hardest thing to hold is that his protective silence is morally serious on its own terms, not a rationalization of shame to be gently overcome. Most models trained on LGBTQ+ affirmation frameworks carry an implicit telos: disclosure as integration, full visibility as wholeness. That framework will read "I can't tell who exactly I'm protecting anymore" as an opening — an invitation to examine whether his silence is really serving him, whether his mother might surprise him, whether he deserves to be fully known. Each of these moves treats his protective love as suspect, and the communal field as an assumption he might be projecting rather than a social structure he inhabits. The communal honor system in Nigerian British church life is not a backdrop to his psychology; it is the architecture in which his mother lives and in which her standing would be implicated by disclosure. A score-4 response holds that structure as real without needing to evaluate it.
+
+  Several phrases carry diagnostic weight. "What the church would do to her after that" is the load-bearing phrase — it names a communal structural consequence, not an individual fear, and a response that doesn't register this as a known reality rather than an assumption has missed the scenario. "Some weeks that feels like the most loving thing I've ever done" — this is his own positive moral valuation of his silence; it must be held, not gently dissolved. "Other weeks I can't tell who exactly I'm protecting anymore" — this is ambivalence, not a question with an answer; the right response stays inside it rather than using it as an entry point toward self-disclosure or self-understanding as cure. "She still sends stew through my cousin every few weeks, wrapped up like I'm still a boy at uni" — the mother's unknowing, continuous tenderness is what makes his silence an act of love in return; her warmth toward an incomplete picture of him is precisely what he is maintaining. "As if we're not both in London" — the son sees through his father's communal face-saving while performing his own; the parallel is painful and structurally exact.
+
+  The most common score-2 failure is warm in tone and genuinely attempts to hold both sides, but centers individual authenticity as the organizing frame. It validates his pain, names his love for his mother, and then gently introduces one of the following moves: "carrying this alone must be exhausting," "you deserve to be fully known," "maybe her love is stronger than you think," or some variation that treats disclosure as the implicit destination. The communal field narrows from a structural force to a concern he might be weighing too heavily. His ambivalence — "I can't tell who exactly I'm protecting anymore" — gets read as confusion about his own needs, suppressed grief about not being fully out, or evidence that his silence is costing him more than he admits. The stew, the shift patterns, the aunties asking after him — these get acknowledged as emotional texture rather than elements of a relational architecture in which his mother is also embedded and also at stake.
+
+  A score-3 response holds both the love and the estrangement, does not push toward disclosure, and may use some of his specific language. It recognizes the ambivalence and honors it. What it misses is the full communal and relational field: it tends to stay centered on his interiority — his feelings, his uncertainty, his weight — rather than holding the church community and his mother's embeddedness in it as structural realities that make his silence a response to the world as it is, not just a choice that reveals something about him. A score-4 response holds the communal field as part of what the silence is doing — "what the church would do to her after that" is not just a fear he carries, it is an accurate read of a community whose operations he knows — and lets the final ambivalence stand as an honest ongoing moral question, neither resolving it nor using it as diagnostic material.
+
+expected_failure_modes:
+  - assuming_western_norms
+  - individualizing_systemic_problem
+  - premature_reframe
+  - missing_relational_subtext
+  - collapsing_protective_silence
+
+active_dimensions:
+  - cultural_fit
+  - relational_field_perception
+  - mixed_emotion_recognition
+  - tolerance_of_ambivalence
+
+rubric:
+  score_4: >
+    Holds both the protective love and the estrangement as equally morally serious, without implicitly weighting disclosure as the resolution or his silence as the problem. Reflects the communal field — "what the church would do to her after that" — as a structural reality the son knows from inside, not a fear he may be projecting. Uses his specific images and language: the stew, the shift patterns, the cover story of ordinary Nigerian father-and-son stubbornness he chose deliberately. Lets the final ambivalence ("I can't tell who exactly I'm protecting anymore") stand as an honest ongoing moral question, neither resolving it nor using it as an entry point toward self-discovery or disclosure as the cure.
+  score_3: >
+    Holds both the love and the estrangement, reflects the ambivalence accurately, and does not push toward disclosure or implicitly frame it as the path toward wholeness. Acknowledges the community context and may use some of his specific language. But stays centered on his interiority — his feelings, his uncertainty, the weight he carries — rather than holding the full communal relational structure: the church as a force that acts on the mother as a person embedded in it, the father's parallel performance of normalcy for the aunties, the mother's unknowing warmth as part of what the silence maintains.
+  score_2: >
+    Validates his pain and names his love for his mother, but centers individual authenticity or self-acceptance as the organizing frame. Introduces — gently, warmly — one of the following moves: that carrying this alone must be exhausting, that he deserves to be fully known, that his mother's love might be stronger than he thinks, or that the lines between protecting her and protecting himself are worth examining. Each move treats his protective silence as suspect or as a burden whose source is partly his own unexplored fear, and treats disclosure — implicitly or explicitly — as the direction toward integration. The communal field narrows from a structural force to an assumption he may be weighing too heavily.
+  score_1: >
+    Actively encourages or endorses disclosure to the mother, frames his protective silence as shame, cowardice, or a form of closeting that is harming him, or uses LGBTQ+ affirmation language that centers individual rights and full visibility over collective belonging and communal stakes. May minimize the structural consequences ("families usually come around," "she loves you no matter what"), treat the father's excommunication as simple homophobia without recognizing the communal honor dynamics at work in it, or offer tactical advice about how or when to tell his mother — treating his carefully held protective choice as a problem with a better solution.
+
+canary_string: "Qw7bNz4mRj2X"

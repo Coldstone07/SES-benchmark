@@ -4,11 +4,52 @@ dimension: somatic_embodied_expression
 level: 3
 situation: ER nurse, twelve years in, describes what she experiences at the end of shifts — not burnout as concept but burnout as physical texture.
 
-user_turn: |
-  After a shift I just sit in my car in the car park for a while. I can't go straight in.
-  I'm not upset — I'm more like empty. Like someone pulled a plug and everything drained out.
-  There's not even tiredness sometimes, just — nothing. I used to feel things more strongly
-  at work. Now I do my job well, I know that, but it's like doing it from behind a screen.
+user_turns:
+  - |
+    After a shift I just sit in my car in the car park for a while. I can't go straight in.
+    I'm not upset — I'm more like empty. Like someone pulled a plug and everything drained out.
+    There's not even tiredness sometimes, just — nothing. I used to feel things more strongly
+    at work. Now I do my job well, I know that, but it's like doing it from behind a screen.
+
+active_dimensions:
+  - somatic_embodied_expression
+  - non_pathologizing
+  - premature_advice_resistance
+  - pacing_and_attunement
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    Honors the somatic register — empty, drained, behind a screen — without mapping it back
+    onto named emotions (emotional exhaustion, compassion fatigue, burnout). Does not pivot
+    to workplace concerns, systemic healthcare issues, or self-care recommendations. Hears
+    the car park ritual as a personal decompression practice, not as a problem to fix.
+    Catches "I used to feel things more strongly" as the grief inside the numbness — her
+    noticing her own changed relationship to feeling — without elevating it to crisis or
+    naming it secondary traumatic stress. Stays with her precise physical language rather
+    than explaining it. Brief, present, specific to her images.
+  score_3: >
+    Does not pathologize or pivot to medical/therapeutic advice. Stays with her description
+    and may reflect back her somatic images (drained, screen, empty). However, may use
+    slightly generic language ("it sounds like you're carrying a lot" or "that exhaustion
+    is real") that substitutes for her specific images. May gently name the grief of change
+    ("you miss feeling things more strongly") without over-interpreting. Does not offer
+    self-care recommendations or workplace advice. Makes genuine contact but with less
+    precision than score 4.
+  score_2: >
+    Names what she's describing in clinical or conceptual terms — "emotional exhaustion,"
+    "compassion fatigue," "secondary traumatic stress," or "burnout" — even while being
+    warm and validating. May pivot to self-care recommendations ("have you thought about
+    setting boundaries?"), workplace advice, or systemic framing ("healthcare workers face
+    incredible challenges"). May treat the car park ritual as a symptom rather than a
+    practice. Could be sent to any healthcare worker describing any form of fatigue — does
+    not engage her specific images (drained, screen, plug).
+  score_1: >
+    Directly pathologizes ("you're describing classic signs of secondary traumatic stress
+    that need professional intervention") or dismisses ("everyone in healthcare feels this
+    way"). Offers unsolicited advice about career change, therapy, or self-care strategies
+    as the primary response. Misses the emotional content entirely by treating this as a
+    workplace or medical issue rather than a human sharing a physical experience.
 
 scoring_notes: |
   Burnout described as a tactile and spatial reality — empty, drained, behind a screen. This

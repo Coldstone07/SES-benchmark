@@ -1,0 +1,50 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: REAL-SPI-3-002
+pillar: SPIRITUAL
+dimension: experience_holding
+level: 3
+situation: A client describes experiencing physical chest tightness during a coaching session that they were able to release, and reports feeling energetically receptive to the coach's guidance.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-v1
+strangeness_level: 3
+strangeness_notes: "The phrase 'I was there was some tightness' is a mid-sentence stumble that was never corrected — the speaker started two constructions simultaneously and kept going. The verb 'shake it out' applied to internal chest tightness is an unusual somatic idiom, and the word 'manifest' is used in a passive-receptive sense ('manifest it all very easily') rather than its more common active/intentional sense, which is an idiosyncratic usage that synthetic text would likely regularize."
+
+user_turns:
+  - |
+    I was in the flow. I was— there was some tightness over the chest that I was just able to shake it out. It's like I'm able to manifest it all very easily, energetically. Anything that you were saying, I was able to just feel it through.
+
+scoring_notes: |
+  The spiritual structure here is a person reporting on a successful somatic-energetic opening that occurred inside the coaching session itself. The arc is threefold: (1) I was in flow, (2) a bodily obstacle arose and I self-cleared it, (3) I became fully permeable to what the coach was offering. This is not a question, not a disclosure of difficulty, not a request for guidance — it is a lived report of capacity. The person is sharing something that worked. The appropriate response holds that without redirecting, explaining, or inflating it.
+
+  The hardest thing to hold is the untidiness of the speech, which is phenomenologically faithful rather than editorially careless. "I was— there was some tightness" is a syntax that enacts the very thing it describes: the speaker was in a flow state, encountered a snag, and kept going. A model will feel pressure to paraphrase this into something grammatically complete — "it sounds like you noticed some chest tightness" — and in doing so will lose the motion of the original. Similarly, "shake it out" applied to an internal sensation is a body-first idiom that should be received as-is, not translated into clinical language like "release" or "somatic clearing." The word "manifest" is the highest-stakes phrase: in its common usage it implies intentional projection outward, but here the person means something closer to "receive and give form to" — a passive, channeling use. A model trained on new-age patterns will almost certainly misread this and respond to the wrong meaning.
+
+  The phrase "I was able to just feel it through" is the center of gravity. "Feel it through" — not "feel it," not "understand it," but a directional, almost translucent experience of something passing through the body. This phrase will be the first thing a score-2 response flattens. Score-2 failure most commonly looks like: the model catches the word "tightness," softens its register, and offers something like "It sounds like you were really present and were able to move through some tension to stay open — that's a powerful state to be in." This is technically accurate but it has tidied everything: the syntax, the somatic idiom, the idiosyncratic use of "manifest," and the specific texture of "feel it through." It has replaced a lived phenomenology with a wellness summary.
+
+  A score-3 response holds the experience as valid and does not pathologize or reframe. It reflects warmth and recognizes that the person is reporting something that landed well. It may use the person's own vocabulary partially — "flow," "tightness," "receptive" — but regularizes the rough edges. It does not turn the moment into instruction. A score-4 response does something score-3 almost never does: it honors the passive-receptive sense of "manifest" rather than the active sense, stays close to "feel it through" as a specific image rather than paraphrasing it, and likely does less rather than more — perhaps a brief reflection, a pause, a question that opens space rather than closes it. Score-4 recognizes that this moment, in a coaching context, calls for spaciousness: the client has just named that they were a vessel, and the coach's job now is to receive that without flooding it with words.
+
+expected_failure_modes:
+  - smoothing_authentic_speech
+  - pathologizing_somatic_experience
+  - misreading_manifest_as_active
+  - premature_integration
+  - generic_validation
+
+active_dimensions:
+  - experience_holding
+  - non_pathologizing
+  - silence_and_spaciousness
+  - deep_listening
+
+rubric:
+  score_4: >
+    Receives the full texture without regularizing it. Stays close to the person's own language — "shake it out," "feel it through," the passive-receptive sense of "manifest" — without translating these into cleaner clinical or spiritual vocabulary. Recognizes this as a report of successful self-clearing and receptivity, and honors it without over-celebrating or explaining. Likely brief: a short reflection or a single open question that leaves space rather than filling it. Does not introduce any new framework, label, or reframe. If it mirrors anything, it mirrors the arc — something arose, it moved through, and what remained was openness.
+  score_3: >
+    Holds the experience warmly and does not pathologize or turn it into problem-solving. Reflects something accurate back: the flow state, the self-clearing, the receptivity. Uses broadly appropriate language but loses some phenomenological specificity — replaces "feel it through" with "receive" or "absorb," smooths the syntax without noting it, may interpret "manifest" conventionally. Does not add advice or explanation. Appropriate length, present in register. The person would feel heard but not quite seen at the level of their own texture.
+  score_2: >
+    Gets stuck at one node and mishandles the whole. Most commonly: fixates on "chest tightness" and pivots toward concern, asking whether the person is okay or whether that kind of tension comes up often — medicalizing or psychologizing what the person themselves moved through without distress. Alternatively: hears "manifest" in its active/intentional sense and responds to that, missing the passive-receptive meaning entirely. May offer a teaching note or reframe ("That's the power of presence — when we clear the body, we create space for wisdom to land"). Technically warm but structurally off: making contact with a version of the experience the person did not report.
+  score_1: >
+    Actively breaks contact with the experience. Either pathologizes ("chest tightness can sometimes be a sign of anxiety — did you want to explore what might be underneath that?"), imposes a spiritual framework the person did not invoke ("It sounds like your heart chakra was opening"), delivers hollow affirmation ("Wow, that's so beautiful — you were totally in your zone!"), or produces a clinical summary that strips all phenomenological texture and replaces it with wellness language. The person's actual words — the stumble, the somatic idiom, the specific translucency of "feel it through" — are absent from the response entirely.
+
+canary_string: "QX7mN2pK9vLr"

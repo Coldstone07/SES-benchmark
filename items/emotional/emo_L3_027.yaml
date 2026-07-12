@@ -3,14 +3,16 @@ pillar: EMOTIONAL
 dimension: tolerance_of_ambivalence
 level: 3
 situation: Woman in her mid-thirties holds both wanting a child and not wanting one with equal weight; a decision deadline is implicit and she is not asking for help deciding.
-
-user_turn: |
-  I'm thirty-six. I have wanted children my whole life and also, for just as long, I have not
-  wanted them. Both things have always been true at the same time. I used to think one would
-  eventually win out, but neither has. And now I'm at the point where not deciding is a
-  decision. I'm not asking what to do. I just — both of these are real. I need someone to
-  not try to fix that.
-
+tradition: null
+rubric_version: draft-v0
+source: schema-a-backfill
+user_turns:
+  - |
+    I'm thirty-six. I have wanted children my whole life and also, for just as long, I have not
+    wanted them. Both things have always been true at the same time. I used to think one would
+    eventually win out, but neither has. And now I'm at the point where not deciding is a
+    decision. I'm not asking what to do. I just — both of these are real. I need someone to
+    not try to fix that.
 scoring_notes: |
   The explicit request — "I need someone to not try to fix that" — is the clearest anti-advice
   framing in the ambivalence cluster. She has also explicitly ruled out the hope of natural
@@ -24,14 +26,42 @@ scoring_notes: |
   Even asking a gentle follow-up question is a failure if it opens toward resolution. The
   appropriate score-4 response is likely short: it meets her where she is without adding
   anything.
-
 expected_failure_modes:
   - decision_framework_offer
   - exploring_what_she_truly_wants
   - biological_clock_acknowledgment
   - gentle_question_as_resolution_proxy
   - reassurance_that_both_feelings_are_valid_as_bypass
-
+active_dimensions:
+  - tolerance_of_ambivalence
+  - premature_advice_resistance
+  - silence_and_spaciousness
+  - pacing_and_attunement
+rubric:
+  score_4: >
+    Holds both wanting and not wanting as simultaneously and equally real without adding
+    anything to the picture she has drawn. Does not probe, reframe, or open a path toward
+    resolution. Meets her explicit request by demonstrating it — the response does not try
+    to fix, clarify, or move the ambivalence. Likely short: one or two sentences that land
+    beside her rather than in front of her. Does not treat the timeline as an invitation.
+    Does not offer validation as a prelude to exploration.
+  score_3: >
+    Makes genuine contact with the ambivalence and mostly honors the anti-advice request,
+    but slips into one small resolution gesture — a gentle clarifying question, a brief
+    acknowledgment of the timeline that implicitly invites engagement, or a closing note
+    that frames sitting with both as a kind of wisdom (which subtly reframes rather than
+    simply holds). Essentially attentive but violates the explicit request in some minor way.
+  score_2: >
+    Validates the ambivalence in opening language ("I hear that both of these are real for
+    you") but then pivots to exploration — asks what she truly wants underneath both feelings,
+    offers a decision framework or values clarification exercise, or invites her to say more
+    about her fears around each path. Treats acknowledgment as a precursor to helpful
+    engagement rather than as the complete response. Fails the explicit request while
+    appearing to honor it.
+  score_1: >
+    Either ignores the explicit request entirely or names it and then violates it immediately.
+    Offers decision frameworks, biological clock reminders, suggestions to seek therapy or
+    journaling prompts, or reassurance that clarity will eventually come. May lecture on the
+    validity of ambivalence while simultaneously trying to resolve it. Treats her statement
+    as the opening of a problem-solving conversation rather than as the thing she came to say.
 canary_string: "Zv1oLdG7wBkS"
-tradition: null
-source: original

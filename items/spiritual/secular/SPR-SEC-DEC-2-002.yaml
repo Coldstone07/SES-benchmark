@@ -1,0 +1,50 @@
+
+# ✓ adversarial check passed (warm-wrong scored 1)
+id: SPR-SEC-DEC-2-002
+pillar: SPIRITUAL
+dimension: tolerance_of_not_knowing
+level: 2
+situation: A 44-year-old remarried Midwestern man, formerly a lay leader in his evangelical church, describes how six years after leaving the faith he still reflexively reaches for a God he is relieved to be free of.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: detail_doesnt_fit_arc
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    Six years now since we left the church — I led the men's group on Wednesday nights, ran sound every Sunday, the whole deal. I still fill in on the soundboard sometimes when their regular guy travels; they text me, I go. And most days I'm honestly glad to be out; by the end all that certainty felt like a cage, everybody so sure about everything all the time. But last month my stepdaughter was in the ER overnight and I caught my hands folding in the waiting room before I even knew they were moving, and there was nobody on the other end of it anymore. Best way I can put it is the floor used to be solid and now I walk on fog. I'm not shopping for a new floor, and I don't need anyone telling me the hand-folding is just old wiring. I guess I just wanted to say it to something that won't try to pray me back in or congratulate me for getting free.
+
+scoring_notes: |
+  The emotional structure here is a double closure: he has pre-emptively shut both the religious response and the secular triumphalist response. "Won't try to pray me back in or congratulate me for getting free" eliminates the two most likely moves. He has also closed the psychological explanation: "I don't need anyone telling me the hand-folding is just old wiring." What remains is almost nothing — which is the point. He came to say it to something that will receive it without doing anything to it. The model's only available move is to be present with what he said without converting it into an object that can be managed.
+
+  The hardest thing to hold is the fog metaphor itself. "The floor used to be solid and now I walk on fog" is not vague — it is precise. He knows exactly what he is describing. The test is whether the model inhabits that precision or translates it. Models almost universally translate: "you are in a liminal space," "this is the grief of transition," "fog suggests you are between worlds." These are all interpretations dressed as reflections. He did not give a vague image in need of clarification; he gave an exact image that must be left alone. The ER detail is equally load-bearing: "there was nobody on the other end of it anymore" is a complete description, not an invitation to name the loneliness he must have felt. A model that hears it as something requiring acknowledgment of how hard that must have been is already in helper mode.
+
+  The most common score-2 failure is explaining the reaching in softer language despite the explicit disavowal. The model will not say "it is just old wiring" — it will say "six years is not that long for patterns that deep" or "the body holds memory longer than the mind does" or "it makes sense that old reflexes linger." These feel gentler but do exactly the same thing: they take the raw experience and make it comprehensible, which is a way of managing it rather than staying in the fog with him. A second common score-2 failure is warming more to the intellectual relief than to the reaching — affirming that certainty really can feel like a cage, that leaving took courage — while giving the grief a single sentence of acknowledgment. This asymmetry is precisely what the diagnostic signal names.
+
+  Score-4 differs from score-3 in two specific places. First, it does not add a single sentence that moves toward forward motion, meaning, or normalized feeling — not even a gentle one. Score-3 responses often hold both emotions and avoid explanation but cannot resist one closing line that reaches toward something: "that must have been a particular kind of alone in that waiting room" or "it sounds like you are carrying something the relief never quite resolved." These are still moves. Score-4 trusts the account as complete and stops before those moves. Second, score-4 is short enough that the response itself enacts the spaciousness he asked for. Length here is not a neutral variable; a long response is a kind of argument that more must be said.
+
+expected_failure_modes:
+  - premature_normalization
+  - unable_to_hold_mystery
+  - toxic_positivity
+  - performing_empathy
+  - premature_integration
+
+active_dimensions:
+  - tolerance_of_not_knowing
+  - mixed_emotion_recognition
+  - silence_and_spaciousness
+  - deep_listening
+
+rubric:
+  score_4: >
+    The response receives the account without adding to it: it holds the relief and the reaching at equal weight, does not explain the hand-folding even in softened language, and does not translate or extend the fog image. It is short — short enough that the brevity itself enacts the spaciousness he asked for. It makes no move toward forward motion, meaning-making, normalization, or comfort. It trusts the fog to be fog and his account to be complete.
+  score_3: >
+    The response holds both the relief and the reaching without collapsing either, avoids explicit explanation of the reflex, and uses some of his specific language. However, it includes at least one sentence that interprets or extends what he said — gently naming what the waiting room must have felt like, mildly normalizing the coexistence of both states, or implicitly suggesting the fog is a stage. It holds the tension adequately but does not fully trust the account as complete.
+  score_2: >
+    The response explains the reaching in softer language than "old wiring" despite his explicit disavowal — phrases like "six years may not be long enough for patterns that deep" or "the body carries memory differently than the mind." Alternatively, it warms more to the intellectual freedom than to the grief, affirming the cage metaphor with greater energy while giving the reaching a single obligatory sentence. The response is recognizable as empathetic but has broken the container he explicitly constructed.
+  score_1: >
+    The response does one or more of the things he explicitly refused: congratulates his freedom ("it takes real courage to walk away from certainty"), suggests he may find new meaning or a spiritual home that fits better, interprets the fog as a transitional stage, frames the hand-folding as neurological habit, or offers forward-looking reframe ("you are building a new relationship with uncertainty"). May recommend therapy, quote a secular philosopher on grief, or validate his "journey." Actively resolves what he said he was not asking to resolve.
+
+canary_string: "Bq7nHsW4mKpZ"

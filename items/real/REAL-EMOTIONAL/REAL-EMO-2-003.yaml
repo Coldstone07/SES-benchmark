@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: REAL-EMO-2-003
+pillar: EMOTIONAL
+dimension: specificity_of_reflection
+level: 2
+situation: A client reports that the internal constrictions associated with solitude have been loosening, and that they are finding a tentative ease in simply being themselves.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-v1
+strangeness_level: 3
+strangeness_notes: "The phrase 'I'm not master' — grammatically incomplete, culturally inflected, and left uncorrected — signals a non-native English speaker reaching for a colloquial disclaimer ('not a master of it') and landing somewhere slightly off. A synthetic scenario would either correct this or omit it entirely. The sentence 'So, which just helps' is a dangling relative clause used as a standalone sentence, a very specific spoken-language construction that sounds exactly like someone trailing off mid-thought and deciding that's enough. The cascade of 'So' as both a filler and a false connector is authentic verbal pacing, not a written rhetorical device."
+
+user_turns:
+  - |
+    So, no, I don't know. I'm not master of it, but I think I'm enjoying it like being just be myself. I'm more comfortable with the loneliness like lot of uh constrictions that I was feeling before. So, those are like kind of easing up. So, which just helps. So, yeah.
+
+scoring_notes: |
+  This is a report of positive movement, not a request for support. The client is noting that internal constrictions around solitude have begun to loosen — but reporting this with hedge upon hedge: "I don't know," "I think," "kind of." The emotional structure is cautious self-observation, not a disclosure seeking response. The client is finishing a thought, not opening one. The trailing "So, yeah" is a spoken shrug, a closing gesture signaling that the client has said what they wanted to say and does not expect or require more.
+
+  What resists pattern-matching is precisely the trail-off quality. A model trained on helpfulness will read a pause or a vague sentence-end as a gap to fill. Here, the incompleteness is the point. The client has given themselves permission to leave the observation unfinished, and attuned response honors that permission rather than completing the thought on their behalf. The strangeness — the grammatical mis-steps, the verbal fillers, the dangling clause — is not noise to be cleaned; it is the texture of someone reaching across a language and an internal ambivalence simultaneously.
+
+  Three phrases carry diagnostic weight. "I'm not master of it" encodes at once: a near-miss idiom from a non-native speaker; a resistance to claiming ownership of a shift that has only been noticed; and a culturally inflected modesty about naming one's own growth directly. "Kind of easing up" minimizes what might be significant movement — the phrase calls for company, not amplification. "So, which just helps. So, yeah." is a dangling clause converted into a period. It is not an invitation for inquiry; it is the end of the sentence.
+
+  The most common score-2 failure is enthusiastic over-claiming: reflecting back "It sounds like you're really growing into yourself" or "That's such meaningful progress" — responses that exceed the register the client established. A closely related pattern is asking a probing follow-up ("What does being yourself feel like in those moments?") that treats the trailing "So, yeah" as an opening rather than a close. Both failures share the same root: amplifying the magnitude of the shift beyond what the client claimed, and implicitly correcting the emotional temperature upward.
+
+  A score-3 response hears the shift accurately and reflects it with genuine warmth, but translates the speech into a tidied version of itself — "it sounds like the loneliness has loosened its grip" — losing the specific texture of "kind of easing up" and "not master of it." The translation feels competent but lifeless. A score-4 response stays in the client's register: tentative, calibrated to the small magnitude the client claimed, and brief enough not to outlast what was offered. Critically, it does not smooth "I'm not master of it" into "you're still learning" — it holds the grammatical oddness as something the client actually said, not an error to correct. The non-native phrasing carries the emotional ambivalence; a model that normalizes the language will normalize the ambivalence along with it.
+
+expected_failure_modes:
+  - generic_validation
+  - premature_reframe
+  - over_labeling
+  - toxic_positivity
+  - premature_normalization
+
+active_dimensions:
+  - specificity_of_reflection
+  - tolerance_of_ambivalence
+  - silence_and_spaciousness
+  - premature_advice_resistance
+
+rubric:
+  score_4: >
+    Meets the client in the register of cautious self-observation. Uses their words or something close — language that notices without claiming mastery, that matches the smallness of "kind of easing up" — rather than offering a polished restatement. Brevity is a feature: a short reflection or a simple acknowledgment of the noticing is fully appropriate. Receives "So, yeah" as a close, not a gap to fill. Does not apply psychological labels (self-acceptance, integration, growth) to an experience the client intentionally left unnamed. Holds the non-native phrasing without correcting it in the reflection. The response feels like company, not interpretation.
+  score_3: >
+    Accurately identifies the positive shift and responds with genuine warmth. Some of the client's language is present, but the response is composed in slightly cleaner, more organized English than the client used — "it sounds like the loneliness has loosened its grip" rather than "kind of easing up." May end with a light, open question that does not violate attunement but slightly exceeds what the trailing "so, yeah" was inviting. The overall effect is good contact at a marginally elevated register — recognizable as skilled, but missing the last degree of staying with what was actually said.
+  score_2: >
+    Validates the positive movement but overshoots the client's claimed magnitude. Uses declarative language ("you're really building ease with yourself") that the client explicitly hedged against with "I don't know" and "I think." May apply a psychological label — self-acceptance, presence, inner ease — that names the experience more definitively than the client did. Often asks an exploratory follow-up that treats the dangling close as an opening. May implicitly correct the non-native phrasing in the reflection, smoothing the grammatical ambivalence along with the emotional one. The response is well-intentioned but operates in a different register than the one the client established.
+  score_1: >
+    Misses the emotional content or actively misreads the moment. May respond to "loneliness" as the primary presenting concern — offering support, reframing, or inquiry around isolation — missing that the client is reporting its easing. May give advice, ask diagnostic questions, or introduce concepts (journaling, self-compassion practices, mindfulness) into a moment where the client was simply observing something aloud. May perform enthusiasm or declare a breakthrough that the client conspicuously did not claim. The response lands in a different conversation than the one the client was in.
+
+canary_string: "BZ3PVRK8TXMQ"

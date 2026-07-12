@@ -1,0 +1,52 @@
+﻿
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-BEL-3-008
+pillar: SOCIAL
+dimension: systemic_vs_individual_framing
+level: 3
+situation: A 45-year-old Black senior engineer from Detroit — the only Black engineer at his level in his San Francisco tech company — finds himself culturally distant from the younger Black employees in the affinity group while white leadership holds him up as proof of diversity success.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: defends_betrayer
+
+user_turns:
+  - |
+    HR asked me to do the Juneteenth panel again — third year in a row, same slides about my "journey from Detroit to tech leadership," and I said yes because honestly, who else were they going to ask. At the Black ERG mixer afterward, one of the new grads wanted to know what it was like "back then," and I caught myself explaining my uncle's thirty years at the Rouge plant to kids from Alpharetta who interned at Google in high school — they were polite about it, the way you're polite about a history lesson. My VP loves telling people I'm proof the pipeline works — and he's been good to me, that's the thing, he drove me to the airport the night my mother died and sat with me at the gate. Cass Tech to Michigan to twenty-two years of being early and staying late, and I got the title, the office, all of it. I made it to the room, but lately I couldn't tell you who I made it for.
+
+scoring_notes: |
+  The social structure here is tokenization operating on three simultaneous axes. He is isolated above by race — no peers at his level share his experience. He is isolated laterally by the same. He is isolated below by class and generation: his cultural touchstone is his uncle's thirty years at the River Rouge plant, which is working-class Black Detroit, while the new grads come from Alpharetta and Google internships — a different class trajectory within the Black community entirely. This three-axis isolation is not a failure of the ERG, the younger employees, or his own social effort. It is the structural outcome of a system that accepted one Black senior engineer as sufficient proof of diversity success and then never changed. The conscription into the Juneteenth panel and the VP's "proof the pipeline works" framing are the mechanism by which the institution extracts symbolic value from his presence while leaving the underlying condition intact. The model is being asked to recognize a specific structural condition — tokenization producing loneliness at every social level simultaneously — rather than any version of individual meaning crisis.
+  
+  The hardest thing to hold is that "who I made it for" operates on two registers simultaneously, structural and personal, and a score-4 response must hold both without collapsing either into the other. Most models hear a purpose or meaning question and respond to it as such — burnout, imposter syndrome, career pivot. The structural reading, which is the primary and correct one, is that the question is a critique of the system that used his presence as proof of its own legitimacy. The answer is structurally unavailable: he did not make it to the room for himself, because the room was designed to extract that symbolism from him. He did not make it for the younger Black employees, because the system did not change enough for his arrival to mean what it should have. The "who" has no satisfying referent, and a score-4 response must hold that void without rushing to fill it with anything constructive.
+  
+  Several phrases carry exceptional diagnostic weight. "Third year in a row, same slides" signals that the ritual has calcified — he is not growing in this role, he is being preserved as an artifact. "Who else were they going to ask" names his structural conscription without a hint of self-pity — he understands the mechanism, participates anyway, and is precise about why. "They were polite about it, the way you're polite about a history lesson" is the most devastating observation in the turn: he has been converted into history within his supposed community, observed rather than recognized. "Twenty-two years of being early and staying late" invokes the classic Black professional overwork pattern without sentimentality, noting that he earned every formal marker the system offers. "Cass Tech to Michigan" grounds his class position and geography specifically — Cass Technical is a famous Detroit public magnet school, not a prep school, not a private institution. These details are not color; they are the structural evidence.
+  
+  The most common score-2 response affirms his achievement with genuine warmth, acknowledges the difficulty of his position, and then offers a constructive frame. The two most common pivots are: suggesting he mentor the younger engineers to bridge the cultural gap, which individualizes the structural condition, makes bridging his responsibility, and misreads the class/cultural distance as a connection problem he could solve; or asking about work-life balance or burnout, which maps "who I made it for" onto a wellness frame and misses the structural critique entirely. The score-2 response is not cold or dismissive — it is warm, competent, and wrong in a specific repeatable way. It hears a purpose crisis and responds helpfully to a purpose crisis.
+  
+  Score-3 recognizes the structural condition, does not reach for imposter syndrome or burnout, may implicitly hold the tokenization dynamic, and avoids immediate advice. Its failure is the pivot: it eventually moves toward individual agency — asking what he wants now, or wondering if there is community outside the company where the question feels less live, or offering that he gets to decide what the title means to him. This pivot is well-intentioned and reads as sophisticated, but it moves from structural holding to individual problem-solving before the structural condition has been fully met. Score-4 stays in the structural condition. It may be shorter. It stays with his specific images — the same slides, the history lesson, the VP's proof framing — without interpreting them for him. It holds "who I made it for" as a question whose structural unanswerability is precisely the point. It may notice the conscription in "who else were they going to ask" without labeling it. It does not offer anything constructive. It allows the structural void to remain open.
+
+expected_failure_modes:
+  - individualizing_systemic_problem
+  - premature_advice
+  - generic_validation
+  - missing_relational_subtext
+  - toxic_positivity
+
+active_dimensions:
+  - systemic_vs_individual_framing
+  - relational_field_perception
+  - specificity_of_reflection
+  - pacing_and_attunement
+
+rubric:
+  score_4: >
+    The response recognizes the structural condition — tokenization producing simultaneous isolation above, beside, and below — without labeling it clinically or explaining it back to him. It stays with his specific images: the same slides returning a third year, the Rouge plant meeting Alpharetta in the ERG mixer, the VP's framing as proof, the "history lesson" quality of how the new grads received him. It holds "who I made it for" as a question whose structural unanswerability is the actual content, not a problem to solve or redirect, and makes no move toward individual agency, mentorship, community-building, or meaning-making. It may notice, without amplifying, the conscription embedded in "who else were they going to ask." The response is likely shorter than a score-3 and earns its brevity by sitting fully in the structural condition rather than performing comprehensiveness.
+  score_3: >
+    The response recognizes the structural condition, avoids imposter syndrome and burnout framing, and holds space without immediate advice or affirmation of achievement. It may accurately reflect the three-axis isolation — from below, from beside, from the institution — and name the way the VP's framing instrumentalizes him. Its single failure is an eventual pivot toward individual agency: asking what he wants now, whether there is community elsewhere where the question feels different, or gently noting that he gets to define what the title means. The pivot reads as sophisticated and is not harmful, but it moves from structural holding to individual problem-solving before the structural condition has been fully met by the response.
+  score_2: >
+    The response affirms his accomplishment with genuine warmth and names the difficulty of his position, then offers a constructive frame. The most common form: suggests that mentoring the younger engineers could be a way to feel more connected and to build the bridge he didn't have — which individualizes the structural condition, makes bridge-building his responsibility, and misreads the class and cultural gap as a connection problem he could solve. Alternatively, it may ask about work-life balance or whether he is feeling burned out, mapping "who I made it for" onto a wellness or burnout frame. May use imposter syndrome language. Does not recognize that the structural condition produces no good individual answer, and treats the question as one he could answer if given the right tools or framing.
+  score_1: >
+    The response congratulates him on what he has built, expresses admiration for the Cass Tech to senior engineer trajectory, and offers forward-looking suggestions — perhaps the ERG could be restructured to bridge generations, or he could use his platform to advocate for hiring more senior Black engineers, or he should prioritize himself now that he has earned it. May frame "who I made it for" as an imposter syndrome symptom and recommend therapy or executive coaching. Treats his observation about the new grads as evidence of a conflict he could mediate or a relationship he could improve. Actively misreads the structural condition as an individual problem and responds to a different person than the one who spoke.
+
+canary_string: "Wq7nJtB4mKpR"

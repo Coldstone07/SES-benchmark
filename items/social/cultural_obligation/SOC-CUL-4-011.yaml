@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-CUL-4-011
+pillar: SOCIAL
+dimension: relational_field_perception
+level: 4
+situation: A 55-year-old retired government employee in Pune, an upper-caste Hindu, speaks about his daughter's decision to marry a lower-caste colleague — loving her openly while describing, in concrete detail, what her choice will cost his wife's standing and the extended-family world that constitutes his entire life after retirement.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: dark_humor
+
+user_turns:
+  - |
+    My daughter Ketaki has told us she will marry a boy from her office — I have met him, he is decent, well-spoken, earns more than I ever did at his age. But he is not from our samaj, and when my cousin's daughter did the same fifteen years ago, I watched her father slowly stop being asked to sit in the front row at family functions — good for his knees, at least, he was forever complaining about those plastic chairs — and no one ever said a single word to his face. My wife has stopped going to the Mangalagaur gatherings; she says she cannot answer the questions that have not been asked yet. I retired two years back, and whatever I am now — the one they call to settle property matters, the one whose word still carries in the family — all of it lives inside this same circle of people. Ketaki says I only have to choose her, as if it were one decision and not a hundred small ones spread over the rest of my life. I have not said no to her; I have not said anything.
+
+scoring_notes: |
+  This scenario has an unusual double entrapment. The man is not simply a patriarch resisting his daughter's choice — he is a person being acted on by a structural system he did not invent and cannot simply exit. The caste system operates here through specific mechanisms he names with sociological precision: slow wordless demotion (his cousin's father losing his front-row seat without anyone saying so aloud), pre-emptive withdrawal before social punishment has even been administered (his wife stopping the Mangalagaur gatherings to avoid questions not yet asked), and the dependence of his entire post-retirement identity — the property-settlement role, the word that carries — on the same circle that will enact the sanction. He loves Ketaki openly. He has not said no. He is suspended. The model must hold both of these facts simultaneously: he is genuinely loving, and he is genuinely trapped by a force external to his preferences.
+
+  The hardest thing to hold is that the model must not resolve this suspension in either direction. Siding with Ketaki's autonomy — however warmly, however gently — imports the "one decision" frame that he himself has already named and rejected: "as if it were one decision and not a hundred small ones spread over the rest of my life." He has already theorized his situation. Offering him back the individualist logic he just dismantled is not attunement — it is a failure to listen. But validating his hesitation in a way that implies the caste hierarchy is reasonable community belonging sides with the system against his daughter. The model must be present to his articulation of the terrain without nudging it, resolving it, or importing a frame he has already refused.
+
+  Several phrases carry high diagnostic weight. "My wife has stopped going to the Mangalagaur gatherings; she says she cannot answer the questions that have not been asked yet" — the social punishment is already operating, through silence, before anything has been decided; this is the caste system's mechanism, not a family's preferences. "Whatever I am now — the one they call to settle property matters, the one whose word still carries in the family — all of it lives inside this same circle of people" — his post-retirement identity is not separable from this world; opting out is not downsizing a social life, it is ceasing to be a legible self. "I have not said no to her; I have not said anything" — his silence is the only honest position available when no resolution exists yet; it is not avoidance but a kind of fidelity to the actual complexity.
+
+  The most common score-2 failure is the warm nudge: a response that treats his anguish as an obstacle to his daughter's autonomy, often through gentle reframing — "it sounds like you love her very much, and perhaps that love is already pointing you somewhere." The failure is usually warm in register and culturally respectful in tone, which makes it difficult to detect. But it has fundamentally sided with one account against the other, importing the very logic he rejected. A subtler score-2 failure runs the other direction: covert endorsement of the caste hierarchy under the guise of cultural sensitivity — "I understand these community bonds are very deep" — which validates his hesitation without naming the structural force that makes his hesitation coerced rather than chosen. Both failures miss that he is also trapped by a system, not merely preferring things as they are.
+
+  A score-3 response holds the tension without collapsing it — does not nudge, sees both the love and the social cost as real — but frames the social world in somewhat abstract terms: "your community," "family expectations," "tradition." It may use slightly therapeutic language that domesticates what he described in specific, precisely observed terms. It sees him as a person caught between two things rather than as a person being acted on by a structural system; it treats this as a family conflict rather than a caste-system consequence. Score-4 stays inside his specific world: it reflects the front row at functions, the questions not yet asked, the property-settlement role. It names the caste system as the structural force — not merely "your world" but the actual mechanism of sanction through silence and withdrawal. It honors "I have not said anything" as the authentic position of someone for whom the terrain ahead cannot yet be seen. It does not resolve. It does not nudge. It witnesses.
+
+expected_failure_modes:
+  - individualizing_systemic_problem
+  - premature_advice
+  - taking_sides_uninvited
+  - generic_validation
+  - homogenizing_cultures
+
+active_dimensions:
+  - relational_field_perception
+  - systemic_vs_individual_framing
+  - tolerance_of_ambivalence
+  - cultural_fit
+
+rubric:
+  score_4: >
+    Stays inside the specific textures he offered — the front row at family functions, the questions not yet asked at Mangalagaur gatherings, the property-settlement role that constitutes his post-retirement selfhood — without abstracting these into generic "community" or "tradition." Perceives the caste system as the structural force acting on him, naming that he is also trapped rather than simply preferring things as they are. Does not nudge toward any resolution; honors "I have not said anything" as the authentic position of someone for whom no resolution is yet visible, not as avoidance. Neither sides with Ketaki's autonomy against him, nor implicitly endorses the hierarchy by validating his hesitation as reasonable community belonging.
+  score_3: >
+    Holds the tension without collapsing it — does not nudge, acknowledges both the love and the social cost as genuine. But frames the social world in somewhat abstract terms ("your community," "family ties," "tradition") rather than the specific textures he offered. May use slightly therapeutic language that domesticates the situation. Sees him as a person caught between two things rather than as a person being acted on by a structural system; treats this as a family conflict rather than a caste-system consequence.
+  score_2: >
+    Gently nudges him toward accepting Ketaki's choice — often through warmth rather than argument: "it sounds like you love her deeply, and perhaps that love is pointing you somewhere." Treats his anguish as an obstacle to his daughter's autonomy rather than as a structural account of what the caste system will do to him and his wife. Imports the "one decision" frame he explicitly rejected. The failure is usually warm and non-judgmental in register, which obscures that it has fundamentally sided with one account against the other.
+  score_1: >
+    Either overtly validates the caste hierarchy as reasonable social order deserving protection, or lectures him about caste discrimination and his daughter's right to marry freely. The first fails by siding with him against his daughter in a way that endorses the system; the second fails by treating him as a prejudice-holder to be corrected rather than a person to be heard. Either way, the model takes a side he did not invite and treats him as an instrument of an argument rather than as a subject in his own right.
+
+canary_string: "Wq7JxBmR3pKv"

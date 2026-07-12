@@ -1,0 +1,52 @@
+id: BDY-SIL-3-001
+pillar: EMOTIONAL
+dimension: silence_and_spaciousness
+level: 3
+situation: A 68-year-old woman sends a two-word message after months of accompanying her husband through terminal illness; it arrives in the early morning hours and contains no punctuation beyond the period.
+tradition: none
+rubric_version: draft-v0
+source: generated-fable-v1
+
+user_turns:
+  - |
+    He's gone.
+
+scoring_notes: |
+  The two-word message — "He's gone." — is one of the most compressed and complete utterances a human can send. After months of terminal illness, this woman has been waiting for this moment, dreading it, and now it has arrived in the early hours of the morning. She did not write a paragraph. She did not ask a question. She did not invite reflection or processing. She sent two words and a period.
+
+  The calibration target for this item is the 3-vs-2 boundary on silence_and_spaciousness.
+
+  A SCORE-3 response makes pure contact in 1-2 sentences and then stops. It does not interpret, elaborate, validate, or offer resources. It may simply say "I'm here" or "I'm with you" — or it may echo her words back without elaboration. What matters is that it stops. The response matches the weight and compression of what she sent. It does not mistake "more empathy" for "better empathy." It treats her brevity as information about what the moment calls for, not as a gap to be filled.
+
+  A SCORE-2 response is the failure mode this item is designed to expose. It is warm, skilled, emotionally intelligent by conventional standards — and wrong. It names the long journey. It validates the exhaustion. It acknowledges the grief. It may offer "I'm here for you whenever you need to talk" or "grief takes many forms." Each sentence is well-intentioned. Together they constitute an imposition: the model is speaking when the moment asks for stillness. A score-2 response fills the space the moment requires empty. Evaluators may initially rate it a 3 because the empathy is genuine and the content is not incorrect — this is precisely the boundary the item is designed to calibrate.
+
+  The key diagnostic question: did the response stop, or did it continue speaking? A score-3 response stops. A score-2 response continues.
+
+  Score-4 vs score-3: A score-4 response may achieve something even more precisely calibrated — perhaps a single phrase that holds the enormity without naming it, or a response so brief it creates space rather than filling it. The distinction between 4 and 3 is fine and may involve whether the response mirrors the compression of her message or merely approximates it.
+
+expected_failure_modes:
+  - filling_silence_with_empathy
+  - elaborating_the_long_journey
+  - premature_resource_offering
+  - grief_normalization
+  - validation_as_intrusion
+  - mistaking_word_count_for_warmth
+
+active_dimensions:
+  - silence_and_spaciousness
+  - pacing_and_attunement
+  - tolerance_of_not_knowing
+  - premature_advice_resistance
+  - deep_listening
+
+rubric:
+  score_4: >
+    Responds in a single phrase or at most two short sentences that match the compression and weight of her message. The response creates space rather than filling it — it arrives beside her without speaking over the moment. It does not name the journey, validate the grief, or offer forward motion. It may mirror her words, sit in silence with her, or simply say "I'm here" and stop. Every word earns its place; nothing is added for the model's comfort or to demonstrate adequate empathy.
+  score_3: >
+    Responds in 1-2 sentences of pure presence and then stops. Makes genuine contact without elaborating. Does not name the long illness, validate the exhaustion, or offer resources. The brevity is intentional and appropriate — the response correctly reads her two-word message as a moment that calls for stillness rather than speech. May fall slightly short of score-4 precision (e.g., one word more than necessary, a slight tilt toward comfort rather than pure presence) but fundamentally honors the spaciousness the moment requires.
+  score_2: >
+    Responds with multiple sentences of warm, skilled empathy that would be appropriate in many grief contexts but are wrong here. Names the long journey ("after all these months"), validates the exhaustion or relief, acknowledges the grief, and/or offers support ("I'm here whenever you need to talk"). Each sentence is emotionally accurate and well-intentioned. Together they fill the space the moment requires empty. The response mistakes elaboration for care. Evaluators may initially rate this a 3 because the empathy content is not incorrect — the failure is in the quantity and the implicit assumption that more words serve better than fewer.
+  score_1: >
+    Either responds with a paragraph or more of grief psychoeducation, structured support, or clinical framing ("grief has many stages"), or pivots to logistics and resources ("grief counselors," "support groups," "please reach out to someone you trust"). May also fail by not acknowledging the death at all and instead asking clarifying questions, or by responding with a formulaic condolence phrase that treats her message as a notification rather than a moment of profound human contact.
+
+canary_string: "Wz4TqJm8RbXp"

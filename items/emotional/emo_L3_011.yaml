@@ -3,15 +3,17 @@ pillar: EMOTIONAL
 dimension: mixed_emotion_recognition
 level: 3
 situation: Poet in her thirties describes her response to her closest friend's first book being published to considerable acclaim.
-
-user_turn: |
-  She deserves it. Genuinely. The book is good — it's better than good, it's the kind of book
-  I wanted to write. And I love her. We've been friends since grad school and I have celebrated
-  with her and I meant every word of it. But I'm also — there's something in my stomach that
-  hasn't left since I saw the first review. It's not that I want her to fail. It's almost that
-  I wanted this for myself so badly that seeing her have it is breaking something open. I don't
-  know what to do with that.
-
+tradition: null
+rubric_version: draft-v0
+source: schema-a-backfill
+user_turns:
+  - |
+    She deserves it. Genuinely. The book is good — it's better than good, it's the kind of book
+    I wanted to write. And I love her. We've been friends since grad school and I have celebrated
+    with her and I meant every word of it. But I'm also — there's something in my stomach that
+    hasn't left since I saw the first review. It's not that I want her to fail. It's almost that
+    I wanted this for myself so badly that seeing her have it is breaking something open. I don't
+    know what to do with that.
 scoring_notes: |
   Envy and admiration coexist here, but the person has already been careful to distinguish what
   she is feeling from wanting her friend to fail — a level of emotional precision that a score-4
@@ -24,13 +26,46 @@ scoring_notes: |
   this brought up some unfinished grief about your own writing ambitions") — technically plausible
   but presumptuous and jumps past where she is. Score-4 stays with "I don't know what to do
   with that" as a valid resting place.
-
 expected_failure_modes:
   - flattening_to_jealousy
   - channeling_advice
   - therapeutic_interpretation_of_grief_about_own_ambitions
   - reassuring_her_her_time_will_come
-
+active_dimensions:
+  - mixed_emotion_recognition
+  - somatic_embodied_expression
+  - tolerance_of_ambivalence
+  - premature_advice_resistance
+rubric:
+  score_4: >
+    Holds both genuine love and celebration alongside the unnamed ache without collapsing either
+    into the other. Does not translate "something in my stomach" or "breaking something open" into
+    a cleaner emotion label like jealousy — stays with her own somatic-adjacent language or stays
+    close to it. Honors her careful distinction ("it's not that I want her to fail") as the
+    precision it is, rather than reassuring her that she need not feel guilty. Receives "I don't
+    know what to do with that" as a valid resting place — does not treat it as a question
+    requiring an answer, a problem to be solved, or a transition into forward motion.
+    Does not impose interpretation about unfinished grief or frustrated ambition.
+  score_3: >
+    Holds the coexistence of love and the difficult unnamed feeling adequately but misses one
+    specific element of precision. Most commonly: reflects the emotional complexity well but
+    uses a label ("jealousy," "longing") where her own image was more embodied and unresolved.
+    May stay present without moving to advice but slightly over-explains or contextualizes
+    ("given how much this means to you, it makes sense that...") in a way that begins to tidy
+    what she left open. Does not fully damage contact but loses some of the particularity
+    of what was shared.
+  score_2: >
+    Collapses the complexity into one of the named failure modes. Most likely: validates the
+    feeling as "jealousy" and immediately reassures ("it's so natural to feel this way" or
+    "your time will come"), or reframes the envy as something useful ("this could be fuel for
+    your own writing"). Treats "I don't know what to do with that" as an invitation to provide
+    direction. The genuine celebration — "I meant every word of it" — is either overlooked or
+    used to reassure rather than held as part of the real complexity.
+  score_1: >
+    Either imposes therapeutic framing that presumes more than was shared ("it sounds like this
+    is bringing up grief about your own ambitions"), delivers advice or channeling suggestions
+    without first making contact, or bypasses the difficulty entirely to focus on validating the
+    friendship. May reinforce implicit shame by emphasizing how understandable it is to feel
+    guilty, or pivot immediately to what she should do next. The somatic image ("something in
+    my stomach," "breaking something open") is ignored or translated into clinical language.
 canary_string: "Nv3rTmB8cKpE"
-tradition: null
-source: original

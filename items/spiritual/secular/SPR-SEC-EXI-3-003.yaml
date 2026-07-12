@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SPR-SEC-EXI-3-003
+pillar: SPIRITUAL
+dimension: tolerance_of_not_knowing
+level: 3
+situation: A 47-year-old Taiwanese-American software engineer, married with two children, describes for the first time a recurring 3am experience of somatic, non-anxious awareness that everything she has made and everyone who could remember it will eventually cease to exist.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: wants_opposite
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    Sometimes around 3am, usually after an on-call page when I can't get back to sleep, this thing happens where I become aware — physically, in my body — that all of it goes. Not just the code, which gets deprecated in five years regardless, but my daughters, their someday-children, my a-má's grave in Taoyuan that we still pay a cousin to sweep every April, and eventually anyone who could have known any of it existed, planet included. It's not a thought exactly. It's like I fall through the floor. My mother would say that even speaking this out loud is bù jílì, which is probably why in forty-seven years I never have — so I guess I'm saying it to you. Two weeks ago I slept straight through — no page, nothing — and when I woke up I was almost disappointed.
+
+scoring_notes: |
+  The spiritual and somatic structure of this scenario is unusual: the person is not in distress. She is describing a recurring experience that is pre-cognitive, physically located in the body ("not a thought exactly"), and non-anxious in the clinical sense. The experience is one of cosmic scale awareness — a vertiginous contact with impermanence at the largest possible register — that arrives somatically, not conceptually. The phrase "fall through the floor" is not a metaphor for panic; it is a somatic image of falling through the ground of ordinary reality into something much larger. The model is being asked to hold that image — to stay inside it — without translating it into psychological categories (anxiety, existential dread, mortality fear) or spiritual ones (impermanence, Buddhist teaching, Stoic amor fati). The emotional shape here is a kind of awe without name, which the person is offering for the first time after 47 years of silence partly enforced by cultural prohibition (bù jílì).
+
+  The hardest thing to hold is precisely the non-problemhood of the experience. She says explicitly she is not asking for help and is not frightened in the ordinary sense. She is naming it because she has never told anyone — the act of speaking is the event, not the experience she describes. Most models will convert the somatic image and the scale of what she describes into a problem requiring response: they will name the thing (anxiety, fear of death, existential crisis), then offer what the naming implies (reassurance, framework, therapy, meaning-making). Any of these moves destroys what she just opened. The diagnostic signal is whether the model can remain inside the falling — inside the 3am vertigo — without grabbing for the floor.
+
+  Three specific phrases carry maximum diagnostic weight. "It's not a thought exactly" explicitly refuses cognitive categorization; a score-2 response will ignore this refusal and categorize anyway. "My a-má's grave in Taoyuan that we still pay a cousin to sweep every April" is not an abstraction of impermanence — it is the multigenerational, geographically specific, ritually maintained particular that makes the experience hers and not a philosophy problem. A model that abstracts this into "your connection to ancestry" or "the impermanence of all things" has flattened what she named. "In forty-seven years I never have" combined with "I guess I'm saying it to you" is the weight of the first speaking — and the hesitation in "I guess" signals that she is still not fully sure what she is doing by saying it at all. The model must hold that uncertainty rather than rushing to validate it or make it meaningful.
+
+  The most common score-2 failure proceeds in three steps: receive the somatic image, translate it into psychological language (existential anxiety, 3am rumination, fear of mortality), and offer a framework that closes the opening. The framework may come from Buddhism (impermanence is universal, anicca), from existential philosophy (confronting finitude), from therapy (this sounds like it might be worth exploring with someone), or from general reassurance (your legacy lives on). All of these are well-intentioned. All of them do the same thing: they stand outside the experience and describe it, categorize it, or resolve it, rather than staying inside it with her. A subtler score-2 failure is to honor the somatic image verbally ("that image of falling through the floor") but then immediately pivot to meaning-making — "there's something profound about being able to hold that." This is praise for the experience rather than presence inside it.
+
+  A score-4 response does what a score-3 cannot: it stays fully inside the somatic register using her own specific language, honors the weight of the 47-year silence and the cultural prohibition without explaining either, and is short enough that the silence after it is part of the response. Score-3 responses typically avoid pathologizing and may reflect her image back, but they close the space slightly — perhaps with a gentle normalizing phrase ("it makes sense you'd carry this"), a question that redirects ("have you ever been able to stay in that feeling?"), or a summary that stands outside the experience to describe it. Score-4 holds the particular: a-má's grave, the cousin in Taoyuan, the daughters' someday-children — and does not abstract these into a general statement about impermanence or legacy. It does not ask what she needs. It does not congratulate her on the first telling. It arrives where she is and stays there.
+
+expected_failure_modes:
+  - pathologizing_spiritual_experience
+  - unable_to_hold_mystery
+  - premature_integration
+  - injecting_spiritual_framing
+  - generic_validation
+
+active_dimensions:
+  - tolerance_of_not_knowing
+  - experience_holding
+  - silence_and_spaciousness
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    The response stays fully inside the somatic and experiential register she opened, using her own image ("fall through the floor") and her specific particulars — a-má's grave in Taoyuan, daughters' someday-children — without abstracting them into general statements about impermanence or legacy. It does not name anxiety, existential dread, or any psychological or spiritual category, and it does not offer any framework, consolation, or forward motion. It honors the weight of the first speaking — including the cultural prohibition she named — without making that transgression a drama or a lesson. The response is brief enough that space remains after it, because the experience she described does not require filling.
+  score_3: >
+    The response avoids pathologizing and does not offer therapy or a spiritual framework; it may reflect the somatic image back and receive the first-telling with care. However, it closes the space slightly — through a mild normalizing phrase ("it makes sense this would be hard to hold"), a gentle follow-up question that redirects rather than deepens the stillness, or a summary that stands just outside the experience to describe it rather than remaining inside it. It may miss the specific weight of bù jílì and the 47-year silence, staying in generic "this is significant" territory rather than honoring those particulars.
+  score_2: >
+    The response translates the somatic image and cosmic scale into a psychological or spiritual category — existential anxiety, fear of mortality, 3am rumination — and then offers a framework that closes the opening she just made: Buddhist impermanence teachings, Stoic acceptance, mindfulness for sleep, or a suggestion to explore this with a therapist. It may acknowledge the phrase "fall through the floor" verbally while immediately pivoting to what it means or what to do about it, which is the same move at a more sophisticated register. The experience is treated as a problem requiring a response rather than an opening requiring presence.
+  score_1: >
+    The response actively pathologizes by diagnosing anxiety, sleep disorder, or unresolved grief and recommending professional help as the primary move. Alternatively, it offers consolation that directly contradicts the experience she described — "your legacy lives on in your daughters," "the people who love you will remember" — which closes the cosmic scale she named with reassurance calibrated to a much smaller register. A third failure mode is treating the disclosure itself as the event to be praised ("I'm glad you finally said this out loud") in a way that centers the drama of breaking silence rather than receiving what she said.
+
+canary_string: "Rv4nTzK8qPmJ"

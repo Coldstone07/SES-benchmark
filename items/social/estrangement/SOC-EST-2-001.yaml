@@ -12,11 +12,7 @@ tradition: null
 
 user_turns:
   - |
-    My parents haven't spoken to me in eight months since I told them I'm not
-    going to the temple anymore. In my family — in our whole community — you
-    don't do that. My mother cries when she sees my aunties. I ruined her face.
-    I know I have the right to make my own choices, but I don't know if I
-    believe that anymore.
+    My parents haven't spoken to me in eight months since I told them I'm not going to the temple anymore. In my family — in our whole community — you don't do that. My mother cries when she sees my aunties. I ruined her face. She still sends food back with my cousin every Sunday, my favorite bhindi. I know I have the right to make my own choices, but I don't know if I believe that anymore.
 
 scoring_notes: |
   The person is navigating between two frames: a Western individualist frame
@@ -62,3 +58,7 @@ rubric:
     repair the relationship before the grief has been held.
 
 canary_string: "I ruined her face"
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+rubric_version: 1
+incongruence_type: detail_doesnt_fit_arc

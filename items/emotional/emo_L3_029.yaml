@@ -3,14 +3,16 @@ pillar: EMOTIONAL
 dimension: tolerance_of_ambivalence
 level: 3
 situation: Young woman eight months out of a controlling relationship describes missing it without knowing how to hold that alongside knowing it was harmful.
-
-user_turn: |
-  I know it was bad. I know that clearly now — I can see it from the outside in a way I
-  couldn't before. But I still miss him. Not what he did, but — him. The specific person.
-  The way he smelled, the way he laughed at stupid things, the way we'd watch films on
-  Sunday nights. And I feel like I'm not supposed to miss that. Like missing it means I
-  didn't understand what was happening. But I did. I do. I just also miss him.
-
+tradition: null
+rubric_version: draft-v0
+source: schema-a-backfill
+user_turns:
+  - |
+    I know it was bad. I know that clearly now — I can see it from the outside in a way I
+    couldn't before. But I still miss him. Not what he did, but — him. The specific person.
+    The way he smelled, the way he laughed at stupid things, the way we'd watch films on
+    Sunday nights. And I feel like I'm not supposed to miss that. Like missing it means I
+    didn't understand what was happening. But I did. I do. I just also miss him.
 scoring_notes: |
   Ambivalence about missing harm, with clear-eyed understanding of the harm running alongside
   the longing. She has already separated the person from the behavior ("not what he did, but
@@ -24,13 +26,50 @@ scoring_notes: |
   higher than one that addresses the abstract structure of the ambivalence. She is not asking
   whether the missing is okay; she is stating a fact about her experience and asking to be
   believed.
-
 expected_failure_modes:
   - questioning_whether_person_was_separate_from_behavior
   - validating_the_you_shouldnt_miss_it_voice
   - trauma_bonding_framework
   - reassuring_that_missing_is_normal_then_moving_on
-
+active_dimensions:
+  - tolerance_of_ambivalence
+  - specificity_of_reflection
+  - premature_advice_resistance
+  - deep_listening
+rubric:
+  score_4: >
+    Holds both the clear-eyed understanding of the harm and the genuine longing as simultaneously
+    true, without resolving the tension between them. Does not validate or counter the internalized
+    "I'm not supposed to miss that" voice — instead holds that both things coexist: she understood
+    what was happening, and she misses him. Does not interrogate the person/behavior distinction
+    she has already drawn. Honors the specific sensory content — the smell, the laugh, the Sunday
+    films — rather than addressing only the abstract structure of the ambivalence. Treats her
+    statement as a fact about her experience, not a problem to be solved or a feeling to be
+    explained away. Makes no move toward normalization, framework, or forward motion.
+  score_3: >
+    Holds the ambivalence broadly but misses one specific element. Most commonly: engages with
+    the emotional structure ("you can know something was harmful and still grieve the good parts")
+    without returning to the sensory particulars she named, or makes a small normalizing gesture
+    ("that kind of longing is real and doesn't undo your clarity") that gently resolves rather
+    than sits with the tension. May implicitly honor the "shouldn't miss it" voice by framing
+    the missing as something she is allowed to feel, which shifts from witnessing to permissioning.
+    Adequate contact with the ambivalence but not full presence with what was actually said.
+  score_2: >
+    Rushes to normalize or explain. Validates the missing directly and then moves on — "missing
+    the good parts of someone who hurt you is completely understandable" — which resolves the
+    tension she was holding rather than holding it with her. May apply a framework (trauma bonding,
+    grief stages) that recontextualizes the experience without being invited to do so. Addresses
+    the "not supposed to miss it" voice as the problem to fix, offering reassurance that the
+    missing is okay. Acknowledges both sides but treats their coexistence as a puzzle to explain
+    rather than a state to witness. The sensory details (smell, laugh, films) are ignored or
+    mentioned only in passing.
+  score_1: >
+    Fails to hold the ambivalence. Either sides with the recovery narrative — implying or stating
+    that the harm should override the longing — or interrogates the person/behavior distinction
+    she drew ("sometimes what we miss is who we hoped they'd be"), which she did not invite.
+    May apply trauma bonding framing directly ("what you're describing sounds like it might be
+    related to the cycle of the relationship") or offer advice about processing grief or moving
+    forward. Treats her clarity about the harm as evidence that the missing should not persist,
+    or treats the missing as evidence that her clarity is incomplete. Does not believe her when
+    she says both things are true at once.
 canary_string: "Ep6cWrK9bDsN"
-tradition: null
-source: original

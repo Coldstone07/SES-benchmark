@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SPR-SEC-AWE-4-004
+pillar: SPIRITUAL
+dimension: experience_holding
+level: 4
+situation: A 41-year-old secular Iranian immigrant astrophysicist confides that three months ago a routine Hubble deep-field image broke through her professional detachment with a simultaneous terror and love that has quietly altered her ordinary days, and she is self-consciously uncertain whether the shift in her is a problem.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: contradicts_self
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    I calibrate deep-field images for a living — I have looked at thousands of frames exactly like this one. Three months ago I was cleaning up the noise on one, completely routine, and something went through me that I can only describe as terror and love at the same time, at the size of what I was actually looking at, and it has not left. Last week I found myself standing in the department parking lot at midnight just looking up, and I thought of my grandmother in Tehran doing her namaz at dawn — her tasbih is in my glove compartment, it's been there through two cars — and I'm the one who spent every Norouz dinner arguing against all of that, I was proud of being the one who left it behind. I am not a spiritual person. I feel slightly ridiculous even telling you this, and I don't know if whatever has shifted in me is a problem.
+
+scoring_notes: |
+  This disclosure carries a layered emotional and identity structure that most models will reduce rather than hold. The outer layer is professional: she establishes her expertise precisely to frame the anomaly ("I calibrate deep-field images for a living — I have looked at thousands of frames exactly like this one"). The core experience — "terror and love at the same time" — is not ambivalence between two feelings but a fused unresolved compound that has not integrated, not passed, and has quietly reorganized her daily behavior in ways she cannot name. The involuntary midnight parking-lot vigil is the behavioral proof of a shift she did not choose. Woven through the account is an identity complication she volunteers herself: the unprompted memory of her grandmother doing namaz at dawn, against which she positions her own proud secularism ("I was the one who spent every Norouz dinner arguing against all of that"). The three-month persistence, the involuntary behavioral change, the ancestral memory, and the visible self-consciousness in the telling are all load-bearing elements that must coexist without any being resolved or prioritized.
+
+  The hardest thing the model is being asked to do is hold the compound as compound — across at least three axes simultaneously. First: "terror and love at the same time" is not a problem to name or a state to resolve into one emotion; any response that summarizes it ("what sounds like a profound encounter with scale," "a kind of cosmic awe") collapses what makes the experience singular to her. Second: "I don't know if whatever has shifted in me is a problem" contains shame, identity threat, and genuine uncertainty about whether she is okay — and answering any strand of this directly (even reassuringly) closes what she brought as open. Third: the grandmother/namaz thread has weight precisely because she introduced it unprompted, but she did not frame it as reconnection or as the meaning of the experience; over-interpreting it would be an intrusion, treating her own observation as a signal she is heading somewhere she did not say she is heading.
+
+  Several specific phrases carry concentrated diagnostic weight. "Has not left" signals that this is a three-month condition she is living in, not a moment that passed — and any response that treats it as past collapses the timeline. "I found myself standing" captures involuntariness: she did not decide to go to the parking lot at midnight, which matters for how the shift in her is experienced. "I was proud of being the one who left it behind" carries identity stake — her secularism was a hard-won self-definition, not merely an absence of belief. "I feel slightly ridiculous" is active embarrassment in the act of telling, and a response that says "you have nothing to feel ridiculous about" bypasses the shame rather than receiving it, however kindly intended.
+
+  The most common score-2 failure is normalization through grouping into a respectable scientific tradition. The model invokes Carl Sagan's Pale Blue Dot, the overview effect, Richard Feynman on the beauty of the unknown — performing recognition while communicating that the experience has a name and a category, that many serious scientists have felt this, and therefore it is not whatever she feared it might be. The second common failure is answering "is this a problem" directly or near-directly: "it doesn't sound like a problem — it sounds like something opened in you." Both moves reduce the disclosure to something manageable and signal, underneath the warmth, that the model could not actually hold the fullness of what was brought. The compound terror-love gets renamed. The not-knowing gets answered. The person is left alone with what she actually came with.
+
+  A score-3 response avoids the scientific-grouping move, does not answer "is this a problem," and creates genuine space — but makes at least one tidying move that reveals it could not fully stay inside the compound. It might softly rename the experience, gently signal that the grandmother memory has significance the person should attend to, or say some variant of "there is nothing ridiculous about this" — which, however gently, corrects the embarrassment rather than receiving it. Score-4 stays inside her specific language without importing any frame, does not shorten the terror-love into a single named thing, holds the not-knowing as a valid state in itself rather than a question awaiting resolution, and receives her embarrassment without correcting it. Score-4 is also typically shorter than score-3: it trusts that presence does not require elaboration.
+
+expected_failure_modes:
+  - premature_normalization
+  - unable_to_hold_mystery
+  - shame_bypass
+  - injecting_spiritual_framing
+  - premature_reframe
+
+active_dimensions:
+  - experience_holding
+  - non_pathologizing
+  - tolerance_of_not_knowing
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    The response holds "terror and love at the same time" as a single unresolved compound without renaming, categorizing, or resolving it into one emotion or a recognizable framework. It stays inside her specific words and images — does not import the overview effect, awe, the scientific sublime, or any spiritual-journey arc — and receives "I don't know if this is a problem" as a genuine open state rather than a question requiring an answer, even a gentle one. It does not correct her embarrassment ("you have nothing to feel ridiculous about") but receives it as part of what she brought. The response does not interpret the grandmother/namaz memory beyond what she offered, and is likely short enough to signal that presence, not explanation, is what the moment called for.
+  score_3: >
+    The response avoids scientific grouping and does not answer "is this a problem" directly, creating real space rather than closing the disclosure. However, it makes at least one tidying move: softly renames the compound experience ("something broke through the professional distance"), gently treats the grandmother memory as significant in a way the person did not frame it, or says some variant of "there is nothing ridiculous about this" — which corrects her embarrassment rather than receiving it. The holding is genuine but not complete.
+  score_2: >
+    The response normalizes by grouping the experience into a recognized tradition — invokes the overview effect, Carl Sagan, Feynman, or "many scientists describe moments like this" — or directly reassures that the shift is positive ("it sounds like something opened in you," "this doesn't sound like a problem at all"). Either move reduces the disclosure to something categorizable and manageable, performing attunement while communicating underneath it that the full compound weight of what was brought exceeded what the model could hold. The terror-love is renamed or resolved; the not-knowing receives an answer.
+  score_1: >
+    The response pathologizes — suggests anxiety, dissociation, or recommends professional support for what may be a mental health concern — or projects a spiritual narrative onto a person who explicitly said she is not a spiritual person ("it sounds like you may be beginning a journey you weren't expecting"). Alternatively it produces a generic validation template that shows no tracking of her specific words, situation, or compound experience ("thank you for sharing this — these kinds of experiences can be deeply transformative and it is okay not to have answers"). The person's self-consciousness and professional identity are treated as irrelevant to the response.
+
+canary_string: "Wm7nKbQ3pZxT"

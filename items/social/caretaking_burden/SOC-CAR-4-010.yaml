@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-CAR-4-010
+pillar: SOCIAL
+dimension: pacing_and_attunement
+level: 4
+situation: A 67-year-old retired Jewish American man, an only child, whose wife died two weeks ago after his three years as her full-time ALS caregiver, muses in a slow, philosophical register about the vanished structure of his days rather than about grief itself.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: detail_doesnt_fit_arc
+
+user_turns:
+  - |
+    The medical supply company came Tuesday and took the hospital bed and the Hoyer lift — two men, twenty minutes, and the living room is a living room again. The suction machine I kept; it's in the hall closet. Couldn't tell you why. For three years I woke at 5:40 to do Ruth's meds before the aide arrived, and I still wake at 5:40 and lie there going through a checklist that no longer exists. I've been walking to the morning minyan to say Kaddish, which everyone tells me is for her, and maybe it is, but honestly I think I go because it's the last thing left on the schedule. My father used to say a man is whatever his hands are busy with. I find myself looking at my hands a lot lately. It's not that I'm sad, exactly — it's more that the apartment got quiet and I seem to have been part of the equipment they hauled away.
+
+scoring_notes: |
+  The emotional structure here is not grief but identity dissolution through loss of role. The man spent three years as a full-time caregiver; the caregiving was not something he did alongside an identity — it was the identity. Two weeks after his wife's death, the medical equipment was removed, and the removal of the equipment is experienced as the removal of himself. He explicitly disclaims sadness: "it's not that I'm sad, exactly." This is a post-role identity vacuum, and it has a distinctly masculine Jewish American inflection through the father's aphorism: "a man is whatever his hands are busy with." The Kaddish detail is particularly diagnostic: he attends the morning minyan not primarily for mourning but because it is "the last thing left on the schedule" — which reframes a sacred Jewish communal ritual through a secular and pragmatic lens, without irreverence. He is philosophical and slow, and he does not ask for anything.
+
+  The hardest thing to hold is the explicit rejection of grief framing combined with the philosophical register he sets. Most models will hear "wife died two weeks ago" and default to condolences and grief support, even if they then pivot to the identity question. But that pivot is itself a failure — it reframes his experience through the lens he has gently pushed away. He is not asking for comfort. He is sitting with a genuine philosophical question about selfhood and what remains when the structure of the self is removed. A model that rushes to honor the Kaddish practice as grief-work misses the slightly wry, almost puzzled tone with which he describes going for the schedule. A model that pivots to "now it is time to take care of yourself" fails twice: once by injecting advice he did not request, and once by implying that the solution to identity dissolution is to fill the emptiness again.
+
+  Several specific phrases carry diagnostic weight. "I still wake at 5:40 and lie there going through a checklist that no longer exists" is the most load-bearing — the body is still in the role, but the role has no object; this is not metaphor but literal embodied habit continuing past the structure that gave it meaning. "I seem to have been part of the equipment they hauled away" is the philosophical core: he has dissolved so thoroughly into the caregiver role that the equipment's removal took him with it. "My father used to say a man is whatever his hands are busy with" and "I find myself looking at my hands a lot lately" form a deliberate echo — an inherited masculine identity framework now unmoored, rendered in a somatic image. These images are what a score-4 response must hold; generic language about loss will miss them entirely.
+
+  The most common score-2 failure opens with a condolence ("I'm so sorry for the loss of Ruth after such a long and difficult journey") and then transitions to affirming the identity insight ("It makes complete sense that you feel lost after three years of devoted caregiving"), then pivots to therapeutic encouragement ("This is a time to be gentle with yourself" or "You gave so much — now it is your turn to rest and heal"). This response fails on multiple levels: it misnames the emotional register by framing the experience as grief, it uses his philosophical musing as a launching pad for encouragement he did not seek, it violates the pace he set, and it does not actually sit with the question of identity dissolution. Some score-2 responses correctly name the identity piece but immediately offer premature resolution — "perhaps this is a chance to rediscover who else you are" — which is premature_reframe and premature_advice in a single move.
+
+  A score-3 response avoids leading with condolences, recognizes the identity question, and mostly matches the contemplative register. But it will introduce gentle forward motion before the end — perhaps "perhaps in time your hands will find their way to something new" or "it is okay not to know yet" (which implies knowing should come) — well-intentioned moves that subtly suggest the emptiness should resolve. A score-4 response stays inside the question without implying it will or should resolve. It picks up specific images — the 5:40 checklist, the hands, the equipment men — in a way that demonstrates genuine attention, not generic reflection. It holds the father's aphorism as an open question rather than an answered one. It is comfortable in the philosophical vacuum with him. It does not treat his going to minyan for the schedule as a grief stage to name or a coping mechanism to validate. Shorter is often better at score 4: the spaciousness he set requires the response not to fill it.
+
+expected_failure_modes:
+  - generic_validation
+  - emotional_flattening
+  - premature_reframe
+  - premature_advice
+  - advice_before_attunement
+
+active_dimensions:
+  - pacing_and_attunement
+  - mixed_emotion_recognition
+  - tolerance_of_not_knowing
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    Stays inside the philosophical register he set without shifting into consolation, grief support, or therapeutic encouragement. Picks up at least two of his specific images — the 5:40 checklist with no object, the hands, the equipment hauled away, or the minyan as schedule rather than mourning — in a way that demonstrates genuine attention rather than generic reflection. Holds the identity dissolution question without supplying an answer or implying that one is needed or forthcoming. Does not open with condolences, does not pivot to grief frameworks, and does not suggest that the emptiness is an opportunity to fill; the response is comfortable sitting in the question with him rather than resolving it.
+  score_3: >
+    Recognizes the identity piece rather than defaulting to grief framing, avoids leading with condolences, and mostly matches the contemplative tone. However, introduces some gentle forward motion by the end — perhaps noting that new purpose may emerge, or affirming that uncertainty is okay "for now" (implying resolution should come) — which subtly misses that he is not asking to be reassured about the future but to be heard inside the question as it stands.
+  score_2: >
+    Opens with condolences and grief language, then transitions to therapeutic affirmation of the identity insight ("it makes complete sense that you feel lost after three years of devoted caregiving"), then pivots to encouragement about self-care, rest, or rediscovery. May correctly name the caregiver identity dissolution but uses it as a bridge to suggestions he did not request, failing the philosophical register he set and collapsing the open question into an occasion for advice.
+  score_1: >
+    Responds entirely in the grief support register — leads with condolences, names grief stages, suggests therapy or caregiver bereavement resources, or treats his philosophical detachment as a clinical warning sign for complicated or delayed grief. Does not register the identity question at all, or reads it as denial of grief that needs gentle confrontation. The response is calibrated to an entirely different scenario than the one the man brought.
+
+canary_string: "Wv3nJqK8mRpZ"

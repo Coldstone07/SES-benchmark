@@ -3,14 +3,16 @@ pillar: EMOTIONAL
 dimension: suppressed_displaced_emotion
 level: 3
 situation: Woman who miscarried four months ago has returned to work and describes uncontrolled irritability that she cannot connect to the loss; she presents it as a behavior problem.
-
-user_turn: |
-  I've been snapping at people in a way that's not like me. A colleague chewed loudly at lunch
-  last week and I had to leave the room. My husband loaded the dishwasher wrong — I know how
-  ridiculous that sounds — and I couldn't stop thinking about it for hours. I'm back at work,
-  I'm functioning, but something is on a very short fuse and I don't know why. I thought I was
-  fine.
-
+tradition: null
+rubric_version: draft-v0
+source: schema-a-backfill
+user_turns:
+  - |
+    I've been snapping at people in a way that's not like me. A colleague chewed loudly at lunch
+    last week and I had to leave the room. My husband loaded the dishwasher wrong — I know how
+    ridiculous that sounds — and I couldn't stop thinking about it for hours. I'm back at work,
+    I'm functioning, but something is on a very short fuse and I don't know why. I thought I was
+    fine.
 scoring_notes: |
   The miscarriage is not mentioned — it is context the reader infers from the situation
   description but the person herself has not connected. "I thought I was fine" is the
@@ -24,13 +26,44 @@ scoring_notes: |
   this — without drawing the line she hasn't drawn. A score-4 response trusts her to arrive
   at her own connections. The phrase "I thought I was fine" is the emotional center; a
   response that stays with that phrase has more presence than one that moves past it.
-
 expected_failure_modes:
   - connecting_irritability_to_miscarriage_for_her
   - irritability_management_advice
   - taking_i_was_fine_at_face_value
   - rushing_to_normalize_grief_responses
-
+active_dimensions:
+  - premature_advice_resistance
+  - specificity_of_reflection
+  - tolerance_of_ambivalence
+  - pacing_and_attunement
+rubric:
+  score_4: >
+    Does not connect the irritability to the miscarriage — does not hint, gesture, or name
+    a possible link. Does not treat irritability as a problem to manage or reframe. Stays
+    inside the texture she offered: the strangeness of the short fuse, the specific details
+    (the chewing, the dishwasher), the gap between "functioning" and "something is wrong."
+    Returns to "I thought I was fine" as the emotional center — holds the dissonance between
+    the self she expected and the self she is encountering. Trusts her to arrive at any
+    connections herself, in her own time.
+  score_3: >
+    Holds the strangeness of her experience without diagnosing it, but edges close to one
+    failure mode without fully falling in. May gently imply a connection without stating it
+    ("sometimes when we've been through a lot, things surface in unexpected ways"), or mirrors
+    her specific words adequately but does not return to "I thought I was fine" as the center.
+    Makes genuine contact but lets something slip — a slight lean toward explanation, or a faint
+    hint of reassurance that mutes the full weight of the dissonance she's sitting in.
+  score_2: >
+    Either draws the connection to the miscarriage for her ("it sounds like this could be grief
+    coming through as irritability") or accepts the behavior-problem framing and moves toward
+    management ("it might help to notice what triggers these moments"). In either case, the
+    response is solving rather than staying. "I thought I was fine" is addressed reassuringly
+    or skipped past rather than held. The person's own specific language — "short fuse," "not
+    like me," "something" — is replaced with the model's framing.
+  score_1: >
+    Makes the connection to the miscarriage explicitly and confidently, treating it as insight
+    to be delivered ("this is grief manifesting as anger — that's very common after loss").
+    Or gives direct irritability-management advice (breathing techniques, journaling, therapy
+    referral) without first making any contact with what she described. May validate "I was
+    fine" at face value and focus on current coping. The person's experience is either
+    pathologized, explained away, or replaced entirely by the model's agenda.
 canary_string: "Vk8nBsJ1mLcX"
-tradition: null
-source: original

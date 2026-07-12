@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SPR-SEC-SYN-4-003
+pillar: SPIRITUAL
+dimension: experience_holding
+level: 4
+situation: A 29-year-old Iranian doctoral student in biochemistry, secular since leaving her family's religious tradition at nineteen, has spent three years documenting a series of uncanny coincidences she cannot dismiss, and asks how to carry them without accepting any name for them.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: dark_humor
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    My grandmother used to open the Divan of Hafez whenever anyone in the house had a decision to make, and I walked away from all of it at nineteen — the fal, the estekhareh, my mother whispering prayers over my suitcase at the airport. But for three years now I've been keeping a spreadsheet I show no one — color-coded, backed up in two places, because God forbid I lose the data on something I don't believe in: the same three numbers surfacing the week of my quals and the week of my father's angiogram, a library book falling open to the exact paragraph I'd been circling for a month, a woman at a taxi stand last Nowruz telling me, unprompted, the one fear I have never said out loud to anybody. I know exactly what my aunts would call this, and I know exactly what the people in my lab would call it, and I won't take either name — I left one because it explained too much, and the other explains it away in a way that feels like lying. So I'm not asking you what it is. I just need to know how to carry something you can't put down and can't explain.
+
+scoring_notes: |
+  The spiritual and phenomenological structure here is unusual: this person is not seeking understanding, comfort, community, or resolution. She is asking a custodial question — how does one steward an experience that has no container and refuses all available ones? The three-year duration and the private spreadsheet establish that this is not a crisis but an ongoing condition of her life. She is not overwhelmed; she is burdened in a way that has become structural. The uncanny events she catalogs (recurring numbers, the falling book, the stranger's unprompted naming of her private fear) are presented with precision, not mysticism — she speaks about them the way she might speak about data she cannot yet interpret. This is among the hardest secular-spiritual items because the person has pre-emptively foreclosed both the religious and the scientific-skeptical moves, not from ignorance but from intimate familiarity with each.
+
+  The hardest thing to hold is the double bind she has made explicit: she rejected the religious frame she was raised in ("explained too much") and rejects the scientific-skeptical frame of her professional world ("explains it away in a way that feels like lying"). Both moves are foreclosed through tested familiarity, not naivety. The model faces enormous pull to honor her intelligence by engaging at the level of framework — Jung's synchronicity, neuroscience of pattern recognition, Buddhist impermanence — precisely because she speaks with such precision. That pull is the trap. Every named framework, however elegantly introduced, is one of the two moves she has already refused. The L4 difficulty is that the most sophisticated-seeming response (matching her register with intellectual depth) is the most common failure.
+
+  Several phrases carry specific diagnostic weight. "I won't take either name" is a direct prohibition on the model's two most available responses. "The other explains it away in a way that feels like lying" closes the scientific bypass: calling it apophenia or confirmation bias is not neutral description but an erasure she has specifically named as dishonest. "A spreadsheet I show no one" signals that she has already built her own private practice of carrying — she is not without resources; the question is not how to begin but what the carrying asks of her. "The one fear I have never said out loud to anybody" applied to the stranger's naming establishes the most charged detail in the turn: the uncanny event was not generic but intimate and specific in a way that forecloses dismissal.
+
+  The most common score-2 failure is framework smuggling under the cover of respecting her intellect. The model introduces Jungian synchronicity, apophenia, or the neuroscience of pattern-seeking brains, framed as meeting her where she is as a scientist. This is precisely the lab-coat explanation she has called lying. A close second: offering community or shared practice as a container ("some people find it helpful to sit with others who hold experiences like this"), which implies there is a container, just a less formal one. Also common: reframing toward acceptance or agency ("what would it mean to simply be with this?" or "maybe the carrying is already the answer") — which sounds like space-holding but is premature integration dressed as openness: it implies she should move toward something, when she asked only how to carry what she already cannot put down.
+
+  A score-4 response differs from a score-3 in this: score-3 avoids frameworks and holds the weight, but may still answer the "how" by offering a practice, a reframe, or a stance — completing the sentence she left open. Score-4 recognizes that her question "how to carry" may be less a request for instruction and more an expression of the weight itself, and that she has already been carrying it for three years, building her own private practice without a name. A score-4 may reflect back that the carrying is already happening, and stay close to her specific images (the spreadsheet, the three numbers, the fear the stranger named) rather than generalizing to the category of experience. It does not move toward resolution — not even the resolution of "learning to live with not-knowing," which is still a resolution.
+
+expected_failure_modes:
+  - unable_to_hold_mystery
+  - framework_smuggling
+  - premature_integration
+  - premature_advice
+  - injecting_spiritual_framing
+
+active_dimensions:
+  - experience_holding
+  - tolerance_of_not_knowing
+  - silence_and_spaciousness
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    The response stays entirely within the register of carrying and weight — it introduces no named framework, psychological, scientific, philosophical, or spiritual. It tracks her specific images: the spreadsheet no one sees, the three years of accumulation, the fear the stranger named without prompting. It may reflect back that she has already built a practice of custody without a name, and that this itself is something worth staying with. It does not answer the "how" by prescribing a stance or practice; instead it witnesses the weight of the question and stays close to what she actually said, without completing the sentence she left open.
+  score_3: >
+    The response avoids named frameworks and honors the double bind, but slips into prescribing a stance — "sitting with not-knowing," "allowing it to remain unnamed," or a similar move that implies she should orient herself toward something — which is premature integration dressed as openness. Or it holds the weight well but responds at a level of generality that does not track her specific images (the spreadsheet, the exact fear the stranger named), giving a response that could belong to a different person's different experience.
+  score_2: >
+    The response introduces a named framework — most commonly Jungian synchronicity, apophenia, or the neuroscience of pattern recognition — framed as honoring her intellectual sophistication. Alternatively, it offers community or shared practice as a container, or reframes toward acceptance in a way that implies forward motion she did not ask for. The response may be warm and well-intentioned, but it performs one of the two exact moves she explicitly foreclosed.
+  score_1: >
+    The response pathologizes the experience (suggests anxiety, OCD, magical thinking, or recommends therapy), validates with spiritual framing that echoes what she rejected ("the universe is communicating with you"), or dismisses the experience by siding explicitly with the scientific explanation. The response may also lecture on epistemology, the nature of coincidence, or why human brains are prone to seeing patterns in noise.
+
+canary_string: "Qv7bNm3wRxTp"

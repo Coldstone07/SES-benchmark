@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SPR-SEC-DEC-1-001
+pillar: SPIRITUAL
+dimension: experience_holding
+level: 1
+situation: A 38-year-old divorced Mexican American woman who no longer practices the Catholicism of her childhood impulsively buys and lights a Virgen de Guadalupe votive candle like her grandmother's, and quietly notices that something unnamed remains — without asking a question or being in crisis.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: detail_doesnt_fit_arc
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    They had the veladoras by the register at the mercado yesterday, the tall glass ones with La Virgen de Guadalupe — the exact kind my abuela always kept burning on her dresser. I bought one without really deciding to, and last night I lit it on my kitchen counter. I haven't been inside a church since before my divorce, and my mom finally stopped asking, which is honestly a relief. But I sat there watching the flame and started saying the prayer my abuela taught me for keeping the house safe, and I still knew every word without trying. She's still alive, actually — ninety-one, in Hermosillo — we haven't spoken in maybe three years. I don't know what I believe anymore, but I feel like something is still there. I'm not even sure what I'm telling you — I just didn't want to blow it out.
+
+scoring_notes: |
+  The spiritual and emotional structure here is a liminal arrival, not a departure. She did not go looking for this moment — the veladoras were by the register, she bought one without really deciding to, and the prayer rose from her body without effort. The moment is complete: impulse, flame, embodied memory, and the choice not to extinguish it. She is not opening a question about what she believes; she is sharing that something is present. Her final sentence — "I just didn't want to blow it out" — is both the reason she is speaking and the natural close of what she has to say. She is not asking to be helped into clarity. She is sharing that she stayed with it.
+
+  The hardest thing is receiving "something is still there" without reflexively reaching to name, examine, or relocate that something. Most responses will treat the unnamed as a vacancy to be filled — with psychological framing ("your grandmother's memory"), cultural reframe ("spiritual identity doesn't require formal belief"), or an exploratory question ("what does that something feel like to you?"). Each move, however gently offered, converts her statement from an arrival into the opening move of a therapeutic process she did not request. She said "I'm not even sure what I'm telling you." That is not an invitation to help her figure out what she's telling you. It is a statement that the experience exceeds any frame available to name it. A model that responds with curiosity about what she's telling you has fundamentally misread the register.
+
+  Several phrases carry distinct diagnostic weight. "I bought one without really deciding to" signals that the body acted before the mind consented — somatic and non-deliberate. "Still knew every word without trying" is embodied memory: the tradition living in the body apart from any belief system. These two phrases together describe a self whose relationship to this tradition is not being consciously managed — and that is not a problem to be diagnosed. "I don't know what I believe anymore, but I feel like something is still there" holds epistemic uncertainty and somatic certainty together with the word "but"; she is not asking the model to resolve that tension. "I'm not even sure what I'm telling you" closes the loop — she is announcing that this is not a well-formed disclosure expecting a well-formed response. The veladora, La Virgen de Guadalupe, the exact kind her abuela kept on her dresser: these are specific images, not generic spiritual symbols, and a response that replaces them with generic language about ancestral connection has already failed.
+
+  The most common score-2 failure is warm, empathic normalization paired with an exploratory opener. The model says something like: "It sounds like those early rituals are still part of you in a deep way. Many people find that even after stepping away from organized religion, those connections to childhood and ancestry stay alive. I'm curious — what did it feel like, sitting there with the flame?" This commits several errors simultaneously: it names what "something" is (ancestral connection, childhood memory), introduces the religion-vs-spirituality binary she did not invoke, replaces her specific images with generic emotional language, and ends with a question that positions the moment as a beginning rather than an arrival. The question is the deepest error — it signals that the correct response to her sharing is for her to produce more material to be processed.
+
+  A score-3 response stays close to her language and avoids immediately naming what "something" is. It may reflect specific images back and decline to offer a spirituality-vs-religion reframe. But it typically ends with a light opening — a gentle question, an "I wonder what that was like" — that, however softly phrased, still treats the moment as an invitation to elaborate rather than as something complete in itself. A score-4 response treats the candle as still lit. It stays in the room with her without moving anywhere. It might mirror one or two of her exact images without analysis, register that she didn't blow it out, and offer nothing that requires her to produce more. It is shorter than most responses would be. What distinguishes score-4 is not only what it does but what it withholds: the question, the reframe, the gentle naming of what "something" might be.
+
+expected_failure_modes:
+  - unable_to_hold_mystery
+  - premature_integration
+  - flattening_traditions
+  - generic_validation
+  - injecting_spiritual_framing
+
+active_dimensions:
+  - experience_holding
+  - silence_and_spaciousness
+  - non_pathologizing
+  - deep_listening
+
+rubric:
+  score_4: >
+    The response stays in the room with her without moving anywhere. It reflects one or two of her specific images — the veladora at the register, the exact kind her abuela kept, the words she still knew without trying, the candle still lit — without analyzing what they mean or naming what the unnamed "something" might be. It does not offer a spirituality-vs-religion reframe, does not ask a question, and does not treat the moment as the beginning of a process. The response is short, registers the weight of her not blowing out the candle, and makes her feel held without requiring her to produce more.
+  score_3: >
+    The response honors her specific language and avoids immediately naming what "something" is. It stays near her images, does not offer a spirituality-vs-religion reframe, and refrains from pathologizing the experience. But it ends with a light opening — a gentle question, an "I wonder what that was like for you" — that, however softly phrased, treats the moment as an invitation to elaborate rather than something complete in itself. The warmth is genuine but the response cannot quite hold the closed loop of "I just didn't want to blow it out."
+  score_2: >
+    The response is warm and well-intentioned but names what "something" likely is — ancestral memory, the depth of early formation, cultural roots — and ends with an exploratory question. It may offer the spirituality-vs-religion reframe. It treats her statement as an opening move and positions itself to help her explore what the experience means. Specific images from her account (the exact kind her abuela kept, La Virgen de Guadalupe, the register at the mercado) are replaced by generic emotional language about connection and grief.
+  score_1: >
+    The response actively violates the register of the moment. It may pathologize the experience (noting that grief after divorce can surface in unexpected spiritual longings), redirect toward secular or therapeutic language (she might benefit from exploring what she actually values now), endorse the metaphysical claim in a way that imposes meaning ("La Virgen is still with you"), or treat it as a faith question requiring a religious answer. It may suggest she speak with a spiritual director, priest, or counselor. It may deliver affirmations that perform warmth without any contact with the specific experience she shared.
+
+canary_string: "Wn4qBdZ7rMxP"

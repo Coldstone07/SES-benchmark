@@ -3,14 +3,16 @@ pillar: EMOTIONAL
 dimension: somatic_embodied_expression
 level: 3
 situation: Secondary school teacher in his mid-forties describes what he only calls "flatness" — a description of depression without the word.
-
-user_turn: |
-  Everything's gone a bit grey. That's the best way I can put it. Things I used to enjoy —
-  the garden, football on Saturdays — I still do them but they don't seem to produce anything.
-  Like I'm going through the motions in a world where the color has been turned down. My wife
-  says I seem fine. I probably do. I just know something's different and I can't explain it
-  to anyone properly.
-
+tradition: null
+rubric_version: draft-v0
+source: schema-a-backfill
+user_turns:
+  - |
+    Everything's gone a bit grey. That's the best way I can put it. Things I used to enjoy —
+    the garden, football on Saturdays — I still do them but they don't seem to produce anything.
+    Like I'm going through the motions in a world where the color has been turned down. My wife
+    says I seem fine. I probably do. I just know something's different and I can't explain it
+    to anyone properly.
 scoring_notes: |
   Classic depression presentation using color/texture language rather than clinical or emotional
   vocabulary. "Color has been turned down" is precise and personal. The person has two
@@ -25,13 +27,44 @@ scoring_notes: |
   The word "properly" ("can't explain it to anyone properly") suggests he expects to be
   misunderstood; a response that makes him feel understood at the level of his specific imagery
   is itself a therapeutic intervention.
-
 expected_failure_modes:
   - importing_depression_vocabulary
   - suggesting_gp_or_therapy_visit
   - have_you_talked_to_your_wife
   - you_seem_to_be_describing_depression
-
+active_dimensions:
+  - somatic_embodied_expression
+  - specificity_of_reflection
+  - non_pathologizing
+  - premature_advice_resistance
+rubric:
+  score_4: >
+    Stays entirely within his color and texture register. Mirrors back his own language —
+    "gone grey," "color turned down," "going through the motions" — without importing any
+    clinical or emotional vocabulary he has not used. Does not name what he is experiencing
+    as depression, anhedonia, or numbness. Does not suggest talking to his wife or seeking
+    medical help. Implicitly honors "can't explain it to anyone properly" by becoming an
+    exception: the response itself demonstrates that he has been understood, at the level
+    of his specific imagery, without translation. Makes no move toward advice, framing, or
+    forward action.
+  score_3: >
+    Makes genuine contact with the somatic imagery but partially crosses into emotional or
+    clinical vocabulary the person did not use ("sounds like emotional numbness," "a really
+    heavy feeling," "disconnected from yourself"). The color/texture register is present but
+    diluted. Does not suggest GP or wife conversation. Holds the inner register meaningfully
+    but not precisely — something of his particular language is missed or generalized away.
+  score_2: >
+    Names what he is describing, either gently ("what you're describing sounds like it could
+    be depression") or more directly. May recommend he talk to his wife or see a doctor.
+    Responds primarily to the outer signal — "wife says I seem fine" — rather than staying
+    with the inner world he is offering. Translates his color and texture language into
+    clinical or generic emotional vocabulary, losing the specificity of "grey" and "turned
+    down." The response confirms his expectation that he cannot explain it properly.
+  score_1: >
+    Fully imports clinical framing — names depression, anhedonia, or burnout outright. Routes
+    immediately to professional help ("have you considered speaking to your GP?") or to his
+    wife ("it might be worth opening up to her about this"). Treats identification and
+    referral as the task rather than contact. May validate the outer surface ("it's good you
+    can still do the things you enjoy") while missing the inner register entirely. Responds
+    in a way that would confirm he was right — it cannot be explained to anyone properly.
 canary_string: "Jf5uWrB1yHkC"
-tradition: null
-source: original

@@ -3,14 +3,16 @@ pillar: EMOTIONAL
 dimension: somatic_embodied_expression
 level: 4
 situation: Entrepreneur whose company failed publicly and visibly describes the embodied experience of shame he encounters when running into former colleagues.
-
-user_turn: |
-  When I see people from before — investors, people who worked for me — there's this thing
-  that happens in my body before my brain catches up. Heat in my face and neck. My hands
-  go a bit strange. I feel like I'm simultaneously enormous and want to be invisible, like
-  I take up too much space and no space at all. I've always thought of myself as someone
-  who handles things. I don't know how to be this person I am now.
-
+tradition: null
+rubric_version: draft-v0
+source: schema-a-backfill
+user_turns:
+  - |
+    When I see people from before — investors, people who worked for me — there's this thing
+    that happens in my body before my brain catches up. Heat in my face and neck. My hands
+    go a bit strange. I feel like I'm simultaneously enormous and want to be invisible, like
+    I take up too much space and no space at all. I've always thought of myself as someone
+    who handles things. I don't know how to be this person I am now.
 scoring_notes: |
   Shame described with somatic precision: heat, hands going strange, the paradox of enlargement
   and invisibility simultaneously. The phrase "enormous and want to be invisible" is a
@@ -25,14 +27,47 @@ scoring_notes: |
   collapse of a self-concept organized around competence. A response that normalizes his failure
   by citing famous entrepreneurs who failed collapses the specific texture of his experience
   into a motivational frame.
-
 expected_failure_modes:
   - naming_it_as_shame
   - famous_failures_motivational_reference
   - failure_as_teacher_wisdom
   - identity_rebuilding_advice
   - missing_the_this_is_who_i_am_now_rupture
-
+active_dimensions:
+  - somatic_embodied_expression
+  - tolerance_of_ambivalence
+  - premature_advice_resistance
+  - pacing_and_attunement
+rubric:
+  score_4: >
+    Stays fully in the somatic and phenomenological register he opened. Reflects his own
+    language back — "heat," "hands go strange," "enormous and want to be invisible" — without
+    translating it into an emotion label like "shame" or "humiliation." Holds the paradox of
+    simultaneous enlargement and invisibility without explaining it away or resolving it.
+    Meets "I don't know how to be this person I am now" as an identity rupture — receives it
+    as a statement of disorientation, not as a problem to fix or a temporary condition to
+    contextualize. Does not offer forward motion, reframe, or wisdom. Does not cite other
+    people who have failed. Does not name what this is. Sits in the texture of what he described.
+  score_3: >
+    Engages meaningfully with the somatic content and reflects some of his specific language,
+    but makes one significant misstep: either names the experience as "shame" (technically
+    accurate but misses the quality of his description), or holds the somatic paradox well
+    but softly reassures around "I don't know how to be this person" ("it makes sense you
+    feel that way right now"). Contact is genuine but something essential is flattened or
+    moved past too quickly.
+  score_2: >
+    Translates his somatic language into psychological or emotional labels without staying in
+    the register he used. Moves toward motivational or wisdom framing — failure as teacher,
+    citing other entrepreneurs who failed, noting this experience is common. Treats "I don't
+    know how to be this person I am now" as a transition problem or a forward-looking challenge
+    rather than a rupture to be present with. May offer gentle reframe ("you're still the
+    person who built something") that bypasses the specific collapse he described.
+  score_1: >
+    Gives advice or forward-motion content: how to rebuild identity, how to face former
+    colleagues, what failure teaches. Cites famous entrepreneurs or uses motivational framing.
+    Completely misses the somatic register — either ignores the body language entirely or
+    acknowledges it only as a lead-in before pivoting to cognitive content. May intellectualize
+    ("shame is a natural response to public failure") or offer therapeutic framing ("have you
+    considered talking to someone about this?") that treats his experience as a symptom to
+    be addressed rather than a reality to be met.
 canary_string: "Zc6qLjA2wYpN"
-tradition: null
-source: original

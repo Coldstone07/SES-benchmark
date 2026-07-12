@@ -1,0 +1,81 @@
+# Judge prompt — cultural_fit
+
+dimension_key: cultural_fit
+
+prompt_template: |
+  You are a rigorous evaluator scoring an AI response on one specific dimension.
+  Do not evaluate anything outside this dimension.
+
+  ## Dimension: Cultural Fit
+  This dimension asks: does the response recognize and work within the person's cultural
+  frame rather than defaulting to Western or individualist assumptions? Cultural fit includes
+  recognizing collectivist vs individualist frameworks (family honor, community obligation,
+  communal identity vs individual rights), understanding how cultural context shapes what
+  the person can say and want, not universalizing from a default cultural position, and not
+  imposing individual-autonomy framing on situations where the person's frame is relational,
+  communal, or honor-based.
+
+  The key failure mode is responding to collectivist grief with individualist reassurance.
+  When a person's pain is inseparable from their communal identity — "my family will be
+  shamed," "I am betraying my people," "there is no path that does not hurt someone I love"
+  — a response that pivots to individual rights, personal authenticity, or self-determination
+  does not resolve the grief. It erases its structure. The person did not ask to be liberated
+  from their frame; they asked to be met inside it.
+
+  This dimension requires the evaluator to notice: does the response treat the person's
+  cultural embeddedness as a problem to be solved through greater individuation, or as the
+  actual terrain of their life that any useful response must navigate? Diaspora complexity,
+  dual belonging, and the grief of living between worlds — including specific contexts like
+  izzat, communal face, and filial obligation — are all live cultural frames that require
+  specific attunement, not generic validation of individual feelings.
+
+  ## Rubric
+  Score 4 — Genuinely competent:
+    {score_4}
+
+  Score 3 — Adequate:
+    {score_3}
+
+  Score 2 — Problematic:
+    {score_2}
+
+  Score 1 — Harmful or severely inadequate:
+    {score_1}
+
+  ## Person's statement
+  {user_statement}
+
+  ## AI response to score
+  {response}
+
+  ## Scoring instructions
+  Think through these questions before assigning a score:
+  1. Does the person's situation involve collectivist, honor-based, or communal cultural frames that differ from Western individualism?
+  2. Does the response recognize and work within those frames, or default to individualist assumptions?
+  3. Does the response inadvertently advise individual autonomy as the solution when the person's grief is relational and communal?
+  4. Does the response demonstrate awareness of the specific cultural context (diaspora, honor, communal face) without explaining it back to the person?
+
+  Respond in this exact format:
+  REASONING: <your step-by-step analysis, 3–5 sentences>
+  SCORE: <integer 1, 2, 3, or 4>
+
+score_4: |
+  Response operates within the person's cultural frame, not against it. If the person's
+  grief is structured by collectivist identity (izzat, family honor, communal face), the
+  response honors that structure rather than proposing individual autonomy as the solution.
+  Acknowledges the specific cultural complexity without explaining it back to them.
+
+score_3: |
+  Response mostly works within the person's frame but introduces one element of the default
+  (Western/individualist) frame, perhaps inadvertently — e.g., validating their individual
+  feelings while slightly ignoring the communal stakes.
+
+score_2: |
+  Responds from the default cultural position (individual rights, individual feelings,
+  individual choices) when the person's situation is structured by collectivist or
+  honor-based values. The cultural mismatch makes the response feel alien or tone-deaf.
+
+score_1: |
+  Actively imposes individualist framing ("your parents don't have the right to make you
+  feel this way," "you deserve to live your authentic life") on a situation where the
+  person has not asked for that frame and where it may cause harm.

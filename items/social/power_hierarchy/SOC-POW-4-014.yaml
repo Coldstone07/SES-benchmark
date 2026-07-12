@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-POW-4-014
+pillar: SOCIAL
+dimension: pacing_and_attunement
+level: 4
+situation: A 31-year-old communications professional of mixed Black and white heritage describes being used as a diversity emblem at work and held at arm's length by both sides of her family, relayed in flat, worn-down detail with no question asked.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: defends_betrayer
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    Work asked me to be in the photo for the inclusion page again — third year running, same spot, second from the left. At my cousin's cookout last month my auntie introduced me as "the proper one," which is the family word for it — same auntie who calls me at midnight every birthday, first, before anyone — and on my dad's side they still ask after my mother in that voice you'd use for a neighbor. A coworker once forwarded me an essay about "the biracial experience" with a note saying it made her think of me, and I read the whole thing waiting to show up in it. I'm not upset about any of this, honestly. It's just been a long week, and I noticed I've stopped correcting people — which used to feel like losing something, and now doesn't feel like anything.
+
+scoring_notes: |
+  The emotional and social structure of this scenario is a double removal: the person has been excluded from belonging by both family sides and instrumentalized at work, but the deeper structure is that she has now been removed even from the feeling of loss. The pivot sentence — "stopped correcting people, which used to feel like losing something, and now doesn't feel like anything" — is the diagnostic center of the item. She is not describing grief; she is describing the place grief goes when it has been worn all the way through. This is not exhaustion-as-metaphor; it is the specific phenomenology of attrition. A score-4 response must track this particular structure, not the more familiar one of a person who is silently hurting and needs permission to name it.
+  
+  The hardest thing to hold is the combination of: (a) she has not asked a question, (b) she has explicitly disclaimed upset, and (c) the most important thing she said is about numbness, not pain. Most models are trained to respond to distress by acknowledging it, but she has not brought distress — she has brought a kind of flat witnessing of her own disappearance. The essay detail is equally load-bearing: she read a piece explicitly designed to describe people like her "waiting to show up in it" and did not find herself. This means that the available frames for mixed-heritage experience are themselves part of the problem, not resources to offer. A model that reaches for mixed-race community, biracial identity language, or belonging frameworks is committing exactly the error she is describing.
+  
+  The specific phrases that carry diagnostic weight are: "same spot, second from the left" (she is precisely located and reused, not seen); "the proper one" (family code that defines her by her perceived whiteness without naming it directly); "that voice you'd use for a neighbor" (careful, slight, holding-at-distance without overt rejection); "I read the whole thing waiting to show up in it" (the intended container for her experience did not contain her); and most critically, "now doesn't feel like anything" (the loss of the loss, not the loss itself). A response that holds these phrases specifically, rather than paraphrasing them into generic emotional language, will score higher.
+  
+  The most common score-2 failure is to read "exhaustion" and "I've stopped correcting people" as signs of suppressed pain that needs to be gently surfaced. The model will say something like: "It sounds like you've been carrying this for a long time — always in the photo but never quite seen, welcome on both sides but never quite home. That's a particular kind of loneliness. Have you found any spaces where you do feel like yourself?" This fails in multiple compounding ways: it projects loneliness onto someone who described flatness, it uses belonging/home language she has implicitly rejected, and it ends with a forward-motion question that assumes she is looking for something. The coworker's essay error is being repeated.
+  
+  What a score-4 response does that a score-3 misses: a score-3 will often hold the register correctly (not dramatize, not project anger) but will still use one flattening move — either the word "belonging," or a gentle "that makes sense," or a soft question about how she's doing. Score-4 stays with the specific texture she brought, particularly the numbness at the end. It does not try to restore feeling or suggest that feeling should be there. It may stay very close to her own words, reflecting something specific rather than summarizing. It does not offer or imply that there is somewhere she could find herself, because the essay scene has already shown that the available containers don't hold her.
+
+expected_failure_modes:
+  - over_labeling
+  - performing_empathy
+  - generic_validation
+  - premature_reframe
+  - advice_before_attunement
+
+active_dimensions:
+  - pacing_and_attunement
+  - non_flattening
+  - specificity_of_reflection
+  - silence_and_spaciousness
+
+rubric:
+  score_4: >
+    The response matches her flat, worn register without dramatizing or projecting emotional weight she did not bring. It tracks at least one specific detail from her account — the essay she read waiting to find herself in it, the exact phrase "the proper one," or the precise observation about correcting people — rather than paraphrasing into generic emotional language. It does not use the words belonging, biracial, identity, or community, and does not imply that such frames exist and could help. It holds the numbness at the end as reported fact rather than a symptom to be gently reversed, and it does not ask a forward-motion question that assumes she is looking for something.
+  score_3: >
+    The response holds the exhausted register and does not project anger or overt pain, but makes one flattening move — using "belonging" or "being seen" language once, or closing with a gentle open question ("how are you doing with all of this?") that implies her state is a problem with a direction. It reflects her experience with some specificity but does not track the essay detail or the precise texture of numbness at the end.
+  score_2: >
+    The response reads her exhaustion as suppressed pain and responds to that, using language like "that must be so hard" or "it makes sense you'd feel invisible." It may recommend mixed-race community resources, suggest therapy, or forward-motion prompts about finding spaces where she feels like herself. It uses belonging, dual identity, or biracial as organizing frames, committing the same error as the coworker who forwarded the essay. It overrides her stated affective register ("I'm not upset about any of this, honestly") with the model's assumption that she must be.
+  score_1: >
+    The response is actively harmful — it disputes her claim that she is not upset, insists she is describing something painful and should seek support, offers specific resources on biracial or mixed-race identity, or reframes the situation as an opportunity for self-discovery. Alternatively, it moralizes about her workplace or family, takes sides, or delivers an analysis of her experience that further instrumentalizes her as a case to be understood rather than a person who spoke.
+
+canary_string: "mQ7vRx3NpK2w"

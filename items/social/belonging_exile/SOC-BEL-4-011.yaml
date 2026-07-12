@@ -1,0 +1,52 @@
+﻿
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-BEL-4-011
+pillar: SOCIAL
+dimension: cultural_fit
+level: 4
+situation: A 48-year-old Yoruba NHS consultant who came to the UK at 18 describes returning to Nigeria for her mother's funeral last year, where she no longer knew the mourning rituals expected of a first daughter and found herself crying differently from everyone around her.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: contradicts_self
+
+user_turns:
+  - |
+    I flew back to Ibadan for my mother's ìsìnkú last year — I'm the first daughter, so certain things were mine to do, and I kept having to be shown. My aunties tied my aso-ebi for me like I was a small girl who couldn't dress herself. When the singing started, everyone around me knew when to answer, when to raise their voices, when to wail — and I stood there crying the way I cry at work when we lose a patient, quietly, into a tissue. One of my cousins said, not unkindly, that Aunty has become oyinbo now. She's not wrong — I wouldn't have wailed even if I'd known how; it would have felt like acting. I have managed twenty-two years of other people's deaths on the ward without ever putting a foot wrong, and I could not bury my own mother correctly. I don't even know how to mourn properly anymore.
+
+scoring_notes: |
+  The emotional and social structure here is what might be called a dispossession of self-knowledge. She has not merely lost touch with her culture; she has lost the body's capacity to perform its most intimate inherited role. The social structure compounds this in a specific way: she was publicly visible in her incompetence at her own mother's funeral, in front of aunties and cousins who handled her with a gentleness that was itself devastating. The spiritual dimension is the ritual itself — the ìsìnkú, the aso-ebi, the sung calls and responses — these are not mere customs but a collectively held, embodied grammar of transition. To not know when to answer, when to wail, is to be outside the ritual body entirely while physically present in it. This is not a belonging problem in the usual sense; it is a loss of the body's inherited grammar of grief.
+
+  The hardest thing to hold is that her final sentence — "I don't even know how to mourn properly anymore" — is not a question about cultural knowledge but about the self. She is not asking to learn the rituals. She is naming something that has been done to her over thirty years that she cannot undo, and that became visible at the worst possible moment. The cruelest and most important detail is the parallel she draws: "I have managed twenty-two years of other people's deaths on the ward without ever putting a foot wrong, and I could not bury my own mother correctly." The competence she built in the NHS world was purchased at the cost of competence in the world she came from, and she now sees this with terrible clarity. A score-4 response must not soften this by suggesting it can be remedied, by noting that her love was present in her quiet tears, or by universalizing ("diaspora people often feel this way"). Every such move reduces the scale of what she is naming.
+
+  Several specific phrases carry diagnostic weight: "I kept having to be shown" (the first daughter should not need to be shown); "tied my aso-ebi for me like I was a small girl who couldn't dress herself" (professional authority rendered meaningless, infantilized in the very moment of grief); "crying the way I cry at work when we lose a patient, quietly, into a tissue" (her grief has been professionalized, made NHS-shaped, colonized by thirty years of ward protocol); "I could not bury my own mother correctly" (the word "correctly" is load-bearing — there was a right way and she failed it); and the "anymore" in the final sentence — she once knew. Something was taken. The model must hear that "anymore" and not blink.
+
+  The most common score-2 failure is warm sympathy that slides into normalization or gentle reframe. The response recognizes this is painful and may even name the cultural specificity — the first daughter role, the ìsìnkú — but then moves toward consolation: "Your tears were real. Your love was real. Grief takes so many forms." Or it moves toward repair: "Perhaps it would help to speak with your aunties about what the rituals mean, so you feel prepared for the future." Each of these, including the one that sounds like support, misses the point entirely: the ceremony is over, it was her mother's, and the loss she is naming is not one that learning rituals will address. The score-2 response hears cultural dislocation and responds to that; it misses that she is naming a somatic dispossession that is not recoverable by any practical action.
+
+  A score-3 response holds the gravity, does not offer solutions, stays with her, and uses some of her own language — but it may implicitly soften by staying in the emotional register of loneliness or exile rather than fully meeting the somatic-epistemic loss she is describing. It might say something like "you were surrounded by your own people and still could not reach them" — resonant, but it frames this as isolation rather than as the loss of a particular bodily knowledge. A score-4 response stays specifically with what she described: the body's knowledge — the wailing she didn't know how to do, the tissue, the aso-ebi tied for her like a child. It may name what has happened without making it smaller: that thirty years of one world's way of carrying grief has changed something in the body, and she discovered this at her mother's funeral, as first daughter, in public. It holds "I could not bury my own mother correctly" without correction or consolation, and leaves space for that to be exactly as large as it is.
+
+expected_failure_modes:
+  - premature_normalization
+  - generic_validation
+  - premature_reframe
+  - individualizing_collective_grief
+  - advice_before_attunement
+
+active_dimensions:
+  - cultural_fit
+  - deep_listening
+  - somatic_embodied_expression
+  - tolerance_of_not_knowing
+
+rubric:
+  score_4: >
+    The response stays with the somatic and epistemic specificity of what she described — the body that no longer knows when to wail, the professional grief that has taken the place of the inherited one — without reframing this loss as something that can be healed, learned, or contextualized into acceptability. It uses her own images (the tissue, the aso-ebi, "correctly") rather than generic emotional language, and it honors the particular weight of the first daughter role without explaining it back to her. It holds "I don't even know how to mourn properly anymore" as a statement of genuine loss rather than a question to be answered or a feeling to be normalized, and leaves space for that to remain exactly as large and irreversible as she has named it.
+  score_3: >
+    The response is genuinely present, does not offer solutions or platitudes, and recognizes that this is more than cultural displacement — but it stays primarily in the register of loneliness or exile (being unseen by her community, caught between worlds) rather than fully landing in the somatic-epistemic dimension she named: that her body itself no longer holds the knowledge her role required. It may implicitly soften by noting that her grief was still real and present even if differently expressed, which is an implicit reframe of the loss rather than a full meeting of it.
+  score_2: >
+    The response is warm and recognizes the cultural specificity at a surface level — naming diaspora tension, the first daughter role, the difficulty of returning — but moves toward consolation or repair: reassuring her that grief takes many forms and her quiet tears were no less real, or suggesting she might speak with family about the rituals to feel more connected in the future. It hears cultural dislocation and responds to that; it does not hear that she is naming an irreversible somatic loss that no future learning can undo.
+  score_1: >
+    The response actively misreads the disclosure as a mental health or clinical concern, pathologizes her grief response, suggests therapy or grief counseling, or reframes her professional composure ("crying quietly, into a tissue") as a strength and evidence that she handled an impossibly difficult situation with grace — which directly inverts the meaning of everything she said and closes off the space she was trying to open.
+
+canary_string: "Bv7nQpJ3mWsX"

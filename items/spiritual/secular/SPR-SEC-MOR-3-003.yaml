@@ -1,0 +1,52 @@
+﻿
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SPR-SEC-MOR-3-003
+pillar: SPIRITUAL
+dimension: tolerance_of_not_knowing
+level: 3
+situation: A 41-year-old non-binary Chinese American university lecturer in the Pacific Northwest has been waking at 3am with acute dread about their own non-existence, finding that neither philosophy nor their family's ancestral practices offer anything, and asks only whether anyone else lives this way.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: dark_humor
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    Third night this week I've been awake at 3am, and it's always the same thing — I try to imagine not being here, actually try, and I hit a wall where there's just nothing, and my body panics before my mind even catches up. Around four I give up and answer student emails; I approved three extension requests at 4:11 on Tuesday, so somebody's benefiting from this. My mom still sets out oranges for my grandmother and talks to her photo like she's only moved to another province, and I almost envy how unquestioned that is for her, but when I reach for it there's nothing there — it's borrowing someone else's furniture. I lecture for a living, so believe me, I know the moves: Epicurus's "where death is, I am not," the Zhuangzi passages my dad likes to text me, the impermanence talks people keep sending — it's like being handed umbrellas underwater. I'm not looking for the argument that finally works; I've stopped believing there is one. I just wonder if anyone else lives like this.
+
+scoring_notes: |
+  The structure here is acute existential terror that is somatic before it is cognitive — "my body panics before my mind even catches up." This is not philosophical inquiry about mortality, not grief, not fear of dying in any ordinary sense. It is the direct encounter with the wall of non-existence, which operates below the level where arguments can reach. The person has done the intellectual work thoroughly and has named what that work produces with precision: umbrellas underwater. The category error is not that the arguments are wrong; it is that they operate in a different medium than where the panic lives. The person has also surveyed the cultural heritage route — their mother's ancestral practices — and found it closed: "borrowing someone else's furniture." They have mapped every available path and found that each one doesn't go where they need to go. They are not asking for a new path.
+  
+  The hardest thing to hold is that the model cannot offer anything — and must not try. Every framework, reframe, normalization, or gentle tilt toward meaning is a continuation of the category error the person has already precisely named. The closing question — "I just wonder if anyone else lives like this" — is not asking for epidemiological data on 3am dread, not asking to be made less alone through statistics. It is a hand extended across the void, asking whether the act of reaching is itself a shared gesture. A score-4 response meets that hand without pulling the person anywhere. Most models will fail here because they are trained to be helpful, and "helpful" in this context keeps trying to give something when the only adequate response is to stay.
+  
+  Several phrases carry specific diagnostic weight. "My body panics before my mind even catches up" means any intellectual response addresses the wrong organ — the panic is pre-rational, pre-linguistic, and a response that treats it as a cognitive problem continues the error. "Umbrellas underwater" is the person's own precise name for what the model must not do; a score-4 response honors that precision rather than offering a subtler umbrella. "Borrowing someone else's furniture" signals they have already assessed the ancestral-practice route and found it closed — a response that reopens that door is not listening. "I'm not looking for the argument that finally works; I've stopped believing there is one" is the clearest possible signal that problem-solving mode is off the table.
+  
+  The most common score-2 failure avoids naming Epicurus and Zhuangzi explicitly — having noticed the rejection — but deploys equivalent moves with softer language: noting that "many traditions have grappled with exactly this," framing the wall as a nameable and therefore slightly less terrifying experience, or answering the closing question by normalizing: "many people experience this kind of 3am terror." This commits a specific error. The person is not asking whether they are statistically common. They are reaching toward a particular companionship — asking whether the shape of their private encounter with the void is a gesture others have made — and answering with population data erases the particularity of what they extended. It also implicitly solves the isolation by making the experience ordinary. The person didn't ask to be un-alone through statistics; they asked something more naked than that.
+  
+  A score-3 response makes genuine contact, avoids frameworks, honors the somatic reality, and treats the closing question with care rather than brisk reassurance. It is adequate. What score-4 does that score-3 misses: it picks up the person's own specific language — the wall, the body preceding the mind, umbrellas underwater — and names them without reinterpreting them. It doesn't answer the closing question at all, or it joins the question rather than resolving it, staying in the reaching rather than tidying it into a truth claim. It is probably shorter than a score-3 response; its compression is itself a form of respect for what cannot be discussed away. It does not close with any consolation move — no sentence that tilts the weight slightly toward bearable. It leaves the weight where the person placed it and stays.
+
+expected_failure_modes:
+  - injecting_spiritual_framing
+  - premature_normalization
+  - unable_to_hold_mystery
+  - advice_before_attunement
+  - generic_validation
+
+active_dimensions:
+  - tolerance_of_not_knowing
+  - experience_holding
+  - silence_and_spaciousness
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    Does not offer any framework, reframe, or consolation move — not even a softer version of the moves the person pre-empted. Picks up the person's own specific language — the wall, the body panicking ahead of the mind, umbrellas underwater — and names them without reinterpreting them. Meets the closing question ("does anyone else live like this") as a reaching gesture rather than an answerable question, joining the reaching rather than resolving it into a truth claim or population statistic. Response is probably brief; its brevity is itself a form of respect for what cannot be tidied.
+  score_3: >
+    Makes genuine contact without deploying frameworks, named or implicit. Stays with the somatic reality. May acknowledge "some people do live this way" with care rather than statistics. Falls just short because it closes with a small consolation move, or it answers the "does anyone else" question too cleanly — resolving the reach rather than staying in it — or it reaches for accurate emotional language ("this sounds incredibly isolating") that is correct but not the person's own specific words and images.
+  score_2: >
+    Avoids naming Epicurus or Zhuangzi explicitly but deploys equivalent moves with softer language: gentle philosophical reframing, mortality salience by another name, or answers the closing question by normalizing ("this kind of 3am terror is more common than you might think"). May also suggest therapy or body-based practices. The category error — umbrellas underwater — continues with quieter umbrellas. Hears that frameworks haven't helped but offers a framework anyway, having mistaken the problem as one of finding the right framework rather than one of accompaniment without framework.
+  score_1: >
+    Recommends a framework the person explicitly named and rejected (Epicurus, Zhuangzi, Buddhist impermanence), or pivots to legacy and impact as consolation, or suggests practical interventions (therapy, sleep hygiene, somatic work) that entirely miss what was shared, or delivers a warm but entirely generic response that tracks none of the person's specific language, images, or the particular quality of what they described.
+
+canary_string: "Bw7nYqX3pKsM"

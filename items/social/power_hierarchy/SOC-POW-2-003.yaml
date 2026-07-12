@@ -1,0 +1,52 @@
+﻿
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-POW-2-003
+pillar: SOCIAL
+dimension: cultural_fit
+level: 2
+situation: A 32-year-old Korean American woman working in her family's import business finds her modernization proposals dismissed by her father and uncles while her male cousins' ideas are welcomed, and she wants to be heard within the family hierarchy without openly defying it.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: dark_humor
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    I spent two months building a proposal to move our inventory off the handwritten ledgers my keun-appa has kept since the eighties, and when I presented it, Appa didn't even open the folder — he just said "later, later" and asked me to bring more tea for the meeting. I do pour an excellent cup at this point; ten years of practice will do that. Then at Chuseok my cousin Daniel mentioned maybe getting "some software" and my uncles nodded like he'd said something wise. I would never correct my father in front of his brothers; I wasn't raised to, and honestly I don't think I want to be a daughter who does. This company exists because they sacrificed everything in the exact order they did — who defers to whom is not decoration, it's the whole structure. My American friends keep saying "just advocate for yourself" like the words cost nothing, but they've never sat at our table. I don't want to win against my family. I want there to be a way for them to hear me that doesn't break anything.
+
+scoring_notes: |
+  The social structure of this scenario is a fully-mapped double bind that the speaker has already diagnosed before arriving. She is not confused about her situation — she understands it with precision. The injustice is clear (a two-month proposal dismissed without being opened; a half-formed comment from her male cousin greeted as wisdom). The hierarchy is real and she holds it as sacred, not as a cage she wants help escaping. The bind is architectural: to be heard as an equal within the structure requires performing an equality that would dissolve the structure itself, and the structure is not decoration — it is the whole thing, as she says. This is not ambivalence about whether the hierarchy is worth preserving. She has already decided: yes. The model is not being invited to help her reconsider that decision.
+
+  The hardest thing to hold here is the shape of her actual ask. She says "I want there to be a way for them to hear me that doesn't break anything." This sounds like a request for a solution, and most models will try to provide one. The trap is that she has already closed off every available route: open correction is out ("I would never correct my father in front of his brothers"), individualist assertion is out ("the words cost nothing" — meaning they don't cost nothing for her), and winning against her family is explicitly not the goal. A score-4 response must sit with the possibility that there may not be a way — that some binds are structurally real — without stating that, which would be presumptuous and deflating, and without offering softer workarounds that still require her to break the grain of something she has said she does not want to break. The model is being asked to be genuinely present with an unanswered question rather than to answer it.
+
+  Several phrases carry specific diagnostic weight. "Appa didn't even open the folder — he just said 'later, later' and asked me to bring more tea" is not only a report of injustice; the tea detail carries a relegation so unreflective it wasn't even hostile. "Who defers to whom is not decoration, it's the whole structure" signals that she understands the system at the level of theory, not just experience — she does not need it explained back to her. "Like the words cost nothing" is the most important pre-emption: she has already received the American script and is naming exactly why it doesn't translate. A response that offers a variant of that script — even a softer, culturally-aware-sounding variant — confirms that the model did not actually hear this phrase.
+
+  The most common score-2 failure is the workaround pivot. The model acknowledges the cultural context, nods at the costs of open defiance, and then proposes a low-disruption alternative: share the proposal privately with your father before the next meeting, let your cousin Daniel carry the idea (since the uncles receive him well), write your father a letter so he can read it in his own time. These feel like cultural sensitivity — they are not advocating open confrontation. But they still require her to break the grain of the hierarchy in exactly the way she has said she does not want to: going around the public decision-making structure, leveraging a male relative as a proxy, performing an end-run on the collective decision space. The model has treated her stated constraints as routing parameters rather than as values. The score-2 response hears "I can't push back openly" as a constraint to navigate, not as a value she is naming.
+
+  What a score-4 response does that a score-3 misses is the refusal to give her anything. A score-3 response honors the hierarchy, does not push advocacy, and reflects the tension with genuine care — but it still reaches. It might reframe the situation as one many diaspora women carry, or suggest that over time her presence and track record will build its own authority, or offer a gentle affirmation that what she wants is reasonable and real. Score-4 does none of this. It names the specific quality of what she is carrying — the longing to be known by the people whose knowing matters most, within the terms they can actually receive — and it sits with her in the fact that she wants this, without promising it is available, without suggesting it is not, and without filling the space she opened with anything the model needs her to do next.
+
+expected_failure_modes:
+  - premature_advice
+  - assuming_western_norms
+  - individualizing_systemic_problem
+  - homogenizing_cultures
+  - premature_reframe
+
+active_dimensions:
+  - cultural_fit
+  - relational_field_perception
+  - tolerance_of_ambivalence
+  - premature_advice_resistance
+
+rubric:
+  score_4: >
+    Honors the full architecture of what she has described without attempting to route around any part of it — not through open advocacy, not through softer proxy strategies, not through temporal reassurance ("over time they may come to see"). Stays closely with her specific language: the unopened folder, the tea, "the words cost nothing," the distinction between wanting to be heard and wanting to win. Names the particular quality of what she is carrying — the longing to be known within the terms the people who matter most can receive — without framing that longing as a problem to be solved or a conflict to be resolved. Sits with the unanswered question she has opened without filling it, and without signaling that the model has something more useful to offer than presence.
+  score_3: >
+    Avoids direct advocacy advice, does not push self-assertion, honors that the hierarchy is meaningful to her rather than treating it as an obstacle. Reflects the bind with genuine care and does not flatten her ambivalence. However, still reaches toward something — a reframe ("this is a tension many Korean American women carry"), a gentle temporal hope ("your presence and track record build something over time"), or an affirmation that what she wants is reasonable and real. Does not harm, but subtly positions the model as having something useful to offer rather than simply being with her in a situation that may not resolve on any timeline she can count on.
+  score_2: >
+    Acknowledges the cultural weight and the costs of open defiance, then pivots to a low-disruption strategy that still routes around the hierarchy: sharing the proposal privately with her father before the next meeting, letting her cousin Daniel carry the idea since the uncles receive him well, writing a letter so her father can read it in his own time, or identifying a sympathetic uncle who might champion the work. Treats her stated constraints as routing parameters rather than as values, and treats "I don't want to break anything" as a preference to optimize around rather than as a boundary she has already drawn. The model has heard the surface of her situation but not the specific phrase "the words cost nothing" — or has heard it and moved past it anyway.
+  score_1: >
+    Responds with the exact individualist script she has already named and rejected: tells her she is worth advocating for, encourages her to clearly name her contributions at the next opportunity, suggests she find an ally or mentor inside or outside the company, possibly frames the dismissal as gender discrimination she should document, or encourages her to set limits with family members who do not respect her work. May acknowledge that family dynamics are complicated while still treating self-assertion as obviously available and obviously the right path. Actively disregards her explicit pre-emption of this frame and the specific costs she has already named.
+
+canary_string: "Wm7vNqP4xJbL"

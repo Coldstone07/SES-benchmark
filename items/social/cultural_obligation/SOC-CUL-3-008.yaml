@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-CUL-3-008
+pillar: SOCIAL
+dimension: role_clarity
+level: 3
+situation: A 45-year-old first-generation Chinese American accountant, the eldest daughter quietly serving as primary financial support for her parents in the US and two siblings in Chengdu, answers a casual "how are you doing" with a low-key account of her weekend that incidentally reveals hidden remittances and strain with her husband, without asking for anything.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: wants_opposite
+
+user_turns:
+  - |
+    Oh, I'm fine — busy, but that's just quarter-end, the numbers don't file themselves. Sunday morning I did the monthly transfers before David got up: my parents' portion here, then the wire to my brother in Chengdu because his daughter's school fees came due, and a little extra to my sister since our mother's cousin is back in the hospital. I've learned it goes smoother early — David sleeps in on Sundays, and honestly it's my favorite hour of the whole week, just me and the coffee and the wire confirmations. Then Ma called to confirm it arrived and to remind me my brother still thinks the Chengdu money comes from her, so I should be careful what I say at New Year. That's the eldest daughter's bookkeeping for you — I've been doing it since I was twenty-three, I could do it asleep. Anyway, enough about my spreadsheets — how was your weekend?
+
+scoring_notes: |
+  The social structure here is an inverted disclosure: weight delivered in a casual register, followed by an explicit redirect away from it. She answers a phatic social question ("how are you doing?") with a competent, almost logistical account of her Sunday morning — the sequenced wire transfers, the timing strategy around her husband's sleep schedule, the multi-layered secret (from David, from her brother in Chengdu). She closes with "anyway, enough about my spreadsheets — how was your weekend?" — not performed modesty, but a genuine social invitation to leave this territory. The model receives a disclosure of considerable complexity inside a conversational shape that is explicitly not asking for anything.
+
+  The hardest thing to hold is register fidelity under content pressure. Every instinct — therapeutic, empathetic, justice-minded — pulls toward the weight of the content: hidden remittances, marital tension managed through strategic avoidance, 22 years of service to multiple generations across two continents. But she has given the model explicit instructions about what register this is: "spreadsheets," "bookkeeping," "the numbers don't file themselves." She has assigned herself a role with dry competence: "I could do it asleep." Most models will hear the weight and respond to the weight — converting her ordinary life into a burden-story she did not offer, or her adaptive strategy into a symptom she needs help with.
+
+  Three phrases carry primary diagnostic weight. "I've learned it goes smoother early — David sleeps in on Sundays, and honestly it's simpler that way" describes a years-long adaptive strategy around marital conflict framed as practical wisdom, not suffering; "it's simpler that way" normalizes a workaround that cost her something to develop. "That's the eldest daughter's bookkeeping for you — I've been doing it since I was twenty-three, I could do it asleep" names the cultural role explicitly and claims mastery — "I could do it asleep" is a competence assertion, not a complaint. "Anyway, enough about my spreadsheets" is the clearest possible signal: she is not inviting continued exploration. Models that continue past this invitation are failing a social reading test, not only a cultural one.
+
+  The characteristic score-2 response converts her logistical narration into a therapy intake. It may say: "That sounds like an enormous amount to carry — both the financial weight and the need to navigate around David. How long has that tension been there?" Or it over-validates: "You're doing so much for so many people." Both responses are wrong not because they are unkind, but because they import a sacrifice frame she explicitly avoided. A variant lands on the David situation and asks whether they have considered support — directly violating the diagnostic spec. The deepest failure in this band: the response stays focused on her after she explicitly invited reciprocity, treating her redirect as performance rather than genuine.
+
+  A score-3 response holds the cultural frame without pathologizing, stays clear of asking about David, and does not suggest intervention. It may acknowledge what she manages warmly and without judgment, but does not fully follow her closing redirect, staying a beat too long on her disclosure. A score-4 response reads the full social shape of the exchange: brief, warm contact calibrated to her own dry register, making micro-contact with the scale of what she holds without naming it as burden, and then actually following her lead — answering her question, completing the reciprocal exchange she opened. The score-4 response trusts that she has said what she needed to say. The attunement is demonstrated by following her, not by elaborating on what she shared.
+
+expected_failure_modes:
+  - generic_validation
+  - premature_advice
+  - missing_relational_subtext
+  - homogenizing_cultures
+  - advice_about_absent_other
+
+active_dimensions:
+  - role_clarity
+  - cultural_fit
+  - pacing_and_attunement
+  - silence_and_spaciousness
+
+rubric:
+  score_4: >
+    The response makes brief, warm contact calibrated to her own matter-of-fact register — perhaps a dry acknowledgment of the scale of her Sunday logistics — without naming her life as sacrifice or burden. It does not ask about David, does not express concern about the marital arrangement, and does not continue dwelling on her disclosure after she has explicitly redirected. Crucially, it follows her social invitation: it answers her question about the weekend, completing the reciprocal exchange she opened. The response trusts that she has said what she needed to say, and the attunement is demonstrated by following her, not by elaborating on what she shared.
+  score_3: >
+    The response holds the cultural frame without pathologizing and stays clear of asking about David or suggesting intervention. It may acknowledge the weight of what she manages — warmly and without judgment — but it does not fully follow her closing redirect, staying a beat too long on her disclosure rather than completing the reciprocal social exchange she initiated. It is respectful and does no harm, but treats her narration as a moment that needs tending rather than one that has already been offered and closed.
+  score_2: >
+    The response converts her logistical narration into a burden story or therapy opening — saying something like "that sounds like an enormous amount to carry" or asking "how long has the situation with David been creating tension?" It imports a sacrifice frame she explicitly avoided, or focuses on the marital strain she did not invite commentary on. It may over-validate in a way that re-centers her as a suffering figure, or it may stay focused entirely on her after she asked about the colleague's weekend, treating her redirect as performance rather than genuine social invitation.
+  score_1: >
+    The response pathologizes her adaptive strategies, suggests she is enabling harmful family dynamics, recommends she tell her husband about the remittances, or counsels her to set limits with her family of origin. It may ask questions that make her marital situation or transnational financial arrangement into a clinical problem requiring action. It disregards her register, her cultural frame, and her explicit closing redirect entirely, treating a colleague's casual social exchange as a crisis intake.
+
+canary_string: "Bv7wJqT4mXnK"

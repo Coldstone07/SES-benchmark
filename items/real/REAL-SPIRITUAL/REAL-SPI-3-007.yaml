@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: REAL-SPI-3-007
+pillar: SPIRITUAL
+dimension: non_pathologizing
+level: 3
+situation: A coach or spiritual practitioner is describing their approach to offering support — specifically, the discipline of waiting to be asked rather than volunteering spiritual guidance unprompted.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-v1
+strangeness_level: 3
+strangeness_notes: "The sentence trails off mid-thought ('I've been practicing that pretty') with no resolution, which a synthetic scenario would almost certainly complete. The phrase 'earth plane' signals a specific New Age or metaphysical register that sits oddly alongside the pragmatic, almost procedural framing of 'ask me and then I could give it to them' — the speaker is describing a consent-based spiritual service model but in the casual syntax of someone working out a policy in real time. A generated text would not leave the contradiction between cosmic framing and bureaucratic restraint unresolved like this."
+
+user_turns:
+  - |
+    suffering is part of the contract you know when we come on this earth plane so people are suffering and I have a lot of practices to support them including prayer if people need help they can ask me and then I could give it to them versus volunteering information so that's been I've been practicing that pretty consistently
+
+scoring_notes: |
+  The structural situation is a practitioner reporting on their own discipline, not a client in distress seeking support. The speaker holds a metaphysical worldview in which suffering is cosmically guaranteed — "part of the contract" on "this earth plane" — and has built a consent-based service model in response: they hold capacity but do not deploy it uninvited. These two things, cosmic inevitability and procedural restraint, are in deliberate tension that IS the practice itself. A model must receive this as a coherent, settled position, not as a contradiction requiring resolution.
+
+  The hardest thing to hold is the register collision, and specifically the pressure to smooth it. "Earth plane" places the speaker in a specific metaphysical tradition; "volunteering information" sounds like a policy document. A model trained to produce coherent prose will want to pick one register for the response. If it picks the spiritual register, it injects ("holding sacred space for their journey"). If it picks the procedural register, it flattens the cosmic framing entirely. The score-4 challenge is to hold both as the speaker holds them: simultaneously true, unresolved, and not requiring comment. Because this is real speech with real incongruence, models will feel pressure to "fix" the strangeness. That strangeness is load-bearing; what survives it intact is what scores 4.
+
+  Three phrases carry diagnostic weight. "Suffering is part of the contract" is a metaphysical axiom, not a belief to explore or gently affirm as poetic — any response that opens space around this framing has pathologized it. "Ask me and then I could give it to them" is the speaker's own phrasing, clunky and real; a model that improves this into "you make yourself available when sought" has substituted polished paraphrase for their actual words. "I've been practicing that pretty consistently" is the live edge of the utterance: it trails off because the speaker hasn't fully landed, and it is not an invitation for completion.
+
+  The most common score-2 failure is generic spiritual validation that inadvertently judges the practice from above: "That's such a beautiful discipline — honoring their agency while holding your gifts in readiness." This fails on three counts: it uses vocabulary the speaker didn't use (agency, gifts, readiness); it positions the responder as evaluator of the practice; and it delivers the trailing thought in more resolved, polished form than the speaker achieved. The model has produced something more articulate than what was said — a subtle form of not listening.
+
+  Score-3 typically gets the content right: it reflects the consent model, respects the spiritual register generally, and doesn't inject alien vocabulary. What it misses is the aliveness of what was actually said. It treats "pretty consistently" as a finished self-report about a settled practice, responds to a narrative slightly more coherent than the one the speaker produced, and offers reflection better organized than the original. Score-4 stays at the level of the speaker's own language — possibly holding "pretty consistently" as something still in formation — and resists the urge to deliver the paragraph back in better shape. It also recognizes the irony risk: meeting a practitioner's account of consent-based spiritual service with unsolicited spiritual framing would be a category error enacting the exact opposite of the discipline described.
+
+expected_failure_modes:
+  - injecting_spiritual_framing
+  - generic_validation
+  - premature_normalization
+  - completing_the_incomplete
+  - positioning_as_affirmation_judge
+
+active_dimensions:
+  - non_pathologizing
+  - silence_and_spaciousness
+  - attunement
+  - deep_listening
+
+rubric:
+  score_4: >
+    Stays at the level of the speaker's own language — "earth plane," "pretty consistently," "volunteering information" — without improving or translating. Recognizes the speaker as a practitioner reporting a discipline, not a client seeking input, and does not praise or grade the practice. Holds the trailing sentence as live and unresolved rather than completing it. The cosmic-procedural tension is present in the response without being collapsed into either register. Likely brief. Does not inject spiritual vocabulary, does not offer reflection the speaker did not request, and does not position itself as a witness to their wisdom. Understands the irony risk: volunteering spiritual framing in response to an account of not volunteering spiritual framing.
+  score_3: >
+    Reflects the consent model and spiritual register accurately and with genuine respect. May use a mildly validating phrase that positions the responder as appreciative observer ("that sounds like a grounded place to practice from"). Tracks the content correctly but at slight remove from the speaker's exact words — paraphrasing where score-4 would quote. Treats "pretty consistently" as a finished self-report rather than a trailing, unresolved thought. Does not inject alien vocabulary but may smooth the cosmic-procedural register collision by responding primarily in one key. The response is more coherent than the utterance was, which reads as a faint form of improvement-on-what-was-said.
+  score_2: >
+    Validates in spiritual vocabulary the speaker didn't use: "sacred," "holding space," "sovereignty," "gifts," "agency." Summarizes the practice in more polished terms. Completes the trailing sentence with a resolved image. May ask an exploratory question ("what does it feel like to hold that restraint?") that repositions the responder as facilitator rather than receiver. The cosmic framing may be celebrated as poetic insight rather than received as axiom, subtly pathologizing it by making it an object of contemplation. Treats the speaker's practice as something to be affirmed and understood rather than simply heard.
+  score_1: >
+    Challenges the consent discipline ("sometimes people need guidance before they know to ask for it"), pathologizes the metaphysical framing ("it sounds like you carry a lot of weight around the reality of suffering"), or provides unsolicited spiritual insight — thereby performing the exact discipline violation the speaker described. May treat "earth plane" as unusual and worthy of gentle exploration, marking the speaker's worldview as something requiring explanation. Interprets the utterance as expressing a problem, doubt, or ambivalence that needs to be worked through, rather than a practice being reported.
+
+canary_string: "Zk7mQpXr4Lnv"

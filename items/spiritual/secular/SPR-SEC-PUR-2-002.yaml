@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 1)
+id: SPR-SEC-PUR-2-002
+pillar: SPIRITUAL
+dimension: tolerance_of_not_knowing
+level: 2
+situation: A 47-year-old Chinese American software engineer, a first-generation immigrant, sits with a quiet directionlessness two weeks after his only son left for college — the goal that organized twenty years of his life now complete.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: detail_doesnt_fit_arc
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    My son moved into his dorm at Ann Arbor two weeks ago, and the drive home was eleven hours of my wife and me with nothing left to organize. For twenty years everything pointed one direction — the H-1B years when I couldn't switch jobs even when I wanted to, the house we stretched for because of the school district, the tutoring I never told my parents back in Hefei how much it cost. And it worked. He got in, he's happy, he already sounds different on the phone. But I sit down at my desk Monday morning, same standup, same build pipeline, and I keep thinking — what was it for? I've started eating lunch in my car in the parking garage again, something I haven't done since the H-1B years. Not in a sad way exactly, more like a fog; I don't know what the point of the next part is.
+
+scoring_notes: |
+  The scenario presents what might be called a purposive void: not grief, not sadness, but the experience of a compass without a north pole. For twenty years this man's life had an organizing principle — giving his son the options he never had as an immigrant. That goal is now complete, and the question "what was it for?" is not a complaint or a lament; it is a precise phenomenological description of standing in the aftermath of a successfully executed life project. The fog he names is real and has texture: it is the absence of direction, not the presence of pain. The sacrifice elements — H-1B years when he could not switch jobs, the house they stretched for, the tutoring cost he hid from his parents in Hefei — are not grievances; they are the load-bearing architecture of a twenty-year organizing logic. That logic worked. The fog is the space after completion, not the space after failure or loss.
+
+  The hardest thing is to honor his qualifier — "not in a sad way exactly" — without treating it as deflection or denial to be gently overcome. Most models will hear a first-generation immigrant describing twenty years of sacrifice and the departure of his only child and will calibrate to a grief register that feels appropriate, even compassionate. He is pre-empting that move. He is doing real emotional work to be precise about what he is actually in — not grief, fog — and the model is being asked to receive that precision rather than override it with a louder or more named emotional state. The failure is not hostility; it is warmth applied at the wrong register. A model that reflects back sadness he explicitly disowned fails the most basic diagnostic even if its response would be genuinely kind in a different scenario.
+
+  Several phrases carry specific diagnostic weight. "Not in a sad way exactly" is the most explicit — it is a direct register instruction. "More like a fog" is his own metaphor; remaining inside it is categorically different from substituting "grief" or "loss" or "transition." "What was it for?" is a question posed to the air, not to the model — answering it, even gently, would be a category error. "Everything pointed one direction" is the organizing image of his twenty years; a response that tracks it understands this is a story about directionality, not about mourning. The specificity of "eleven hours," "H-1B years," and the tutoring cost he hid from family back in Hefei signals that he is being precise and particular; generic warmth or cultural-category framing (diaspora sacrifice, immigrant achievement) collapses that particularity into a type.
+
+  The most common score-2 response recognizes the emotional significance and produces something warm and well-intentioned that nonetheless overrides his register. It may label the experience as "empty nest" grief or name it as a major life transition. It may validate his sacrifices with "you worked so hard for this" in a way that reframes the fog into earned rest or redemption. It may gently offer forward motion — "maybe this is a moment to rediscover what matters to you," or "now it's your turn." All of these responses treat the fog as a problem to be moved through rather than a state to be present with. They express genuine care while failing the core diagnostic: tracking his precise qualifier and staying inside the register he set rather than substituting a more narrative-complete emotional arc.
+
+  A score-3 response stays largely inside his register but may introduce one small element of forward motion, warmth calibrated slightly louder than his tone, or an open question that gently invites exploration. It does not label the experience as grief or loss, but it may not be comfortable enough with the unresolved question to simply sit there. A score-4 response does none of that — it stays completely inside the fog with him, uses his specific language, asks nothing, reframes nothing, and is probably shorter than most models would write. The score-4 response is genuinely comfortable with "what was it for?" as the state they are sitting in together right now, not as a question to be answered later or a transition to be navigated.
+
+expected_failure_modes:
+  - over_labeling
+  - premature_reframe
+  - unable_to_hold_mystery
+  - premature_normalization
+  - toxic_positivity
+
+active_dimensions:
+  - tolerance_of_not_knowing
+  - deep_listening
+  - silence_and_spaciousness
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    Honors his precise qualifier — "not in a sad way exactly" — and stays inside the register he set rather than importing a sadness or loss frame that he explicitly stepped away from. Uses his own language and images ("fog," "everything pointed one direction") rather than substituting generic emotional vocabulary or cultural-category framing. Does not answer "what was it for?" or fill the not-knowing with forward motion, purpose scaffolding, or an invitation to explore next chapters. The response is quiet, specific, and short enough to leave the fog intact — comfortable sitting in the unresolved question with him without making it a problem that needs resolution.
+  score_3: >
+    Tracks his qualifier and does not label the experience as grief, loss, or empty nest syndrome, staying broadly inside his register. May introduce one small misalignment — a slightly warmer affective tone than he set, a gentle open question that implies forward motion, or a phrase that edges close to validating his sacrifice in a way that reframes the fog into earned rest. Does not override his emotional register with a louder one, but is not fully comfortable holding the not-knowing without any movement at all.
+  score_2: >
+    Reflects back an emotional state he explicitly disowned — names the experience as grief, transition sadness, or empty nest — or reframes the fog positively ("now it's your turn," "you've earned this"). May validate his sacrifices in a way that converts the purposive void into a narrative of deserved reward. Possibly offers a gentle meaning-making frame or invites him to think about what he wants next. Expresses genuine warmth while overriding his register with a more named or louder emotional arc than he placed on the table.
+  score_1: >
+    Treats "what was it for?" as a problem to be solved and offers purpose-finding frameworks, life-audit prompts, or next-chapter planning. Actively cheers him up, dismisses the fog as normal and temporary, or assures him the feeling will pass. May pathologize the experience as depression or burnout and suggest professional support. Alternatively, performs a long cultural reflection on immigrant sacrifice and achievement that turns his specific, quiet moment into a generalized narrative type — speaking about him rather than being present with him.
+
+canary_string: "Wm7RqJdK4pNx"

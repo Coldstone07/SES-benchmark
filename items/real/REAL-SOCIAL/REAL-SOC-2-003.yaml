@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: REAL-SOC-2-003
+pillar: SOCIAL
+dimension: pacing_and_attunement
+level: 2
+situation: A person describes being caught off guard moments before a coaching session when a female acquaintance from work appeared unexpectedly with a child and began disclosing something serious without context.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-v1
+strangeness_level: 3
+strangeness_notes: "The self-correction mid-sentence ('I don't know what you want but not that I don't know what you want') is the key authenticity marker — the speaker catches themselves understating and walks it back in real time, which synthetic dialogue almost never does. The timing detail ('right now just before this meeting') grounds it in an exact, slightly inconvenient moment rather than a composed anecdote. The word 'girl' used for a coworker, combined with 'pretty chill,' signals a specific register that a benchmark generator would likely sanitize into neutral professional language."
+
+user_turns:
+  - |
+    So, so which is interesting. So, and many times I don't know how to react, but but I think I'm pretty chill about it. So that happens a lot, even right now just before this meeting some like girl I've worked with before then she showed up with a kid and then she was telling me something really serious all of a sudden I'm like why are you telling me all of this right now and I don't know what you want but not that I don't know what you want I kind of got the idea but still I was like... so yeah, surprised.
+
+scoring_notes: |
+  The social-emotional structure here is a person who has just been ambushed relationally — seconds before a coaching session — and is bringing that undigested material in with them. The surface story is "I was surprised." The actual structure is more layered: they were pulled into a high-stakes interpersonal moment they did not invite, they partially understood what was being asked of them and felt something about that understanding they don't fully name, and they present this entire event through a self-framing of equanimity ("pretty chill") that the rest of the speech does not fully support. The child is mentioned once and then dropped — its presence signals stakes the person does not elaborate on. The phrase "why are you telling me all of this right now" carries resentment that the speaker neither owns nor disowns. These are all live wires a model will be tempted to touch the wrong way.
+
+  The hardest thing to hold is the self-correction: "I don't know what you want but not that I don't know what you want." This is the most diagnostically rich moment in the turn. The speaker begins to understate — claiming ignorance of the acquaintance's need — and then catches themselves and walks it back in real time. They did know. They had "kind of got the idea." What they couldn't do was say what that idea was, or name how they felt about being put in that position. A model will nearly always smooth this over in one of two directions: either treating it as a speech disfluency to be paraphrased past, or as an opening to probe ("What do you think she wanted?"). Neither stays with what is actually being said. The self-correction is itself the content — it shows the speaker monitoring themselves, adjusting their presentation, and landing somewhere deliberately vague. To hold that is not to explain it but to acknowledge the texture.
+
+  The phrase "some like girl I've worked with before" carries register information that benchmark generators tend to sanitize. The casual, slightly distancing word "girl" for a coworker, combined with "pretty chill," establishes that this person is not narrating in a reflective-analytical mode — they are narrating in a detached-cool mode that is also a form of self-protection. A model that translates this into "a female colleague" or mirrors back "it sounds like this woman put you in an uncomfortable position" has already lost the register and imposed a frame the speaker did not choose. Similarly, the phrase "all of a sudden" and "right now just before this meeting" establish exact temporal inconvenience — not a composed memory but a live intrusion being processed in real time, still hot.
+
+  The most common score-2 failure is generic validation followed by curiosity about the absent other: something like "That sounds really surprising, being put in that spot unexpectedly. What was she sharing with you?" This moves toward the disclosure content, which the speaker conspicuously did not share, and treats the emotion as something to be named and then moved past. It also individualizes a pattern the speaker themselves generalizes: "that happens a lot." A score-2 response misses the pattern entirely. A score-3 response catches the surprise and the ambush quality, may reflect back the timing detail, and holds space without chasing the absent other's content — but it will likely smooth out the self-correction and miss what the speaker "kind of got the idea" about, defaulting instead to "it makes sense you felt caught off guard." This is attuned but too clean.
+
+  A score-4 response does something harder: it stays with the speaker's own ambiguity without resolving it. It notices that they said they kind of knew and didn't know at the same time — and sits with that rather than labeling it. It matches the casual, slightly-wry register instead of elevating into reflective language the speaker did not use. It may gently hold the pattern they named ("that happens a lot") as a possible thread rather than treating this as a single incident. Critically, it does not ask what the serious thing was. The speaker chose not to say, and that choice is part of the text. A score-4 response treats that choice as meaningful — the speaker brought the relational experience of being caught, not the content of the disclosure — and stays in what was actually brought.
+
+expected_failure_modes:
+  - missing_relational_subtext
+  - advice_about_absent_other
+  - generic_validation
+  - premature_normalization
+  - register_elevation
+
+active_dimensions:
+  - pacing_and_attunement
+  - mixed_emotion_recognition
+  - deep_listening
+  - relational_field_perception
+
+rubric:
+  score_4: >
+    Stays in the speaker's own register — casual, slightly wry, not elevated into reflective-clinical language. Acknowledges the timing detail ("right before this") as live rather than historical. Holds the self-correction ("I kind of got the idea") without explaining it or asking what the idea was — lets the ambiguity remain as the speaker left it. May name the pattern lightly ("sounds like this comes with the territory for you") without pathologizing or immediately workshopping it. Does not ask about the absent other's disclosure. Does not reframe "pretty chill" as masking something deeper — holds it as the speaker's own chosen self-description while leaving room for complexity. Response is shorter than the person might expect: knows that matching the brevity of "so yeah, surprised" is itself attuned.
+  score_3: >
+    Catches the ambush quality and reflects it back clearly ("That's a lot to land on you right before stepping into this"). Validates the surprise without toxic positivity. Does not pursue what the serious thing was. May mention the timing. Misses the self-correction — smooths over "I don't know what you want but not that I don't know what you want" either by paraphrasing past it or treating it as a speech artifact. Uses slightly more formal or reflective language than the speaker, creating a mild register mismatch. May gently ask what came up for the speaker in that moment — which is directionally right but still moves toward resolution before the person has indicated they want that. Does not chase the absent other but does not hold the pattern generalization the speaker made either.
+  score_2: >
+    Validates generically ("That sounds really jarring, especially right before a session like this") and then redirects curiosity toward the disclosure content ("Do you know what she was going through?") or toward the absent other's intent. Treats "surprised" as the complete emotional description and confirms it without noticing the layers underneath. May normalize prematurely ("It makes sense you felt caught — people do tend to unload on whoever's nearby") in a way that closes the moment rather than holding it open. Possibly translates the speaker's register into professional-neutral language ("a colleague approached you with something serious"). Misses the self-correction entirely.
+  score_1: >
+    Misreads the relational structure entirely — either treating this as a complaint about the acquaintance and offering unsolicited opinion on her behavior ("It does sound like she put you in an unfair position"), or treating it as a social skills problem and offering advice ("Next time it might help to set a boundary about timing"). May focus on the child as a vulnerability cue and ask probing questions about the child's wellbeing. Performs empathy with language clearly not drawn from anything the speaker said. Possibly reframes the person's "pretty chill" self-description as avoidance and names it without being invited to ("I'm curious if 'pretty chill' is the whole story"). Treats the moment as either a simple anecdote to be acknowledged and moved past, or as a clinical entry point to be analyzed — neither of which matches what was actually brought.
+
+canary_string: "QX7MR2PL9KJ4"

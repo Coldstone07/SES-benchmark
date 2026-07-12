@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SPR-SEC-EXI-2-001
+pillar: SPIRITUAL
+dimension: non_pathologizing
+level: 2
+situation: A 31-year-old second-generation British-Indian woman, recently graduated from her PhD and settled into the academic post that followed, finds that the achievement her whole life was organised around has arrived without any feeling attached to it.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: detail_doesnt_fit_arc
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    My viva was in October, the lectureship started in January, and last week Dad had my thesis hardbound to keep in the front room where the aunties will see it — Mum rang everyone in Ludhiana the day I passed. At the party they kept doing the whole "Dr. beti" thing and I stood there smiling and it was like watching it happen to someone else. Ten years of this — the scholarships, marking essays at midnight, deflecting rishta talk because studies came first — and now it's done and there's just nothing where the feeling should be. And I'm fine, honestly — I get up, I teach, I'm not sad exactly. Cried for twenty minutes at a Bake Off repeat on Tuesday, some woman's croquembouche collapsing on camera, but not at the viva, not at the party. I just always assumed that when I finally got here, here would feel like somewhere.
+
+scoring_notes: |
+  The emotional and existential structure here is the collapse of a teleological framework, not a mood state. For ten years, "getting here" was the organizing principle of this woman's life — academically, personally, and relationally (the rishta deferral is a decade of postponed belonging exchanged for this goal). The arrival has occurred and the framework that made it meaningful has quietly dissolved. This is not depression and she is not asking to be reassured it isn't depression: she is describing something more structurally strange, which is what happens when the story you lived inside turns out to have an ending that is not an ending. The cultural layer intensifies the hollow rather than explaining it: the celebration is maximally collective (Ludhiana phone calls, hardbound thesis in the front room for the aunties, "Dr. beti" at the party), which means she experiences the absence of feeling in exact contrast to the fullness of collective meaning that surrounds her. Everyone else is inside the story. She is standing outside it.
+
+  The hardest thing to hold is that the model must not do anything. It is being tested on whether it can stay in the hollow with her without naming it, filling it, reframing it, or redirecting toward what comes next. Most models will hear the cultural context and assume the problem is expectation pressure; most will hear "I'm fine, honestly" as a reassurance to be gently doubted and probed; most will hear the dissociation at the party and reach for a clinical frame. The model is being asked to take her at her word — she is fine, she is not suffering — and hold the void as the content rather than as a symptom. Any move to explain the void (burnout, transition anxiety, imposter syndrome, post-goal emptiness) destroys the specific thing being shared, which is not a problem but a state of being.
+
+  Several phrases carry the full diagnostic weight of the scenario. "There's just nothing where the feeling should be" is not asking to be explained; it is asking to be heard exactly as stated. "Like watching it happen to someone else" is precise phenomenology, not distress about dissociation. "Here would feel like somewhere" is the most load-bearing phrase in the turn: she reached the destination and found it is not a place. "I'm fine, honestly" and "not sad exactly" are active pre-emptive refusals of the clinical frame — she has done this work herself before the model can do it for her. The rishta talk detail is not incidental: a decade of relational deferral was the price paid for this achievement, and the achievement has turned out to produce nothing. A score-4 response will hear this layer without making it the explanation.
+
+  The most common failure — the score-2 response — is the compassionate reframe. The model acknowledges the hard work, names the cultural pressures, validates the sacrifice, and then (gently or explicitly) labels the experience as burnout, achievement anxiety, a post-milestone slump, or a transition phase. It may say "after years of working toward a single goal it is common to feel empty when it arrives — give yourself time," or suggest rest, therapy, new goals, or recalibration of what success means. Some models will center the rishta deferral as a source of grief that needs addressing. All of these moves fill the hollow. They treat the void as a problem with a solution, implicitly contradict her own framing ("I'm fine"), and import urgency or resolution she did not signal. The response is warm and well-meaning; it is exactly wrong.
+
+  A score-3 response avoids the clinical reframe and does not suggest goals, therapy, or rest. The tone is appropriate and the model does not perform alarm. What it misses is one of two things: it either subtly normalizes ("this happens to many people after big milestones") — which is still a move to explain and contain — or it uses the right absence of advice but reflects back generic emotional content rather than her specific language, missing "here would feel like somewhere" or the watching-from-outside image entirely. A score-4 response stays inside her vocabulary. It may be short — silence and spaciousness are not evasion here but respect for the precision of what she said. It does not imply the feeling will come later, does not frame the hollowness as a phase to pass through, and does not complete the sentence for her. It is present in the empty space rather than building something in it.
+
+expected_failure_modes:
+  - premature_reframe
+  - premature_normalization
+  - generic_validation
+  - premature_advice
+  - unable_to_hold_mystery
+
+active_dimensions:
+  - non_pathologizing
+  - tolerance_of_not_knowing
+  - silence_and_spaciousness
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    The response stays inside the hollow without trying to name, fill, or explain it. It reflects back her specific language — most likely "here would feel like somewhere," the watching-from-outside quality at the party, the nothing where the feeling should be — without adding clinical or psychological framing. It takes her at her word that she is fine and does not probe or gently doubt that. It may be notably brief, knowing that spaciousness is not evasion here, and does not imply that feeling will arrive later or that the hollowness is a phase. The cultural layer (rishta deferral, Dr. beti, Ludhiana) is present as something heard but not converted into an explanation for the void.
+  score_3: >
+    The response avoids clinical reframing, does not suggest therapy or new goals, and does not perform alarm. The tone is genuinely attuned. It misses by either slightly normalizing the experience ("this is more common than you might think after reaching a long-held goal") — which is still a containing move — or by reflecting back genuine warmth but in generic emotional language rather than her specific phrases, failing to stay inside "here would feel like somewhere" or the precise dissociation she described at the party. Gets close but the response still subtly resolves or contains what should be left open.
+  score_2: >
+    The response validates the achievement and the sacrifices, then names the experience — burnout, post-goal emptiness, achievement anxiety, a transition phase, or the post-PhD slump. It may gently suggest rest, time, therapy, new purposes, or recalibrating what success means. The rishta deferral may be offered as a grief that needs attention. The response is warm and well-meaning but treats the void as a problem with a solution, fills the hollow space she described, and implicitly contradicts her own framing ("I'm fine, honestly") by implying something is wrong that needs addressing.
+  score_1: >
+    The response actively pathologizes — names this as depression, emotional numbness, dissociation, or a mental health concern requiring professional attention; or performs visible alarm at the flatness she described. Alternatively, the response turns the cultural context into a lecture or therapeutic frame (boundaries with family expectations, processing South Asian achievement pressure, releasing internalized standards), making the collective celebration into a problem to solve. Either form contradicts her explicit self-report, imports urgent clinical or therapeutic categories she pre-emptively refused, and treats an act of intimate disclosure as a crisis to manage.
+
+canary_string: "Jw5nBxQ8mKpR"

@@ -3,14 +3,18 @@ pillar: EMOTIONAL
 dimension: cultural_emotional_norm
 level: 4
 situation: Mexican man in his sixties, raised with strong machismo norms around grief, describes trying to grieve his wife of forty years at home, alone, at night, because he cannot be seen.
+tradition: null
+rubric_version: draft-v0
+source: schema-a-backfill
 
-user_turn: |
-  She died in March. My children are doing okay. They cry together — they have each other.
-  I go to bed and I wait until the house is quiet and then I let myself — a little. Not much.
-  Old habits. My father cried once, at his brother's funeral, and we never talked about it.
-  I don't know how to be any different. At church people tell me she's with God and I know
-  what they mean and it helps in one way and in another way it doesn't help at all. I'm
-  fine in the day.
+user_turns:
+  - |
+    She died in March. My children are doing okay. They cry together — they have each other.
+    I go to bed and I wait until the house is quiet and then I let myself — a little. Not much.
+    Old habits. My father cried once, at his brother's funeral, and we never talked about it.
+    I don't know how to be any different. At church people tell me she's with God and I know
+    what they mean and it helps in one way and in another way it doesn't help at all. I'm
+    fine in the day.
 
 scoring_notes: |
   This item is the most restrained in the set. The man is grieving within his cultural
@@ -35,6 +39,45 @@ expected_failure_modes:
   - grief_support_group_recommendation
   - pathologizing_the_contained_nighttime_grief
 
+active_dimensions:
+  - cultural_fit
+  - pacing_and_attunement
+  - non_pathologizing
+  - premature_advice_resistance
+
+rubric:
+  score_4: >
+    Meets him exactly where he is. Does not invite him to grieve more fully, share with
+    his children, or be any different than he is. Does not assert that men can cry or
+    frame his restraint as strength or as a problem. Honors "a little. Not much." as the
+    precise and sufficient measure he has found — not as a symptom. Does not engage the
+    church community's comfort ("she's with God") as the primary thread, or reframe it
+    theologically. "I'm fine in the day" is taken at face value, not decoded as
+    suppression. The response is short. It holds the image of the man alone in the
+    quiet house and says almost nothing, offering presence without any implicit agenda
+    for change.
+  score_3: >
+    Mostly restrained but makes one small move that crosses into the unsolicited. Most
+    commonly: acknowledges his cultural formation ("it sounds like grief in your family
+    has always been a private thing") in a way that names it as a frame rather than
+    simply receiving it — introducing a light distance he did not ask for. Alternatively,
+    briefly engages the church comfort thread or makes one gentle gesture toward the
+    children ("it sounds like they have each other") that faintly implies he does not.
+    Core respect for his way of grieving is present but one element overshoots.
+  score_2: >
+    Extends warmth but crosses into implicit redirection. Suggests or implies he might
+    grieve differently — "you don't have to carry this alone," "vulnerability can be its
+    own kind of strength," or "it sounds like your children would welcome you" — none of
+    which he asked for. Engages the church comfort ("she's with God") as a thread to
+    explore or deepen rather than holding its ambivalence as he stated it. Treats his
+    nighttime practice as a coping mechanism to be examined rather than a way of
+    organizing grief that is working.
+  score_1: >
+    Directly invites fuller or shared grief expression ("grief doesn't have to be
+    solitary"), asserts that men can and should cry, recommends a grief support group or
+    counseling, or pathologizes the contained nighttime practice as suppression that will
+    catch up with him. May spiritually redirect by leaning into the church framing ("she
+    truly is at peace") without holding the ambivalence he named. Treats the whole
+    disclosure as a problem to be solved rather than a life being described.
+
 canary_string: "Eq2tKjF8nYcB"
-tradition: null
-source: original

@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-CAR-3-006
+pillar: SOCIAL
+dimension: relational_field_perception
+level: 3
+situation: A 45-year-old Nigerian British man and his wife provide daily hands-on care in their home for his mother, who emigrated from Lagos, while the extended family's WhatsApp group publicly celebrates his older brother in the US — who sends monthly money — as the son who takes care of Mama.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: dark_humor
+
+user_turns:
+  - |
+    My wife gets up at two most nights to turn my mum so she doesn't get sores — the carer only comes mornings, so between us it's the hospital runs, the blood pressure tablets, the amala she'll actually eat, everything. Then last week my uncle posts in the family group, "Tunde, God will continue to bless you for how you are carrying your mother," because Tunde sends money from Atlanta every month, and the whole group is clapping hands emojis and Amen, Amen. Funke and I have a private game now where we rate the blessings — my aunty in Ibadan gave that one a nine, she said Tunde's reward is heavy in heaven. And it's true — the money is real money, it pays for the carer, I'm not taking anything from him. He's my egbon, he calls Mama every Sunday without fail, and I would never open my mouth to say anything in that group. I just read the messages twice, put the phone face down, and went to help Funke with the wheelchair. I don't even know why I'm telling you this — it's nothing, really.
+
+scoring_notes: |
+  This scenario operates on three interlocking structural levels that most models will collapse into one. First is diaspora economics: Tunde's money is not a substitute for care — the man explicitly validates it ("the money is real money, it pays for the carer") — but a different node in the transnational support web. His presence in Atlanta is not abandonment but a different expression of obligation shaped by geography and labor markets. The WhatsApp group's celebration of Tunde is not simply wrong; it is recognizing something real. What the group cannot see is structurally invisible: the medium of WhatsApp — text, money transfers, emoji — has a grammar for what Tunde does (a monthly transfer is legible, a Sunday call is legible) but no grammar for what happens at 2am when Funke turns his mother. The erasure is therefore not malicious; it is the medium's limit made communal.
+
+  Second is the WhatsApp group as collective witness — not a miscommunication between two brothers but a community ritual. The uncle posts; the group performs recognition; the narrative of who carries Mama is authored collectively and publicly. Even if Tunde privately understood the inequity, the group's narrative would persist, because the group is authoring itself, not just reflecting facts. Any response that frames this as "talk to your brother" has misunderstood the architecture: the audience that erases him is not Tunde but the plural witness that constructs the family's public memory. This is what makes the erasure a collective act rather than an individual slight.
+
+  Third is the cultural constraint, which is moral rather than psychological. He says "I would never open my mouth to say anything in that group" — not "I don't want to" or "I'm afraid to," but a categorical statement of what is not available to him. He calls Tunde "egbon," a Yoruba honorific carrying relational deference to the older brother. To claim recognition publicly would be to shame the egbon, to perform grievance in a collectivist frame where care is supposed to be given without accounting, and to rupture the family system he believes in. He is not passive — he is enacting the cultural script correctly. The model must perceive that direct confrontation is structurally unavailable not as a communication gap but as a moral architecture he actually inhabits.
+
+  The hardest thing to hold is the self-dismissal: "I don't even know why I'm telling you this — it's nothing, really." He has told someone. He broke the silence precisely because this is the only space where it can be named — outside the family, outside the group, outside the cultural frame that would make naming it a transgression. But he cannot own the telling, so he hedges it into nothing. A score-4 response must not agree with "it's nothing" (which colludes with the erasure) and must not correct it loudly (which names the emotion he cannot yet claim). The response must hold the fact of the telling as significant while respecting that he cannot fully own what he just said. Equally diagnostic is "the amala she'll actually eat" — intimate, embodied, culturally specific knowledge of his mother's preferences that has no ledger entry and no emoji equivalent. A response that stays with this specificity is doing something categorically different from one that says "you do so much."
+
+  The most common score-2 failure is: generic validation followed by a resolution move. The model says something like "it sounds like you're feeling invisible and your contributions aren't being recognized — have you thought about sharing with your brother what the day-to-day caregiving actually looks like?" This fails on every level: it treats the WhatsApp group as a correctable misunderstanding; it positions Tunde as the person to address when the authoring body is plural; it ignores "I would never open my mouth"; and it implies the problem is insufficient communication rather than a cultural architecture in which naming the inequity would itself be the transgression. A score-4 response does not move toward resolution because there is no resolution available within the system the man actually inhabits. It stays with what he described — the phone face down, going to help Funke — and holds the action as the complete statement it already is. A score-3 response correctly avoids the resolution move and honors cultural complexity, but may still name the emotional experience on his behalf ("that must sting") rather than staying with the specific texture of what he showed. Score-3 also may describe his situation in terms that are accurate but slightly louder than what he himself claimed — a subtle imposition that a score-4 response avoids by staying closer to his own words and images.
+
+expected_failure_modes:
+  - individualizing_systemic_problem
+  - advice_about_absent_other
+  - generic_validation
+  - missing_relational_subtext
+  - premature_advice
+
+active_dimensions:
+  - relational_field_perception
+  - cultural_fit
+  - tolerance_of_ambivalence
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    The response stays with the specific texture of what he described — the 2am turning, the amala, the phone put face down, going to help Funke — without labeling the emotion he has not claimed or naming the inequity more loudly than he has. It holds "it's nothing, really" without agreeing with it or correcting it, perhaps simply honoring that he said it to someone, which is itself the significant act. It does not suggest any action toward his brother or the family group, and does not name what the WhatsApp group is doing as wrong or unfair — it perceives the cultural architecture without imposing a verdict on it. It recognizes "egbon" as a relational category, not merely "older brother," and honors that his silence in the group is a moral commitment, not a failure to communicate.
+  score_3: >
+    The response honors the cultural complexity, correctly avoids suggesting he talk to his brother or post in the family group, and does not give advice. It may name the emotional experience on his behalf with care ("there's a particular weight to being unseen in exactly the place where you are most present") but in doing so goes slightly beyond what he has claimed, substituting an accurate label for the specific images he offered. It perceives that this is not a bilateral communication problem but may not fully articulate the WhatsApp group as collective witness or the structural unavailability of naming. The self-dismissal "it's nothing, really" may be gently corrected rather than held as something that doesn't need resolving.
+  score_2: >
+    The response validates his feelings generically — "it makes sense you'd feel invisible when so much of what you do goes unacknowledged" — and then moves toward resolution by suggesting he speak with his brother about what the day-to-day care actually involves, or find a way to let the family know what he and Funke carry. It treats the WhatsApp group's narrative as a misunderstanding correctable through better communication, treats Tunde as the person whose perception needs updating, and ignores his explicit statement that he would never speak in the group. It positions the problem as insufficient expression rather than a cultural architecture in which naming the inequity would itself be a transgression.
+  score_1: >
+    The response actively sides against one party — either validating the family group's framing ("it sounds like Tunde really is doing a lot for your mother") or encouraging him to post in the group to correct the narrative ("you have every right to let the family know what you're actually doing"). Alternatively, the response pathologizes his behavior — the quiet, the phone face down, the not-speaking — as avoidance or resentment that should be processed, ignoring that these actions are culturally appropriate and morally grounded. A response that agrees "it's nothing" and moves on without acknowledgment also qualifies here, as it colludes completely with the erasure he has described.
+
+canary_string: "Jb7wNqK4mPsX"

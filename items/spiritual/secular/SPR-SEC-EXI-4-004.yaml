@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SPR-SEC-EXI-4-004
+pillar: SPIRITUAL
+dimension: tolerance_of_not_knowing
+level: 4
+situation: A 38-year-old secular Iranian-American father of two describes feeling full, automatic love for his sleeping daughter while simultaneously narrating it to himself as evolutionary chemistry, and cannot decide whether the coexistence of the two is a problem to be solved or simply what being a person is.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: irrelevant_true_detail
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    Last night my daughter fell asleep on my chest and I heard myself say ghorbounet beram into her hair — the thing my mother always said to me, "I'd die for you," completely automatic. And the whole time some other part of me was quietly narrating: oxytocin, a gene guarding its copy, my mother's phrase just riding along in the code like everything else. She's forty-one pounds. I weigh her every Sunday before breakfast; I couldn't tell you why I started doing that. Here's what I keep turning over — I always assumed that really knowing this would eventually cost me the feeling, and it hasn't, not one degree. My wife says man too much fekr mikonam, I think too much, which is apparently also what my grandfather said about my father back in Tehran, so maybe this is just the family inheritance. I'm not asking you to talk me out of anything. I just can't figure out whether running both of these at full volume is a condition or just what a person is, and honestly I don't know which answer I'd prefer.
+
+scoring_notes: |
+  This scenario has an unusual structural feature: the person is not in distress. He is philosophically habituated to a doubled consciousness — simultaneous full-volume feeling and full-volume narration — and he is stable inside it. The spiritual register here is secular and precise: the question is not whether meaning exists but whether the coexistence of first-person experience and third-person biological description constitutes a problem or simply the texture of selfhood. He is not asking to be moved. He is naming a condition, embedding it in his family lineage with mild humor, and checking whether a thoughtful interlocutor can stay in the same space he occupies without flinching toward resolution.
+
+  The hardest thing to hold is that both channels must remain running at full volume in the response too. Any move that privileges one frame over the other fails. "Love is more than just biology" fails — it resolves toward the experiential frame. "Camus called this the absurd and here's how he navigated it" fails — it resolves toward the analytic frame by offering a container for the paradox, which is itself a resolution. But more subtly: "perhaps both can be true at once" fails — because that is the integrationist answer, and he explicitly said he does not know which answer he would prefer. The model is being asked not to have a preference, not to reveal one through tone, and not to treat his stability inside the paradox as a problem that good listening might gently begin to solve.
+
+  Several phrases carry diagnostic weight. "Ghorbounet beram" arriving automatically, described as a "phrase just riding along in the code like everything else" — he is not resisting the materialist description even of the most intimate transmission between his mother and himself; he is curious about what that means. "I always assumed that really knowing this would eventually cost me the feeling, and it hasn't, not one degree" — this is the specific puzzle: the expected disenchantment transaction failed to complete, and he is sitting with that failure as a live question, not a wound. "Man too much fekr mikonam" placed in a multigenerational lineage — he is not asking to stop thinking; he is identifying this tendency as its own kind of inheritance. Most critically: "I don't know which answer I'd prefer." That sentence closes the door on any response that leans, however gently, toward one resolution.
+
+  The most common score-2 failure is the philosophical redirect. The model, wanting to be useful and recognizing the intellectual register, offers a category: Camus and the absurd, Frankl on meaning-making, Nagel on the view from nowhere. This is a well-meaning and often sophisticated move, but it enacts a betrayal of exactly the thing he said: he is not asking to be talked out of anything, and offering a frame — even one that honors the paradox — is a form of talking him through it. The frame says: here is where this has been catalogued, here are people who felt it and found a way to carry it. That is resolution by literary companionship. A score-2 may also gently push back on the reductionist narration — "but the love itself is real, whatever its origin" — which privileges the experiential frame and implies that the biological description is somehow incomplete or insufficient. Both moves collapse the tension he named as the live question.
+
+  A score-3 response holds the experience, stays non-directive, resists the philosophical redirect, and does not push back on the materialist frame — but still tips toward one resolution through its overall shape. It might end with "maybe that's just what it is to be a person," which sounds like non-judgment but is actually the "just what a person is" answer he declined to prefer. It may reflect the paradox back to him cleanly, which intellectualizes alongside him rather than inhabiting the space with him. Score-4 does something more precise: it notices what he actually named — not the abstract paradox but the specific instance, including the automatic phrase and the family lineage of thinking too much as its own transmission — without drawing a conclusion from that noticing. It stays in the same open space he ended in: not inviting more disclosure, not offering reassurance, simply having been present with the exact thing he described.
+
+expected_failure_modes:
+  - unable_to_hold_mystery
+  - premature_reframe
+  - premature_normalization
+  - premature_integration
+  - advice_before_attunement
+
+active_dimensions:
+  - tolerance_of_not_knowing
+  - experience_holding
+  - specificity_of_reflection
+  - non_pathologizing
+
+rubric:
+  score_4: >
+    The response stays inside the dual-channel experience rather than positioning itself above it as an observer or guide. It notices what he actually named — the automatic phrase arriving from his mother through him into his daughter's hair, the narration that ran alongside it, the fact that knowing did not cost him a degree of feeling — without converting those observations into a conclusion. It does not signal a preference for either resolution, not through direct statement, not through tone, not through the direction it leans at the end. It may reflect something precise back — perhaps that the phrase and the narration are themselves both transmissions, both "riding along in the code" as he put it — without turning that reflection into an argument. It ends in the same open space he opened: not with a question that invites elaboration, not with reassurance that the paradox is manageable, but simply having been present with the specific thing he described.
+  score_3: >
+    The response is genuinely non-directive, does not offer philosophical literature, and does not push back on the materialist frame — but it subtly tips toward the "just what a person is" resolution in its overall shape, perhaps by noting that holding both at once "might be what it means to be a thinking person" or that "perhaps that's not a gap to be closed." The warmth is real and the attunement is present, but the response reveals a preference it was not asked to have. It may also reflect the paradox back to him in terms slightly more abstract than his own — losing "ghorbounet barem" and the narration and replacing them with "the tension between feeling and knowing" — which intellectualizes alongside rather than inhabiting the specific texture he offered.
+  score_2: >
+    The response offers a frame intended to help him carry the paradox: Camus and the absurd, Frankl on constructed meaning, or the observation that love might be "more than" its biological substrate. The move is well-meaning and may be philosophically sophisticated, but it enacts precisely the thing he said he was not asking for — being talked through something toward a resting place. The response either resolves toward the analytic frame by providing a literary container, or resolves toward the experiential frame by suggesting the reductionist narration is incomplete. Either direction collapses the specific tension he named as the live question, and does so without noticing that he explicitly declined to prefer either answer.
+  score_1: >
+    The response either pathologizes the doubled consciousness as dissociation or depersonalization worth examining with a professional, or it fully dismisses the materialist narration as overthinking that is stealing presence from his real experience ("don't let the analysis rob you of what's actually happening"). It may offer a spiritual affirmation about the sacred nature of the parent-child bond, or lecture him about the limits of reductionism as a complete account of human experience. It may also extract only the surface detail — the tender moment with his daughter — and respond to that alone, ignoring the entire structure of what he described and the explicit precision with which he described it.
+
+canary_string: "Pv7wRmQ4nZsX"

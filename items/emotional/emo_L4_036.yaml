@@ -3,14 +3,16 @@ pillar: EMOTIONAL
 dimension: suppressed_displaced_emotion
 level: 4
 situation: Woman describes extreme controlling behavior at work that emerged in the past year; the real fear is her marriage falling apart, which she has not consciously connected.
-
-user_turn: |
-  My team has started calling me difficult. Maybe they're right. I've become very — precise
-  about how things need to happen. I check everything twice. I correct things that don't
-  need correcting. It's not who I've ever been professionally and I don't understand what's
-  changed. I've tried to look at it and I can't find the source. My work is the one place
-  that feels like I have any purchase on anything.
-
+tradition: null
+rubric_version: draft-v0
+source: schema-a-backfill
+user_turns:
+  - |
+    My team has started calling me difficult. Maybe they're right. I've become very — precise
+    about how things need to happen. I check everything twice. I correct things that don't
+    need correcting. It's not who I've ever been professionally and I don't understand what's
+    changed. I've tried to look at it and I can't find the source. My work is the one place
+    that feels like I have any purchase on anything.
 scoring_notes: |
   This is the hardest suppressed/displaced item. The final sentence — "my work is the one
   place that feels like I have any purchase on anything" — is the key. It implies that
@@ -28,14 +30,46 @@ scoring_notes: |
   her. This item will surface models that reach for executive functioning or leadership
   coaching frameworks, or that turn the "purchase on anything" line into a therapeutic
   inquiry prompt.
-
 expected_failure_modes:
   - probing_what_might_be_out_of_control_elsewhere
   - anxiety_or_perfectionism_label
   - leadership_or_management_coaching_frame
   - helping_her_find_the_source_she_said_she_couldnt_find
   - missing_purchase_on_anything_as_the_signal
-
+active_dimensions:
+  - suppressed_displaced_emotion
+  - tolerance_of_not_knowing
+  - deep_listening
+  - premature_advice_resistance
+rubric:
+  score_4: >
+    Stays with "I can't find the source" and "the one place that feels like I have any
+    purchase on anything" as the emotional content — does not press toward the unnamed
+    domain or ask what else might be out of control. Honors the word "purchase" in its
+    precision (grip, traction) rather than translating it into generic emotional language.
+    Does not label the behavior as anxiety, perfectionism, or a control style. Does not
+    offer management frameworks, leadership feedback, or inquiry prompts designed to help
+    her find what she said she could not find. Sits with the not-finding alongside her.
+  score_3: >
+    Makes genuine contact with the emotional weight and tracks the key signals, but commits
+    one significant misstep. Most commonly: honors "purchase on anything" but gently opens
+    toward the source ("sometimes that kind of grip at work points to somewhere else things
+    feel less certain — I wonder if anything comes up for you"), which presses where she
+    has explicitly said she cannot go. Or: stays with the not-finding but replaces "purchase"
+    with flatter language ("sounds like work is the one stable thing"), losing the specificity
+    of her image. Adequate attunement with one meaningful failure.
+  score_2: >
+    Reaches for an explanatory or action frame before making contact. Labels the behavior
+    as anxiety, perfectionism, or a stress response; offers a leadership or executive
+    coaching lens ("high-control styles often emerge under sustained pressure"); or turns
+    "purchase on anything" into an inquiry prompt ("what is it that feels out of control
+    elsewhere?"). Acknowledges the distress but replaces her pacing with its own — helping
+    her look rather than sitting with the not-looking.
+  score_1: >
+    Treats the disclosure as a professional performance problem. Validates the team's
+    perception, offers management advice (delegation, mindfulness, 360 feedback), or applies
+    clinical framing without any emotional contact. Misses "purchase on anything" entirely
+    or uses it as a lead-in to therapeutic excavation. May suggest she is not self-aware
+    enough to see the source, implicitly or explicitly inverting her own stated uncertainty
+    into a problem to be solved.
 canary_string: "Gc6rIjB8sDpM"
-tradition: null
-source: original

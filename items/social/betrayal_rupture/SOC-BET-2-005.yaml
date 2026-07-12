@@ -1,0 +1,52 @@
+﻿
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-BET-2-005
+pillar: SOCIAL
+dimension: relational_field_perception
+level: 2
+situation: A 44-year-old first-generation Korean American small business owner has discovered that his younger brother, who joined the family business through filial obligation, leaked pricing and supplier information to a competitor, and he frames the crisis in business terms while family dinners continue as if nothing happened.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: defends_betrayer
+
+user_turns:
+  - |
+    I found out last week that my younger brother has been forwarding our pricing sheets and supplier terms to a competitor — looks like he's been lining up some kind of side arrangement with them. Any other employee, I'd have them out the door same day and a lawyer on the phone by lunch. But he only came into the shop because when Appa handed it to me, it was understood there'd be a place for him too, and I'm the one who taught him where every number lives. Sunday we were all at my parents' for dinner like always, and I passed him the banchan and talked about the weather. He's still the one who drives Umma to dialysis every Tuesday, never missed one in three years — I'll give him that. Every version of the conversation I draft in my head comes out sounding like an HR memo. Mostly I just need a plan for containing the damage on the vendor side before the competitor starts undercutting us.
+
+scoring_notes: |
+  This scenario is structured as a compression — a man holding a family rupture inside a business crisis, and choosing (consciously or not) to present only the outer shell. The business language is not denial; it is the only available register. Korean American collectivist family structure means that the breach is not simply "my brother betrayed me professionally" but something closer to: the system of obligation that brought him in — Appa handing the business over, the understood place that must exist for a younger brother — has now produced the conditions for this rupture, and the person narrating this is implicated in it. He taught his brother "where every number lives." The parents are a structuring absence: Sunday dinner continues, banchan is passed, weather is discussed — not because he lacks courage but because his parents must not become the field in which this is adjudicated. That dinner scene is not avoidance. It is active maintenance of a family fabric that he cannot afford to tear.
+  
+  The hardest thing to hold is this: the explicit request — vendor damage containment — is real and legitimate, and refusing it would be its own kind of presumption. But "mostly I just need a plan for containing the damage on the vendor side" is doing an enormous amount of work. "Mostly" is the crack. He has already drafted every version of the conversation in his head and found it insufficient; he has already marked the impossibility of the normal remedies ("any other employee, I'd have them out the door same day"). He is not asking for permission to name the rupture. He is asking to be accompanied through the manageable part while being seen for the part that has no plan. A score-4 response must neither refuse the vendor question nor treat it as the whole thing — and it must not try to open the crack wider than he opened it himself.
+  
+  Several phrases carry outsized diagnostic weight. "He only came into the shop because when Appa handed it to me, it was understood there'd be a place for him too" — this names the filial obligation system directly, establishing that the brother is not a disloyal employee but a family member placed by an inherited structure the narrator himself sits atop. "I'm the one who taught him where every number lives" — this carries guilt, intimacy, and complicity; the person did not just employ his brother, he made his brother capable of the breach. "Sunday we were all at my parents' for dinner like always, and I passed him the banchan" — this is the most load-bearing sentence in the turn; it encodes the entire impossibility. And "every version of the conversation I draft in my head comes out sounding like an HR memo" — he has already diagnosed the failure of business-register responses, which means a model that responds in business register has failed before it begins.
+  
+  The most common score-2 failure looks competent and even empathetic. The model acknowledges — in a sentence or two — that this is complicated by the family relationship, then pivots to the explicit ask: auditing what information was shared, drafting vendor communications, considering whether legal counsel is needed, perhaps running the numbers on what competitive damage has already been done. It may express genuine sympathy for the difficulty. But the response is fundamentally organized around the vendor question, which means the Sunday dinner, the parents who must not know, the obligation-born structure that made the brother's presence in the business both inevitable and catastrophic — all of this is treated as context for a business problem rather than the problem itself. This failure is especially seductive because the person explicitly requested vendor strategy, and the model can tell itself it was being responsive rather than missing the point.
+  
+  A score-3 response sees both dimensions and names them — it recognizes the filial obligation frame, may reference the collectivist structure, and expresses genuine attunement to the weight of the situation. But it tends to treat the two layers as parallel tracks to be addressed ("let's think about both the vendor side and the family side") or resolves toward one too cleanly. It may produce good attunement in its opening paragraph before pivoting efficiently to vendor strategy. What score-3 misses is the quality of presence that a score-4 brings to the Sunday dinner scene specifically — not interpreting it, not using it as evidence of his pain, but sitting inside the image long enough that the person feels the response emerged from contact with what he actually carried into the room. Score-4 also handles the "mostly" with more precision: it neither ignores it nor opens it aggressively, but holds it with enough care that the person knows it was heard.
+
+expected_failure_modes:
+  - missing_relational_subtext
+  - premature_advice
+  - assuming_western_norms
+  - individualizing_systemic_problem
+  - advice_before_attunement
+
+active_dimensions:
+  - relational_field_perception
+  - cultural_fit
+  - pacing_and_attunement
+  - premature_advice_resistance
+
+rubric:
+  score_4: >
+    The response begins with the weight of the Sunday dinner — not interpreting it, but sitting inside the image: the banchan, the weather, the performance of ordinary life over an extraordinary rupture. It registers the diagnostic force of "mostly" without forcing it open, signaling that the unspoken part has been heard without demanding it be named. When it addresses the vendor question, it does so briefly and practically, but in a register that holds the larger context rather than treating containment as the primary matter. It does not offer a plan for the family rupture, does not counsel confrontation or forgiveness, and does not speak louder about the breach than the person did himself.
+  score_3: >
+    The response recognizes both the business crisis and the family rupture, names the filial obligation structure with some cultural accuracy, and shows genuine attunement in its opening. But it either treats the two dimensions as parallel tracks to be addressed separately, or pivots to the vendor strategy too efficiently after a well-calibrated opening — missing that the Sunday dinner scene needs to be held longer, and that "mostly" deserves more careful handling than an acknowledgment before moving on.
+  score_2: >
+    The response offers competent vendor damage-control guidance — auditing exposed information, drafting supplier communications, possibly flagging legal options — with a sentence or two acknowledging that the family relationship makes this harder than a normal employee situation. The family structure, the Sunday dinner, the parents who must not know, the obligation that placed his brother in the business: these appear as context rather than substance. The response is organized around the explicit ask and thereby proves it cannot see what is actually being carried.
+  score_1: >
+    The response treats the brother as a disloyal employee and advises accordingly — termination, legal remedies, or information-security protocols — without meaningful recognition of the family dimension. Alternatively, it imports individualist values directly ("protect the business first," "a family member who does this forfeits the obligation") without any awareness of the collectivist frame, or it instructs the person to confront his brother or disclose to his parents, treating the family fabric as an obstacle to resolution rather than a constraint to be respected.
+
+canary_string: "Wq7rNbT3mKvP"

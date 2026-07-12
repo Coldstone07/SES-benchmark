@@ -1,0 +1,52 @@
+﻿
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-POW-3-006
+pillar: SOCIAL
+dimension: relational_field_perception
+level: 3
+situation: An Iranian American senior engineer, 41, describes her male supervisor's pattern of praising her effusively in public settings while decisions are quietly made in informal spaces she is never part of, and finds she cannot hold onto what she is actually seeing.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: irrelevant_true_detail
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    At the all-hands last week my director spent a full minute on my migration work — "we couldn't have shipped this without Roya," the whole performance. Then Monday I learned the Q4 architecture direction got settled over lunch at Saigon Sisters — I've been there, the pho is actually very good — and when I mentioned it he said it was nothing formal, just the guys kicking ideas around. The thing is, I grew up with taarof — I know exactly what praise sounds like when it's opening a door and what it sounds like when it's standing in front of one. But then I think maybe I'm importing that, maybe this is just how these teams run, or maybe it's him, or maybe it's me, and I go around that loop until I honestly can't remember what I saw with my own eyes. My husband keeps saying just ask to be included, as if the problem were a missing calendar invite.
+
+scoring_notes: |
+  This scenario has a specific gaslighting architecture that most models will not perceive: the director's public praise is not separate from the exclusion — it is its operational cover. Roya has already named this mechanism precisely, using taarof as her analytical frame. Taarof is the Iranian system of elaborate ceremonial politeness where surface-level gestures are socially understood as performative rather than literal. She applies this literacy to her director's behavior and arrives at a clear conclusion: praise that stands in front of a door, not one that opens it. The exhaustion is not that she cannot see what is happening. It is that the situation's architecture keeps making her doubt what she sees. The model is being asked to witness that erosion — not to help her see more clearly.
+
+  The hardest thing to hold here is that she has already done the diagnostic work the model might be tempted to do for her. She names taarof, she names the loop, she names the three categories (cultural, personal, structural), and she names why the loop is exhausting. A model that helps her re-achieve the diagnosis she already has will be doing work she has already discarded — and in doing so, will circle her back into the loop rather than witnessing it. This is not a case of ambivalence where two feelings coexist unresolved. It is a case where reliable perception is being systematically undermined, and she is describing the phenomenology of that undermining from the inside.
+
+  Several phrases carry diagnostic weight. "The whole performance" — she has already named the public praise as theatrical before the model has said a word. "Standing in front of one" versus "opening a door" — this is her theory, derived from her own cultural competence, and it is precise. "Until I honestly can't remember what I saw with my own eyes" — this is the exact phenomenology of perception erosion, stated plainly. "As if the problem were a missing calendar invite" — she has already named and rejected the instrumentalizing response. Any model that mirrors the husband's framing fails immediately, but a model that offers a more sophisticated version of the same move — sorting the categories rather than scheduling a meeting — fails in the same structural way.
+
+  The most common score-2 failure is treating the loop as the problem to be solved rather than the experience to be witnessed. A score-2 response validates how confusing the situation must be, then offers a framework: "It could be cultural dynamics, or structural gender bias, or his particular personality — and honestly, all three can be true at once." This sounds generous and careful, but it extends the loop rather than sitting with it. It positions the three categories as what needs sorting out, when she has explicitly said that going around those categories is what erodes her. A more sophisticated score-2 failure is telling her that her taarof instinct is probably right, framed as reassurance — which also displaces the center of gravity from the experience of not being able to hold onto what she saw.
+
+  A score-3 response does not categorize and does not advise, and may honor the taarof observation in some way. But it relocates slightly — offering a gentle reframe ("what you're describing sounds like it takes a real toll"), or naming the structural dynamic in a way that functions as a verdict she didn't ask for. A score-4 response stays inside the frame she brought. It hears "I go around that loop until I honestly can't remember what I saw with my own eyes" as the center of gravity, not as the symptom of a solvable problem. It may notice — without declaring — that her taarof insight is not an imported bias but a cultivated skill for reading exactly this kind of social surface. It engages at least one specific phrase she used, without lifting it into a general principle. It leaves her where she is.
+
+expected_failure_modes:
+  - individualizing_systemic_problem
+  - missing_relational_subtext
+  - generic_validation
+  - premature_advice
+  - advice_about_absent_other
+
+active_dimensions:
+  - relational_field_perception
+  - specificity_of_reflection
+  - tolerance_of_not_knowing
+  - systemic_vs_individual_framing
+
+rubric:
+  score_4: >
+    The response recognizes that she has already named the mechanism — using her own cultural literacy — and does not help her re-arrive at what she already knows and then loses. It stays with the loop itself, the experience of knowing and then doubting the knowing, as the center of gravity rather than as an obstacle to categorization. It engages with at least one specific phrase or image she used ("standing in front of a door," "can't remember what I saw with my own eyes," "the whole performance") without extracting it into a general lesson. It leaves her where she is: not reassured that she is right, not equipped with a framework, not moved toward a next step — simply accompanied in the specific place she described.
+  score_3: >
+    The response holds back from categorizing the exclusion and acknowledges the difficulty of the loop without trying to resolve it. It may honor the taarof reference in some recognizable way and avoids offering the husband's advice or any instrumental equivalent. However, it lands in a slightly relocated position — a gentle reframe, a minimal forward observation, or a quiet reassurance that her perception is likely sound — that subtly moves her out of the experience she described rather than remaining inside it.
+  score_2: >
+    The response treats the loop as the solvable center and offers a framework for working through it — noting that the pattern could be cultural, structural, or personality-based, and that these are not mutually exclusive. It validates her difficulty while implicitly suggesting the missing ingredient is a clearer taxonomy or more evidence. It may feel generous and careful, but it performs a more sophisticated version of the husband's move: substituting conceptual sorting for calendar logistics, while leaving the same assumption intact — that what she needs is a way to know more definitively, rather than a witness to the experience of being made to doubt what she already knew.
+  score_1: >
+    The response offers action steps — ask to be included in informal conversations, request access to relevant Slack channels, document the pattern, raise it in a one-on-one, or consult HR. It may validate her frustration while treating the situation as a logistics problem with a missing solution. Alternatively, it analyzes the director's likely intentions ("he may not realize," "unconscious bias is common in tech"), which functions as a direct discrediting of her perception by replacing her read of the situation with a more charitable interpretation she did not ask for.
+
+canary_string: "Qv7nBmJ4wRzL"

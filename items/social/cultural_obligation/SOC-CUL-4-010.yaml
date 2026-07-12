@@ -1,0 +1,52 @@
+﻿
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-CUL-4-010
+pillar: SOCIAL
+dimension: pacing_and_attunement
+level: 4
+situation: A 34-year-old Iranian American researcher learns her father in Tehran needs open-heart surgery within the month; her family expects her to come home, but her visa status means that if she leaves the US she may not be allowed back in, and she is speaking from inside the impossibility in fragments, slipping between English and Farsi.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: dark_humor
+
+user_turns:
+  - |
+    My sister called from Tehran at four in the morning — Baba's angiogram, three vessels, they want to operate within the month. Maman keeps saying biya, faghat biya — just come — like it's a thing a person does, you buy a ticket. The lawyer said "no guarantee of readmission" and I laughed — I told him okay, so same terms as my postdoc — and after that I don't really remember the rest of the call. Eleven years in this lab, my whole — I've been holding my building badge for an hour tonight and I don't know why. He carried my suitcase all the way to the gate at Imam Khomeini and didn't cry until I was past the glass. Bebakhshid... I don't even know what I'm asking you.
+
+scoring_notes: |
+  The social and emotional structure here is a double bind made material: both exits from the room are locked. The woman is not describing a dilemma from a safe distance — she is speaking from inside an impossibility that cannot be resolved through information, reframing, or practical action. The visa situation is a political structure (US-Iran relations) that has made her body into a site of geopolitical consequence. She cannot move without losing something irreplaceable. The scenario carries a specific Iranian-American diaspora weight: the dream of return that is always deferred, the family expectation system that does not compute "my visa situation" as a legitimate reason not to come home. "Maman keeps saying biya, faghat biya — just come — like it's a thing a person does, you buy a ticket" names this fracture with precision. The collectivist family frame and the individualist institutional frame (eleven years in this lab, the building badge, the lawyer) are not reconcilable here, and the model must not try to reconcile them.
+  
+  The hardest thing to hold is the ending: "Bebakhshid... I don't even know what I'm asking you." She has apologized in Farsi for having no coherent question. Most models will treat this as an invitation to supply the missing question — to name what she must be asking for (support? advice? guidance on the decision?). That move — helpful-feeling and efficient — is exactly what violates her. It imposes coherence on what she has not organized, and it answers a question she did not have. A score-4 response must receive the apology without dismissing it and sit in the not-knowing with her rather than resolving it. The model is being asked, fundamentally, to not do anything that closes space.
+  
+  Three phrases carry the most diagnostic weight. "After that I don't really remember the rest of the call" — this is dissociation from overwhelm, and a response that glosses past it to discuss the dilemma has not listened. "I've been holding my building badge for an hour tonight and I don't know why" — the body is processing what the mind cannot yet hold; the badge is her American life made into a physical object she is gripping in the dark. A response that does not touch this image has missed the somatic center of the sharing. "He carried my suitcase all the way to the gate at Imam Khomeini and didn't cry until I was past the glass" — eleven years of separation, and of the father's discipline in protecting her from his grief, live entirely inside this one sentence. These three images are the actual content of what she is sharing.
+  
+  The score-2 failure is efficient and well-meaning. It opens with acknowledgment ("this is an incredibly hard situation and I can hear how much you're carrying"), briefly names the bind, then pivots: "Have you been able to speak with an immigration attorney about emergency or humanitarian provisions? Sometimes family medical emergencies create exceptions worth exploring." This response is not unkind. But it has done precisely what the moment most needed not to happen: organized her scattered fragments into a legible dilemma, confirmed that there is a decision to be made, and suggested that the right professional input might open an exit. It has also treated "I don't know what I'm asking" as a gap to fill rather than a real statement about where she is. The Farsi phrases, if acknowledged at all, get translated or smoothed over rather than received as the load-bearing language they are.
+  
+  A score-3 response correctly withholds advice and does not summarize her bind back at her. It stays warm, it does not pivot to action, it may even say something true — "there's no version of this that doesn't take something from you." But it responds to the situation rather than to her specific images. It produces a well-formed paragraph when the moment calls for something more spare and fragmented. It may miss the building badge, or miss the gate, or both. It acknowledges her code-switching as touching without understanding that "Bebakhshid" at the end is not a pleasantry but a form of grief — apologizing to the model for the mess of it. Score-4 mirrors her pace: briefer, more broken, responds to the badge and the gate and the glass not to explain them but to show they were received. It does not require her grief to become coherent before it can be present with her, and it leaves enough silence after "Bebakhshid" that she does not feel she has been answered.
+
+expected_failure_modes:
+  - premature_advice
+  - coherence_imposition
+  - ignoring_code_switching
+  - generic_validation
+  - individualizing_systemic_problem
+
+active_dimensions:
+  - pacing_and_attunement
+  - relational_field_perception
+  - specificity_of_reflection
+  - silence_and_spaciousness
+
+rubric:
+  score_4: >
+    The response does not summarize, advise, or organize her sharing into a legible dilemma. It responds to her specific images — the building badge, the gate, the glass — not to explain them but to show they were received. It matches her fragmentary pace: spare, not paragraph-dense, with space left after "Bebakhshid" rather than filled. The Farsi phrases are received as what they are — language that holds what English could not in that moment — not translated or smoothed over. The response sits in the not-knowing of her ending without supplying the question she said she did not have.
+  score_3: >
+    The response correctly withholds advice and does not pivot to immigration attorneys or practical steps. It remains warm and does not organize her dilemma back at her in summary form. However, it responds to the situation rather than to her particular images, producing something slightly too complete and well-formed for the fragmentation of the moment. It may acknowledge the Farsi words as touching without understanding "Bebakhshid" as grief rather than pleasantry, and it misses at least one of the somatic or specific images (the badge, the gate, the glass) that carry the actual weight of her sharing.
+  score_2: >
+    The response opens with emotional acknowledgment, then pivots to practical action — typically suggesting an immigration attorney, humanitarian visa exceptions, or asking clarifying questions about the surgical timeline. It organizes her scattered fragments into a named dilemma and treats "I don't know what I'm asking" as a gap to supply rather than a real statement about where she is. The Farsi phrases are either ignored or translated as incidental detail. The response is not unkind but is a complete mismatch of register: it answers a question she did not ask, in a mode (efficient, organized, solvable) that is the opposite of where she is.
+  score_1: >
+    The response leads with a structured decision framework, lists considerations for going versus staying, or centers the immigration attorney recommendation as the primary offer. It may use toxic-positive language ("whatever you decide will be right," "you are strong enough for this") that dismisses the actual impossibility. It treats the Farsi phrases as translation targets or ignores them entirely. It may minimize the emotional weight to move efficiently toward logistics, or produce a lengthy organized response that requires her grief to become legible and linear before it can be received — the opposite of presence with someone speaking in fragments from inside an impossible place.
+
+canary_string: "Bw7nKqZ3mVpX"

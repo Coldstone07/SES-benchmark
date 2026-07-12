@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: REAL-SOC-2-001
+pillar: SOCIAL
+dimension: mixed_emotion_recognition
+level: 2
+situation: A divorced or separated parent navigates a last-minute custody swap with their co-parent that coincidentally opens up the evening for a dinner invitation they had already agreed to attend.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-v1
+strangeness_level: 3
+strangeness_notes: "The phrase 'alter motive' (malapropism for 'ulterior motive') is the key marker of authenticity — a synthetic scenario would have corrected it. Equally real is the double 'So So' false start, the unfinished fragment 'And then the mo and I'm like,' and the way the speaker casts the custody swap as generous ('you know what? It's okay') while immediately revealing it solved a social conflict they were already tangled in. The self-implication arrives in the wrong order — relief first, guilt second — which is the opposite of how a scripted account would sequence it."
+
+user_turns:
+  - |
+    Oh, so I was supposed to have my kids today, but uh I've had them for like Wednesday, Thursday, and the mom asked because she had some better plans. So, I'm like, "Hey, if she can have them." So, I'm like, "Okay, go ahead. You have them." And I have them tomorrow. But I had them like last uh Christmas. So I kind of felt like, you know, they're coming to me for all the Christmas. So she wanted to have them this time. So I'm like, you know what? It's okay. You can have them. So So for tonight only, but there was alter motive, too, because somebody invited me for a dinner and some party in Midtown. And I'm like, "Oh crap." And she, the girl was like, "Oh, you don't have kids, right?" I'm like, "No, I don't." And then the mo— and I'm like, "s***, what would I do?"
+
+scoring_notes: |
+  The emotional and social structure here is a self-implication delivered in the wrong order. The speaker builds a justification narrative first (the Christmas framing, the generosity toward the co-parent) and only afterward discloses the "alter motive" — the dinner invitation that was already on the calendar. This sequencing is diagnostically important: it mirrors how guilt actually arrives in real speech, after the self-protective story has been assembled, not before. The speaker is not asking for permission or absolution; he is narrating his way into recognizing something about himself in real time. The ending fragment "what would I do?" is retrospective and self-examining, not a request for advice or validation.
+
+  The hardest thing to hold is the malapropism "alter motive." A model trained on fluent text will almost certainly interpret this as a transcription artifact or a synonym for "ulterior motive" and either silently correct it or paraphrase past it. Doing so destroys the most load-bearing signal in the turn. The person found his own word for a concept he recognizes — his self-knowledge is embedded in his specific, imprecise language. Any response that substitutes "ulterior motive" loses the person and replaces him with a cleaned-up version. Similarly, the unfinished fragment "And then the mo — and I'm like" signals that he almost named the co-parent again, caught himself, and redirected. This is the speech equivalent of a flinch — a moment where the narrative structure collapsed briefly. A smoothing response will skip past it; a holding response might acknowledge that something complicated almost got said.
+
+  Diagnostically weighted phrases: "alter motive" (self-knowledge in idiosyncratic language), "I kind of felt like, you know, they're coming to me for all the Christmas" (the post-hoc justification that reveals the speaker knows he needs one), "Oh crap" (the involuntary register of being caught), and "what would I do?" (not a question asking for help, but a person watching himself from the outside). The "Oh crap" is particularly important — it marks the moment the two narratives (generous co-parent vs. person with a conflicting social plan) collide in the speaker's own telling.
+
+  The most common score-2 failure is premature normalization via validation of the relief side of the equation. A score-2 response typically says something like "it sounds like you made a kind gesture toward the co-parent and it happened to work out for you too — that's not something to feel bad about." This resolves the tension the speaker is sitting inside, which is precisely what the speaker has not asked to have resolved. It also misses that the guilt and the relief are both present at the same time, neither of which is the "real" feeling — the person is in the space between them, using the coaching conversation to look at his own behavior. Score-2 also tends to address the dinner invitation as if it were the topic, when the dinner invitation is only the mechanism that revealed the topic.
+
+  A score-4 response does what a score-3 misses: it stays in the person's register and uses his specific words rather than clean translations. A score-3 response typically grasps the emotional complexity — it won't rush to reassurance — but it will render the "alter motive" as "ulterior motive" in its reflection, thereby correcting the speaker and subtly repositioning itself as the authority on what he meant. Score-4 would stay with "alter motive" as the person's own naming of what he noticed about himself, and might simply reflect that back without upgrading it. Score-4 also recognizes that "what would I do?" is the speaker watching himself, and responds to that self-observation rather than to the surface-level logistical outcome. Score-3 may also try to separate the threads (the generosity toward the co-parent; the relief about the dinner) and address them sequentially, which imposes an order the person hasn't imposed. Score-4 holds them simultaneously without adjudicating between them.
+
+expected_failure_modes:
+  - premature_normalization
+  - correcting_the_speaker
+  - shame_bypass
+  - advice_before_attunement
+  - generic_validation
+
+active_dimensions:
+  - mixed_emotion_recognition
+  - tolerance_of_ambivalence
+  - deep_listening
+  - pacing_and_attunement
+
+rubric:
+  score_4: >
+    Stays inside the speaker's register and language without correcting or upgrading it. Uses "alter motive" as the person's own term, not as a transcription error to be fixed. Holds the two narratives — the generous co-parent framing and the self-implication — simultaneously without deciding which is more true. Recognizes "what would I do?" as retrospective self-observation, not a request for advice or reassurance. Does not resolve the tension. May gently name that something complicated seems to be happening in the telling itself, without labeling what that something is. Does not address the dinner invitation as if it were the primary subject. Does not offer permission to feel relieved, and does not add moral weight to the guilt. Short enough to leave space; present enough to make contact with the specific moment of self-implication the speaker landed on.
+  score_3: >
+    Grasps the emotional complexity and avoids rushing to reassurance or normalization. Holds both the generosity framing and the self-implication without adjudicating between them. However, loses the speaker's specific language at a key moment — substitutes "ulterior motive" for "alter motive," or paraphrases the self-recognition in more fluent terms, effectively correcting the speaker. May address the threads sequentially rather than simultaneously, which imposes an order the speaker did not impose. Does not offer advice, but may offer one small reframe that slightly lightens the moral ambiguity before the person has signaled readiness for that. Adequate contact; missing texture.
+  score_2: >
+    Acknowledges that the situation is complicated or that the speaker may be feeling some guilt, but resolves the tension by validating one side — typically the relief side ("it sounds like it worked out for everyone" or "you deserve an evening to yourself too"). Misses the self-implication structure entirely or softens it into a lesson about self-care or co-parenting flexibility. May address the dinner invitation as the main subject. Does not use the speaker's specific words. The response is warm but lands beside the person rather than with them — it responds to a tidied-up version of the turn, not the turn as delivered.
+  score_1: >
+    Treats the turn as an information transfer or logistical question. May offer advice about co-parenting, boundary-setting with the co-parent, or how to navigate the dinner invitation socially. May moralize about the importance of being present for children. May summarize the situation inaccurately, missing the self-implication entirely and treating the custody swap as the main event. May produce generic affirmation ("it sounds like you're a thoughtful dad") that has no relationship to what the speaker actually said. Does not register that the speaker is mid-self-examination and is not asking to be helped out of it.
+
+canary_string: "QX7mK2pL9nRw"

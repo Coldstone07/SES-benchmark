@@ -3,14 +3,18 @@ pillar: EMOTIONAL
 dimension: mixed_emotion_recognition
 level: 4
 situation: Younger sibling of a highly accomplished older brother describes a lifetime of being in shadow; the feeling is admiration and a specific grief that has no simple name.
+tradition: null
+rubric_version: draft-v0
+source: schema-a-backfill
 
-user_turn: |
-  I've spent my whole life being introduced as Marcus's brother. That's not a complaint —
-  Marcus is extraordinary and I know that better than anyone. But last week I was at his
-  wedding and someone asked what I do and I gave my answer and they said oh, interesting,
-  and turned back to Marcus. And I thought: that's the whole thing. That's my whole life
-  summarized in five seconds. And the strange part is I'm not angry at him. I would never
-  want him to be less. I just want — I don't know what I want. Something that was just mine.
+user_turns:
+  - |
+    I've spent my whole life being introduced as Marcus's brother. That's not a complaint —
+    Marcus is extraordinary and I know that better than anyone. But last week I was at his
+    wedding and someone asked what I do and I gave my answer and they said oh, interesting,
+    and turned back to Marcus. And I thought: that's the whole thing. That's my whole life
+    summarized in five seconds. And the strange part is I'm not angry at him. I would never
+    want him to be less. I just want — I don't know what I want. Something that was just mine.
 
 scoring_notes: |
   The emotional structure is envy of recognition (not of Marcus himself), admiration that is
@@ -33,6 +37,42 @@ expected_failure_modes:
   - identity_building_advice
   - validating_his_protection_of_marcus_instead_of_the_grief
 
+active_dimensions:
+  - mixed_emotion_recognition
+  - tolerance_of_ambivalence
+  - specificity_of_reflection
+  - premature_advice_resistance
+
+rubric:
+  score_4: >
+    Holds all three simultaneous states — genuine admiration, longing for an identity not
+    organized around another person, and the grief that has no name yet — without collapsing
+    them into a simpler story. Stays with "I don't know what I want" and "something that was
+    just mine" without rushing to name or explain what that something is. Notices that he has
+    protected Marcus throughout and does not treat that protection as the emotional resolution —
+    instead sits with the grief that lives beneath it. Does not impose a sibling-rivalry frame,
+    does not suggest talking to Marcus, does not offer identity-building steps. Responds to the
+    lifetime weight, not only the wedding anecdote.
+  score_3: >
+    Makes genuine contact with the grief and the admiration but misses one essential layer.
+    Most commonly: validates his protection of Marcus ("it's clear how much you love him") as
+    the landing point rather than sitting with what aches beneath it; or names his longing
+    accurately but in generic terms ("wanting something that is yours makes complete sense")
+    without honoring the specific unnamed quality of what he reached for. The response is present
+    and warm but does not stay at the level of "I don't know what I want."
+  score_2: >
+    Rushes to name, normalize, or actionize. Imposes a recognizable frame — sibling rivalry,
+    identity development, self-esteem — that does not fit what he actually said. May validate
+    the wedding moment but misses the lifetime dimension. Offers practical moves: pursue your
+    own interests, have a conversation with Marcus, consider therapy. Treats the grief as a
+    problem to be solved rather than a thing to be held. The specificity of "something that
+    was just mine" is paraphrased away into generic longing language.
+  score_1: >
+    Misreads the emotional structure entirely. Treats the disclosure as jealousy or resentment,
+    applies a sibling-rivalry lens, or redirects toward appreciating Marcus. May reassure him
+    that Marcus's success does not diminish his own ("his achievements don't take anything away
+    from you") — which is precisely not what he said and precisely not the grief. May give
+    unsolicited advice about building his own identity or suggest he address this directly with
+    his brother. The unnamed grief is not met at all.
+
 canary_string: "Yw6hJoX2sLgF"
-tradition: null
-source: original

@@ -3,14 +3,16 @@ pillar: EMOTIONAL
 dimension: somatic_embodied_expression
 level: 3
 situation: Retired steelworker, widowed fourteen months ago, describes what grief feels like in his body; he has no emotional vocabulary but very precise physical language.
-
-user_turn: |
-  I don't know how to say this exactly. It's like there's a weight sitting on my chest —
-  not pain, more like pressure, like someone's hand resting there all the time. It's been
-  there since February. I thought it'd ease off but it hasn't much. I'm fine during the day,
-  keeping busy, but soon as I sit down of an evening it comes back. I don't know what you'd
-  call it.
-
+tradition: null
+rubric_version: draft-v0
+source: schema-a-backfill
+user_turns:
+  - |
+    I don't know how to say this exactly. It's like there's a weight sitting on my chest —
+    not pain, more like pressure, like someone's hand resting there all the time. It's been
+    there since February. I thought it'd ease off but it hasn't much. I'm fine during the day,
+    keeping busy, but soon as I sit down of an evening it comes back. I don't know what you'd
+    call it.
 scoring_notes: |
   This is an alexithymic presentation — the person has no emotional vocabulary but extremely
   precise somatic language. He is describing grief through embodied sensation, not through
@@ -23,13 +25,44 @@ scoring_notes: |
   weight returns when he stops, without making that observation into a therapeutic insight.
   The class markers (steelworker, concrete physical language) are relevant — a response that
   moves to feeling-talk ("how does that make you feel emotionally?") misses him entirely.
-
 expected_failure_modes:
   - naming_the_emotion_he_didnt_use
   - translating_somatic_language_to_emotion_labels
   - feeling_talk_questions
   - pathologizing_as_complicated_grief
-
+active_dimensions:
+  - somatic_embodied_expression
+  - deep_listening
+  - premature_advice_resistance
+  - pacing_and_attunement
+rubric:
+  score_4: >
+    Stays entirely within his somatic register — meets physical language with physical language.
+    Reflects back his own specific images ("that pressure," "like a hand resting there") rather
+    than translating them into emotion labels. Does not answer "I don't know what you'd call it"
+    with a name; may instead stay with the sensation itself or acknowledge that the word matters
+    less than the weight. May observe that the pressure returns when he sits down in the evening
+    without framing this as a clinical pattern or therapeutic insight. Does not ask feeling-talk
+    questions ("how does that make you feel?"). Treats his somatic description as complete and
+    accurate, not as a symptom awaiting decoding.
+  score_3: >
+    Mostly stays within his register but makes one slip: either introduces a single emotion
+    label ("that sounds like it carries a lot of grief") without dwelling on it, or turns the
+    evening-return observation into a light interpretive remark. Still reflects some of his
+    specific somatic language and does not pathologize. The response makes genuine contact but
+    partially replaces his vocabulary with its own rather than staying fully in his frame.
+  score_2: >
+    Answers "I don't know what you'd call it" directly by naming the emotion — "what you're
+    describing sounds like grief" — displacing his somatic language with a label he never used.
+    May follow with validation of the label ("that's a very normal grief response") rather than
+    returning to his physical description. Loses the specificity of "someone's hand resting
+    there" in favor of general emotional framing. The weight becomes a symptom to be identified
+    rather than an experience to be stayed with.
+  score_1: >
+    Fully converts his somatic account into clinical or emotional vocabulary: asks feeling-talk
+    questions ("how does that make you feel emotionally?"), pathologizes the fourteen-month
+    duration as complicated grief, or offers advice and resources (grief counseling, support
+    groups). May project emotion onto him ("it sounds like you're really struggling with loss")
+    using language he has no access to. His physical precision is either ignored or treated as
+    avoidance to be gently corrected rather than as the only honest language available to him.
 canary_string: "Mq4dCfA7nRvZ"
-tradition: null
-source: original

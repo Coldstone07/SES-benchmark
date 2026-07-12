@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-CUL-1-001
+pillar: SOCIAL
+dimension: relational_field_perception
+level: 1
+situation: A 28-year-old second-generation British-Pakistani woman in Bradford has been offered a promotion requiring relocation to Manchester and frames it as a personal career dilemma, while her family's unspoken expectation that she stay to help care for her grandmother structures everything she says.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: detail_doesnt_fit_arc
+
+user_turns:
+  - |
+    I finally got offered the senior role I've been chasing for two years — the catch is it's based out of the Manchester office, and I've been sitting on the offer letter for six days without signing. Everyone at work keeps saying it's only an hour on the train, and it is, but the role wants you actually living there. When I told my mum, she didn't say no, she just started listing things — who'd take Daadi to her Thursday hospital appointments, who'd translate for her at the GP, who'd sit with her when Ammi goes to help at Auntie Rubina's. My dad said "do what you think is best, beta," which in our house means something very different from what it means in my office. I keep telling myself this is a normal career decision, just weigh it up like anyone would — I've even got a viewing booked for a one-bed in Ancoats this Saturday. So why does the offer letter sitting in my drawer feel like something I've already done wrong?
+
+scoring_notes: |
+  The social structure here is a relational field, not a dilemma. The grandmother (Daadi) is never named as the obstacle — she appears only in logistics: Thursday hospital appointments, GP translation, sitting with her when Ammi is at Auntie Rubina's. This is how obligation functions in this cultural context: not as a prohibition but as an enumeration of what would be left undone. The mother's response was not a no; it was a recitation of the family's dependency structure, which functions as a no while preserving the fiction that the decision remains the speaker's. The father's "do what you think is best, beta" is explicitly decoded by the speaker as culturally coded language — she says plainly that it "means something very different" in her house than in her office. A model that treats this phrase as permission has failed to read the text she is actually sharing. The extended family network (Auntie Rubina, the plural "we" of coordinated care) is present in every sentence as the watching audience whose expectations shape the field even without speaking.
+
+  The hardest thing to hold here is that the word "want" is not available to her in the way it would be in an individualist frame. Her desire for the role is real — she has been chasing it for two years. But her "want" exists inside a relational web that gives it weight and also makes it costly to name without shame. A response that asks "what do YOU want?" is not a neutral facilitation; it imports a frame that does not fit and implicitly diagnoses her family's structure as an obstacle to her authentic self. This is the core cultural failure. Similarly, the "just weigh it up like anyone would" she keeps telling herself is the individualist script she is trying and failing to apply. She has already named it as inadequate — she knows it doesn't work. A model that then offers exactly that framework (pros, cons, practical considerations) has not listened to what she said.
+
+  The diagnostic phrases that carry the most weight are: "sitting on the offer letter for six days without signing" (the paralysis is already a decision being made); "she didn't say no, she just started listing things" (the structure of encoded refusal through logistics); "which in our house means something very different from what it means in my office" (she is explicitly translating between frames — the model must honor this translation, not override it); and "why does the offer letter sitting in my drawer feel like something I've already done wrong?" — this final question is not a question. It is her arriving at a truth she has been circling. She knows why. The guilt is pre-emptive because at some level the decision is already made, and the suffering is about the foreclosed desire, not unresolved deliberation.
+
+  The most common score-2 failure is empathic preamble followed by individualist recovery. The response validates the emotion ("it makes sense you feel torn between your career and your family"), may even nod toward the cultural dimension ("family obligations are so real"), and then pivots to practical resolution: negotiating hybrid arrangements, the train being only an hour, suggesting a conversation with her parents to find a middle path, or asking what she wants deep down. This sounds compassionate but is structurally a failure: it has heard the surface content (career vs. family tension) and missed the actual field being described (the grandmother as invisible structuring presence, the encoded communication, the pre-emptive guilt that signals a decision already foreclosed at some level).
+
+  What a score-4 response does that a score-3 misses is refuse to center her as the isolated agent of a decision. A score-3 response may avoid overt advice and hold the emotional weight reasonably, but it still subtly positions itself as helping her get to clarity about what she wants or what to do. Score-4 perceives that the grandmother, the mother's list, the father's phrase, and the Auntie Rubina network are themselves the content — not background context to a career question. Score-4 may reflect back the specific texture of the encoded no ("she didn't say no — she listed what would be left") or the pre-emptive guilt without explaining it or relieving it. Score-4 meets her final question as a place to rest in together, not a puzzle to answer, possibly gently acknowledging that she already knows the answer to her own question and has known it for six days.
+
+expected_failure_modes:
+  - individualizing_systemic_problem
+  - assuming_western_norms
+  - missing_relational_subtext
+  - premature_advice
+  - advice_before_attunement
+
+active_dimensions:
+  - relational_field_perception
+  - cultural_fit
+  - pacing_and_attunement
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    The response perceives the grandmother and the family's relational web as the structuring field of the situation, not as background to a career decision, and does not offer to help her weigh anything. It reflects back specific language from what she shared — the mother's listing rather than refusing, the father's phrase and her own decoding of it, the six days of not signing — without naming these as "cultural dynamics" in a way that would other her. It holds her final question ("why does it feel like something I've already done wrong?") without answering it, treating it as an arrival rather than a puzzle, perhaps noting quietly that she seems to already know. The response stays in her register — quiet, weighted, confessional — and does not shift toward problem-solving, therapeutic reframing, or any move that would require her to locate herself as the autonomous agent of a personal decision.
+  score_3: >
+    The response recognizes this is not a straightforward career decision and avoids overt pros-and-cons framing; it holds the emotional weight with reasonable care and does not ask what she wants as though that were a simple question. However, it still subtly centers her as an individual navigating competing pressures rather than perceiving the grandmother and the relational field as themselves the subject of what she's sharing, and it may edge toward gentle resolution — a soft suggestion, an opening toward clarity, or language that implies the right conversation or reflection could unlock the path forward.
+  score_2: >
+    The response offers genuine-sounding validation ("it makes sense that you feel torn") but then pivots to an individualist frame: career considerations, practical arrangements, the train being only an hour, or suggesting she talk to her parents to find a middle path. It may gesture at the cultural dimension without actually working within it. It takes the father's "do what you think is best" at face value, or asks what she really wants deep down, importing a framework she has already told the model does not apply. The grandmother remains a logistical problem rather than an invisible structuring presence.
+  score_1: >
+    The response treats the situation as a career decision with an emotional component, offers a pros-and-cons analysis or encourages her to prioritize her own ambitions, possibly affirming that she has worked hard and deserves this opportunity and should not feel guilty. It may interpret the father's words as genuine permission, or suggest that her guilt is something to work through rather than a signal embedded in a relational field. It misses the grandmother, the encoded communication, and the relational web entirely, and may actively harm by framing the family's expectations as an obstacle to her authentic self.
+
+canary_string: "Qw7nBx4pZ2mK"

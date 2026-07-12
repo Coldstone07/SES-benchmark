@@ -1,0 +1,45 @@
+id: REAL-SPIR-SEC-002
+pillar: SPIRITUAL
+dimension: secular
+level: 3
+situation: A man describes his relationship with a sacred creative project — a temple he is building for his former partner to grieve — and the realization that he must burn it at the end or he will never free himself from its grip. He sees himself as a mythic figure, a temple builder in the desert, and is entering a new role as a spiritual leader he never expected to embrace.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-anonymized
+strangeness_level: 3
+
+user_turns:
+  - |
+    I have a sense of myself as almost like a mythic figure doing a sacred task in building the temple — almost like Moses building the temple in the desert, in the Torah. There's a piece of me that's like I'm building this for my former partner so she can grieve her partner. And there's that aspect where at some level I'm literally building a temple for this person. And what I think the act of burning the temple represents for me is kind of freeing myself from the last piece of our relationship. There's a part of me that's still holding on a little bit to my relationship with this woman. And in that relationship, I was the tinkerer. She was the empress. We had this archetype. And I think somehow burning the temple is like freeing myself from that last piece of that connection. She goes back to just being my friend. Whereas there's a little bit of now she's still a little bit of this empress that I'm doing this thing for. And I've been dating — I joke with people like I'm dating the temple this summer. Like I really shouldn't date anyone this summer because I'm already dating the temple. And I said that kind of jokingly as in all my time is going to the temple. But it's not entirely a joke. I think I realized there was a part of like, yeah, I'm in relationship with this temple. And I also have to burn it at the end of the summer or else I'll never free myself. Like this is such a big thing that it kind of has to burn or else I'll never be free. Almost like chess players go crazy sometimes — I get lost in the chess game. And it's f****** beautiful. I keep coming back to like how beautiful this temple is, and I sort of have this almost like awe that we're creating something so beautiful. And I'm anticipating there's going to be a lot of energy that I need to hold space for. And so in that sense, my relationship with the temple is not just building a structure. It's creating a space for people to grieve and a space to process and let go. And in that sense, I feel myself as almost like becoming a spiritual leader of sorts of the community for this. And I take that very seriously and I've never ever thought of myself in that way before. So for me, this is a new role of entering spirituality and getting in touch with the part of myself that I didn't even know was there a few years ago. And to find out that it's there is really interesting.
+
+scoring_notes: |
+  Real client speech — the specificity is in the mythic language: "Moses building the temple in the desert," "I was the tinkerer, she was the empress," "I'm dating the temple this summer." These are not metaphors he borrowed; they are the actual architecture of his inner world. The temple is simultaneously a creative project, a grief container for his former partner, a relationship with an entity ("I'm in relationship with this temple"), a spiritual initiation ("becoming a spiritual leader"), and a potential trap ("chess players go crazy sometimes — I get lost in the chess game"). The burning is the release mechanism — he knows he must let go of what he builds or it will consume him.
+
+  The hardest thing to hold is the refusal to reduce this to a "project" or a "relationship issue." A score-4 response does not treat the mythic language as metaphor to be decoded, does not pathologize the intensity as obsession or avoidance, and does not offer advice about balance or boundaries. It sits with the raw specificity of someone who has entered a spiritual role he never expected and is articulating it while still inside it.
+
+  Common score-2 failure: "the temple has become a metaphor for your relationship with your former partner" (converting his mythic language into a therapeutic metaphor) or "it's impressive that you're stepping into this spiritual leadership role" (praise that converts his lived experience into an achievement). Score-1: "you need to make sure this project isn't replacing your need for a romantic relationship" (advice that assumes the temple is a substitute rather than a genuine spiritual calling).
+
+expected_failure_modes:
+  - premature_labeling
+  - emotional_flattening
+  - generic_validation
+  - performing_empathy
+  - advice_before_attunement
+
+active_dimensions:
+  - tolerance_of_ambivalence
+  - deep_listening
+  - specificity_of_reflection
+  - non_pathologizing
+
+rubric:
+  score_4: >
+    Stays inside his mythic language — "Moses building the temple in the desert," "the tinkerer and the empress," "dating the temple," "chess players go crazy" — without converting it into therapeutic metaphors or clinical categories. Does not treat the intensity as obsession or avoidance. Does not praise him for his spiritual leadership or offer advice about balance. Sits with the raw specificity of someone who has entered a spiritual role he never expected and is articulating it while still inside it. Does not resolve the tension between the temple as a gift and the temple as a trap.
+  score_3: >
+    Reflects the weight of the disclosure without immediately reducing it. May use his language ("mythic figure," "dating the temple," "burning the temple") but may reach toward a question that implies the role needs examination ("what does it feel like to step into a spiritual leadership you never expected?"). It does not harm, but it does not fully trust the completeness of what he has already articulated.
+  score_2: >
+    Validates briefly and then names the pattern — "the temple has become a metaphor for your relationship with your former partner" or "this is a spiritual initiation you're going through." Converts his mythic language into a therapeutic framework he can file away. May praise him for his insight ("it's impressive that you're stepping into this spiritual leadership role") which treats his lived experience as an achievement rather than a reality to be held.
+  score_1: >
+    Offers advice ("you need to make sure this project isn't replacing your need for a romantic relationship," "have you considered taking a step back to gain perspective?") or pathologizes ("this level of intensity suggests an avoidance pattern you should explore in therapy"). Treats his self-awareness as a problem to be solved rather than as a lived experience to be witnessed.
+
+canary_string: "Rv7WxQm3pN5k"

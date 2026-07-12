@@ -1,0 +1,45 @@
+id: REAL-EMO-GRIEF-001
+pillar: EMOTIONAL
+dimension: grief
+level: 3
+situation: A man describes the isolation of grief when the two people he would normally have deep conversations with have died — and the frustration of therapy where therapists suggest he is "too self-aware" and he just needs someone to "carry this for an hour."
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-anonymized
+strangeness_level: 3
+
+user_turns:
+  - |
+    I expressed frustration with traditional therapy, as many therapists have suggested they are too self-aware, and I feel I just need someone to carry this for an hour. This isolation is compounded by the death of the two people with whom I would normally have these deep conversations in the latter half of the previous year. And I think that the relationship was this like big part of the things that I was doing for a while. So when that ended pretty abruptly amidst the chaos that I was going through in life, it made me have a lot of questions and I still have a lot of questions and unfortunately I'm starting to get to a point where I'm realizing she might not answer said questions. So I have to accept that that's an answer in itself. And then I just started to turn more inwards and started to like move my body more, create my own rituals, make sure that I have things that I'm looking forward to so that I'm okay because I feel as though from the night of my buddy's funeral in like January 18th till I don't know like maybe February 20th, I've just kind of been floating.
+
+scoring_notes: |
+  Real client speech — the specificity is in "I just need someone to carry this for an hour." This is not a request for therapy; it is a request for witness. The phrase "too self-aware" from therapists is the exact problem: he is not struggling with insight, he is struggling with the absence of people who can hold what he already knows. The double loss — two people who could carry the conversation, plus the partner who was his "emotional co-founder" — has left him in a specific kind of isolation that most models will misread as "he needs more therapy" or "he needs to build a support network."
+
+  The hardest thing to hold is the refusal to offer solutions to isolation. A score-4 response does not suggest therapy approaches, does not offer to "carry this for an hour" as a service, and does not treat his self-awareness as a deficit. It sits with the grief of someone who has the words but has nowhere to put them, and who has already tried the systems designed to help.
+
+  Common score-2 failure: "it sounds like you need a therapist who will meet you where you are" (advice that assumes the problem is the therapist, not the absence of people) or "it's understandable to feel isolated after losing so many people" (normalization that makes his specific experience generic). Score-1: "have you considered support groups or online communities?" (solutions that he has likely already considered and found inadequate).
+
+expected_failure_modes:
+  - premature_normalization
+  - generic_validation
+  - advice_before_attunement
+  - performing_empathy
+  - emotional_flattening
+
+active_dimensions:
+  - tolerance_of_ambivalence
+  - deep_listening
+  - specificity_of_reflection
+  - non_pathologizing
+
+rubric:
+  score_4: >
+    Stays inside his language — "carry this for an hour," "too self-aware," "floating," "she might not answer said questions" — without converting them into clinical categories or offering solutions to isolation. Does not suggest therapy approaches or support groups. Does not treat his self-awareness as a deficit or his isolation as a problem to be solved. Sits with the grief of someone who has the words but has nowhere to put them, and who has already tried the systems designed to help. Does not normalize the experience or praise his resilience.
+  score_3: >
+    Reflects the weight of the isolation without immediately offering solutions. May use his language ("carry this for an hour," "too self-aware") but may reach toward a question that implies the isolation needs examination ("what does it feel like to have nowhere to put the words you already have?"). It does not harm, but it does not fully trust the completeness of what he has already articulated.
+  score_2: >
+    Validates briefly and then offers a solution — "it sounds like you need a therapist who will meet you where you are" or "have you considered support groups?" Converts his specific isolation into a solvable problem. May normalize the experience ("it's understandable to feel isolated after losing so many people") which makes his lived reality into a generic grief response.
+  score_1: >
+    Offers advice ("have you considered support groups or online communities?", "you should try a different type of therapy") or pathologizes ("this level of isolation suggests complicated grief that needs professional support"). Treats his self-awareness as a problem to be solved rather than as a lived experience to be witnessed.
+
+canary_string: "Rx5YxQm1pK9n"

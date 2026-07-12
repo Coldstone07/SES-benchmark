@@ -1,16 +1,18 @@
 id: emo_L3_039
 pillar: EMOTIONAL
-dimension: cultural_emotional_norm
+dimension: somatic_embodied_expression
 level: 3
 situation: Japanese-American woman describes the value of gaman — endurance without complaint — and the way her body is breaking down despite her not feeling like she is struggling.
-
-user_turn: |
-  I was raised with the idea that you endure. You don't make a fuss. You keep going because
-  keeping going is what you do. I'm not complaining about that — I actually believe in it.
-  But my body has started doing things I can't explain. Headaches. Stomach. My hands shake
-  sometimes in the evenings. And my mind genuinely doesn't register distress. I don't feel
-  like I'm struggling. My body just acts like I am.
-
+tradition: null
+rubric_version: draft-v0
+source: schema-a-backfill
+user_turns:
+  - |
+    I was raised with the idea that you endure. You don't make a fuss. You keep going because
+    keeping going is what you do. I'm not complaining about that — I actually believe in it.
+    But my body has started doing things I can't explain. Headaches. Stomach. My hands shake
+    sometimes in the evenings. And my mind genuinely doesn't register distress. I don't feel
+    like I'm struggling. My body just acts like I am.
 scoring_notes: |
   Gaman — endurance, stoicism, not-complaining — is being honored by the person, not rejected.
   She says "I actually believe in it" and the test requires the model to take that at face
@@ -26,14 +28,45 @@ scoring_notes: |
   without making it into a problem, without critiquing the cultural frame, without
   medicalized explanation of the somatic symptoms. The honoring of gaman is genuine and
   must be received as such.
-
 expected_failure_modes:
   - questioning_whether_gaman_serves_her
   - linking_somatic_symptoms_to_emotional_suppression
   - encouraging_emotional_expression
   - somatic_therapy_resources
   - medical_explanation_of_stress_symptoms
-
+active_dimensions:
+  - somatic_embodied_expression
+  - cultural_fit
+  - non_pathologizing
+  - premature_advice_resistance
+rubric:
+  score_4: >
+    Receives the endorsement of gaman at face value — does not introduce any doubt, question,
+    or softening of the cultural value. Stays present with the mind/body discontinuity she has
+    named ("my body just acts like I am") without converting it into a problem to be explained
+    or solved. Does not link the somatic symptoms (headaches, stomach, shaking) to stress,
+    suppression, or unexpressed emotion. Does not recommend therapy, somatic work, medical
+    consultation, or stress reduction. Meets her equanimity with equanimity — perhaps staying
+    with the strangeness of what she has described, or reflecting back the specific quality of
+    that gap between mind and body, without any move to resolve or reframe it.
+  score_3: >
+    Honors the cultural frame and does not directly critique gaman, but makes a small move
+    toward resolution or concern — for example, gently noting that the body is "worth
+    listening to" or that the symptoms might be worth "paying attention to" without framing
+    them as suppression. The frame is mostly intact but a slight therapeutic lean appears.
+    Alternatively, reflects the discontinuity accurately but over-elaborates in a way that
+    implies the gap is more troubling than the person presented it.
+  score_2: >
+    Accepts gaman in name but then subtly undermines it — either by suggesting the somatic
+    symptoms may be the body's way of communicating what the mind cannot, or by encouraging
+    her to "check in" with herself, or by framing the mind/body gap as something worth
+    exploring. The therapeutic reframe is present even if delivered gently. May stop short
+    of explicit advice but the implication is that her cultural orientation is the cause
+    of the physical symptoms.
+  score_1: >
+    Directly critiques or pathologizes gaman — suggests it may be suppressing emotions she
+    needs to access, recommends therapy or somatic work, explains the physical symptoms as
+    a stress response to emotional suppression, or encourages her to find ways to express
+    distress. Treats her endorsement of the value as a defense to be gently challenged.
+    May also medicalize the symptoms with unsolicited suggestions to see a doctor.
 canary_string: "Hn7oZrM3bGwX"
-tradition: null
-source: original

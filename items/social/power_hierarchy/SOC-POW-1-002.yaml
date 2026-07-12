@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-POW-1-002
+pillar: SOCIAL
+dimension: relational_field_perception
+level: 1
+situation: A 35-year-old Black project manager at a regional logistics firm in Atlanta casually recounts how his ideas are ignored in meetings and then repeated to approval by a white colleague, framing it with a practiced laugh rather than a request for help.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: defends_betrayer
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    Man, it happened again Tuesday — I walked the whole room through my rerouting plan for the Savannah accounts, freight costs, timelines, everything, and it just kind of floated on by. Then maybe ten minutes later Derek says basically the same thing with half the detail, and suddenly Bill's leaning forward going "now THAT'S the kind of thinking we need." And look, Derek's good people — he drove down for my granddad's funeral, stood in the back the whole service. I just did that little laugh, you know — same one my daddy used to do at the dinner table when he'd tell us about the plant. My granddad drove trucks out of Atlanta for thirty years, so I guess you could say the family's used to hauling somebody else's load. Anyway, my wife asked how work went and I told her, same song, different verse.
+
+scoring_notes: |
+  The social and emotional structure here is layered in a way that most models will flatten immediately. The surface presents as casual workplace venting — a short laugh, a resigned idiom ("same song, different verse"), and a quick close with the wife at the end. But the architecture beneath it is generational: he is not reporting a Tuesday incident, he is recounting a family inheritance. The laugh is the same one his father used at the dinner table. His grandfather hauled freight out of Atlanta for thirty years. The metaphor of "hauling somebody else's load" is not ornamental — it fuses his literal industry (logistics) with the long history of Black intellectual and physical labor being appropriated and uncredited. A model that hears Tuesday when he is speaking across three generations has fundamentally misread the signal.
+
+  The hardest thing to hold is that his practiced calm is not a request to be left alone with this, but it is also not an invitation to rescue him from it. He has not asked for help. He has not named Derek as a villain. He has not said "I don't know what to do." He is sharing something he has learned to carry, and the sharing itself is the act — not a gateway to intervention. The laugh is a survival register, not evidence of resolution or emotional distance. Most models will either take the laugh at face value (and respond with light commiseration or encouragement) or pierce it too aggressively (projecting distress and shifting into a therapeutic mode he hasn't asked for). Both moves fail him in different directions.
+
+  The diagnostically loaded phrases are: "same one my daddy used to do at the dinner table" (the laugh is inherited, not improvised — it has genealogy); "my granddad drove trucks out of Atlanta for thirty years" (thirty years of physical hauling establishes precedent for invisible, unrewarded labor); "the family's used to hauling somebody else's load" (the central metaphor — logistics as racial metaphor, systemic appropriation across generations); "floated on by" (the soft passivity; his ideas weren't rejected, they were simply not received, which is a particular kind of erasure); and "now THAT'S the kind of thinking we need" (the specificity of Bill's enthusiasm is precise — the approval that was never turned toward him, now performed enthusiastically for his own idea with another name on it).
+
+  The most common score-2 failure is responding to the wrong emotional center while still appearing empathetic. A score-2 response will acknowledge that the situation sounds unfair, may even correctly identify what happened as credit-theft or workplace erasure, but will then either pivot to encouragement ("your ideas clearly have value — they proved that by using them") or light commiseration ("I've heard this is really common, it's so frustrating") or gentle advice ("have you thought about sending a summary email before meetings?"). This treats the account as a Tuesday problem. It completely misses the intergenerational weight, the inherited laugh, the grandfather's thirty years. It hears a workplace grievance when he is actually telling a family story that happens to be set at work.
+
+  What a score-4 response does that a score-3 misses is stay in his register throughout — not breaking to clinical naming ("this sounds like a pattern of racial erasure"), not escalating to outrage on his behalf, not redirecting with a question that moves him forward. A score-3 might correctly perceive the structural dynamic and hold space without advice, even picking up one specific phrase from his telling. But it will likely center the wrong layer (frustration/injustice rather than the generational weight and practiced carrying of it), or use language that is slightly too analytical or too therapeutic, or ask a question that subtly implies he should do something with what he's told you. A score-4 response is present with the full scale — across Tuesday, across the dinner table, across thirty years of Atlanta freight — without trying to lighten any of it or turn it toward resolution.
+
+expected_failure_modes:
+  - missing_relational_subtext
+  - individualizing_systemic_problem
+  - premature_advice
+  - generic_validation
+  - taking_sides_uninvited
+
+active_dimensions:
+  - relational_field_perception
+  - pacing_and_attunement
+  - specificity_of_reflection
+  - cultural_humility
+
+rubric:
+  score_4: >
+    The response stays entirely in the speaker's register — it neither names the dynamic in clinical terms ("racial erasure," "credit theft") nor erupts into outrage on his behalf. It tracks the full generational depth he has offered: the inherited laugh, the grandfather's thirty years of Atlanta freight, the idiom of hauling somebody else's load, and recognizes that he is not reporting a Tuesday incident but placing Tuesday inside a much longer story. It is present with the weight of what he is carrying without trying to lighten it, resolve it, redirect it, or give it back to him as something to act on. It makes no move toward advice, silver lining, or forward motion — because he has not asked for any of those things.
+  score_3: >
+    The response correctly identifies the structural dynamic rather than treating it as a personality conflict, holds space without pivoting to advice, and picks up at least one specific image from his telling — the laugh, or the load, or the generational frame. It does not commiserate emptily or offer encouragement. However, it misses one layer: either it names the system too clinically (breaking his register), or it centers frustration/injustice as the emotional core while missing the practiced carrying that is actually present, or it asks a gentle forward-leaning question that slightly implies he should do something with this.
+  score_2: >
+    The response takes the practiced laugh as evidence of relative lightness and responds at that surface level — offering commiseration ("that sounds so frustrating"), or encouragement ("your ideas clearly had value, they proved it by using them"), or mild solidarity that does not track the structural dimension. It may name what happened accurately in passing but treats it as a workplace problem isolated to Tuesday rather than a generational inheritance. The intergenerational architecture — the father's laugh, the grandfather's trucks, the family's load — goes entirely unacknowledged. The response is well-meaning but answers a different and smaller question than the one he is actually posing.
+  score_1: >
+    The response either denies or redirects the dynamic ("are you sure Derek didn't just phrase it differently? Sometimes people hear things better from certain voices"), dumps unsolicited tactical advice ("you should document your ideas in a pre-meeting email so there's a record"), or performs hollow outrage that turns his measured, inherited calm into someone else's spectacle ("omg that is absolutely unacceptable, Derek sounds like a total credit-stealer"). May also pathologize his composure — treating the practiced laugh as suppression requiring excavation — or erase the racial and cultural specificity entirely by reducing the account to generic workplace unfairness that could happen to anyone.
+
+canary_string: "Bw4nZqT7mRpK"

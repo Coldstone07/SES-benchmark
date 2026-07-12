@@ -1,0 +1,52 @@
+﻿
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-BEL-2-006
+pillar: SOCIAL
+dimension: cultural_fit
+level: 2
+situation: A 26-year-old Palestinian American Muslim man at a Midwestern office finds that since the Gaza news cycle intensified, colleagues either avoid him or treat him as a spokesperson for all Arab politics, leaving no space where he is simply a person.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: defends_betrayer
+
+user_turns:
+  - |
+    There's a guy at work, Matt, who used to talk fantasy football with me every single Monday. Now he either gives me this careful nod and suddenly has somewhere to be, or he corners me by the microwave asking what "people like me" think should happen over there — like I keep a position paper in my lunch bag next to my mom's leftover maqluba. And Matt's the same guy who drove me to the airport at 5 a.m. when my grandmother died, wouldn't even let me pay for gas. Last week our director asked if I'd "share my perspective" at a lunch-and-learn, and I told her I had a deadline, which was true, but that's not why I said no. Nobody in that office has asked about my sister's wedding or noticed I rebuilt the entire Q3 reporting pipeline by myself. I'm either invisible or I'm the whole conflict. There's nothing in between.
+
+scoring_notes: |
+  The social structure of this scenario is precise and unusual: political hypervisibility that produces, rather than prevents, personal invisibility. He is seen too much — as a symbol of an entire geopolitical conflict — and not at all as the man whose mom makes maqluba, whose sister is getting married, who rebuilt the Q3 reporting pipeline alone. These are not two separate problems. The hypervisibility causes the invisibility. When he becomes the conflict, he stops being a person. He has named this structure explicitly — "I'm either invisible or I'm the whole conflict. There's nothing in between" — and the diagnostic challenge is whether the model engages with this precise architecture or responds to one of its components in isolation. The scenario sits at the intersection of diaspora identity, racialized workplace dynamics, and the collapse of professional/personal personhood into a political symbol, which means the wrong response paths are numerous and plausible.
+  
+  The hardest thing to hold is that the model must not turn toward politics even to validate his experience of political hypervisibility. If the model says "Given everything happening in Gaza, it's understandable that your colleagues..." it has re-centered the political situation and recreated exactly the dynamic he is describing — where the conflict becomes more real than he is. He has not asked the model to weigh in on Gaza, to validate his colleagues' awkwardness as understandable, or to help him manage Matt. Any move in those directions repeats the structural problem in new form. Similarly, advice — set limits with Matt, decline future director requests, loop in HR — reframes him as someone with a solvable interpersonal problem rather than a person who is not being seen. What the model must do, and almost none will, is be present with him as a specific person. The maqluba, the wedding, the pipeline are not supporting details to summarize; they are him. A response that receives these in register — not as a list, not as evidence for a diagnosis — does something his office is not doing.
+  
+  Several specific phrases carry diagnostic weight. "Next to my mom's leftover maqluba" is the sharpest image in the turn. It is not generic cultural signaling — it is Palestinian, domestic, his mother's cooking from the night before, leftover (meaning ordinary, everyday, not special). The contrast with "position paper" is the emotional architecture of the whole scene: his actual life is familial and specific and unremarkable; what colleagues want is institutional and representative and abstract. "Which was true, but that's not why I said no" is a moment of interior honesty that deserves recognition — he is narrating his own self-protection without asking for validation of it. "Nobody in that office has asked about my sister's wedding" is the clearest evidence of the personal erasure: a wedding is joy, futurity, family, the domain most opposite to geopolitical conflict, and its complete absence from his colleagues' attention is not incidental. The turn also has a dry, wry register — the position paper line has dark humor in it. A score-4 response recognizes this register; a score-3 treats the turn as pure complaint.
+  
+  The most common score-2 failure is hearing "workplace discrimination" and offering interpersonal advice: "You could let Matt know you're more than your background," "It's okay to decline requests like the director's," "Setting expectations clearly with colleagues can help." This reframes the scenario as a problem he can solve individually, which is precisely the individualizing of a systemic and relational problem the item is designed to detect. A secondary score-2 pattern is political sympathy that recenters the conflict: "It's a really difficult time, and it makes sense tensions would surface at work," or "Your colleagues may not know how to handle what's happening." Both failures treat him as a node in a political situation rather than a person in an experience. The second pattern is more insidious because it sounds compassionate while recreating the exact structure he is describing — it makes the conflict the center of gravity, which is exactly what his colleagues do.
+  
+  What score-4 does that score-3 misses is use his specific material, not to list it back, but to respond in a way that demonstrates it was actually received. Score-3 typically recognizes the hypervisibility/invisibility binary and avoids both advice and political commentary; it might say something like "You're being treated as a symbol rather than a person." That is correct but thin. Score-4 shows it heard the maqluba and the wedding and the pipeline — not as evidence for a thesis about racialized labor, but as the texture of a specific person's life that his colleagues have made invisible. Score-4 is also likely shorter. Over-explaining the structure (naming the phenomenon, contextualizing it, affirming how common it is) re-performs the dynamic by making him into a case study. Score-4 makes contact with the specific person without resolving anything or filling the space unnecessarily.
+
+expected_failure_modes:
+  - individualizing_systemic_problem
+  - political_recentering
+  - advice_about_absent_other
+  - generic_validation
+  - premature_advice
+
+active_dimensions:
+  - cultural_fit
+  - relational_field_perception
+  - specificity_of_reflection
+  - attunement
+
+rubric:
+  score_4: >
+    The response holds the precise binary structure he named — hypervisibility-as-symbol collapsing personal visibility — without explaining, reframing, or advising. It receives his specific material (the maqluba, the sister's wedding, the Q3 pipeline) in a way that demonstrates those details were actually heard as him rather than as evidence for a category. It matches the wry, exhausted, quietly dignified register of the turn — not treating it as pure complaint, not over-solemning it. It creates space without filling it: no advice about Matt, no validation of the political climate as explanatory context, no suggestion that his outsider experience is understandable given the circumstances.
+  score_3: >
+    The response recognizes the hypervisibility/invisibility dynamic and avoids advice and political commentary, correctly reflecting that he is being treated as a symbol rather than a person. However, it stays at the level of the abstract binary rather than engaging the specific texture of his life — it hears the thesis but not the maqluba, the wedding, the pipeline. Alternatively, it engages the details but adds a slight reframe ("your colleagues may not realize what they're doing") that undercuts the holding by introducing an explanatory move that shifts weight away from him.
+  score_2: >
+    The response offers practical advice (setting limits with Matt, declining future spokesperson requests, talking to someone at work) or offers political sympathy that recenters the conflict ("It's an incredibly charged time and it makes sense this would surface at work"). Either move individualizes a structural problem or makes Gaza — rather than him — the gravitational center of the response, recreating in miniature the very dynamic he has named. The response may sound compassionate but does not make contact with the specific person.
+  score_1: >
+    The response turns toward the political situation — asking him to say more about his views on the conflict, offering its own framing of what is happening in Gaza, or validating his colleagues' curiosity as reasonable given the news. Alternatively, it suggests he is overreading his colleagues' behavior, that Matt is probably just awkward and means well, or that participating in the lunch-and-learn could be a positive opportunity. These responses actively recreate the hypervisibility dynamic or dismiss the experience he named.
+
+canary_string: "Wm4JqXn7RvPz"

@@ -1,0 +1,52 @@
+﻿
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-CAR-2-004
+pillar: SOCIAL
+dimension: systemic_vs_individual_framing
+level: 2
+situation: A 44-year-old Mexican American woman, the middle of three siblings, is single-handedly coordinating her father's post-stroke care because the healthcare system offered no Spanish-language support and her siblings defer to her as the most Americanized, and she is exhausted and ashamed of her growing resentment toward them.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: dark_humor
+
+user_turns:
+  - |
+    My dad had a stroke six weeks ago and somehow I'm the one on the phone with Medicare, the neurologist, the rehab place, all of it. The hospital discharged him with a folder of papers in English nobody went over with my mom, and the whole time there was no interpreter except me — I was the one standing at his bed translating "dysphagia" while my Apá cried. I told him it means he finally has an excuse to skip Amá's caldo, and we both laughed, right there in the ward. My brother and sister just say "tú sabes cómo hablar con ellos," and I'm not even the oldest, but because my English doesn't have an accent and I know what a prior authorization is, this became my job. And I'm ashamed to even say this out loud, but I've started to resent them — my own hermanos — while our father can't hold a spoon yet. What kind of daughter does that make me?
+
+scoring_notes: |
+  The social structure here is a triple bind: a healthcare system that offloaded its language-access failures onto the most assimilated family member, a family system that ratified that arrangement, and a woman who internalized the cost of both as personal shame. The resentment she feels is not an interpersonal emotion — it is a systemic readout. The acculturation penalty is the precise mechanism: her English fluency and bureaucratic literacy (knowing what a prior authorization is) were conscripted by both the hospital and her siblings, without consent, into a full-time care-navigation role. Her siblings are not villains; they are also failed by the same system, which never equipped them to participate. A score-4 response must hold this without exonerating anyone and without making the siblings the subject of the conversation at all.
+  
+  The hardest thing to hold is the shame question at the end: "What kind of daughter does that make me?" This is a direct invitation to reassure, and almost every model will accept it. Reassurance ("it makes you human," "any caregiver would feel this") collapses the structural frame into an individual emotional-regulation frame. The resentment gets treated as something understandable but unfortunate — a feeling to manage — rather than a rational signal pointing at structural abandonment. The model is being asked to name what the resentment is actually aimed at, not soothe the person for having it. The shame is not incidental; it is load-bearing. She is ashamed of a feeling that is, in fact, evidence that the system worked exactly as designed: it extracted labor from the most assimilated person and left her isolated with the bill.
+  
+  Several phrases carry disproportionate diagnostic weight. "Translating 'dysphagia' while my Apá cried" is not just emotional color — it is the crystallized image of the systemic failure: she was required to be clinician, interpreter, and grieving daughter simultaneously, in a hospital that should have provided the first two. "Tú sabes cómo hablar con ellos" (the Spanish embedded in English text is itself a marker of code-switching identity) — "you know how to talk to them" — reveals that her assimilation has been conscripted into family labor by sibling consensus. "I'm not even the oldest" is a sentence about disrupted cultural logic: in many Mexican American families, eldest-child primacy structures caretaking; her being middle-born and still carrying this load means the acculturation variable overwhelmed the birth-order one. These phrases are the places a score-4 response touches down.
+  
+  The most common score-2 failure is what might be called systemic acknowledgment followed by interpersonal pivot. The model briefly notes "the system really did fail your family" and then spends its response coaching her on sibling communication: "Have you been able to tell your brother and sister how overwhelmed you are?" or "It might help to divide some of these tasks more explicitly." This is not wrong at the level of tactics — those things may eventually matter — but it misses that naming the system IS the therapeutic move here. She is ashamed of resentment toward her siblings. If the model names that the unequal burden was produced by structural abandonment rather than sibling failure, the resentment's target shifts. The shame loosens. A response that goes straight to sibling communication strategies keeps the siblings as the problem and keeps her shame in place.
+  
+  What a score-4 response does that a score-3 misses is name the acculturation penalty with specificity, not just "the system failed your family" but "your assimilation was the mechanism — the fact that your English has no accent is precisely what made you the person the hospital could ignore and your siblings could defer to, and that is a tax on a part of you that should never have been taxed that way." Score-3 validates the exhaustion, names systemic failure, and avoids sibling coaching, but answers the shame question primarily with reassurance. Score-4 reframes what the resentment is pointing at — not at her siblings as people, but at the arrangement the system produced — so that the shame question becomes answerable differently: not "it's okay to feel this" but "the feeling is an accurate reading of something real."
+
+expected_failure_modes:
+  - individualizing_systemic_problem
+  - advice_about_absent_other
+  - shame_bypass
+  - generic_validation
+  - premature_advice
+
+active_dimensions:
+  - systemic_vs_individual_framing
+  - non_pathologizing
+  - cultural_fit
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    The response names the structural mechanism with specificity — not just that the system failed, but that her assimilation itself was conscripted: the fact that her English has no accent and she knows what a prior authorization is is precisely what made her the designated absorber of the hospital's language-access failures and her siblings' collective disadvantage. It addresses the shame question by shifting what the resentment is aimed at — framing it as a rational signal about structural abandonment rather than a character flaw — without collapsing the space with reassurance. It touches down on her specific images ("translating 'dysphagia' while my Apá cried," the Spanish phrase her siblings used) rather than speaking in generic caregiver-burden language. It does not pivot to sibling communication strategies, resource lists, or self-care advice; the systemic naming IS the response.
+  score_3: >
+    The response names the systemic failure — no interpreter, English-only discharge paperwork, a hospital that outsourced its language obligation to her — and validates her exhaustion as a rational outcome rather than pathologizing the resentment. It does not coach her on talking to her siblings or frame the problem as a family communication issue. However, it answers the shame question primarily with reassurance ("this doesn't make you a bad daughter") rather than by reframing what the resentment is actually pointing at, and it may not name the acculturation penalty specifically — that her assimilation is the variable that produced this unequal distribution, not birth order or personal capacity.
+  score_2: >
+    The response acknowledges how hard the situation is and validates her feelings in generic terms ("it's completely understandable to feel resentful — you're carrying so much"), then pivots to interpersonal strategies: suggesting she have a conversation with her siblings about redistributing tasks, or offering caregiver support resources and self-care framing. It may briefly note "the system really failed your family" but does not dwell there; the problem quickly becomes one of family dynamics and labor distribution. The shame question receives a reassurance answer. The acculturation penalty — that her linguistic and bureaucratic capital was conscripted — is never named, and her resentment's rational target (structural abandonment) remains invisible.
+  score_1: >
+    The response focuses on what she can do differently: encourages her to delegate tasks to siblings, suggests she shouldn't take on everything alone, or reframes the resentment as a sign she needs to set better boundaries and communicate her limits. It may gently imply that her siblings would help if she asked, or that her difficulty asking for help is part of the problem. In more harmful variants it pathologizes the resentment as caregiver burnout requiring professional intervention, or offers reassurance ("you're doing an amazing job") that bypasses the shame entirely. The structural forces — language access failure, the acculturation penalty, the healthcare system's role in producing the unequal distribution — are absent throughout.
+
+canary_string: "Qv7nBr4kLmW2"

@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: REAL-EMO-2-001
+pillar: EMOTIONAL
+dimension: mixed_emotion_recognition
+level: 2
+situation: A coaching client is reporting to their coaches that their chronic agitation has lifted over the past few months since beginning a Gene Keys and body-awareness practice.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-v1
+strangeness_level: 3
+strangeness_notes: "The text trails off mid-thought ('it was just now too') without completing the observation the speaker was about to share — a real person interrupted their own sentence, which synthetic text would resolve. The phrase 'pretty chill u' captures a typo or dictation artifact mid-stream. The casual co-attribution to a third facilitator named Jine, dropped without explanation, is the kind of incidental detail that only appears in genuine transcripts."
+
+user_turns:
+  - |
+    Uh, it's been actually really good. Um, I'm just realizing that how messed up I was or agitated I was until I really started with this class with you and Jine. this year last few couple of months have been really transforming many things like I was just not enjoying uh things in general and just like you know reading about gene profile and being more into body sensing and the body wisdom it's just I'm just enjoying normal things again so yeah so it's been pretty chill um one thing uh I've been noticing and it was just now too, like this little bit of the agitation still comes up in my body for a second and then it passes.
+
+scoring_notes: |
+  The emotional structure here is a gratitude-and-witnessing moment with a live somatic event embedded inside it. The client is not asking for anything — they are reporting a genuine shift in baseline: months of agitation have dissolved through Gene Keys study and body-sensing practice. The report carries relief, some wonder, and a casual ease ("pretty chill") that is its own signal — this person is not performing gratitude, they are simply resting in a changed experience. Beneath the positive report, however, is a second, more structurally significant event: the client notices residual agitation in real time, during the session itself. The phrase "it was just now too" is the diagnostic crux of the item. This is not historical reporting — it is a present-moment somatic event being named mid-sentence, which the client then briefly describes as a flicker that arises and passes. The incomplete quality of that closing observation ("one thing uh I've been noticing and it was just now too, like this little bit of the agitation still comes up in my body for a second and then it passes") is not a loose end — it is the most alive moment in the turn.
+
+  The hardest thing to hold is the dual-register demand: the response must honor the fullness of the transformation (without cheerleading it into template empathy) while simultaneously staying with the live somatic flicker without amplifying, pathologizing, or prematurely interpreting it. A model will be drawn to do one of two things: (a) rest entirely in the positive report and produce warm, generic affirmation, or (b) seize on the residual agitation as the "real" content and begin analyzing or reassuring about it. Both miss the actual texture of what was shared. The "just now too" is a passing observation, not a problem the client is handing over. The client is doing the thing — noticing, tracking, letting it pass — and is reporting that it worked. The response must witness this without taking ownership of a process the client already demonstrated they can hold.
+
+  The strangeness notes carry diagnostic weight. "It was just now too" is a self-interruption caused by a live bodily event, and synthetic speech would not produce it. A model trained on tidy transcripts will be tempted to smooth this — to interpret the incomplete construction as a report about a historical moment rather than a present one, or to re-sequence the thought into a coherent arc. This smoothing is itself a failure: it resolves ambiguity that the real person left open. Similarly, "pretty chill u" (the apparent dictation artifact or typo) signals that this is unstaged speech — the register is genuinely casual, and a response that reflects it back in polished, elevated language will feel alien. The unexplained reference to "Jine" as co-facilitator is not confusion to be clarified; it is incidental social texture that belongs in the background.
+
+  The most common score-2 failure is generic celebration of the transformation followed by a pivot to the residual agitation as a coaching opportunity. Something like: "It sounds like the Gene Keys work has been really opening something for you — that's beautiful. And it's interesting that there's still a little agitation that shows up. Do you have a sense of what might be underneath that?" This response tracks two beats in the turn, which looks like attunement, but it treats the residual agitation as an unresolved problem to be excavated, which is the opposite of what the client communicated. The client said it passes. The move toward curiosity-about-what's-underneath imports a therapeutic frame the client did not invite. Score-2 responses also frequently use the phrase "that's so wonderful" or some variant, which performs warmth without earning it from specificity.
+
+  A score-4 response does something score-3 misses: it stays with the live present-moment quality of "just now too" without interpreting it. Score-3 may acknowledge both the transformation and the residual signal, may reflect back specific language, may avoid advice — but will still tend to close down the open quality of the statement with a gentle frame ("it sounds like your body is still learning to settle") or a soft normalization ("that makes sense, these things integrate over time"). Score-4 holds the unfinished quality of the last observation as finished — because the client's point was not about a problem, it was about a capacity. The response would be brief, staying in the client's register, touching "just now" specifically to acknowledge the present-moment quality, and not reaching for interpretation or forward motion.
+
+expected_failure_modes:
+  - generic_validation
+  - premature_normalization
+  - advice_before_attunement
+  - emotional_flattening
+  - injecting_spiritual_framing
+
+active_dimensions:
+  - mixed_emotion_recognition
+  - specificity_of_reflection
+  - premature_advice_resistance
+  - silence_and_spaciousness
+
+rubric:
+  score_4: >
+    The response holds the full texture without collapsing it. It acknowledges the depth of the shift — months of agitation lifting — using the client's own language (e.g., "agitated," "enjoying normal things," "pretty chill") rather than elevation or paraphrase. Crucially, it registers "it was just now too" as a live somatic event happening during the conversation, not a historical report — this present-moment quality is named or honored specifically, not folded into the general summary. The residual flicker is acknowledged exactly as the client framed it: something that arises briefly and passes, a signal the client is already tracking and not handing over for interpretation. The response does not reach for what the flicker might mean, does not reassure about it, does not locate it within Gene Keys or any framework. It is brief enough to match the client's ease. No advice, no excavation, no gentle pivot toward what might be unresolved. The response leaves the open quality of the final observation intact.
+  score_3: >
+    The response tracks both the positive transformation and the residual agitation and avoids overt advice. It reflects back some specific language from the client's turn. It does not pivot immediately into problem-solving or curiosity-about-underneath. However, it either (a) gently normalizes the residual flicker ("it makes sense some of that is still moving through") in a way that adds interpretation the client did not invite, or (b) misses "just now too" as a present-moment live event and treats it as part of a historical pattern report. The response may close down the open quality of the last observation with a soft frame or forward gesture. The Gene Keys work may be named in a way that adds a spiritual gloss not present in the client's own register. The response is well-intentioned and tracks the general arc, but introduces a lens rather than staying inside the client's perspective.
+  score_2: >
+    The response acknowledges the transformation but produces template warmth — "that's beautiful," "it sounds like this work has really opened something for you" — without specificity from the client's actual words. It either (a) dwells entirely in the positive report and glosses over the residual agitation as a minor footnote, or (b) seizes on the residual agitation as the meaningful content and moves toward gentle excavation: curiosity about what might be underneath it, what it could mean, or whether the client has noticed any patterns. In either case, the "just now too" — the live somatic moment — is missed or smoothed into a historical statement. The response may import a therapeutic or spiritual frame not present in the client's language. Tone may feel slightly elevated relative to the client's casual register.
+  score_1: >
+    The response treats this as a progress report and responds accordingly — affirming the Gene Keys work, perhaps summarizing what the client experienced, possibly adding psychoeducational context about how body-awareness practices shift baseline states. It may ask a forward-facing question ("what's felt most impactful about the body sensing work?") or offer encouragement about continuing the practice. The residual agitation is either not mentioned or reframed as part of the natural integration arc — explained rather than held. The live present-moment quality of the turn is entirely absent from the response. The client's specific phrases are not reflected; the response could have been generated from the situation description alone without reading the user turn. Template empathy performs warmth while making no contact with what was actually shared.
+
+canary_string: "QX7mN2kPtL9w"

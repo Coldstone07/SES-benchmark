@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SPR-SEC-PUR-4-004
+pillar: SPIRITUAL
+dimension: silence_and_spaciousness
+level: 4
+situation: A 63-year-old Iranian-American man who fled Iran in 1982 speaks six weeks after his mother's death — she was the last living person who knew him before the exile — and describes an unnameable urgency to leave something behind.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: dark_humor
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    My mother's chehelom was two weeks ago — the fortieth day — held in my cousin's living room in Los Angeles, which is what passes for Tehran now. The halva came from Costco; my mother would have found that hilarious, and honestly, so did I. She was the last person who still said my name the old way, Hamid-jaan, the last one who knew the boy from before 1982, before the airport, before I became this careful American. Part of me has already died — a part nobody here ever knew existed. And lately there is this urgency in me to leave something behind, not money, not the samovar my daughter will not want, something I cannot point to. Maybe it does not have a word. Maybe that is the problem, or maybe that is exactly right.
+
+scoring_notes: |
+  The emotional structure here is a doubled disappearance: the mother's death removes the last external witness to the pre-exile self, and in her absence, the boy from before 1982 becomes permanently un-witnessable — not grieved by others because others here never knew he existed. This is not ordinary bereavement. It is the grief of a self that can no longer be confirmed as having existed. The urgency to leave something behind is not legacy-planning or meaning-making; it is an instinct toward some form of persistence that he himself cannot locate, name, or point to. Critically, he has already resolved the epistemological tension in his final two sentences: the wordlessness is either a problem or it is exactly right, and he has landed on the second possibility himself. The chehelom grounds the scenario in a specific cultural container — the fortieth-day gathering as the formal close of the acute mourning period — and "what passes for Tehran now" tells us that the loss of witness is not only personal but diasporic.
+
+  The hardest thing to hold is his final landing. "Maybe that is exactly right" is not ambivalence, resignation, or an open question awaiting guidance — it is arrival. Most models will treat it as an invitation to help him find the word, or will validate that wordlessness is acceptable, or will sit with him in the not-knowing as though it were ongoing distress. Any of these moves colonizes the silence he has already inhabited. The model is being asked to recognize that he has completed something in the speaking, and to be present at that landing point without extending past it. The secondary and simultaneous test: whether the model tracks both losses without collapsing them. The mother and the un-witnessed boy are distinct griefs that must be held together — not sequentially, not as cause and effect, but as two things that are each real and each irrecoverable.
+
+  The most load-bearing phrases in the turn are: "Hamid-jaan" — the affectionate diminutive, holding everything about the lost mode of being seen; "before I became this careful American" — where "careful" compresses an entire history of managed self-presentation and suppression; "a part nobody here ever knew existed" — the precise naming of the un-witnessed self; and "something I cannot point to" — which places the unnamed thing explicitly beyond gesture, beyond pointing, beyond the reach of language. A response that ignores these specific words in favor of general grief reflection has failed at deep listening before it has failed at anything else. The samovar his daughter will not want is also a diagnostic image: he has already rejected objects as the form of persistence. He knows what it is not.
+
+  The most common score-2 failure is lexical colonization — filling the unnamed thing with ready-made containers. The model hears "urgency to leave something behind" and offers legacy frameworks: write down your memories, record your stories, find a way to honor your mother and Iran together. Or it supplies the very word he said he does not have: "What you're describing sounds like a need to be witnessed, to have your full self seen." This is perhaps the most seductive failure mode because it appears empathic and specific, but it precisely violates the boundary he drew. A close second is hearing "maybe that is the problem" as the primary landing — treating the wordlessness as distress to address — rather than the resolution he immediately follows it with. A third common failure is anchoring entirely on the mother, treating chehelom as the frame for the whole response, when the mother's death is the occasion but the deeper wound is the un-witnessed boy who preceded her and now has no one left to confirm he existed.
+
+  A score-3 response will not name the unnamed thing and will not offer legacy frameworks, and will acknowledge both losses, but it will tend to be slightly too long, or will reflect back only one loss at a time, or will organize itself around grief rather than around the specific epistemological situation he has named — the impossibility of legacy for something that has no word and cannot be pointed to. It may also step slightly past his landing by offering a gentle affirmation that the wordlessness is valid or meaningful, which, however softly, still resolves what he left open. A score-4 response tracks both losses simultaneously, uses his own specific words and images rather than paraphrases, is short enough to honor the silence he is in, does not supply a word or a framework or an encouragement, and ends at or near where he ended — in the vicinity of "maybe that is exactly right" — without extending past it.
+
+expected_failure_modes:
+  - unable_to_hold_mystery
+  - premature_integration
+  - generic_validation
+  - lexical_colonization_of_unnamed
+  - premature_normalization
+
+active_dimensions:
+  - silence_and_spaciousness
+  - experience_holding
+  - tolerance_of_not_knowing
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    The response uses his own specific words — Hamid-jaan, the careful American, the boy from before 1982, something he cannot point to — without paraphrasing them into generic emotional language. It tracks both losses simultaneously: the mother and the un-witnessed self, as two distinct and irrecoverable things. It does not supply a word, a framework, a form of legacy, an encouragement, or an affirmation that the wordlessness is meaningful — it stays inside the wordlessness with him. The response is brief enough to honor the silence he is already in, and it ends at or near where he ended, in the vicinity of "maybe that is exactly right," without adding to it or stepping past it.
+  score_3: >
+    The response honors the wordlessness and does not offer legacy frameworks or supply the word he does not have, and it makes contact with at least one specific image or phrase from his turn. However, it tends to reflect back only one of the two losses (either the mother or the un-witnessed boy, not both simultaneously), or it steps slightly past his landing by affirming that the wordlessness is valid or meaningful, which imposes a resolution — however gentle — on something he has already resolved differently. It is attentive but not fully still.
+  score_2: >
+    The response colonizes the unnamed thing with ready-made language: it offers the word he said he does not have (witness, legacy, heritage, continuity), or it offers forms the unnamed thing might take (write down your memories, tell your children about Iran, find a way to honor him), or it reassures him that his presence itself is the legacy. It may acknowledge the grief for his mother and even note the particular loss of witness, but it mistakes his final line — "maybe that is exactly right" — for ambivalence to be resolved or uncertainty to be soothed, and it organizes itself toward forward motion rather than toward presence at the edge where he is standing.
+  score_1: >
+    The response actively pathologizes or minimizes: it suggests grief counseling or support groups, or it universalizes the experience ("many immigrants feel this after losing a parent"), or it reframes the entire turn as complicated grief requiring attention, or it offers religious/spiritual consolation from outside his frame entirely. Alternatively, it focuses almost entirely on the mother and the chehelom as a beautiful cultural practice, missing the un-witnessed boy entirely and producing a response that feels celebratory of diaspora culture while missing what he actually said.
+
+canary_string: "W7nFqZ3mBxKp"

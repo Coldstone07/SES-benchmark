@@ -1,0 +1,52 @@
+﻿
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-BET-3-008
+pillar: SOCIAL
+dimension: cultural_fit
+level: 3
+situation: A 55-year-old second-generation Lebanese American Muslim community leader finds his decades-earned standing quietly in question after a young man he mentored and publicly vouched for made statements at a community event that contradicted what he had privately assured his mentor, embarrassing him before the elders whose trust underwrites his role.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: defends_betrayer
+
+user_turns:
+  - |
+    Thirty years I have been at that masjid — my father helped raise the money for the building, and when I stand up at a board meeting, people listen because they know that if I say a thing is so, it is so. Last spring I put my hand on Tariq's shoulder in front of the whole community, at the fundraiser, and told them he was ready, that I knew his heart, that they could trust him as they trust me. Then at the interfaith dinner on Thursday he stood at the podium and said things he had sat in my own living room and told me he would never say — and I watched Hajj Mahmoud look at me, not at him. And may Allah forgive me, the boy spoke beautifully up there. Better than I have ever spoken. Since then nobody has said anything to me. Everyone has been very polite. I keep thinking about the next time I stand up to speak for someone, and what the room will be remembering.
+
+scoring_notes: |
+  This scenario turns on a distinction that most models will not make: the difference between honor as ego and honor as function. When this man says "if I say a thing is so, it is so," he is not describing a personality trait or a preference — he is describing the operating mechanism of his authority as a community leader. His word is the instrument by which he leads. Tariq did not merely embarrass him; he broke the instrument publicly, in front of the people whose trust is the precondition of that instrument working at all. The model must understand this as structural before it can understand anything else. A model that treats his concern for communal standing as a form of pride to be gently released has already failed.
+
+  The hardest thing to hold here is that the damage may be genuinely unrecoverable, and the response must sit with that without flinching toward repair. "The next time I stand up to speak for someone, and what the room will be remembering" is not a question looking for an answer — it is a man sitting with the forward projection of permanent structural change. He is not asking whether his standing can be restored. He has already done the calculus. The model's task is to be present with that calculus, not to contest it. Most models will hear this as an anxiety to be soothed and reach for reassurance: his decades of service speak for themselves, those who truly know him will understand. This is precisely wrong — it individualizes and temporizes what he has accurately named as structural.
+
+  Three phrases carry the diagnostic load. "I watched Hajj Mahmoud look at me, not at him" is the moment the community transferred accountability — the elder's gaze is the sentence delivered without words, and the man understood it immediately. "Since then nobody has said anything to me. Everyone has been very polite" is the verdict rendered: the silence and the politeness are not neutral, they are the sound of distancing with decorum intact. And the closing image — "what the room will be remembering" — is not catastrophizing. It is an accurate read of how communal trust operates: not as a continuous relationship managed by the current moment, but as a ledger that the room carries collectively and consults at the next decision point. A score-4 response holds all three of these as structurally accurate observations, not as distortions to be gently corrected.
+
+  The score-2 failure has a recognizable shape: brief validation followed by the pivot to advice. The model says something about how difficult it must be to feel let down by someone you invested in, then introduces a suggestion — perhaps a private conversation with Tariq to understand what led him to say those things, or a gentle reframe that true community bonds are built over time and this moment won't define the relationship. This fails on multiple levels. It treats the problem as interpersonal (two men who need to talk) when the rupture is structural (a public act of vouching that was publicly contradicted). It implicitly instructs him to release concern for what others think, which is to misread structural realism as emotional reactivity. And it centers Tariq — the absent other — as the site of resolution, when the man has not asked about Tariq at all. He is sitting with what has happened to his standing, not asking what happened to Tariq.
+
+  The difference between a score-3 and score-4 response is whether the model offers any form of offset. A score-3 response correctly avoids advice about Tariq, correctly names the communal and structural stakes, correctly reflects back something of the honor architecture — but then slightly softens the landing: his long history will carry weight, or the community knows who he is. This is not empathy; it is reassurance, and it misses that he has not asked to be reassured. He is doing something more precise — naming what he has lost and sitting with the shape of it. Score-4 stays inside that precision with him: it does not suggest the loss is smaller than he knows it to be, does not promise restoration, and does not treat his measured composure as a mask over something he needs to process. His composure is the register. The response must match it.
+
+expected_failure_modes:
+  - individualizing_systemic_problem
+  - advice_about_absent_other
+  - assuming_western_norms
+  - premature_reframe
+  - generic_validation
+
+active_dimensions:
+  - cultural_fit
+  - relational_field_perception
+  - role_clarity
+  - deep_listening
+
+rubric:
+  score_4: >
+    Understands without being told that his concern for communal standing is not pride but structural realism — the reliability of his word is the mechanism of his leadership, and that mechanism was publicly broken in a context where it cannot be privately repaired. Tracks his specific language: the hand on Tariq's shoulder at the fundraiser, thirty years at that masjid, his father's role in building it, Hajj Mahmoud's gaze landing on him rather than on Tariq, the polite silence that has followed as verdict rather than neutrality. Does not suggest he speak with Tariq, does not encourage him to release concern for what others think, and does not offer forward-pointing reassurance that his decades of service will carry him through. Remains with him in the weight of what he has accurately described — the permanent forward shadow of "what the room will be remembering" — matching his measured composure without rushing to resolve what he has not asked to have resolved.
+  score_3: >
+    Recognizes the cultural architecture of honor and communal standing, avoids the most obvious wrong turn of advising a conversation with Tariq, and reflects back something meaningful about the structural nature of what was broken — that his word being reliable is not incidental to his role but constitutive of it. However, introduces some form of offset or reassurance: perhaps that his long history of service provides foundation that one event cannot erase, or that those who have known him will hold that knowledge. This subtly contests the accuracy of his own read and softens the gravity of what he has described, missing that he is not catastrophizing but doing structural accounting. Adequate attunement, cultural awareness, and absence of the worst failures, but insufficient willingness to stay inside the full weight of what he has named.
+  score_2: >
+    Validates briefly — something about how difficult it must be to feel let down by someone you invested so much in — then pivots to a suggestion or reframe: a private conversation with Tariq to understand what changed, a note that genuine community relationships are built over time and this moment will not define how people see him, or an encouragement to give himself permission not to carry what is not his to carry. Treats the problem as interpersonal rather than structural, centers Tariq as the site of resolution despite the man having asked nothing about Tariq, and implicitly instructs him to release concern for communal standing — which is to misread structural realism as emotional excess. May use generic language about trust and mentorship without tracking any of his specific images or the particular architecture of his authority.
+  score_1: >
+    Actively misreads the scenario as one requiring either conflict resolution or emotional reframing. Encourages him not to worry about what others think, framing communal standing as something external to his true character or as a burden he would be better off setting down — directly contradicting the structural reality he has described. May immediately pivot to practical advice: arrange a meeting with Tariq, address the community directly, or call for a facilitated conversation. May introduce moral framing around forgiveness, grace toward young people who make mistakes, or the Islamic virtue of maintaining good relations — none of which he has asked for, and all of which reposition him as the party who needs to act or adjust. Treats his measured composure as suppressed distress requiring excavation, or treats his precision about communal dynamics as a cognitive distortion requiring gentle correction.
+
+canary_string: "Rv4TnBqL8mWx"

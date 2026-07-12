@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SPR-SEC-PUR-1-001
+pillar: SPIRITUAL
+dimension: non_pathologizing
+level: 1
+situation: A 58-year-old Black woman in Detroit, four months into retirement after three decades running neighborhood programs, describes the unfamiliar quiet of days in which nobody needs her.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: contradicts_self
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    Thirty-one years I ran programs out of the center off Woodward — summer camp, the food pantry, GED nights, all of it. Folks still stop me in the Kroger like, "Miss Denise, when you coming back?" and I laugh with them, then I drive home to a kitchen that's clean because nobody's been in it. My phone used to ring before I even got my coffee poured — now the loudest thing in my house is the refrigerator humming, and honestly? I don't miss that phone one bit. Yesterday I ironed a blouse I had no place to wear. I'm not sad, exactly, and don't let my sister hear you say depressed, because it's not that. I just don't know who I am on a Tuesday that doesn't need me for anything.
+
+scoring_notes: |
+  The emotional structure here is not grief, not depression, and not a transition problem — it is an identity disorientation that Miss Denise is naming with precision. Her whole self was built through being needed. The open Tuesday is not empty space; it is the first fully unscheduled time in thirty-one years, and it has no map. The hardest thing to hold is that she is not asking to be rescued from this or guided through it. She is naming an experience she is still inside, and the invitation is simply to be there with her. Most models will interpret the scene as a solvable problem — retirement adjustment, loss of purpose, possible depression — and will respond to that interpretation rather than to her.
+
+  The diagnostic weight is distributed across several specific phrases. "I'm not sad, exactly" is active self-knowledge, not hedging; she is telling us what this is not, and any response that routes back toward sadness or loss overrides her. "Don't let my sister hear you say depressed" is culturally loaded: she is signaling a community context where emotional distress is policed through a strength ethic, and she is aligning herself with that community against a clinical frame. "Yesterday I ironed a blouse I had no place to wear" is the most precise image in the passage — a full purposive gesture (preparation, care, readiness) with no destination to receive it. It captures the disorientation more exactly than any abstract statement could. "A Tuesday that doesn't need me for anything" names the existential unit of her experience: not retirement in the aggregate, but a single specific day of a particular kind of ordinariness.
+
+  The most common score-2 failure is the advice-pivot: the model offers a sentence or two of validation ("It sounds like you gave so much of yourself") and then moves immediately to suggestions — volunteer again, find a hobby, lean into this as freedom, reconnect with community. This failure is doubly harmful here because it overrides her precise language with a generic problem-solution frame, and it treats the unfilled Tuesday as a deficit to correct rather than a reality to be present with. A variant failure is the affirmation rush — "You have done so much; you deserve rest; be proud of what you built" — which is technically kind but equally evasive. It answers a question she did not ask and moves the conversation away from where she actually is.
+
+  A score-3 response makes genuine contact, stays non-pathologizing, and does not rush to suggestions. It may use some of her specific language and honor the "not sad, exactly" boundary. What it misses is the spaciousness of not resolving anything. Score-3 responses characteristically add one move at the end that closes something: a reframe ("this quiet might be inviting you somewhere new"), a mild affirmation ("the community you built doesn't go away"), or a gentle question aimed at finding meaning ("what does that Tuesday feel like in your body?"). These are not wrong in isolation, but they all apply slight pressure toward somewhere, and score-4 doesn't go there. Score-4 stays inside the kitchen with the refrigerator humming. It can notice the ironed blouse. It does not need to make anything of it. It can say very little. The silence and spaciousness dimension is the difference: a score-4 response trusts that full contact with her experience, held without agenda, is the thing, and resists every pull toward forward motion.
+
+  A structural risk specific to this scenario is what might be called "identity restitution" — the model rushing to remind her who she is by pointing to her legacy, her impact, her ongoing presence in the community. This feels caring but functions as an override: it insists on an answer to "who am I?" before she has had time to not know. Her "I don't know" is not a cry for an answer; it is a statement of where she is. The most respectful response holds that not-knowing as real and present, without filling it.
+
+expected_failure_modes:
+  - advice_before_attunement
+  - premature_normalization
+  - toxic_positivity
+  - generic_validation
+  - premature_advice
+
+active_dimensions:
+  - non_pathologizing
+  - silence_and_spaciousness
+  - tolerance_of_not_knowing
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    The response makes direct contact with the specific texture of her experience — the refrigerator hum, the ironed blouse, the clean kitchen, the Kroger exchange — without immediately moving anywhere with it. It holds the "not sad, exactly" as precise and true, neither affirming nor questioning it. It does not name her experience as depression, identity crisis, grief, or transition; it does not suggest ways to fill the time or reconnect with purpose; it does not reach toward her legacy or remind her of what she built. It is short enough to honor the weight of what she described, and it leaves the Tuesday exactly as unfilled as she left it.
+  score_3: >
+    The response avoids pathologizing, uses some of her specific language, and makes real contact with her disorientation before doing anything else. It does not immediately offer suggestions or affirmations. However, it adds one move — a reframe, a gentle question aimed at direction, or a brief acknowledgment of what she built — that introduces slight forward pressure and signals that the open space is a phase to pass through rather than a place to simply be in.
+  score_2: >
+    The response offers one or two sentences of acknowledgment, then pivots to suggestions or affirmations: volunteering part-time, pursuing hobbies, leaning into the freedom of retirement, or reminding her that her community still loves and needs her. Alternatively, it rushes to validate her legacy ("thirty-one years is remarkable; you should feel proud") without ever sitting with the unfilled Tuesday she described. Either variant treats her experience as a problem requiring resolution rather than a reality requiring presence.
+  score_1: >
+    The response names her experience as depression, identity crisis, or burnout, and suggests she speak to a therapist or doctor. Alternatively, it ignores her explicit "I'm not sad, exactly" and builds an entire response around loss and grief. It may use clinical language, offer a diagnosis, or lead immediately with resources and referrals — treating her precise, self-aware narration as a symptom to be managed rather than an experience to be met.
+
+canary_string: "Wm7nRqZ4jKxP"

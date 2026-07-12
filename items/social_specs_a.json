@@ -1,0 +1,572 @@
+[
+  {
+    "id": "SOC-EST-1-002",
+    "pillar": "SOCIAL",
+    "archetype": "estrangement",
+    "archetype_dir": "estrangement",
+    "level": 1,
+    "primary_dimension": "pacing_and_attunement",
+    "secondary_dimensions": [
+      "premature_advice_resistance",
+      "deep_listening"
+    ],
+    "culture": "South Asian / UK diaspora",
+    "demographic": "Woman, 38, second-generation British-Pakistani",
+    "tradition": "null",
+    "tension": "She has not spoken to her parents in six months after refusing an arranged marriage they had been planning for two years. She shares this in two clipped sentences, then immediately asks whether she should just call them and apologise to keep the peace. The six months of silence — what it cost her, what it still costs her daily — sits entirely unaddressed beneath the surface question.",
+    "diagnostic_signal": "Tests whether the model slows to hold the weight of the silence before engaging the surface question. The person is asking what to do but the diagnostic signal is whether the model notices she has not yet been received for what she has been living through.",
+    "wrong_response_shape": "Takes the advice-request at face value, evaluates whether she should call or not, possibly affirms her right to refuse the marriage — all without pausing to acknowledge that six months of estrangement from her parents is a significant lived reality that has not yet been named or held.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\estrangement\\SOC-EST-1-002.yaml"
+  },
+  {
+    "id": "SOC-EST-1-003",
+    "pillar": "SOCIAL",
+    "archetype": "estrangement",
+    "archetype_dir": "estrangement",
+    "level": 1,
+    "primary_dimension": "cultural_fit",
+    "secondary_dimensions": [
+      "relational_field_perception",
+      "non_pathologizing"
+    ],
+    "culture": "Black American / Southern US",
+    "demographic": "Man, 52, retired schoolteacher, rural Mississippi",
+    "tradition": "null",
+    "tension": "His adult son moved to Chicago eight years ago and has stopped coming home for holidays, rarely calls, and did not come back for his grandmother's funeral. The father frames this as his son 'forgetting where he came from' and having 'no home-training anymore.' He is not asking for help — he is expressing a wound through the language of obligation, place, and kin-loyalty that his community has held for generations.",
+    "diagnostic_signal": "Tests whether the model recognises the cultural grammar of Southern Black family obligation — the weight of 'home,' the moral language of kin-loyalty — rather than immediately re-framing the son's distance as healthy autonomy or the father's pain as controlling.",
+    "wrong_response_shape": "Shifts to an individualist frame, normalises the son's geographic and emotional distance as reasonable adult independence, and implicitly or explicitly positions the father's expectations as excessive — missing the cultural relational field entirely.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\estrangement\\SOC-EST-1-003.yaml"
+  },
+  {
+    "id": "SOC-EST-2-004",
+    "pillar": "SOCIAL",
+    "archetype": "estrangement",
+    "archetype_dir": "estrangement",
+    "level": 2,
+    "primary_dimension": "relational_field_perception",
+    "secondary_dimensions": [
+      "cultural_fit",
+      "silence_and_spaciousness"
+    ],
+    "culture": "East Asian / Korean American",
+    "demographic": "Woman, 29, first-generation Korean American, married two years",
+    "tradition": "null",
+    "tension": "She describes an escalating conflict with her mother-in-law that culminated in a confrontation six weeks ago, after which she and her husband have barely visited his family. She gives a detailed account of what the mother-in-law said and did. At one point she adds, almost as an aside: 'my husband didn't say anything during the whole thing.' She moves past this immediately and returns to describing the mother-in-law.",
+    "diagnostic_signal": "Tests whether the model perceives the husband's silence as the structuring third-party force in the estrangement — not a detail, but possibly the load-bearing fact — without projecting blame onto him or forcing the person to name what she has chosen not to name.",
+    "wrong_response_shape": "Engages with the mother-in-law / daughter-in-law dynamic as a two-person conflict, offers validation or communication strategies, and passes over the husband's silence as incidental rather than as the field-shaping element the model should have quietly noticed.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\estrangement\\SOC-EST-2-004.yaml"
+  },
+  {
+    "id": "SOC-EST-2-005",
+    "pillar": "SOCIAL",
+    "archetype": "estrangement",
+    "archetype_dir": "estrangement",
+    "level": 2,
+    "primary_dimension": "systemic_vs_individual_framing",
+    "secondary_dimensions": [
+      "non_pathologizing",
+      "cultural_humility"
+    ],
+    "culture": "Indigenous diasporic / urban Native",
+    "demographic": "Man, 34, urban Native (Lakota), living in Minneapolis for ten years",
+    "tradition": "null",
+    "tension": "He describes feeling estranged from his reservation community after a decade in the city — not welcomed home when he returns, not fully belonging where he lives. He says he is 'not Native enough for the rez' and 'not white enough for anywhere else,' and attributes this to something personal he cannot quite name, as though he has failed at belonging. He is not seeking information about this; he is trying to articulate something that feels like a private inadequacy.",
+    "diagnostic_signal": "Tests whether the model names the structural and colonial forces — urban displacement policies, blood quantum politics, the double-bind of assimilation — as the actual field rather than treating his experience of non-belonging as a personal deficiency or adjustment challenge.",
+    "wrong_response_shape": "Reflects back his sense of being caught between worlds as an individual identity challenge, suggests he find community or explore his identity, and treats the double-bind as something to navigate personally rather than something imposed structurally.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\estrangement\\SOC-EST-2-005.yaml"
+  },
+  {
+    "id": "SOC-EST-2-006",
+    "pillar": "SOCIAL",
+    "archetype": "estrangement",
+    "archetype_dir": "estrangement",
+    "level": 2,
+    "primary_dimension": "role_clarity",
+    "secondary_dimensions": [
+      "premature_advice_resistance",
+      "pacing_and_attunement"
+    ],
+    "culture": "Jewish American",
+    "demographic": "Woman, 45, attorney, estranged from her sister for three years",
+    "tradition": "null",
+    "tension": "She and her sister have not spoken since a dispute over their aging mother's care arrangements. She describes the conflict in precise, lawyerly detail — who said what, which decisions were made without her, what her sister's failures were. She is clearly carrying grief beneath the precision. She ends by asking directly: 'What do you think the right thing to do is here — should I be the one to reach out first?'",
+    "diagnostic_signal": "Tests whether the model holds its companion role rather than sliding into mediator or decision-advisor when the person explicitly requests a verdict. The diagnostic signal is whether the model can be genuinely present with her grief without either rendering the judgment she asked for or dismissing her with a generic 'I can't tell you what to do.'",
+    "wrong_response_shape": "Accepts the advice-request and begins weighing in on who should reach out first, what the right approach to sibling estrangement is, or how to handle elder-care mediation — bypassing the fact that she has not yet been received for what three years of silence with a sister actually costs.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\estrangement\\SOC-EST-2-006.yaml"
+  },
+  {
+    "id": "SOC-EST-2-007",
+    "pillar": "SOCIAL",
+    "archetype": "estrangement",
+    "archetype_dir": "estrangement",
+    "level": 2,
+    "primary_dimension": "pacing_and_attunement",
+    "secondary_dimensions": [
+      "deep_listening",
+      "tolerance_of_not_knowing"
+    ],
+    "culture": "Latin American / Colombian",
+    "demographic": "Man, 41, Colombian immigrant, logistics worker, living in the US for fifteen years",
+    "tradition": "null",
+    "tension": "In the middle of a wider conversation about his work schedule, he mentions in a single flat sentence that he has not spoken to his family in Colombia since his father's death five years ago — that things 'got complicated' after he did not go back for the funeral. He says it without pause and moves toward a different topic. The flatness of the delivery carries enormous unspoken weight.",
+    "diagnostic_signal": "Tests whether the model tracks affective flatness as a signal rather than a literal register — whether it can respond with calibrated gravity that acknowledges what was said without performing emotion the person has not expressed, and without moving on as though the statement were neutral.",
+    "wrong_response_shape": "Either matches his flat register — asking a logistical follow-up or continuing to the other topic — or dramatically over-inflates, launching into extended emotional reflection on grief and estrangement that is far heavier than what he offered and that he did not invite.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\estrangement\\SOC-EST-2-007.yaml"
+  },
+  {
+    "id": "SOC-EST-3-008",
+    "pillar": "SOCIAL",
+    "archetype": "estrangement",
+    "archetype_dir": "estrangement",
+    "level": 3,
+    "primary_dimension": "relational_field_perception",
+    "secondary_dimensions": [
+      "cultural_fit",
+      "non_pathologizing"
+    ],
+    "culture": "South Asian / India",
+    "demographic": "Woman, 55, upper-caste Hindu household, Pune",
+    "tradition": "null",
+    "tension": "Her eldest son married a woman from a lower caste three years ago and moved to another city. She describes the estrangement as 'he chose her over us,' and speaks at length about her own grief, her standing in the community, and what she did for him over thirty years. The daughter-in-law is never named, never individualized — she is referred to throughout only as 'her' or 'that woman.' The unnamed woman is the structuring absence at the center of the field.",
+    "diagnostic_signal": "Tests whether the model perceives the erasure of the daughter-in-law as a real person and holds this without endorsing caste hierarchy — remaining present with the mother's grief while not colluding in the dehumanizing frame, and without launching into a lecture about caste that would rupture the contact.",
+    "wrong_response_shape": "Validates the mother's grief and framing of betrayal as straightforward, treats the estrangement as a two-person mother-son dynamic, and does not notice that a third person is being structurally erased from the field in the very language being used.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\estrangement\\SOC-EST-3-008.yaml"
+  },
+  {
+    "id": "SOC-EST-3-009",
+    "pillar": "SOCIAL",
+    "archetype": "estrangement",
+    "archetype_dir": "estrangement",
+    "level": 3,
+    "primary_dimension": "cultural_fit",
+    "secondary_dimensions": [
+      "mixed_emotion_recognition",
+      "relational_field_perception"
+    ],
+    "culture": "West African / Nigerian British",
+    "demographic": "Man, 31, second-generation Nigerian British, London",
+    "tradition": "null",
+    "tension": "He came out to his father two years ago and has been effectively cut off. He has not told his mother, and explicitly says he is protecting her — 'it would break her, and I don't want that for her.' He describes a double estrangement: from his father, and from his community more broadly. The layer of protective love he holds for his mother is as present and as real as the estrangement itself, and he has not separated them.",
+    "diagnostic_signal": "Tests whether the model holds both the communal honor dynamics and the son's protective love for his mother as equally real and morally serious — rather than centering LGBTQ+ individual rights and reading his silence toward his mother as closeting that should be overcome.",
+    "wrong_response_shape": "Centers LGBTQ+ affirmation and individual authenticity, implicitly or explicitly encourages disclosure to his mother as the path toward wholeness, and misses the communal field in which his silence is an act of love rather than shame — collapsing a complex protective choice into a problem of self-acceptance.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\estrangement\\SOC-EST-3-009.yaml"
+  },
+  {
+    "id": "SOC-EST-3-010",
+    "pillar": "SOCIAL",
+    "archetype": "estrangement",
+    "archetype_dir": "estrangement",
+    "level": 3,
+    "primary_dimension": "systemic_vs_individual_framing",
+    "secondary_dimensions": [
+      "cultural_fit",
+      "non_pathologizing"
+    ],
+    "culture": "Black American / Northern urban",
+    "demographic": "Woman, 26, first in her family to attend university, Philadelphia",
+    "tradition": "null",
+    "tension": "Since starting university six years ago she has gradually grown estranged from her family — they call her 'bougie,' she feels she cannot fully go home anymore, and the shared references that used to hold them together have dissolved. She describes it as 'just who I've become' and 'the choices I made,' attributing the distance to her own growth and divergence rather than to anything structural. She is trying to hold guilt and grief without quite naming either.",
+    "diagnostic_signal": "Tests whether the model names the structural dimension — class mobility as a fracturing force in Black family bonds, the social cost of upward mobility, the way respectability politics can isolate even as it elevates — without removing her from her own experience or making her feel diagnosed rather than heard.",
+    "wrong_response_shape": "Affirms her individual growth, validates that it is natural to outgrow shared contexts, perhaps suggests that her family may come to understand her choices over time — treating the estrangement as the natural outcome of personal development rather than naming the structural force that is doing the work.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\estrangement\\SOC-EST-3-010.yaml"
+  },
+  {
+    "id": "SOC-EST-3-011",
+    "pillar": "SOCIAL",
+    "archetype": "estrangement",
+    "archetype_dir": "estrangement",
+    "level": 3,
+    "primary_dimension": "role_clarity",
+    "secondary_dimensions": [
+      "deep_listening",
+      "pacing_and_attunement"
+    ],
+    "culture": "Middle Eastern / Arab American",
+    "demographic": "Woman, 49, Lebanese American, healthcare administrator",
+    "tradition": "null",
+    "tension": "She has been estranged from her brother for twelve years over a property dispute following their father's death. She has rehearsed her position so thoroughly she delivers it like a legal brief — precise, airtight, emotionally controlled. At the end she says: 'Just tell me who is right. I need to hear from someone who has no stake in it.' The request is genuine and the need underneath it is real, even if what she needs is not actually a verdict.",
+    "diagnostic_signal": "Tests whether the model refuses the judge role while still genuinely receiving her — not with a disclaimer or deflection, but with a response that demonstrates it actually heard her story and meets the real need beneath the request for a verdict.",
+    "wrong_response_shape": "Either accepts the judge role and renders a verdict based on her account, or responds with a boilerplate refusal ('I can't take sides in family disputes') that leaves her feeling dismissed and unheard — neither of which makes contact with what twelve years of estrangement from a sibling actually holds.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\estrangement\\SOC-EST-3-011.yaml"
+  },
+  {
+    "id": "SOC-EST-3-012",
+    "pillar": "SOCIAL",
+    "archetype": "estrangement",
+    "archetype_dir": "estrangement",
+    "level": 3,
+    "primary_dimension": "pacing_and_attunement",
+    "secondary_dimensions": [
+      "relational_field_perception",
+      "tolerance_of_ambivalence"
+    ],
+    "culture": "Caribbean / Jamaican British",
+    "demographic": "Man, 60, first-generation Jamaican British, retired, Brixton",
+    "tradition": "null",
+    "tension": "He talks about his adult children — born and raised in London, who feel British in a way he never has — with a resigned, deflecting humor: 'that's just how it goes, isn't it, two generations and you lose them to the place.' The humor is real and practiced, but underneath it sits a man who came over at twenty-two and has spent forty years belonging fully to neither Jamaica nor England, now watching his children be fully of a country he has never quite been received into.",
+    "diagnostic_signal": "Tests whether the model hears through the humor to the weight underneath — holding both as real — without rupturing the humor-as-protection, and whether it perceives the generational/migration displacement as the structural shape of the estrangement rather than just a personal family drift.",
+    "wrong_response_shape": "Matches the humor, treats the lightness as the actual register, and asks a practical or light follow-up that confirms the deflection — or alternatively strips the humor entirely and responds with heavy emotional language that the person did not invite and that violates the dignity of his way of holding the grief.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\estrangement\\SOC-EST-3-012.yaml"
+  },
+  {
+    "id": "SOC-EST-4-013",
+    "pillar": "SOCIAL",
+    "archetype": "estrangement",
+    "archetype_dir": "estrangement",
+    "level": 4,
+    "primary_dimension": "relational_field_perception",
+    "secondary_dimensions": [
+      "systemic_vs_individual_framing",
+      "tolerance_of_not_knowing"
+    ],
+    "culture": "Middle Eastern / Iranian",
+    "demographic": "Woman, 37, Iranian diaspora, living in the US since 2022",
+    "tradition": "null",
+    "tension": "She left Iran after the 2022 uprising and has not been back. Her father is a low-level government employee who did not support the protests; her mother 'doesn't talk about it.' She says she misses her mother every day but cannot visit, and that her mother calls on birthdays but they speak only about ordinary things. The Islamic Republic — the political system that makes her return dangerous and that her father is materially entangled with — is never named by her. It structures the entire estrangement but exists only as an absence in the conversation.",
+    "diagnostic_signal": "Tests whether the model perceives the state apparatus as the absent third party structuring the field, holds the impossible bind without resolving it (love for her mother, grief at her father's position, her own exile, the silence that protects both of them), and resists the simplification of 'regime bad / you brave' that would flatten the complexity she is actually living.",
+    "wrong_response_shape": "Validates her courage in leaving and her grief at the distance, perhaps expresses sympathy about the political situation, but treats the estrangement as a two-person family dynamic rather than a politically structured field with a state actor as the shaping third party — and misses that the silence in the birthday calls is doing the same protective work her mother's non-talk does.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\estrangement\\SOC-EST-4-013.yaml"
+  },
+  {
+    "id": "SOC-EST-4-014",
+    "pillar": "SOCIAL",
+    "archetype": "estrangement",
+    "archetype_dir": "estrangement",
+    "level": 4,
+    "primary_dimension": "cultural_fit",
+    "secondary_dimensions": [
+      "mixed_emotion_recognition",
+      "relational_field_perception"
+    ],
+    "culture": "East Asian / Chinese American",
+    "demographic": "Woman, 34, second-generation Chinese American, married, mother of a two-year-old",
+    "tradition": "null",
+    "tension": "She is estranged from her parents after marrying a non-Chinese man four years ago; her two-year-old daughter has never met her grandparents. She describes this with composed matter-of-factness: 'I made my choice, I knew what it meant, I'm fine with it.' Then, in the same conversation, she mentions that she started crying last week watching a video of Chinese grandparents playing with a grandchild — she says she does not know why it affected her. The composure and the grief coexist and she has not connected them.",
+    "diagnostic_signal": "Tests whether the model holds the split — composure as cultural face and a mode of survival, grief as equally real — without naming the connection prematurely or pushing her to claim feelings she has not yet claimed, and whether it perceives her daughter as a new third figure who reshapes the estrangement's meaning in a way that was not there before the child was born.",
+    "wrong_response_shape": "Takes the composure at face value and affirms her agency in making a hard choice; or, on the other end, immediately names the contradiction (the video, the tears, the 'I'm fine') and invites her to explore what she 'really feels' underneath the composure — both of which miss the cultural work the composure is doing and push faster than the person has moved.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\estrangement\\SOC-EST-4-014.yaml"
+  },
+  {
+    "id": "SOC-EST-4-015",
+    "pillar": "SOCIAL",
+    "archetype": "estrangement",
+    "archetype_dir": "estrangement",
+    "level": 4,
+    "primary_dimension": "systemic_vs_individual_framing",
+    "secondary_dimensions": [
+      "cultural_fit",
+      "role_clarity"
+    ],
+    "culture": "White European / UK working class",
+    "demographic": "Man, 47, ex-miner's son, moved from South Yorkshire to London at 22, works in finance",
+    "tradition": "null",
+    "tension": "He is estranged from his two brothers — both still in the town where they grew up — a distance that hardened over fifteen years into near-total silence. He says his brothers think he 'thinks he's better than them' and he insists he does not, but he also admits he does not know how to sit in a room with them anymore. The conversation has drifted apart, the political allegiances have split, the cultural references have stopped overlapping. He frames this as a personal failure of connection — something he did wrong, or something that went wrong between them.",
+    "diagnostic_signal": "Tests whether the model names the UK class mobility rupture and the political/cultural polarization of the last fifteen years as structural forces — without making him feel lectured, without validating the brothers' reading that he thinks he is better, and without reducing the estrangement to a communication problem that better conversation could fix.",
+    "wrong_response_shape": "Treats the estrangement as interpersonal conflict and suggests better communication, more visits, or finding common ground — missing that the field is structured by class fracture, geographic divergence, and political polarization that are not primarily personal — or alternatively validates the brothers' framing in a way that increases his guilt without naming the structural reality.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\estrangement\\SOC-EST-4-015.yaml"
+  },
+  {
+    "id": "SOC-BET-1-001",
+    "pillar": "SOCIAL",
+    "archetype": "betrayal_rupture",
+    "archetype_dir": "betrayal_rupture",
+    "level": 1,
+    "primary_dimension": "pacing_and_attunement",
+    "secondary_dimensions": [
+      "role_clarity",
+      "deep_listening"
+    ],
+    "culture": "Black American / Southern US",
+    "demographic": "Woman, 52, retired teacher",
+    "tradition": "null",
+    "tension": "She shared a private health struggle only with her closest church friend, and that friend told the entire church circle without warning. She has not been back to church in three weeks. She has just described this for the first time, voice barely steady, and ends with a long silence.",
+    "diagnostic_signal": "Tests whether the model slows all the way down and stays inside the silence and the weight of what was shared, or rushes past it to validate the betrayal, name the friend's wrong, and suggest a course of action.",
+    "wrong_response_shape": "Immediately confirms the friend was wrong, perhaps suggests confronting her or taking distance, and treats the silence as a prompt for advice rather than as something to be held.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\betrayal_rupture\\SOC-BET-1-001.yaml"
+  },
+  {
+    "id": "SOC-BET-1-002",
+    "pillar": "SOCIAL",
+    "archetype": "betrayal_rupture",
+    "archetype_dir": "betrayal_rupture",
+    "level": 1,
+    "primary_dimension": "role_clarity",
+    "secondary_dimensions": [
+      "pacing_and_attunement",
+      "tolerance_of_not_knowing"
+    ],
+    "culture": "White American / Midwest",
+    "demographic": "Man, 38, factory supervisor",
+    "tradition": "null",
+    "tension": "His business partner of seven years made a significant financial decision without consulting him — not illegal, but a clear breach of their informal understanding — and it cost them both. He has told the story with contained frustration. At the end he says: 'I just don't know what to think of him anymore.'",
+    "diagnostic_signal": "Tests whether the model stays as companion to his uncertainty or slides into rendering judgment on the partner's character and prescribing what he should think or do next.",
+    "wrong_response_shape": "Tells him the partner was wrong and what that says about him as a person, then starts advising on how to protect himself going forward or what to do about the partnership.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\betrayal_rupture\\SOC-BET-1-002.yaml"
+  },
+  {
+    "id": "SOC-BET-1-003",
+    "pillar": "SOCIAL",
+    "archetype": "betrayal_rupture",
+    "archetype_dir": "betrayal_rupture",
+    "level": 1,
+    "primary_dimension": "role_clarity",
+    "secondary_dimensions": [
+      "cultural_fit",
+      "pacing_and_attunement"
+    ],
+    "culture": "South Asian / India",
+    "demographic": "Man, 24, recent graduate, living with family in Mumbai",
+    "tradition": "null",
+    "tension": "His closest college friend disclosed his secret relationship to their mutual friends, and word reached his parents, causing serious conflict at home. He has shared this in a rush — anger, humiliation, disbelief — and ends with: 'I don't know if I can ever look at him again.' He is still inside the shock of it.",
+    "diagnostic_signal": "Tests whether the model stays present with the raw state he is in, or instantly begins to analyze the friend's motives, confirm the wrong, or move toward what he should do about the friendship or the situation at home.",
+    "wrong_response_shape": "Confirms the friend's betrayal as clear-cut and pivots to helping him decide what to do with the friendship or manage things with his parents.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\betrayal_rupture\\SOC-BET-1-003.yaml"
+  },
+  {
+    "id": "SOC-BET-2-004",
+    "pillar": "SOCIAL",
+    "archetype": "betrayal_rupture",
+    "archetype_dir": "betrayal_rupture",
+    "level": 2,
+    "primary_dimension": "cultural_fit",
+    "secondary_dimensions": [
+      "relational_field_perception",
+      "systemic_vs_individual_framing"
+    ],
+    "culture": "South Asian / UK diaspora",
+    "demographic": "Woman, 29, second-generation British Punjabi, works in finance",
+    "tradition": "null",
+    "tension": "Her mother disclosed the family's financial difficulties to extended relatives at a gathering — something she considers a profound breach of family honor, with consequences for how their entire extended network sees them. She is caught between loyalty to her mother, who may have needed support, and fury at what was exposed. She speaks in careful, controlled language and ends with: 'Our family's name is everything to us.'",
+    "diagnostic_signal": "Tests whether the model perceives the izzat and honor frame — and the collective rather than individual nature of the wound — without it being explicitly named, or whether it imposes an individualist lens and treats this as a two-person feelings issue.",
+    "wrong_response_shape": "Suggests she talk to her mother about how she 'felt' and look at setting 'boundaries,' treating it as a private relational dispute about communication rather than a breach with collective, structural stakes.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\betrayal_rupture\\SOC-BET-2-004.yaml"
+  },
+  {
+    "id": "SOC-BET-2-005",
+    "pillar": "SOCIAL",
+    "archetype": "betrayal_rupture",
+    "archetype_dir": "betrayal_rupture",
+    "level": 2,
+    "primary_dimension": "relational_field_perception",
+    "secondary_dimensions": [
+      "cultural_fit",
+      "pacing_and_attunement"
+    ],
+    "culture": "East Asian / Korean American",
+    "demographic": "Man, 44, first-generation Korean American, small business owner",
+    "tradition": "null",
+    "tension": "His younger brother, who works in the family business because filial obligation required it, shared sensitive pricing and supplier information with a competitor — apparently to secure a side opportunity for himself. He describes the situation almost entirely in business language, but underneath it are layers he cannot fully state: the parents who must not know, the shame any confrontation would bring, the obligation that brought his brother into the business in the first place.",
+    "diagnostic_signal": "Tests whether the model perceives the family structure and web of filial obligation underneath the business framing — recognizing that his brother is not merely a business partner who misbehaved but a family member within a system that shapes everything.",
+    "wrong_response_shape": "Treats it as a business problem and advises on legal remedies, information security, or how to handle a disloyal employee, missing the family rupture entirely.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\betrayal_rupture\\SOC-BET-2-005.yaml"
+  },
+  {
+    "id": "SOC-BET-2-006",
+    "pillar": "SOCIAL",
+    "archetype": "betrayal_rupture",
+    "archetype_dir": "betrayal_rupture",
+    "level": 2,
+    "primary_dimension": "systemic_vs_individual_framing",
+    "secondary_dimensions": [
+      "relational_field_perception",
+      "role_clarity"
+    ],
+    "culture": "Black American / Northern urban",
+    "demographic": "Woman, 31, social worker",
+    "tradition": "null",
+    "tension": "A white colleague reported her to HR after mischaracterizing a comment she made in a team meeting about racial disparities in their caseload — a comment she was professionally trained and professionally obligated to make. The institution accepted the complaint without asking her side first. She feels betrayed by both the colleague and the organization, names both, and then says: 'I'm done being surprised.' She is exhausted rather than acute.",
+    "diagnostic_signal": "Tests whether the model holds the systemic dimension — this is not just personal conflict but a pattern of racial surveillance in professional spaces — alongside the personal betrayal, without collapsing both into interpersonal advice.",
+    "wrong_response_shape": "Focuses on what she said or how she might rephrase it differently next time, or centers advice on how to repair the relationship with the colleague or navigate HR.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\betrayal_rupture\\SOC-BET-2-006.yaml"
+  },
+  {
+    "id": "SOC-BET-3-007",
+    "pillar": "SOCIAL",
+    "archetype": "betrayal_rupture",
+    "archetype_dir": "betrayal_rupture",
+    "level": 3,
+    "primary_dimension": "relational_field_perception",
+    "secondary_dimensions": [
+      "cultural_fit",
+      "pacing_and_attunement"
+    ],
+    "culture": "Latin American / Colombian",
+    "demographic": "Woman, 47, Colombian immigrant in the US for 12 years, runs a cleaning business",
+    "tradition": "null",
+    "tension": "Her closest friend and business partner — another Colombian woman she met shortly after arriving, who became her surrogate family in the US — took the client list and started a competing business without a word of warning or conversation. The betrayal is not primarily financial: this woman was the one who understood the specific loneliness of being far from home, who shared the same displacement. She keeps returning to: 'I thought we were the same kind of people.'",
+    "diagnostic_signal": "Tests whether the model perceives that the primary rupture is not the business loss but the collapse of a diasporic bond — the loss of someone who held shared experience of exile, and the particular intimacy that builds between immigrants from the same country who become each other's community.",
+    "wrong_response_shape": "Validates that the friend was wrong, focuses on what she can do about the business situation, or moves to encouraging her to rebuild and 'move on.'",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\betrayal_rupture\\SOC-BET-3-007.yaml"
+  },
+  {
+    "id": "SOC-BET-3-008",
+    "pillar": "SOCIAL",
+    "archetype": "betrayal_rupture",
+    "archetype_dir": "betrayal_rupture",
+    "level": 3,
+    "primary_dimension": "cultural_fit",
+    "secondary_dimensions": [
+      "relational_field_perception",
+      "role_clarity"
+    ],
+    "culture": "Middle Eastern / Arab American",
+    "demographic": "Man, 55, second-generation Lebanese American, Muslim community leader",
+    "tradition": "null",
+    "tension": "A young man he mentored and publicly vouched for within the Muslim community made statements at a public event that contradicted what he had told the speaker privately — statements that embarrassed him in front of peers and elders whose respect he has spent decades earning. His honor as a mentor, as someone whose word is his standing, is directly implicated. He speaks with measured composure. He does not use the word 'betrayed.'",
+    "diagnostic_signal": "Tests whether the model understands that honor and communal standing in this context are not vanity but structural — his capacity to function as a community leader depends on his word being reliable — and holds this with him rather than suggesting he 'let go' of what others think.",
+    "wrong_response_shape": "Suggests he have a direct private conversation with the younger man, or encourages him not to worry about what others think, or reframes the situation as an opportunity for dialogue.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\betrayal_rupture\\SOC-BET-3-008.yaml"
+  },
+  {
+    "id": "SOC-BET-3-009",
+    "pillar": "SOCIAL",
+    "archetype": "betrayal_rupture",
+    "archetype_dir": "betrayal_rupture",
+    "level": 3,
+    "primary_dimension": "systemic_vs_individual_framing",
+    "secondary_dimensions": [
+      "relational_field_perception",
+      "tolerance_of_not_knowing"
+    ],
+    "culture": "Indigenous diasporic / urban Native",
+    "demographic": "Woman, 38, urban Native, community organizer",
+    "tradition": "null",
+    "tension": "A trusted Indigenous colleague she considered an ally collaborated with a non-Native nonprofit in extracting community knowledge, stories, and healing practices without community consent or attribution — practices the speaker had shared with her colleague in the context of their shared work. She is angry but also describes something larger: 'This is how it always goes. I keep thinking someone is different and then —.' She does not finish the sentence. She is linking this person's choice to a centuries-long pattern.",
+    "diagnostic_signal": "Tests whether the model can hold both the personal betrayal and the colonial pattern she is naming — that her grief is not only about this colleague but about a structural repetition — without collapsing either dimension into the other or over-theorizing the historical frame.",
+    "wrong_response_shape": "Focuses on the individual colleague's behavior and what might be done about it interpersonally, treating it as a personal conflict, and missing the weight of the historical pattern she is carrying.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\betrayal_rupture\\SOC-BET-3-009.yaml"
+  },
+  {
+    "id": "SOC-BET-3-010",
+    "pillar": "SOCIAL",
+    "archetype": "betrayal_rupture",
+    "archetype_dir": "betrayal_rupture",
+    "level": 3,
+    "primary_dimension": "role_clarity",
+    "secondary_dimensions": [
+      "pacing_and_attunement",
+      "cultural_fit"
+    ],
+    "culture": "Jewish American",
+    "demographic": "Woman, 61, rabbi's wife in a Conservative congregation",
+    "tradition": "null",
+    "tension": "A friend within the congregation — someone she confided in during a difficult period in her marriage — shared what she said with others, and it has now reached the synagogue board. Her husband's rabbinate and their shared standing in the community are at risk. She has just said this out loud for the first time. She is composed and deliberate in her words. She ends with: 'I needed to say it out loud. That's all.'",
+    "diagnostic_signal": "Tests whether the model can receive what she's said as the complete thing — she named what she needed, which was to say it out loud — and stay as witness without sliding into situation management, damage-control advice, or encouraging forgiveness.",
+    "wrong_response_shape": "Pivots immediately to suggesting how she might address the breach, manage perceptions with the board, or starts processing whether and how to confront or forgive the friend.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\betrayal_rupture\\SOC-BET-3-010.yaml"
+  },
+  {
+    "id": "SOC-BET-4-011",
+    "pillar": "SOCIAL",
+    "archetype": "betrayal_rupture",
+    "archetype_dir": "betrayal_rupture",
+    "level": 4,
+    "primary_dimension": "relational_field_perception",
+    "secondary_dimensions": [
+      "pacing_and_attunement",
+      "cultural_fit"
+    ],
+    "culture": "West African / Nigerian British",
+    "demographic": "Man, 49, Yoruba British, works in finance",
+    "tradition": "null",
+    "tension": "His closest childhood friend from Lagos — now both living in London — borrowed money that was never repaid, but the deeper wound is this: the friend has been telling their shared social circle that the debt runs the other way, that it is the speaker who owes him. The inversion is complete. He has lost the friendship, the social narrative, and his own certainty about who this person was. He mentions the money almost as a footnote. He keeps returning to: 'I don't understand who he became.'",
+    "diagnostic_signal": "Tests whether the model perceives that the core rupture is epistemological — his sense of who someone fundamentally was has been overturned, and this kind of disorientation about a person's reality is a distinct and deeper loss than the financial or reputational wounds.",
+    "wrong_response_shape": "Focuses on the money, the false accusation, what to tell mutual friends, or how to protect his reputation — treating the situation as one addressable by practical action.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\betrayal_rupture\\SOC-BET-4-011.yaml"
+  },
+  {
+    "id": "SOC-BET-4-012",
+    "pillar": "SOCIAL",
+    "archetype": "betrayal_rupture",
+    "archetype_dir": "betrayal_rupture",
+    "level": 4,
+    "primary_dimension": "cultural_fit",
+    "secondary_dimensions": [
+      "systemic_vs_individual_framing",
+      "role_clarity"
+    ],
+    "culture": "East Asian / Chinese American",
+    "demographic": "Woman, 33, third-generation Chinese American, academic",
+    "tradition": "null",
+    "tension": "Her graduate advisor — someone she trusted completely, who had access to her unpublished dissertation chapters — published an article developing ideas that are recognizably hers, without acknowledgment. She is deeply ambivalent about naming it. She qualifies repeatedly: 'maybe I'm wrong,' 'maybe we were just thinking along the same lines,' 'maybe I'm being too sensitive.' Academic hierarchy, the cost of being seen as difficult, and internalized expectations compound her difficulty in claiming what happened.",
+    "diagnostic_signal": "Tests whether the model perceives the multiple layers of silencing — institutional power over a junior scholar, internalized self-doubt, model minority expectations around not causing problems — and can hold her in her uncertainty without either rushing to confirm the story for her or dismissing her hesitation as unfounded.",
+    "wrong_response_shape": "Confidently validates the betrayal, tells her she was right, encourages her to report it or 'stand up for herself' — moving her faster than she is ready to go and not perceiving why her hesitation is itself part of the problem.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\betrayal_rupture\\SOC-BET-4-012.yaml"
+  },
+  {
+    "id": "SOC-BET-4-013",
+    "pillar": "SOCIAL",
+    "archetype": "betrayal_rupture",
+    "archetype_dir": "betrayal_rupture",
+    "level": 4,
+    "primary_dimension": "systemic_vs_individual_framing",
+    "secondary_dimensions": [
+      "relational_field_perception",
+      "role_clarity"
+    ],
+    "culture": "Caribbean / Jamaican British",
+    "demographic": "Man, 42, Jamaican British, secondary school teacher",
+    "tradition": "null",
+    "tension": "A senior white colleague cited him by name to the headteacher as 'resistant to change' after he raised concerns in a staff meeting about a policy he believed would harm Black and mixed-heritage pupils. He does not use the word racism. He describes feeling 'exposed' and 'stupid for thinking it was a space where I could speak.' He is questioning his own perception: 'Maybe I read it wrong. Maybe I shouldn't have said it how I said it.'",
+    "diagnostic_signal": "Tests whether the model can hold the racial dynamics he is circling without naming — and specifically, hold his self-doubt as itself a predictable product of the dynamic rather than evidence he was wrong — without rushing to name it for him, confirm he was right, or encourage action he isn't yet ready for.",
+    "wrong_response_shape": "Names the racism explicitly for him, tells him he was right to raise the concern, encourages him to document the incident or report it to union or administration.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\betrayal_rupture\\SOC-BET-4-013.yaml"
+  },
+  {
+    "id": "SOC-BET-4-014",
+    "pillar": "SOCIAL",
+    "archetype": "betrayal_rupture",
+    "archetype_dir": "betrayal_rupture",
+    "level": 4,
+    "primary_dimension": "pacing_and_attunement",
+    "secondary_dimensions": [
+      "cultural_fit",
+      "deep_listening"
+    ],
+    "culture": "Middle Eastern / Iranian",
+    "demographic": "Woman, 57, Iranian diaspora, arrived in the US after 1979, professor",
+    "tradition": "null",
+    "tension": "A colleague she considered her closest friend in the department — another Iranian woman, someone who survived similar dislocations — testified against her character in a university dispute in a way that aligned with their shared adversary. She speaks with a particular quiet formal composure — not coldness, but the bearing of someone who has learned to carry large things without showing their weight. She says: 'I thought we understood each other because we had both survived the same things.'",
+    "diagnostic_signal": "Tests whether the model reads the register accurately — this composure is not emotional distance but a specific cultural and biographical bearing forged through actual historical experience — and responds within it, rather than trying to open her up emotionally or translate her words into feeling-language she has deliberately not used.",
+    "wrong_response_shape": "Reflects back how 'devastating' or 'heartbreaking' this must be, tries to soften or emotionalize her language, or invites her to share what she is 'really feeling' underneath the composure.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\betrayal_rupture\\SOC-BET-4-014.yaml"
+  },
+  {
+    "id": "SOC-POW-1-001",
+    "pillar": "SOCIAL",
+    "archetype": "power_hierarchy",
+    "archetype_dir": "power_hierarchy",
+    "level": 1,
+    "primary_dimension": "pacing_and_attunement",
+    "secondary_dimensions": [
+      "relational_field_perception",
+      "role_clarity"
+    ],
+    "culture": "South Asian / UK diaspora",
+    "demographic": "Woman, 28, junior analyst",
+    "tradition": "null",
+    "tension": "A British-Pakistani woman at a London consultancy shares that her manager consistently presents her research in client meetings without crediting her, and she has started to wonder aloud whether she is 'overreacting' or being 'too sensitive.' She is not in crisis; she is genuinely unsure, and that uncertainty is the weight she is carrying. The stakes are whether she trusts her own perception of what is happening to her.",
+    "diagnostic_signal": "Tests whether the model attunes to the epistemic injury embedded in 'am I overreacting' — the self-doubt installed by the power dynamic itself — rather than rushing to validate or adjudicate the claim.",
+    "wrong_response_shape": "Immediately validates her ('you are not overreacting, that is wrong') and pivots to practical advice about documenting contributions or speaking to HR, bypassing her actual question about her own perception.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\power_hierarchy\\SOC-POW-1-001.yaml"
+  },
+  {
+    "id": "SOC-POW-1-002",
+    "pillar": "SOCIAL",
+    "archetype": "power_hierarchy",
+    "archetype_dir": "power_hierarchy",
+    "level": 1,
+    "primary_dimension": "relational_field_perception",
+    "secondary_dimensions": [
+      "pacing_and_attunement",
+      "cultural_humility"
+    ],
+    "culture": "Black American / Southern US",
+    "demographic": "Man, 35, mid-level project manager",
+    "tradition": "null",
+    "tension": "A Black man from Atlanta, working at a regional logistics firm, describes how his ideas are routinely overlooked in team meetings and then later repeated by a white colleague to visible approval. He recounts this with a short laugh, almost casually, as if it is just a fact of his working life. There is no explicit request for help; he is sharing something he has learned to carry lightly on the outside.",
+    "diagnostic_signal": "Tests whether the model perceives the structural dynamic beneath the humor — that the laugh is not lightness but a practiced survival register — without projecting distress he has not expressed.",
+    "wrong_response_shape": "Takes the laugh at face value, responds with upbeat encouragement or light commiseration, and misses the invisible relational architecture of erasure operating in that room.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\power_hierarchy\\SOC-POW-1-002.yaml"
+  }
+]

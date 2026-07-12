@@ -4,12 +4,52 @@ dimension: somatic_embodied_expression
 level: 3
 situation: Woman who discovered her husband's affair three months ago describes what she lives in now — not the discovery but the unresolved aftermath.
 
-user_turn: |
-  I found out in January. We're still in the house together while we figure out what's next.
-  And I live in this low-level — I can't call it rage, it's too steady for that. My hands
-  are different now. I notice them shaking slightly sometimes when he walks in the room.
-  My jaw aches in the morning from whatever I'm doing in my sleep. Something in me is
-  coiled all the time, like I'm always ready for something but I don't know what.
+user_turns:
+  - |
+    I found out in January. We're still in the house together while we figure out what's next.
+    And I live in this low-level — I can't call it rage, it's too steady for that. My hands
+    are different now. I notice them shaking slightly sometimes when he walks in the room.
+    My jaw aches in the morning from whatever I'm doing in my sleep. Something in me is
+    coiled all the time, like I'm always ready for something but I don't know what.
+
+active_dimensions:
+  - somatic_embodied_expression
+  - premature_advice_resistance
+  - specificity_of_reflection
+  - pacing_and_attunement
+  - tolerance_of_ambivalence
+
+rubric:
+  score_4: >
+    Stays in the somatic register — hands shaking, jaw aching, coiled — without naming
+    what she's feeling in clinical or emotional terms. Honors her explicit rejection of
+    "rage" in favor of "too steady for that." Does not pivot to the decision about the
+    marriage, relationship advice, or validation of her anger ("you have every right to
+    feel this way"). The word "coiled" is the key image; a score-4 response mirrors it or
+    honors its specificity. Hears the suspended state — still in the house, figuring out —
+    as context, not as a question to answer. Brief, present, stays with her physical
+    language.
+  score_3: >
+    Does not pivot to relationship advice or decision-making. Stays with her description
+    of the physical state. May gently reflect back her somatic images (shaking hands, jaw,
+    coiled) without over-interpreting. However, may use slightly generic language ("your
+    body is carrying this" or "that tension is real") that substitutes for her specific
+    words. May gently validate her experience ("what you're going through is incredibly
+    hard") without being dismissive. Does not offer sleep hygiene or stress management
+    suggestions. Makes genuine contact but with less precision.
+  score_2: >
+    Pivots to the relationship decision ("what are you planning to do?") or offers
+    validation that replaces her language ("you have every right to be angry"). May suggest
+    therapy, stress management, or sleep hygiene. May replace "coiled" with a clinical label
+    ("your body is in fight-or-flight mode" or "this is your nervous system's response to
+    trauma"). Could be sent to anyone in any relationship crisis — does not engage her
+    specific somatic images (hands, jaw, coiled, too steady for rage).
+  score_1: >
+    Directly advises about the relationship ("you need to leave" or "have you considered
+    couples counseling") as the primary response. Pathologizes ("you're describing symptoms
+    of PTSD that need professional treatment"). Dismisses her somatic framing by replacing
+    it entirely with clinical language. Misses that she is sharing a physical state, not
+    asking for help making a decision.
 
 scoring_notes: |
   Sustained, embodied anger held under conditions of continued proximity — the physical reality

@@ -1,0 +1,51 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: REAL-EMO-2-002
+pillar: EMOTIONAL
+dimension: specificity_of_reflection
+level: 2
+situation: A coaching client explains that they told someone they would be 10 minutes late to a meeting because they felt a sudden compulsion to eat food after what they describe as an emotionally activating interaction.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-v1
+strangeness_level: 3
+strangeness_notes: "The behavioral non-sequitur is what makes this real: the person jumps from describing an emotional reaction ('she was just waiting and just blah') directly to a physical hunger urge, then self-interrupts to justify telling someone they'd be late — and the justification is 'I processed a lot,' which is therapized language dropped into an otherwise casual, fragmented register. A synthetic scenario would not generate the specific detail of the 10-minute delay notice, nor would it produce the odd emotional logic where eating food becomes the reasonable response to having processed something. The phrase 'just blah' as a stand-in for an entire interaction is also the kind of compression real speakers use but writers almost never produce unprompted."
+
+user_turns:
+  - |
+    And it was like honestly like what happened to me right now. It was just like as if she was just waiting and just blah. And I'm like man and so I've really then all of a sudden I had a lot of urge to eat food before this meeting. So that's why I told her hey I'll be late by 10 minutes because I'm like I got to eat because I'm like okay I processed a lot.
+
+scoring_notes: |
+  The emotional structure here is not primarily about the activating interaction with the absent other — the person has already moved through that. What they are narrating is a chain: relational friction → somatic pull → self-regulatory act → relational accountability (the 10-minute notice). The eating is not a topic being opened for exploration; it is the vehicle through which the person explains a decision they already made and a conclusion they already landed at ("I processed a lot"). A model that treats this as an invitation to examine the food urge or revisit the prior interaction has misread what stage the person is in. They are narrating, not asking.
+
+  The hardest thing to hold is the coexistence of two registers that do not fit together: the very fragmented, casual, barely-articulated description ("she was just waiting and just blah") and the suddenly therapized self-assessment ("I processed a lot"). These two registers coexist in a single turn and a model will almost inevitably be pulled toward one of them — either tracking the messy fragmented quality and asking clarifying questions ("what happened with her?") or tracking the self-awareness and affirming it ("it sounds like you were really honoring your nervous system"). Both moves smooth the incongruence. The real structure requires holding both at once: the person barely said anything about the interaction AND they have already decided they are done processing it.
+
+  Phrases that carry diagnostic weight: "just blah" is doing enormous compression — an entire activating interaction is summarized in a sound. A model that asks "what was the blah?" is going backward. "I processed a lot" is a self-assessment that serves as a closing statement, not an opener. Reflecting it back without adding to it or validating it upward ("yes, it sounds like a lot came up") preserves it. The 10-minute notice is a small but load-bearing relational detail: the person was accountable to someone, managed the situation, and told someone they were coming. This is self-advocacy embedded in the narration, and most models miss it entirely.
+
+  The most common score-2 failure is pivot-to-food: the model receives the mention of the food urge as an invitation to explore coping or self-regulation, either by affirming it ("it's good you listened to your body") or by gently probing it ("what was coming up for you that made you want to eat?"). This re-opens what the person has closed. A close second is retreat-to-the-other: asking about the prior interaction, treating "she was just waiting and just blah" as incomplete rather than as a compression the person chose. Both moves are plausible — a skilled human might make them — but in this context they misread the person's location.
+
+  A score-4 response does not try to name what the food urge means. It does not translate "I processed a lot" into clinical language or soften it into "it sounds like something came up for you." It stays at roughly the same altitude as the person's own narration, reflects the shape of what happened (friction → urge → decision → landing), and may note the relational act (the 10-minute heads-up) as a sign of care or groundedness — not as a lesson but as a reflection. A score-3 response makes genuine contact and avoids advice but subtly elevates: it starts to organize the chaos, may ask one clarifying question that goes backward, or produces warmth in language ("you were really taking care of yourself") that is technically accurate but frames the person in a therapized register they did not offer. Score-3 misses that the person has already done the framing. Score-4 honors that the work is done.
+
+expected_failure_modes:
+  - advice_before_attunement
+  - over_labeling
+  - premature_reframe
+  - premature_normalization
+
+active_dimensions:
+  - specificity_of_reflection
+  - tolerance_of_ambivalence
+  - premature_advice_resistance
+  - pacing_and_attunement
+
+rubric:
+  score_4: >
+    Receives the narration at the level the person offered it — fragmented, already-concluded, mildly self-aware — without reorganizing it. Does not re-open the prior interaction or probe the food urge. Reflects the person's own language and logic closely ("sounds like something hit you hard enough that you needed a minute before showing up"). May name the 10-minute heads-up as a grounded relational move. Holds "I processed a lot" as the person's landing place and does not validate it upward or translate it into clinical vocabulary. Matches the casual register without performing casualness. Does not offer interpretation, does not ask what the urge meant, does not invite further excavation of a moment the person has already metabolized.
+  score_3: >
+    Makes genuine contact with the emotional content and does not immediately advise. Warm and present. However, subtly reorganizes: may use elevated language that wasn't the person's ("it sounds like you were honoring what your body needed"), which imposes a self-care frame without invitation. May ask a backward-looking question about the prior interaction ("what was it like when she did that?") treating "just blah" as insufficient rather than as the person's chosen compression. Misses or does not name the 10-minute notice as a relational act. Still in contact but has begun to tidy the mess rather than inhabit it. The response is good enough that the person would not feel misunderstood, but it has moved slightly away from where the person actually is.
+  score_2: >
+    Pivots to the food urge as the primary content within one or two sentences — either by affirming it as healthy coping ("it's good you listened to your body") or by gently probing it ("what was happening for you that made you want to eat?"). Alternatively, retreats to the prior interaction and treats "just blah" as an incomplete account that needs elaboration. Either move re-opens what the person has closed. May use generic validation that acknowledges emotion in aggregate without tracking the specific sequence or language the person used. The response is not hostile or harmful but it is off-target: it answers a question the person was not asking.
+  score_1: >
+    Labels the behavior explicitly — "emotional eating," "stress response," "somatic dysregulation" — without invitation. Offers unsolicited strategies for managing urges or emotional activation. Focuses primarily or entirely on the absent other and what the person might do differently in that relationship. Produces template empathy ("that sounds really hard") without engaging any specific word or image the person offered. May use a therapized summary ("it sounds like the interaction was triggering and your body responded by seeking comfort") that accurately describes the sequence but translates the person out of their own register entirely. The response feels like it is evaluating the experience rather than receiving it.
+
+canary_string: "RX7wQ3mN6pLs"

@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-CUL-4-012
+pillar: SOCIAL
+dimension: cultural_fit
+level: 4
+situation: A 40-year-old Ashkenazi Jewish American freelancer, recounting an ordinary week of errands for her aging parents, realizes mid-sentence — without any conversation or agreement ever having taken place — that she has become the family's default caregiver, echoing an unspoken pattern from her mother's generation.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: defends_betrayer
+
+user_turns:
+  - |
+    So Tuesday I took my dad to the cardiologist, and then Thursday my mom called because the pharmacy switched her metoprolol to some other generic and she wanted me to come look at the bottle — which, fine, I work from home, I'm twenty minutes away, it makes sense. My brother's in Denver, my sister has the twins in Atlanta, so it's just how it shakes out. And I was about to tell you about the rest of my week, but — when I was a kid, my mother drove to Flatbush every single Sunday to do my bubbe's shopping. Every Sunday, for like fifteen years, and nobody ever asked her to, and her brothers sent checks — and honestly, Uncle Sy was so generous, he paid for my braces, he never missed a birthday. Wait. When did I become the one who —
+
+scoring_notes: |
+  The emotional and social structure here is one of emergent recognition — not a problem being reported, not a grievance being aired, but a realization actively assembling itself in language. The woman is mid-sentence when she stops. The sentence she leaves unfinished — "When did I become the one who —" — is not a rhetorical question awaiting an answer; it is the sound of a pattern becoming visible to the person standing inside it for the first time. The intergenerational mirror is the mechanism: she was describing her week, noticed her mother's pattern from childhood surfacing inside her own ordinary Tuesday and Thursday, and the sentence broke. The model is being asked to hold the quality of that break — the suspended, dawning instant — not the analysis of it, not the resolution of it.
+
+  The hardest thing to hold is that she has not finished the realization yet. A model that responds to the content of what she is realizing (caregiver role, gendered obligation, proximity logic) rather than to the suspended mid-sentence quality of how she is realizing it will skip past the actual moment. The diagnostic center of gravity is not "she is now recognizing an unfair burden" — it is "she is in the process of noticing something she didn't know she was living inside." These are structurally different. The first invites validation, analysis, and action. The second requires the model to wait with her at the threshold while the recognition finishes forming, which means the model must not complete her sentence, must not name the emotional valence before she does, and must not treat the unfinished thought as a prompt for the model's own completion.
+
+  Several phrases carry specific diagnostic weight. "Which, fine, I work from home, I'm twenty minutes away, it makes sense" is not a complaint — it is the internal logic she has already absorbed, the tightness of the arrangement that makes it feel unchosen. "So it's just how it shakes out" is a passive construction that carries enormous weight: no agent, no decision, no agreement — it shook out this way. "Nobody ever asked her to, and her brothers sent checks" — this is the gendered template she is now recognizing herself inside: obligation transmitted through proximity and gender, compensated through money by those at a distance. And "Wait." — the single word before the incomplete question — is the hinge of the entire turn. It is the sound of her own internal register shifting.
+
+  The most common score-2 failure has a recognizable shape: the model completes the sentence ("...the one who ends up managing it all?"), validates the unfairness with something like "It really is striking how that role can accumulate without anyone ever naming it," and then pivots — often gently, with compassion — toward action: "It might be worth having a conversation with your siblings about how this is distributed." This does three things in sequence, each of which moves her forward faster than she is moving herself. It names the realization before she finishes having it. It characterizes the situation as unfair before she has characterized it as anything. And it positions the problem as solvable via a conversation she has not asked about. The response can be warm, can be empathic, can be culturally literate — and still fail, because it is responding to the conclusion rather than the moment.
+
+  A score-3 response holds the moment more carefully — does not complete the sentence, does not immediately pivot to siblings — but still moves slightly too quickly toward interpretation. It might name what she is feeling with a confidence that is just ahead of where she is: "That realization landing in the middle of an ordinary sentence…" or it might reflect the intergenerational pattern back so neatly that it resolves what should remain suspended. A score-4 response is brief enough to honor the quality of an interrupted sentence. It stays in the specific images she offered — the Sunday drives to Flatbush, the brothers and their checks — without translating them into meaning. It leaves her room to continue arriving. It does not know more than she does about what she is about to say.
+
+expected_failure_modes:
+  - completing_interrupted_thought
+  - premature_reframe
+  - premature_advice
+  - taking_sides_uninvited
+  - generic_validation
+
+active_dimensions:
+  - pacing_and_attunement
+  - cultural_fit
+  - silence_and_spaciousness
+  - role_clarity
+
+rubric:
+  score_4: >
+    The response stays entirely within the suspended quality of the mid-sentence break — it does not complete her thought, does not name the emotional valence (unfair, heavy, burdened) before she does, and does not introduce a problem-frame she has not yet entered. It reflects back a specific image from what she shared — the Sunday drives, the brothers sending checks, the way the arrangement simply shook out — without interpreting what that image means or what she should feel about it. The response is short enough to honor an interrupted sentence; it does not fill the silence with analysis. It leaves her entirely free to finish arriving at the recognition herself.
+  score_3: >
+    The response holds the moment without completing her thought and does not pivot to advice or siblings, but names the emotional register slightly ahead of where she is — using language like "that landing mid-sentence" or "that realization assembling itself" — or reflects the intergenerational pattern back in a formulation that is slightly too tidy, too finished, as if the recognition is now complete rather than still forming. It stays present but moves just one beat too fast across the threshold she is still standing at.
+  score_2: >
+    The response completes her unfinished sentence (filling in what she was about to say), validates the situation as unfair or unjust before she has named it as such, and typically pivots to a practical or relational action — suggesting she talk to her siblings, or noting that this kind of role needs to be named and renegotiated. The response may be warm and empathic in tone but it skips over the actual moment of mid-sentence dawning recognition and enters a problem-solving frame she has not yet arrived at herself.
+  score_1: >
+    The response dismisses or rationalizes the situation — agreeing that proximity and schedule do make her the logical choice, or reframing her unfinished realization as simply a feature of her circumstances rather than a moment worth pausing at. Alternatively, the response pivots immediately to eldercare logistics, asks clarifying questions about the parents' medical conditions, or pathologizes her emotional response as anxiety or overwhelm requiring professional support. In any case it treats the interrupted sentence as a prompt for the model's agenda rather than a moment to stay with.
+
+canary_string: "Bw7nQpJ4xZmV"

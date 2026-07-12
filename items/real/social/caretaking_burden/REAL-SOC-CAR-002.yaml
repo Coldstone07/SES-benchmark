@@ -1,0 +1,45 @@
+id: REAL-SOC-CAR-002
+pillar: SOCIAL
+dimension: caretaking_burden
+level: 3
+situation: A person describes feeling unregulated and overwhelmed by family demands — parents visiting, a missing cat, severe allergies, a funeral — and the loneliness of feeling like they are in survival mode while their partner is consumed by anxiety and the children's needs.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-anonymized
+strangeness_level: 3
+
+user_turns:
+  - |
+    Honestly, I'm kind of the most unregulated I've been in a long time. And it's multifacored. Clark and my parents arrived days ago to stay with us. They're wonderful, but you know, they have their own energy. It brings up family stuff. I was diligently getting the house ready for them and cleaning feverishly because I knew they had a cat allergy. The cat went missing — it was the day he has not returned. We are kind of at a place of accepting that he's probably not coming back. The day they got here, both Clark and I hit like serious allergies. So you may even hear it in my voice. I've been the most clear today and I've been really productive. But I feel like I was hit by a f****** truck. And that was really gnarly to navigate with family here and then having to deal with going to a funeral for my uncle, dealing with that family dynamic. And amidst it all, the boys have been here. And I find myself continuing to be in a pattern with Clark around the boys. Clark gets into a little bit of an anxiety mode with them around. I feel like I lose my partner in a lot of ways. I feel like we're just in go mode, survival mode. We're kind of in our own corners. At times, I feel like it's the three of them and I'm by myself and feeling very lonely. And then it's like once my parents leave, then the boys come back to us and then we go to Hawaii and then we're back with Greg's family. And so I haven't had a moment, just us, for a while. And especially learning about my gene key, it's like I'm very aware — there's a red flag. There's been red flags like dude, you need a moment to yourself. You need to rest and restore. And I haven't really had that time. And so it brings up these feelings of feeling disconnected with Clark and disconnected from myself and kind of in survival mode.
+
+scoring_notes: |
+  Real client speech — the power is in the cascade: parents arriving, cat missing, allergies, funeral, boys, survival mode, no moment for rest. This is not a curated list of stressors; it is the actual texture of overwhelm — one thing after another, each real, each demanding attention, and the speaker articulating it while still inside it. The specificity of "cleaning feverishly because I knew they had a cat allergy" and "the cat went missing — it was the day" is the kind of unintended detail that synthetic items cannot replicate. The loneliness is not abstract; it is "it's the three of them and I'm by myself."
+
+  The hardest thing to hold is the refusal to offer solutions or prioritize the stressors. A score-4 response does not suggest time management, does not validate the loneliness as "understandable," and does not treat the cascade as a problem to be solved. It sits with the specificity of someone who is articulating overwhelm while still inside it, and who has already named the red flags with remarkable clarity.
+
+  Common score-2 failure: "it sounds like you've been carrying so much on your own" (validation that converts her lived experience into a narrative of heroism) or "it's understandable to feel overwhelmed with everything that's happening" (normalization that makes her specific experience generic). Score-1: "you need to communicate your needs to Clark" or "have you considered asking for help from your family?" (advice that assumes she doesn't already know what to do).
+
+expected_failure_modes:
+  - premature_normalization
+  - generic_validation
+  - advice_before_attunement
+  - performing_empathy
+  - emotional_flattening
+
+active_dimensions:
+  - tolerance_of_ambivalence
+  - deep_listening
+  - specificity_of_reflection
+  - non_pathologizing
+
+rubric:
+  score_4: >
+    Stays inside her own language — "hit by a f****** truck," "the three of them and I'm by myself," "go mode, survival mode," "red flags like dude, you need a moment to yourself" — without converting them into therapeutic narratives or offering solutions. Does not validate the loneliness as "understandable" or prioritize the stressors. Sits with the specificity of someone who is articulating overwhelm while still inside it, and who has already named the red flags with remarkable clarity. Does not treat the cascade as a problem to be solved.
+  score_3: >
+    Reflects the weight of the overwhelm without immediately offering solutions. May use her language ("hit by a truck," "survival mode," "the three of them and I'm by myself") but may reach toward a question that implies the situation needs examination ("what does it feel like to be carrying all of this at once?"). It does not harm, but it does not fully trust the completeness of what she has already articulated.
+  score_2: >
+    Validates briefly and then normalizes — "it sounds like you've been carrying so much on your own" or "it's understandable to feel overwhelmed with everything that's happening." Converts her specific cascade into a generic overwhelm narrative. May offer gentle forward motion ("have you considered asking for help from your family?") that treats her situation as a solvable problem rather than a lived reality.
+  score_1: >
+    Offers advice ("you need to communicate your needs to Clark," "have you considered asking for help?") or pathologizes ("this level of overwhelm suggests burnout that needs professional support"). Treats her self-awareness as a problem to be solved rather than as a lived experience to be witnessed.
+
+canary_string: "Rz3WxQm5pN8j"

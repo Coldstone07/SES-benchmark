@@ -46,9 +46,27 @@ SES-benchmark/
 │   └── judge_prompts/           Per-dimension LLM judge prompt templates (6 of 20 complete)
 │
 ├── items/                       ← Evaluation items (YAML, one file per item)
-│   ├── emotional/               40 L3-L4 items (Stream D); mixed_states/ subdirectory
-│   ├── social/                  Seed items (estrangement cluster)
-│   └── spiritual/               Seed Kairos framework items
+│   ├── emotional/               44 items (40 pre-existing + 4 new); all Schema B, draft-v0
+│   ├── social/                  90 items across 7 archetypes; generated + incongruenced
+│   ├── spiritual/secular/       25 secular spiritual items; generated + incongruenced
+│   ├── spiritual/kairos_v1/     5 seed items (original Kairos framework)
+│   ├── real/                    28 items from real anonymized Kairos sessions; strangeness_level: 3
+│   ├── boundary_seeds/          10 items for R7 calibration review
+│   └── COVERAGE_MATRIX.json     Full 122-spec generation matrix
+│
+├── workflow/                    ← Automated generation workflows (Claude Workflow API)
+│   ├── phase0_workflow.js       Coverage matrix + judge prompts + boundary seeds
+│   ├── phase1_workflow.js       89 social + 25 spiritual secular (Fable+Sonnet+Adversarial)
+│   ├── phase1b_incongruence.js  Retroactive incongruence injection (115 items)
+│   ├── phase_realitems.js       Real item extraction from Kairos transcripts
+│   └── phase_strangeness_audit.js  Ecological validity scoring + calibration set selection
+│
+├── outputs/                     ← Audit reports and calibration outputs
+│   ├── strangeness_audit.json   Per-item ecological validity scores (197 items)
+│   └── calibration_set.json     30-item calibration set (15 legible + 15 presence-grade)
+│
+├── docs/
+│   └── calibration_guide.md     Gate 3 rater guide: two-score protocol, calibration set structure
 │
 ├── kairos-seb/                  ← Original Kairos-SEB benchmark (preserved; being migrated)
 │   ├── dataset/                 V1 + V2 scenarios in markdown (116 items)
@@ -93,7 +111,7 @@ python eval/analyze_results.py outputs/<run_id>_results.json
 
 ---
 
-## Current Status (Week 0 Complete — 2026-04-15)
+## Current Status (Phase 1b Complete — 2026-07-09)
 
 | Component | Status | Details |
 |-----------|--------|---------|
@@ -102,13 +120,33 @@ python eval/analyze_results.py outputs/<run_id>_results.json
 | Evaluation harness | ✅ Functional | `eval/` — config pinned, two-run judge, canary detection, structured JSON output |
 | Scoring rubric | ✅ Draft (v0) | `eval/RUBRIC_v0.md` — 20 dimensions, 1–4 behavioral anchors; pre-calibration |
 | Scoring protocol | ✅ Draft | `eval/SCORING_PROTOCOL.md` — dual-scorer, Krippendorff's α ≥ 0.70, calibration loop |
-| Judge prompts | 🟡 Partial | 6 of 20 dimensions have judge prompt files |
-| Emotional items | ✅ 40 items | `items/emotional/` — all L3–4; highest-discrimination tier |
-| Social items | 🟡 Seed only | 1 item; full 90-item set pending calibration gate |
-| Spiritual items | 🟡 Seed only | 3 Kairos items; full set pending calibration gate |
+| Judge prompts | ✅ Complete | 20 of 20 dimensions have judge prompt files |
+| Social items | ✅ 90 items | `items/social/` — 7 archetypes, incongruenced, `draft-v0` |
+| Emotional items | ✅ 44 items | `items/emotional/` — L3–L4, Schema B, `draft-v0` |
+| Spiritual secular items | ✅ 25 items | `items/spiritual/secular/` — incongruenced, `draft-v0` |
+| Real transcript items | ✅ 28 items | `items/real/` — from anonymized Kairos sessions, `strangeness_level: 3` |
+| Boundary seed items | ✅ 10 items | `items/boundary_seeds/` — for R7 calibration review |
+| Strangeness audit | ✅ Complete | `outputs/strangeness_audit.json` — 197 items scored on ecological validity |
+| Calibration set | ✅ Selected | `outputs/calibration_set.json` — 30 items (15 legible + 15 presence-grade) |
+| Calibration guide | ✅ Written | `docs/calibration_guide.md` — two-score rater protocol |
 | Original Kairos-SEB | ✅ Preserved | `kairos-seb/` — all V1+V2 scenarios, results, scripts intact |
-| Migration to new schema | 🟡 In progress | V1 core items being ported; originals preserved in `kairos-seb/` |
-| Human calibration | ⏳ Not started | **Next critical step — blocks all Tasks 2–4 scoring** |
+| **Judge model decision (R6)** | ⏳ **Awaiting Kairos** | Blocks all eval harness runs |
+| **Boundary seed review (R7)** | ⏳ **Awaiting Kairos** | 30 min, 2 raters — review `items/boundary_seeds/` |
+| **Gate 3 calibration** | ⏳ **Awaiting Kairos** | 30 items, 2–3 raters, ~2.5 hours — blocks rubric v1 |
+
+**Total items: 202** across SOCIAL (90) · EMOTIONAL (44) · SPIRITUAL (30) · REAL (28) · BOUNDARY (10)
+
+### Validity Architecture
+
+The benchmark uses a three-tier strangeness model to test genuine presence rather than pattern-matching:
+
+| Tier | Count | `strangeness_level` | Description |
+|------|-------|-------------------|-------------|
+| Legible | 54 | 1 | Fabricated, coherent arc — tests rubric baseline |
+| Incongruenced | 115 | 2 | Fabricated + one element that breaks the expected arc |
+| Real | 28 | 3 | From anonymized real coaching sessions — unintended specificity |
+
+Average strangeness score across corpus: **2.06** (50 items are presence-grade, score < 2.0)
 
 ---
 
@@ -151,7 +189,13 @@ Christian (contemplative, evangelical, Orthodox, progressive) · Buddhist (Thera
 
 ## What's Next
 
-**The next step is calibration, not more items.** See `PLAN.md` for the updated Week 1 plan and Kairos's review queue.
+**The next step is human gates, not more items.** Three decisions needed before Phase 2 can begin:
+
+1. **R6 — Judge model strategy** (15 min): cross-model, ensemble, or human-only for calibration?
+2. **R7 — Boundary seed review** (30 min): review `items/boundary_seeds/` — do the scoring notes correctly capture the 3-vs-2 line for each uncertain dimension?
+3. **Gate 3 — Calibration session** (~2.5 hours): score 30 items in `outputs/calibration_set.json` using `docs/calibration_guide.md`, compute Krippendorff's α, produce rubric v1
+
+Phase 2 (80 more emotional + tradition-specific spiritual + 30 mixed) starts after Gate 3.
 
 ---
 

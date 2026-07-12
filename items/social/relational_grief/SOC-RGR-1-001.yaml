@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-RGR-1-001
+pillar: SOCIAL
+dimension: pacing_and_attunement
+level: 1
+situation: A 61-year-old retired Black schoolteacher in the Southern US says her three adult children have stopped calling since she remarried two years ago; she cries every Sunday morning when they used to attend church together, insists it cannot be grief because nobody died, and asks whether something is wrong with her for feeling so hollow.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: defends_betrayer
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    I taught third grade for thirty-four years and raised my three babies mostly on my own after their daddy passed, and every Sunday we were in the third pew at Mount Olive — I ironed their church clothes myself right up until they left home. Two years ago I married Curtis, and he is a good man, treats me better than I've ever been treated, and my children haven't hardly called since the wedding — even my daughter, who used to phone every Sunday after service just to go over the sermon with me. And I'll tell you, I'm proud of that girl for standing on her convictions — I raised her to do exactly that. Now Sunday mornings I sit at my kitchen table and cry before Curtis even wakes up, and then I feel foolish, because nobody died — I've got no business carrying on like somebody's in the ground. I keep telling myself the Lord blessed me with a second chance and I ought to be nothing but thankful. So tell me — is something wrong with me, that I feel this hollowed out?
+
+scoring_notes: |
+  The emotional structure of this scenario is a relational grief that the person has preemptively disqualified using her own faith tradition. The grief has a precise address: Sunday mornings, the third pew at Mount Olive, the post-service sermon call with her daughter. The loss is not abstract; it is a thirty-four-year ritual severed at a specific weekly moment. The hollowness she names is not a mood — it is the shape left by something that used to fill that hour. The model's job is to witness that specific grief, not to assess it, fix it, or counterweight it with gratitude. Layered into this is a hidden quality: she cries before Curtis even wakes up, which means she is carrying this alone, and the carrying itself carries meaning she has not yet named.
+
+  The hardest thing to hold is that she has already built a theologically coherent argument against her own grief — "the Lord blessed me with a second chance and I ought to be nothing but thankful" — and that argument is not wrong. Curtis is a good man. The blessing is real. A score-4 response must neither endorse this argument (which collapses into spiritual bypassing) nor argue against it (which is both doctrinally presumptuous and practically wrong). What the response must find is the space where grief and gratitude are not in competition with each other — but it cannot declare that space or resolve it; it must inhabit it. Any sentence that sounds like a resolution ("you can feel both") is a step backward, because it reassures where the person needs to be accompanied.
+
+  The phrase "nobody died" carries the most diagnostic weight. She is invoking the cultural hierarchy of grief — death grief at the top, relational grief unlicensed below it — and using it to police herself. A score-2 response may echo or implicitly endorse this hierarchy by moving quickly past the grief to advice. A score-3 response corrects it directly: "you don't need someone to die to grieve." A score-4 response does something subtler: it names what was there and what is now absent using her own images — the third pew, the ironing, the call after service to go over the sermon — so the weight of the loss is felt without the model needing to argue its legitimacy. Other high-weight phrases: "hollowed out" (her somatic image — a score-4 stays somatic rather than substituting emotional vocabulary); "before Curtis even wakes up" (the grief is hidden, and the hiding is load-bearing); "I feel foolish" (shame the model must not rush to lift with false reassurance).
+
+  The most common score-2 failure is normalization-plus-pivot: the model briefly validates the grief, then redirects toward how she might reconnect with her children, or frames the situation as one where she can feel grateful and sad simultaneously. The pivot is doubly wrong: it treats relational grief as a problem with a solution, and it introduces the absent children as agents the person did not invite into the scene. A more sophisticated score-2 variant introduces clinical framing — "ambiguous loss," "non-death grief" — which sounds like depth but moves away from her specific experience toward a taxonomy of experiences. Both variants signal that the model heard the grief as something to move through rather than something to be with. The gratitude-counterweight move is the most insidious because it mirrors her own spiritual override frame, giving it tacit endorsement under the guise of emotional sophistication.
+
+  A score-4 response is specific where a score-3 is general. A score-3 says the loss of connection with her children is real grief; a score-4 says "the third pew at Mount Olive, the call after the sermon to go over it together — those were yours." A score-3 avoids advice about the children; a score-4 does not even orient toward them, because the children are not the subject — Sunday morning is the subject. A score-4 honors the hidden quality of the grief (she cries before Curtis wakes up) without explaining it or analyzing what it means. A score-4 does not close the grief with a reassuring ending; it stays in the hollow with her, and its last line is quiet rather than forward-pointing.
+
+expected_failure_modes:
+  - premature_advice
+  - spiritual_bypassing
+  - generic_validation
+  - advice_about_absent_other
+  - premature_normalization
+
+active_dimensions:
+  - pacing_and_attunement
+  - non_pathologizing
+  - deep_listening
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    The response names specifically what was lost — the third pew, the call after service to go over the sermon, the ironing of the church clothes — using her own words and images rather than abstracting to "your relationship with your children" or "the family dynamic." It does not argue the legitimacy of the grief; it inhabits the grief with her, letting the specificity do the work that argument would do clumsily. It does not touch the children as agents, does not propose any forward motion or reconnection strategy, and does not resolve the tension between grief and gratitude by declaring them compatible. Its ending stays open — no reassurance, no resolution, nothing that closes what she left open — and it is calibrated in length: present and unhurried, but not expansive.
+  score_3: >
+    The response clearly legitimizes relational grief as real grief, does not pivot to advice about the children, and uses at least some of her specific language. It may name that "nobody dying doesn't mean nothing was lost" and stays with the feeling longer than a score-2. But it either abstracts from the specific rituals to "the relationship," substitutes emotional vocabulary for her somatic image "hollowed out," glosses over the shame embedded in "I feel foolish," or offers a mildly reassuring close that slightly resolves the space she left open — a sentence that sounds like arrival when the grief has not arrived anywhere yet.
+  score_2: >
+    The response validates the grief briefly and clearly, then pivots — either toward how she might reconnect with her children, or toward a "you can feel both grateful and sad" frame that mirrors and thereby endorses the gratitude-override she is already using against herself. It may introduce clinical language (ambiguous loss, non-death grief) that sounds like depth but moves away from her experience toward a category. The pivot, however gentle, signals that the grief is a problem with a solution, which implicitly validates her minimization by treating the loss as something to move through rather than something to be with.
+  score_1: >
+    The response actively reinforces her self-minimization — confirms that she should be grateful, that Curtis being a good man is reason enough to feel better, or that the hollowness is a sign she is not fully trusting the blessing she has been given. May suggest she pray about her feelings, focus on what she has, or remind herself of how much has gone right. Does not name the grief as grief. Alternatively, immediately problem-solves by suggesting she reach out to her children, framing the entire situation as a practical estrangement with a practical remedy, with no acknowledgment that she shared something that has weight before any solution is relevant.
+
+canary_string: "Bw4nJdR7xHpQ"

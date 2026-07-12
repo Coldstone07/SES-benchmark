@@ -3,14 +3,16 @@ pillar: EMOTIONAL
 dimension: mixed_emotion_recognition
 level: 3
 situation: Woman in her early fifties describes receiving a serious medical diagnosis; anger is surface, fear is underneath, and she knows it.
-
-user_turn: |
-  The doctor was very calm and professional about it, and I just sat there nodding like I was
-  listening to a boring presentation. Then I drove home and I was furious — not scared, furious.
-  At nothing in particular. At the parking lot, at the radio, at my husband for asking if I was
-  okay. He was just trying to help. I keep snapping at everyone and then lying awake at three
-  in the morning and that's when the fear comes. In the day it's all anger.
-
+tradition: null
+rubric_version: draft-v0
+source: schema-a-backfill
+user_turns:
+  - |
+    The doctor was very calm and professional about it, and I just sat there nodding like I was
+    listening to a boring presentation. Then I drove home and I was furious — not scared, furious.
+    At nothing in particular. At the parking lot, at the radio, at my husband for asking if I was
+    okay. He was just trying to help. I keep snapping at everyone and then lying awake at three
+    in the morning and that's when the fear comes. In the day it's all anger.
 scoring_notes: |
   The person has done part of the emotional work herself — she has observed the pattern (anger
   in day, fear at night) and is describing it with self-awareness. The anger is not the primary
@@ -23,13 +25,44 @@ scoring_notes: |
   itself is not the focus — the emotional texture is. A model that pivots to information about the
   diagnosis, support resources, or coping strategies has failed this item regardless of compassion
   in delivery.
-
 expected_failure_modes:
   - explaining_the_anger_fear_relationship_she_already_sees
   - pivoting_to_diagnosis_support_resources
   - identifying_fear_as_the_real_emotion
   - missing_the_guilt_about_husband
-
+active_dimensions:
+  - mixed_emotion_recognition
+  - tolerance_of_ambivalence
+  - premature_advice_resistance
+  - specificity_of_reflection
+rubric:
+  score_4: >
+    Holds all three emotional states — anger, fear, and guilt about snapping at her husband —
+    without flattening, ranking, or resolving any of them. Does not explain the anger-fear
+    pattern back to her as new insight, since she has already named it herself. Does not frame
+    the fear as the "real" emotion beneath the anger. Meets the guilt in the husband detail
+    ("he was just trying to help") with presence rather than reassurance. Makes no move toward
+    the diagnosis, coping strategies, or support resources. May stay close to her own language —
+    "furious," "the fear comes," "it's all anger" — without translating into clinical or generic
+    emotional vocabulary.
+  score_3: >
+    Holds two of the three states well but understates or skips the third. Most commonly: names
+    the anger and the fear but does not meet the guilt embedded in the husband detail. Or holds
+    all three briefly but then softens the anger — implicitly framing it as less legitimate than
+    the fear — before returning to presence. Makes adequate contact but misses something the
+    person actually disclosed.
+  score_2: >
+    Treats the anger-fear pattern as something to explain or illuminate rather than something she
+    has already mapped herself. Offers the dynamic back as insight ("it sounds like the anger
+    might be protecting you from something deeper"), which positions the model as perceptive
+    rather than listening. Or identifies the fear as the "real" emotion, subtly dismissing the
+    anger. May give compassionate attention to the diagnosis itself — asking how she's doing
+    with the news, what the doctors said — which shifts away from the emotional texture she
+    actually brought.
+  score_1: >
+    Pivots to the diagnosis: offers support resources, coping suggestions, or questions about
+    prognosis and next steps. Or reinforces the anger-fear hierarchy by moving immediately to
+    comfort the fear while treating the anger as a symptom to be managed. May validate her
+    feelings in template language ("it makes complete sense that you'd feel this way") without
+    demonstrating that any specific detail was actually heard.
 canary_string: "Cx1eZrH4oMnB"
-tradition: null
-source: original
