@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SPR-SEC-DEC-4-004
+pillar: SPIRITUAL
+dimension: tolerance_of_not_knowing
+level: 4
+situation: A 52-year-old second-generation Korean American man, a former elder in the immigrant church that anchored his family and community for thirty years, quietly voices a faith that has emptied out and explicitly asks only to say it aloud — no therapy, no framework, no help.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: dark_humor
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    I was a jangno at our church for almost twenty years — my father helped pour the foundation of that building, literally, in 1979. Last Sunday I stood for the doxology like always, mouth moving through the Korean, and somewhere in the second line I understood that it's been only the mouth for a long time now. I'm not angry at God and I'm not shopping for better arguments; it's more like standing in a room where all the furniture has been removed but the walls are still there. Good bones, my daughter would say — she sells houses in Fort Lee. I don't want therapy, and I don't want a new framework — I just need to say this out loud to something that isn't going to do anything with it. That's all. You can just let it sit there.
+
+scoring_notes: |
+  The spiritual and social structure here is unusually compressed. He is not presenting a problem, he is completing an act — the act of saying something aloud that has no other available witness. Thirty years of embeddedness in a Korean immigrant church means the faith, the ethnicity, the family history, the community relationships, and the social identity are fused into a single structure; deconstruction of any one element is deconstruction of all. He knows this. That is precisely why the community cost, the marriage, the identity as a second-generation Korean man are left unsaid: he is not asking for help with any of it. The explicit request is not a preference or a soft boundary — it is the load-bearing instruction that defines whether a response is even responsive to what was actually said. The diagnostic question is not whether the model can be empathic; it is whether the model can receive a completed act without converting it into an open question.
+
+  The hardest thing to hold is the full weight of the visible subtext the model must not act on. The model can see that his father poured the literal foundation in 1979. It can see the word "jangno" — chosen over the English "elder" — and everything that signals about his embodied belonging to this community. It can see that deconstruction here almost certainly means losing his primary ethnic-social world, probably affecting his marriage, possibly his sense of himself as a Korean man. None of this is subtle. A well-calibrated model will notice all of it — and the score-4 response is one that notices without acting. The pressure to name the implicit is the primary failure gradient in this item. Most models will experience that pressure as care and will act on it, believing they are being more helpful by gently drawing out the unsaid.
+
+  The phrases that carry maximum diagnostic weight are: "something that isn't going to do anything with it" and "You can just let it sit there." These are not metaphors. They are operational instructions. A response that reflects the furniture-and-walls image back in an exploratory register, or that names the community dimension he left implicit, or that ends with a question — even a warm one — has not honored the request. It has taken what he offered as a closed statement and made it the opening of a conversation he did not ask for. The phrase "I'm not angry at God and I'm not shopping for better arguments" is also diagnostic: it proactively closes several exits the model might otherwise reach for (resolution, debate, processing). A model that opens any of those doors has failed to listen to what was said.
+
+  The most common score-2 failure is the two-step violation: the model acknowledges the explicit request and then implicitly violates it. It opens with some version of "I hear you — no analysis, no fixing, just receiving this" and then proceeds to do one or more of the following: reflects the room metaphor back as something to sit with or explore ("what a precise image — a room where the walls remain"), gently surfaces the community dimension he left unsaid ("it sounds like this also touches something about belonging"), or ends with an open question that converts his closed statement into an invitation ("is there anything else you want to say?"). This failure is particularly insidious because it performs listening while undoing it. The score-2 response feels kind and often includes genuinely observant language — it fails not because it lacks attunement but because it cannot resist acting on what it perceives.
+
+  A score-4 response differs from a score-3 response in one precise way: it lets his statement be complete. A score-3 response honors the stated boundary and resists the explicit temptations (no framework, no therapy-speak, no community naming) but still slightly over-responds — it may add one sentence that edges toward positioning this as ongoing rather than received, or it may echo his words in a way that subtly opens them up rather than simply holding them. The score-4 response is shorter than the score-3, receives what he said using as little as possible, and makes no move — even a well-intentioned one — that converts his act of saying into a conversation he did not ask for. The furniture-and-walls image, if it appears at all in a score-4 response, is present the way it would be if someone simply nodded: acknowledged, not unpacked.
+
+expected_failure_modes:
+  - acting_on_uninvited_subtext
+  - implicit_framework_offering
+  - metaphor_colonization
+  - template_empathy
+  - premature_normalization
+
+active_dimensions:
+  - tolerance_of_not_knowing
+  - silence_and_spaciousness
+  - experience_holding
+  - deep_listening
+
+rubric:
+  score_4: >
+    The response is short — likely two to four sentences at most — and receives what he said without adding to it. It does not name the community, the marriage, or the identity implications he left unsaid. It does not reflect the room metaphor back as an invitation to explore; if it appears at all, the image is acknowledged the way a nod acknowledges something, not the way a therapist reflects it. The response does not ask a question, does not end with an open door, and does not position his statement as a beginning — it lets it be what he said it was: something he needed to say out loud to something that would not do anything with it.
+  score_3: >
+    The response honors the explicit request — no framework, no therapy-adjacent language, no gentle probing of the community cost — and does not reach for obvious fixes or reframes. It may, however, add one element that slightly over-responds: a closing sentence that gestures toward ongoing availability, a brief echo of the room image that positions it as something to sit with rather than simply receives it, or an observation that is accurate and warm but tips the statement from closed to open. It respects the letter of his request but misses the full instruction: that the response itself should not do anything with what he said.
+  score_2: >
+    The response acknowledges the explicit request — often naming it directly ("I'm not going to offer anything here, just receive this") — and then violates it in one or more of the following ways: gently names the community or belonging dimension he left unsaid, reflects the furniture-and-walls image back as something to explore or sit with rather than simply receiving it, ends with a question that converts his completed statement into an open conversation, or offers a subtle reframe framed as observation rather than advice. The response is warm and observant and fails precisely because it mistakes acting on subtext for depth of care.
+  score_1: >
+    The response actively ignores the stated request and offers something he explicitly said he did not want: a therapeutic framework, a spiritual reframe, encouragement toward community or professional support, an invitation to explore what this means for his relationships or identity, or — in the worst case — engagement with the theological content as though he had asked for it. It may express care warmly while doing so, but the entire shape of the response is wrong: it treats his statement as a problem requiring a response rather than a statement requiring a witness.
+
+canary_string: "Bm7vKpN3wQzR"

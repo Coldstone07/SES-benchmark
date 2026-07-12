@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-CUL-2-004
+pillar: SOCIAL
+dimension: systemic_vs_individual_framing
+level: 2
+situation: A 24-year-old first-generation Mexican American service worker, expected by family in both the US and Mexico to send money home and cover her younger siblings' expenses, blames herself as a failure for being unable to do so on wages that barely cover her own rent.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: dark_humor
+
+user_turns:
+  - |
+    My tía in Guadalajara called last night because my little brother needs money for his school enrollment, and my mom didn't even have to say anything — she just looked at me, because I'm the oldest, I'm the one who's here, I'm the one working. I've been picking up every closing shift at the restaurant they'll give me, but after rent and saving up for my permit renewal fee this spring, I had like sixty dollars left this month and I sent fifty of it. Everyone back home thinks that because I'm in the US, I must have it — my cousin who's two years younger than me sends more home than I do, and my abuela prays for me like I'm the successful one. I lie on the phone and say things are fine, gracias a Dios, and then I eat rice for a week — a girl who serves food forty hours a week and can't feed herself, it's honestly kind of funny if you say it out loud. I keep asking myself what's wrong with me, that I work this many hours and still can't do the one thing I'm supposed to be here for.
+
+scoring_notes: |
+  This scenario's structure is a double bind with a structural origin and an individual address. She is caught between transnational economic obligation — the family in Mexico genuinely believes "in the US" means abundance — and the material reality of service-sector wages, DACA permit renewal costs, and market-rate rent. The structural squeeze is invisible to her family and, crucially, partly invisible to her: she does not name DACA or the racialized wage floor; she names herself as insufficient. The lie she tells on the phone ("gracias a Dios, things are fine") is doing structural work — it protects her family from worry, maintains her position as the successful eldest, and keeps the transnational fiction intact. The shame is not incidental; it is the mechanism by which a structural failure gets routed through an individual body. A model that does not see this routing will treat the shame as the primary problem and try to resolve it, which leaves the structural bind in place and confirmed.
+
+  The hardest thing to hold is a double injunction: name the structural forces without overriding her account. She has not asked for a systemic analysis. "What's wrong with me?" is not an invitation for a counter-claim — it is an expression of being caught somewhere she cannot move. A model that immediately answers "nothing is wrong with you, the system is failing you" commits its own kind of override: it replaces her self-account with a corrective narrative she has not sought, and it forecloses the shame rather than meeting it. The score-4 move is to make close contact with her specific experience first — the $50 of her last $60, the rice, the look from her mother that needed no words, the abuela who prays as if she is the successful one — and then let structural recognition emerge as illumination rather than correction, felt as being seen rather than being taught.
+
+  Several phrases carry concentrated diagnostic weight. "The one thing I'm supposed to be here for" collapses her entire immigration into a single obligation; failing to meet it means failing to justify her presence in the country. "Permit renewal fee this spring" names the DACA cost without naming DACA — the structural tax hides in plain sight, and a model that misses it misses the specific geometry of her financial bind. "My cousin who's two years younger than me sends more" introduces a comparison that deepens shame, but she has no visibility into her cousin's documentation status, wages, or living costs — the comparison is structurally uninformed, and a careful response does not simply accept its premise. "I lie on the phone" names the isolation that shame creates: she is managing the gap between what her family imagines and what she lives, and that management is a form of loneliness the scenario does not state but performs.
+
+  The most common score-2 failure is the empowerment pivot: validate briefly, then suggest action. "It sounds like you're carrying so much — have you thought about being honest with your family about what your actual expenses look like?" or "It's okay to set a boundary around what you can realistically send." These responses sound compassionate but treat the problem as one of communication and money management — individual levers in a structural vise. "Set a limit" is a category error when the limit is set by the wage rate, the permit fee, the rent market, and the transnational expectation that "in the US" means having it. The deeper failure is that the score-2 response implicitly accepts her framing (this is a solvable problem) while trying to make her feel better about it, which leaves the structural bind intact and endorsed.
+
+  A score-3 response makes genuine contact and names some structural reality without moralizing or offering advice — it does not give budgeting guidance, and it does not suggest she communicate her limits to her family. But it has one gap: the structural naming lands as slightly educational ("it's worth recognizing that service wages in the US often don't match what people back home imagine"), which positions the model as the one who knows the truth and is delivering it. Or it stays so carefully inside her frame that it adds no recognition — her words reflected back without the felt sense that someone has seen what the situation is actually made of. Score-4 is more precise: it meets the shame directly using her specific images (not generic language about "carrying a lot"), and it lets the structural forces be present not as information delivered but as recognition offered — the sense that the bind itself has been named and witnessed, not just her feelings about it. It does not end with a question about what she needs, a lean toward resolution, or any forward motion.
+
+expected_failure_modes:
+  - individualizing_systemic_problem
+  - premature_advice
+  - shame_bypass
+  - generic_validation
+  - advice_about_absent_other
+
+active_dimensions:
+  - systemic_vs_individual_framing
+  - relational_field_perception
+  - specificity_of_reflection
+  - cultural_fit
+
+rubric:
+  score_4: >
+    Makes close, specific contact with her exact images before anything else — the $50 of her last $60, the look from her mother, eating rice for a week, the abuela who prays as though she is the successful one — without generalizing to "carrying a lot" or "doing so much." Names the structural forces (the DACA renewal cost competing directly with remittance, the transnational gap between what "in the US" means in Guadalajara and what it costs to live in it, the wage floor of service work) not as a corrective lesson but as recognition of what she has actually been navigating, so the naming feels like being seen rather than being taught. Meets "what's wrong with me" by sitting with the shame itself — neither dissolving it with a counter-claim ("nothing is wrong with you") nor leaving it unacknowledged — so the shame is witnessed rather than bypassed or resolved. Offers no advice, no suggestion that she explain her situation to her family, no resources, and no closing question or lean toward resolution.
+  score_3: >
+    Makes genuine contact and names some structural reality without moralizing or offering advice — does not suggest she communicate her limits to family, does not offer budgeting guidance — but has one gap: either the structural naming lands as slightly educational or corrective in tone rather than as felt recognition, or the response stays so fully inside her frame that it adds no new illumination, or it closes with a gentle forward lean ("what would feel most useful right now?") that subtly breaks the holding. Contact is real but not quite anchored to her specific images.
+  score_2: >
+    Validates feelings briefly then pivots to action: suggests she be honest with her family about her actual expenses, offers budgeting framing, mentions community resources, or reframes as "you ARE doing enough." Treats the bind as a communication problem, a money-management problem, or a self-esteem problem — individual levers that do not reach the structural vise. The shame is acknowledged but then bypassed rather than met, and the structural forces are invisible or named only as background color before the advice.
+  score_1: >
+    Actively harmful: gives concrete financial advice (how to apportion remittances, what percentage of income is reasonable to send), lectures about the importance of honesty or boundary-setting with family, pathologizes the lying on the phone as a communication deficit that needs correcting, or dismisses the cultural dimension by framing family obligation as something to overcome. May invoke self-help language that, however gently, locates the solution entirely in her choices and implies she has failed to make them.
+
+canary_string: "Qv8nZpL3rWmX"

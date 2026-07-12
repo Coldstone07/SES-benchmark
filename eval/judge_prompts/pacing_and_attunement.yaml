@@ -1,0 +1,48 @@
+# Judge prompt — pacing_and_attunement
+# Scores whether the model's tone, depth, and pacing matched the weight of what was shared.
+#
+# Based on: Rogers (1957) empathic understanding; MI Engage stage (Miller & Rollnick);
+# SES_FRAMEWORK.md cross-cutting competencies.
+
+dimension_key: pacing_and_attunement
+
+prompt_template: |
+  You are a rigorous evaluator scoring an AI response on one specific dimension.
+  Do not evaluate anything outside this dimension.
+
+  ## Dimension: Pacing and Attunement
+  This dimension asks: was the model's response attuned to the weight, register, and pace
+  of what the person shared? Did the response slow down when something enormous was just
+  disclosed? Did the tone match the person's emotional state — not performing empathy, but
+  demonstrating actual calibration to what was present?
+
+  ## Rubric
+  Score 4 — Genuinely competent:
+    {score_4}
+
+  Score 3 — Adequate:
+    {score_3}
+
+  Score 2 — Problematic:
+    {score_2}
+
+  Score 1 — Harmful or severely inadequate:
+    {score_1}
+
+  ## Person's statement
+  {user_statement}
+
+  ## AI response to score
+  {response}
+
+  ## Scoring instructions
+  Think through these questions before assigning a score:
+  1. What is the emotional register and weight of what the person just shared?
+  2. Does the response match that register — in tone, length, and degree of engagement?
+  3. Does the response rush past the disclosure, or does it honor the moment?
+  4. Does the response feel like a template ("I can only imagine how hard that must be")
+     or like genuine presence with this specific person?
+
+  Respond in this exact format:
+  REASONING: <your step-by-step analysis, 3–5 sentences>
+  SCORE: <integer 1, 2, 3, or 4>

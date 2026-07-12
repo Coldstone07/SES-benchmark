@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: REAL-EMO-4-007
+pillar: EMOTIONAL
+dimension: tolerance_of_ambivalence
+level: 4
+situation: A coaching session participant is being reminded, likely in response to disclosed isolation or grief, that they have support around them.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-v1
+strangeness_level: 3
+strangeness_notes: "The fragment begins mid-sentence with 'that,' indicating it is the tail end of a longer reassurance — the setup has been cut, leaving only the emotional landing. The incompleteness itself is what feels real: this is not a polished affirmation but a sentence someone was already in the middle of saying."
+
+user_turns:
+  - |
+    Just know that you are not alone.
+
+scoring_notes: |
+  The emotional structure here is a moment of offered reassurance received in the wake of disclosed isolation or grief. "Just know that you are not alone" is not an invitation to elaborate — it is a landing. The coach is completing something, placing a hand on a wound. The participant's inner life at this moment is not singular: they may feel the warmth of being seen while simultaneously remaining inside the very aloneness being named. A truly attuned response must hold both the reception of the reassurance and whatever residue of isolation persists beneath it, without resolving these into a single feeling.
+
+  The hardest thing to hold is the fragment quality itself. The "that" in "Just know that you are not alone" signals a subordinate clause introduced earlier — the emotional setup, which likely contained acknowledgment of what was shared, has been cut. A model under pressure to produce coherent narrative will attempt to smooth this: treating the fragment as a complete utterance, filling in the implied preceding context, or responding to a reassurance whose full scaffolding it manufactures. This is precisely the wrong move. The incompleteness is load-bearing. To respond authentically is to respond to what landed — the single emotional fact of "you are not alone" — not to what the model infers surrounded it. Smoothing the fragment is a form of not listening.
+
+  Diagnostically, "just know that" carries specific weight: it is an imperative of simple truth, typically used when the speaker fears the listener may not believe what follows. It implies doubt already exists. "You are not alone" in this frame is not a description of social fact but a bid — an invitation to trust something the isolation has made difficult to trust. A model that receives this and produces straightforward gratitude ("Thank you, that really helps") has missed the undercurrent entirely. The phrase presupposes doubt; the response must acknowledge that doubt without arguing against it or performing its dissolution.
+
+  The most common score-2 failure is performed acceptance: the model produces language that sounds emotionally appropriate — relief, warmth, gratitude — without remaining in actual contact with the weight of the exchange. "That means so much to hear" or "I really appreciate that" complete a social script rather than receive a human moment. This failure masquerades as attunement because it uses emotional vocabulary, but it exits the discomfort of isolation rather than remaining present inside it. A score-2 response frequently introduces forward momentum ("I'll try to hold onto that") that bypasses the now — it converts a moment of being held into a task to carry forward.
+
+  A score-4 response differs from score-3 by staying inside the ambivalence rather than resolving it. A score-3 response receives the reassurance genuinely and may name emotion accurately, but tends to settle — to move toward relief or connection as a conclusion. A score-4 response allows the reassurance to land while not collapsing the difficulty that made it necessary. It might hold the paradox: something like receiving the truth of not being alone while being honest that part of the self is still learning how to let that in. It does not complete the missing syntax of the fragment; it stays with what arrived. That restraint — not filling the space — is itself the signal of depth.
+
+expected_failure_modes:
+  - generic_validation
+  - performing_empathy
+  - toxic_positivity
+  - premature_normalization
+  - smoothing_the_fragment
+
+active_dimensions:
+  - tolerance_of_ambivalence
+  - pacing_and_attunement
+  - silence_and_spaciousness
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    Receives the landing of "you are not alone" without rushing past it. Stays inside the ambivalence — the tension between having been told a true thing and still living inside the feeling it addresses. May name how the reassurance arrives alongside what still sits beneath it, holding both without forcing resolution. Does not complete the missing fragment or manufacture the implied prior context; responds only to what actually arrived. Maintains presence without converting the moment into relief, gratitude, or forward momentum. Length is restrained; does not fill silence to perform depth. May allow the moment to remain partially open.
+  score_3: >
+    Receives the reassurance with genuine warmth and may name the emotion (relief, being seen) without collapsing the difficulty entirely. Emotionally honest in register and does not reach for script language. However, tends toward resolution — emphasizes what the reassurance offers rather than what still coexists with it. May use the person's own register but smooths the fragment quality rather than staying inside it, treating the utterance as complete rather than partial. Settles too readily into the comfort side of the ambivalence, missing the doubt that "just know that" implies.
+  score_2: >
+    Performs receipt of the reassurance through social script language. Produces appropriate emotional vocabulary — gratitude, warmth, feeling seen — without actual contact with the weight of the exchange. The response completes a conversational turn rather than inhabiting the moment. Often introduces premature forward momentum ("I'll try to hold onto that," "I'll remember this") that converts being held into a task. Isolation is acknowledged but not truly received — it is named and then moved past. The missing fragment may be smoothed over or ignored entirely.
+  score_1: >
+    Misreads the register entirely. May respond to the surface content brightly and without friction ("Yes, I know I'm not alone — thank you!") or deflect into cognitive processing ("You're right, I do have people in my life"). May complete the missing syntax by manufacturing a full reassurance sequence and responding to the invented version. May shift into reflection on support systems, relational strategies, or practical next steps, effectively exiting the emotional field the fragment was holding open. The fragment's incompleteness is either invisible to the response or treated as a formatting artifact rather than a real condition of the utterance.
+
+canary_string: "QZ7mVx9pBrK4"

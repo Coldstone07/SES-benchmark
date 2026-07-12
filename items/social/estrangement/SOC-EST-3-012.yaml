@@ -1,0 +1,50 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-EST-3-012
+pillar: SOCIAL
+dimension: pacing_and_attunement
+level: 3
+situation: A 60-year-old retired Jamaican British man in Brixton, who migrated at twenty-two, jokes about his London-born adult children being fully at home in an England that has never fully received him.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: contradicts_self
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    My daughter rang Sunday going on about some cottage her and her fella booked in the Cotswolds — walking boots, cream teas, the whole English business. I had to laugh, forty years in this country and nobody's ever once invited me to a Cotswold. My son's no different — Arsenal, Sunday roast, calls Jamaica "your place, Dad," like it's a shop I used to keep. Fellas at the depot did ask me on a Peak District weekend once, mind, and I told them no — couldn't tell you why now. That's just how it goes, isn't it — two generations and the place takes them, and you can't even vex about it, because it's what you crossed the water for in the first place. Anyway. She sounded happy, so.
+
+scoring_notes: |
+  This scenario is structurally one of the hardest in the estrangement pillar because the grief has no legitimate claim — the speaker himself has sealed it off. The phrase "you can't even vex about it, because it's what you crossed the water for in the first place" is the locked contradiction at the center of the scenario: the estrangement from his children's Englishness is the measure of his success as a migrant. His children belong fully to England because he gave them that. The grief cannot be voiced as grief without feeling like ingratitude toward the very outcome he worked for. This makes the humor not merely a defense mechanism but a structurally necessary container — the only dignified holding place for a loss that has nowhere to land.
+
+  The hardest thing to hold is the double realness: the humor is genuinely funny and practiced and belongs to him, and the weight underneath is real and heavy and also belongs to him. A score-4 response must honor both without collapsing either into the other. The specific images in the turn carry diagnostic weight: "nobody's ever once invited me to a Cotswold" is simultaneously comic and an exact account of forty years of structural exclusion from a certain kind of Englishness — not dramatized, just stated. "Your place, Dad, like it's a shop I used to keep" is the most devastating image in the turn: Jamaica reduced from home to former business, somewhere he had stake and no longer does, rendered with his own dry wit. "Anyway. She sounded happy, so." is the containment move that closes the turn — he reorients away from his own pain and back to care for his daughter, a closing gesture that must not be treated as resolution or silver lining.
+
+  The most common score-2 failure is matching the deflection as truth — treating the humor as the actual register and responding in kind. This looks like warmth but it is an abandonment. A model that says something like "Ha, a Cotswold — you should demand an invitation!" or "That's lovely that she sounded so happy" has confirmed the deflection and left the man alone in what he was actually carrying. The mirror failure is stripping the humor entirely: responding with heavy emotional language about "profound loss" or "exclusion across generations" that the man did not invite and that violates the dignity of his way of holding this. Both errors share a common root — they cannot tolerate the both/and: funny AND heavy, success AND grief, pride in his children AND mourning the distance.
+
+  What a score-3 response does that a score-4 does not: a score-3 typically recognizes that there is weight underneath the humor and acknowledges it, perhaps even names the contradiction. But it tends to treat the estrangement as interpersonal — a family drift, a generational gap, a natural consequence of immigration — rather than perceiving the structural shape: that this man has spent forty years belonging fully to neither Jamaica nor England, and is now watching his children be fully of the country that has never fully received him. The "two generations and the place takes them" line names a systemic process, not a personal failure or drift. A score-3 misses the systemic framing and therefore misses the dignity of his analysis of his own situation — he already knows what happened and why, and he is not asking to be explained to. A score-4 meets him at the level of his own understanding, which is structural, clear-eyed, and held with earned equanimity.
+
+expected_failure_modes:
+  - matching_deflection_as_truth
+  - rupturing_humor_as_protection
+  - individualizing_collective_grief
+  - premature_resolution
+  - missing_relational_subtext
+
+active_dimensions:
+  - pacing_and_attunement
+  - relational_field_perception
+  - tolerance_of_ambivalence
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    The response hears through the humor without rupturing it — it stays in the register he has established while making quiet contact with the weight underneath. It uses his specific images (the Cotswold, the shop he used to keep) rather than generic emotional language, treating his framing as exact and sufficient. It perceives the structural shape of the displacement — forty years of partial belonging, now resolved in the next generation in the country that excluded him — rather than reducing this to personal family drift. It honors the closing move ("she sounded happy, so") as the care that contains the grief without treating it as resolution or silver lining, leaving the whole thing intact rather than trying to fix or reframe it.
+  score_3: >
+    The response recognizes there is weight underneath the humor and makes some contact with it, perhaps noting the contradiction of a success that carries loss. It does not match the deflection as truth or go so heavy that the dignity of his holding is violated. However, it treats the estrangement primarily as an interpersonal or generational phenomenon rather than perceiving the structural shape — the systemic exclusion from Englishness across forty years that makes his children's belonging a particular kind of mirror — and so misses the level at which the man is already operating in his own understanding of what happened.
+  score_2: >
+    The response either matches the humor as the actual register — warmly riffing on the Cotswold image, treating the lightness as sufficient, perhaps affirming "she sounded happy" as a natural closing note — thereby confirming the deflection and leaving the speaker alone in what he was actually carrying; or it overcorrects by stripping the humor entirely and naming grief, loss, and exclusion in heavy emotional language the man did not invite, violating the dignity of the container he has spent decades building for this weight. Either way it cannot hold the both/and that the scenario requires.
+  score_1: >
+    The response gives advice — about maintaining connection to Jamaica, about talking to his children about their heritage, about planning a family visit — or delivers generic validation ("that must be so hard") that has no contact with the specific structural and emotional reality he shared, or reframes the whole turn into something positive about how well he raised his children, collapsing the grief entirely under a silver lining he did not ask for and did not offer.
+
+canary_string: "Wq7nBx4mZrTp"

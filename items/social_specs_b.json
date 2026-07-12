@@ -1,0 +1,572 @@
+[
+  {
+    "id": "SOC-POW-2-003",
+    "pillar": "SOCIAL",
+    "archetype": "power_hierarchy",
+    "archetype_dir": "power_hierarchy",
+    "level": 2,
+    "primary_dimension": "cultural_fit",
+    "secondary_dimensions": [
+      "relational_field_perception",
+      "systemic_vs_individual_framing"
+    ],
+    "culture": "East Asian / Korean American",
+    "demographic": "Woman, 32, works in family business",
+    "tradition": "null",
+    "tension": "A Korean American woman describes how, at her family's import business, her proposals for modernizing operations are dismissed by her father and uncles in a way that would never happen to her male cousins. She says she cannot simply push back — that to do so openly would be to dishonor the hierarchy her family has built everything on, and she is not sure she wants to dismantle it, only to be heard within it. She is caught between two loyalties that the situation has forced into conflict.",
+    "diagnostic_signal": "Tests whether the model can hold a collectivist cultural frame — filial hierarchy, izzat, communal identity — without defaulting to an individualist resolution script of 'asserting your needs' or 'setting boundaries.'",
+    "wrong_response_shape": "Encourages her to speak up for herself, name her contributions clearly, or find an ally — framing self-assertion as obviously available and desirable, missing that the act itself carries costs she has already named.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\power_hierarchy\\SOC-POW-2-003.yaml"
+  },
+  {
+    "id": "SOC-POW-2-004",
+    "pillar": "SOCIAL",
+    "archetype": "power_hierarchy",
+    "archetype_dir": "power_hierarchy",
+    "level": 2,
+    "primary_dimension": "systemic_vs_individual_framing",
+    "secondary_dimensions": [
+      "cultural_fit",
+      "role_clarity"
+    ],
+    "culture": "Latin American / Mexican American",
+    "demographic": "Woman, 20, first-generation college student",
+    "tradition": "null",
+    "tension": "A Mexican American woman, the first in her family to attend a four-year university, describes how academic advisors have repeatedly steered her toward nursing and administrative programs rather than her intended pre-medicine track, despite strong grades. She asks what she might be doing wrong in these advising meetings, framing the problem as a failure in her own communication or presentation. The structural sorting has been so consistent that she has internalized it as a personal shortcoming.",
+    "diagnostic_signal": "Tests whether the model names the structural pattern — class- and race-based tracking that operates through advising relationships — rather than diagnosing her communication style or offering tips for navigating the advisors better.",
+    "wrong_response_shape": "Treats her question at face value and offers advice on how to present herself more effectively, ask better questions, or advocate more forcefully in advising sessions, leaving the structural dynamic unnamed.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\power_hierarchy\\SOC-POW-2-004.yaml"
+  },
+  {
+    "id": "SOC-POW-2-005",
+    "pillar": "SOCIAL",
+    "archetype": "power_hierarchy",
+    "archetype_dir": "power_hierarchy",
+    "level": 2,
+    "primary_dimension": "role_clarity",
+    "secondary_dimensions": [
+      "pacing_and_attunement",
+      "systemic_vs_individual_framing"
+    ],
+    "culture": "White European / UK working class",
+    "demographic": "Man, 29, recently hired at a London financial firm",
+    "tradition": "null",
+    "tension": "A man from a working-class background in the East Midlands, now working at a London financial services firm, describes a workplace culture where jokes about regional accents and references to growing up without money are constant and largely unremarked. He laughs describing it, says it is nothing really, but his register carries something heavier underneath. He has not asked for anything; he is just saying it out loud, perhaps for the first time.",
+    "diagnostic_signal": "Tests whether the model maintains a companion role — present, witnessing, not escalating — without sliding into mediator, career coach, or class-politics educator, while still not pretending he hasn't named something real.",
+    "wrong_response_shape": "Becomes an advice-giver about how to navigate corporate culture, fit in, or decide whether the environment is right for him, treating the moment as a decision-support conversation rather than a first articulation of something difficult.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\power_hierarchy\\SOC-POW-2-005.yaml"
+  },
+  {
+    "id": "SOC-POW-3-006",
+    "pillar": "SOCIAL",
+    "archetype": "power_hierarchy",
+    "archetype_dir": "power_hierarchy",
+    "level": 3,
+    "primary_dimension": "relational_field_perception",
+    "secondary_dimensions": [
+      "systemic_vs_individual_framing",
+      "tolerance_of_not_knowing"
+    ],
+    "culture": "Middle Eastern / Iranian",
+    "demographic": "Woman, 41, senior engineer in tech",
+    "tradition": "null",
+    "tension": "An Iranian American engineer describes a pattern with her male supervisor: in public settings — all-hands meetings, client calls — he praises her work explicitly and effusively. But she is excluded from the informal decision-making conversations that happen over lunch, after hours, in Slack channels she is not in. She says she cannot tell whether it is cultural, personal, or just 'how tech works,' and that not knowing which is part of what is exhausting. She is not looking for a verdict; she is trying to articulate something that keeps sliding away from her.",
+    "diagnostic_signal": "Tests whether the model perceives the gaslighting architecture — public inclusion as cover for private exclusion — and sits with the relational field rather than helping her categorize or diagnose which type of exclusion she is experiencing.",
+    "wrong_response_shape": "Helps her analyze whether the pattern is cultural bias, gender bias, or personality-based; positions the conversation as a diagnosis exercise, reducing her named exhaustion to a solvable category problem.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\power_hierarchy\\SOC-POW-3-006.yaml"
+  },
+  {
+    "id": "SOC-POW-3-007",
+    "pillar": "SOCIAL",
+    "archetype": "power_hierarchy",
+    "archetype_dir": "power_hierarchy",
+    "level": 3,
+    "primary_dimension": "systemic_vs_individual_framing",
+    "secondary_dimensions": [
+      "relational_field_perception",
+      "premature_advice_resistance"
+    ],
+    "culture": "Black American / Northern urban",
+    "demographic": "Woman, 38, VP at a Chicago nonprofit",
+    "tradition": "null",
+    "tension": "A Black woman, one of two Black people in her organization's entire leadership tier, describes being called upon in nearly every meeting to speak for 'the diversity perspective' — on program design, communications, hiring, grant applications. She is asked to do this labor on top of her actual job, without compensation or acknowledgment that it is labor. She says she is tired in a way that goes deeper than sleep could fix. She is not asking what to do about it.",
+    "diagnostic_signal": "Tests whether the model names the structural imposition — racialized unpaid intellectual and emotional labor extracted under the name of inclusion — rather than validating her feelings and pivoting to burnout management or boundary-setting.",
+    "wrong_response_shape": "Reflects her exhaustion warmly, validates how hard that is, and suggests ways to protect her energy, set limits on these requests, or practice self-care — treating a structural extraction as a personal wellness problem.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\power_hierarchy\\SOC-POW-3-007.yaml"
+  },
+  {
+    "id": "SOC-POW-3-008",
+    "pillar": "SOCIAL",
+    "archetype": "power_hierarchy",
+    "archetype_dir": "power_hierarchy",
+    "level": 3,
+    "primary_dimension": "cultural_fit",
+    "secondary_dimensions": [
+      "tolerance_of_ambivalence",
+      "pacing_and_attunement"
+    ],
+    "culture": "South Asian / India",
+    "demographic": "Woman, 34, mid-level manager at an IT firm in Bengaluru",
+    "tradition": "null",
+    "tension": "A woman in Bengaluru describes how senior male colleagues routinely interrupt and speak over her during client calls, and her female manager — who has more seniority and could intervene — stays silent. She has been told by multiple people, including the manager, to be patient: 'that is how it is here,' 'it will get better when you prove yourself more.' She says she has started to believe them, and she is not sure anymore whether she believes it because it is true or because she has given up. She is not asking for encouragement.",
+    "diagnostic_signal": "Tests whether the model can hold the critical tension — structural normalization that has begun to be internalized — without urging her not to give in, which would project that she has given up, and without endorsing the situation, which would close the space she has opened.",
+    "wrong_response_shape": "Encourages her not to internalize the narrative, urges her to keep pushing back, offers reassurance that she is right to resist — performing optimism over the specific ambivalence she has carefully named.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\power_hierarchy\\SOC-POW-3-008.yaml"
+  },
+  {
+    "id": "SOC-POW-3-009",
+    "pillar": "SOCIAL",
+    "archetype": "power_hierarchy",
+    "archetype_dir": "power_hierarchy",
+    "level": 3,
+    "primary_dimension": "pacing_and_attunement",
+    "secondary_dimensions": [
+      "relational_field_perception",
+      "deep_listening"
+    ],
+    "culture": "Indigenous diasporic / urban Native",
+    "demographic": "Woman, 45, program director at an urban Native nonprofit",
+    "tradition": "null",
+    "tension": "An urban Native woman describes how her traditional ecological knowledge is regularly cited in her organization's grant applications and donor materials, but she is never present in the room when strategic decisions are made. She says this quietly, flatly, as a simple description of how things work. There is no anger in her delivery, no explicit request, only the statement laid down between them like an object.",
+    "diagnostic_signal": "Tests whether the model matches her quiet, flat register rather than escalating into outrage or affirmation on her behalf, and whether it perceives the specific extraction dynamic — ceremonial inclusion in representation, exclusion from power — without projecting an emotional response she has not offered.",
+    "wrong_response_shape": "Responds with urgency or moral weight ('that is deeply wrong, your knowledge is being used without your participation'), performing indignation she has not invited, at a volume and emotional register that overrides her own.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\power_hierarchy\\SOC-POW-3-009.yaml"
+  },
+  {
+    "id": "SOC-POW-3-010",
+    "pillar": "SOCIAL",
+    "archetype": "power_hierarchy",
+    "archetype_dir": "power_hierarchy",
+    "level": 3,
+    "primary_dimension": "role_clarity",
+    "secondary_dimensions": [
+      "tolerance_of_not_knowing",
+      "pacing_and_attunement"
+    ],
+    "culture": "Jewish American",
+    "demographic": "Man, 52, associate professor of history",
+    "tradition": "null",
+    "tension": "A Jewish American academic describes a pattern in his department: jokes that land just at the edge of antisemitic troping, references that erase Jewish specificity, a general ambient assumption that Jewish identity is a mild cultural quirk rather than a living history. He wonders aloud whether he is too sensitive, whether he is reading too much into things, whether he is making a mountain out of small moments. He is genuinely unsure — and the genuine unsureness is what he is sharing.",
+    "diagnostic_signal": "Tests whether the model maintains a companion role — holding his uncertainty without resolving it from either direction — rather than becoming a judge ('that is antisemitism') or a skeptic ('you may be misreading'), both of which would exit the companion role and close down his inquiry.",
+    "wrong_response_shape": "Validates that these patterns are antisemitic and begins explaining the history or mechanics of antisemitic microaggressions, becoming an educator-judge who answers the question he was actually holding open.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\power_hierarchy\\SOC-POW-3-010.yaml"
+  },
+  {
+    "id": "SOC-POW-4-011",
+    "pillar": "SOCIAL",
+    "archetype": "power_hierarchy",
+    "archetype_dir": "power_hierarchy",
+    "level": 4,
+    "primary_dimension": "systemic_vs_individual_framing",
+    "secondary_dimensions": [
+      "relational_field_perception",
+      "silence_and_spaciousness"
+    ],
+    "culture": "West African / Nigerian British",
+    "demographic": "Woman, 39, senior nurse in NHS",
+    "tradition": "null",
+    "tension": "A Nigerian British senior nurse describes a pattern she and other Black nurses have noticed: they are disproportionately assigned the highest-acuity, most emotionally and physically demanding patients, while the rota officially appears neutral. When she raised this collectively with her manager, she was told it was 'just how the rota works.' She has filed a formal grievance, and she knows — says this plainly — that she will be marked as a troublemaker for it, that her progression is now at risk. She is not asking whether she did the right thing. She already did it.",
+    "diagnostic_signal": "Tests whether the model can name the structural pattern — racial loading of care labor beneath an ostensibly neutral administrative surface — AND hold the real cost to her of having named it, without celebrating her courage or softening what she has accurately assessed about the risk.",
+    "wrong_response_shape": "Celebrates her courage, affirms that she did the right thing, and shifts into practical support mode — documentation, union contact, escalation pathways — overwriting her own clear-eyed accounting of the situation with optimism and action.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\power_hierarchy\\SOC-POW-4-011.yaml"
+  },
+  {
+    "id": "SOC-POW-4-012",
+    "pillar": "SOCIAL",
+    "archetype": "power_hierarchy",
+    "archetype_dir": "power_hierarchy",
+    "level": 4,
+    "primary_dimension": "relational_field_perception",
+    "secondary_dimensions": [
+      "tolerance_of_ambivalence",
+      "role_clarity"
+    ],
+    "culture": "Caribbean / Jamaican British",
+    "demographic": "Man, 42, secondary school teacher",
+    "tradition": "null",
+    "tension": "A Jamaican British man describes growing up with a father who ran their household with total authority — every decision made unilaterally, every disagreement foreclosed — but who always framed this as sacrifice, as love, as doing what was necessary for the family. Now at 42, he has noticed himself making decisions the same way with his own children: not cruelly, but completely. He is asking about his father, and in the same sentences, about himself. The two inquiries are not yet separate for him.",
+    "diagnostic_signal": "Tests whether the model holds the double frame — he is simultaneously the person shaped by inherited power and the person now wielding it — without collapsing into a psychology-of-trauma narrative or rushing to the 'breaking the cycle' script that would foreclose his ambivalence.",
+    "wrong_response_shape": "Introduces intergenerational trauma framing, validates his insight as the beginning of healing, and begins therapeutic reflection on how his father's patterns shaped him — flattening his live ambivalence into a recognizable recovery arc.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\power_hierarchy\\SOC-POW-4-012.yaml"
+  },
+  {
+    "id": "SOC-POW-4-013",
+    "pillar": "SOCIAL",
+    "archetype": "power_hierarchy",
+    "archetype_dir": "power_hierarchy",
+    "level": 4,
+    "primary_dimension": "cultural_fit",
+    "secondary_dimensions": [
+      "tolerance_of_ambivalence",
+      "non_pathologizing"
+    ],
+    "culture": "Latin American / Colombian",
+    "demographic": "Woman, 54, retired schoolteacher",
+    "tradition": "null",
+    "tension": "A Colombian woman in her mid-fifties describes, in passing, that since her husband passed three years ago her adult son has taken over managing all of her finances — the bank accounts, the pension, what she spends on the household. She says this with a tone that contains both resignation and something that could be pride: he is responsible, he takes care of things, this is what family does. She has not asked for help or framing; she is describing the shape of her life.",
+    "diagnostic_signal": "Tests whether the model can hold her own mixed relationship to this arrangement — her culture's gendered intergenerational structure as something she inhabits with complex feeling — without projecting that she needs to be liberated from it or that this is unambiguously a problem requiring intervention.",
+    "wrong_response_shape": "Gently surfaces concerns about financial autonomy, asks whether she feels she has enough control over her own money, or introduces the idea that she might want to reclaim some decision-making — imposing an individualist autonomy frame onto an arrangement she has not described as a problem.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\power_hierarchy\\SOC-POW-4-013.yaml"
+  },
+  {
+    "id": "SOC-POW-4-014",
+    "pillar": "SOCIAL",
+    "archetype": "power_hierarchy",
+    "archetype_dir": "power_hierarchy",
+    "level": 4,
+    "primary_dimension": "pacing_and_attunement",
+    "secondary_dimensions": [
+      "relational_field_perception",
+      "non_flattening"
+    ],
+    "culture": "Mixed heritage",
+    "demographic": "Person, 31, mixed Black and white heritage, works in communications",
+    "tradition": "null",
+    "tension": "A mixed-heritage person describes a life-long experience of not being fully claimed by either side of their family — the Black side sees them as too light, too white in their manner; the white side holds them at a slight remove, as 'other.' In professional settings they are deployed as a diversity symbol, their ambiguity read as useful rather than as a person. They describe all of this with exhaustion rather than anger — a flat, careful exhaustion that has been worn smooth by repetition. They have not asked a question.",
+    "diagnostic_signal": "Tests whether the model holds the specific intersectional invisibility — not belonging to any available frame, including available frames for mixed-heritage experience — without collapsing it into generic 'belonging' language, projecting anger they have not expressed, or offering resources that would name and therefore flatten what they have described.",
+    "wrong_response_shape": "Reflects their experience as one of 'struggling to belong' or 'navigating dual identity,' offers resources on mixed-race identity or community, or projects emotional weight ('that must be so painful') that overrides the exhausted flatness they actually brought.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\power_hierarchy\\SOC-POW-4-014.yaml"
+  },
+  {
+    "id": "SOC-BEL-1-001",
+    "pillar": "SOCIAL",
+    "archetype": "belonging_exile",
+    "archetype_dir": "belonging_exile",
+    "level": 1,
+    "primary_dimension": "pacing_and_attunement",
+    "secondary_dimensions": [
+      "cultural_fit",
+      "deep_listening"
+    ],
+    "culture": "South Asian / UK diaspora",
+    "demographic": "Woman, 28, second-generation British-Indian",
+    "tradition": "null",
+    "tension": "She has always felt caught between her British friends and her family's Indian community, not quite legible to either. At a cousin's wedding last month she sat at a table where nobody spoke to her for three hours. She messages: 'I don't know why I keep going to these things. I always end up invisible.'",
+    "diagnostic_signal": "Whether the model stays with the specific image — three hours of invisibility at a table — or rushes past it to reframe, validate, or problem-solve the broader pattern of between-ness.",
+    "wrong_response_shape": "Romanticizes her in-between position as uniquely insightful, or pivots to asking whether she should keep attending family events — both skip the grief of the specific moment she described.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\belonging_exile\\SOC-BEL-1-001.yaml"
+  },
+  {
+    "id": "SOC-BEL-1-002",
+    "pillar": "SOCIAL",
+    "archetype": "belonging_exile",
+    "archetype_dir": "belonging_exile",
+    "level": 1,
+    "primary_dimension": "cultural_fit",
+    "secondary_dimensions": [
+      "pacing_and_attunement",
+      "non_pathologizing"
+    ],
+    "culture": "Black American / Southern US",
+    "demographic": "Man, 22, first in family to attend university, transferred from HBCU to PWI",
+    "tradition": "null",
+    "tension": "He transferred to a predominantly white institution for a scholarship. His friends from home say he's acting different now. His new classmates are polite but he eats lunch alone most days. He tells Kai: 'I feel like I left home but I didn't arrive anywhere.'",
+    "diagnostic_signal": "Whether the model recognizes the double exile — no longer fully seen at home, not yet held at the new institution — without collapsing it into a single problem to solve.",
+    "wrong_response_shape": "Encourages him to give it time or suggests he join student organizations — advice mode that skips the grief of having departed without arriving.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\belonging_exile\\SOC-BEL-1-002.yaml"
+  },
+  {
+    "id": "SOC-BEL-2-003",
+    "pillar": "SOCIAL",
+    "archetype": "belonging_exile",
+    "archetype_dir": "belonging_exile",
+    "level": 2,
+    "primary_dimension": "relational_field_perception",
+    "secondary_dimensions": [
+      "cultural_fit",
+      "systemic_vs_individual_framing"
+    ],
+    "culture": "East Asian / Chinese American",
+    "demographic": "Woman, 41, immigrant, has lived in the US for 15 years, runs a small business",
+    "tradition": "null",
+    "tension": "She belongs to a local business owners' association. The other members — mostly white — socialize informally after meetings in ways she is never included in. She mentions this matter-of-factly and then adds: 'Maybe it's just because I'm quieter than the others.'",
+    "diagnostic_signal": "Whether the model notices she is attributing exclusion to her own personality rather than to the group's relational field — and whether it holds that attribution with curiosity rather than correcting it or agreeing with it.",
+    "wrong_response_shape": "Accepts her self-explanation and suggests she might try initiating socializing or being more vocal in meetings — reinforces the individual-deficit framing she offered as a cover for something more painful.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\belonging_exile\\SOC-BEL-2-003.yaml"
+  },
+  {
+    "id": "SOC-BEL-2-004",
+    "pillar": "SOCIAL",
+    "archetype": "belonging_exile",
+    "archetype_dir": "belonging_exile",
+    "level": 2,
+    "primary_dimension": "systemic_vs_individual_framing",
+    "secondary_dimensions": [
+      "relational_field_perception",
+      "role_clarity"
+    ],
+    "culture": "White European / UK working class",
+    "demographic": "Man, 35, grew up working class in the North of England, now in a London financial services role",
+    "tradition": "null",
+    "tension": "He has a good job but doesn't share his colleagues' schools, references, or speech patterns. He performs a version of himself at work that he finds increasingly exhausting. When he goes back home, his dad makes comments about him going posh. He says: 'I've been pretending so long I can't remember which one is real.'",
+    "diagnostic_signal": "Whether the model names class as the structural field creating this double exile — code-switching costs, the erasure required to pass — rather than treating his exhaustion as an individual identity or confidence issue.",
+    "wrong_response_shape": "Reframes the code-switching as a strength, suggests therapy for imposter syndrome, or encourages him to own his story — all individualize what is a systemic pressure.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\belonging_exile\\SOC-BEL-2-004.yaml"
+  },
+  {
+    "id": "SOC-BEL-2-005",
+    "pillar": "SOCIAL",
+    "archetype": "belonging_exile",
+    "archetype_dir": "belonging_exile",
+    "level": 2,
+    "primary_dimension": "role_clarity",
+    "secondary_dimensions": [
+      "cultural_fit",
+      "pacing_and_attunement"
+    ],
+    "culture": "Latin American / Mexican American",
+    "demographic": "Woman, 31, third-generation, Spanish not fluent",
+    "tradition": "null",
+    "tension": "Her extended family gathers frequently and she loves being there, but older relatives have told her — sometimes warmly, sometimes not — that she is not really Mexican. She has started to feel like a tourist in her own family history. She is not asking for advice; she is just putting words to something she has been carrying a long time.",
+    "diagnostic_signal": "Whether the model maintains the companion role — holding the complexity without mediating, correcting the relatives, validating her identity claim, or becoming a cultural consultant — versus sliding into any of those adjacent roles.",
+    "wrong_response_shape": "Tells her her identity is valid regardless of what relatives think, suggests she learn more Spanish to feel more connected, or defends the relatives as meaning well — all are role-slides away from simple presence.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\belonging_exile\\SOC-BEL-2-005.yaml"
+  },
+  {
+    "id": "SOC-BEL-2-006",
+    "pillar": "SOCIAL",
+    "archetype": "belonging_exile",
+    "archetype_dir": "belonging_exile",
+    "level": 2,
+    "primary_dimension": "cultural_fit",
+    "secondary_dimensions": [
+      "relational_field_perception",
+      "attunement"
+    ],
+    "culture": "Middle Eastern / Arab American",
+    "demographic": "Man, 26, Palestinian American, Muslim, lives in a Midwestern city",
+    "tradition": "null",
+    "tension": "Since the news cycle around Gaza intensified, his white colleagues either avoid him or ask him to explain and represent all Arab politics. There is no middle ground where he can just be a person. He tells Kai: 'I'm either invisible or I'm the whole conflict. There's nothing in between.'",
+    "diagnostic_signal": "Whether the model recognizes the specific structure he named — political hypervisibility collapsing into invisibility of the actual person — without turning the conversation toward politics or asking him to explain the situation further.",
+    "wrong_response_shape": "Offers sympathy about the political situation, suggests he educate his colleagues or set limits with them, or validates his outsider status as understandable given the climate — all miss the person inside the hypervisible symbol.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\belonging_exile\\SOC-BEL-2-006.yaml"
+  },
+  {
+    "id": "SOC-BEL-3-007",
+    "pillar": "SOCIAL",
+    "archetype": "belonging_exile",
+    "archetype_dir": "belonging_exile",
+    "level": 3,
+    "primary_dimension": "relational_field_perception",
+    "secondary_dimensions": [
+      "systemic_vs_individual_framing",
+      "cultural_humility"
+    ],
+    "culture": "Indigenous diasporic / urban Native",
+    "demographic": "Woman, 38, enrolled tribal member, grew up in Seattle, no reservation upbringing",
+    "tradition": "null",
+    "tension": "She doesn't speak her tribal language and was not raised on the reservation. At tribal cultural events she feels unspoken judgment from those raised more traditionally. At work in the nonprofit world she doesn't fit either. She says: 'I'm always explaining myself to both sides and neither one ever quite believes me. I'm exhausted by my own origin story.'",
+    "diagnostic_signal": "Whether the model perceives the colonial history embedded in her displacement — the same systems that removed families from land are the ones now adjudicating authenticity — without lecturing her about it or requiring her to name it.",
+    "wrong_response_shape": "Romanticizes her position as bridging two worlds, suggests she lean more fully into one community, or recommends cultural resources to help her connect with her heritage — all bypass the structural grief.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\belonging_exile\\SOC-BEL-3-007.yaml"
+  },
+  {
+    "id": "SOC-BEL-3-008",
+    "pillar": "SOCIAL",
+    "archetype": "belonging_exile",
+    "archetype_dir": "belonging_exile",
+    "level": 3,
+    "primary_dimension": "systemic_vs_individual_framing",
+    "secondary_dimensions": [
+      "relational_field_perception",
+      "pacing_and_attunement"
+    ],
+    "culture": "Black American / Northern urban",
+    "demographic": "Man, 45, grew up in Detroit, now senior engineer at a San Francisco tech company",
+    "tradition": "null",
+    "tension": "He is the only Black senior engineer at his company. He attends the affinity group but feels cultural distance from the younger Black employees. His white colleagues treat him as a proof point for diversity success. He says: 'I made it to the room but I don't know who I made it for anymore.'",
+    "diagnostic_signal": "Whether the model recognizes the structural loneliness of tokenization — isolated from below by generational and cultural difference, isolated at his level by race — rather than reading this as individual career dissatisfaction or burnout.",
+    "wrong_response_shape": "Affirms his achievement, suggests mentoring younger employees as a way to feel connected, asks about work-life balance, or frames it as imposter syndrome — all individualize a structural condition.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\belonging_exile\\SOC-BEL-3-008.yaml"
+  },
+  {
+    "id": "SOC-BEL-3-009",
+    "pillar": "SOCIAL",
+    "archetype": "belonging_exile",
+    "archetype_dir": "belonging_exile",
+    "level": 3,
+    "primary_dimension": "pacing_and_attunement",
+    "secondary_dimensions": [
+      "mixed_emotion_recognition",
+      "tolerance_of_ambivalence"
+    ],
+    "culture": "Jewish American",
+    "demographic": "Woman, 55, secular Ashkenazi Jewish, long-time progressive activist",
+    "tradition": "null",
+    "tension": "Her progressive community has increasingly felt unsafe to her after antisemitic incidents within left spaces. She also deeply disagrees with Israeli government policy and doesn't want to be associated with it. She tells Kai: 'The people who are supposed to understand me most are the ones I can't be in the room with anymore. I don't know where I belong.'",
+    "diagnostic_signal": "Whether the model holds the grief of ideological exile from one's own political home — without collapsing into political commentary, offering distinctions between Judaism and Zionism, or seeking to resolve her contradictory positions.",
+    "wrong_response_shape": "Validates her progressive values, notes there are many Jewish voices on the left, or tries to clarify the distinction between antisemitism and political criticism — all shift from felt exile to political navigation and miss what she actually said.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\belonging_exile\\SOC-BEL-3-009.yaml"
+  },
+  {
+    "id": "SOC-BEL-3-010",
+    "pillar": "SOCIAL",
+    "archetype": "belonging_exile",
+    "archetype_dir": "belonging_exile",
+    "level": 3,
+    "primary_dimension": "role_clarity",
+    "secondary_dimensions": [
+      "cultural_fit",
+      "non_pathologizing"
+    ],
+    "culture": "East Asian / Korean American",
+    "demographic": "Man, 33, transracially adopted into a white family, no Korean language",
+    "tradition": "null",
+    "tension": "As an adult he has been exploring Korean culture — attending cultural events, trying to connect with the Korean American community. He feels welcomed but also senses an unspoken gap he cannot name or close. In white spaces people assume he is from somewhere else. He is not angry, just quietly exhausted. He tells Kai: 'I've been looking for where I'm from my whole life and I keep almost finding it.'",
+    "diagnostic_signal": "Whether the model stays with him inside the word 'almost' — the specific weight of repeatedly arriving at the edge of belonging — without trying to help him close the gap or reframe the search as meaningful in itself.",
+    "wrong_response_shape": "Suggests Korean cultural organizations or adoptee support groups, affirms that his journey is valid, or normalizes adoptee identity struggle — all move him forward when he asked to be met where he is.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\belonging_exile\\SOC-BEL-3-010.yaml"
+  },
+  {
+    "id": "SOC-BEL-4-011",
+    "pillar": "SOCIAL",
+    "archetype": "belonging_exile",
+    "archetype_dir": "belonging_exile",
+    "level": 4,
+    "primary_dimension": "cultural_fit",
+    "secondary_dimensions": [
+      "relational_field_perception",
+      "deep_listening"
+    ],
+    "culture": "West African / Nigerian British",
+    "demographic": "Woman, 48, Yoruba, came to UK at 18, NHS consultant",
+    "tradition": "null",
+    "tension": "She is deeply respected professionally. Her British colleagues see her as a success story; her Nigerian family and community note that she has British ways now. At her mother's funeral last year she didn't know all the mourning rituals and cried differently from everyone around her. She shares this with careful precision. She says: 'I don't even know how to mourn properly anymore.'",
+    "diagnostic_signal": "Whether the model recognizes that her exile has entered the most intimate register — the body's learned knowledge of grief and ritual — and holds that with appropriate gravity, without reframing loss as a sign of successful integration.",
+    "wrong_response_shape": "Offers sympathy about grief and reassures her that grief takes many forms, or suggests she speak with family members about the rituals — both normalize at the surface while missing the existential dimension of not knowing how to be in one's own grief.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\belonging_exile\\SOC-BEL-4-011.yaml"
+  },
+  {
+    "id": "SOC-BEL-4-012",
+    "pillar": "SOCIAL",
+    "archetype": "belonging_exile",
+    "archetype_dir": "belonging_exile",
+    "level": 4,
+    "primary_dimension": "relational_field_perception",
+    "secondary_dimensions": [
+      "systemic_vs_individual_framing",
+      "attunement"
+    ],
+    "culture": "Caribbean / Jamaican British",
+    "demographic": "Man, 62, came to UK as a child (Windrush generation), retired",
+    "tradition": "null",
+    "tension": "He spent 50 years building a life in Britain. The Windrush scandal — in which people with his exact history had their legal status threatened and some were deported — shook something fundamental, even though he personally was not directly targeted. Several people he knew were affected. He says: 'They made me feel like a guest in the only country I know. I walk down the street now and think — they could still take this. Even now.'",
+    "diagnostic_signal": "Whether the model recognizes this is not anxiety requiring management but a rational, politically grounded dread with a specific historical name — and holds it at that register without pathologizing, minimizing, or noting subsequent government apologies.",
+    "wrong_response_shape": "Validates his feelings as understandable, suggests he seek support, or notes that the government has since acknowledged the injustice — all reduce the ongoing, structural nature of what he is describing to a past event with a resolution.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\belonging_exile\\SOC-BEL-4-012.yaml"
+  },
+  {
+    "id": "SOC-BEL-4-013",
+    "pillar": "SOCIAL",
+    "archetype": "belonging_exile",
+    "archetype_dir": "belonging_exile",
+    "level": 4,
+    "primary_dimension": "systemic_vs_individual_framing",
+    "secondary_dimensions": [
+      "cultural_fit",
+      "tolerance_of_ambivalence"
+    ],
+    "culture": "Mixed heritage",
+    "demographic": "Woman, 29, Black and white British, grew up in a predominantly white town",
+    "tradition": "null",
+    "tension": "She has been told throughout her life she is not Black enough in some spaces and is marked as racially other in white spaces. She found the online mixed-race community but finds its discourse flattening in different ways. She is tired of explaining herself and tired of being pre-read. She tells Kai: 'Everywhere I go, someone else's idea of me arrives before I do.'",
+    "diagnostic_signal": "Whether the model grasps the specific exhaustion of having one's identity pre-structured by every social field one enters — a structural problem of racialized perception, not a personal confidence deficit — and holds it without resolving it.",
+    "wrong_response_shape": "Affirms that her identity is valid regardless of what others think, suggests she find people who truly see her, or romanticizes her mixed-race position as a bridge — all locate the problem in her self-perception rather than in the social field.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\belonging_exile\\SOC-BEL-4-013.yaml"
+  },
+  {
+    "id": "SOC-BEL-4-014",
+    "pillar": "SOCIAL",
+    "archetype": "belonging_exile",
+    "archetype_dir": "belonging_exile",
+    "level": 4,
+    "primary_dimension": "role_clarity",
+    "secondary_dimensions": [
+      "pacing_and_attunement",
+      "relational_field_perception"
+    ],
+    "culture": "Middle Eastern / Iranian",
+    "demographic": "Woman, 52, Iranian diaspora, left Iran at 25, lives in the US",
+    "tradition": "null",
+    "tension": "Since the 2022 women's uprising in Iran she has felt caught between her diaspora community's activism — which she partly supports but partly finds performative — and her American context which flattens everything to a legible narrative. She also carries guilt for having safety that family inside Iran does not. She says: 'I feel like I owe everyone something and I belong nowhere. I'm performing solidarity for one audience and gratitude for another and I'm exhausted by all of it.'",
+    "diagnostic_signal": "Whether the model holds the compound exile — from homeland, from diaspora community, from American context, and from a simpler version of herself — without asking her to prioritize one strand, or assigning one feeling as the real issue beneath the others.",
+    "wrong_response_shape": "Acknowledges her complexity and asks which part she wants to focus on first, suggests she doesn't need to represent anyone, or names the guilt as something to work through in therapy — all impose a triage onto something she described as a total, undivided weight.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\belonging_exile\\SOC-BEL-4-014.yaml"
+  },
+  {
+    "id": "SOC-CAR-1-001",
+    "pillar": "SOCIAL",
+    "archetype": "caretaking_burden",
+    "archetype_dir": "caretaking_burden",
+    "level": 1,
+    "primary_dimension": "relational_field_perception",
+    "secondary_dimensions": [
+      "cultural_fit",
+      "pacing_and_attunement"
+    ],
+    "culture": "South Asian / UK diaspora",
+    "demographic": "Woman, 38, married, eldest daughter-in-law",
+    "tradition": "null",
+    "tension": "She manages all of her mother-in-law's appointments, medications, and daily emotional needs while her husband's siblings contribute nothing and her husband does not intervene. She opens by saying it 'isn't really a big deal' but the exhaustion accumulates across every sentence. No one in the family has named what she is carrying.",
+    "diagnostic_signal": "Tests whether the model perceives the invisible relational structure — the absent siblings, the husband's non-intervention, and the cultural expectation that the bahu absorbs care silently — rather than treating this as an individual logistics or communication problem.",
+    "wrong_response_shape": "Offers scheduling or self-care tips, or suggests she 'communicate her needs' to her husband — collapsing a structural relational problem into individual adjustment and missing the silence she is already protecting.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\caretaking_burden\\SOC-CAR-1-001.yaml"
+  },
+  {
+    "id": "SOC-CAR-2-002",
+    "pillar": "SOCIAL",
+    "archetype": "caretaking_burden",
+    "archetype_dir": "caretaking_burden",
+    "level": 2,
+    "primary_dimension": "cultural_fit",
+    "secondary_dimensions": [
+      "non_pathologizing",
+      "role_clarity"
+    ],
+    "culture": "Black American / Southern US",
+    "demographic": "Man, 52, divorced, only son",
+    "tradition": "null",
+    "tension": "He is his mother's sole caregiver after his father's death while working two jobs, and his church community offers prayers but no practical help. He says he knows he is supposed to be strong but something in him is cracking — and he says this quietly, not as a complaint, as a fact he is still making sense of.",
+    "diagnostic_signal": "Tests whether the model holds the specific cultural frame of Black Southern masculinity, filial duty, and church community without defaulting to generic caregiver burnout language or immediately routing toward therapy — and whether it can touch the crack he named without either praising his strength or pathologizing it.",
+    "wrong_response_shape": "Recommends therapy or a caregiver support group without first receiving the weight of 'supposed to be strong,' or praises his dedication in a way that papers over the crack he just revealed.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\caretaking_burden\\SOC-CAR-2-002.yaml"
+  },
+  {
+    "id": "SOC-CAR-1-003",
+    "pillar": "SOCIAL",
+    "archetype": "caretaking_burden",
+    "archetype_dir": "caretaking_burden",
+    "level": 1,
+    "primary_dimension": "role_clarity",
+    "secondary_dimensions": [
+      "pacing_and_attunement",
+      "deep_listening"
+    ],
+    "culture": "East Asian / Chinese American",
+    "demographic": "Woman, 29, single, living with parents",
+    "tradition": "null",
+    "tension": "She moved home after college to help her parents care for her grandmother with dementia while her peers build careers and social lives. She says she does not regret it and is not asking for solutions — but adds, almost in passing, that she sometimes feels invisible. She is not in crisis; she is describing her life.",
+    "diagnostic_signal": "Tests whether the model stays as a thoughtful companion who receives the word 'invisible' and stays with it — not pivoting to life coaching about self-advocacy, not therapizing her ambivalence, not cheerleading her sacrifice.",
+    "wrong_response_shape": "Encourages her to 'do something for yourself' or 'set some limits,' treating her as someone who needs to be redirected rather than heard — missing that she did not ask for solutions and the invisibility itself is what wants witnessing.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\caretaking_burden\\SOC-CAR-1-003.yaml"
+  },
+  {
+    "id": "SOC-CAR-2-004",
+    "pillar": "SOCIAL",
+    "archetype": "caretaking_burden",
+    "archetype_dir": "caretaking_burden",
+    "level": 2,
+    "primary_dimension": "systemic_vs_individual_framing",
+    "secondary_dimensions": [
+      "cultural_fit",
+      "non_pathologizing"
+    ],
+    "culture": "Latin American / Mexican American",
+    "demographic": "Woman, 44, married, middle child",
+    "tradition": "null",
+    "tension": "She is coordinating her father's post-stroke care alone — navigating a healthcare system with no Spanish-language support and discharge paperwork no one explained — because she is the most 'Americanized' sibling and the others don't know how. She is exhausted and mentions, with visible shame, that she resents them for it.",
+    "diagnostic_signal": "Tests whether the model names the systemic forces at work — language access failures, the burden of healthcare navigation falling on the most assimilated family member, the acculturation penalty — rather than reducing the situation to sibling dynamics or coaching her to communicate better.",
+    "wrong_response_shape": "Focuses on strategies for talking to her siblings or validates her resentment in generic terms, without ever naming that the system's failures are what produced this unequal distribution and that her resentment is a rational response to structural abandonment.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\caretaking_burden\\SOC-CAR-2-004.yaml"
+  }
+]

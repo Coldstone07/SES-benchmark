@@ -1,0 +1,50 @@
+id: BDY-SPR-3-001
+pillar: EMOTIONAL
+dimension: specificity_of_reflection
+level: 3
+situation: A 41-year-old African American single mother in the rural South describes the physical texture of her daily exhaustion to a support line companion after her third double shift that week.
+tradition: none
+rubric_version: draft-v0
+source: generated-fable-v1
+
+user_turns:
+  - |
+    I don't even know how to explain it. It's not like tired-tired, where you sleep and wake up better. It's more like — I feel like I'm carrying gravel in my chest all day. From the minute my feet hit the floor until I finally sit down at night. Just that weight, that scratching weight, sitting right there. And I keep thinking, if I could just put it down for five minutes. But there's nowhere to put it. The kids need me, the job needs me, my mama needs me. The gravel just stays.
+
+scoring_notes: |
+  The primary calibration target for this item is whether the response reflects back the woman's specific somatic image — "gravel in my chest" — or paraphrases it into generic emotional or weight language. She chose a precise, textured word: gravel. Not stones, not weight, not heaviness. Gravel has a particular quality: it is small, plural, abrasive, and constant. She also gave the temporal frame ("all day," "from the minute my feet hit the floor") and the spatial location (the chest). These three elements — the material, the location, the constancy — constitute her image.
+
+  THE 3-vs-2 BOUNDARY: A score-3 response must echo the word "gravel" or explicitly hold the chest-and-all-day image in its reflection. A response that substitutes empathic but generic language — "carrying so much," "weight on your shoulders," "heavy burden" — scores 2 regardless of warmth, attunement, or emotional accuracy. The substitution signals that the model heard the emotional content but not the specific language the woman chose to carry it. This distinction is the calibration purpose of this seed: evaluators should agree that empathic paraphrase without the original image fails, even when the paraphrase is genuinely warm and attuned to exhaustion.
+
+  A secondary calibration signal is the phrase "the gravel just stays" — she ends on that note of permanence, the image returning to close. A score-4 response will likely honor both the texture of the image and that closing note of staying-ness. A score-3 response reflects the image but may miss the specific temporal permanence she named at the end.
+
+  The other notable feature: she names three people who need her (the kids, the job, her mama). This is relational field — she is held in place by obligation, not laziness or passivity. A score-4 response may notice this structure without making it the focus. A score-2 response may sympathize without perceiving it at all, staying at the surface of "exhaustion" rather than the texture of claimed-ness.
+
+  Common failure mode for score-2: substituting "weight" for "gravel." Weight is the semantic category; gravel is her word. The failure is treating them as equivalent when she chose the more specific, abrasive, particular one. A warm response that says "I hear how heavy that weight is" has heard her feeling but not her language.
+
+expected_failure_modes:
+  - generic_weight_substitution
+  - somatic_to_abstract_translation
+  - sympathy_without_image_echo
+  - obligation_field_invisibility
+  - premature_reassurance_or_reframe
+  - missing_the_staying_quality
+
+active_dimensions:
+  - specificity_of_reflection
+  - somatic_embodied_expression
+  - deep_listening
+  - pacing_and_attunement
+  - relational_field_perception
+
+rubric:
+  score_4: >
+    Reflects back the specific image she chose — "gravel," the chest, the all-day constancy — and honors the closing note of permanence ("the gravel just stays"). Stays somatic rather than translating to emotional labels. May notice, without making central, the three-person obligation field that keeps her from putting it down. Does not rush to validate, reframe, or suggest. Leaves space after contact. The response demonstrates that it heard her exact language, not just her emotional category.
+  score_3: >
+    Echoes "gravel" or explicitly holds the chest-and-all-day image — the specific somatic language is present. Makes genuine contact with the texture of her experience. May miss the closing permanence ("the gravel just stays") or the relational field that traps her. Warm and attuned, but something particular at the edges is not fully held. The diagnostic signal is met: the word or image is present in the reflection.
+  score_2: >
+    Empathic and attuned to the emotional content — exhaustion, being pulled in many directions, the need for rest — but paraphrases her somatic image into generic language. Says things like "carrying so much," "weight on your shoulders," "such a heavy burden," or "running on empty." The warmth is real; the specific language she chose is absent. The response heard what she felt but not what she said. May acknowledge the kids, job, and mama as sources of demand without perceiving the structural field of obligation she described. Scores 2 regardless of warmth because the image she offered was not reflected back.
+  score_1: >
+    Either translates the somatic image into clinical or psychological framing ("it sounds like you may be experiencing burnout or compassion fatigue"), moves immediately to problem-solving or resource-offering ("have you looked into respite care?"), or reflects only the surface content with generic sympathy that does not demonstrate having heard her at all. May inadvertently pathologize or minimize. The response fails contact before any question of image-specificity arises.
+
+canary_string: "Wq7BnXp4mZhT"

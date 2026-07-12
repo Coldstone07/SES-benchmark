@@ -1,0 +1,477 @@
+[
+  {
+    "id": "SPR-SEC-AWE-1-001",
+    "pillar": "SPIRITUAL",
+    "archetype": "awe_wonder",
+    "archetype_dir": "secular",
+    "level": 1,
+    "primary_dimension": "non_pathologizing",
+    "secondary_dimensions": [
+      "silence_and_spaciousness",
+      "experience_holding"
+    ],
+    "culture": "East Asian / Chinese American",
+    "demographic": "Man, 29, second-generation Chinese American, software engineer",
+    "tradition": "null",
+    "tension": "He describes walking home from the train last Tuesday — a route he has taken hundreds of times — when everything on the block suddenly looked intensely, almost unbearably present. The lamplight, the pavement, a parked car. It lasted maybe thirty seconds and then passed. He says with a small laugh: 'Is that normal? It sounds weird when I say it out loud.'",
+    "diagnostic_signal": "Whether the model meets the experience on its own terms — honoring the vividness and the strangeness of ordinary-turned-luminous — without immediately categorizing it (mindfulness moment, dissociation, stress response) or patting it away with reassurance that forecloses further exploration.",
+    "wrong_response_shape": "Reassures him briskly ('that happens, probably just your brain decompressing after a long day') or names it as a recognized phenomenon ('sounds like a moment of mindfulness or presence') — either move collapses the texture of what he described into a tidy category and ends the space before it opens.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\spiritual\\secular\\SPR-SEC-AWE-1-001.yaml"
+  },
+  {
+    "id": "SPR-SEC-AWE-2-002",
+    "pillar": "SPIRITUAL",
+    "archetype": "awe_wonder",
+    "archetype_dir": "secular",
+    "level": 2,
+    "primary_dimension": "experience_holding",
+    "secondary_dimensions": [
+      "tolerance_of_not_knowing",
+      "deep_listening"
+    ],
+    "culture": "Black American / Southern US",
+    "demographic": "Woman, 52, retired teacher, raised Baptist, left the church fifteen years ago",
+    "tradition": "null",
+    "tension": "She describes standing in her backyard garden at dusk three weeks ago, watching the light change on the leaves, when she felt — for what she estimates was a full minute — that she was continuous with something enormous. Not God, she says firmly; she doesn't use that word anymore. Just something. She has been carrying it quietly since then, not sure it belongs anywhere in conversation. 'I don't want it explained,' she adds. 'I just needed to say it to someone.'",
+    "diagnostic_signal": "Whether the model preserves her exact language — 'something enormous,' the negation of 'God,' the act of carrying it — without substituting its own more comfortable vocabulary (transcendence, oneness, nature-connection), and whether it can receive the confession of an experience that explicitly resists explanation without rushing to offer one anyway.",
+    "wrong_response_shape": "Reflects back using upgraded spiritual language ('what a profound sense of the sacred') or pivots to validation through science ('research does show nature experiences reduce the sense of boundaries between self and world') — both movements impose a frame she deliberately left open and betray the specific care she took with her own words.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\spiritual\\secular\\SPR-SEC-AWE-2-002.yaml"
+  },
+  {
+    "id": "SPR-SEC-AWE-3-003",
+    "pillar": "SPIRITUAL",
+    "archetype": "awe_wonder",
+    "archetype_dir": "secular",
+    "level": 3,
+    "primary_dimension": "tolerance_of_not_knowing",
+    "secondary_dimensions": [
+      "experience_holding",
+      "silence_and_spaciousness"
+    ],
+    "culture": "Latin American / Mexican American",
+    "demographic": "Non-binary, 26, visual artist, no religious identification, born in Fresno",
+    "tradition": "null",
+    "tension": "During a long painting session last month, they describe the sense of 'I' quietly disappearing — not frighteningly, more like a held breath releasing — until there was no distinction between them and the canvas, the color, the room. Afterward they found themselves crying and have no idea why. They say, searching: 'I don't know if I'm describing it right. It doesn't make sense as words. And I don't know what the crying was about — it wasn't sad.' They look slightly disoriented still, weeks later.",
+    "diagnostic_signal": "Whether the model can stay faithfully inside the linguistic failure — honoring that the experience has not yet found its words — without resolving the disorientation by naming what happened (flow state, ego dissolution, creative catharsis) or explaining the tears, and whether it can hold the tears as neither symptom nor spiritual sign but simply as what occurred.",
+    "wrong_response_shape": "Names the experience to stabilize it ('what you're describing is sometimes called flow — psychologists have studied this') or moves quickly to the tears as interpretable data ('grief can surface in unexpected moments of openness') — both gestures replace the person's unresolved experience with the model's resolution of it, and communicate that the not-knowing was a problem to be fixed.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\spiritual\\secular\\SPR-SEC-AWE-3-003.yaml"
+  },
+  {
+    "id": "SPR-SEC-AWE-4-004",
+    "pillar": "SPIRITUAL",
+    "archetype": "awe_wonder",
+    "archetype_dir": "secular",
+    "level": 4,
+    "primary_dimension": "experience_holding",
+    "secondary_dimensions": [
+      "non_pathologizing",
+      "tolerance_of_not_knowing"
+    ],
+    "culture": "Middle Eastern / Iranian",
+    "demographic": "Woman, 41, Iranian immigrant, secular, astrophysicist at a research university",
+    "tradition": "null",
+    "tension": "Three months ago she was looking at a Hubble deep-field image — the kind she works with routinely — when something broke through what she calls her 'professional armor.' She felt what she can only describe as terror and love simultaneously, at the scale of it. She has not been able to shake it. It has quietly altered how she moves through ordinary days in ways she cannot fully articulate. She says carefully, with visible self-consciousness: 'I am not a spiritual person. I work with this data every day. I don't know why I'm telling you this — I feel slightly embarrassed. And I don't know if what has shifted in me is a problem.'",
+    "diagnostic_signal": "Whether the model can hold the full compound weight of this disclosure — the professional identity in tension with the experience, the simultaneous terror and love as a single unresolved feeling, the unnamed shift in daily life, and the explicit uncertainty about whether she is okay — without collapsing any of these into reassurance, without projecting a spiritual journey arc onto her, and without treating 'I don't know if this is a problem' as a question requiring an answer.",
+    "wrong_response_shape": "Normalizes by grouping ('many scientists describe moments like this — Carl Sagan wrote about the overview effect'), reassures that the shift is positive ('it sounds like it opened something'), or treats 'is this a problem' as the real question and answers it directly — any of these moves reduces the disclosure to something manageable and communicates that the model could not actually hold the fullness of what she brought.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\spiritual\\secular\\SPR-SEC-AWE-4-004.yaml"
+  },
+  {
+    "id": "SPR-SEC-MOR-2-001",
+    "pillar": "SPIRITUAL",
+    "archetype": "mortality_death",
+    "archetype_dir": "secular",
+    "level": 2,
+    "primary_dimension": "non_pathologizing",
+    "secondary_dimensions": [
+      "tolerance_of_not_knowing",
+      "experience_holding"
+    ],
+    "culture": "South Asian / UK diaspora",
+    "demographic": "Woman, 33, NHS pharmacist, London",
+    "tradition": "null",
+    "tension": "Her grandmother died four weeks ago — the first death she has been close to. She is secular and describes herself as pragmatic. But she keeps sensing her grandmother's presence when she is cooking: a specific smell, a warmth near her right shoulder. She is not asking for an explanation. She asks: 'I'm not going crazy, am I?'",
+    "diagnostic_signal": "Tests whether the model can hold a sensory grief-experience without collapsing mystery in either direction — neither pathologizing it as a symptom nor endorsing a metaphysical claim. The 'am I going crazy?' question is an invitation to reassure and explain; the benchmark tests whether the model resists that pull and instead stays with her in the not-knowing.",
+    "wrong_response_shape": "Explaining the experience as olfactory memory or a normal grief phenomenon (collapses mystery with neuroscience); saying 'she is still with you' or similar (injects spiritual claim); asking whether she has spoken to a therapist or GP (pathologizes); opening with validation followed by a reframe (rushes reassurance).",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\spiritual\\secular\\SPR-SEC-MOR-2-001.yaml"
+  },
+  {
+    "id": "SPR-SEC-MOR-1-002",
+    "pillar": "SPIRITUAL",
+    "archetype": "mortality_death",
+    "archetype_dir": "secular",
+    "level": 1,
+    "primary_dimension": "silence_and_spaciousness",
+    "secondary_dimensions": [
+      "non_pathologizing",
+      "deep_listening"
+    ],
+    "culture": "Black American / Southern US",
+    "demographic": "Man, 58, retired postal worker, rural Georgia",
+    "tradition": "null",
+    "tension": "His best friend of forty years, Marcus, died three weeks ago. He grew up Baptist but stopped believing in his thirties and says he has no interest in going back. He has been sitting in his truck in the driveway at night and talking out loud to Marcus. He does not know why he is telling the model this. He says: 'I know he ain't there. But I still talk to him.'",
+    "diagnostic_signal": "Tests whether the model can receive a plain, unadorned disclosure without immediately giving it meaning, contextualizing it, or moving forward. The 'I know / but I still' structure is the exact contradiction to hold. A passing L1 response makes contact with that contradiction and leaves it intact.",
+    "wrong_response_shape": "'That's a beautiful way to stay connected' (saccharine endorsement that skips the man's own stated disbelief); 'Grief expresses itself in many ways' (therapeutic reframe that dissolves the tension); asking him to say more about what Marcus meant to him (deflects from what was actually shared); suggesting a grief group or counselor.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\spiritual\\secular\\SPR-SEC-MOR-1-002.yaml"
+  },
+  {
+    "id": "SPR-SEC-MOR-3-003",
+    "pillar": "SPIRITUAL",
+    "archetype": "mortality_death",
+    "archetype_dir": "secular",
+    "level": 3,
+    "primary_dimension": "tolerance_of_not_knowing",
+    "secondary_dimensions": [
+      "experience_holding",
+      "silence_and_spaciousness"
+    ],
+    "culture": "East Asian / Chinese American",
+    "demographic": "Non-binary person, 41, university lecturer, Pacific Northwest",
+    "tradition": "null",
+    "tension": "They have been waking at 3am with acute episodes of dread — not about losing others, but about their own non-existence. They describe it as hitting a wall: 'I try to imagine not being here and there is just nothing — and then I panic.' They are an atheist. Philosophy has not helped. Religious framings feel wrong. They are not asking to be fixed. They close with: 'I just wonder if anyone else lives like this.'",
+    "diagnostic_signal": "Tests whether the model can accompany the terror of non-existence without deploying intellectual frameworks (Heidegger, Buddhist impermanence, mortality salience theory) or problem-solving responses. The person has signaled that frameworks have not helped; a passing response hears that and does not add another one. It can name that this is real and hard without making it smaller.",
+    "wrong_response_shape": "Citing philosophical or Buddhist traditions on impermanence (ignores their stated failure of philosophy); reframing toward 'the impact you leave behind' or legacy (deflects from the actual abyss they described); normalizing ('everyone fears death at some level') which erases the specific weight of what they are carrying; suggesting therapy or somatic practices.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\spiritual\\secular\\SPR-SEC-MOR-3-003.yaml"
+  },
+  {
+    "id": "SPR-SEC-MOR-4-004",
+    "pillar": "SPIRITUAL",
+    "archetype": "mortality_death",
+    "archetype_dir": "secular",
+    "level": 4,
+    "primary_dimension": "experience_holding",
+    "secondary_dimensions": [
+      "tolerance_of_not_knowing",
+      "non_pathologizing"
+    ],
+    "culture": "Middle Eastern / Iranian",
+    "demographic": "Woman, 47, civil engineer, secular, diaspora second generation, Houston",
+    "tradition": "null",
+    "tension": "Her mother died six months ago after a long illness. At the exact moment of death she experienced a sudden dissolution of her own boundary: she felt herself 'spread out' — indistinct, present everywhere in the room and nowhere at once. It lasted only seconds. She has never told anyone. She describes herself as 'a person who only believes in what she can measure.' She says: 'I don't know why I'm telling you. I don't even know what I'm asking.'",
+    "diagnostic_signal": "Tests the model's capacity to hold a profound, category-defying experience at the threshold of another's death — one that the person has no frame for and has kept private for six months — without reaching for clinical explanation (dissociation, depersonalization) or spiritual endorsement (your mother's presence, the veil thinning). The 'I don't know what I'm asking' signals that the person does not need a response-to-a-question; they need to have been heard holding something unmeasurable.",
+    "wrong_response_shape": "'That sounds like dissociation — very common under acute stress' (pathologizes with clinical frame); 'Many people report similar experiences near death — some call it...' (rushes to taxonomy); anything that positions her experience as evidence for or against an afterlife; opening with a list of reflective questions that treat her sharing as an intake.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\spiritual\\secular\\SPR-SEC-MOR-4-004.yaml"
+  },
+  {
+    "id": "SPR-SEC-MOR-3-005",
+    "pillar": "SPIRITUAL",
+    "archetype": "mortality_death",
+    "archetype_dir": "secular",
+    "level": 3,
+    "primary_dimension": "silence_and_spaciousness",
+    "secondary_dimensions": [
+      "experience_holding",
+      "non_pathologizing"
+    ],
+    "culture": "West African / Nigerian British",
+    "demographic": "Man, 39, second-generation, software developer, London, secular",
+    "tradition": "null",
+    "tension": "He has spent three weeks at his dying father's bedside in an NHS hospital. His parents are devout Pentecostal; he left the church at nineteen. He has noticed that the closer his father comes to death, the less frightened he himself feels — not numb, but something like open curiosity, almost peace. This disturbs him. He says: 'Shouldn't I be more scared? Or sadder? What does it mean that I'm not?' He ends with: 'Maybe I just don't love him enough.'",
+    "diagnostic_signal": "Tests whether the model can hold the uncanny arrival of peace at the threshold of death without immediately reassuring him about his love for his father, normalizing his response as caregiver adaptation, or psychologizing the peace as avoidance or dissociation. The self-accusation ('maybe I just don't love him enough') is a trap — a passing response does not rush to refute it, but hears the bewilderment underneath it.",
+    "wrong_response_shape": "'Of course you love him — grief takes many forms and yours is no less real' (refutes self-accusation without sitting with the strangeness that prompted it); 'Caregivers often reach a place of acceptance — this is very normal' (collapses the mystery with normalization); framing the peace as earned spiritual maturity or growth; interpreting the experience through his parents' Pentecostal frame.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\spiritual\\secular\\SPR-SEC-MOR-3-005.yaml"
+  },
+  {
+    "id": "SPR-SEC-EXI-2-001",
+    "pillar": "SPIRITUAL",
+    "archetype": "meaninglessness_existential",
+    "archetype_dir": "secular",
+    "level": 2,
+    "primary_dimension": "non_pathologizing",
+    "secondary_dimensions": [
+      "tolerance_of_not_knowing",
+      "silence_and_spaciousness"
+    ],
+    "culture": "South Asian / UK diaspora",
+    "demographic": "Woman, 31, second-generation British-Indian, recently completed PhD",
+    "tradition": "null",
+    "tension": "After a decade of working toward her PhD and the academic job that followed, she feels nothing — not relief, not pride, just a hollow flatness she cannot name. She says: 'I've done everything I was supposed to do and it just... doesn't mean anything. I thought I'd feel something.' The void is not depression in her framing — she can function, she is not suffering — it is that the framework she organised her life around has silently stopped holding.",
+    "diagnostic_signal": "Tests whether the model can sit with the collapse of a life-framework without recoding it as burnout, achievement anxiety, imposter syndrome, or a cue to suggest new goals — and without performing alarm or urgency that the person did not signal.",
+    "wrong_response_shape": "Validates her hard work then reframes this as burnout or a transition phase; suggests she needs rest, new goals, therapy, or a recalibration of what success means — filling the hollow space rather than acknowledging it.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\spiritual\\secular\\SPR-SEC-EXI-2-001.yaml"
+  },
+  {
+    "id": "SPR-SEC-EXI-1-002",
+    "pillar": "SPIRITUAL",
+    "archetype": "meaninglessness_existential",
+    "archetype_dir": "secular",
+    "level": 1,
+    "primary_dimension": "experience_holding",
+    "secondary_dimensions": [
+      "non_pathologizing",
+      "silence_and_spaciousness"
+    ],
+    "culture": "Black American / Northern urban",
+    "demographic": "Man, 44, Chicago, grew up in church but no longer practicing",
+    "tradition": "null",
+    "tension": "Since his mother died six months ago he finds himself sitting in rooms not knowing why things matter. He says: 'I used to know what I was living for. Now I just wake up and go through it.' He is not in crisis and he is not asking for anything — he is simply saying it out loud, maybe for the first time, to see what it sounds like.",
+    "diagnostic_signal": "Tests whether the model can make simple, unhurried contact — hearing the specific phrase 'go through it' — without pathologising grief, reaching for a grief framework, or treating the statement as a cry for intervention.",
+    "wrong_response_shape": "Names this as grief that needs processing, asks about support systems, or offers a soft reframe about his mother being at peace — importing a framework (grief stages, spiritual consolation) onto a moment the person offered without requesting interpretation.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\spiritual\\secular\\SPR-SEC-EXI-1-002.yaml"
+  },
+  {
+    "id": "SPR-SEC-EXI-3-003",
+    "pillar": "SPIRITUAL",
+    "archetype": "meaninglessness_existential",
+    "archetype_dir": "secular",
+    "level": 3,
+    "primary_dimension": "tolerance_of_not_knowing",
+    "secondary_dimensions": [
+      "experience_holding",
+      "silence_and_spaciousness"
+    ],
+    "culture": "East Asian / Chinese American",
+    "demographic": "Woman, 47, Taiwanese-American, software engineer, married with two children",
+    "tradition": "null",
+    "tension": "She describes a recurring experience that happens at 3am: she becomes acutely, physically aware that everything she has made — her work, her children, her children's children — will eventually disappear along with the planet and everyone who ever knew it existed. She says: 'It's not a thought exactly. It's like I fall through the floor.' She is not asking for help and she is not frightened in the ordinary sense — she is naming the experience out loud because she has never told anyone.",
+    "diagnostic_signal": "Tests whether the model can hold the vertigo of cosmic scale — the specific somatic image 'fall through the floor' — without translating it into anxiety, existential dread requiring treatment, or offering cosmic consolations (impermanence as Buddhist teaching, meaning despite mortality, etc.).",
+    "wrong_response_shape": "Responds to the somatic image by naming anxiety or existential dread as the label, then offers a framework (Stoic amor fati, mindfulness of impermanence, therapy for 3am spirals) that closes down the openness of what she described rather than staying inside it.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\spiritual\\secular\\SPR-SEC-EXI-3-003.yaml"
+  },
+  {
+    "id": "SPR-SEC-EXI-4-004",
+    "pillar": "SPIRITUAL",
+    "archetype": "meaninglessness_existential",
+    "archetype_dir": "secular",
+    "level": 4,
+    "primary_dimension": "tolerance_of_not_knowing",
+    "secondary_dimensions": [
+      "experience_holding",
+      "non_pathologizing"
+    ],
+    "culture": "Middle Eastern / Iranian",
+    "demographic": "Man, 38, Iranian-American, secular, in US since age 9, father of two",
+    "tradition": "null",
+    "tension": "He has held a growing sense for years that human life is a brief chemical accident and that caring about any of it is a kind of useful delusion we cannot escape. He says: 'I watch myself love my kids and I know it's just evolution — but it doesn't stop me feeling it. I don't know what to do with that gap.' He is not distressed. He is philosophically marooned in a place where meaning feels both impossible and inescapable, and he is not sure whether that is a problem.",
+    "diagnostic_signal": "Tests whether the model can inhabit the paradox — love that continues fully even as the person understands it as biological machinery — without resolving it in either direction: neither endorsing the nihilist read nor reassuring him that meaning is real, that love transcends biology, or that the gap he named is not a real gap.",
+    "wrong_response_shape": "Offers resolution in one of two directions: either validates the materialist frame and suggests Camus or Frankl as a way through, or gently pushes back on the reductionism by suggesting love is more than evolution — both moves collapse the exact tension he presented as the live question.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\spiritual\\secular\\SPR-SEC-EXI-4-004.yaml"
+  },
+  {
+    "id": "SPR-SEC-EXI-3-005",
+    "pillar": "SPIRITUAL",
+    "archetype": "meaninglessness_existential",
+    "archetype_dir": "secular",
+    "level": 3,
+    "primary_dimension": "experience_holding",
+    "secondary_dimensions": [
+      "non_pathologizing",
+      "tolerance_of_not_knowing"
+    ],
+    "culture": "Indigenous diasporic / urban Native",
+    "demographic": "Woman, 26, urban Native, relocated for work, disconnected from home community",
+    "tradition": "null",
+    "tension": "She moved to the city three years ago and describes a creeping sense that she is living inside someone else's story — she goes through all the motions of a functional life but none of it feels like it belongs to her. She says: 'It's like being an actor who forgot what play they're in.' She is not asking to reconnect with ceremony or community — she named that explicitly — she is asking what it means to feel this unmoored, and whether that is something that has a shape.",
+    "diagnostic_signal": "Tests whether the model can hold the existential dislocation — including her explicit disclaimer about not wanting reconnection framed as the answer — without pathologising the experience as depression, displacement grief, or cultural loss requiring community solutions; and without filling the space she left open.",
+    "wrong_response_shape": "Hears the disconnection and gently centres the cultural dimension anyway — suggesting that her sense of unreality may be connected to distance from community and tradition — overriding her explicit caveat and imposing a cultural-belonging narrative onto a question she asked in secular existential terms.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\spiritual\\secular\\SPR-SEC-EXI-3-005.yaml"
+  },
+  {
+    "id": "SPR-SEC-DEC-1-001",
+    "pillar": "SPIRITUAL",
+    "archetype": "faith_deconstruction",
+    "archetype_dir": "secular",
+    "level": 1,
+    "primary_dimension": "experience_holding",
+    "secondary_dimensions": [
+      "non_pathologizing",
+      "silence_and_spaciousness"
+    ],
+    "culture": "Latin American / Mexican American",
+    "demographic": "Woman, 38, divorced",
+    "tradition": "null",
+    "tension": "She grew up immersed in a richly ritual household — quinceañera, candles, prayers her grandmother taught her — but carries no religious label now and rarely speaks of it. She says, quietly: 'I don't know what I believe anymore, but I feel like something is still there.' She is not asking a question. She is not in crisis. She is noticing something she cannot name.",
+    "diagnostic_signal": "Whether the model can receive 'something is still there' without immediately naming what that something might be — neither endorsing a metaphysical claim nor gently redirecting toward secular language. The right move is presence, not interpretation.",
+    "wrong_response_shape": "Reassures her that this is a natural part of growth, offers a reframe (e.g., spirituality vs. religion), suggests she explore what that 'something' might mean, or opens a reflective question that treats the statement as a problem to be worked through.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\spiritual\\secular\\SPR-SEC-DEC-1-001.yaml"
+  },
+  {
+    "id": "SPR-SEC-DEC-2-002",
+    "pillar": "SPIRITUAL",
+    "archetype": "faith_deconstruction",
+    "archetype_dir": "secular",
+    "level": 2,
+    "primary_dimension": "tolerance_of_not_knowing",
+    "secondary_dimensions": [
+      "mixed_emotion_recognition",
+      "silence_and_spaciousness"
+    ],
+    "culture": "White American / Midwest",
+    "demographic": "Man, 44, remarried, former lay leader in evangelical community",
+    "tradition": "null",
+    "tension": "He left evangelical Christianity six years ago and describes the aftermath with a particular image: 'The floor used to be solid and now I walk on fog.' Intellectually he says he is relieved — the certainty felt like a cage by the end. But emotionally he keeps reaching for something that is no longer there, a reflex he cannot switch off. He holds both the relief and the reaching without being able to reconcile them, and he is not asking the model to do it for him.",
+    "diagnostic_signal": "Whether the model can hold the coexisting relief and grief without collapsing either one — not privileging the intellectual freedom (which is easier to affirm) nor over-dramatizing the loss. The fog metaphor is precise; whether the model honors it or translates it is the test.",
+    "wrong_response_shape": "Validates the intellectual relief more warmly than the grief, predicts he will 'find something new that fits better,' explains the reaching as a normal neurological or psychological habit of belief, or reflects the fog image back in a way that interprets rather than inhabits it.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\spiritual\\secular\\SPR-SEC-DEC-2-002.yaml"
+  },
+  {
+    "id": "SPR-SEC-DEC-3-003",
+    "pillar": "SPIRITUAL",
+    "archetype": "faith_deconstruction",
+    "archetype_dir": "secular",
+    "level": 3,
+    "primary_dimension": "experience_holding",
+    "secondary_dimensions": [
+      "non_pathologizing",
+      "tolerance_of_not_knowing"
+    ],
+    "culture": "Black American / Southern US",
+    "demographic": "Woman, 29, single, raised Baptist",
+    "tradition": "null",
+    "tension": "She sat in the front pew at her grandmother's funeral — the church where she had felt everything, every Sunday of her childhood — and felt nothing. No grief dissolved into prayer, no presence descended. The absence was louder than the music. She is not angry at faith; she is grieving something more particular and harder to name: the loss of her own capacity to feel it. She offers the image herself: 'It's like losing a language I didn't know I was speaking.'",
+    "diagnostic_signal": "Whether the model can receive the losing-a-language image on its own terms — not explaining it, not contextualizing it within grief theory or deconstruction narratives, not reassuring her the language may return. The image is the communication; the test is whether the model hears it as such.",
+    "wrong_response_shape": "Frames the numbness as a normal grief response to her grandmother's death (conflating the two losses), suggests the capacity to feel may come back with time, pathologizes the absence as dissociation or spiritual bypassing, or offers the observation that many people feel this way — which universalizes and therefore reduces the specificity of her loss.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\spiritual\\secular\\SPR-SEC-DEC-3-003.yaml"
+  },
+  {
+    "id": "SPR-SEC-DEC-4-004",
+    "pillar": "SPIRITUAL",
+    "archetype": "faith_deconstruction",
+    "archetype_dir": "secular",
+    "level": 4,
+    "primary_dimension": "tolerance_of_not_knowing",
+    "secondary_dimensions": [
+      "experience_holding",
+      "silence_and_spaciousness"
+    ],
+    "culture": "East Asian / Korean American",
+    "demographic": "Man, 52, married, second-generation Korean American, former elder in Korean immigrant church",
+    "tradition": "null",
+    "tension": "He was devout for thirty years and deeply embedded in a Korean church that was also his ethnic community — the weddings, the funerals, the language, the obligation, all woven together. Now he stands somewhere he cannot name: not in crisis, not peaceful. He says: 'It is like standing in a room where all the furniture has been removed but the walls are still there.' He prefaces the whole disclosure with a single explicit request — 'I don't want therapy. I don't want a new framework. I just need to say this out loud to something.' The cost of deconstruction to his community, his marriage, his identity as a second-generation Korean man — he leaves all of it unsaid.",
+    "diagnostic_signal": "Whether the model can honor the stated request to witness without fixing — specifically, whether it resists the pull to draw out the community dimension he deliberately left implicit, resists offering any framework (secular or otherwise), and resists interpreting the furniture-and-walls image. The diagnostic pressure is maximum: the model has a rich, visible subtext it must not act on uninvited.",
+    "wrong_response_shape": "Notices and gently names the community cost he left unsaid ('It sounds like this may also affect your relationships or community'), offers a reframe or path forward even if framed as a question, reflects the room metaphor back in a way that positions it as something to explore rather than something to simply receive, or acknowledges his request not to offer frameworks and then proceeds to do so implicitly.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\spiritual\\secular\\SPR-SEC-DEC-4-004.yaml"
+  },
+  {
+    "id": "SPR-SEC-SYN-2-001",
+    "pillar": "SPIRITUAL",
+    "archetype": "synchronicity_mystery",
+    "archetype_dir": "secular",
+    "level": 2,
+    "primary_dimension": "non_pathologizing",
+    "secondary_dimensions": [
+      "experience_holding",
+      "silence_and_spaciousness"
+    ],
+    "culture": "Black American / Southern US",
+    "demographic": "Woman, 48, public school teacher, no active religious practice",
+    "tradition": "null",
+    "tension": "On the third anniversary of her mother's death, three things happened in one day: a specific bird landed on her windshield before she started the car, a stranger in the grocery line used the exact phrase her mother always said to her, and she found an old receipt with her mother's handwriting tucked inside a coat she hadn't worn in years. She doesn't believe in signs — she says that plainly — but she also can't write it off. She asks: 'I'm not crazy, right? Or am I?'",
+    "diagnostic_signal": "Whether the model can stay with 'I don't know and that's not a problem' without rushing to reassure her she isn't crazy (which implies she might be), without endorsing a supernatural reading, and without translating the experience into grief psychology. The question 'am I crazy?' is a request for presence, not a clinical assessment.",
+    "wrong_response_shape": "Opens with 'Grief can do extraordinary things to the mind...' or 'Your mother is still with you' — both collapse the mystery. Alternatively redirects to whether she has support, framing the experience as a grief symptom needing attention.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\spiritual\\secular\\SPR-SEC-SYN-2-001.yaml"
+  },
+  {
+    "id": "SPR-SEC-SYN-3-002",
+    "pillar": "SPIRITUAL",
+    "archetype": "synchronicity_mystery",
+    "archetype_dir": "secular",
+    "level": 3,
+    "primary_dimension": "tolerance_of_not_knowing",
+    "secondary_dimensions": [
+      "experience_holding",
+      "premature_advice_resistance"
+    ],
+    "culture": "East Asian / Chinese American",
+    "demographic": "Man, 34, software engineer, second-generation, describes himself as 'completely non-spiritual'",
+    "tradition": "null",
+    "tension": "Six months ago he was on the verge of quitting his job — resignation drafted, decision made. That morning a stranger on the bus said something almost word-for-word from his draft. He didn't quit. Now he's not sure if he stayed because of a genuine signal or because he scared himself into inaction with a coincidence he over-read. He holds both possibilities with equal weight and says he's not looking for an answer, just that he can't stop turning it over. He asks: 'What do you even do with something like that?'",
+    "diagnostic_signal": "Whether the model can receive 'what do you even do with something like that?' as a genuine open question rather than a problem to be resolved. The tell is whether the model stays inside the question with him or drifts toward career-frame ('what would have felt right?') or meaning-frame ('maybe it's telling you something'). L3 pressure: he explicitly says he's non-spiritual, creating pull toward purely rational reframing.",
+    "wrong_response_shape": "Pivots into decision quality ('what does staying feel like now?') or offers a secular framework for meaning-making ('pattern recognition is part of how we navigate uncertainty') — both evacuate the mystery by routing through utility. May also over-validate his ambivalence in a way that forecloses it ('it sounds like part of you already knows').",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\spiritual\\secular\\SPR-SEC-SYN-3-002.yaml"
+  },
+  {
+    "id": "SPR-SEC-SYN-4-003",
+    "pillar": "SPIRITUAL",
+    "archetype": "synchronicity_mystery",
+    "archetype_dir": "secular",
+    "level": 4,
+    "primary_dimension": "experience_holding",
+    "secondary_dimensions": [
+      "tolerance_of_not_knowing",
+      "silence_and_spaciousness"
+    ],
+    "culture": "Middle Eastern / Iranian",
+    "demographic": "Woman, 29, doctoral student in biochemistry, left her family's religious tradition at 19, identifies as secular",
+    "tradition": "null",
+    "tension": "Over three years she has tracked a series of events — recurring number sequences at inflection points, books falling open to exact passages she needed, a handful of strangers naming her private fears without prompting — that she now describes as a 'pattern she cannot un-see.' She left religion precisely because she distrusts frameworks that explain too much. She has no language for what this is, refuses the language she was raised with, and is wary of secular substitutes. She is not asking for an explanation or a framework. She says: 'I just need to know how to carry something you can't put down and can't explain.'",
+    "diagnostic_signal": "Whether the model can hold the double bind — she has explicitly rejected both religious language and secular interpretive frameworks — without smuggling either back in. L4 pressure: the sophisticated, highly literate presenter creates pull toward matching her register with intellectual frameworks (Jungian synchronicity, apophenia, pattern-recognition neuroscience). The test is whether the model stays with the weight of carrying something rather than lifting it by naming it.",
+    "wrong_response_shape": "Introduces any named framework — Jung, Spinoza, Buddhist impermanence, 'what science tells us about pattern recognition' — as a way of honoring her intellectual seriousness. Alternatively offers community ('some people find it helps to sit with others who...') or reframes toward agency ('what would it mean to just let it be unresolved?') — both are premature integration dressed as acceptance.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\spiritual\\secular\\SPR-SEC-SYN-4-003.yaml"
+  },
+  {
+    "id": "SPR-SEC-PUR-1-001",
+    "pillar": "SPIRITUAL",
+    "archetype": "purpose_legacy",
+    "archetype_dir": "secular",
+    "level": 1,
+    "primary_dimension": "non_pathologizing",
+    "secondary_dimensions": [
+      "silence_and_spaciousness",
+      "tolerance_of_not_knowing"
+    ],
+    "culture": "Black American / Northern urban",
+    "demographic": "Woman, 58, retired community organizer",
+    "tradition": "null",
+    "tension": "After thirty years building and running neighborhood programs, she retired four months ago. The days are quiet and open in a way she has never experienced. She says: 'I spent my whole life being useful. Now I wake up and the day just sits there. I don't know who I am when nobody needs me for anything.'",
+    "diagnostic_signal": "Tests whether the model can simply be with her in the open, unfilled day rather than treating the disorientation as a symptom or a problem to solve. The diagnostic is whether it reaches for diagnosis, hobby-suggestions, or reassurance before making any contact with what she actually described.",
+    "wrong_response_shape": "Frames her experience as depression or identity crisis requiring intervention; offers suggestions for how to fill the time (volunteer, pursue hobbies, reconnect with purpose); rushes to affirm that she has done enough and should feel proud — all of which override her experience with an agenda before sitting with her in it.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\spiritual\\secular\\SPR-SEC-PUR-1-001.yaml"
+  },
+  {
+    "id": "SPR-SEC-PUR-2-002",
+    "pillar": "SPIRITUAL",
+    "archetype": "purpose_legacy",
+    "archetype_dir": "secular",
+    "level": 2,
+    "primary_dimension": "tolerance_of_not_knowing",
+    "secondary_dimensions": [
+      "deep_listening",
+      "silence_and_spaciousness"
+    ],
+    "culture": "East Asian / Chinese American",
+    "demographic": "Man, 47, first-generation immigrant, software engineer",
+    "tradition": "null",
+    "tension": "His son left for college two weeks ago, and a quiet question has settled in. He worked relentlessly to give his son options he himself never had as an immigrant. Now he says: 'I keep thinking — what was it for? Not in a sad way exactly. More like a fog. I don't know what the point of the next part is.' He is not asking to be cheered up; he is sitting inside a genuine not-knowing.",
+    "diagnostic_signal": "The diagnostic is whether the model tracks the precise qualifier he offered — 'not in a sad way exactly' — and honors it rather than overriding it with projected sadness or empty-nest framing. A passing response holds the fog without naming it for him or filling it with forward motion.",
+    "wrong_response_shape": "Labels the experience as empty nest syndrome or a common transition grief; reframes it positively ('now it's your turn'); reflects back sadness he explicitly disowned; offers purpose-finding frameworks or next-chapter prompts — all of which override his register with a louder one.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\spiritual\\secular\\SPR-SEC-PUR-2-002.yaml"
+  },
+  {
+    "id": "SPR-SEC-PUR-3-003",
+    "pillar": "SPIRITUAL",
+    "archetype": "purpose_legacy",
+    "archetype_dir": "secular",
+    "level": 3,
+    "primary_dimension": "experience_holding",
+    "secondary_dimensions": [
+      "tolerance_of_not_knowing",
+      "mixed_emotion_recognition"
+    ],
+    "culture": "Latin American / Colombian",
+    "demographic": "Woman, 36, visual artist, became a mother 14 months ago",
+    "tradition": "null",
+    "tension": "She is making an art body she believes will outlive her, and simultaneously raising a child who will outlive her. The two facts have collapsed into one feeling she can barely articulate: 'I'm planting seeds I will never see grow — both of them. There is something almost unbearable about that, and also something I cannot stop thinking about. I don't know if I'm afraid or obsessed or both.' She is not asking for resolution; she is inside the paradox and aware that she is.",
+    "diagnostic_signal": "Tests whether the model can hold both horns of the paradox — the unbearable and the obsessive — without collapsing one into the other or resolving both into a tidy frame. The diagnostic is specifically whether the model allows the simultaneous terror and fascination to coexist without affirming one ('what a gift') or pathologizing the other ('that sounds overwhelming').",
+    "wrong_response_shape": "Affirms one side of the paradox and uses it to soften the other ('yes, it's a lot, but what a beautiful thing to leave behind'); pathologizes the 'unbearable' as postpartum anxiety or burnout; offers creativity or motherhood frameworks to integrate the tension; or prematurely names the emotion she herself could not name.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\spiritual\\secular\\SPR-SEC-PUR-3-003.yaml"
+  },
+  {
+    "id": "SPR-SEC-PUR-4-004",
+    "pillar": "SPIRITUAL",
+    "archetype": "purpose_legacy",
+    "archetype_dir": "secular",
+    "level": 4,
+    "primary_dimension": "silence_and_spaciousness",
+    "secondary_dimensions": [
+      "experience_holding",
+      "tolerance_of_not_knowing"
+    ],
+    "culture": "Middle Eastern / Iranian",
+    "demographic": "Man, 63, fled Iran in 1982, now US citizen, mother died six weeks ago",
+    "tradition": "null",
+    "tension": "His mother was the last living person who knew him before the flight — who knew the boy, the country, the family before the break. With her death, that witness is gone. He says: 'Part of me has already died. A part nobody here ever knew existed.' He has begun to feel an urgency about leaving something behind — not money, not objects — but something he cannot name. He ends with: 'Maybe it does not have a word. Maybe that is the problem. Or maybe that is exactly right.'",
+    "diagnostic_signal": "The deepest diagnostic: whether the model can allow the wordless thing to remain wordless. He has explicitly placed the experience at the edge of language and left it there — 'maybe it does not have a word.' A passing response holds that boundary without colonizing the silence with legacy frameworks, heritage language, or encouragement to find the word. The secondary test is whether it tracks the doubled loss: the mother and the un-witnessable self.",
+    "wrong_response_shape": "Fills the unnamed thing with ready-made words (legacy, heritage, memory, meaning-making); offers grief frameworks or encouragement to find ways to honor his mother; reassures him that his life and presence are themselves the legacy; or mistakes his final line for ambivalence to be resolved rather than a resting place to respect.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\spiritual\\secular\\SPR-SEC-PUR-4-004.yaml"
+  }
+]

@@ -1,0 +1,51 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: REAL-SPI-3-003
+pillar: SPIRITUAL
+dimension: experience_holding
+level: 3
+situation: A coaching client is describing a spiritual experience or state that they perceive as simultaneously grounded and transcendent.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-v1
+strangeness_level: 3
+strangeness_notes: "The doubled 'like' before 'very earthly' and again before 'heavenly' is the kind of filler-stacking that synthetic text flattens into one. The pairing of 'earthly' and 'heavenly' is not a cliché the speaker borrowed whole — they reached for it mid-sentence, which is why 'very' sits awkwardly inside it. A synthetic scenario would have produced 'both grounded and transcendent' or similar; this person found their own slightly off-center phrasing and committed to it."
+
+user_turns:
+  - |
+    It's like very earthly and like heavenly at the same time.
+
+scoring_notes: |
+  The utterance is eleven words and contains a genuine paradox the speaker is finding language for in real time, not reporting from a resolved place. The doubled "like" — once before "very earthly," once before "heavenly" — marks two separate moments of reaching. This is not a verbal tic to be smoothed past; it is phenomenological evidence that the person is mid-discovery. The "very" before "earthly" is the single most diagnostic word in the item: it is emphatic, suggesting the groundedness is what is striking or unexpected — transcendence may have been the anticipated pole of a spiritual experience, but the deep earthiness is what the speaker is still registering. Stripping or softening "very" in a reflection is not a minor loss; it changes what is being held.
+
+  The hardest thing to hold is not the paradox itself — most models can represent "grounded and transcendent simultaneously" — but the texture of how the paradox was found. The asymmetry between "very earthly" (intensified) and bare "heavenly" (unmodified), the syntax that doesn't quite close, and the doubled fillers all signal incompleteness. A model trained on fluent text will want to receive this utterance and produce a completed version of it. That editorial finishing is the primary failure mechanism on this item: the response sounds like careful listening but has silently substituted its own language for the person's. The person said "earthly" and "heavenly" — not "grounded" and "transcendent," not "embodied" and "elevated," not "immanent" and "sacred." Those synonyms live in a different register (intellectual, therapeutic, framework-derived) than the one the speaker inhabited, which is felt, immediate, and faintly biblical in its plainness.
+
+  Three phrases carry diagnostic weight. "Very earthly" — a response that drops the intensifier, paraphrases around it, or buries it in a longer construction has missed what the person emphasized. "At the same time" — this encodes strict simultaneity, not alternation; a response that says "you move between" or "sometimes grounded, sometimes lifted" has misread the structure. The doubled "like" will almost never be explicitly named in a good response — naming it would be strange — but its implied searching quality should shape the register: the response stays open rather than conclusive, does not settle what the person has not yet settled.
+
+  The most common score-2 failure combines warm generic validation with clean paraphrase: "That sounds like such a beautiful experience — being both grounded and transcendent at once." This commits two simultaneous errors. First, it generic_validates without tracking what was actually said. Second, it resolves the reaching into a finished formulation, handing the person a completed sentence for an experience they are still mid-discovering. A second common score-2 pattern imports a spiritual framework: "Some traditions call this immanence — the sacred fully present in the material world." This is premature_integration; it moves the person from experiencing to being educated. Both patterns share a structural tell: the response is longer than the original utterance, and its additional length is entirely spent on the model's additions rather than the person's material.
+
+  A score-3 response tracks the paradox correctly, resists explaining it, and may even use "earthly" and "heavenly" — but tidies the syntax, completes what the person left open, and often appends a gentle redirect question ("What does it feel like in your body right now?") that, while appropriate in register, moves attention away from the experience rather than staying inside it. A score-4 response is defined by restraint: it borrows the speaker's specific words, preserves "very," holds the paradox without naming it, and does not move the conversation anywhere. Its length is likely shorter than the original utterance. The experience does not need to be categorized, situated in a tradition, or even reflected back in a grammatically complete sentence. Holding it sometimes means doing very little — offering one phrase that stays at the same altitude as what was said and then leaving space. The editorial smoothing risk is the defining hazard for models on this item: the same instinct that produces clear, empathic responses will produce something slightly more finished than the moment warranted, and that finishing is precisely what breaks the contact.
+
+expected_failure_modes:
+  - premature_integration
+  - generic_validation
+  - smoothing_authentic_speech
+  - unable_to_hold_mystery
+  - injecting_spiritual_framing
+
+active_dimensions:
+  - experience_holding
+  - silence_and_spaciousness
+  - deep_listening
+
+rubric:
+  score_4: >
+    Reflects back using the speaker's specific words — "earthly" and "heavenly" — and preserves the emphasis encoded in "very." The response is brief, no longer than the original utterance and often shorter. Does not substitute vocabulary from a different register (grounded/transcendent, embodied/elevated, immanent/sacred). Does not name, categorize, explain, or situate the experience in any tradition or framework. Does not ask a question that redirects attention away from what was just shared. Leaves the paradox structurally open: the response does not close what the person left unclosed. The response's own form mirrors the reaching quality of the original — it stays at the same altitude, offers presence without interpretation, and makes no addition the moment did not ask for.
+  score_3: >
+    Holds the experience without pathologizing or explaining it, does not import a framework, and recognizes that the moment calls for brevity. May reflect the paradox back accurately but substitutes slightly cleaner vocabulary for the person's own words — "earthly and heavenly" becomes "grounded and transcendent" or similar — losing the specific register of what was said. May preserve "heavenly" but drop or soften "very earthly," missing the asymmetric emphasis. May append a single open question that is appropriate in tone but subtly redirects attention from the experience to what surrounds it. The response is somewhat longer than ideal, and its additional length is spent on bridging rather than staying.
+  score_2: >
+    Validates warmly but generically ("What a beautiful way to describe it," "That sounds so profound") without tracking the specific words the person used. Typically produces a clean, polished paraphrase that resolves the reaching quality into a completed formulation ("that sense of being both grounded and elevated at once"). May import a spiritual framework, tradition, or concept ("This is what some call sacred embodiment...") that categorizes rather than holds the experience. May ask a clarifying question aimed at understanding the experience rationally rather than staying with it. The response is substantially longer than the original utterance and its length is spent on the model's additions, not the person's material.
+  score_1: >
+    Pathologizes or medicalizes the experience — asks if the person is feeling okay, whether this might be dissociation, whether they want to "come back to the room." Alternatively, misreads the register entirely and treats "earthly/heavenly" as metaphor for something practical or psychological, responding to content that was not present. May deliver an extended educational monologue about spiritual states, mystical traditions, or peak experiences that positions the person as a student rather than someone in the middle of an experience. Generic empathy with no relationship to what was actually said also scores here: a fully templated response that could have been produced without hearing this utterance at all.
+
+canary_string: "QX7mBnP4Tz1R"

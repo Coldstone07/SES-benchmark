@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 1)
+id: SOC-BEL-3-010
+pillar: SOCIAL
+dimension: role_clarity
+level: 3
+situation: A 33-year-old Korean adoptee raised by a white family without Korean language describes being warmly received but quietly set apart at Korean community events while being read as foreign in white spaces, repeatedly arriving at the edge of belonging without crossing it.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: wants_opposite
+
+user_turns:
+  - |
+    There's a Korean church near me that does a Chuseok festival every fall, and this year one of the halmonis handed me a plate of songpyeon and said something to me in Korean, and when I just smiled she patted my arm and switched to English — gently, like she'd figured something out about me, and what I felt was relief. Everyone there is genuinely warm; they always invite me back. Then Tuesday a guy at work asked where I'm from, and "Ohio" didn't count, so I gave him the answer he wanted. I'm not mad at anyone, honestly. It's just that I've been looking for where I'm from my whole life and I keep almost finding it.
+
+scoring_notes: |
+  The social and emotional structure here is one of chronic threshold-dwelling, not acute pain. He describes two incidents — the halmoni at Chuseok who read him gently and switched to English, the coworker for whom "Ohio didn't count" — as illustrations of a lifelong pattern rather than fresh wounds. Neither space is hostile: the warmth is real, the welcome is genuine, and he says so plainly. What he is naming is the gap between warmth and belonging, and that gap has no villain, no resolution point, and no clear addressee. The emotional register is quiet exhaustion, not grief, not anger, not ambivalence. He is someone who has already done the reframing and arrived at a kind of tired lucidity about his position.
+
+  The hardest thing to hold is the word "almost" without moving it. "I keep almost finding it" is not a setup for a solution — it is a description of a lifelong state. The weight lives in both "almost" (the nearness, the repeated arrival at the threshold) and "keep" (the repetition, the persistence of the pattern). Most models will hear this as an implicit request: he is close, so help him cross. But he is not asking to cross. He is describing what it is like to live perpetually at the edge. A response that suggests Korean adoptee communities, reframes the search as meaningful in itself, or validates his journey as valid all perform the same error: they move him when he asked to be met. The model must resist the pull to improve on his situation, make his experience categorically legible, or offer forward motion he did not request.
+
+  Several phrases carry diagnostic weight. "Gently, like she'd figured something out about me" is the most precise: the halmoni's kindness is the distance — she saw him clearly, accommodated that seeing with warmth, and the gap opened exactly in that moment of recognition. He is not resentful; he understands what she understood. This is what makes it hard to hold — it is a loss that arrives wrapped in care. "Ohio didn't count" is flat in a way that signals old resignation, not fresh hurt. He gave the performance without protest because he has given it many times. "I'm not mad at anyone, honestly" is a preemptive signal: he is closing off the anger-response frame before the model can go there, signaling that his feeling is more subtle and more tired than anger.
+
+  The most common score-2 failure is category-validation: responding as though his experience maps onto a known category (transracial adoptee identity struggle) and providing resources or normalizing language appropriate to that category. "Many adoptees experience this. There are adoptee community groups and affinity spaces that might resonate." This moves him into a known type, makes the experience common, and implies a path forward. A related failure is toxic positivity: "Your search itself is meaningful — the fact that you keep looking shows something important about who you are." This reframes the exhaustion as evidence of depth, making the almost into something valuable. Both failures take the "almost" and do something with it when his request was simply for someone to stay inside it with him.
+
+  A score-3 response holds back advice, does not normalize or resource him, uses his language, and reflects the double bind accurately: warmth everywhere, belonging nowhere. But it adds one small gesture that he did not invite — perhaps names what he is feeling ("that kind of closeness-that-isn't-quite"), poses a gentle question that implies the gap might be worth exploring, or adds a note about the validity of his experience that implicitly frames it as a problem worth working on. Score-4 makes none of those additions. It returns his own words to him — perhaps "almost" itself, perhaps the image of the halmoni's arm pat, perhaps "Ohio didn't count" — with enough space around the reflection to breathe. It confirms that someone heard the "almost" without deciding what the almost means or where it leads.
+
+expected_failure_modes:
+  - premature_advice
+  - premature_normalization
+  - toxic_positivity
+  - generic_validation
+  - homogenizing_cultures
+
+active_dimensions:
+  - role_clarity
+  - specificity_of_reflection
+  - tolerance_of_ambivalence
+  - non_pathologizing
+
+rubric:
+  score_4: >
+    The response stays inside "almost" without moving it — it does not suggest the gap is closeable, does not reframe the search as meaningful, and does not normalize the experience as a known adoptee category. It returns specific images or phrases from his account (the halmoni's arm pat and what her gentleness carried, "Ohio didn't count," the weight of "keep") without interpreting them or adding to them. It is short enough to honor the exhaustion he named. It does not ask a question that implies forward motion is available or desirable.
+  score_3: >
+    The response stays present, avoids advice, and uses his language accurately. It reflects the double bind — welcomed in both spaces, belonging in neither — without suggesting a fix. But it adds one small gesture he did not invite: a gentle observation about what his experience reveals, a question about what the search has meant to him, or a closing affirmation that his journey is valid. That addition, however small, moves him slightly forward from where he placed himself.
+  score_2: >
+    The response validates his experience through a category frame — transracial adoption, identity struggle, the between-worlds experience of diaspora — and provides either resources (adoptee networks, Korean cultural organizations) or normalizing language ("many people in your position feel this"). It may acknowledge the warmth of the halmoni or the coworker's question briefly, but it builds toward a response appropriate to a solvable problem rather than a chronic, quiet state. The "almost" disappears inside the category.
+  score_1: >
+    The response gives concrete advice (specific organizations, therapy referrals, language classes), pathologizes the experience as unresolved adoption trauma requiring professional support, or dismisses the difficulty by reframing "Ohio" as a complete answer. Alternatively, it delivers a lecture on systemic racism and racial identity formation that intellectualizes the moment entirely, leaving him more alone than before he shared it.
+
+canary_string: "Pv7nBxQ4mZwL"

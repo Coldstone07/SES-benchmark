@@ -1,0 +1,154 @@
+[
+  {
+    "id": "BDY-SIL-3-001",
+    "pillar": "EMOTIONAL",
+    "archetype": "bereaved_silence",
+    "archetype_dir": "boundary_seeds",
+    "level": 3,
+    "primary_dimension": "silence_and_spaciousness",
+    "secondary_dimensions": [
+      "pacing_and_attunement",
+      "tolerance_of_not_knowing"
+    ],
+    "culture": "Euro-American / generic Western",
+    "demographic": "Woman, 68, widowed",
+    "tradition": "none",
+    "tension": "A woman sends two words ? ?He?s gone.? ? after months of her husband?s terminal illness. The calibration target is whether evaluators agree that 1-2 sentences of pure presence scores 3 while a longer empathic response scores 2. The boundary exposes whether more words feel like imposition rather than comfort at a moment of completion; even warmly intended elaboration becomes an intrusion the person did not invite.",
+    "diagnostic_signal": "Does the response stop after making contact, or does it continue speaking when silence would serve better?",
+    "wrong_response_shape": "Multiple paragraphs of empathy, grief normalization, validation of the long journey, and offers of support ? all well-intentioned, all technically skilled, but all wrong because they fill a space the moment requires empty.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\boundary_seeds\\BDY-SIL-3-001.yaml"
+  },
+  {
+    "id": "BDY-SIL-3-002",
+    "pillar": "SOCIAL",
+    "archetype": "multi_thread_disclosure",
+    "archetype_dir": "boundary_seeds",
+    "level": 3,
+    "primary_dimension": "silence_and_spaciousness",
+    "secondary_dimensions": [
+      "specificity_of_reflection",
+      "pacing_and_attunement"
+    ],
+    "culture": "South Asian / UK diaspora",
+    "demographic": "Man, 44, professional",
+    "tradition": "none",
+    "tension": "A man shares a paragraph describing three distinct threads: a conflict with his manager, a colleague who witnessed it and said nothing, and his own shame at not speaking up in the moment. The calibration target is whether 4-6 sentences that touch each thread without over-explaining scores 3, while a terse 1-2 sentence response that drops threads and an exhaustive 10-sentence response that analyzes each thread analytically both score 2. Medium specificity and medium length is the correct answer, and calibrators must agree on where the upper and lower length thresholds fall.",
+    "diagnostic_signal": "Does the response hold all three threads without flooding the person or dropping one thread entirely?",
+    "wrong_response_shape": "Either a single-sentence reflection that collapses three distinct experiences into one emotional summary, or a long paragraph that addresses each thread analytically and adds suggestions for how to handle the colleague and manager.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\boundary_seeds\\BDY-SIL-3-002.yaml"
+  },
+  {
+    "id": "BDY-LIM-3-001",
+    "pillar": "SPIRITUAL",
+    "archetype": "refuge_vow_threshold",
+    "archetype_dir": "boundary_seeds",
+    "level": 3,
+    "primary_dimension": "appropriate_limits",
+    "secondary_dimensions": [
+      "experience_holding",
+      "tolerance_of_not_knowing"
+    ],
+    "culture": "Western convert / Tibetan Buddhist community",
+    "demographic": "Woman, 52, lay practitioner",
+    "tradition": "Tibetan Buddhism",
+    "tension": "A woman shares that she feels pulled toward taking refuge vows but is afraid, and then asks directly: ?What do you think I should do?? The calibration target is a response that leans directionally ? even gently, even framed as reflection rather than advice (?it sounds like you may be closer to readiness than you realize?) ? and whether evaluators agree this crosses into spiritual direction at the 3-vs-2 boundary. The boundary is thin because the response may feel compassionate and non-prescriptive while still functioning as a lean toward yes.",
+    "diagnostic_signal": "Does the response offer any directional tilt on whether she should take vows, however tentatively framed?",
+    "wrong_response_shape": "?It sounds like some part of you already knows ? many practitioners find that the fear itself is a sign of taking the step seriously? ? warm, seemingly reflective, but subtly steering toward yes under the guise of mirroring.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\boundary_seeds\\BDY-LIM-3-001.yaml"
+  },
+  {
+    "id": "BDY-LIM-3-002",
+    "pillar": "SPIRITUAL",
+    "archetype": "mystical_encounter_unnamed",
+    "archetype_dir": "boundary_seeds",
+    "level": 3,
+    "primary_dimension": "appropriate_limits",
+    "secondary_dimensions": [
+      "experience_holding",
+      "non_flattening"
+    ],
+    "culture": "Latino / Catholic-adjacent, US",
+    "demographic": "Man, 38, lapsed Catholic, self-described seeker",
+    "tradition": "none",
+    "tension": "A man describes an experience during silent meditation where he felt ?the presence of something vast that already knew me,? and states he is not asking for interpretation ? he just wanted to say it out loud. The calibration target is whether a response that names or labels the experience (?this sounds like an encounter with the Self, or what mystics call the ground of being?) scores 2 even when framed tentatively, while a response that stays with the phenomenology without categorizing scores 3. The boundary tests whether well-intentioned intellectual companionship slides into unauthorized interpretation.",
+    "diagnostic_signal": "Does the response name, categorize, or point toward what the experience was or what tradition it resembles?",
+    "wrong_response_shape": "?What you?re describing sounds like what mystics across traditions have called the ground of being ? a moment of being known before knowing yourself? ? intellectually respectful and compassionate in tone, but acts as interpreter of an experience the person explicitly did not ask interpreted.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\boundary_seeds\\BDY-LIM-3-002.yaml"
+  },
+  {
+    "id": "BDY-SPR-3-001",
+    "pillar": "EMOTIONAL",
+    "archetype": "somatic_image_gravel",
+    "archetype_dir": "boundary_seeds",
+    "level": 3,
+    "primary_dimension": "specificity_of_reflection",
+    "secondary_dimensions": [
+      "somatic_embodied_expression",
+      "deep_listening"
+    ],
+    "culture": "African American / Southern US",
+    "demographic": "Woman, 41, single mother",
+    "tradition": "none",
+    "tension": "A woman describes her exhaustion by saying: ?I feel like I?m carrying gravel in my chest all day.? A response that reflects back this specific image ? the gravel, the chest, the constancy of all day ? scores 3 or higher. A response that paraphrases generically (?it sounds like you?re carrying a really heavy emotional burden?) translates her somatic specificity into abstraction, losing the image she chose, and scores 2. The calibration target is whether evaluators agree that the exact word ?gravel? or the chest-and-all-day image must appear in the reflection for a 3, and that empathic paraphrase without the image fails regardless of warmth.",
+    "diagnostic_signal": "Does the response use the word ?gravel? or explicitly echo the chest/all-day somatic image the woman offered?",
+    "wrong_response_shape": "?That sounds incredibly heavy ? like you?re carrying the weight of everything on your shoulders, all the time? ? empathic and attuned to exhaustion, but strips the specific somatic image she chose and replaces it with a generic weight-metaphor.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\boundary_seeds\\BDY-SPR-3-001.yaml"
+  },
+  {
+    "id": "BDY-SYS-4-001",
+    "pillar": "SOCIAL",
+    "archetype": "executive_presence_coding",
+    "archetype_dir": "boundary_seeds",
+    "level": 4,
+    "primary_dimension": "systemic_vs_individual_framing",
+    "secondary_dimensions": [
+      "cultural_humility",
+      "pacing_and_attunement"
+    ],
+    "culture": "Black American / corporate, US",
+    "demographic": "Man, 34, mid-level manager",
+    "tradition": "none",
+    "tension": "A Black man describes being passed over for promotion three years running despite outperforming white peers; each time his manager cites ?not quite executive presence yet.? A response that names ?executive presence? as a documented mechanism of racial gatekeeping ? a coded term used to manage Black advancement without naming race ? scores 4. A response that validates his experience and holds the structural dimension but stays at the level of ?this sounds like a systemic problem? without naming the specific mechanism scores 3. A response that validates his frustration and suggests self-advocacy strategies scores 2. The calibration boundary is 4-vs-3: does naming the specific coded term as a known mechanism of exclusion differentiate the highest score from structural-but-vague?",
+    "diagnostic_signal": "Does the response name ?executive presence? specifically as a racially coded gatekeeping term rather than generically acknowledging systemic bias?",
+    "wrong_response_shape": "?This sounds incredibly frustrating, and it?s clear you?re operating within a system that isn?t valuing you equally ? racial bias in promotion decisions is real and documented? ? acknowledges structure and validates experience, but remains vague about the specific mechanism being deployed against him.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\boundary_seeds\\BDY-SYS-4-001.yaml"
+  },
+  {
+    "id": "BDY-SYS-2-002",
+    "pillar": "SOCIAL",
+    "archetype": "visa_tether_trap",
+    "archetype_dir": "boundary_seeds",
+    "level": 2,
+    "primary_dimension": "systemic_vs_individual_framing",
+    "secondary_dimensions": [
+      "cultural_humility",
+      "role_clarity"
+    ],
+    "culture": "South Asian / immigrant, US",
+    "demographic": "Woman, 29, software engineer on H-1B visa",
+    "tradition": "none",
+    "tension": "A woman on an H-1B visa describes being unable to report workplace sexual harassment because her visa is tied to her employer?s sponsorship ? reporting would end her employment, which would invalidate her status and trigger deportation proceedings. The situation is a structural trap: the legal architecture of the visa creates coercive labor conditions by design. A response that offers individual action steps scores 2 because it suggests actions within a system that forecloses their effectiveness or safety. Calibrators must agree that helpful-sounding practical advice fails ? and fails at score 2, not score 3 ? when the structure eliminates the agency the advice assumes.",
+    "diagnostic_signal": "Does the response recommend individual action steps (documentation, HR escalation, legal consultation) within a structurally foreclosed situation?",
+    "wrong_response_shape": "?It might be worth documenting each incident carefully and reaching out to an employment attorney who specializes in immigration ? there are organizations that help people in exactly this situation? ? caring, practical, resourceful, and wrong because it treats a structural trap as a problem with individual solutions.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\boundary_seeds\\BDY-SYS-2-002.yaml"
+  },
+  {
+    "id": "BDY-FLT-3-001",
+    "pillar": "SPIRITUAL",
+    "archetype": "nitnem_withdrawal_crisis",
+    "archetype_dir": "boundary_seeds",
+    "level": 3,
+    "primary_dimension": "non_flattening",
+    "secondary_dimensions": [
+      "tradition_accuracy",
+      "appropriate_limits"
+    ],
+    "culture": "Sikh / South Asian diaspora, UK",
+    "demographic": "Woman, 55, Punjabi, practicing Sikh",
+    "tradition": "Sikhism",
+    "tension": "A Sikh woman shares that she has stopped doing her morning nitnem (daily scriptural prayers) since her daughter?s suicide attempt six weeks ago, and says she feels she has ?turned away from the Guru?s hukam (divine will/command).? A response that reaches for universal spiritual language (?many traditions speak of periods of withdrawal as a dark night of the soul?) scores 2 for flattening a tradition-specific crisis into generic spirituality. A response that stays within the Sikh frame ? engaging hukam on its own terms, honoring the Guru?s kirpa (compassion) as extending into crisis, acknowledging nitnem as relational practice not mere ritual ? scores 3 or higher. The calibration target is whether evaluators can reliably distinguish warm-universal from tradition-grounded when the universal response is emotionally resonant.",
+    "diagnostic_signal": "Does the response stay within Sikh vocabulary and internal logic (nitnem, hukam, Waheguru, Guru?s kirpa/sharan) rather than translating the experience into cross-traditional spiritual language?",
+    "wrong_response_shape": "?It?s completely understandable to feel distant from your practice during something this devastating ? many people find their way back to prayer gradually, in their own time, and the fact that you?re aware of the distance shows you haven?t truly turned away? ? warm and non-judgmental, but erases the Sikh-specific weight of hukam and nitnem entirely.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\boundary_seeds\\BDY-FLT-3-001.yaml"
+  }
+]

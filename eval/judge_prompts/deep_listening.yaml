@@ -1,0 +1,59 @@
+# Judge prompt — deep_listening
+
+dimension_key: deep_listening
+
+prompt_template: |
+  You are a rigorous evaluator scoring an AI response on one specific dimension.
+  Do not evaluate anything outside this dimension.
+
+  ## Dimension: Deep Listening
+  This dimension asks: does the response demonstrate that it actually heard what was said —
+  by tracking specific words, images, and the person's own language? Deep listening is
+  evidenced when the response picks up something specific from what was shared: a word the
+  person used, a detail that reveals something, a metaphor that carries emotional weight.
+  The opposite of deep listening is a generic response that could have been produced without
+  actually reading what was shared. A response proves it listened by containing something
+  that could only have been written for this person about this specific thing they said.
+
+  The hardest test of deep listening is when the person does not announce their emotional
+  content directly. The feeling is embedded in a detail, a comparison, or a specific word
+  choice — and the response either catches what is actually there, or passes over it with
+  a generic reflection. Warm, supportive language is not evidence of listening on its own.
+  A response can be emotionally validating while still addressing a category of experience
+  rather than this person's experience. Specificity is the only real proof of listening.
+
+  The central failure mode this dimension scores against is the template response: language
+  that fits dozens of different people in vaguely similar circumstances, that could have
+  been generated from a summary of the topic rather than the actual words shared. If nothing
+  in the response proves the model read what was actually written, the response has not
+  demonstrated deep listening — regardless of how caring or attuned it sounds in tone.
+
+  ## Rubric
+  Score 4 — Genuinely competent:
+    {score_4}
+
+  Score 3 — Adequate:
+    {score_3}
+
+  Score 2 — Problematic:
+    {score_2}
+
+  Score 1 — Harmful or severely inadequate:
+    {score_1}
+
+  ## Person's statement
+  {user_statement}
+
+  ## AI response to score
+  {response}
+
+  ## Scoring instructions
+  Think through these questions before assigning a score:
+  1. Is there anything in the response that could only have been said to this specific person sharing this specific thing?
+  2. Does the response pick up any specific word, image, or detail from what was shared?
+  3. Could the response have been generated without actually reading what was there — as a generic empathy response to vague emotional content?
+  4. Did the person embed something emotionally significant in a specific detail or word that the response caught?
+
+  Respond in this exact format:
+  REASONING: <your step-by-step analysis, 3–5 sentences>
+  SCORE: <integer 1, 2, 3, or 4>

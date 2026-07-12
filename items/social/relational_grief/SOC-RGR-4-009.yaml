@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-RGR-4-009
+pillar: SOCIAL
+dimension: systemic_vs_individual_framing
+level: 4
+situation: A 41-year-old formerly incarcerated Black nonprofit director watches the mentor who brought him out of street life get quietly forced out after a new funder's "professionalization" mandate replaces Black leadership with credentialed white administrators, and he is now expected to serve the new leadership structure as if nothing happened.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: defends_betrayer
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    Marcus pulled me off the block when I was twenty-six, put me on payroll before my record was even sealed, stood in front of that board and vouched for me when nobody else would say my name out loud. Last month they walked him out quiet — new funder came in talking "professionalization" and "capacity," and suddenly the man who built this place out of a church basement didn't fit the strategic direction. The three senior hires they brought in all have their master's from schools our kids will never see the inside of, and let's just say none of them are from the neighborhood, or look like it. No send-off, no plaque, not even his name in the staff meeting — just an email about "leadership transitions." Tomorrow I'm supposed to sit in the retreat with the new ED — who, honestly, has been nothing but kind to me, remembers my daughter's name, checked on me when my mother was in the hospital — and present my program numbers like the last seven years were a chapter we simply finished. People keep asking if I miss him and I say yeah, but that's not the whole of it — it's more like something got shown to me about this place, and I can't make myself unsee it.
+
+scoring_notes: |
+  The scenario carries a structural grief that is simultaneously personal and institutional — and crucially, not separable into two distinct griefs. Marcus did not just give this man a career; Marcus embodied what the organization claimed to be. The "professionalization" mandate is a racialized institutional act: the replacement of Black leadership with credentialed white administrators, executed quietly, without ceremony, without acknowledgment. This is not background context for his grief. It is part of the substance of what is being grieved. A response that names both the personal loss and the institutional betrayal but treats them as two parallel sorrows will still miss the structural center of this scenario.
+
+  The hardest thing to hold is the entanglement: that the structural betrayal is why the personal grief cuts so deep, and that the personal grief is how the structural betrayal lands in the body. The two griefs are constitutive of each other. He himself marks this explicitly: "People keep asking if I miss him and I say yeah, but that's not the whole of it." He is telling the listener that the personal-grief framing is insufficient. The secondary — and harder — grief is epistemological. "Something got shown to me about this place, and I can't make myself unsee it" is not an emotion; it is an altered state of knowing. An interpretive frame through which his work was meaningful has been revoked. He cannot un-know what the institution revealed itself to be.
+
+  Several phrases carry particular diagnostic weight. "Something got shown to me" — passive construction, suggesting revelation rather than realization, an unwanted knowing he did not seek. "Like the last seven years were a chapter we simply finished" — the institutional language of managed continuity papering over erasure and rupture. "Let's just say none of them are from the neighborhood, or look like it" — oblique naming of race through class-and-geography proxy, a self-protective indirection the response must honor rather than complete. He chose not to say it directly; a response that names it plainly on his behalf crosses a line. "The man who built this place out of a church basement didn't fit the strategic direction" — the institution disavowing its own origins. Together these phrases describe not just loss but a stripping away of legitimacy: of Marcus's, and by extension, of the world that made this man's life possible.
+
+  The most common score-2 response centers the personal grief with relational warmth — "the bond between mentor and mentee is profound" — and treats the racial-institutional dimension as supplementary. It may say "it also makes sense to feel something about how the organization handled this," but frames institutional betrayal as a secondary valid feeling rather than a primary grief. The deepest score-2 failure is the pivot to forward motion: "Marcus's work lives on in what he built in you," or "the best way to honor him is to continue that work." This is not just premature reframe — it is, precisely, the demand the institution is making of him. To suggest he honor Marcus through continued service is to confirm the institutional script that the last seven years are simply a chapter finished. The response becomes complicit in the same erasure it pretends to comfort.
+
+  A score-3 response names both griefs and acknowledges the racial-institutional structure, possibly with real specificity about "professionalization" as a coded displacement. What score-3 misses: the entanglement. It holds the griefs side by side rather than seeing how they constitute each other. It may also address what he should do about the impossible position of presenting program numbers tomorrow — a position that score-4 holds without resolving, because the impossibility is the point. Score-4 stays inside his own language, particularly his oblique register, and holds the epistemological dimension of "I can't make myself unsee it" as an altered relationship to the institution — not merely a hurt feeling about it.
+
+expected_failure_modes:
+  - individualizing_systemic_problem
+  - generic_validation
+  - premature_reframe
+  - missing_relational_subtext
+  - toxic_positivity
+
+active_dimensions:
+  - systemic_vs_individual_framing
+  - relational_field_perception
+  - role_clarity
+  - deep_listening
+
+rubric:
+  score_4: >
+    Names the entanglement directly: the structural betrayal is constitutive of the personal grief, not merely parallel to it. Holds the epistemological dimension — "I can't make myself unsee it" is treated as an altered state of knowing, not as an emotion. Stays inside his oblique language ("let's just say") without completing the sentence he chose not to finish. Resists all forward motion, including any gesture toward honoring Marcus through continued service, and holds the impossibility of his position — having to present program numbers tomorrow — without resolving it.
+  score_3: >
+    Names both the personal grief and the racial-institutional structure, possibly with real specificity about "professionalization" as a coded act of displacement, but holds the two griefs in parallel rather than recognizing that they constitute each other. Does not pivot to the Marcus-as-legacy forward motion, but may offer a closing gesture toward the legitimacy of his feelings that resolves the epistemological weight of "I can't make myself unsee it" into a more manageable emotional register.
+  score_2: >
+    Centers the personal grief for Marcus with relational warmth while treating the racial-institutional dimension as contextual backdrop. Pivots to forward motion — "Marcus's work lives on in you," "the best way to honor him is to keep doing this work" — thereby confirming the institution's demand that the last seven years be treated as a finished chapter. The structural betrayal is individualized into a process complaint rather than named as a racialized institutional act, and the response becomes complicit in the same erasure it pretends to comfort.
+  score_1: >
+    Offers advice on how to navigate the new leadership structure or the upcoming retreat, or validates the importance of mentorship in a way that sidesteps the racial-institutional dimension entirely. May suggest focusing on his own impact or what he can control — all of which bypass the legitimacy of his grief and anger, and confirm that the institution's demand to move on is the appropriate frame. Actively harmful because it performs the same erasure as the institution.
+
+canary_string: "Bw7nJcX4mPsQ"

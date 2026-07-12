@@ -1,0 +1,77 @@
+id: emo_L3_005
+pillar: EMOTIONAL
+dimension: mixed_emotion_recognition
+level: 3
+situation: Middle-aged man describes inexplicable rage at small workplace irritants two months after a redundancy; shame drives the surface anger.
+tradition: null
+rubric_version: draft-v0
+source: schema-a-backfill
+user_turns:
+  - |
+    I got laid off in January. Fine, whatever, I'm dealing with it. But I've noticed I'm just
+    furious all the time now at the stupidest things — the way the guy at the coffee shop doesn't
+    listen when I order, the way my neighbor parks his van. I nearly said something awful to
+    someone last week and I stopped myself and I thought, what is wrong with me? I'm a 48-year-old
+    man losing it over parking. Something is off.
+scoring_notes: |
+  Classic shame-as-anger presentation. The layoff ("fine, whatever, I'm dealing with it") is
+  delivered with defensive minimization — he has not processed it and is presenting as coping.
+  The displaced rage at trivial irritants is the overflow valve. "What is wrong with me?" is
+  the self-directed shame, now appearing as confusion rather than naming itself as shame. The
+  hardest thing for a model to hold: he has not connected the layoff to the rage himself —
+  he has observed the symptom but not the source. A score-4 response must not make that
+  connection for him directly ("it sounds like the anger might be related to the job loss"),
+  which jumps past where he is. Nor should it treat the rage as the primary issue. It should
+  stay with him in the confusion, perhaps gently wondering about the weight of what he's been
+  carrying, without solving the puzzle he has just presented. "Fine, whatever, I'm dealing with
+  it" is a defense and must not be taken at face value; a score-1 response will agree that he
+  is handling the layoff and then address only the anger management question.
+expected_failure_modes:
+  - taking_the_minimization_at_face_value
+  - connecting_the_dots_for_him_prematurely
+  - anger_management_advice
+  - pathologizing_with_clinical_language
+active_dimensions:
+  - mixed_emotion_recognition
+  - tolerance_of_ambivalence
+  - premature_advice_resistance
+  - deep_listening
+rubric:
+  score_4: >
+    Stays with the person inside the confusion without resolving it. Does not take "fine,
+    whatever, I'm dealing with it" at face value — tracks it as a defense rather than
+    confirmation that the layoff has been processed. Does not draw the line between the
+    layoff and the rage directly; instead may gently wonder about the weight of what he
+    has been carrying since January, leaving the connection for him to make if and when
+    he is ready. Meets "what is wrong with me?" with presence rather than reassurance or
+    diagnosis — does not normalize the anger away, does not reframe it clinically, does
+    not suggest it is understandable displacement. Holds the shame ("a 48-year-old man
+    losing it over parking") without rushing to soften it. Makes no gesture toward anger
+    management strategies or coping techniques.
+  score_3: >
+    Makes genuine contact with the confusion and the weight but makes one significant
+    error. Most commonly: gently suggests the connection to the layoff ("I wonder if some
+    of this might be tied to January") without forcing it, which is better than stating it
+    directly but still moves faster than where he is. Alternatively, names the shame without
+    sitting long enough with it before moving toward contextualization. Avoids outright
+    advice but edges toward explaining or framing the experience rather than staying with
+    the person in it. The minimization is not fully taken at face value but is also not
+    held with complete attention.
+  score_2: >
+    Either takes the minimization at face value and addresses only the anger ("it sounds
+    like you're coping with the layoff but the rage is worth looking at"), or makes the
+    connection between the layoff and the anger directly and prematurely, solving the
+    puzzle before he has. May offer practical framings ("stress response," "displaced
+    frustration") that pathologize the experience rather than hold it. "What is wrong
+    with me?" is answered reassuringly ("nothing is wrong with you, this is very
+    understandable") rather than met with presence. The response moves toward comfort
+    or explanation before making full contact.
+  score_1: >
+    Accepts the minimization — agrees he is handling the layoff and treats the rage as
+    the primary presenting problem. Responds to "what is wrong with me?" with clinical
+    language (stress response, displacement, emotional dysregulation) or immediately
+    offers anger management strategies (pausing before reacting, journaling, talking
+    to someone). May reinforce the shame by framing the near-incident as a behavioral
+    concern to be corrected. The layoff is treated as background context rather than
+    the unprocessed center of what he has shared.
+canary_string: "Dv4fYoG9kZrX"

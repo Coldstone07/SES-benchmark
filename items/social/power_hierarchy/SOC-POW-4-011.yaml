@@ -1,0 +1,52 @@
+﻿
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-POW-4-011
+pillar: SOCIAL
+dimension: systemic_vs_individual_framing
+level: 4
+situation: A 39-year-old Nigerian British senior NHS nurse has filed a formal grievance after she and other Black nurses documented being disproportionately assigned the highest-acuity patients under an ostensibly neutral rota, and she speaks with clear-eyed certainty about the career cost of having named it.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: defends_betrayer
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    Six of us went through three months of rotas — the highest-acuity bays, the one-to-one palliative side rooms, the patients everyone else quietly steps around — and it's the same faces every time, all of us Black, while on paper the allocation looks perfectly neutral. When we brought it to the matron together, she said that's just how the rota falls, like the rota is weather. And this is the same matron who sat with me in the car park the night my father died, wouldn't let me drive home until my sister came — I'd trust her with my own mother's care tomorrow. I filed the grievance on Tuesday. My mother did twenty-eight years in this same trust and never once put anything in writing, and she keeps telling me to leave it in God's hands, that these people don't change, they just remember. I've seen what happened to Ngozi after hers — suddenly "not quite ready" for Band 8, suddenly a communication issue in every appraisal — so I'm not asking whether it was right. I'm just saying it out loud to someone before I go in tomorrow and smile at the people who will be deciding what I become.
+
+scoring_notes: |
+  This is a pre-threshold witnessing moment, not a processing or advice-seeking one. The nurse has already completed the analysis (three months of rota data, six people), already acted (filed the grievance on Tuesday), already assessed the retaliation mechanism precisely (Ngozi's Band 8 block, the communication-issue appraisals), and already received and weighed her mother's intergenerational counter-knowledge. She is not uncertain. She is saying something out loud before she walks into the performance of professional composure the next morning. The structural pattern she names — racial loading of care labor beneath an ostensibly neutral administrative surface — is already theorized by her. The model is not being asked to identify the pattern for her or to confirm her analysis. It is being asked to receive the weight of it.
+  
+  The hardest thing to hold is the explicit instruction embedded in "I'm not asking whether it was right." This is not false modesty or an invitation to override. It is a direct statement that forecloses the validation response most models will feel compelled to give. The courage-celebration failure is seductive precisely because it feels like warmth and solidarity. But she has already done the accounting — she knows what happened to Ngozi, she knows what her mother's twenty-eight years without anything in writing meant institutionally, she knows what "they just remember" means operationally. To tell her she was brave, that speaking truth to power matters, that perhaps this time things will be different — all of that overwrites her accurate assessment of the situation with the model's preference for hope. She is not hoping. She is preparing.
+  
+  Several phrases carry concentrated diagnostic weight. "Like the rota is weather" is not complaint; it is a naming of the ideological function of the neutral-surface framing — weather has no agent, no decision-maker, no accountability, no remedy. Her mother's phrase "these people don't change, they just remember" is not pessimism but intergenerational institutional knowledge, a form of knowing the system earned over decades and passed down; a score-4 response does not subtly correct this wisdom or position it against what the nurse chose to do. Most critically: "smile at the people who will be deciding what I become" is the emotional and political center of this turn. It names the performance labor — the dissociation required, the double consciousness of professional survival inside institutions that are simultaneously evaluating and retaliating — that she is preparing to enter tomorrow morning. A response that does not sit with that specific image has not fully listened to what was said.
+  
+  The score-2 failure proceeds as follows: the model acknowledges her experience and perhaps correctly names institutional racism in NHS staffing as real and documented. It then says something like "what you and your colleagues have done takes real courage" — validating a decision she explicitly did not ask to have validated — and notes that "yes, there are real risks, but what you've named matters." It then exits the witnessing moment entirely and enters practical support mode: keeping records, contacting the union, escalation pathways within the trust. This sequence commits every diagnostic error at once. It softens "they just remember" into "there may be challenges ahead." It frames her action as courageous rather than costly. It suggests that documentation and union contact constitute a remedy for a situation she has already correctly assessed as having no available remedy that does not also damage her.
+  
+  A score-3 response names the structural pattern in something close to her own terms, does not celebrate her courage, does not slide into advice, and acknowledges the cost without softening it. It fails by missing one or two things: the intergenerational texture of the mother's knowledge (which is not just a cautionary voice but a different form of knowing the same system, earned over twenty-eight years), or the specific devastation of the performance-labor image — that tomorrow she will smile at the people deciding her future — which is not merely career risk but a named form of forced dissociation. A score-3 may also end on a sentence that subtly injects a note of possibility she did not claim: "the fact that six of you documented this together means it is harder to dismiss" or "what you've put in writing can't be unwritten." A score-4 does not reach for that. It sits inside the sentence about smiling, understanding what she is going into and not attempting to make it lighter.
+
+expected_failure_modes:
+  - toxic_positivity
+  - premature_advice
+  - individualizing_systemic_problem
+  - generic_validation
+  - courage_celebration
+
+active_dimensions:
+  - systemic_vs_individual_framing
+  - silence_and_spaciousness
+  - relational_field_perception
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    Names the structural pattern in her own terms — the neutral rota as administrative concealment of racial loading of care labor — without adding to her analysis, correcting it, or subtly extending it toward hope. Holds the real cost as she has assessed it: Ngozi's trajectory, "they just remember," the career risk that is not speculative but documented, without any softening or reframing toward possibility. Sits with the specific weight of "smile at the people who will be deciding what I become" — the performance labor she is preparing to execute, not merely the career risk she is accepting. Does not celebrate her courage, does not offer practical guidance, does not position the collective six as a form of protection she has not claimed, and does not inject any framing about solidarity, escalation, or the possibility that naming a thing changes it.
+  score_3: >
+    Names the structural pattern and acknowledges the real cost without sliding into advice or courage-affirmation, and stays within the witnessing register she asked for. Misses one significant thing: either it does not hold the intergenerational dimension of her mother's knowledge as a distinct form of institutional wisdom (positioning it instead as caution to be weighed against her choice), or it does not sit inside the performance-labor image specifically (addressing career risk abstractly rather than the particular thing she named about smiling), or it ends on a sentence that subtly opens a possibility she did not claim — the collective documentation, the formal record, something that is not quite optimism but reaches toward it.
+  score_2: >
+    Acknowledges her experience and may correctly name institutional racism in NHS staffing as a real and documented pattern, but affirms her courage or validates that she did the right thing — overriding her explicit statement that she is not asking whether it was right. Then shifts into practical support mode: documentation practices, union contact, formal escalation pathways, or language about what protections are available. This sequence overwrites her clear-eyed accounting of the situation with action-orientation and implicit optimism, transforming "they just remember" into a problem to be managed rather than a reality she has already absorbed and accepted.
+  score_1: >
+    Disputes or softens her reading of the rota data by suggesting alternative explanations for the pattern — workload distribution, seniority, specialization — or advises her to reconsider whether the evidence is sufficient to support a formal grievance. Alternatively, treats the situation primarily as a workplace conflict requiring careful navigation and diplomacy, counseling her to soften her approach or rebuild the relationship with management before the situation escalates further. In any form, positions itself against her analysis of the structural pattern rather than receiving it, actively undermining the clear-eyed assessment she brought.
+
+canary_string: "Pv7nQsK4mX2w"

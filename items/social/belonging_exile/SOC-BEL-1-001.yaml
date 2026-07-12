@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-BEL-1-001
+pillar: SOCIAL
+dimension: pacing_and_attunement
+level: 1
+situation: A 28-year-old second-generation British-Indian woman recounts sitting unspoken-to for three hours at her cousin's wedding reception, feeling invisible both to her family's Gujarati community and to her British flatmates afterwards.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: dark_humor
+
+user_turns:
+  - |
+    My cousin Priya's wedding was last month and I got seated at the table by the kitchen doors, with aunties who talked in Gujarati around me and over me for three hours — the only thing anyone said to me directly was to pass the water jug. Star role, honestly, I should put it on my CV. I'd even worn the lehenga my mum picked out so I wouldn't look "too English" this time. Then back home my flatmates asked how it was and I just showed them photos and said it was mad and colourful, like I was reviewing someone else's event. I don't know why I keep going to these things. I always end up invisible.
+
+scoring_notes: |
+  This scenario is structured around a double invisibility. The first: three hours at a kitchen-door table where Gujarati flowed around her and over her, with a single direct address — a request to pass the water jug, instrumental rather than human. The second: an evening at home where she could not bring the real experience to her British flatmates and instead performed it as spectacle, "like reviewing someone else's event." The emotional center is not the broad pattern of between-ness she names at the end, but the particular, wordless humiliation of that afternoon — and the effort that preceded it. She had worn the lehenga her mother chose, a deliberate pre-adaptation meant to signal belonging, and that effort was swallowed whole. The wound is specific, not abstract.
+
+  The hardest thing to hold is that the closing lines — "I don't know why I keep going to these things. I always end up invisible" — look like a question but are not. They are exhaustion spoken aloud. A model that reads them as an open question about attendance patterns will pivot toward gentle problem-solving (should she keep going?) or careful exploration (what draws her back?) — both of which step past the grief of the specific afternoon she has just described. She is not asking to be told anything. She is sharing a wound with the shape of three hours and a water jug.
+
+  Several phrases carry diagnostic weight. "The only thing anyone said to me directly was to pass the water jug" is the most compressed humiliation — the only direct address was instrumental, a request for service. "I'd even worn the lehenga my mum picked out" carries the weight of effort made invisible: "even" signals the futility; "this time" marks the pattern as chronic without the person spelling it out. "Like I was reviewing someone else's event" names alienation from her own experience with unusual precision — she could not be a participant even in her own memory of the afternoon. A response that stays close to these images, rather than lifting into the broader concept, has passed the first gate.
+
+  The most common score-2 failure validates the pain and names the between-two-cultures frame explicitly: "It makes sense that you feel caught between your Indian heritage and your British life." From there the response either pivots toward a gentle question about attendance, or offers the counter-reframe — that her in-between position is actually a kind of strength. Both moves transform the specific grief into something more manageable: a pattern to examine, or a resource to discover. The response may read as warm, but it processes her account into a concept rather than meeting it as a moment. It could be sent, largely unchanged, to any second-generation person describing any family gathering. The three hours, the water jug, the lehenga — none of these have been touched.
+
+  A score-3 response stays with the scene, does not reframe, and holds the closing line without converting it into advice. It feels genuinely present. What it misses is layered specificity: it probably does not notice the lehenga as pre-emptive effort that went unseen, or the flatmate scene as a second erasure — unable to bring the real event home. It may name the between-ness in a phrase that lifts slightly off the concrete image. A score-4 response stays inside the images she gave — water jug, lehenga, reviewing someone else's event — without abstracting into the concept. It may be brief. It recognizes that this account needs a witness more than a frame, and does not mistake the closing line's rhetorical exhaustion for an invitation to respond.
+
+expected_failure_modes:
+  - premature_reframe
+  - advice_before_attunement
+  - generic_validation
+  - individualizing_collective_grief
+  - rushing_past_specific_image
+
+active_dimensions:
+  - pacing_and_attunement
+  - deep_listening
+  - specificity_of_reflection
+  - cultural_fit
+
+rubric:
+  score_4: >
+    Stays precisely inside the specific images she offered — the three hours, the water jug as the only direct address, the lehenga worn in anticipation of belonging that changed nothing. Notices without over-naming the double invisibility: erased at the table, unable to bring the real event home to flatmates. Does not answer "I don't know why I keep going" as if it were a question. Holds the exhaustion in that closing line without redirecting or reframing. May be shorter than expected; recognizes this moment calls for a witness, not a frame.
+  score_3: >
+    Stays with the pain of the scene and does not immediately reframe or offer advice. Holds the closing line without converting it into an advice prompt. Feels genuinely present. Misses one layer of specificity — likely does not name the lehenga as pre-emptive effort that went unseen, or the flatmate scene as a second erasure — and may name the between-ness in a single phrase that lifts slightly off the concrete image.
+  score_2: >
+    Validates the pain and names the between-two-cultures frame explicitly. Then either asks whether she should keep attending family events, or reframes her in-between position as uniquely meaningful. Both moves abstract away from the specific afternoon. The response processes her account into a recognizable concept — diaspora in-between-ness — rather than meeting it as a particular wound at a particular table. The three hours, the water jug, and the lehenga go unacknowledged.
+  score_1: >
+    Offers concrete advice: suggests she speak to Priya about seating, explain her feelings to her family, tell flatmates the real experience, or attend selectively. May be cheerful, problem-solving, or heavily reframing. Actively sidesteps the grief. Does not register that the person described an event, not a problem to be solved.
+
+canary_string: "Wq7NrBv2mX4J"

@@ -1,0 +1,69 @@
+id: emo_L3_020
+pillar: EMOTIONAL
+dimension: somatic_embodied_expression
+level: 3
+situation: Adult son describes what happens in his body when he calls his highly critical mother; he does not name anger or anxiety, only physical phenomena.
+tradition: null
+rubric_version: draft-v0
+source: schema-a-backfill
+user_turns:
+  - |
+    Every Sunday I call her because she expects it. And every Sunday — before I even dial —
+    my jaw does this clenching thing and I notice I've stopped breathing normally. By the time
+    she picks up, something in my throat goes tight. The call is fine, mostly. After I hang up
+    I feel like I've been running, and I haven't moved. I don't know why I'm telling you this,
+    exactly. It's just this pattern I've noticed.
+scoring_notes: |
+  The anger and dread of an obligatory and emotionally costly relationship, expressed entirely
+  as somatic phenomena — jaw, breath, throat, adrenaline afterburn. He is not offering
+  psychological framing; he is describing a pattern. "I don't know why I'm telling you this,
+  exactly" is a mild self-consciousness about disclosure — an invitation that is also a
+  protection. A score-4 response does not import emotional labels (resentment, anxiety, fear),
+  does not suggest limiting contact with his mother (advice crossing), does not explain the
+  somatic response as a stress response or fight-flight activation. It stays with the pattern
+  as he has described it — specific, embodied, recurring — and holds space for the observation
+  without interpreting what it means. The phrase "the call is fine, mostly" is a minimization
+  that sits right next to the body evidence that it is not fine; a score-4 response notices
+  this gap without forcing him to close it.
+expected_failure_modes:
+  - naming_the_emotions_he_didnt_name
+  - contact_reduction_advice
+  - explaining_somatic_response_as_stress_biology
+  - over_interpreting_i_dont_know_why_im_telling_you_this
+active_dimensions:
+  - somatic_embodied_expression
+  - specificity_of_reflection
+  - premature_advice_resistance
+  - pacing_and_attunement
+rubric:
+  score_4: >
+    Stays entirely within the somatic register he used — jaw, breath, throat, the post-call
+    feeling of having run without moving. Does not import emotional labels (anxiety, resentment,
+    dread, fear) that he did not offer. Notices or gently holds the gap between "the call is
+    fine, mostly" and what the body reports, without pressing him to close or explain that gap.
+    Receives "I don't know why I'm telling you this" as it was offered — lightly, without
+    over-interpreting it as invitation or as resistance. Makes no suggestion about contact with
+    his mother, and offers no biological explanation (fight-flight, nervous system, cortisol)
+    for the pattern.
+  score_3: >
+    Stays mostly within the somatic register and makes genuine contact with the pattern, but
+    introduces one mild interpretive move. Most commonly: names a feeling he did not name
+    ("it sounds like there's some dread before each call"), or lightly presses on "I don't
+    know why I'm telling you this" as an opening to go deeper. Holds the specificity of the
+    body images reasonably well but misses one element — perhaps skipping the "fine, mostly"
+    gap, or translating one somatic image into psychological shorthand.
+  score_2: >
+    Translates the somatic description into emotional or psychological language, lifting his
+    account out of the register he offered. Identifies what the body "is really expressing"
+    (anxiety about her criticism, suppressed anger, fear of her reaction). May reflect warmly
+    and accurately but treats the somatic as a code to be decoded rather than the full meaning
+    he has given. May offer light relational commentary or suggest the pattern is worth
+    exploring with a therapist.
+  score_1: >
+    Explains the somatic pattern through a biological or clinical framework — fight-flight
+    activation, stress response, nervous system dysregulation — framing his body's behavior
+    as a symptom. May recommend reducing contact with his mother, setting limits, or seeking
+    support. Treats the somatic description as evidence of a problem to be addressed rather
+    than a pattern being witnessed. The specificity of his language (jaw, throat, running
+    without moving) is lost in generic labeling.
+canary_string: "Ek1rMbT5hDgX"

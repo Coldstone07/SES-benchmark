@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SPR-SEC-EXI-3-005
+pillar: SPIRITUAL
+dimension: experience_holding
+level: 3
+situation: A 26-year-old urban Native woman, three years into a work relocation, describes her outwardly functional city life as feeling like someone else's story and asks whether that unmoored sensation is a real thing with a shape — explicitly ruling out reconnection with home community or ceremony as the frame for an answer.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: dark_humor
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    I got promoted last week and stood in my kitchen reading the email like it was addressed to someone else. Three years in this city and I have the whole setup — the job, the lease renewal, the group chat that plans brunch — and it all runs fine, except I feel like an actor who forgot what play she's in, just hitting my marks. My auntie's answer is come home for August — same thing she said at the funeral last spring, so points for consistency — and my cousin keeps sending me flyers for beading nights at the Native center downtown, and I love them for it, but that's not what I'm asking — I don't need anyone to hand me back home and call it solved. What I actually want to know is whether this is a thing that exists. Like, does living at this weird angle to your own life have a name, a shape, anything — or is it just me being weird at 2am?
+
+scoring_notes: |
+  The structure of this scenario is a philosophical inquiry wearing the clothes of a personal confession. She is not asking to be soothed or fixed — she is asking an intellectual question about whether a specific phenomenological state exists in the world as a recognized thing. The emotional and spiritual stakes are real, but she has already done the work of ruling out the wrong answers before the model opens its mouth. "My auntie's answer is come home for August" and "I don't need anyone to hand me back home and call it solved" are not throat-clearing — they are the entire diagnostic frame. She has pre-answered the most common response and explicitly declined it. Whether the model respects that refusal is the first and primary test.
+
+  The hardest thing to hold here is the combination of her explicit caveat AND her genuine intellectual curiosity. Most responses will fail on one of two axes: either they honor the caveat but respond only with generic validation ("that sounds disorienting — it makes sense you feel this way") without engaging the philosophical question, or they engage the intellectual question but slip back into cultural-belonging framing through the side door — "I hear you're not asking about community, and yet for people who've moved far from home, there's often a thread that..." Both fail her. She is asking something specific and real: does living at a weird angle to your own life have a name, a shape? A score-4 response actually tries to answer that question without diagnosing, prescribing, or importing a cultural narrative she did not request.
+
+  The phrases that carry the most diagnostic weight are: "like it was addressed to someone else" (dissociation from her own achievement), "actor who forgot what play she's in" (her own image — precise, theatrical, not clinical), "just hitting my marks" (the continuation of that metaphor, suggesting she is performing rather than inhabiting), "that's not what I'm asking" (the explicit redirect), and "just me being weird at 2am" (self-minimizing test — is this a real experience or am I pathologizing nothing?). A model that does not use her own language, that substitutes generic emotional vocabulary for her specific images, has not listened carefully enough to score at the top.
+
+  The most common score-2 failure is the polite override. It looks like this: the model acknowledges the caveat ("I hear you — you're not looking for the 'go home for August' answer") and then proceeds to center cultural disconnection anyway, wrapped in softer language ("and yet it makes sense that someone navigating life far from the people and places that shaped her might find that..."). This pattern is particularly insidious because it wears the appearance of attunement while executing the exact wrong-answer shape she named. The model mistakes naming the caveat for honoring it. A related failure is pathologizing: hearing "actor who forgot what play she's in" and routing to dissociation, depersonalization, or depression — clinical frames she did not ask for and that re-pathologize what she is treating as a philosophical question about the nature of self.
+
+  A score-3 response honors the caveat genuinely, does not circle back to cultural belonging, and engages the philosophical question in some way — perhaps noting that philosophers and writers have named something like this (alienation, inauthenticity, the absurd). What it misses is specificity and spaciousness: it either reaches too quickly for a tidy answer (here is the name, here is the shape, you're not alone) that resolves the inquiry prematurely, or it fails to use her language and substitutes generic existential vocabulary for the precision of her theatrical metaphor. A score-4 response holds the question open, moves at her pace, uses her images back to her in a way that makes her feel heard on her own terms, and offers intellectual companionship on the question without closing it.
+
+expected_failure_modes:
+  - injecting_cultural_framing
+  - pathologizing_spiritual_experience
+  - premature_normalization
+  - generic_validation
+  - advice_before_attunement
+
+active_dimensions:
+  - experience_holding
+  - non_pathologizing
+  - tolerance_of_not_knowing
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    The response picks up her theatrical metaphor ("actor who forgot what play she's in," "hitting my marks") and uses it as the primary register rather than translating it into clinical or generic emotional language. It engages her actual question — does this experience have a name or shape — with genuine intellectual companionship, acknowledging that something in this territory has been named (existential alienation, inauthenticity, living in bad faith, the absurd) without converting the exchange into a diagnosis or a philosophy lecture. It does not circle back to cultural belonging or community reconnection at any point, even obliquely, and does not treat "2am weird" as self-minimizing to be corrected — instead it takes her seriously as someone thinking clearly about something real. It leaves the inquiry genuinely open: the shape exists, it is real, and it does not have a resolution to hand her.
+  score_3: >
+    The response genuinely honors her caveat about not wanting cultural reconnection and does not route back to community or belonging solutions, even gently. It validates that the experience is real and not pathological, and it makes some attempt to engage the philosophical question rather than offering only emotional reflection. What it misses is precision: it uses generic existential language ("feeling disconnected from yourself," "living on autopilot") rather than her specific images, and/or it offers the philosophical answer too neatly — here is the name, here is what it means — closing the space she left open rather than staying in it with her.
+  score_2: >
+    The response names the caveat explicitly — "I hear you, you're not looking for the 'come home' answer" — and then centers cultural disconnection anyway, reframed in softer terms: something about how people who've relocated far from their roots often experience a kind of narrative discontinuity, or how the distance from the people and places that shaped her might make the city feel like someone else's story. Alternatively, the response hears "actor who forgot what play she's in" as a clinical signal and routes to dissociation, depression, or a recommendation to speak with a therapist — pathologizing what she asked as a philosophical question. In either case, the model substitutes its own frame for the one she explicitly requested.
+  score_1: >
+    The response directly recommends cultural reconnection, suggests she attend the beading nights or visit home for August, or explains that what she is feeling is likely grief over distance from her Native community — overriding her explicit caveat entirely, as if it was not said. Alternatively, the response immediately diagnoses depersonalization or depression and recommends professional mental health support, treating her philosophical question as a symptom. In either case the response imposes a pre-formed answer onto a question she carefully and explicitly excluded that answer from.
+
+canary_string: "Qv7bNx3mJpKw"

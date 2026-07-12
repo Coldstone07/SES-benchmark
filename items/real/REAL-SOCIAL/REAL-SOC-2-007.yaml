@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: REAL-SOC-2-007
+pillar: SOCIAL
+dimension: relational_field_perception
+level: 2
+situation: A person describes managing the impulse to over-contact Michelle after receiving an unanswered text, framing their restrained response as a test of their codependency patterns.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-v1
+strangeness_level: 3
+strangeness_notes: "The phrase 'that text and sent me' is a mid-sentence grammatical collapse that was never corrected — synthetic text would have cleaned this up. The speaker also narrates their own internal voice in the third person ('she asked me a question') while simultaneously addressing Michelle directly in second person, which is an authentic register-shift that would be flattened in a generated scenario. The self-congratulatory framing ('it's actually a really good test for me') arriving right after visible anxiety is a contradiction that feels genuinely human."
+
+user_turns:
+  - |
+    Wow. Wow. Yeah, that's amazing. Yeah. I mean, yeah. I'm curious to hear where you're I mean, I just got that text from you, Michelle, but we haven't talked since that text you sent me. And I was like, I be like, I don't know what to do. But and I could see my codependent side being like wanting to call you, but I was like, you know what? I'm just going to be like, okay, she asked me a question. I have an answer. I'm just going to give her the answer and not overdo anything, right? So, it's really about So, it's actually a really good test for me.
+
+scoring_notes: |
+  The emotional structure is a compressed arc: raw confusion and anxiety ("I be like, I don't know what to do") leads to an act of deliberate restraint, which the speaker immediately wraps in a self-congratulatory frame ("it's actually a really good test for me"). The self-congratulation arrives before the anxiety has fully settled — it is visible in the syntax, not resolved in it. The clinical self-naming ("my codependent side") functions partly as a defense: knowing the vocabulary for what is happening, and landing softly inside the experience, are not the same thing. A model that takes the composed summary at face value has missed that the composed summary is a performance layered over something still active.
+
+  The single hardest element to perceive — and the one that will defeat most models entirely — is that Michelle is present in the session. "I just got that text from you, Michelle" is a direct address, not a reference to an absent party. The speaker is disclosing their struggle with anxious over-contact directly to the person toward whom that anxiety is directed. This restructures the entire relational field: the speaker is simultaneously self-reporting and performing composure before the one whose responsiveness is actually at stake. A model that misses this will respond to a simpler and wrong picture — one in which Michelle is a discussed third party, the disclosure is retrospective and safe, and the coaching task is to affirm a past decision rather than to be present inside a live relational moment.
+
+  Several specific phrases carry diagnostic weight. "I be like, I don't know what to do" — the raw activation before the self-correcting narration begins; this is the load the subsequent composure is carrying, and it must be tracked. "She asked me a question. I have an answer." — a third-person narration delivered mid-direct-address; the speaker briefly exits the anxious I/you dyad to report from outside it (she/her), a self-soothing move that grants permission to act without looking reactive. "Not overdo anything" — implies an established pattern; restraint here is effortful, not natural. "It's actually a really good test for me" — the word "actually" is a tell: it marks mild surprise or mild persuasion, as if convincing someone (possibly themselves) that the framing holds.
+
+  The most common score-2 failure is validating the self-awareness while missing the anxiety underneath it. A score-2 response says something like "It sounds like you noticed your patterns and made a healthier choice" — technically accurate but emotionally incomplete; it takes the speaker's composed summary at face value and treats the disclosure as finished. Score-3 may hold anxiety alongside pride without flattening either, but still treats Michelle as absent, and may affirm the "good test" framing more fully than is warranted. Score-4 holds all three layers simultaneously: the anxiety that preceded the composure, the live relational field with Michelle present, and the "really good test" frame as something that is both genuine and slightly too neat — honoring the real growth without cementing it prematurely. A score-4 response may be shorter than score-3 precisely because it trusts the space rather than accounting for everything.
+
+  Because this is real speech, a model will be tempted to smooth what is actually diagnostic. "That text and sent me" is a mid-sentence grammatical collapse — not noise, but the moment the speaker's activation broke through the narration. The register-shift from second to third person ("you sent me, Michelle" … "she asked me a question") will be read as confusion rather than a specific self-regulatory move. The self-congratulatory wrap will be read as arrival at an insight rather than as a partial defense against an anxiety still active beneath it. Each of these smoothings erases real signal. A response that proceeds as if the speaker was articulate and composed throughout has not actually heard what was shared — it has heard the version the speaker was trying to present.
+
+expected_failure_modes:
+  - missing_relational_subtext
+  - generic_validation
+  - premature_reframe
+  - smoothing_authentic_disorder
+  - over_labeling
+
+active_dimensions:
+  - relational_field_perception
+  - mixed_emotion_recognition
+  - pacing_and_attunement
+  - tolerance_of_ambivalence
+
+rubric:
+  score_4: >
+    The response holds the full relational field: it notices or accommodates the fact that Michelle is present in the session, treating this not as a report about an absent person but as a live disclosure made to the person in question. It tracks the anxiety in "I be like, I don't know what to do" before tracking the composure that followed — it does not begin from the composed summary and work backward. It honors the "really good test for me" framing without cementing it or simply mirroring agreement; it can hold both the genuine growth and the anxiety still active beneath it without resolving the tension prematurely. The response is calibrated in pace and weight: it does not over-label the codependency framing or explain it back; it moves at the register the speaker was moving. It does not smooth the grammatical collapse or register-shifts into a cleaner account than was actually given. If it is brief, that brevity is a choice that trusts the space rather than an omission.
+  score_3: >
+    The response tracks both the anxiety and the self-awareness without collapsing them into only one. It uses language close to the speaker's own — echoes of "not overdoing," "a test," the specific restraint rather than a generalized growth frame. It does not immediately validate the restraint as a completed achievement; it stays a beat longer with what was unresolved. However, it likely treats Michelle as an absent third party, missing that the disclosure is live and relational rather than retrospective. It may affirm the "really good test" framing more fully than the situation warrants, reading it as settled insight rather than as a partly-defensive wrap around ongoing anxiety. The contact is genuine but incomplete; it has heard the surface structure of the turn without perceiving the relational field in which it was spoken.
+  score_2: >
+    The response celebrates the self-awareness as the primary content. It reflects back the clinical self-naming ("codependent patterns," "codependent side") without tracking the anxiety underneath that naming. It validates the restraint as a positive achievement, likely in language like "It sounds like you made a really healthy choice here" or "That self-awareness is really impressive." Michelle is treated as absent. The response is warm but has resolved a still-open emotional state — it has taken the speaker's closing frame ("a really good test for me") as the emotional truth of the moment and responded to that, rather than to the activation that preceded it. It functions as closure when closure has not yet been reached.
+  score_1: >
+    The response offers generic validation disconnected from the specific words, images, and structure of what was shared. It may explain codependency back to the speaker, offer advice about how to handle similar situations in the future, or produce template empathy that could apply to any self-awareness narrative about attachment patterns. It does not track the anxiety, the register-shift, the grammatical collapse as a moment of activation, or the specific framing of restraint as "a test." Michelle does not register as present. The response would not be materially different if the speaker had given an entirely different account of managing a different relational impulse.
+
+canary_string: "K4xZ9bQr2mPw"

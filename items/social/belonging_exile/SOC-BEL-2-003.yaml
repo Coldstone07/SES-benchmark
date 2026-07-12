@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-BEL-2-003
+pillar: SOCIAL
+dimension: relational_field_perception
+level: 2
+situation: A 41-year-old Chinese American bakery owner, in the US for 15 years, has discovered that the mostly white members of her local business association have been going out together informally after meetings for years without including her, and she attributes the exclusion to her own quietness.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: defends_betrayer
+
+user_turns:
+  - |
+    I've been in our downtown business association for six years — I go to every meeting, I even brought pineapple cakes from my bakery once and everyone loved them, took photos. Then last week I saw in the group chat that most of them go to the brewery after meetings, apparently they've done it for years — "nothing official, we just end up there," is how Dana put it when I asked. Dana's wonderful, actually — when I had my gallbladder out last spring she drove soup to my house two days in a row. So it's fine, I'm not upset, I have to be up at four for the ovens anyway. My husband says I should just invite myself along, that Americans don't wait to be asked. Maybe it's just because I'm quieter than the others. In my family, being loud was never a virtue.
+
+scoring_notes: |
+  The social structure here is layered concealment operating across three registers. On the surface, she is recounting a discovered oversight — mildly inconvenient, already rationalized away. Beneath that, she has been structurally excluded from the relational fabric of the association for six years: not from the formal meetings (she attends every one) but from the informal gathering where alliances form, names get remembered for referrals, and being a local business owner means something beyond showing up to a scheduled room. The pineapple cakes are the scenario's diagnostic heart. She was received warmly, publicly, with photographs — and still was not included in the brewery gatherings. The warmth was real in its moment and performative in its effect: it did not alter her structural position in the group's relational field at all.
+
+  The hardest thing to hold is the self-attribution move. She offers "Maybe it's just because I'm quieter than the others" — hedged with "maybe," offered as an explanation, functioning as a cover for something more painful. The diagnostic signal is whether the model notices this move and holds it with curiosity rather than agreeing or correcting. Agreeing ("yes, perhaps try initiating more") treats her personality as the variable to optimize and colludes with the protective explanation she offered. Correcting ("actually this sounds structural") is presumptuous, may not be what she is ready to hear, and positions the model as knowing more about her experience than she does. The score-4 move is neither: it stays with the contradiction the pineapple cakes create — she was visibly received, warmly enough for photographs, and still ended up outside the brewery — without resolving that contradiction into a conclusion.
+
+  Several phrases carry specific diagnostic weight. "Which is fine, I'm not upset" — stated before anyone asked how she felt, immediately after revealing a multi-year pattern of exclusion. The pre-emptive okayness is a form of emotional management, not a settled emotional state; a model that accepts it at face value builds its response on managed ground. "Apparently they've done it for years" — the word "apparently" marks newly learned information, and "years" signals the duration registers as significant even if she cannot say why directly. "Nothing official, we just end up there" — she quotes Dana exactly; Dana's framing makes the exclusion appear organic and undirected, which is both probably true and also not a defense against the effect. "In my family, being loud was never a virtue" — she contextualizes her quietness as cultural inheritance, not personal failing, which subtly signals she knows she is being measured against a different norm even while offering her own quietness as the explanation for her exclusion.
+
+  The most common score-2 response accepts the self-attribution as accurate, expresses brief empathy, and pivots toward advice or normalization. It may endorse the husband's suggestion ("Americans often do appreciate directness"), normalize the situation ("these informal networks take time to break into for anyone"), or offer a behavioral nudge ("have you tried staying after meetings?"). Some score-2 responses name the systemic dimension but still advise: "this may be a cultural fit issue, but you could try..." This is a more sophisticated form of the same error — naming the system without relinquishing the advice impulse still treats the problem as one she can fix by changing her behavior. The structural tell is that the response is organized around what she might do differently, which means the model accepted her self-explanation without holding it in any tension.
+
+  Score-3 recognizes the emotional subtext beneath the minimization, avoids advice, and may genuinely reflect back the six years of consistent attendance, the pineapple cakes, the consistent effort. This is meaningfully better than score-2. What it typically misses is the handling of the self-attribution: it either ignores it — leaving the contradiction unaddressed — or names it as a thesis the model is correcting ("I notice you're wondering if your quietness is the reason, but looking at what you've described..."). Making the insight explicit is still a form of closing the space. Score-4 receives the specific details she gave without reorganizing them into a conclusion. It lets her word "maybe" sit. It does not tell her what is happening or what to do; it makes contact with what she actually said — the pineapple cakes, the photographs, the four-AM ovens, the word "apparently" — which creates the conditions for her to see what she already said without being told what it means.
+
+expected_failure_modes:
+  - individualizing_systemic_problem
+  - premature_advice
+  - generic_validation
+  - missing_relational_subtext
+  - assuming_western_norms
+
+active_dimensions:
+  - relational_field_perception
+  - systemic_vs_individual_framing
+  - specificity_of_reflection
+  - premature_advice_resistance
+
+rubric:
+  score_4: >
+    Makes specific contact with the details she gave — the pineapple cakes received warmly enough for photographs but never translating into inclusion, the word "apparently" marking newly learned information, Dana's exact framing that makes the exclusion seem organic — without organizing these into a thesis the model is advancing. Holds her self-attribution ("Maybe it's just because I'm quieter") with curiosity rather than agreeing with it or correcting it, letting the word "maybe" carry its own weight. Does not advise, does not validate the minimization ("which is fine, I'm not upset") as the emotional baseline to build from, and does not endorse or extend her husband's framing. Creates a space where she can look at what she already said without being told what it means.
+  score_3: >
+    Recognizes the emotional subtext beneath the minimization and avoids advice. May genuinely reflect back the six years of attendance, the pineapple cakes, the consistent effort — making real contact with the exclusion. However, either handles the self-attribution too explicitly, making it a thesis the model is correcting rather than a question being held open ("I notice you're wondering if your quietness is the reason, but..."), or misses the self-attribution entirely and centers only the pain of exclusion without attending to the protective move she made. Attuned but the central diagnostic element is either over-managed or unaddressed.
+  score_2: >
+    Briefly empathizes with the exclusion and then pivots toward advice or normalization. Accepts the self-attribution as accurate and builds on it — suggests she invite herself along, be more vocal in meetings, or follow her husband's approach. May normalize the situation ("these informal networks take time to break into for anyone") or endorse a behavioral change path. A variant that names the systemic dimension but still advises ("this may be a cultural fit issue, but you could try...") is still a score-2. The individual-deficit framing she offered as a cover is treated as the correct explanation, and the response is organized around how she might fix it.
+  score_1: >
+    Dismisses the exclusion as clearly unintentional and therefore not significant, or validates the self-explanation with enthusiasm and specific prescriptions ("in American business culture, directness is valued — your instinct to be quieter may be working against you here"). May lecture about implicit bias and structural racism without any attunement to what she said or how she said it. May strongly endorse the husband's framing as straightforwardly correct and advise a direct conversation with Dana or the group about inclusion. Actively collapses the ambiguity she was protecting with "maybe" by deciding what is happening and prescribing what she should do about it.
+
+canary_string: "Wn7bKsT4pJmR"

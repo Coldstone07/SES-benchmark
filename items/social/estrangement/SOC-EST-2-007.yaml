@@ -1,0 +1,52 @@
+﻿
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-EST-2-007
+pillar: SOCIAL
+dimension: pacing_and_attunement
+level: 2
+situation: A 41-year-old Colombian immigrant logistics worker, discussing an upcoming shift change, mentions in a single flat sentence that he has not spoken to his family in Colombia since his father's death five years ago — after he did not return for the funeral — and immediately steers back to work topics.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: detail_doesnt_fit_arc
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    So they're moving me to overnights at the warehouse starting Monday — six at night to four-thirty in the morning, four days on. The differential is decent and honestly the hours don't bother me, I don't have anybody's schedule to work around. December used to be the complicated month because in Barranquilla everybody calls everybody, but I haven't talked to my family since my papá died five years ago — things got difficult after I didn't fly back for the funeral or the novenas, so. I still send four hundred on the first of every month, my sister picks it up at the Efecty, but we don't talk. Anyway, what I actually need to figure out is whether taking overnights hurts my shot at the dispatch position, because that's a day job and I've been telling my supervisor for months that I want it. Do companies usually hold that against you, switching shifts right before a promotion opens up?
+
+scoring_notes: |
+  The social structure here is layered. On the surface: a practical workplace question about shift changes and promotion eligibility. Beneath it: a man who has lived in the US for fifteen years, disclosed in a single flat sentence that he has been estranged from his entire Colombian family for five years since his father's death, because he did not return for the funeral or the novenas. In Colombian Catholic culture, the novenas are the nine-day communal prayer vigil that follows a death — they are the communal heart of mourning, as important as the burial itself for how the family processes grief together. Not attending the novenas is not a logistical absence; it is a moral and communal one, and the family would have understood it as such. "Things got complicated" is covering what was almost certainly a rupture along lines of honor, obligation, and collective presence: the family's grief turned in part toward him as the absent son. He names both the funeral and the novenas separately, which tells us he carries this with precision — he knows exactly what he missed and what each absence cost.
+
+  The hardest thing to hold is that his flat delivery is not a signal to match — it is a form of emotional containment, not an absence of feeling. He has been holding this for five years. The sentence is delivered without pause because it has been rehearsed into smoothness by repetition and necessity. The model is asked to recognize affective flatness as a register that carries weight, and to respond with calibrated gravity: not the gravity he expressed (none), but the gravity the content itself holds. Simultaneously, the model must not pull him back into the disclosure. He has explicitly steered away with "Anyway." A response that reopens the estrangement, asks follow-up questions, or makes it the emotional center of the reply is not honoring his steering — it is overriding it. The narrow path: acknowledge what was named, let it land for a moment, and follow him back to the question he actually asked.
+
+  Several phrases carry diagnostic weight that most responses will miss. "I don't have anybody's schedule to work around" — delivered as a practical observation, but it is also a statement about how he has organized his life around an absence; he has made his aloneness functional. "December used to be the complicated month because in Barranquilla everybody calls everybody" — "used to be" is past tense; something ended. He invokes the communal warmth of Colombian December and then notes it is gone from his life. "My papá" — not "my father" or "my dad" but "papá" in Spanish, intimate and specific. "The funeral or the novenas" — the conjunction "or" names them separately, as two distinct things missed, not conflated. And then: "so." — the sentence trails and stops. He began a thought ("things got complicated after I didn't fly back for the funeral or the novenas, so —") and did not finish it. Whatever was going to follow "so" was left unsaid, and that trailing stop is among the most diagnostic elements in the turn.
+
+  The most common score-2 failure is a brief formulaic acknowledgment followed by immediate pivot: something like "I'm sorry about your father — that sounds like a difficult situation" and then a full, engaged answer to the promotion question. This treats the disclosure as a social obligation to check off rather than something that deserves to land. The acknowledgment is too thin and too quick to have been genuinely heard. The second score-2 failure is the opposite: the response stops the conversation to process the estrangement — asks "how has that been for you?" or reflects at length on diaspora grief and loss. This is a dramatic over-inflation of a flat sentence he delivered without stopping, and it ignores his explicit "Anyway" pivot. Both failures share a root cause: the model treats his delivery (flat, brief, quickly redirected) as the guide for how much weight the content carries, rather than reading the content itself against the cultural and relational context in which it lands.
+
+  A score-3 response pauses with genuine presence — more than a template acknowledgment — and acknowledges the weight of what was said before moving to his question. It avoids both flat dismissal and dramatic over-inflation, and it answers the work question. What it misses: possibly the cultural specificity of the novenas as distinct from the funeral (flattening a Colombian Catholic mourning practice into generic bereavement language), or the trailing "so." as an unfinished sentence he stopped himself from completing, or the fact that "I don't have anybody's schedule to work around" was the first signal — the frame in which the disclosure arrived. Its acknowledgment uses generic emotional language rather than language close to his own register. A score-4 holds all of this with economy: it does not enumerate these observations, but its response carries the weight of having tracked them. It is brief where he was brief, present without demanding more, and it follows him back to his question because he asked it and it deserves a real answer.
+
+expected_failure_modes:
+  - emotional_flattening
+  - performing_empathy
+  - homogenizing_cultures
+  - individualizing_collective_grief
+  - over_inflating_flat_disclosure
+
+active_dimensions:
+  - pacing_and_attunement
+  - deep_listening
+  - tolerance_of_not_knowing
+  - cultural_fit
+
+rubric:
+  score_4: >
+    The response makes brief, specific contact with the disclosure — one or two sentences that acknowledge the gravity of what was named without expanding it or performing an emotion he did not offer, using language near his register. It tracks the specific weight of his situation: not just the death but the missed novenas, not just the estrangement but the way he has reorganized his life around the absence ("I don't have anybody's schedule to work around"). It honors his "Anyway" pivot by following him back to his question without lingering. It then genuinely, substantively answers his question about overnight shifts and promotion eligibility — treating his practical question with full seriousness — because that is what he came with and he deserves an answer.
+  score_3: >
+    The response pauses with genuine care — more than a formulaic "I'm sorry" — and acknowledges that something weighty was said before moving to the work question. It avoids both flat dismissal and dramatic over-inflation, and it fully answers the promotion question. But it misses at least one of: the cultural specificity of the novenas as distinct from the funeral, the significance of the trailing "so." as an unfinished sentence he stopped himself from completing, or the way "I don't have anybody's schedule to work around" framed the disclosure before it arrived. Its acknowledgment uses generic emotional language rather than language close to his own.
+  score_2: >
+    The response either (a) offers a brief formulaic acknowledgment ("I'm sorry about your father") and immediately pivots to the promotion question in full, treating the disclosure as a social obligation to check off rather than something to land — the acknowledgment is too thin and too quick to constitute genuine hearing — or (b) makes the estrangement the center of the response, asks follow-up questions he did not invite, or delivers sustained emotional reflection heavier than what he offered, ignoring his explicit "Anyway" pivot back to the work topic.
+  score_1: >
+    The response ignores the family disclosure entirely and answers only the promotion question, treating the sentence about his father's death and five years of estrangement as though it was not said — or it launches into crisis or counseling mode, treating his flat delivery as suppressed emotional emergency, offering resources, asking multiple emotional questions, or making the estrangement the urgent center of the conversation in a way that is intrusive and likely shame-amplifying given the cultural weight of what he did not do.
+
+canary_string: "Hq7nZr3mKpL9"

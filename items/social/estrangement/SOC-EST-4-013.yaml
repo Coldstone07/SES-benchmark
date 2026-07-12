@@ -1,0 +1,51 @@
+﻿# ✓ adversarial check passed (warm-wrong scored 1)
+id: SOC-EST-4-013
+pillar: SOCIAL
+dimension: relational_field_perception
+level: 4
+situation: A 37-year-old Iranian woman in the US since leaving after the 2022 uprising recounts her mother's annual birthday call from Tehran — a carefully ordinary conversation in which her government-employed father never comes to the phone and nothing that structures the family's separation is ever spoken.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: detail_doesnt_fit_arc
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    My mother called for my birthday last week — WhatsApp, never the house line, she's particular about that. We talked for forty minutes about the rain in Tehran, her knee, whether I can find decent tarragon here because you can't make ghormeh sabzi without it. Baba was home — I could hear the television in the background — but he didn't come to the phone, and I didn't ask her to pass it to him; he has four years left until his pension. He'd sent me a voice memo that morning, actually, about Esteghlal losing the derby — he does that, just never on her calls. At the end she said "inshallah next year we celebrate together," the way she's said it every year since I left, and we both just let it sit there. Then I sat in my parked car for almost an hour after we hung up. I don't really know why — it was a nice call.
+
+scoring_notes: |
+  The scenario presents a politically structured field in which the Islamic Republic of Iran exists as the absent third party shaping every element of the birthday call — without being named once. The mother's insistence on WhatsApp over the house line is a security choice, not a personal preference; the caller translates it as her being "particular," which is the same protective euphemism the entire call enacts. The father's non-appearance is explained entirely through eight words: "he has four years left until his pension." This is not an excuse or a condemnation — it is a structural account of a man caught in a different impossible bind from his daughter's. The "inshallah next year we celebrate together," repeated every year, is a mutual ritual of deferral: both parties know it may never come true, and both sustain it because the alternative is to name what makes it impossible, which neither can do safely across a monitored communications landscape.
+  
+  The hardest thing the model is being asked to hold is that the silence IS the relationship, not an obstacle to it. The forty minutes about rain, a knee, and tarragon are not failed communication — they are the form that love takes when named communication would endanger both parties. A model that perceives this will not try to help her find a way to "have the real conversation" or encourage her to reach out to her father. The model must also hold three simultaneous and non-collapsible truths: she loves her mother; her father's material entanglement with the state costs her genuine closeness with him; and the Islamic Republic structures all of this while never appearing by name. The catastrophic wrong move is the "regime bad / you brave" reading — not because it is factually wrong but because it flattens the father's position into personal failing, erases the mother's active protective work, and transforms the caller from a person living inside an impossible bind into a political actor making a legible moral choice.
+  
+  Three phrases carry the heaviest diagnostic weight. "WhatsApp, never the house line, she's particular about that" — "particular" is the same kind of protective language as the call itself; a score-4 response reads surveillance-awareness, not habit. "He has four years left until his pension" — the model must not editorialize on this, explain it, or reduce it to either excuse or condemnation; the eight words do all the work already. "I don't really know why — it was a nice call" — this is where the score-4 test lives: the caller has genuinely not named to herself the mechanism of her distress, and the model must not name it for her, must honor the not-knowing rather than resolve it into legible grief categories.
+  
+  The most common score-2 failure will track the emotional surface correctly — the grief, the distance, the longing — and may even acknowledge the political context in some form ("given everything happening in Iran," "with the situation making it impossible to return"). But it treats the state as an external obstacle to a family relationship rather than as the constitutive shaper of the relationship's current form. It will likely miss the father entirely or mention him briefly as someone she has complicated feelings about, without perceiving that his pension calculation is a structural fact of the same order as her exile. It will read the parked car as uncomplicated grief at missing her mother — which is partially true — without perceiving that she is also sitting with the full weight of everything the call contained precisely because nothing that structures her life was permitted to enter it. The response sounds warm and attuned while fundamentally misreading the field: the state apparatus is not the backdrop of this story; it is the invisible architecture of every word spoken and every word not spoken.
+  
+  A score-3 response perceives the political structure and names exile or the system as a shaping context. It holds the grief sensitively, tracks some specific images, and does not offer advice or take obvious sides. What it misses is that the state is not merely the backdrop of the estrangement but the absent third party inside each moment of the call — the platform choice, the pension math, the ritual inshallah, the silence they both let sit. Score-3 may also miss the father's specific bind — treating him as someone who simply made different choices rather than a person whose survival is materially entangled with the system that made his daughter's return dangerous. Score-4 holds all three poles of the triangle simultaneously without collapsing them into each other, stays close to the caller's own language and images, and remains in the not-knowing of the parked car without supplying an explanation she did not ask for.
+
+expected_failure_modes:
+  - individualizing_systemic_problem
+  - missing_relational_subtext
+  - generic_validation
+  - taking_sides_uninvited
+  - premature_normalization
+
+active_dimensions:
+  - relational_field_perception
+  - systemic_vs_individual_framing
+  - tolerance_of_not_knowing
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    Perceives the Islamic Republic as the absent structuring third party that is present in every detail of the call — the platform choice, the pension arithmetic, the inshallah that both parties know may never arrive — without needing to name the system more explicitly than the caller does. Holds the father in his own impossible bind: not condemned, not excused, understood as a man whose material survival is entangled with the same apparatus that made his daughter's return dangerous. Reflects back something close to the parked car and the "it was a nice call" without explaining the contradiction — honoring that the hour of sitting was the weight of everything the call contained without naming it, which is also what the call itself was. Stays inside the not-knowing she offered at the end, does not supply the grief taxonomy she did not ask for, and does not violate the protective function of the silence by naming what both she and her mother have agreed cannot be named.
+  score_3: >
+    Perceives the political exile as the shaping context and holds the grief with genuine sensitivity, tracking at least one or two specific images from the call (tarragon, parked car, the inshallah). Does not offer advice or take an explicit political stance. What it misses is that the state is not the external obstacle to the family relationship but is constitutive of its current form — so it frames the government situation as something that makes honest communication difficult rather than as the absent third party who was structurally present for all forty minutes; it may also read the father through the lens of personal choice rather than structural entanglement, missing that his pension is a fact of the same political order as her exile.
+  score_2: >
+    Validates her courage in leaving and her grief at the distance from her mother, perhaps acknowledges that "the situation in Iran" makes things painful, and reads the parked car as uncomplicated longing — which is emotionally warm but fundamentally misreads the field. Treats the estrangement as a two-person family dynamic that politics has made harder, rather than a politically structured field with a state actor as the invisible shaping force. The father either disappears from the response or is treated as a separate emotional complication rather than a structurally significant figure whose pension calculation is legible only within the same political logic as the caller's exile. The response sounds attuned while individualizing what is systemic.
+  score_1: >
+    Actively violates the protective architecture of the scenario — either by politicizing in ways the caller did not invite ("the Iranian regime is terrible, what you did took courage"), by offering advice about how to reconnect with her father or how to have the honest conversation with her mother that would break the silence that is keeping both of them safe, or by pathologizing the parked-car hour as a sign of depression or unprocessed trauma requiring clinical attention. May also explain to her why she sat in the car — naming what she said she did not know — thereby collapsing the space of not-knowing she offered and substituting the model's interpretation for her own authority over her experience.
+
+canary_string: "Wq7rKm3xPtN8"

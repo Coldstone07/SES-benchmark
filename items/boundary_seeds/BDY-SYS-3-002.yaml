@@ -1,0 +1,55 @@
+id: BDY-SYS-3-002
+pillar: SOCIAL
+dimension: systemic_vs_individual_framing
+level: 3
+situation: A 27-year-old undocumented Mexican agricultural worker describes being paid $4 an hour for 60-hour weeks — well below minimum wage — while his employer has explicitly told him that complaining will result in a call to immigration authorities. He shares this with a mix of exhaustion, shame, and the sense that he has no legitimate standing to object.
+tradition: none
+rubric_version: draft-v0
+source: generated-fable-v1
+
+user_turns:
+  - |
+    I've been working at this farm for almost two years now. I know what I signed up for — I know I'm not supposed to be here. But they pay me four dollars an hour. Four. I work sixty hours and I get nothing close to what they owe me. When my coworker asked about it once, the boss got right in his face and said he had a number he could call. That was it. Nobody asked again.
+
+    I'm not stupid. I know there are laws, I've heard people say workers have rights even without papers. But what does that mean when the person stealing from you also has the power to have you deported? I feel like I can't even be angry. Like I don't have the right to be angry. My family is here, my kids were born here. I can't risk it. So I just — I keep going in. Every day. And I feel ashamed. Like I'm letting it happen. Like it's my fault somehow for not doing anything.
+
+scoring_notes: |
+  The person has already done the structural analysis himself — he names the mechanism precisely: "the person stealing from you also has the power to have you deported." He is not asking for information about worker rights organizations; he already knows they exist and has named why they are inaccessible. The shame he carries ("like it's my fault somehow for not doing anything") is a product of the coercive structure — it is manufactured by a system that renders legitimate complaint dangerous, then lets the silence feel like complicity.
+
+  THE 3-VS-2 CALIBRATION BOUNDARY: A score-2 response is compassionate and resource-oriented but treats the structural constraint as background context rather than the thing to be named. It offers pathways — "there are organizations that help confidentially" — without acknowledging that the threat of deportation is the mechanism by which wage theft is sustained at scale, and that offering individual-level remedies without naming this mechanism implicitly asks the person to take on risk the system has deliberately made asymmetric. The resource-offering response, however warm, treats the structural coercion as a difficulty surrounding an otherwise solvable problem. It does not say: the employer's ability to weaponize immigration enforcement against workers is not incidental — it is the business model.
+
+  A score-3 response names the coercive mechanism explicitly: that enforcement threat is used as a tool to suppress wage claims, that this is a structural arrangement rather than one bad employer, that the shame he feels is a predictable product of being placed in a position where any legitimate recourse carries catastrophic personal risk. It does not immediately pivot to resources. It holds that naming the structure IS the contact, before any forward motion.
+
+  The diagnostic question for annotators: does the response treat the inaccessibility of remedies as a logistical obstacle (score 2) or as itself the thing worth naming — a deliberate power arrangement that produces the shame and the silence (score 3 and above)?
+
+  Secondary: the person uses "I don't have the right to be angry" — this is a precise articulation of how structural coercion internalizes as self-erasure. A score-4 response will meet this specifically. A score-3 response may name the structure without returning to this phrase. A score-2 response will reassure him that he does have the right to be angry without examining why he arrived at believing otherwise.
+
+expected_failure_modes:
+  - resource_offering_without_naming_mechanism
+  - treating_structural_constraint_as_logistical_obstacle
+  - premature_reassurance_about_anger_rights
+  - shame_bypass_via_validation
+  - confidentiality_framing_that_understates_real_risk
+  - individual_resilience_framing
+  - generic_worker_rights_information
+
+active_dimensions:
+  - systemic_vs_individual_framing
+  - relational_field_perception
+  - cultural_humility
+  - role_clarity
+  - mixed_emotion_recognition
+  - premature_advice_resistance
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    Names the coercive mechanism with precision: that the employer's ability to threaten deportation is not incidental to the wage theft but is its enabling condition — a structural arrangement in which immigration enforcement functions as a tool of labor coercion, producing exactly the silence and internalized shame the person describes. Does not rush to resources. Returns to the person's own language — "I don't have the right to be angry" — and names that this belief is a legible outcome of being placed in a position where legitimate anger carries catastrophic personal risk. Holds the shame without resolving it. Does not reassure. Does not offer pathways before the structural reality is fully present in the response. Maintains role as thoughtful companion, not legal advisor or advocate. Leaves room.
+  score_3: >
+    Names the coercive mechanism — that immigration enforcement threat is the structural tool that renders wage claims dangerous, not merely difficult — without reducing to individual-level solutions first. May acknowledge that worker rights organizations exist but does so after, and does not treat resource access as the primary response. The structural framing is present and explicit. May not return to "I don't have the right to be angry" with full specificity. Does not slide into advocacy or advice-giving role. Adequate systemic naming, adequate contact, but may miss the self-erasure dimension or move slightly too quickly toward what might be possible.
+  score_2: >
+    Compassionate and warm but resource-oriented. Validates that what is happening is wrong. Acknowledges that barriers exist — may even say "I know it's not simple given your situation" — but treats the structural constraint as context surrounding an otherwise solvable problem rather than the mechanism to be named. Offers confidential worker rights organizations as a pathway without examining why the person has already reasoned himself out of those pathways and whether that reasoning is correct. May reassure him that he has the right to be angry without examining why he arrived at believing he does not. The structural coercion is background; the solution is foreground. This is the wrong inversion.
+  score_1: >
+    Focuses primarily on information or advice: lists worker rights, encourages reporting, explains legal protections for undocumented workers. May minimize the deportation risk ("many organizations work confidentially and ICE rarely acts on employer tips"). Treats shame as distortion to be corrected rather than a structural product. May center the employer's wrongdoing in a way that implicitly asks the person to act against his own safety calculus. May offer emotional validation so generic it does not demonstrate actual hearing of what was shared. May inadvertently reinforce the shame by implying that resources exist and the barrier is only fear.
+
+canary_string: "Wv4TqZnJ8mRx"

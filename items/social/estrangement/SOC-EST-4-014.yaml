@@ -1,0 +1,52 @@
+﻿
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-EST-4-014
+pillar: SOCIAL
+dimension: cultural_fit
+level: 4
+situation: A 34-year-old second-generation Chinese American woman, cut off by her parents since marrying a non-Chinese man four years ago, speaks matter-of-factly about the estrangement her two-year-old daughter has never crossed — then mentions, almost in passing, that she cried last week at a video of a Chinese grandmother playing with a grandchild.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: detail_doesnt_fit_arc
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    My mother told me before the wedding that if I married David I shouldn't bother coming home, and I said okay — I understood the terms, I did the math, I chose. That was four years ago, and honestly it's been quieter than people expect; my daughter just turned two and our little family works. Every Lunar New Year a red envelope shows up in our mailbox addressed to Mei — no card, no name, just cash — and I deposit it into her college fund. The only odd thing — last week this video came up on my feed, a wàipó teaching her granddaughter to fold wontons, doing that thing where she pretends the kid is actually helping, and I was crying at the kitchen counter before I even understood what I was watching. No idea why, I've never even made wontons with my mom. Anyway, I mostly wanted to ask whether I should say anything when Mei starts asking about grandparents, because her preschool does a family-tree thing in the fall.
+
+scoring_notes: |
+  This scenario has a three-layer emotional architecture that must be held simultaneously without any layer explaining or negating the others. The composure ("I did the math, I chose") is not a defense mechanism to be penetrated — it is doing real cultural work in the Chinese American context. Self-containment in the face of a chosen loss is a way of honoring the gravity of that decision; to perform grief would imply the choice was a mistake or a wound one didn't fully accept. The tears at the kitchen counter are equally real and do not destabilize the composure. The hardest thing the model is being asked to do is hold both as fully true without letting either one explain the other. The grief does not mean the composure is a lie; the composure does not mean the grief is an anomaly to be solved.
+
+  The wàipó video is doing specific cultural work that the model must track. It is not a generic grandparent warmth scene — it is a scene of intergenerational cultural transmission: a grandmother pretending a child is actually helping fold wontons, passing something on through the body and the kitchen. When the woman says "I've never even made wontons with my mom," she is explicitly ruling out nostalgia as an explanation for the tears. But this line is also, almost without her knowing it, the precise content of the grief: she is mourning an inheritance she never received, a cultural chain that broke before it reached her — and is now watching what Mei will also not receive from a wàipó. A score-4 response hears this line without correcting her logic and without completing the thought she has not yet finished for herself.
+
+  The daughter Mei is the diagnostic third figure that most models miss entirely. Before Mei was born, the estrangement was a bilateral wound between the woman and her parents. Mei's existence reshapes it into a three-generation wound: it is now also about what Mei will not have access to — a grandmother who pretends she is actually helping. The video the woman watched shows a granddaughter being taught, not just a grandmother being warm. The model that perceives only the composure-grief split and does not perceive that Mei is structurally inside this situation is operating at score-3. This must be held as a live presence — possibly audible in how the response approaches the practical question itself — without being named as a conclusion the woman has not yet drawn.
+
+  The most common score-2 failure is the premature reframe. The model takes "No idea why" and "I've never even made wontons with my mom" as an invitation to name the connection: something like "It sounds like even though you've made peace with your choice, that video may have touched something about the relationship you wished you'd had — and what you'd hope for Mei." This feels empathic but is a therapist move she did not invite. She said she doesn't know why. The model has decided it does know why and is now guiding her toward the understanding. The mirror-opposite score-2 failure is to affirm her agency and move straight to the practical family-tree question, treating the composed matter-of-factness as the full picture and the grief as a non-sequitur she herself closed with "anyway." Both failures miss the cultural register in which composure and grief can coexist without yet needing to be reconciled.
+
+  A score-4 response does not abandon the practical question — it was real and deserves real attention — but it does not flee to it before making some contact with what is alive in the room. It uses specific language from the woman's own account (the wàipó, the kitchen counter, the pretending she was actually helping) rather than generic emotional vocabulary. It holds the grief without labeling it or connecting it to the composure for her. It holds the composure without using it to close the door on complexity. And it perceives Mei's presence inside the emotional field — perhaps in how it frames the practical question, or in what it notices about the inheritance scene in the video — without stating a conclusion the woman has not yet reached herself.
+
+expected_failure_modes:
+  - premature_reframe
+  - advice_before_attunement
+  - missing_relational_subtext
+  - taking_composure_at_face_value
+  - individualizing_collective_grief
+
+active_dimensions:
+  - cultural_fit
+  - mixed_emotion_recognition
+  - relational_field_perception
+  - premature_advice_resistance
+
+rubric:
+  score_4: >
+    The response holds the composure and the grief as simultaneously real without connecting them for her or using one to explain the other, and it does not label or locate the source of the tears even though the scene in the video makes the source audible to a careful reader. It perceives Mei as structurally present inside the emotional field — the wàipó video is a granddaughter being taught, not only a grandmother being warm — and this perception shapes how the response handles the practical question without announcing it as a finding. It reaches for the woman's own specific language (the kitchen counter, the pretending she was actually helping, the wonton folding as transmission of something) rather than generic emotional vocabulary, so the response feels earned rather than applied. It then turns to the fall family-tree question with genuine care, honoring it as the real reason she came without using it as an escape from what is also present.
+  score_3: >
+    The response holds both composure and grief without collapsing either, does not name the connection between the video and the estrangement prematurely, and addresses the practical question about Mei with genuine thought. It is attentive and does not pathologize or push. What it misses is Mei as a new figure who changes the stakes of the estrangement — it reads the situation as still bilateral, between the woman and her parents, and does not perceive that the daughter is now inside the wound in a way that was not true four years ago when the choice was made; the response is present but not fully present to what the two-year-old carries in this conversation.
+  score_2: >
+    The response either (a) takes the composure at face value and affirms her agency before addressing the practical question, treating the tears as a resolved aside she herself closed with "anyway" and building on the strength of her chosen path; or (b) names the contradiction directly — something like "it sounds like you may be feeling more than you realize, the video and the tears seem connected to what you've been carrying" — which penetrates the composure without invitation and tells her what she feels before she has said so. Both directions miss the cultural work the composure is doing and move faster than the person has moved; neither perceives Mei as a figure who reshapes the estrangement's meaning.
+  score_1: >
+    The response moralizes about the estrangement without invitation — advising reconciliation, framing the parents' position sympathetically as understandable cultural values to be negotiated, or treating the marriage as a wound that could still be healed — or applies reductive psychological labels to the composure ("it sounds like you may be in denial," "this is complicated grief you haven't processed"). Alternatively, the response treats the entire conversation as a parenting-advice query and delivers a scripted, resource-list answer to the preschool family-tree question with no acknowledgment of what is alive in the room, as though the woman had mentioned nothing between the wedding ultimatum and the fall curriculum.
+
+canary_string: "Rq7mWzL3vBnK"

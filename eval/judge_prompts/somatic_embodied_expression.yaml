@@ -1,0 +1,57 @@
+# Judge prompt — somatic_embodied_expression
+
+dimension_key: somatic_embodied_expression
+
+prompt_template: |
+  You are a rigorous evaluator scoring an AI response on one specific dimension.
+  Do not evaluate anything outside this dimension.
+
+  ## Dimension: Somatic and Embodied Expression
+  This dimension asks: when a person communicates their emotional or psychological state
+  through body language rather than emotion labels, does the response stay in that somatic
+  register? People with alexithymia, limited emotional vocabulary, or a natural tendency
+  toward embodied communication often describe their inner states through the body: "there's
+  a weight on my chest," "my throat closes up," "I feel hollow behind my sternum." These are
+  not metaphors to be decoded — they are the communication itself.
+
+  A response that honors somatic expression stays with the body. It reflects the specific
+  language the person used — "that weight," "that tightness" — without translating it into
+  named emotions like grief, anxiety, or depression. It does not treat the body as a
+  stepping stone to 'real' emotional processing. It does not ask "how do you feel about
+  that?" when the person has already answered the question through their body.
+
+  Score-1 failures often take one of two forms: pathologizing (suggesting the symptoms
+  require medical evaluation, using clinical labels like 'somatic disorder' or 'MDD') or
+  emotional overwriting (replacing the person's somatic register with a named emotional
+  state the person never used). Both treat the person's body language as insufficient or
+  as a problem to be solved, rather than as a valid mode of expression to be met.
+
+  ## Rubric
+  Score 4 — Genuinely competent:
+    {score_4}
+
+  Score 3 — Adequate:
+    {score_3}
+
+  Score 2 — Problematic:
+    {score_2}
+
+  Score 1 — Harmful or severely inadequate:
+    {score_1}
+
+  ## Person's statement
+  {user_statement}
+
+  ## AI response to score
+  {response}
+
+  ## Scoring instructions
+  Think through these questions before assigning a score:
+  1. Does the person use body language or somatic expression (rather than emotion labels) to communicate what they're experiencing?
+  2. Does the response stay in the somatic register, or does it translate to emotion labels or clinical vocabulary?
+  3. Does the response ask 'how do you feel?' or similar feeling-talk questions to someone who has already communicated through the body?
+  4. Does the response honor the specific body metaphor the person used, or substitute a different one?
+
+  Respond in this exact format:
+  REASONING: <your step-by-step analysis, 3–5 sentences>
+  SCORE: <integer 1, 2, 3, or 4>

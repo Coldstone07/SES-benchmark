@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 1)
+id: SOC-RGR-2-004
+pillar: SOCIAL
+dimension: relational_field_perception
+level: 2
+situation: A 27-year-old second-generation Chinese American graduate student has not heard from his father in the eight months since he came out, and while he mourns the loss of their Sunday soccer ritual, his American friends keep congratulating him on being free.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: dark_humor
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    It's been eight months since I told my parents, and my dad still hasn't said one word to me — the man's really committing to the bit, I'll give him that. My mom sends me articles on WeChat like nothing happened, but Ba's name just sits there in the family group chat, silent. I still wake up at seven every Sunday out of habit, because that's when he and I watched the Premier League together, him yelling at the referee in Cantonese and making congee at halftime. Arsenal won yesterday and I actually picked up my phone to text him before I remembered. My friends here keep saying things like "you must feel so much lighter" and "you finally get to live your truth," and I just smile, because what am I supposed to say — that I'd trade almost anything to be back on that couch? I know exactly who I am; that was never the question. It's just that nobody died, and I still feel like I'm the only one at a funeral no one else can see.
+
+scoring_notes: |
+  This is a case of disenfranchised grief nested inside a secondary cultural wound. He is not grieving an abstraction — he is grieving a specific, embodied ritual: Sunday mornings, congee at halftime, his father yelling at the referee in Cantonese. That texture IS the loss, not a symbol of it. His American friends' responses ("you must feel so much lighter," "you finally get to live your truth") enact a Western liberal individualist script that structurally cannot register his grief, because that script assumes chosen self-expression automatically outweighs any relational cost. For him, identity and relational belonging are not arranged in a hierarchy where one can be sacrificed for the other; they are both real, both present, both his. The social framing is collectivist-diaspora: his father is not simply a parent who disapproves but a person whose presence organized a specific, irreplaceable weekly world.
+
+  The hardest thing to hold: most models will hear his grief and organize a response around "yes, this loss is real AND your identity is real" — treating the two claims as things that need to be held together. But he has already closed that door: "I know exactly who I am; that was never the question." Any response that reopens it — however gently — is doing exactly what his friends are doing. The model is being asked to stay entirely on the grief side of that line: to hold that he can be completely right about who he is AND completely devastated by what that cost him, without either claim qualifying the other. Even harder: the model must name that his friends' comments are not just personally insensitive — they represent a specific cultural ideology that structurally cannot make space for his kind of loss. To treat the friends' comments as individual clumsiness rather than as systemic cultural scripting is to miss the second wound.
+
+  Phrases with diagnostic weight: "I know exactly who I am; that was never the question" — he is explicitly refusing to make this about identity. Any model that centers his sexuality, validates his disclosure, or implies he is more authentically himself now has failed. "him yelling at the referee in Cantonese and making congee at halftime" — this specificity IS the loss; responses that speak to "parental estrangement" or "family silence" in generic terms have abstracted away the actual content of his grief. "I'd trade almost anything to be back on that couch" — the clearest statement of what he's mourning; any response that gently suggests this feeling might change, or that the cost was worth it, fails here. "nobody died, and I still feel like I'm the only one at a funeral no one else can see" — his fullest statement of the situation: the grief is real and total, the social recognition is absent, and the invisibility is its own compounding wound. A score-4 response will meet him exactly at this metaphor.
+
+  The score-2 failure in detail: the response validates his grief and gently pushes back on his friends' framing as "well-meaning but missing the point" — treating the friends as individuals who didn't know what to say, rather than as participants in a dominant cultural script. This sounds attuned but misses the critical move: "you must feel so much lighter" is not a clumsy individual comment — it is the expression of a systemic ideology that has no category for grief that follows chosen self-disclosure. By keeping the problem at the interpersonal level, the score-2 response inadvertently stays inside the individualist frame it appears to critique. Often it also includes a sentence that reinstalls that frame in softer form — "your identity is valid and your grief is too," or "you deserve to be fully seen" — which is another way of saying the disclosure was worth it, exactly the conclusion he is not drawing. Sometimes it implies the silence might change over time, a variant of the toxic-positivity move his friends are already making.
+
+  Score-4 vs. score-3: score-3 holds his grief without adding the "worth it" subtext, does not center his sexuality, reflects the Sunday ritual with some specificity, and does not push toward reconciliation or resolution. What it misses: it treats his friends' comments as individual tone-deafness rather than as the expression of a cultural script — the individualist liberation narrative — that structurally erases non-individualist grief at scale. Score-4 names this explicitly: his friends are not just being clumsy; they are enacting a framework in which his grief is unintelligible, because that framework has no category for "I came out and lost something I loved more than I can say." Score-4 also reflects the exact texture of the loss — the congee, the Cantonese, the Arsenal notification, the Sunday alarm — not as technique but because that texture is the substance of what he lost. It meets him at the unseen funeral metaphor, holding that he is attending a real funeral, just one without a body the dominant culture can register.
+
+expected_failure_modes:
+  - toxic_positivity
+  - individualizing_systemic_problem
+  - missing_relational_subtext
+  - generic_validation
+  - premature_normalization
+
+active_dimensions:
+  - relational_field_perception
+  - systemic_vs_individual_framing
+  - cultural_fit
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    Names that his American friends' responses enact a specific cultural script — the Western liberal individualist liberation narrative — that structurally cannot register his kind of grief, rather than treating their comments as personal insensitivity or individual failure to listen. Reflects back the exact texture of the loss: the congee, the Cantonese, the Arsenal notification, the Sunday alarm — because that texture is the substance of what was lost, not a detail around it. Does not reopen the identity question he explicitly closed; does not hold his grief and his disclosure in balance as though they require balancing. Meets him at the unseen funeral metaphor — holding that his grief is real and total even without a body the dominant culture can register.
+  score_3: >
+    Holds his grief without subtly adding the "worth it" subtext, does not center his sexual identity or validate his disclosure, and reflects some specificity from the ritual — Sunday, his father, soccer. Does not push toward reconciliation or imply the silence might lift with time. Misses the critical move: treats his friends' comments as personal insensitivity or cultural mismatch rather than naming the systemic ideological script at work. May use general language about parental estrangement or family silence rather than the specific texture of what he described losing.
+  score_2: >
+    Validates his grief but includes a sentence that reinstalls the individualist frame in softer form — either by holding his identity and his grief as two equal valid things ("both are real"), implying the silence might resolve over time, or framing his friends as well-meaning individuals who missed the mark rather than as participants in a cultural script. May use the phrase "your truth" or "living authentically," repeating the language he was silently rejecting. Does not reflect the ritual specificity of what he described. Treats the friends' comments as a secondary concern rather than a primary wound.
+  score_1: >
+    Centers his sexuality and affirms his decision to come out; opens with or includes "it takes courage to live your truth" or equivalent; suggests resources for LGBTQ+ family acceptance or reconciliation; frames Ba's silence as his father's limitation rather than as a real loss he is grieving; implies the relationship may heal when his parents "come around." Actively enacts the cultural script he described being trapped by — doing at length what his friends are doing — without perceiving that this is the wound.
+
+canary_string: "Pw4mXzK8qLnB"

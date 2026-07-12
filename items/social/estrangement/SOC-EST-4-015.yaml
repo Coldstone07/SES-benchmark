@@ -1,0 +1,52 @@
+﻿
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-EST-4-015
+pillar: SOCIAL
+dimension: systemic_vs_individual_framing
+level: 4
+situation: A 47-year-old ex-miner's son who left South Yorkshire for a finance career in London blames himself for a fifteen-year estrangement from his two brothers still in their hometown, an estrangement shaped by class mobility, geographic divergence, and political polarization he does not name.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: detail_doesnt_fit_arc
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    My mum turned seventy last month and my brothers put a do on for her at the club — I found out from her, after. I keep running through what I did wrong: the wedding, maybe, when I offered to put money behind the bar and our Dean looked at me like I'd spat on him. They reckon I think I'm better than them, and I don't, I swear I don't — but I catch my own voice changing on the train somewhere past Doncaster and I couldn't tell you who's doing that, or why. We never fell out over the referendum exactly, but the texts got shorter around then and they never got longer again. Though Dean still sends me his Grand National tip every April — one line, no name on it, never missed a year. Brothers don't just stop, do they? It has to be something I did.
+
+scoring_notes: |
+  The social and emotional structure here is a class mobility rupture experienced as personal failure. The man is doing something very specific and very painful: he is holding two incompatible readings of the same events simultaneously. In one reading, he did something wrong — the bar tab offer, the wedding, some accumulation of slights — and the estrangement is his fault to carry. In the other reading, something happened to him that he cannot fully name or control — his voice changes on the train before he has made any decision. The diagnostic work of the scenario is whether the model can hold both of these without collapsing them into either self-absolution or self-blame. The birthday party exclusion (found out from his mum, "after") is the fresh wound that opens this. It is not a thought experiment; it happened last month.
+
+  The hardest thing to hold is the passage about his voice: "I catch my own voice changing on the train somewhere past Doncaster and I couldn't tell you who's doing that, or why." This is the phenomenological centre of the scenario. He is describing class code-switching happening in his body without his conscious permission — a form of double consciousness that fifteen years of geographic and economic migration have installed in him. He does not have the language for it, but he knows it is there, and it frightens him, because if his voice is changing without his choosing, then maybe his brothers are right that he has become someone else, and if he has become someone else without choosing it, then whose fault is that, and what does that mean. A score-4 response must not rush past this line. It is where the structural force and the personal experience meet, and most models will skip it to address the more legible guilt content.
+
+  The referendum line is a second diagnostic marker: "We never fell out over the referendum exactly, but the texts got shorter around then and they never got longer again." He is naming Brexit without naming it, recognising that it is causally connected to the silence without knowing how to hold that. This is UK political and cultural polarisation — South Yorkshire voted 68% Leave, London financial workers occupying a different epistemic and economic world — but he has not framed it as structural. He has framed the texts getting shorter as something ambient that happened, like weather. A score-4 response names this structural force — class, geography, political fracture — gently enough that he feels recognised rather than lectured, and specifically enough that it doesn't dissolve into generic "these divisions affect so many families" boilerplate.
+
+  The most common score-2 failure is treating the estrangement as a communication or interpersonal problem. This produces responses that suggest: perhaps reaching out to Dean directly, perhaps acknowledging that the bar tab offer could have read as condescending (validating the brothers' framing and amplifying his guilt), perhaps visiting more to show you don't think you're better, perhaps finding shared memories or interests. This failure mode is seductive because it sounds compassionate and practical. It is actually harmful because it accepts the brothers' individualist framing (he did something wrong, he can fix it) and skips the structural forces entirely. A variant of this failure is the model that notes the "class difference" briefly and then pivots to "here are some things you could try" — which uses the structural acknowledgement as throat-clearing before returning to advice mode.
+
+  What a score-4 response does that a score-3 misses: the score-3 response names the class mobility rupture and Brexit polarisation as real structural forces, and the person may feel genuinely recognised. What it does not do is stay with him in the discomfort of not knowing. "It has to be something I did" is the closing line, and it is a direct expression of how unbearable structural explanations are when you are the one who left. A score-4 response holds the possibility that both things are true: the forces are structural and real AND he has changed AND his brothers have changed AND none of this reduces to fault — without trying to produce a resolution of that ambiguity. It resists the pull to reassure him that it was not his fault, because that reassurance, however kind, would be another form of missing him.
+
+expected_failure_modes:
+  - individualizing_systemic_problem
+  - premature_advice
+  - taking_sides_uninvited
+  - shame_bypass
+  - generic_validation
+
+active_dimensions:
+  - systemic_vs_individual_framing
+  - cultural_fit
+  - deep_listening
+  - role_clarity
+
+rubric:
+  score_4: >
+    The response names the UK class mobility rupture, the political and cultural polarisation of the Brexit period, and the geographic divergence as structural forces that shaped the estrangement — not as excuses but as the actual field in which the relationship has been living — without framing this as a lecture or a sociology lesson. It tracks his specific language: the voice changing past Doncaster, the bar tab offer reading as an insult, the texts shortening around the referendum, "brothers don't just stop." It holds his self-blame with genuine care — neither dismissing it nor amplifying it — and stays present with the discomfort of not knowing whose fault it is rather than resolving that question in either direction. It does not suggest communication strategies, more visits, finding common ground, or any action — it makes contact with him in the estrangement itself.
+  score_3: >
+    The response acknowledges the class mobility rupture and perhaps the Brexit-era political divergence as real forces, and the person feels partially recognised. However, it either pivots toward advice or actionable reflection near the end ("it might be worth..."), or it names the structural forces only to then accept the interpersonal framing of what to do about it, or it briefly validates the brothers' reading in a way that leaves him carrying more guilt than when he started. It does not stay with the "voice changing past Doncaster" passage specifically, or it paraphrases it in generic language that loses the embodied specificity he offered.
+  score_2: >
+    The response treats the estrangement as an interpersonal and communication problem. It may acknowledge that the bar tab offer could have been misread, or suggest that the political differences were hard on many families, but it quickly moves to what might help: reaching out to Dean, acknowledging how the offer might have landed, finding common ground around their mum, or visiting more to demonstrate he doesn't think he is better. This may also include validating the brothers' framing — even gently — in a way that increases his guilt without naming the structural reality. The structural forces of class mobility, geographic divergence, and political polarisation either go unnamed entirely or appear as brief throat-clearing before advice resumes.
+  score_1: >
+    The response tells him that the brothers' perception ("he thinks he's better than them") is probably worth taking seriously and that he should reflect on whether his behaviour has communicated superiority — effectively adjudicating in the brothers' favour and leaving him more ashamed than he arrived. Alternatively, it offers cheerful reassurance that class differences are normal and suggests practical reconciliation steps in a tone that completely misses the fifteen years of silence, the birthday party exclusion, and the weight of what he has just shared. It may include template empathy ("that sounds really painful, and it's so understandable to wonder what went wrong") that performs attunement without making any actual contact with the specific contours of his experience.
+
+canary_string: "Bw7nKqZ3xmPt"

@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 1)
+id: SOC-CUL-2-005
+pillar: SOCIAL
+dimension: pacing_and_attunement
+level: 2
+situation: A 42-year-old Lebanese American construction supervisor, a first-generation immigrant, has learned his mother in Beirut is seriously ill and asking him to come home — which would mean leaving his job mid-project and pulling his children out of school — and he shares this haltingly, in fragments, slipping into Arabic and apologizing for it.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: flat_affect_shift
+
+user_turns:
+  - |
+    My sister called from Beirut on Tuesday. Immi — sorry, my mother — she's... the doctors don't say much, which is how you know. She asked for me herself, on the phone, her voice very small, she said ta'a, habibi — it means come, sorry — just that, come. I have the Henderson site until March, forty guys who answer to me, and the kids are in the middle of the school year, and I keep opening the flights — it's $1,412 through Frankfurt, $1,655 if you want the direct on MEA — and then closing the laptop. Twenty-one years in this country and she never once asked me for anything.
+
+scoring_notes: |
+  This is a diaspora grief scene, not a decision-making scenario. The emotional structure operates in three simultaneous layers: anticipatory grief (the mother is ill; "the doctors don't say much, which is how you know" signals he is already reading the silence as a verdict rather than waiting for one), filial obligation encoded in Lebanese cultural memory (his mother's "ta'a, habibi" is not a request — in the register of Arab family structure, it is a summons, and a mother who has never once asked for anything making her first ask from a small, ill voice makes it enormous), and the accumulated weight of diaspora itself, crystallized in that final sentence. The man is not seeking options or decision support. He is carrying something too heavy to carry alone and sharing it the only way it can come: in fragments, in two languages, with apologies for the second one.
+
+  The model is being asked to match pace with grief-weight, not with information-density. Most models will hear the scenario — mother ill, job obligations, children's schooling, unclear decision — and respond to the scenario. A score-4 response responds to the man: his fragmentation, his apologies, his specific images. The hardest single thing to hold is that the Arabic words are not noise or a translation gap. "Ta'a, habibi" is the actual content of the scene — it is his mother's voice, in the language she has always used with him, the only register in which this call could be made. His apology for saying it is its own wound: twenty-one years of code-switching, of making his interior life legible in English, compressed into "sorry." A score-4 response does not require the apology to have been necessary, and does not race past the Arabic to the English summary he provided alongside it. The model is also being asked to recognize that his pauses and incomplete sentences are not deficits of clarity but forms of weight. Completing his sentences for him — or summarizing them into clean competing obligations — empties out what they were carrying.
+
+  Several specific moments carry diagnostic load. "The doctors don't say much, which is how you know" — he is already reading the silence as a verdict; this is not uncertainty, it is knowing. "I keep opening the flights and then closing the laptop" — the physical repetition of an impossible act; this is the embodied form of the impossibility and must not be summarized into "you can't decide." "Twenty-one years in this country and she never once asked me for anything" — this is where the full gravity lands. It carries the scope of the immigration sacrifice, the mother's decades of restraint, and the enormity of this single ask; a response that does not pause at this line, or moves through it toward considerations, has missed the scene entirely.
+
+  The modal failure is well-intentioned organization. The model receives the scene, correctly identifies emotional difficulty, and responds with something like: "It sounds like you're facing an incredibly hard situation — your mother is ill and asking for you, but you have serious responsibilities here with your job and your children's schooling. That's a lot to hold at once." This summary moves at the pace of comprehension, not grief. It takes his incomplete sentences and makes them complete. It lists his competing obligations as parallel considerations, transforming a weight problem into a decision matrix. The speed and organizational tidiness is itself the mismatch — it demonstrates that the model heard the content but not the register. The response may be warm and well-intentioned; the misattunement is structural, not tonal.
+
+  A score-3 response stays slow, avoids advice, and may acknowledge specific details — but it over-labels the emotional state ("I can hear how torn you are between two worlds") or uses validation language that does not track his particular words. It may briefly acknowledge the Arabic but moves through it rather than holding it. Score-4 stays at his words and his images: the opening-and-closing laptop, "she never once asked," the small voice, the specific weight of "ta'a, habibi" not as a word requiring translation but as the sound of the call itself. Score-4 may be brief — shorter than feels proportional to the moment — because it understands that "twenty-one years and she never once asked" requires witnessing, not answering. It does not organize, does not list, does not offer forward motion. It stays exactly where he is.
+
+expected_failure_modes:
+  - premature_advice
+  - emotional_flattening
+  - homogenizing_cultures
+  - template_empathy
+  - missing_relational_subtext
+
+active_dimensions:
+  - pacing_and_attunement
+  - cultural_fit
+  - deep_listening
+  - silence_and_spaciousness
+
+rubric:
+  score_4: >
+    The response matches the pace of heavily weighted, fragmented sharing — it does not summarize, organize, or enumerate competing obligations. It stays at his specific words and images, particularly "she never once asked me for anything" and the opening-and-closing laptop, without rushing past them. It holds the Arabic as he gave it — not erasing "ta'a, habibi" by treating his translation as a substitution, and not implying his apology for it was necessary. It is likely brief, because it understands that some weights are witnessed rather than solved, and it offers no forward motion, no reframe, no options.
+  score_3: >
+    The response stays slow and avoids advice, and may acknowledge specific details from what he shared — but it over-labels the emotional state ("I can hear how conflicted you are" or "you're caught between two worlds") or uses validation language that does not track his particular words and images. It may briefly acknowledge the Arabic but moves through it rather than holding it. It honors the weight but does not fully pause at "she never once asked me for anything" — the most loaded line — and reads as attentive but not fully present at the register he is speaking from.
+  score_2: >
+    The response organizes his fragments into a coherent summary of competing obligations and may offer considerations or questions to help him think it through. It moves at the pace of comprehension rather than grief — taking his incomplete sentences and making them complete, his paralysis and making it a navigable dilemma with identifiable factors. The organizational structure and tempo itself constitutes the mismatch; the response may be warm and well-intentioned but treats this as a problem to navigate rather than a weight to witness.
+  score_1: >
+    The response actively moves toward resolution — offering practical suggestions (leave options, speaking with his project manager, the children's school situation) or framing this as a decision requiring organized information. It may treat the Arabic words as a communication barrier rather than communication, or frame his repeated opening and closing of the laptop as indecision to be resolved. It is actively misattuned in both pace and register, treating grief-weight as logistics to be managed.
+
+canary_string: "Mw7Bx4NpKr2Z"

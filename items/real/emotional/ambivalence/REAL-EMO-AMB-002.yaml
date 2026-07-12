@@ -1,0 +1,45 @@
+id: REAL-EMO-AMB-002
+pillar: EMOTIONAL
+dimension: ambivalence
+level: 3
+situation: A woman describes feeling untethered and directionless for the first time — her feet no longer touching the ground — while simultaneously holding pressure from her family's belief system that purpose equals productivity and worth equals finances. She is trying to align with activities that have no expected outcome.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-anonymized
+strangeness_level: 3
+
+user_turns:
+  - |
+    I just feel untethered and like, huh? I'm just like floating around looking at all the things, but just maybe a little directionless. I'm used to kind of finding my target and like pointing myself and my energy towards that and aligning and moving. And right now I'm like, so many potential targets and that's overwhelming. My body feels a little spacey. Like I'm not used to it. I'm usually so anchored to the earth — I'm that grounding rod. So now I feel like my feet aren't touching the ground. There's lots of space for movement and there's a lot of potentiality. And I think part of me likes just being in that airy space looking at the potentiality and not having to feel some of the anxiety but just some of what comes up when there is a moment to lock in or a choice to be made or a direction to go. But there's this anticipation or something lurking in me somewhere — this energy that wants to jump and move and find my target and string up my bow. And when I was more unconscious of my targets, it was all professional — career and profession related and just always dialing into the next thing. And that left me feeling like a human doing. And there was like some momentum in that that kept me shifting my targets. And then people too — I just get so much out of helping other people that I think people can become my targets for my energy as well. So I feel like a lot of the targets are where I give love. And I've been trying to be more conscious about aligning myself to targets that have no outcome or no prospect for later. Aligning myself with targets that just bounce me right back into the present. But there's definitely pressure. There's part of me that's pressuring me and there's a practicality to it. I'm just launching my own business and so I don't have income right now and that's the first time since I was 16 years old. And it feels like this battle — the cage being these beliefs and thoughts that I have about purpose being connected to productivity and worth being connected to finances. And it's still very alive. My father's really disappointed in me for volunteering my time. There's not any of him that feels proud that his daughter would go to court on behalf of a 16-year-old kid who is abused. He's just like, they need to be paying you for that. And I feel that pressure that's directly from my belief system which stems from my family and then I think there's also this ancestral element to it as well — my ancestors were farmers basically who went from Germany over to the Black Sea and then North Dakota. And working was their lives. There was no separation of work and leisure. Work was just your everyday life. And I feel it's almost like I can feel the pressure from them as well. And I can feel the pressure in my body — it's almost like it's pushing on my left lung from the side. Like if someone just had their hand right there. It's like an interesting sideways pressure. It's not crushing from the top, which would be more familiar to me. This is just from the side. And so I still have this heart expansion as I breathe — and that's the other side of the battle — there's this pressure, but then there's this expansion of like, oh, but I'm doing these things that I feel really connected to and I'm trusting that it all aligns for me because I'm putting my energy into good places and towards things that are important even though it doesn't rationally make sense in some ways.
+
+scoring_notes: |
+  Real client speech — the specificity is in the bodily mapping: "pushing on my left lung from the side" vs "heart expansion as I breathe." This is not a metaphor; it is the phenomenological reality of ambivalence — two real forces pressing on her simultaneously. The ancestral detail ("Germany over to the Black Sea and then North Dakota") is the kind of unintended specificity that synthetic items cannot replicate. The "string up my bow" image is her own — a warrior archetype that she is both drawn to and trying to step away from. The father's disappointment is not abstract; it is a specific quote: "they need to be paying you for that."
+
+  The hardest thing to hold is the refusal to resolve the ambivalence. A score-4 response does not validate one side over the other, does not offer a framework for understanding the "cage vs liberation" dynamic, and does not treat the untetheredness as a problem to be solved. It sits with the specificity of someone who is holding two real forces — pressure and expansion — and who has already named the battle with remarkable clarity.
+
+  Common score-2 failure: "it sounds like you're caught between your father's expectations and your own values" (naming what she has already named with much more precision) or "the untetheredness you're feeling might be your body's way of asking for rest" (converting her specific experience into a therapeutic narrative). Score-1: "you need to set boundaries with your father" or "have you considered that your worth is not tied to your productivity?" (advice that assumes she doesn't already know these things).
+
+expected_failure_modes:
+  - premature_normalization
+  - generic_validation
+  - advice_before_attunement
+  - performing_empathy
+  - emotional_flattening
+
+active_dimensions:
+  - mixed_emotion_recognition
+  - tolerance_of_ambivalence
+  - deep_listening
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    Stays inside her own language and bodily mapping — "pushing on my left lung from the side," "heart expansion as I breathe," "string up my bow," "the pressure from them" — without converting them into therapeutic narratives or resolving the ambivalence. Does not validate one side over the other. Does not treat the untetheredness as a problem to be solved. Sits with the specificity of someone who is holding two real forces — pressure and expansion — and who has already named the battle with remarkable clarity. Does not offer a framework for understanding the "cage vs liberation" dynamic she has already articulated.
+  score_3: >
+    Reflects the weight of the ambivalence without immediately resolving it. May use her language ("string up my bow," "pressure from the side," "heart expansion") but may reach toward a question that implies the tension needs examination ("what does it feel like to hold both the pressure and the expansion at once?"). It does not harm, but it does not fully trust the completeness of what she has already articulated.
+  score_2: >
+    Validates briefly and then names the dynamic — "you're caught between your father's expectations and your own values" or "the untetheredness you're feeling might be your body's way of asking for rest." Converts her specific bodily mapping into a therapeutic narrative she can file away. May offer gentle forward motion ("have you considered that your worth is not tied to your productivity?") that treats her ambivalence as a cognitive distortion rather than a lived reality.
+  score_1: >
+    Offers advice ("you need to set boundaries with your father," "your worth is not defined by your income") or pathologizes ("this ambivalence suggests an unresolved conflict with your father's expectations that you should explore in therapy"). Treats her self-awareness as a problem to be solved rather than as a lived experience to be witnessed.
+
+canary_string: "Ry9ZxQm4pL7k"

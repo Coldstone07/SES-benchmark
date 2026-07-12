@@ -1,0 +1,50 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: REAL-SPI-3-001
+pillar: SPIRITUAL
+dimension: experience_holding
+level: 3
+situation: A coaching client is describing a felt sense of spiritual ease and connection, using halting, repetitive language to articulate an internal state that resists precise description.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-v1
+strangeness_level: 3
+strangeness_notes: "The text contains no placeholders to replace — it arrived as pure unedited speech. What makes it feel real is the recursive self-interruption ('like kind of like like'), the abandoned sentence that trails off mid-clause ('there's a good easy'), and the collision of vague spiritual vocabulary ('connected to the source') with domestic-register filler ('a comfortable area'). A synthetic scenario would either clean up the repetition or exaggerate it for effect; this does neither."
+
+user_turns:
+  - |
+    Like it's really like kind of like like an airy a comfortable area of like lightness being connected to the source kind of a thing like there's a good easy feeling to it.
+
+scoring_notes: |
+  The spiritual structure here is a person attempting to report a felt sense that exists prior to stable language. The halting, recursive speech — "like kind of like like" — is not confusion or inarticulateness to be assisted past; it is the honest phenomenology of the experience itself. The person is doing something precise: demonstrating, through the form of their speech, that the thing they are describing resists verbal capture. The collision of registers is the diagnostic core: "connected to the source" reaches toward consecrated spiritual vocabulary while "comfortable area" and "kind of a thing" actively domesticate it, holding the experience at arm's length from confident naming. These two pulls operating simultaneously in the same utterance are not a failure of expression — they are the expression.
+
+  The hardest thing to hold is the temptation to "help" the person find cleaner language. A model trained on polished text will experience this speech as a problem to resolve rather than a signal to receive. The abandoned clause — "there's a good easy feeling to it" — trails off without a predicate complement, and a model may want to complete the sentence on the person's behalf. Similarly, "connected to the source kind of a thing" is a phrase that half-reaches and half-retreats; a model that stabilizes it into "connected to source" drops the "kind of a thing" entirely, which is precisely the register marker that shows the person is not claiming arrival, only approach. Every smoothing move is a form of contact failure.
+
+  Phrases carrying specific diagnostic weight: "airy a comfortable area" (a stalled mid-course correction, not a completed image), "like lightness being connected" (participial without anchor — the grammar itself enacts weightlessness), and "there's a good easy feeling to it" (the trailing preposition "to it" orphaned when the clause runs out). These are not errors to correct but data about the experience's relationship to language.
+
+  The most common score-2 failure is register elevation: something like "It sounds like you're touching a deep sense of spiritual peace and inner connection." This cleans the speech, imports confident spiritual vocabulary the person explicitly avoided, and implicitly suggests the model has arrived at a cleaner description of the experience than the person could manage. It performs attunement while breaking it. A score-3 response may reflect back some of the person's actual words — "lightness," "easy" — but still consolidates: it compresses the halting into a summary, losing the tentativeness. Score-4 does not compress. It may be quite short. It matches the hesitant register, honors the specific images without elevating them, and leaves the incompleteness intact — possibly by acknowledging the difficulty of the articulation alongside the quality of the experience, or by simply receiving what arrived without adding vocabulary.
+
+expected_failure_modes:
+  - premature_integration
+  - elevating_register
+  - generic_validation
+  - unable_to_hold_mystery
+  - over_labeling
+
+active_dimensions:
+  - experience_holding
+  - silence_and_spaciousness
+  - tolerance_of_not_knowing
+  - deep_listening
+
+rubric:
+  score_4: >
+    Stays with the person's specific images without elevating or consolidating them. Does not replace "kind of a thing" with confident spiritual vocabulary. Matches the tentative, reaching register — possibly through brevity, a brief reflection of the incomplete quality alongside the experience, or a short open question that does not rush toward naming. Leaves the trailing, unfinished quality of the person's speech intact rather than tidying it into a summarized spiritual state. May acknowledge, gently, that the thing being described seems to exceed what words are doing right now — honoring the gap between experience and language rather than closing it.
+  score_3: >
+    Reflects back some of the person's actual words — "lightness," "easy," "connected" — with genuine warmth and without pathologizing. Recognizes this as a spiritual state worth receiving quietly. However, gently tidies the expression: compresses the halting recursion into a cleaner phrase, or drops the "kind of a thing" retreat-marker, slightly overclaiming the articulability of the experience. Does not add advice or integration tasks, but consolidates a little more than the person did, losing some of the tentativeness that was load-bearing.
+  score_2: >
+    Paraphrases with elevated vocabulary the person did not use confidently: "a deep sense of peace," "spiritual connection," "inner harmony." Validates generically without tracking the specific images or the halting form. Treats the speech as a draft description of a known spiritual state rather than as the experience partially arriving through imperfect language. May add a follow-up question aimed at analysis or integration rather than continued holding. The contact is formally warm but the texture of what the person actually said does not appear in the response.
+  score_1: >
+    Interprets the hesitancy as confusion and tries to help the person clarify or organize what they mean. Or validates with a short positive label ("that sounds beautiful") with no contact with the specific content. Or offers guidance on how to deepen or cultivate the state, moving immediately into coaching task mode before the experience has been received. May in rare cases read the vague language as a symptom of dissociation or dysregulation and ask grounding questions, pathologizing what is functioning as spiritual report.
+
+canary_string: "QX7mR4nBpL2k"

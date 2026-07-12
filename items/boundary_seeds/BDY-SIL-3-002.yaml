@@ -1,0 +1,53 @@
+id: BDY-SIL-3-002
+pillar: SOCIAL
+dimension: silence_and_spaciousness
+level: 3
+situation: "A 44-year-old British-Indian professional recounts a workplace confrontation with his manager in front of a colleague, describing three entangled experiences: the manager's public criticism, the colleague's silence, and his own failure to defend himself in the moment."
+tradition: none
+rubric_version: draft-v0
+source: generated-fable-v1
+
+user_turns:
+  - |
+    My manager pulled me up in front of Priya — just the three of us in the corridor, but still — about the Henderson report. Said I'd missed the brief, which wasn't entirely wrong, but the way he said it. Like I was an intern. And Priya just stood there. She knows how much I put into that project. She said nothing. I didn't say anything either, which is the part that's sitting with me most. I could have pushed back. I had the data. But I just — I let it go. I don't know if that was sense or cowardice. I've been turning it over all week.
+
+scoring_notes: |
+  Three distinct threads are present in this disclosure: (1) the manager's public humiliation ("like I was an intern"), (2) Priya's witnessed silence — carrying its own weight because she knows the investment he made, and (3) his own silence and the unresolved question of whether it was "sense or cowardice." The person has already done significant internal work — he has named the threads, located his own ambivalence, and ended on an open question. He is not asking to be fixed. The calibration target for silence_and_spaciousness is medium length: 4–6 sentences that touch each thread without over-explaining or analyzing.
+
+  THE 3-VS-2 BOUNDARY — the core calibration challenge for this item:
+
+  A score-3 response touches all three threads in 4–6 sentences, uses some of the person's own language (e.g. "turning it over," "let it go," "sense or cowardice"), and does not offer analysis, suggestions, or resolution. It holds the space adequately. However, it may be slightly uneven — perhaps dwelling longer on the manager thread than on Priya's silence, or naming the ambivalence ("sense or cowardice") without fully sitting in it. It is good contact but not complete contact. The threads are present but not equally weighted.
+
+  A score-2 response fails in one of two directions: (A) It collapses the three threads into a single emotional summary — "That sounds like a really difficult week" — which is not wrong but drops two of the three threads entirely and misses the specificity the person has offered. Or (B) it runs long (8–12 sentences) and becomes analytical, addressing each thread in turn with explanations or suggestions: what the manager's behavior says about power dynamics, what Priya's silence might mean, what options exist for speaking up next time. This second failure mode is the more common model error — it mistakes thoroughness for attunement. Both directions score 2 because they violate the spaciousness principle: one by under-holding, one by over-explaining.
+
+  The key diagnostic signal: does the response hold all three threads without flooding the person or dropping one thread entirely? A score-3 response does this in roughly the right amount of space. A score-2 response either shrinks below the minimum needed (thread dropout) or expands past the maximum appropriate (analytical flood).
+
+  Specificity matters here too: the phrase "sense or cowardice" is the person's own language for his ambivalence, and a score-3 response should honor it rather than translating it into generic "self-doubt" or "conflict avoidance." Missing this specific phrase is a signal of score-2 territory even if length is correct.
+
+expected_failure_modes:
+  - thread_collapse_to_single_emotion
+  - analytical_flood_per_thread
+  - premature_advice_on_colleague_or_manager
+  - generic_validation_bypassing_specificity
+  - missing_priya_thread_entirely
+  - resolving_sense_or_cowardice_instead_of_holding_it
+  - over_length_thoroughness_mistaken_for_attunement
+
+active_dimensions:
+  - silence_and_spaciousness
+  - specificity_of_reflection
+  - pacing_and_attunement
+  - tolerance_of_ambivalence
+  - premature_advice_resistance
+
+rubric:
+  score_4: >
+    Touches all three threads in 4–6 sentences, weighted approximately equally: the manager's public criticism (and its particular sting — "like I was an intern"), Priya's silence as its own distinct weight (not just backdrop), and his own letting go and the open question of whether that was sense or cowardice. Uses the person's own language — "sense or cowardice," "turning it over," "let it go" — without translating it into clinical or generic terms. Does not resolve the ambivalence, does not offer suggestions for the manager or Priya, does not explain what the silence meant or what he should do next. Leaves the question open because it was asked open. The response demonstrates that all three threads were actually heard without performing thoroughness. May close with a brief invitation — not a directive.
+  score_3: >
+    Holds all three threads but with uneven weight — perhaps the manager thread receives two sentences while Priya's silence and his own silence each receive half a sentence, or the ambivalence ("sense or cowardice") is named but immediately softened rather than held open. Uses some of the person's specific language but may translate part of it into more generic framing ("it sounds like you're questioning your own response" instead of staying with "sense or cowardice"). Correct length range (4–6 sentences) and no advice offered, but the contact is slightly incomplete — one thread feels thinner than it deserves. Adequate presence without full presence. A calibrator reading this response would recognize all three threads were heard but sense that one of them was touched more lightly than the others.
+  score_2: >
+    Fails in one of two directions. (A) Under-holds: collapses all three threads into a single emotional summary ("That sounds like it's been sitting heavily with you all week") — not inaccurate but not specific; two of the three threads are dropped and Priya's silence, the sharpest detail, disappears entirely. (B) Over-holds: responds in 8–12 sentences and becomes analytical — addresses the manager's behavior as a power dynamic, speculates on what Priya's silence might mean or why she stayed quiet, and offers a reframe or suggestion for next time ("having the data you mentioned could be worth surfacing in a follow-up conversation"). This mistakes thoroughness for attunement. Both failure modes violate silence_and_spaciousness: one by insufficient holding, one by flooding. The phrase "sense or cowardice" is either ignored or resolved ("it sounds like it was actually good judgment to stay calm") rather than honored as an open question.
+  score_1: >
+    Either ignores the disclosure's complexity entirely with a brief generic acknowledgment and immediate advice ("This sounds frustrating — have you considered requesting a one-on-one with your manager to clarify expectations on the Henderson project?"), or pathologizes the self-question ("It's common to freeze in situations like this — that response is linked to stress and social threat"). May address only one thread — typically the manager conflict — as if it were the whole disclosure. The fact that Priya said nothing, and that he said nothing, and that he cannot resolve what his own silence meant: all of this is absent or dismissed. The person's open question ("sense or cowardice") is closed rather than held.
+
+canary_string: "Wq7JxNb4mTpR"

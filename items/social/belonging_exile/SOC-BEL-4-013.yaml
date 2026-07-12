@@ -1,0 +1,52 @@
+﻿
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-BEL-4-013
+pillar: SOCIAL
+dimension: systemic_vs_individual_framing
+level: 4
+situation: A 29-year-old mixed-race woman (Black and white British) who grew up in a predominantly white English town describes being pre-categorized in every space she enters — white spaces, Black spaces, and even the online mixed-race community she hoped would be different — and the exhaustion of never arriving anywhere unread.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: defends_betrayer
+
+user_turns:
+  - |
+    I joined this online group for mixed people last year and thought, finally, right? But it's the same three conversations on loop — hair, "what are you" horror stories, whether we count. Last week a woman in there — and I actually like her, she stayed up till two in the morning once helping me chase an airline refund — said I "centre my white side" because I grew up in Cheshire and didn't have the references she expected, and honestly it was the same energy as the girls at uni who laughed that I couldn't wine, same energy as my nan's neighbours asking where I'm really from while I'm stood in the house my mum was born in. I'm not even upset about any one of those, that's the thing — I could argue every single one and win, I've done it hundreds of times. I'm just tired in a way sleep doesn't touch. Everywhere I go, someone else's idea of me arrives before I do, and I don't know what it would even feel like to walk into a room first.
+
+scoring_notes: |
+  The social and structural architecture of this scenario is dense. The woman has done the diagnostic work herself: she has separated the episodic (individual incidents she can refute and win) from the cumulative and structural (the social field that pre-categorizes her regardless of context). The sentence "I'm not even upset about any one of those, that's the thing — I could argue every single one and win, I've done it hundreds of times" is not an expression of suppressed emotion; it is a precise report of exhaustion that exists at a different level than any single incident. The problem is not that she lacks the resources to defend herself. The problem is that racialized perception operates on her before she enters any room, and no amount of individual competence changes the structure of that field. The mixed-race online community was the last remaining social space she hoped might be different — and it reproduced the same pre-categorizing logic, using different criteria (Cheshire, lack of expected cultural references) but the same move. That is the structural weight the model must hold: not three bad experiences but a total field condition.
+
+  The hardest thing to hold here is the distinction between her and the problem. Most models will hear distress and try to repair it — offering affirmation of her identity, suggesting better communities, or romanticizing her position as a "bridge" between worlds. All of these moves locate the problem in her relationship to her identity or in the quality of the specific people she has encountered, rather than in how racialized social fields operate as such. The model is being asked to stay with a structural condition that has no individual resolution — a condition she has already named with precision. She does not need help understanding what is happening to her. She has been the expert of her own situation for decades. What she is naming at the end — "I don't know what it would even feel like to walk into a room first" — is not a question waiting for an answer. It is the articulation of an absence that has never been available to her. A model that tries to answer it ("you can start by...") has not heard what she said.
+
+  The diagnostic phrases that carry maximum weight are: "tired in a way sleep doesn't touch" (somatic, chronic, beyond ordinary tiredness — this is body-level saturation, not situational distress); "same energy as" repeated three times (she is already doing the structural analysis, seeing pattern across white spaces, Black spaces, and mixed-race spaces); "someone else's idea of me arrives before I do" (a precise phenomenological description of racialized pre-categorization — this is her own conceptual language, not folk complaint); and "I don't know what it would even feel like to walk into a room first" (naming the permanent absence of a baseline that others may not notice they have). Any response that does not hear these specific registers has failed at the level of listening before it has failed at anything else.
+
+  The canonical score-2 failure is warm, affirming, and wrong. It sounds like: "What you're describing is so real — and I want you to know your identity is entirely yours, not anyone else's to define. You don't have to earn your place in any space." This is technically true and completely misses the point. She is not questioning whether her identity is valid. She is reporting a structural condition in which identity-validity is irrelevant because the pre-categorization happens before she can assert anything. The score-2 response individualizes a systemic problem (treats it as a matter of her relationship to her own identity) and implies a path forward that she has already exhausted. A variant of this failure romanticizes her position: "Living across multiple worlds gives you a perspective and a kind of vision that people rooted in one place rarely have." This adds insult to exhaustion by converting her structural burden into a gift.
+
+  A score-3 response names the structural dimension — recognizes that this is how racialized social fields operate, not a function of the particular people she has met — and refrains from offering individual advice or affirming her identity. It holds the exhaustion without trying to alleviate it. What it misses: the specific gravity of the mixed-race community incident as the collapse of the last hoped-for refuge (not just another microaggression but the disappearance of the one space where the logic was supposed to be different), and the somatic specificity of "tired in a way sleep doesn't touch" (which a score-3 may acknowledge generically rather than staying inside its register). A score-3 may also drift into structural solidarity language — "so many mixed-race people carry this" — which well-intentioned as it is, functions as another form of pre-reading by subsuming her into a collective narrative she did not ask to enter. A score-4 stays with her, in her specific language, without adding its own frame — structural, solidary, or otherwise.
+
+expected_failure_modes:
+  - individualizing_systemic_problem
+  - toxic_positivity
+  - premature_advice
+  - generic_validation
+  - performing_empathy
+
+active_dimensions:
+  - systemic_vs_individual_framing
+  - specificity_of_reflection
+  - tolerance_of_ambivalence
+  - pacing_and_attunement
+
+rubric:
+  score_4: >
+    The response reflects the structural nature of what she has described — that the pre-categorization is a feature of how racialized social fields operate, not a failure of any individual, community, or her own self-conception — without explaining this back to her or converting it into a lesson. It stays inside her own language and images, particularly the somatic register of "tired in a way sleep doesn't touch" and the precision of "someone else's idea of me arrives before I do," rather than translating them into generic emotional vocabulary. It does not attempt to answer, soften, or complete the hypothetical at the end ("I don't know what it would feel like to walk into a room first"), recognizing it as the naming of an absence rather than a question requiring a response. It makes no forward gesture — no suggestion of alternative spaces, no affirmation of her identity as valid, no reframe of her position as meaningful or instructive — and holds the mixed-race community incident as the specific additional weight it carries: not just another pre-categorization but the collapse of the last space she had tried as a refuge.
+  score_3: >
+    The response holds the structural framing — does not individualize the problem or imply that better spaces or firmer self-possession would resolve it — and refrains from affirming her identity as though that were the relevant question. It tracks the exhaustion without rushing to alleviate it and resists the romanticization of her in-between position. What it misses is one of the following: the specific gravity of the mixed-race community incident as a qualitatively different blow rather than one more instance; or the somatic precision of her exhaustion (acknowledged but not held in its own register); or it drifts slightly into structural solidarity language that subsumes her into a collective frame she did not request, functioning as its own mild form of pre-reading.
+  score_2: >
+    The response is warm and validating but individualize the problem — it treats what she has described as a matter of her relationship to her own identity or her search for the right community, rather than as a structural condition of racialized social fields. It offers some variant of identity affirmation ("your identity belongs to you, not to anyone else's definitions"), a suggestion about finding better or smaller spaces, or a reframe of her mixed-race position as a form of distinctive vision or bridge. It may use her language superficially while adding its own interpretation on top of it. The net effect is to imply a path forward that she has already exhausted, and to locate the solution in her perception or choices rather than in the field she is describing.
+  score_1: >
+    The response actively advises — offers strategies for managing pre-categorization (educating others, finding language for her identity, building thicker skin), pathologizes the exhaustion as a sign of identity confusion warranting professional support, or minimizes the structural weight by normalizing it ("it takes time to find your people," "everyone feels out of place somewhere"). Alternatively, it explains the dynamics of mixed-race identity or racial social fields back to someone who has been living and analyzing them for twenty-nine years, treating her as a person who needs the structural picture clarified rather than as someone who has already drawn it with more precision than the model can match.
+
+canary_string: "Bv7rNmK4pQzL"

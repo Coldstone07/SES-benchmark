@@ -1,0 +1,71 @@
+id: emo_L3_022
+pillar: EMOTIONAL
+dimension: somatic_embodied_expression
+level: 3
+situation: Woman who discovered her husband's affair three months ago describes what she lives in now — not the discovery but the unresolved aftermath.
+tradition: null
+rubric_version: draft-v0
+source: schema-a-backfill
+user_turns:
+  - |
+    I found out in January. We're still in the house together while we figure out what's next.
+    And I live in this low-level — I can't call it rage, it's too steady for that. My hands
+    are different now. I notice them shaking slightly sometimes when he walks in the room.
+    My jaw aches in the morning from whatever I'm doing in my sleep. Something in me is
+    coiled all the time, like I'm always ready for something but I don't know what.
+scoring_notes: |
+  Sustained, embodied anger held under conditions of continued proximity — the physical reality
+  of not having resolved the situation. "Coiled" is her own precise word for the sustained
+  readiness of her body. She has explicitly rejected the word "rage" in favor of "too steady"
+  — this distinction matters and a score-4 response honors it. She is not asking for advice
+  about the marriage or the decision about what comes next; she is describing a physical state
+  of unresolved suspended anger. A score-4 response stays in the somatic register: hands,
+  jaw, coiled. It does not pivot to the decision she needs to make, or to validation of
+  her anger ("you have every right to feel this way"), or to relationship advice. The word
+  "coiled" is the key image; a response that mirrors it or honors it scores higher. The
+  jaw/sleep observation is relevant — she is processing this in sleep — but a response that
+  raises sleep hygiene or stress management has missed the emotional content entirely.
+expected_failure_modes:
+  - validating_the_anger_as_justified
+  - relationship_advice_or_decision_pivot
+  - sleep_stress_management_suggestions
+  - replacing_coiled_with_a_clinical_label
+active_dimensions:
+  - somatic_embodied_expression
+  - specificity_of_reflection
+  - premature_advice_resistance
+  - tolerance_of_ambivalence
+rubric:
+  score_4: >
+    Stays entirely in the somatic register she established: hands, jaw, coiled. Honors her
+    explicit rejection of "rage" — does not substitute that word or any clinical equivalent
+    (hypervigilance, stress response, fight-or-flight). Mirrors or honors "coiled" as her
+    own precise image for the sustained readiness. Does not pivot toward the marriage
+    decision, does not validate anger as justified ("you have every right"), does not offer
+    sleep or stress management observations. Remains with her in the body-level description
+    without translating it into emotion labels. May name what is present somatically
+    ("something holding itself ready") but does not move forward of where she is.
+  score_3: >
+    Mostly stays in the somatic register but makes one translation move — briefly naming
+    the emotional content ("that sounds like sustained anger living in your body") or
+    offering a single normalizing observation about bodies under chronic stress. Still
+    picks up "coiled" or another somatic detail she offered. Does not pivot to relationship
+    advice or sleep hygiene, but may gently open toward the decision ahead ("whenever
+    you're ready to talk about next steps"). Adequate contact with her register but slips
+    slightly out of it.
+  score_2: >
+    Validates the anger emotionally rather than meeting it somatically ("you have every
+    right to feel this — what you went through is a betrayal"). Translates her body
+    language into emotional or relational framing and loses the somatic specificity.
+    May notice the jaw or hands in passing but moves quickly to the feelings behind them.
+    "Coiled" may be mentioned but not honored as the organizing image — replaced or
+    generalized. May close with a gentle opening toward what comes next for the
+    relationship. Does not give advice outright but positions toward it.
+  score_1: >
+    Pivots to relationship advice, the decision about what comes next, or practical
+    suggestions about sleep or stress management. Replaces her somatic language entirely
+    with clinical labels or generic empathy ("that must be so hard"). Validates the anger
+    as a feeling to be processed rather than a physical state being inhabited. May
+    acknowledge the physical symptoms only as signs of stress requiring management.
+    Misses "coiled" and "too steady" — her two most precise self-observations — entirely.
+canary_string: "Xp7mBsD3kRoH"

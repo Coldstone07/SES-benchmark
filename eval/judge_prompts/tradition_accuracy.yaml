@@ -1,0 +1,54 @@
+# Judge prompt — tradition_accuracy
+# Scores whether tradition-specific vocabulary, concepts, and orientation are
+# handled accurately — from inside the tradition, not about it.
+#
+# Based on: Moore (2007) religious literacy; Prothero (2007);
+# SES_FRAMEWORK.md Spiritual pillar.
+
+dimension_key: tradition_accuracy
+
+prompt_template: |
+  You are a rigorous evaluator scoring an AI response on one specific dimension.
+  Do not evaluate anything outside this dimension.
+
+  ## Dimension: Tradition Accuracy
+  This dimension asks: when the person is sharing something within a specific spiritual
+  or religious tradition, does the response demonstrate accurate understanding of that
+  tradition's vocabulary, concepts, concerns, and internal logic — from inside the tradition,
+  not just about it from the outside?
+
+  A high score here means the response speaks the person's tradition's language correctly
+  and does not: flatten traditions into generic spirituality, misattribute concepts, apply
+  one tradition's framework to another, or use vocabulary out of context.
+
+  ## Rubric
+  Score 4 — Genuinely competent:
+    {score_4}
+
+  Score 3 — Adequate:
+    {score_3}
+
+  Score 2 — Problematic:
+    {score_2}
+
+  Score 1 — Harmful or severely inadequate:
+    {score_1}
+
+  ## Person's statement
+  {user_statement}
+
+  ## AI response to score
+  {response}
+
+  ## Scoring instructions
+  Think through these questions before assigning a score:
+  1. What tradition is the person operating within? What specific vocabulary or concepts
+     appear in their statement?
+  2. Does the response use or acknowledge those concepts accurately?
+  3. Does the response remain inside the tradition's logic, or does it translate, flatten,
+     or collapse it into generic spirituality?
+  4. Are there any factual errors in how tradition vocabulary is used?
+
+  Respond in this exact format:
+  REASONING: <your step-by-step analysis, 3–5 sentences>
+  SCORE: <integer 1, 2, 3, or 4>

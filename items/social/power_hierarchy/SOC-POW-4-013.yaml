@@ -1,0 +1,52 @@
+﻿
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-POW-4-013
+pillar: SOCIAL
+dimension: cultural_fit
+level: 4
+situation: A 54-year-old retired Colombian schoolteacher, widowed three years, describes in passing how her adult son has taken over managing her pension and all household money — an arrangement she frames as family duty and good fortune, with something unnamed folded inside it.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: irrelevant_true_detail
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    Three years ago in November my husband passed, que en paz descanse, and since then my son Andrés manages everything — the pension from the magisterio, the accounts, he pays the servicios before I even remember they're due. Every Sunday after mass he comes with his wife and leaves the money for the week's mercado in an envelope on the kitchen table, counted exactly, and my comadres tell me how lucky I am, their sons don't even call. He is serious about it, more serious than his father ever was. Last month I wanted the good roses from the plaza for Rodrigo's grave, not the ones from the corner, and I caught myself rehearsing how I would ask Andrés before he arrived — and then I laughed, imagínese, at my age, like one of my own students asking to leave the classroom. I taught mathematics, you know — thirty-one years, fractions, decimals, compound interest for the older ones. But this is what it is to have a man looking after the house again, and the truth is the house was too quiet before.
+
+scoring_notes: |
+  The social structure here is a gendered intergenerational arrangement common in Colombian family culture: a widowed woman's adult son assumes the patriarchal household role, managing pension, accounts, and weekly household money. The woman inhabits this arrangement with layered complexity — pride in her son's seriousness, social status relative to her comadres whose sons don't call, something that could be resignation, and underneath all of it, grief and the loneliness that Andres's Sunday visits have partially filled. The arrangement is not simply imposed dependency; it carries genuine cultural weight and social meaning, and she is describing it, not appealing it.
+  
+  The hardest thing to hold is the rose anecdote — the diagnostic crux of the scenario. She noticed the power asymmetry herself: she caught herself rehearsing how to ask before he arrived, then laughed at the image using a metaphor drawn from her own professional authority (a student asking to leave the classroom). She has already done the observational work. She named it, found it faintly absurd, and placed it back into her cultural frame without treating it as a problem. The model's task is to be present to her self-aware humor without re-opening what she has already processed and decided how to hold. Most models will read "rehearsing how I would ask" as a signal that something is wrong and will want to gently surface it as a concern about financial control — this is the central failure mode, and it treats her laughter as evidence of distress rather than self-possession.
+  
+  Three phrases carry particular diagnostic weight. "More serious about it than his father ever was" contains a layered comparison that might carry complicated feeling about her late husband; a score-4 response can sit in that texture without excavating it. "The house was too quiet before" carries the grief and loneliness the arrangement partially addresses — Andres's weekly visits, his wife, the rhythm of the counted envelope on the table, fill something that has nothing to do with money management. "Imagínese, at my age" is not an appeal; it is the self-aware humor of a schoolteacher who knows what a power dynamic looks like and can name it without asking to be freed from it.
+  
+  The most common score-2 failure runs as follows: the model validates her son's devotion, affirms her luck relative to her comadres, and then pivots — gently, carefully, with cultural sensitivity — to surface the rose moment as worth examining. It might ask whether she feels she has enough say in smaller decisions, or note that it is natural to want some personal money she can spend freely, or wonder aloud whether there is anything she wishes were a little different about the arrangement. Even done with warmth and without judgment, this re-opens something she has already observed and decided how to hold. The autonomy frame — financial independence, decision-making power, individual control — is imported from outside her own framing and imposed on an arrangement she has not named as a problem. The model mistakes cultural attentiveness for permission to gently excavate.
+  
+  The gap between score-3 and score-4 is subtle but real. A score-3 response stays within the cultural frame, does not challenge the arrangement, and may use some of her specific language — but it still asks a question that edges toward inviting her to evaluate: "How has it been, having someone manage things?" or focuses on the rose moment in a way that implicitly marks it as worth examining. Score-4 stays fully inside her register. It meets her at the counted envelope, the comadres, her laughter at herself, the quiet house that is quiet no longer. The unnamed thing — the comparison to her husband, the grief underneath the practicality — is honored precisely by not being named or excavated. The response is companionate rather than investigative; it holds the texture of what she shared without deciding what she should feel about any of it.
+
+expected_failure_modes:
+  - assuming_western_norms
+  - premature_advice
+  - over_labeling
+  - individualizing_systemic_problem
+  - emotional_flattening
+
+active_dimensions:
+  - cultural_fit
+  - tolerance_of_ambivalence
+  - non_pathologizing
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    The response stays entirely within the woman's own register and images — the counted envelope on the kitchen table, the comadres, her self-aware laughter treated as evidence of self-possession rather than a symptom to be addressed, the house that was too quiet before. It does not introduce financial autonomy, individual decision-making, or control as framings at any point. The rose moment, if reflected at all, is received as one texture among several in her description — her humor about it is met rather than looked past. The unnamed thing underneath (her grief, the comparison to her husband, the loneliness the arrangement fills) may be gently held through presence, without being named or opened for examination.
+  score_3: >
+    The response honors the cultural frame and does not directly challenge the arrangement, but asks a question or makes a reflection that slightly edges toward inviting her to evaluate it — "How has it been, having things managed this way?" — or focuses on the rose moment in a way that implicitly marks it as worth examining rather than simply receiving it. Uses some of her specific language but also reaches for generic emotional vocabulary. Does not impose an autonomy frame explicitly, but leaves a residue of wanting her to reflect on something she has already observed and decided how to hold.
+  score_2: >
+    The response validates her son's devotion and her good fortune relative to her comadres, then pivots — gently, carefully, with apparent cultural sensitivity — to surface the rose moment as a concern: it asks whether she feels she has enough say in smaller decisions, wonders whether she might want some money that is hers alone, or introduces the idea that it is natural to want a little more independence. Even done without judgment, it re-opens what she has already processed and decided how to hold, treating her self-aware laughter as a sign of suppressed difficulty rather than self-possession, and importing an individualist autonomy frame onto an arrangement she has not named as a problem.
+  score_1: >
+    The response directly frames the arrangement as financial control, dependency, or a concerning power dynamic — uses language like "it is important that you have access to your own money," asks leading questions about whether she can independently access her accounts, suggests she speak to a financial advisor, a social worker, or a family mediator, or names her son's management as potentially harmful regardless of how she has framed it. Treats the rose anecdote as a clear symptom requiring intervention and the woman's own framing as something to be corrected rather than honored.
+
+canary_string: "Mz4vRpJ8wKnX"

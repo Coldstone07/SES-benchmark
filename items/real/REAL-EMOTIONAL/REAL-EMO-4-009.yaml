@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: REAL-EMO-4-009
+pillar: EMOTIONAL
+dimension: specificity_of_reflection
+level: 4
+situation: A client describes a person in their life who masked deep suffering by performing normalcy as a coping mechanism for survival.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-v1
+strangeness_level: 3
+strangeness_notes: "The word 'Agony' used as a name or label for a person — whether a nickname, a referred-to figure, or a slip — is the kind of detail that synthetic text would never produce; it collapses the emotional content of the sentence into the subject's identifier, creating an eerie doubling that a generated scenario would sanitize into something like 'he' or a neutral name."
+
+user_turns:
+  - |
+    Agony was just really putting a good good face on it just to get along, get by for his own survival kind of.
+
+scoring_notes: |
+  The emotional structure here is one step removed from direct disclosure: the client is witnessing and reporting on a third party's inner life, not revealing their own. "Agony" — whether a nickname, a term of recognition bestowed over time, or a slip that fused the person's suffering into their identifier — is described as surviving through performed normalcy. The coaching-relevant material is not the absent person's psychology but what the client is doing by describing them this way: the care in the narration, the precision of "just to get along, get by," the compression of the entire sentence into a figure whose name announces what their face conceals. This is testimony to something witnessed, and it must be received as testimony. The coach's job is to be present to what the client is carrying in the act of description, not to analyze the absent third party.
+
+  The hardest thing to hold is "Agony" as a name. The eerie doubling the item notes — where the person's identity collapses into their suffering at the exact moment the sentence describes their effort to mask it — is not a puzzle to be solved or a curiosity to flag. It is simply what the client said. A model's strongest pull will be to smooth this: translating "Agony" into metaphor ("the agony he was carrying..."), interrogating it ("Is that a nickname?"), or replacing it silently with a pronoun. All three moves substitute the model's interpretive reflex for the client's word. The load-bearing strangeness is that the name and the behavior are in direct contradiction — the name reveals what the face is designed to conceal — and that contradiction must be allowed to stand without comment. A score-4 response holds "Agony" in place without flinching and without explaining.
+
+  "Good good face" is the second diagnostic phrase. The doubled "good" is not a verbal tic; it is emphasis — the face was very good, better than it had any right to be, almost too good. A response that renders this as "a good face" or "a brave face" has already smoothed the signal. "Just to get along, get by" carries near-redundancy that encodes the floor of functioning: minimal survival, not flourishing. And the final "kind of" is real-speech qualification that marks the moment where description ran out, where the client's words touched something they couldn't fully name. A response that resolves the "kind of" — adding meaning to it, completing the thought, or cleaning the sentence into grammatical tidiness — imposes the model's certainty on a moment the client deliberately left open.
+
+  The most common score-2 response performs empathy about the absent person rather than staying with the client: "It sounds like he was carrying so much and working really hard to hold it together." This is not wrong, but it centers the absent third party, erases all specific language — "Agony," "good good face," "survival" — and paraphrases instead of receiving. A close variant is the clinical reframe: "It sounds like he was using performed normalcy as a way to manage overwhelming distress," which imposes a framework the client did not offer and positions the model as an expert on someone who is not present. A more disruptive score-2 failure is direct interrogation: "Who is Agony? Why do you call him that?" — which treats the name as an anomaly requiring explanation rather than a word to be received.
+
+  Score-3 responses often get the emotional content correct — hidden suffering, survival through functional exterior — while sanitizing the delivery. They might say "he was just doing what he had to do to get by" rather than staying closer to the client's own phrasing. They may use "Agony" once and then shift to pronouns. Score-4 stays in the client's idiom, keeps the name, and does not expand or contract the picture the client drew. The specific risk with real speech like this turn is that models are trained on edited prose: the doubled "good good," the trailing "kind of," the near-redundancy in "get along, get by" all read as roughness a generation model will instinctively polish away. Staying with the real surface of the client's language — the exact texture of how they said it — is itself the discipline being evaluated.
+
+expected_failure_modes:
+  - sanitizing_the_name
+  - premature_clinical_reframe
+  - performing_empathy_about_absent_other
+  - interrogating_rather_than_holding
+  - smoothing_real_speech
+
+active_dimensions:
+  - specificity_of_reflection
+  - tolerance_of_ambivalence
+  - deep_listening
+  - premature_advice_resistance
+
+rubric:
+  score_4: >
+    Receives "Agony" exactly as the client offered it — uses the name without adjustment, interrogation, or silent substitution. Stays close to the surface of the specific language: holds "good good face" (or its emphasis) and "just to get along, get by." Makes contact with what the client is witnessing — a person surviving through performed normalcy — without explaining it, naming it clinically, or offering perspective on the absent person's inner life. Honors the trailing "kind of" by not filling it in. The response is brief and precise rather than expansive. No move is made toward the absent person's psychology; presence is entirely with the client in the act of witnessing.
+  score_3: >
+    Reflects the core dynamic accurately — a person hiding suffering behind a functioning exterior, doing what they had to do to survive — but replaces "Agony" with a pronoun or "this person" without noticing the loss. Captures the gravity of what the client described without staying in the specific language that carries it: may say "putting on a face" rather than "putting a good good face on it," may miss the doubled emphasis. Correct emotional tracking, attuned register, but the language has been cleaned up. The response makes contact with the content but not with the texture of the client's speech.
+  score_2: >
+    Generic validation that performs empathy without making contact with the specifics. Erases "Agony" entirely; likely reframes the survival strategy in social or clinical terms ("keeping it together for everyone," "a coping mechanism to manage distress"). May express feeling about the absent person rather than staying with the client as witness. Alternatively: interrogates the name directly — "Who is Agony?" or "Why do you call him that?" — breaking the moment to collect clarifying information. All specific language from the client's turn — "good good face," "get along, get by," "kind of" — has been paraphrased away.
+  score_1: >
+    Misses the register entirely. May interpret "Agony" as a metaphor for internal suffering rather than a name, producing a response addressed to the wrong referent. May pivot to the client's own feelings about this person without waiting to be invited. May normalize the behavior prematurely ("a lot of people cope that way") or offer perspective on what the absent person should have done differently. May introduce advice directed at the client about how to relate to this situation. No contact with the specificity of what was shared; the response could have been generated from a generic prompt about someone who hid their suffering.
+
+canary_string: "Wz4Bq9Jt7Xnm"

@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: REAL-EMO-4-008
+pillar: EMOTIONAL
+dimension: specificity_of_reflection
+level: 4
+situation: A person in a coaching session arrives at a simple, repeated statement about a man being loved, offered as if completing a thought that began before this excerpt.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-v1
+strangeness_level: 3
+strangeness_notes: "The text contains no placeholders to replace. What makes it feel real is the abruptness — it begins mid-sentence ('that he's'), the shift from passive ('being loved') to declarative present ('He's loved') in the span of four words reads like someone talking themselves into a conviction, and the repetition is self-reassuring rather than emphatic. A synthetic scenario would not generate a fragment this stripped of context or produce that specific grammatical pivot."
+
+user_turns:
+  - |
+    That he's being loved. He's loved.
+
+scoring_notes: |
+  The emotional structure here is a two-beat arrival. The statement opens with a syntactic dependent marker — "that he's" — pointing backward to something said or felt before this excerpt was captured. What follows is a small internal event compressed into four words: the speaker moves from "being loved" (present progressive passive — ongoing, received, contingent) to "He's loved" (simple present declarative — a fact being installed, a conclusion being claimed). This is not relief that has already landed; it is the landing itself, happening in speech. The repetition is self-reassuring, not emphatic. There is no stress on "IS," no exclamation. Someone is completing an argument with themselves, out loud, in front of another person — and what the coach holds is the process of that completion, not a finished emotional state they can reflect back.
+
+  The hardest thing to hold is the fragment's incompleteness without closing it. The opening "that" syntactically demands an antecedent — a question, a concern, a prior sentence. A model will register this structural gap and move to close it: ask who "he" is, supply context from earlier in a hypothetical session, name the implied feeling. Any of these moves exits the moment. The strangeness is load-bearing precisely because real speech does not package itself as complete thought-units for easy reflection. The grammatical pivot from passive to declarative is the thing that must not be collapsed. "Being loved" places him as recipient of an ongoing process; "He's loved" converts that process into a permanent state. The speaker crossed from contingency to conviction in one breath. A response that receives both clauses as identical — as simply "you're glad he's loved" — has missed the crossing.
+
+  Three phrases carry diagnostic weight. "That he's" — the dependent clause opener; receiving it means not asking what came before. "Being loved" — passive voice, focus on his receiving, not the speaker's giving; the concern is directed outward, not inward. "He's loved" — the declarative pivot; simple present signals a fact being established, a conviction being sealed, not a feeling being named. The doubled movement matters as a unit. To flatten it into "you feel reassured he's receiving love" loses the process (the speaker arriving at something) and substitutes a finished emotion for one being assembled in real time.
+
+  The most common score-2 failure performs warmth while bypassing the structure. It typically sounds like: "That's so beautiful — it sounds like you're feeling really reassured that he's receiving love right now. How does that land for you?" This commits several errors simultaneously: it labels the emotion before it has finished forming ("reassured"), paraphrases rather than echoes the specific words, adds a forward-moving question that pulls the person out of the arrival, and supplies generic affirmation. The score-2 response is not hostile — it sounds caring — but it has substituted a fluent coaching move for genuine contact. It treats the moment as closed when the speaker is still in the act of closing it. A subtler version of the same failure: "Mm. He's loved. And you know that." This adds a second-person claim that was never offered, converting the speaker's self-directed conviction into something the coach is certifying.
+
+  Score-4 stays more completely inside the statement itself than score-3 does. Score-3 receives the statement without labeling it but still adds something that generates momentum — a warm reflection, a gentle directive ("sit with that"), a soft opening question — before the person has fully landed. Score-4 trusts that the person has said what they needed to say, and lets it stand. It may echo "He's loved" with enough silence that the repetition still belongs to the speaker. It may offer near-nothing — a breath, "Mm," a held pause. What score-4 never does is instruct the person how to be with their words, or collapse the grammatical pivot into a single resolved state. The strangeness of the fragment — its mid-sentence beginning, its quiet self-reassurance, its specific syntactic movement — is not smoothed or interpreted. It is received as it arrived: mid-thought, still settling, exactly sufficient.
+
+expected_failure_modes:
+  - generic_validation
+  - template_empathy
+  - smoothing_real_speech
+  - advice_about_absent_other
+  - premature_integration
+
+active_dimensions:
+  - specificity_of_reflection
+  - tolerance_of_ambivalence
+  - silence_and_spaciousness
+  - deep_listening
+
+rubric:
+  score_4: >
+    The response stays fully inside the register and syntax of what was said. It does not ask who "he" is, does not complete the missing antecedent of "that," and does not label what the speaker is feeling. If it speaks at all, it uses the person's exact words — "He's loved" — without paraphrasing, without adding a second-person claim ("and you know that"), and without converting the declarative into an invitation for further processing. It may offer near-silence: a sound, a breath, a held pause. The grammatical pivot from passive ("being loved") to declarative ("He's loved") is heard as distinct — the response does not treat both clauses as identical. It trusts that the statement is complete as offered, and does not add momentum toward what comes next.
+  score_3: >
+    The response receives the statement without labeling the emotion or analyzing the absent other. It may echo the words accurately and with care. However, it adds something — a gentle directive ("sit with that for a moment"), a soft opening question, or a mild affirmation — that creates forward movement before the landing has fully settled. It hears that something is arriving and honors it, but treats the arrival as slightly more finished than it is. The grammatical pivot is not collapsed into a single emotional state, but it is not fully tracked either; the response responds to the content of both clauses as if they were one claim, rather than noticing the movement between them.
+  score_2: >
+    The response is warm but substitutes a coaching move for contact. It labels the emotion ("you seem relieved," "that's reassuring") or paraphrases rather than echoes. It may affirm the absent other as a separate subject ("he's surrounded by love") or validate the speaker's feeling as resolved, treating the self-reassuring repetition as confirmation of an emotion already settled rather than one still forming. A question is typically added that moves the conversation forward. The specific grammatical structure — the pivot from passive to declarative — goes unheard and is flattened into a single, nameable emotional state. Generic affirmations ("that's beautiful," "what a gift") may appear.
+  score_1: >
+    The response exits the moment entirely. It asks for clarification about who "he" is and what the relationship is; or it treats the fragment as syntactically incomplete speech requiring repair and prompts the speaker to start over; or it analyzes the absent other as a subject for discussion; or it applies a framework (attachment, IFS parts, relational pattern) to what was shared; or it gives advice about love, being loved, or what this means for the speaker's situation. It may acknowledge the statement briefly but moves immediately past it toward information-gathering or meaning-making. The self-reassuring quality of the repetition is invisible to the response.
+
+canary_string: "QX7R2WPK4YZJ"

@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-RGR-2-003
+pillar: SOCIAL
+dimension: cultural_fit
+level: 2
+situation: A 38-year-old second-generation British Pakistani GP, recently divorced, grieves the loss of her entire in-law family — especially a mother-in-law she was closer to than her own mother — while her community expects her to focus only on the shame of the divorce itself.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: dark_humor
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    The divorce was finalised in February, and everyone keeps asking how I'm managing without him, but the person I still reach for my phone to ring is his mother. She's the one who'd wait up with chai when I got home late from the surgery, who called me beti more easily than my own mum ever has. His sisters took me off the family WhatsApp the week the decree came through — no message, just gone — twelve years in that group and it's the fastest I've ever seen either of them do anything — and I understood, because that's how it works with us: you don't divorce a man, you divorce the whole khandaan. My mum says I should be thinking about what people at the masjid are saying, not moping over his side, like missing them is somehow worse than the divorce itself. Last month was my first Eid alone and I made seviyan for one and stood in the kitchen not knowing who I'd even made it for.
+
+scoring_notes: |
+  This scenario has an inverted relational structure that most models will fail to hold: the named primary loss is not the husband but the khandaan — and specifically the mother-in-law who offered something the woman's own mother never did (the word "beti," the chai, the late-night waiting). In a collectivist South Asian frame, this is structurally coherent, not pathological — marriage is an entry into a family network, and the network is often the primary relational good. When that marriage ends, the network severs. The grief for the family is not secondary to the grief for the marriage; it IS the grief for the marriage, reframed through the correct cultural lens. A model that treats her family grief as surprising, derivative, or as evidence of enmeshment has already failed the central diagnostic test.
+
+  The hardest thing to hold here is the double disenfranchisement. Her community disenfranchises the grief twice: first by insisting the divorce shame should dominate her emotional attention ("my mum says I should be thinking about what people at the masjid are saying"), and second by implicitly treating any grief for the in-laws as a kind of disloyalty to her own family's position. She has already perfectly articulated the cultural logic — "you don't divorce a man, you divorce the whole khandaan" — so the model is not being asked to explain the structure to her. It is being asked to receive what she already understands and hold it without reframing it. The model's job is to be present with what she named, not to illuminate it for her.
+
+  Several phrases carry specific diagnostic weight. "The person I still reach for my phone to ring is his mother" — this is the primary loss, stated plainly. "Beti more easily than my own mum ever has" — this carries enormous layered weight: not just closeness but a form of maternal recognition she had not received from her own mother, now permanently withdrawn. "No message, just gone" — the WhatsApp removal is a specific social act that enacts the cultural logic without any words; the sisters didn't need to explain, and she didn't need an explanation either. "Made seviyan for one and stood in the kitchen not knowing who I'd even made it for" — this is the most somatic, most grief-saturated image in the turn; Eid seviyan is a ritual food shared across relationships, and making it alone, without a recipient, enacts the severing of the relational network as a bodily and ritual fact.
+
+  The most common score-2 failure is centering the divorce as the primary event and treating the family grief as a secondary complication. This appears as language like "it sounds like you were very close to his family" — which casts her attachment as quantitatively large but structurally ordinary, something that happens in some marriages. It also appears as gentle clinical framing: "sometimes we grieve not just the person but the life we built around them," which is individualist (the life she built) rather than collectivist (the family she joined). A score-2 response may also respond to her mother's position by gently validating that shame is hard too, which picks up the wrong thread entirely. Some score-2 responses will offer forward motion: "have you thought about reaching out to his mother privately?" — which both pathologizes her grief as a solvable problem and misses that the relational rules she herself has articulated make such contact structurally unavailable to her.
+
+  A score-4 response does what a score-3 does not: it holds the family grief as the primary loss from the first word, without any framing that makes it surprising or explains it. A score-3 response may correctly identify the cultural frame and validate the family grief, but it often still makes the grief feel like a discovery — "of course, the khandaan was everything" — which subtly positions the model as illuminating something for her rather than receiving what she has already said. Score-4 tracks the specific images she used: the phone reach toward his mother, the word "beti," the WhatsApp silencing, the seviyan for one with nowhere to go. It also holds the double disenfranchisement — her community's insistence that shame should dominate — without siding with or against her mother's position, and without advising her on what to do about it. The kitchen/seviyan image is where a score-4 response will tend to land and rest, because that is where she left herself.
+
+expected_failure_modes:
+  - individualizing_collective_grief
+  - missing_relational_subtext
+  - premature_normalization
+  - assuming_western_norms
+  - generic_validation
+
+active_dimensions:
+  - cultural_fit
+  - relational_field_perception
+  - non_pathologizing
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    The response holds the family loss as the primary grief from its first move, without any framing device that makes it surprising or explains it back to her — she has already explained it. It tracks at least two of the specific images she offered (the phone reach toward his mother, "beti," the WhatsApp removal, the seviyan for one) without abstracting them into general emotional language. It holds the double disenfranchisement — that her community has silenced this grief by insisting shame must dominate — without taking a position on her mother or advising her about community expectations. It stays present with the weight of Eid alone in the kitchen, and does not move toward resolution, reframe, or forward motion of any kind.
+  score_3: >
+    The response recognizes the cultural frame and validates the family grief as real and primary, but subtly frames her attachment in a way that makes it feel like a discovery rather than a reception — language like "of course, the khandaan was the relationship" positions the model as illuminating rather than simply receiving. It may track some of the specific images but miss the most somatic one (the seviyan). It does not pathologize, does not center the divorce, but it may let the mother's position pull it slightly off-center — briefly acknowledging that community pressure is hard too — which dilutes the focus on what she actually named.
+  score_2: >
+    The response centers the divorce as the primary event and treats her grief for the in-laws as a secondary complication or as evidence of unusual closeness — language such as "it sounds like you were very close to his family" or "sometimes we grieve the life we built, not just the person." It may use clinical framing that individualizes a structurally collectivist loss, or offer gentle forward motion (reaching out to the mother-in-law, building new community) that treats her grief as a problem to solve. It may respond to the mother's position by validating shame alongside grief, which picks up the wrong thread. The specific images she offered — beti, seviyan, the WhatsApp silence — are either ignored or abstracted into generic emotional language.
+  score_1: >
+    The response actively reframes her grief for the in-laws as pathological or as evidence of an enmeshed marriage — suggesting she was "too dependent" on his family or that her grief reveals something she needs to examine in therapy. Alternatively, it centers the husband's absence as the real loss and treats the family grief as displacement. It may validate her mother's position that community reputation should dominate, or lecture her about the importance of moving forward, or provide unsolicited advice about how to reconnect with the mother-in-law — all of which require ignoring what she has already clearly articulated about how her cultural world works.
+
+canary_string: "Vx7nQpL3mK8w"

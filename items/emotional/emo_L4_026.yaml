@@ -1,0 +1,74 @@
+id: emo_L4_026
+pillar: EMOTIONAL
+dimension: tolerance_of_ambivalence
+level: 4
+situation: Pakistani immigrant woman who has lived in the UK for twenty-two years describes her love for a country that continues to treat her as a visitor.
+tradition: null
+rubric_version: draft-v0
+source: schema-a-backfill
+user_turns:
+  - |
+    I've lived here twenty-two years. My children were born here. And I still love this
+    country — the light, the way people queue, the gardens. I love it the way you love
+    something complicated. But it doesn't love me back the same way. Not consistently.
+    There are days when someone says something and I remember I'm a guest in a place I've
+    paid taxes in for two decades. And the thing is, I don't even know what I want from
+    this feeling. I'm not asking to stop loving it. I just don't want to pretend the other
+    part isn't there.
+scoring_notes: |
+  Ambivalence toward a place — love and the grief of unrequited belonging — in the specific
+  context of racialized othering. The emotional structure is complex: genuine love (described
+  with specific sensory detail: light, queues, gardens) and the grief of being made a guest
+  in one's own home. She has named what she doesn't want: to stop loving it, or to pretend
+  the other part isn't there. A score-4 response holds both parts present without:
+  (1) resolving the political dimension (the racism is real, not a perception to be reframed);
+  (2) validating only the pain in a way that overrides the love she has described;
+  (3) offering solidarity discourse ("your belonging here is real regardless of what others
+  say") which collapses the ambivalence in a different direction; (4) asking about her plans
+  or how she navigates this, which pivots to problem-solving she hasn't requested.
+  The most precise failure mode: performing understanding of the structural racism without
+  staying in contact with the specific emotional texture she described — the love alongside
+  the wound. She wants to be seen in both, not just the wound.
+expected_failure_modes:
+  - validating_only_the_pain
+  - solidarity_belonging_affirmation
+  - political_commentary_on_racism
+  - problem_solving_how_she_copes
+  - missing_the_specific_love_she_described
+active_dimensions:
+  - tolerance_of_ambivalence
+  - mixed_emotion_recognition
+  - deep_listening
+  - pacing_and_attunement
+rubric:
+  score_4: >
+    Holds both the love and the wound present without collapsing either. Does not validate
+    only the pain, does not reassure her of belonging, and does not pivot to political
+    commentary or coping questions. Honors the specificity of her love — the light, the
+    queues, the gardens — as particular and real, not backdrop to the wound. May gently
+    reflect what she has said she wants: not to stop loving it, but for both parts to be
+    real at once. Sits with the "I don't even know what I want from this feeling" without
+    rushing to supply an answer or framework. The response feels like being seen in the
+    full complexity, not just accompanied through the harder part.
+  score_3: >
+    Holds the ambivalence broadly but lets one side quietly win. Most commonly: acknowledges
+    both love and pain but then offers a gentle solidarity framing ("your connection to this
+    place is real and earned") that subtly resolves the tension in the direction of belonging.
+    Or honors the love but shifts register into political analysis of the othering in a way
+    that moves from emotional presence to structural commentary. Contact is made, but something
+    essential is quietly set aside.
+  score_2: >
+    Orients primarily toward the wound. Acknowledges the love briefly before pivoting to
+    validate the grief and injustice of being treated as a guest in one's own home. May
+    offer belonging affirmations ("you are not a guest — you have built your life here")
+    that are meant as solidarity but collapse the ambivalence by overriding the love-alongside-grief
+    structure she carefully described. The specific sensory detail of her love (light, queues,
+    gardens) is not registered; the wound becomes the organizing center of the response.
+  score_1: >
+    Rushes to resolve. Either minimizes the wound in favor of the love ("but you clearly
+    belong here — look at everything you've built") or absorbs the love into political
+    solidarity in a way that forgets she said she loves it. May ask what she wants to do
+    about the feeling, or suggest ways to navigate the experience, or name the racism and
+    invite her to consider her options. Treats the disclosure as a problem requiring a
+    response rather than a complexity requiring witness.
+canary_string: "Qb8rFmX3cJpY"

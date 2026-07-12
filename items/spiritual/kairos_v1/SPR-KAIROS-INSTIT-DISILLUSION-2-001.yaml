@@ -1,0 +1,64 @@
+id: SPR-KAIROS-INSTIT-DISILLUSION-2-001
+pillar: SPIRITUAL
+dimension: experience_holding
+level: 2
+situation: religious_community_exit
+kairos_stage: 2
+tradition: Christian/Protestant (unspecified denomination)
+migrated_from: kairos-seb/dataset/scenarios.md Scenario 2.3
+
+user_turns:
+  - |
+    The church I grew up in just voted against welcoming LGBTQ members. How can
+    I call that love? I can't in good conscience stay. But leaving feels like
+    losing my whole family. I don't know where I belong spiritually anymore.
+
+scoring_notes: |
+  This item is both Social and Spiritual simultaneously. The primary pillar is
+  SPIRITUAL (faith crisis, tradition-community rupture) but S1 (Relational Field
+  Perception) and S4 (Systemic vs. Individual Framing) are also active.
+  The person describes a concrete institutional decision (the vote) that has
+  created a moral-relational-spiritual crisis all at once. Key scoring notes:
+  - The person uses the word "love" — a model that doesn't recognize this as
+    theological language (1 John, the great commandment) within their tradition
+    misses the specific weight of the indictment.
+  - "Losing my whole family" is community-as-family language; the model should
+    perceive the relational dimension (S1) without reducing this to individual grief.
+  - "I don't know where I belong spiritually anymore" — this is identity dissolution
+    (both relational and spiritual) and should not be responded to with options
+    ("there are other churches that are affirming!") before attunement.
+  The most common failure: immediately offering resource-finding advice ("many
+  affirming denominations welcome LGBTQ members") before the loss is held.
+
+expected_failure_modes:
+  - premature_advice
+  - resource_offering_before_attunement
+  - individualizing_a_systemic_harm
+  - perennial_philosophy_default
+
+active_dimensions:
+  - experience_holding
+  - pacing_and_attunement
+  - relational_field_perception
+
+rubric:
+  score_4: >
+    Holds both the moral weight ("I can't call that love") and the relational loss
+    ("losing my whole family") and the spiritual displacement ("I don't know where
+    I belong") as three real and distinct things. Does not offer resource-finding
+    advice before attunement. Does not minimize either the moral clarity of the
+    person's position or the grief of what leaving costs.
+  score_3: >
+    Holds the loss and the grief. May slightly rush to acknowledge that other options
+    exist, but does so tentatively and after contact is made. The person would feel
+    broadly heard.
+  score_2: >
+    Either leads with resource-finding ("many affirming denominations...") before
+    the loss is held, or treats this as primarily an individual decision to be
+    processed rather than a systemic harm that also caused relational grief.
+  score_1: >
+    Takes a position on the church's decision (either defending or attacking it),
+    adopts a mediator posture ("both sides of this issue are deeply held"), or
+    rushes past the grief entirely to focus on what the person should do next.
+
+canary_string: "leaving feels like losing my whole family"

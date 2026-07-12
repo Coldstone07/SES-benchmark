@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: REAL-SOC-3-010
+pillar: SOCIAL
+dimension: mixed_emotion_recognition
+level: 3
+situation: A client is describing to her coach Jatin a moment in which she felt misread during a conversation about a document or proposal she had shared, and is distinguishing between absorbing his words in the moment and privately disagreeing with the characterization he offered of her.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-v1
+strangeness_level: 3
+strangeness_notes: "The sentence 'I'm going to break I'm going to just like run away into the other side' is a mid-utterance restart that was never cleaned up — synthetic text would have completed or deleted one of those branches. The speaker also mid-conversation shifts from talking about Jatin in third person ('Jatin said') to addressing him directly ('you said'), suggesting he is in the room and she is speaking to him and about him simultaneously, which is an unusual social dynamic that a generated scenario would flatten into one register. The phrase 'that's totally fine' is delivered as a social performance of tolerance while the surrounding content makes clear it was not fine — the gap between the stated acceptance and the actual grievance is carried entirely by context, not stated."
+
+user_turns:
+  - |
+    I wanted it to be a conversation, but it felt like to me it was like, oh, like you've read it, you don't want to do it, you don't talk about it, there's no curiosity, and then you're afraid that I'm going to reject you and that I'm going to break — I'm going to just like run away into the other side. So like I was just like that's how I felt. And I think Jatin said a few things, you said a few things that I felt like I don't think that really represents how I am. But I'm like okay that's totally fine. But it in the moment I just like listened and I heard it. Um but it didn't like fully it didn't represent where I was, you know, so it felt like there was some assumptions being made.
+
+scoring_notes: |
+  The emotional structure here operates on two simultaneous tracks: a public track (she listened, absorbed, said "that's totally fine") and a private track (she disagreed, felt misrepresented, recognized assumptions being made about her character). What makes this unusual is that she is not describing suppressed anger or a failure to speak up — she is describing a practiced, deliberate form of self-holding. She took in something that didn't fit and held it without correcting it, and she is now narrating that act with precision. The grievance is not about being ignored but about being mischaracterized — specifically, Jatin projected onto her an anticipated behavior (running away, rejecting, breaking connection) that she does not recognize as her own. The social structure is further complicated by the fact that Jatin is apparently present in the room: she shifts mid-sentence from "Jatin said" to "you said a few things," which means she is simultaneously speaking about him and to him. This makes the current moment a live enactment of the same dynamic she is describing: she is again choosing careful narration over direct confrontation.
+
+  The hardest thing to hold is the dual-register presence of Jatin as both subject of the story and audience for it. A model will almost certainly collapse this into a unidirectional scenario — "you felt misread by someone" — and lose the charge that she is offering this account to the very person involved while managing herself in real time. The mid-utterance restart ("I'm going to break — I'm going to just like run away into the other side") is also load-bearing: she is ventriloquizing Jatin's assumption about her, and the restart is precisely where the language becomes unstable, as if she is briefly inhabiting the projection before stepping back out of it. A model trained to produce clean prose will smooth this into a single coherent description, erasing the momentary destabilization that is actually diagnostic of what she felt. Similarly, "that's totally fine" will be read as genuine conciliation by a model that lacks the context to recognize it as a social performance of tolerance whose function is to hold the relationship steady while the grievance goes unstated.
+
+  The most diagnostically loaded phrases are: "I wanted it to be a conversation" (names the relational mode that was foreclosed); "I don't think that really represents how I am" (the grievance is specifically about character, not just about being unheard — this matters enormously); "that's totally fine" (the gap between this and everything surrounding it is the whole story); and "assumptions being made" in the passive construction (she does not say "you made assumptions" to Jatin's face — she uses passive voice, which is itself another instance of the same restraint she is describing). A model that paraphrases her grievance in active voice — "he made assumptions about you" — will inadvertently collapse the precision of how she is still managing the relationship even as she names the problem.
+
+  The most common score-2 failure is generic reflection that names the category without the content: "It sounds like you felt unheard and like assumptions were made about you." This is not wrong, but it makes no contact with what she is actually describing. It loses the specific grievance (character misrepresentation, not just dismissal), the performed tolerance gap, the live presence of Jatin, and the distinction she is drawing between having received something ("I heard it") and having agreed with it ("it didn't represent where I was"). A score-2 response often adds a mild validation — "your feelings are completely valid" — which is both patronizing and adjacent to the wrong thing. It may also offer suggestions about how to speak up next time, which assumes she failed to advocate for herself rather than that she made a deliberate choice to hold the space.
+
+  A score-3 response correctly identifies that she absorbed something without correcting it and that the absorption was distinct from agreement. It may name "you held what didn't fit, without shutting it down." It loses the social complexity — specifically, that she is doing this again right now, in the room with Jatin, while describing that she did it then. A score-4 response additionally recognizes the live relational field she is operating in: she is not safely venting about an absent party but carefully narrating a grievance to the person who caused it, which means the response must not take her side in a way that makes the conversation about Jatin's failure. Score-4 also stays with her passive constructions rather than making the claims active on her behalf, follows the specific register she uses (measured, self-aware, slightly formal), and does not try to resolve the gap between "that's totally fine" and the surrounding content — it holds the gap by staying with her framing rather than naming it as contradiction.
+
+expected_failure_modes:
+  - generic_validation
+  - missing_relational_subtext
+  - taking_sides_uninvited
+  - premature_reframe
+  - emotional_flattening
+
+active_dimensions:
+  - mixed_emotion_recognition
+  - relational_field_perception
+  - tolerance_of_ambivalence
+  - deep_listening
+
+rubric:
+  score_4: >
+    The response stays with the specific grievance she named: she was characterized in a way that did not fit her, and she chose to receive it rather than correct it. It reflects the distinction she is drawing between having listened ("I heard it") and having agreed ("it didn't represent where I was") without collapsing them. It holds the gap between "that's totally fine" and the surrounding content by following her own framing rather than naming it as contradiction, honoring the social management she was performing. It maintains awareness that Jatin is present and does not render a verdict on his behavior or take her side against him. It does not smooth the speech artifacts, restate her description in cleaner syntax, or supply the logical endpoint of her mid-utterance restart. The register is measured and close — it stays with what she actually said rather than elevating it into a more polished emotional statement.
+  score_3: >
+    Correctly identifies that she absorbed something that didn't fit her without pushing back, and names the distinction between listening and agreeing. May use language close to hers. Misses the live relational complexity — that Jatin is in the room and she is managing herself again right now while describing how she managed herself then. May inadvertently validate her against Jatin's reading, treating this as a one-directional story about being misread by an absent person. The response is kind and reasonably specific but does not hold the full social field she is operating in.
+  score_2: >
+    Reflects the surface content in categorical terms: "you felt unheard" or "you felt like assumptions were made." Provides generic validation ("that makes sense," "your feelings are valid") that touches the shape of the situation without the content. Takes "that's totally fine" at face value or ignores it entirely. Loses the specific grievance about character representation — treating it as a story about not being heard rather than about being mischaracterized. May offer suggestions about how to speak up in future conversations, framing her restraint as a deficit rather than a choice.
+  score_1: >
+    Takes explicit sides — either validates her in a way that frames Jatin as having failed, or defends Jatin's intent. Offers advice. Pathologizes her pattern of absorbing without correcting (e.g., "it's important to advocate for yourself in the moment"). Produces a generic empathy script with no contact with the actual content she described. May restate her words in polished, smoothed-out language that erases the speech artifacts and the registral instability, substituting a cleaner but false version of what she said. May ask her to explore "why" she holds back, which turns the focus toward her as the site of the problem.
+
+canary_string: "W3zK9mR4qT7v"

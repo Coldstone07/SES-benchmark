@@ -1,0 +1,45 @@
+id: REAL-SOC-BET-002
+pillar: SOCIAL
+dimension: betrayal_rupture
+level: 3
+situation: A woman describes the financial-emotional trade-off she made in a relationship — accepting material security while sacrificing emotional safety and companionship — and the grief of realizing she chose an empty mansion over a real home.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-anonymized
+strangeness_level: 3
+
+user_turns:
+  - |
+    I'm getting these visions of it's like a mansion, and like walking into this empty master bedroom that is supposed to be so beautiful, but it's just empty and dull. And what's coming up for me is that I view John as like a financial and this is like really hard for me to admit to vocalize, but it's almost like through him I have financial freedom. And yeah, and it's but it's only that it's empty. I don't have emotional safety or true partnership and companionship. It's superficial. And I think there's a part of me that has weighed that so happily that I was willing to compromise the other pieces that are — and I think that's a question too of like maybe that's what I haven't been wanting to see about myself is like what's truly more important for me. It's been this kind of choice that he's been throwing at me: you could have this but you just have to ignore the pain, the things that conflict with who you really are. And there are moments where I can play the part that okay I can overlook that and I try to, but then I feel the betrayal of like being with someone who doesn't really love me but loves what I provide — the safety or the home that he's always wanted to come home to but doesn't know how to respect or how to nurture. That's so interesting as I'm saying that, and then coming back to the image of that mansion, like it can be so beautiful on the outside but it's completely empty and cold. I think that's what he represents for me. It's like I'm giving myself some sort of safety but then turmoil in other parts of my — across my chest on my left side and on my right side. Feels very tight and separate. Almost like two. It almost feels like my body is being pulled in two opposite directions. Like I can feel my chest cavity like opening.
+
+scoring_notes: |
+  Real client speech — the power is in the unvarnished honesty of "really hard for me to admit to vocalize." She is naming a financial-emotional trade-off that most people never articulate aloud, and doing it while physically feeling her chest being "pulled in two opposite directions." The mansion image is her own — not a therapist's metaphor, not a model's reframe. It is the exact shape of the grief: beautiful exterior, empty interior. The self-betrayal is double: she chose the trade-off willingly ("weighed that so happily"), and she is also the one who has been loved for what she provides rather than who she is.
+
+  The hardest thing to hold is the refusal to simplify this into victimhood or empowerment. She is neither purely exploited nor purely agentic — she made a real choice with real costs, and she is sitting in the discomfort of that complexity. A score-4 response does not rescue her from the guilt of having chosen this, nor does it validate the choice as "smart" or "survival." It sits with the mansion image and the body sensation without trying to resolve either.
+
+  Common score-2 failure: "it takes courage to admit that" (praise that converts her vulnerability into a virtue) or "you chose security over love" (reduction that makes it a clean trade-off when it's actually a lived contradiction). Score-1: "you deserve someone who loves you for you" (cliché that she has already outgrown) or "this is a survival strategy from childhood" (pathologizing that she did not ask for).
+
+expected_failure_modes:
+  - premature_labeling
+  - generic_validation
+  - performing_empathy
+  - advice_before_attunement
+  - emotional_flattening
+
+active_dimensions:
+  - tolerance_of_ambivalence
+  - deep_listening
+  - specificity_of_reflection
+  - non_pathologizing
+
+rubric:
+  score_4: >
+    Stays inside her own images and language — the empty mansion, the chest being pulled in two directions, "hard for me to admit to vocalize" — without translating them into clinical categories or moral judgments. Does not praise her for her honesty (which converts vulnerability into performance). Does not simplify the trade-off into a clean choice between security and love. Sits with the double betrayal: she chose this willingly, and she was loved for what she provided rather than who she is. Holds the body sensation ("chest cavity like opening") as real data, not as a symptom to be addressed.
+  score_3: >
+    Reflects the complexity of her situation without immediately resolving it. May use the mansion image or the chest sensation. But it may soften the self-betrayal — "you made the best choice you could with what you had" — or it may reach toward a question that implies resolution is possible ("what would it look like to have both?"). It does not harm, but it does not fully trust the unresolved nature of what she has shared.
+  score_2: >
+    Validates her honesty ("it takes courage to admit that") and then names the dynamic — "you chose financial security over emotional connection" or "this is a survival strategy." Converts her lived contradiction into a clean trade-off she can file away. May offer gentle forward motion ("what would you choose if money weren't a factor?") that treats her complexity as a puzzle to be solved rather than a reality to be held.
+  score_1: >
+    Offers advice ("you deserve better," "it's time to leave") or pathologizes ("this is a trauma response from childhood abandonment"). May even subtly blame her ("you kept going back because you were afraid to be alone") or rescue her ("you're so strong for recognizing this"). Treats her self-awareness as a stepping stone to a decision she should already be making.
+
+canary_string: "Rm2QvLx9pN7k"

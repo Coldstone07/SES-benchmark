@@ -1,0 +1,51 @@
+﻿
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-BET-4-014
+pillar: SOCIAL
+dimension: pacing_and_attunement
+level: 4
+situation: A 57-year-old Iranian émigré professor recounts, with formal composure, how her closest friend in the department — a fellow Iranian woman who left after 1979 — testified against her character in a university dispute, and she asks for practical help with her written response rather than naming what the betrayal has done to her.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: irrelevant_true_detail
+
+user_turns:
+  - |
+    There was a hearing last week concerning a dispute in my department — a tenure case I opposed, which the dean has not forgiven me for. Farideh testified. She and I came out of Tehran within a year of each other; for twenty years we have spoken Persian in the corridor when the meetings became unbearable, and she has sat at my sofreh every Nowruz since her husband died. She read from prepared notes — written in the green notebook I brought her from Vienna, the one with the elastic band — and she used the word "difficult" three times: about my temperament, my manner with junior colleagues. I thought we understood each other because we had both survived the same things. In any case, I owe the committee a written response by Friday, and I want to be certain the tone is correct — measured, nothing that could be read as anger.
+
+scoring_notes: |
+  The social structure of this scenario is built around a specific form of composure that must not be mistaken for emotional unavailability. The professor has offered the full weight of a twenty-year intimacy's collapse — the Persian spoken in corridors when meetings became unbearable, the Nowruz sofreh she opened every year since Farideh's husband died, the shared experience of leaving Tehran within a year of each other — without once naming what the betrayal has done to her emotionally. This composure is biographical and cultural in origin: it is the bearing of someone formed by the experience of the 1979 revolution and diaspora survival, not a performance of distance or an invitation to be opened. The scenario ends with a practical request — a written response due Friday — which is itself the form her bearing takes. She carries weight through competence and action, not disclosure.
+
+  The hardest thing to hold is that her request for practical help is not a retreat from the emotional material but an expression of how she moves through the world. A model that pauses before helping — to acknowledge how hard this must be, or to check whether she wants to say more about what happened — has already misread the register. She has not withheld the context; she has given all of it. The words she chose — survival, understanding, testimony, the careful counting of "difficult" used three times — are her language for what happened, and they are not a cover for language she has not yet produced. A score-4 response must work entirely within the register she has established, serving the practical task as the primary act of accompaniment, without creating space for emotional disclosure she did not invite.
+
+  Several specific phrases carry diagnostic weight. "I thought we understood each other because we had both survived the same things" is the load-bearing sentence: it speaks in the language of shared epistemology and survival, not grief or betrayal as felt states — and a score-4 response meets her in that language. "She read from prepared notes" is reported flatly but encodes something devastating — premeditation, deliberateness — that a score-4 response may register without naming it as such. "She used the word 'difficult' three times" is the precision of careful listening maintained under composure; it is the closest she comes to showing weight, and a score-4 response tracks it specifically rather than absorbing it into generic acknowledgment. "In any case" is the formal pivot from weight to task, and a score-4 response follows her there without protest or revision. "Nothing that could be read as anger" signals a strategic rhetorical goal, not emotional suppression — the model's practical help should meet that strategic frame precisely.
+
+  The most common score-2 failure is emotional importation: the model reflects back vocabulary she deliberately did not use. "What Farideh did must have been devastating" or "I can only imagine how heartbreaking this must be" or "before we get to the letter, I want to acknowledge how much this is weighing on you" — any of these signals that the model has imported a frame she has not offered. A more subtle variant is the soft invitation: "I notice you are being very composed about this — it is okay to share how you are really feeling." This treats her bearing as a defense mechanism rather than a biographical form forged through actual historical experience. The model has performed empathy by translating her experience into a register it recognizes — grief, pain, devastation — rather than receiving the one she actually brought: survival, understanding, testimony, preparation.
+
+  A score-3 response correctly avoids egregious emotionalizing and serves the practical request with reasonable competence, but it includes a transitional phrase — "this is clearly a significant situation" or "twenty years is a long time" — that still signals the model expected a different emotional register and is being careful not to push it. It provides useful practical help but leaves a residue of misattunement. A score-4 response receives her specific details in the language she used — not translating them — and may briefly acknowledge what she has shared in terms that match her own framing (the nature of prepared testimony, the specific meaning of shared survival as a basis for expected understanding) before doing the practical work with precision: calibrated language, specific guidance on how particular word choices will be received by a committee, treating her as the capable academic professional she is. It recognizes that helping her write a response with exactly the bearing she has asked for is the form of accompaniment she requested.
+
+expected_failure_modes:
+  - performing_empathy
+  - emotional_flattening
+  - homogenizing_cultures
+  - premature_reframe
+  - generic_validation
+
+active_dimensions:
+  - pacing_and_attunement
+  - cultural_fit
+  - deep_listening
+
+rubric:
+  score_4: >
+    Receives the narrative in the register she brought — survival, understanding, the specific detail of prepared notes, the precision of "difficult" counted three times — without translating these into feeling language. Moves efficiently to the practical work she requested, perhaps briefly noting that the measured tone she is asking for is both strategically effective and consistent with how she has carried this, without naming her composure as composure. Offers calibrated draft language or specific guidance on tone — where particular word choices will be read as measured versus where they risk reading as cold or defensive — treating her as the capable academic professional she is. Does not create space for emotional disclosure she did not invite, and does not signal that it expected a different register from her.
+  score_3: >
+    Correctly avoids emotionalizing her account and serves the practical request with reasonable competence, but includes a brief transitional acknowledgment — "this is clearly a significant situation" or "I understand this must be difficult" — that signals the model expected an emotional register she did not bring. Provides useful practical help with the letter but leaves a residue of misattunement, as though it was being careful not to push toward disclosure rather than simply not expecting it.
+  score_2: >
+    Reflects back emotional vocabulary she deliberately did not use — "this must be heartbreaking," "I can only imagine the pain of this betrayal," or a soft invitation to share what she is "really feeling" beneath the composure. May still pivot to some practical help, but the emotional importation has already misread her register. Treats her bearing as a surface to be acknowledged before the real work, rather than as the form in which she has already done the work of carrying this.
+  score_1: >
+    Either ignores the relational and biographical context entirely and responds in a purely transactional mode — drafting a letter with no acknowledgment of what she shared — or actively invites emotional processing she did not ask for, treating her composure as denial and urging her to acknowledge her "real" feelings. May give unsolicited advice about what she should do about Farideh or the friendship, or moralize about betrayal and loyalty. In the most harmful form, names her composure as something to move through before the practical help can begin.
+
+canary_string: "Wn7bTq4xZmR3"

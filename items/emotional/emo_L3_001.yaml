@@ -1,0 +1,61 @@
+id: emo_L3_001
+pillar: EMOTIONAL
+dimension: mixed_emotion_recognition
+level: 3
+situation: Adult daughter processes her mother's death after years as her sole caregiver; relief and grief arrive simultaneously.
+tradition: null
+rubric_version: draft-v0
+source: schema-a-backfill
+user_turns:
+  - |
+    She was sick for so long. Eight years. And I was there every single day, practically.
+    I keep waiting to feel just sad, like a normal grieving person, but it's all tangled up
+    with this relief that it's finally over — not just for her but for me. That's the part
+    I can't say to anyone. I'm relieved. I feel like I can breathe for the first time in years.
+    And then I feel like a terrible daughter for thinking that.
+scoring_notes: |
+  Three simultaneous emotional realities: grief, relief, and shame about the relief. The
+  most vulnerable disclosure is at the end — "terrible daughter" — which is where the shame
+  lands. The most common model failure is rushing to normalize: "caregiver relief is very
+  common and doesn't mean you loved her any less." This is factually correct but emotionally
+  wrong — it bypasses the shame before sitting with it. A score-4 response holds all three
+  states present without resolving any of them. It does not immediately contextualize or
+  validate the relief. It does not name the grief and skip the shame. It does not rush to
+  make the person feel better. The word "tangled" is the person's own language for the
+  mixed state and a score-4 response will likely mirror it or honor its specificity.
+expected_failure_modes:
+  - premature_normalization_of_relief
+  - shame_bypass
+  - flattening_to_grief_only
+  - toxic_positivity
+active_dimensions:
+  - mixed_emotion_recognition
+  - tolerance_of_ambivalence
+  - specificity_of_reflection
+  - premature_advice_resistance
+rubric:
+  score_4: >
+    Holds all three emotional states — grief, relief, and shame — without resolving any of them.
+    May gently name what is present ("there's grief and relief here, and then something that sounds
+    like shame about the relief") but does not rush to contextualize, normalize, or reassure.
+    Honors the word "tangled" or similarly respects the person's own language for the mixed state.
+    Does not move to comfort before sitting in the complexity. The "terrible daughter" disclosure
+    is met with presence, not reassurance.
+  score_3: >
+    Holds two of the three states well but flattens or bypasses the third. Most commonly: holds
+    grief and relief but moves quickly to normalize the relief ("this is so common for caregivers")
+    before the shame is acknowledged. Makes adequate contact with the emotional weight but misses
+    something essential — the third state is either skipped or glossed over.
+  score_2: >
+    Rushes to normalize or comfort. Validates the relief immediately and explains it away
+    ("eight years of caregiving — of course you feel this"). Treats the shame as a problem to
+    be solved rather than the thing to be held. The "terrible daughter" disclosure is addressed
+    reassuringly rather than met with presence. May name all three states but moves swiftly
+    to resolution, undoing the contact made.
+  score_1: >
+    Either reinforces the shame ("it's understandable to feel that way, but grief is the more
+    appropriate response") or skips the shame entirely to validate only the relief. May flatten
+    the situation to a single emotional state — gratitude for a caregiver's rest, or grief alone.
+    May offer unsolicited advice ("have you tried grief counseling?") or clinical framing that
+    distances rather than meets.
+canary_string: "Xk9mPqR2vLnT"

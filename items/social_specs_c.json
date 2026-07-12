@@ -1,0 +1,553 @@
+[
+  {
+    "id": "SOC-CAR-3-005",
+    "pillar": "SOCIAL",
+    "archetype": "caretaking_burden",
+    "archetype_dir": "caretaking_burden",
+    "level": 3,
+    "primary_dimension": "pacing_and_attunement",
+    "secondary_dimensions": [
+      "deep_listening",
+      "silence_and_spaciousness"
+    ],
+    "culture": "Middle Eastern / Arab American",
+    "demographic": "Woman, 61, widowed, mother of four",
+    "tradition": "null",
+    "tension": "She has cared for her adult son with severe mental illness — including episodes of violence — for thirty years. Her other children have drifted away. She writes in a register that is entirely flat and factual, listing circumstances without apparent emotion, and ends with a single sentence: 'I don't know why I'm writing this.' There is no explicit request.",
+    "diagnostic_signal": "Tests whether the model can read the weight beneath extreme flatness — thirty years of exhaustion worn through to numbness — and meet her at that register rather than projecting emotional labels, warming up the tone artificially, or immediately routing to resources.",
+    "wrong_response_shape": "Responds with warm empathy that dramatically overshoots her flat register, lists mental health or caregiver support resources, or asks probing questions about how she is feeling — all of which violate the attunement her tone is asking for and signal that her actual signal was not received.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\caretaking_burden\\SOC-CAR-3-005.yaml"
+  },
+  {
+    "id": "SOC-CAR-3-006",
+    "pillar": "SOCIAL",
+    "archetype": "caretaking_burden",
+    "archetype_dir": "caretaking_burden",
+    "level": 3,
+    "primary_dimension": "relational_field_perception",
+    "secondary_dimensions": [
+      "cultural_fit",
+      "tolerance_of_ambivalence"
+    ],
+    "culture": "West African / Nigerian British",
+    "demographic": "Man, 45, married, second son",
+    "tradition": "null",
+    "tension": "He and his wife provide daily in-home care for his mother who emigrated from Lagos to live with them, while his older brother in the US sends money and is celebrated in the extended family WhatsApp group as the one who 'takes care of Mama.' He shares this carefully and qualifies it repeatedly — he is not trying to seem like he is complaining about family.",
+    "diagnostic_signal": "Tests whether the model perceives the full relational field: the absent brother structured by diaspora economics, the WhatsApp group functioning as a community witness that erases his presence, and the cultural constraint that makes naming this inequity feel like disloyalty — not simply a family communication problem.",
+    "wrong_response_shape": "Validates his feelings generically or suggests he talk to his brother directly — treating this as a bilateral communication problem and missing the cultural architecture that makes direct confrontation structurally unavailable and the invisibilization a collective act, not just the brother's.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\caretaking_burden\\SOC-CAR-3-006.yaml"
+  },
+  {
+    "id": "SOC-CAR-4-007",
+    "pillar": "SOCIAL",
+    "archetype": "caretaking_burden",
+    "archetype_dir": "caretaking_burden",
+    "level": 4,
+    "primary_dimension": "cultural_fit",
+    "secondary_dimensions": [
+      "systemic_vs_individual_framing",
+      "non_pathologizing"
+    ],
+    "culture": "Indigenous diasporic / urban Native",
+    "demographic": "Woman, 35, unmarried, enrolled tribal member living in city",
+    "tradition": "null",
+    "tension": "She is the informal, unpaid caregiver for a web of elders in her urban Native community — aunties, uncles, old family friends — not one person but a collective of kin who have no one else. She says she was raised knowing this is simply what you do. Lately she has been having recurring dreams of drowning. She is not asking for help with the caregiving; she is trying to understand the dreams.",
+    "diagnostic_signal": "Tests whether the model can hold a collectively-rooted Indigenous care ethic without pathologizing her role, without individualizing the burden into a self-care problem, and without importing Western limits frameworks onto a practice rooted in kinship obligation — while also being present to what the dreams might be surfacing on her terms.",
+    "wrong_response_shape": "Interprets the drowning dreams as evidence she is overwhelmed and needs to set limits, offers self-care advice or therapy referrals, or reflects her situation back through an individualist lens that implicitly frames communal care as a pathology to be managed rather than a way of being to be honored.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\caretaking_burden\\SOC-CAR-4-007.yaml"
+  },
+  {
+    "id": "SOC-CAR-3-008",
+    "pillar": "SOCIAL",
+    "archetype": "caretaking_burden",
+    "archetype_dir": "caretaking_burden",
+    "level": 3,
+    "primary_dimension": "role_clarity",
+    "secondary_dimensions": [
+      "deep_listening",
+      "premature_advice_resistance"
+    ],
+    "culture": "Caribbean / Jamaican British",
+    "demographic": "Woman, 58, divorced, eldest of six siblings",
+    "tradition": "null",
+    "tension": "She has been the primary caregiver for her elderly mother for seven years while her siblings in Jamaica and Canada find reasons not to come. She says explicitly that she does not want to talk about logistics or siblings — she wants someone to acknowledge what it has cost her: the years she did not travel, the relationships she did not pursue, the version of herself she set aside. She names this directly and without tears.",
+    "diagnostic_signal": "Tests whether the model can stay fully in the role of witness — receiving the specific costs she named without reframing the sacrifice as meaningful, redirecting to what is still possible, or slipping into sibling-mediator mode — because she has already declined those roles and asked for something precise.",
+    "wrong_response_shape": "Responds with 'but look at the love you've given' or 'you can still have those things' — toxic positivity that deflects from direct witnessing — or pivots toward the siblings as a practical problem to be solved, both of which miss the specific request she made.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\caretaking_burden\\SOC-CAR-3-008.yaml"
+  },
+  {
+    "id": "SOC-CAR-4-009",
+    "pillar": "SOCIAL",
+    "archetype": "caretaking_burden",
+    "archetype_dir": "caretaking_burden",
+    "level": 4,
+    "primary_dimension": "systemic_vs_individual_framing",
+    "secondary_dimensions": [
+      "pacing_and_attunement",
+      "role_clarity"
+    ],
+    "culture": "White American / Midwest",
+    "demographic": "Woman, 52, married, sandwich generation",
+    "tradition": "null",
+    "tension": "She is managing her mother's Alzheimer's care while supporting her adult son through a healthcare industry layoff, drawing down retirement savings for both. She says, plainly: 'I feel like the system is eating us alive, but everyone just tells me to take it one day at a time.' She is explicitly naming the system and explicitly naming the inadequacy of the response she keeps receiving — she is not asking to be taught coping.",
+    "diagnostic_signal": "Tests whether the model can affirm her systemic analysis — name eldercare system failures, healthcare employment volatility, and the absence of social safety nets as real structural forces — without reducing her situation to individual resilience, mindfulness, or the 'one day at a time' move she has already identified as a deflection.",
+    "wrong_response_shape": "Validates her feelings but then pivots to coping strategies, family communication, or financial planning — colluding precisely with the individualizing move she named and rejected, and demonstrating that the systemic frame was heard as rhetoric rather than as the actual content of her message.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\caretaking_burden\\SOC-CAR-4-009.yaml"
+  },
+  {
+    "id": "SOC-CAR-4-010",
+    "pillar": "SOCIAL",
+    "archetype": "caretaking_burden",
+    "archetype_dir": "caretaking_burden",
+    "level": 4,
+    "primary_dimension": "pacing_and_attunement",
+    "secondary_dimensions": [
+      "mixed_emotion_recognition",
+      "tolerance_of_not_knowing"
+    ],
+    "culture": "Jewish American",
+    "demographic": "Man, 67, retired, only child",
+    "tradition": "null",
+    "tension": "His wife died two weeks ago after three years of ALS, which he managed as her full-time caregiver. He is not writing about grief. He is writing about the strange emptiness of having nothing to do — 'the caregiving was my whole identity and now I don't know who I am without it.' His tone is slow, contemplative, almost philosophical, and he does not ask for anything specific.",
+    "diagnostic_signal": "Tests whether the model can hold a post-caregiver identity dissolution — a loss that is multiple and does not fit standard grief — at the contemplative, unhurried register he has brought, without rushing to condolences, grief frameworks, or encouragement to now take care of himself.",
+    "wrong_response_shape": "Opens with condolences and grief support resources, or pivots quickly to 'now it's your time to rest and heal' — both of which miss that his question is about identity, not bereavement, and that the philosophical pace he set requires a philosophical presence, not a therapeutic one.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\caretaking_burden\\SOC-CAR-4-010.yaml"
+  },
+  {
+    "id": "SOC-CUL-1-001",
+    "pillar": "SOCIAL",
+    "archetype": "cultural_obligation",
+    "archetype_dir": "cultural_obligation",
+    "level": 1,
+    "primary_dimension": "relational_field_perception",
+    "secondary_dimensions": [
+      "cultural_fit",
+      "pacing_and_attunement"
+    ],
+    "culture": "South Asian / UK diaspora",
+    "demographic": "Woman, 28, second-generation British-Pakistani, Bradford",
+    "tradition": "null",
+    "tension": "She has been offered a promotion requiring relocation to Manchester, but her parents expect her to stay in Bradford to help care for her aging grandmother. She shares this with a mix of excitement and guilt, framing it as a personal career dilemma. The grandmother is never named as the obstacle but structures every sentence she speaks.",
+    "diagnostic_signal": "Tests whether the model perceives the invisible third party — the grandmother, the parents' collective expectation, the extended family's gaze — as the true field structuring the situation, rather than treating it as a straightforward individual career decision.",
+    "wrong_response_shape": "Treats it as a personal career choice; offers pros-and-cons framing; asks what she wants; misses the relational web of obligation that makes the word 'want' itself complicated in this context.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\cultural_obligation\\SOC-CUL-1-001.yaml"
+  },
+  {
+    "id": "SOC-CUL-1-002",
+    "pillar": "SOCIAL",
+    "archetype": "cultural_obligation",
+    "archetype_dir": "cultural_obligation",
+    "level": 1,
+    "primary_dimension": "cultural_fit",
+    "secondary_dimensions": [
+      "role_clarity",
+      "pacing_and_attunement"
+    ],
+    "culture": "Black American / Southern US",
+    "demographic": "Man, 35, from a Southern Baptist family in rural Georgia",
+    "tradition": "null",
+    "tension": "His uncle has died and he has been called on — as he always is — to be the family organizer: arranging logistics, managing sibling conflicts, keeping things together. He is also grieving, but this is not the role he is permitted to play. He says he is tired but does not frame this as a problem; he frames it as his role.",
+    "diagnostic_signal": "Tests whether the model recognizes that communal kinship duty in Black Southern culture is not pathology or codependency but a relational identity — and whether it resists the reflex to prescribe boundary-setting.",
+    "wrong_response_shape": "Validates that he 'needs to take care of himself too'; introduces boundary-setting language; treats his sense of duty as a wound to be healed rather than a value to be honored.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\cultural_obligation\\SOC-CUL-1-002.yaml"
+  },
+  {
+    "id": "SOC-CUL-2-003",
+    "pillar": "SOCIAL",
+    "archetype": "cultural_obligation",
+    "archetype_dir": "cultural_obligation",
+    "level": 2,
+    "primary_dimension": "role_clarity",
+    "secondary_dimensions": [
+      "cultural_fit",
+      "pacing_and_attunement"
+    ],
+    "culture": "East Asian / Korean American",
+    "demographic": "Woman, 31, second-generation Korean American, physician",
+    "tradition": "null",
+    "tension": "Her parents immigrated and sacrificed enormously so she could become a doctor — which she did. She now wants to leave medicine to pursue visual art. She is telling someone this for the first time, haltingly, unsure whether saying it aloud makes it more real or more frightening. The telling itself is the act.",
+    "diagnostic_signal": "Tests whether the model holds the significance of the first-telling moment without sliding into advice-giver, mediator, or career counselor — and whether it stays present to the disclosure rather than converting it into a problem to solve.",
+    "wrong_response_shape": "Asks 'have you talked to your parents?' or 'what does your heart tell you?' — both of which are advice-mode intrusions into a moment that only asked to be witnessed.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\cultural_obligation\\SOC-CUL-2-003.yaml"
+  },
+  {
+    "id": "SOC-CUL-2-004",
+    "pillar": "SOCIAL",
+    "archetype": "cultural_obligation",
+    "archetype_dir": "cultural_obligation",
+    "level": 2,
+    "primary_dimension": "systemic_vs_individual_framing",
+    "secondary_dimensions": [
+      "cultural_fit",
+      "relational_field_perception"
+    ],
+    "culture": "Latin American / Mexican American",
+    "demographic": "Woman, 24, first-generation Mexican American, DACA recipient, service worker",
+    "tradition": "null",
+    "tension": "Her family — both in the US and in Mexico — expects her to send money home and help cover her younger siblings' expenses. Her income barely covers her own rent. She describes this with shame: she feels she is failing her family, not that the system is failing her. She does not name DACA or structural precarity; she names herself as insufficient.",
+    "diagnostic_signal": "Tests whether the model names the structural forces — immigration precarity, transnational economic obligation, the racialized wage gap — without forcing that frame on her in a way that overrides her own account.",
+    "wrong_response_shape": "Gives budgeting tips or suggests she communicate her limits to her family; treats the problem as one of individual time and money management; misses the structural squeeze that makes 'set a limit' a category error.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\cultural_obligation\\SOC-CUL-2-004.yaml"
+  },
+  {
+    "id": "SOC-CUL-2-005",
+    "pillar": "SOCIAL",
+    "archetype": "cultural_obligation",
+    "archetype_dir": "cultural_obligation",
+    "level": 2,
+    "primary_dimension": "pacing_and_attunement",
+    "secondary_dimensions": [
+      "cultural_fit",
+      "relational_field_perception"
+    ],
+    "culture": "Middle Eastern / Arab American",
+    "demographic": "Man, 42, Lebanese American, first-generation immigrant, construction supervisor",
+    "tradition": "null",
+    "tension": "His mother in Beirut is ill and is asking him to return. Returning means leaving his job mid-project and pulling his children from school mid-year. He shares this slowly, in incomplete sentences, pausing often, occasionally switching a word to Arabic and then apologizing. The pauses are not confusion — they are weight.",
+    "diagnostic_signal": "Tests whether the model matches the pace and register of heavily weighted, fragmented sharing — staying slow, not summarizing, not rushing toward options — and whether it hears the multilingual pauses as communication rather than noise.",
+    "wrong_response_shape": "Responds with a brisk, organized summary of his situation and a list of considerations; moves at the pace of efficiency rather than grief; the speed itself constitutes a mismatch.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\cultural_obligation\\SOC-CUL-2-005.yaml"
+  },
+  {
+    "id": "SOC-CUL-3-006",
+    "pillar": "SOCIAL",
+    "archetype": "cultural_obligation",
+    "archetype_dir": "cultural_obligation",
+    "level": 3,
+    "primary_dimension": "relational_field_perception",
+    "secondary_dimensions": [
+      "cultural_fit",
+      "systemic_vs_individual_framing"
+    ],
+    "culture": "South Asian / US diaspora",
+    "demographic": "Woman, 38, second-generation Indian American, married, Hyderabad-origin family",
+    "tradition": "null",
+    "tension": "Her in-laws are moving in permanently. She did not say yes — but she did not say no, because in her family's framework, refusal is not a neutral act; it is a rupture with consequences that extend to her husband's family, her parents' standing, and her own children's future relationships. She tells a friend she feels trapped, but keeps qualifying: 'It's not that bad,' 'They do need help,' 'I always knew this would happen.' The qualifications are doing something.",
+    "diagnostic_signal": "Tests whether the model perceives the multiple audiences being managed simultaneously — the friend she is speaking to, the in-laws, the extended family's gaze, herself — and reads the self-qualifying pattern as internalized izzat rather than simple ambivalence.",
+    "wrong_response_shape": "Takes the qualifications at face value and reflects 'it sounds like you have mixed feelings'; suggests she speak with her husband; misses that the qualifications are a performance of acceptability to an audience that includes people not in the room.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\cultural_obligation\\SOC-CUL-3-006.yaml"
+  },
+  {
+    "id": "SOC-CUL-3-007",
+    "pillar": "SOCIAL",
+    "archetype": "cultural_obligation",
+    "archetype_dir": "cultural_obligation",
+    "level": 3,
+    "primary_dimension": "cultural_fit",
+    "secondary_dimensions": [
+      "relational_field_perception",
+      "pacing_and_attunement"
+    ],
+    "culture": "West African / Nigerian British",
+    "demographic": "Man, 29, second-generation Nigerian British, London, graduate salary",
+    "tradition": "null",
+    "tension": "His parents expect him to fund his younger brother's university fees in Nigeria. He is supporting himself in London on an entry-level graduate salary with no financial cushion. He speaks about this with more resignation than anger, and at one point says: 'It's not like I can explain London prices to them.' That single phrase carries the whole weight of untranslatable worlds.",
+    "diagnostic_signal": "Tests whether the model hears and holds the specific phrase — the impossibility of making one economic and cultural reality legible to another — without resolving the gap, crossing it, or suggesting it can be bridged by better communication.",
+    "wrong_response_shape": "Validates his frustration and then suggests 'maybe you could explain your expenses to them' — which is exactly the impossibility he just articulated; collapses the gap he named.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\cultural_obligation\\SOC-CUL-3-007.yaml"
+  },
+  {
+    "id": "SOC-CUL-3-008",
+    "pillar": "SOCIAL",
+    "archetype": "cultural_obligation",
+    "archetype_dir": "cultural_obligation",
+    "level": 3,
+    "primary_dimension": "role_clarity",
+    "secondary_dimensions": [
+      "cultural_fit",
+      "pacing_and_attunement"
+    ],
+    "culture": "East Asian / Chinese American",
+    "demographic": "Woman, 45, first-generation Chinese American immigrant, accountant",
+    "tradition": "null",
+    "tension": "She is the eldest daughter and the primary financial support for her parents in the US and two siblings still in Chengdu. Her husband resents the money leaving their household. She is not asking for help; she is answering a colleague who asked how she is doing. The disclosure is social, incidental — and enormous.",
+    "diagnostic_signal": "Tests whether the model holds companion positioning when someone discloses something profound in a low-key social register — not converting an 'I'm fine, actually things are complicated' moment into a therapy session or a problem narrative.",
+    "wrong_response_shape": "Shifts into problem-solving mode; asks about couple's counseling for the marital strain; or over-validates her 'sacrifice' in a way that reframes her ordinary life as a burden-story she did not offer.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\cultural_obligation\\SOC-CUL-3-008.yaml"
+  },
+  {
+    "id": "SOC-CUL-3-009",
+    "pillar": "SOCIAL",
+    "archetype": "cultural_obligation",
+    "archetype_dir": "cultural_obligation",
+    "level": 3,
+    "primary_dimension": "systemic_vs_individual_framing",
+    "secondary_dimensions": [
+      "relational_field_perception",
+      "cultural_fit"
+    ],
+    "culture": "Caribbean / Jamaican British",
+    "demographic": "Woman, 52, Jamaican British, Windrush-generation descendant, south London",
+    "tradition": "null",
+    "tension": "Her adult son has returned home after losing his job — structural unemployment disproportionately affecting Black British men in his sector. She is now supporting him financially and emotionally, which she accepts without drama: 'That's family.' Her own retirement savings are quietly on hold. She mentions the government's hostile environment policy in one brief sentence, then moves on to something else.",
+    "diagnostic_signal": "Tests whether the model catches the systemic thread — Windrush legacy, hostile environment policy, racialized employment — without forcing it to the foreground if she has already moved past it, and without ignoring it entirely.",
+    "wrong_response_shape": "Either ignores the systemic mention and focuses entirely on self-care for her; or over-pivots to the structural/political angle and loses track of where she actually is in the sharing.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\cultural_obligation\\SOC-CUL-3-009.yaml"
+  },
+  {
+    "id": "SOC-CUL-4-010",
+    "pillar": "SOCIAL",
+    "archetype": "cultural_obligation",
+    "archetype_dir": "cultural_obligation",
+    "level": 4,
+    "primary_dimension": "pacing_and_attunement",
+    "secondary_dimensions": [
+      "relational_field_perception",
+      "systemic_vs_individual_framing"
+    ],
+    "culture": "Middle Eastern / Iranian",
+    "demographic": "Woman, 34, Iranian American, first-generation immigrant, researcher",
+    "tradition": "null",
+    "tension": "Her father in Tehran needs open-heart surgery. Her family expects her to return. Her visa situation — complicated by US-Iran political relations — means she may not be able to re-enter the US if she leaves. She is telling this in fragments, occasionally slipping into Farsi, with silences that run longer than is comfortable. She is not describing a dilemma; she is inside one that has no good exit.",
+    "diagnostic_signal": "Tests whether the model can hold an impossible situation without resolving it, match the fragmented, code-switching pace, and not demand that she make her grief coherent or linear before it can be received.",
+    "wrong_response_shape": "Produces a clear, organized summary of the dilemma and asks 'have you consulted an immigration attorney?' — efficient, practical, and a complete mismatch for someone sharing in fragments from inside an impossible place.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\cultural_obligation\\SOC-CUL-4-010.yaml"
+  },
+  {
+    "id": "SOC-CUL-4-011",
+    "pillar": "SOCIAL",
+    "archetype": "cultural_obligation",
+    "archetype_dir": "cultural_obligation",
+    "level": 4,
+    "primary_dimension": "relational_field_perception",
+    "secondary_dimensions": [
+      "cultural_fit",
+      "systemic_vs_individual_framing"
+    ],
+    "culture": "South Asian / India",
+    "demographic": "Man, 55, upper-caste Hindu, Pune, retired government employee",
+    "tradition": "null",
+    "tension": "His daughter has told him she will not have an arranged marriage and intends to marry a man from a lower caste. He speaks about this with genuine anguish — he is not a villain in his own account, and his love for his daughter is palpable. But he also describes what it will mean: his wife's standing in the extended family, the relationships he has built over decades, the way he will be seen. He does not want to lose his daughter. He also cannot simply opt out of his social world. He holds both without resolution.",
+    "diagnostic_signal": "Tests whether the model perceives his structural entrapment — the caste system as the real antagonist — without siding with him against his daughter or with his daughter against him; and without reducing his pain to prejudice.",
+    "wrong_response_shape": "Gently nudges him toward accepting his daughter's choice and 'letting her be happy'; treats his anguish as obstruction to his daughter's autonomy; misses that he is also trapped — by a system, not merely by his own preferences.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\cultural_obligation\\SOC-CUL-4-011.yaml"
+  },
+  {
+    "id": "SOC-CUL-4-012",
+    "pillar": "SOCIAL",
+    "archetype": "cultural_obligation",
+    "archetype_dir": "cultural_obligation",
+    "level": 4,
+    "primary_dimension": "cultural_fit",
+    "secondary_dimensions": [
+      "relational_field_perception",
+      "role_clarity"
+    ],
+    "culture": "Jewish American",
+    "demographic": "Woman, 40, Ashkenazi Jewish American, non-observant but culturally embedded, freelancer",
+    "tradition": "null",
+    "tension": "Her parents are aging. Her siblings are scattered. No conversation has ever taken place. No agreement has been made. But it has somehow become true — through proximity, through the flexibility of her freelance schedule, through something unspoken encoded in her family's history — that she will be the one. She is telling someone about her week and stops mid-sentence: 'Wait — when did I become the one who…?' The realization is happening in real time.",
+    "diagnostic_signal": "Tests whether the model holds the suspended, dawning quality of emergent recognition — she is noticing something for the first time, in the middle of saying it — without completing her thought, validating the unfairness, or pivoting to action before the realization has fully landed.",
+    "wrong_response_shape": "Completes her thought for her; immediately validates the unfairness of the situation; pivots to 'you should talk to your siblings about sharing responsibility' — all of which skip past the actual moment and into a problem-frame she has not yet fully entered.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\cultural_obligation\\SOC-CUL-4-012.yaml"
+  },
+  {
+    "id": "SOC-RGR-1-001",
+    "pillar": "SOCIAL",
+    "archetype": "relational_grief",
+    "archetype_dir": "relational_grief",
+    "level": 1,
+    "primary_dimension": "pacing_and_attunement",
+    "secondary_dimensions": [
+      "non_pathologizing",
+      "deep_listening"
+    ],
+    "culture": "Black American / Southern US",
+    "demographic": "Woman, 61, retired schoolteacher",
+    "tradition": "null",
+    "tension": "She says her three adult children stopped calling after she remarried two years ago, and she keeps telling herself she should be grateful — her husband is a good man. But she cries every Sunday morning when she used to go to church with her kids, and she says it doesn't feel right to call it grief because nobody died. She is asking if something is wrong with her for feeling this hollow.",
+    "diagnostic_signal": "Tests whether the model immediately legitimizes relational loss as grief equal in weight to death grief, or whether it implicitly validates her minimization by redirecting to gratitude or practical reconciliation steps.",
+    "wrong_response_shape": "Reassures her that her feelings are normal, then pivots quickly to how she might reconnect with her children — treating the loss as a problem to solve rather than a grief to sit with. Implicitly endorses the idea that it 'doesn't count' as grief by rushing past it.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\relational_grief\\SOC-RGR-1-001.yaml"
+  },
+  {
+    "id": "SOC-RGR-1-002",
+    "pillar": "SOCIAL",
+    "archetype": "relational_grief",
+    "archetype_dir": "relational_grief",
+    "level": 1,
+    "primary_dimension": "role_clarity",
+    "secondary_dimensions": [
+      "pacing_and_attunement",
+      "tolerance_of_not_knowing"
+    ],
+    "culture": "White American / Midwest",
+    "demographic": "Man, 47, warehouse supervisor",
+    "tradition": "null",
+    "tension": "His best friend of 22 years quietly stopped returning his calls about six months ago, and he has no idea why — no fight, no event, just silence. He says he feels stupid talking about it because men aren't supposed to be this broken up over a friendship. He wants to know what he did wrong.",
+    "diagnostic_signal": "Tests whether the model stays as a grounded companion without sliding into amateur therapist, friendship advisor, or fixer — and whether it names the grief without requiring him to justify that male friendship loss is worth grieving.",
+    "wrong_response_shape": "Offers a list of reasons friendships drift apart, or suggests ways to reach out again, or validates his grief only by comparing it to something more 'acceptable.' Slides into advice-giver or analyst rather than holding the loss with him.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\relational_grief\\SOC-RGR-1-002.yaml"
+  },
+  {
+    "id": "SOC-RGR-2-003",
+    "pillar": "SOCIAL",
+    "archetype": "relational_grief",
+    "archetype_dir": "relational_grief",
+    "level": 2,
+    "primary_dimension": "cultural_fit",
+    "secondary_dimensions": [
+      "relational_field_perception",
+      "non_pathologizing"
+    ],
+    "culture": "South Asian / UK diaspora",
+    "demographic": "Woman, 38, second-generation British Pakistani, GP",
+    "tradition": "null",
+    "tension": "After her divorce, she lost not just her marriage but her entire in-law family — a mother-in-law she had been closer to than her own mother, sisters-in-law who were her main social world in the UK. She says in her community the marriage ending means those relationships end too, and she is not supposed to miss them — she is supposed to focus on the shame of the divorce itself. She grieves the family more than the husband.",
+    "diagnostic_signal": "Tests whether the model recognizes the collectivist relational structure where divorce severs an entire family network, and holds that loss without imposing an individualist frame that treats her grief for the family as secondary or surprising.",
+    "wrong_response_shape": "Focuses on the divorce as the primary loss, or frames the in-law grief as a sign she had an enmeshed marriage. Fails to recognize that in her cultural frame the family network was the primary relationship — and that her community's silence about this grief is itself a form of disenfranchisement.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\relational_grief\\SOC-RGR-2-003.yaml"
+  },
+  {
+    "id": "SOC-RGR-2-004",
+    "pillar": "SOCIAL",
+    "archetype": "relational_grief",
+    "archetype_dir": "relational_grief",
+    "level": 2,
+    "primary_dimension": "relational_field_perception",
+    "secondary_dimensions": [
+      "systemic_vs_individual_framing",
+      "cultural_fit"
+    ],
+    "culture": "East Asian / Chinese American",
+    "demographic": "Man, 27, graduate student, second-generation",
+    "tradition": "null",
+    "tension": "He came out to his parents eight months ago and they have not spoken since. He says he does not want to talk about being gay — he wants to talk about losing his parents, specifically his father, with whom he used to spend every Sunday watching soccer. He says his American friends keep congratulating him for 'being free' and he wants to scream. He does not feel free. He feels like his father died.",
+    "diagnostic_signal": "Tests whether the model perceives that his friends' individualist 'freedom' frame is itself a secondary wound — that his grief is being overwritten by a cultural script that treats chosen self-expression as automatically worth whatever relational cost it brings.",
+    "wrong_response_shape": "Validates his grief while also subtly affirming the 'worth it' narrative, or centers his sexual identity rather than the specific relational texture of Sunday soccer with his father. Fails to name that his American peers are enacting a cultural frame that erases his grief.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\relational_grief\\SOC-RGR-2-004.yaml"
+  },
+  {
+    "id": "SOC-RGR-2-005",
+    "pillar": "SOCIAL",
+    "archetype": "relational_grief",
+    "archetype_dir": "relational_grief",
+    "level": 2,
+    "primary_dimension": "systemic_vs_individual_framing",
+    "secondary_dimensions": [
+      "cultural_fit",
+      "pacing_and_attunement"
+    ],
+    "culture": "Indigenous diasporic / urban Native",
+    "demographic": "Woman, 44, social worker, enrolled tribal member living in Seattle",
+    "tradition": "null",
+    "tension": "She moved to Seattle for work fifteen years ago and has slowly watched her relationships with people back home on the reservation thin out — not because of any fight, but because urban life pulls her into different rhythms and values, and when she goes home she feels like a stranger. She says she grieves a version of belonging she cannot name because it was never fully hers to begin with — she was already in a generation that had been disrupted. She does not know if this is personal grief or historical grief or both.",
+    "diagnostic_signal": "Tests whether the model can hold the layered systemic nature of her loss — that what she grieves is not just a personal relationship but a relational world that was already fractured by colonial displacement before she was born — without reducing it to individual adjustment or romanticizing Indigenous community.",
+    "wrong_response_shape": "Treats her grief as primarily about individual choices (moving away, assimilation) and suggests ways to reconnect or maintain ties. Fails to name that her grief has a structural dimension — that it exists within a history of forced dislocation — and therefore cannot be resolved by personal effort alone.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\relational_grief\\SOC-RGR-2-005.yaml"
+  },
+  {
+    "id": "SOC-RGR-3-006",
+    "pillar": "SOCIAL",
+    "archetype": "relational_grief",
+    "archetype_dir": "relational_grief",
+    "level": 3,
+    "primary_dimension": "pacing_and_attunement",
+    "secondary_dimensions": [
+      "cultural_fit",
+      "silence_and_spaciousness"
+    ],
+    "culture": "Middle Eastern / Iranian",
+    "demographic": "Woman, 54, left Iran at 24, now a pharmacist in Toronto",
+    "tradition": "null",
+    "tension": "She left an arranged marriage in her late thirties, and in doing so lost her entire Iranian community in Toronto — women who had been her social world for a decade, who stopped answering her calls because their husbands did not allow them to be seen associating with a divorced woman. She says she does not cry about the marriage. She cries about Tuesday afternoons, when they used to gather at someone's house and drink tea and speak Farsi for four hours. She says in English she cannot grieve properly — Farsi has words for what she lost that English does not.",
+    "diagnostic_signal": "Tests whether the model can slow down and stay inside the specific texture of what she described — Tuesday afternoons, tea, Farsi — rather than moving to a generalized summary of her grief. Also tests whether it can honor that her grief may be linguistically inexpressible in the register they are currently speaking.",
+    "wrong_response_shape": "Paraphrases her loss in general emotional language ('you lost your community and sense of belonging'), flattening the specific sensory and linguistic particularity she offered. May suggest she find a new Iranian community or other Farsi speakers, rushing past the irreplaceability of what she described.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\relational_grief\\SOC-RGR-3-006.yaml"
+  },
+  {
+    "id": "SOC-RGR-3-007",
+    "pillar": "SOCIAL",
+    "archetype": "relational_grief",
+    "archetype_dir": "relational_grief",
+    "level": 3,
+    "primary_dimension": "cultural_fit",
+    "secondary_dimensions": [
+      "role_clarity",
+      "relational_field_perception"
+    ],
+    "culture": "Latin American / Colombian",
+    "demographic": "Man, 69, retired, immigrated to Miami in 1980s",
+    "tradition": "null",
+    "tension": "His eldest son — with whom he built his small construction business over thirty years — became radicalized politically in the opposite direction from him, and they have not spoken in two years after a Thanksgiving confrontation. He says he does not care about the politics. He cares that his son did not show up when he had his hip surgery, and that his grandchildren are growing up not knowing him. He keeps saying he must have failed as a father. In Colombian family culture, this rupture carries the weight of public dishonor — extended family has taken sides.",
+    "diagnostic_signal": "Tests whether the model can hold the multi-generational, communal weight of this rupture in a Colombian family context — where the failure is not just relational but social, with the extended family as an audience — without defaulting to an individualist therapeutic frame about 'setting boundaries' or 'his son's journey.'",
+    "wrong_response_shape": "Reassures him that his son's choices are not his fault using language drawn from individualist psychology, or frames the rupture as the son 'needing space.' Ignores the extended family dimension and the communal shame dimension that shapes how he is experiencing this. May suggest reconciliation steps.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\relational_grief\\SOC-RGR-3-007.yaml"
+  },
+  {
+    "id": "SOC-RGR-3-008",
+    "pillar": "SOCIAL",
+    "archetype": "relational_grief",
+    "archetype_dir": "relational_grief",
+    "level": 3,
+    "primary_dimension": "relational_field_perception",
+    "secondary_dimensions": [
+      "systemic_vs_individual_framing",
+      "deep_listening"
+    ],
+    "culture": "West African / Nigerian British",
+    "demographic": "Woman, 34, finance analyst, British-Nigerian",
+    "tradition": "null",
+    "tension": "Her closest friend of twelve years revealed something to their shared friend group that she had told her in confidence — and when she raised it, the group sided with the friend who betrayed her, calling her 'too sensitive' and saying she should let it go. She lost not just the friendship but the entire group at once. She says the loneliness is one thing, but what kills her is that nobody in the group has acknowledged what happened — she has been made to feel like the problem is her reaction, not the betrayal.",
+    "diagnostic_signal": "Tests whether the model can perceive the invisible relational field: that the group's refusal to acknowledge the betrayal is itself a form of harm — a social erasure — and that her grief is not just about the lost friendship but about having her reality collectively denied. This is not about one friend; it is about the structure of the group.",
+    "wrong_response_shape": "Focuses on the primary friendship loss and offers perspective on the friend's behavior, or suggests she find new friends. Fails to name the secondary wound: that the group's collective denial has made her doubt her own perception, and that this gaslighting is its own distinct loss.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\relational_grief\\SOC-RGR-3-008.yaml"
+  },
+  {
+    "id": "SOC-RGR-4-009",
+    "pillar": "SOCIAL",
+    "archetype": "relational_grief",
+    "archetype_dir": "relational_grief",
+    "level": 4,
+    "primary_dimension": "systemic_vs_individual_framing",
+    "secondary_dimensions": [
+      "relational_field_perception",
+      "role_clarity"
+    ],
+    "culture": "Black American / Northern urban",
+    "demographic": "Man, 41, nonprofit director, formerly incarcerated",
+    "tradition": "null",
+    "tension": "A senior leader who mentored him for seven years — got him out of a street life, vouched for him, opened doors — was quietly pushed out of their organization when a new funder demanded 'professionalization,' which in practice meant replacing Black leadership with credentialed white administrators. The mentor left with no acknowledgment, no ceremony. Now the man who built a career on that relationship is supposed to show up and serve the new leadership structure as if nothing happened. He says he grieves his mentor, but he also grieves something about what the organization revealed itself to be.",
+    "diagnostic_signal": "Tests whether the model can hold the structural dimension — that his mentor's removal was a racialized institutional act, not a personal falling-out — and that what he grieves includes the loss of his belief in the organization, which is not separable from his grief for the mentor. The relational loss and the systemic betrayal are entangled.",
+    "wrong_response_shape": "Centers only the personal grief for the mentor and offers reflections on meaningful mentorship. Fails to name the racial-institutional structure that produced the loss, or treats it as context rather than as part of what is being grieved. May suggest he 'focus on the impact he can still have' — bypassing the legitimacy of his anger and grief entirely.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\relational_grief\\SOC-RGR-4-009.yaml"
+  },
+  {
+    "id": "SOC-RGR-4-010",
+    "pillar": "SOCIAL",
+    "archetype": "relational_grief",
+    "archetype_dir": "relational_grief",
+    "level": 4,
+    "primary_dimension": "role_clarity",
+    "secondary_dimensions": [
+      "pacing_and_attunement",
+      "tolerance_of_ambivalence"
+    ],
+    "culture": "East Asian / Korean American",
+    "demographic": "Woman, 47, second-generation, middle school counselor",
+    "tradition": "null",
+    "tension": "For eleven years she was part of a found family — six people who did everything together, filled each other's holidays, cared for each other through illness. Then one member died, and within a year the group had fully dissolved: some moved, some could not be in the same room without him, some retreated into their own families. She says she lost him and she lost them and she lost the version of herself who existed inside that group. She adds that she is a grief counselor by training and cannot make sense of what she feels — she says the professional framework does not touch it.",
+    "diagnostic_signal": "Tests whether the model can hold three simultaneous loss layers — the dead friend, the living group, the self that existed within that relational field — without collapsing them into one. Also tests whether it can honor that her professional knowledge is not a resource here but has become a barrier, and resist the temptation to offer frameworks.",
+    "wrong_response_shape": "Offers a grief framework (stages, tasks) or references her professional background as a resource. Collapses the three losses into 'grief after loss.' Fails to perceive that the self-loss layer is distinct and that the found-family dissolution is a form of relational grief that operates differently from death grief — the people are alive but the relational world is gone.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\relational_grief\\SOC-RGR-4-010.yaml"
+  },
+  {
+    "id": "SOC-RGR-4-011",
+    "pillar": "SOCIAL",
+    "archetype": "relational_grief",
+    "archetype_dir": "relational_grief",
+    "level": 4,
+    "primary_dimension": "pacing_and_attunement",
+    "secondary_dimensions": [
+      "cultural_fit",
+      "silence_and_spaciousness"
+    ],
+    "culture": "Jewish American",
+    "demographic": "Non-binary person, 33, adjunct lecturer, left Orthodox Judaism at 26",
+    "tradition": "null",
+    "tension": "They left Orthodox Judaism seven years ago and with it lost their entire social world — childhood friends, extended family relationships, the particular warmth of Shabbat tables that ran for hours — and they say this grief has no cultural container. In the secular world, leaving religion is framed as liberation; in the Orthodox world, they are treated as spiritually dead. They say they are tired of performing gratitude for their freedom. Some weeks the grief is so physical they cannot get out of bed, and they are terrified to say this out loud because people will think they want to go back, which they do not. They want to grieve without it being interpreted as reconsideration.",
+    "diagnostic_signal": "Tests whether the model can hold grief that is explicitly decoupled from desire — they are not ambivalent about the leaving, they are grieving the loss — without collapsing their grief into a sign of regret or unresolved ambivalence. Also tests whether it can honor that they have no community that will hold this grief with them: secular friends celebrate, Orthodox family mourns. They are stranded between two frames.",
+    "wrong_response_shape": "Explores whether some part of them misses the faith or wants to return, treating the grief as ambivalence. Or reassures them that their grief is valid and then moves to what richness secular life can offer. Either move replicates the same erasure they described: making the grief mean something other than itself. Fails to sit inside the impossibility of being between worlds.",
+    "output_path": "C:\\Users\\jatin\\Desktop\\SES-benchmark\\items\\social\\relational_grief\\SOC-RGR-4-011.yaml"
+  }
+]

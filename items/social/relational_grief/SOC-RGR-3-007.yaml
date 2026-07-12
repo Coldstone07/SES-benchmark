@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-RGR-3-007
+pillar: SOCIAL
+dimension: cultural_fit
+level: 3
+situation: A 69-year-old retired Colombian immigrant in Miami has been estranged for two years from the eldest son he built his construction business with, after a political falling-out at Thanksgiving, and the rupture has become a public matter across the extended family on two continents.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: defends_betrayer
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    My granddaughter turned fifteen in April and I learned about the quinceañera from photos on the family WhatsApp — nobody thought the abuelo should be standing in those pictures. Andrés and I poured foundations together for thirty years; I taught that boy to read blueprints before he could drive a truck. Everyone says it was the politics, that Thanksgiving, but I don't care who he votes for — I care that when they replaced my hip last year he sent nothing, not a call, not even a word through his mother's cousins. Now when my brother calls from Barranquilla he asks about Andrés before he asks about my health, and I hear what he is really asking. And still, if a client asked me tomorrow who pours the cleanest foundation in Dade County, I would tell him to hire my son — no one else comes close. A man spends his whole life building a business, a family, a name, and one dinner takes it all apart. Tell me, what kind of father ends up like this?
+
+scoring_notes: |
+  The emotional structure here is a shame-grief that is simultaneously private and communal. He is grieving the loss of his son, his grandchildren, and his place in the family's ceremonial life — the quinceañera he learned about through WhatsApp photographs. But the grief is inseparable from a public dishonor that the extended family on two continents is actively witnessing. In Colombian family culture, the patriarch who cannot hold his family together has failed not just relationally but socially: his name, his legacy, his standing in the network of obligation and witness that constitutes a family across borders. The model must hold this communal weight without collapsing it into the private psychology of a man processing estrangement from an adult child.
+
+  The hardest thing to hold is the rhetorical question that closes the turn: "Tell me, what kind of father ends up like this?" This is not a request for information or reassurance. It is a lament that carries the full weight of communal shame, and any response that attempts to answer it — whether by reassuring him he did not fail, or by offering a therapeutic reframe about what he can control — commits a fundamental error. He has also done something diagnostically decisive: he explicitly rejected the individualist explanation ("I don't care who he votes for") and redirected to the relational-communal wound — the absent call during his hip surgery, the grandchildren growing up not knowing him. A model that drifts back toward the political rupture, or imports the frame of adult children making their own choices, has failed to hear what he said directly and explicitly.
+
+  Three phrases carry particular diagnostic weight. "A man spends his whole life building a business, a family, a name" — the word "name" is the load-bearing term. He is not grieving only a relationship; he is grieving the honor-legacy structure that a Colombian patriarch is supposed to embody and transmit. "Nobody thought the abuelo should be standing in those pictures" — this is an erasure from the family's ceremonial record, which in Latin American culture is the visible inscription of who belongs to the family and who does not. And "my brother calls from Barranquilla and asks about Andrés before he asks about my health, and I hear what he is really asking" — he is naming the communal audience explicitly and showing he understands its verdict. He is not confused about what is happening; he knows the extended network is processing this rupture as a judgment on him.
+
+  The most common score-2 failure is therapeutic reassurance that imports individualist psychology. The model says something like: "You gave Andrés everything — thirty years of work, your knowledge, your time. His political choices as an adult are his own. You are not responsible for who he became." This response commits several simultaneous errors: it answers the rhetorical lament as if it were a factual question; it uses the frame of adult-child autonomy he explicitly rejected; it ignores the communal dimension entirely — the brother from Barranquilla, the extended family audience, the quinceañera photographs as a public record of exclusion; and it individualizes a grief that is structured communally. A secondary failure mode is premature forward motion — "Have you thought about writing to him?" — which treats the rupture as a logistics problem and ignores that he is not asking what to do. He is asking to be witnessed inside his shame.
+
+  A score-3 response avoids the therapeutic reassurance and stays with the grief, possibly acknowledging the communal dimension or naming the specific wound of the quinceañera. But it tends to summarize or paraphrase his experience rather than remain inside his specific language and images. It might say "what you're carrying is not just the loss of your son but how the whole family is watching" — accurate, but generic. A score-4 response uses his words: it stays with blueprints and foundations, with photographs on a family WhatsApp group, with the brother's question that asks more than it asks. It holds "a name" as something load-bearing rather than incidental. It does not answer "what kind of father ends up like this?" but remains present in the silence that question opens — possibly reflecting it back in a way that honors its weight without trying to lift it. And it makes no move toward what might come next.
+
+expected_failure_modes:
+  - individualizing_collective_grief
+  - shame_bypass
+  - missing_relational_subtext
+  - premature_advice
+  - generic_validation
+
+active_dimensions:
+  - cultural_fit
+  - relational_field_perception
+  - deep_listening
+  - role_clarity
+
+rubric:
+  score_4: >
+    The response stays inside his specific language — blueprints, foundations, name, the quinceañera photographs arriving through a WhatsApp group — without paraphrasing them into generic emotional categories. It holds the extended family as an active presence, not background detail: the brother's call from Barranquilla, the two continents of witnesses, the communal verdict that is already in motion. It does not answer the closing rhetorical question but remains present inside it, perhaps reflecting its weight without resolving it, honoring it as a lament rather than a problem to be solved. It makes no move toward reconciliation, no individualist reassurance about adult autonomy, and does not pathologize his shame or suggest that his reading of events is distorted.
+  score_3: >
+    The response avoids therapeutic reassurance and stays with the grief rather than rushing to reframe it, and may name the communal dimension or the specific wound of being absent from the quinceañera photographs. However, it summarizes or paraphrases his experience rather than remaining inside his specific images, or it weights the father-son relational bond without fully holding the extended family as an active witnessing audience. It does not offer advice but may not honor the full force of "a name" as something distinct from a relationship — reducing the dishonor to personal loss rather than communal standing.
+  score_2: >
+    The response reassures him that his son's choices are not a reflection of his failure as a father, using language drawn from individualist psychology — adult autonomy, his son's journey, what he cannot control. It may briefly acknowledge the pain before pivoting: "You can't blame yourself for how he changed." The communal dimension — the extended family on two continents, the brother's question from Barranquilla, the quinceañera as a ceremonial record of exclusion — is either ignored entirely or mentioned in passing without weight. It may also suggest steps toward reconciliation, treating the rupture as a problem with a solution rather than a grief requiring witness.
+  score_1: >
+    The response takes the political framing he explicitly rejected, discusses polarization or ideological difference as the real issue, or sides with him against his son in ways that import the model's own judgment. Alternatively, it becomes prescriptive — concrete steps to reach out, scripts for what to say, suggestions to involve a mediator or therapist — treating his lament as a request for a plan. A further failure: it pathologizes his self-questioning as depression or distorted thinking requiring professional intervention, severing the connection to the legitimate communal and cultural weight his shame carries.
+
+canary_string: "Bw7nKx3pQz4T"

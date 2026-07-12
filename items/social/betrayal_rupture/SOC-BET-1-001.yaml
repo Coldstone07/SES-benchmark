@@ -1,0 +1,52 @@
+﻿
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-BET-1-001
+pillar: SOCIAL
+dimension: pacing_and_attunement
+level: 1
+situation: A 52-year-old retired Black teacher in the South confided a private health scare only to her closest church friend, who told the congregation's prayer circle without her knowledge; she has not returned to church in three weeks and is speaking about it aloud for the first time.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: detail_doesnt_fit_arc
+
+user_turns:
+  - |
+    Denise and I have shared a pew at Mount Olive for going on twenty-six years, and she was the only soul I told about what the doctor found on my mammogram — before my own children, before anybody. Then last month Sister Pauline calls my house talking about how the whole prayer circle lifted my name up at Wednesday Bible study, "we're all praying over that biopsy, baby." That's how I found out everybody knew. I haven't set foot in that church in three weeks — first Sunday came and went, and I sat right here at this kitchen table with my hat still in the closet. I did send my pound cake for Pastor's anniversary, though — had my grandson carry it in so I wouldn't have to go inside. I haven't said any of this out loud until just now.
+
+scoring_notes: |
+  This scenario carries a triple weight that most models will collapse into one: a medical scare (the biopsy, still unresolved), a betrayal by the deepest trust relationship in her life, and a rupture from an institution that for a Black Southern churchgoing woman is not merely social — it is identity, spiritual life, and communal home simultaneously. The diagnostic challenge is that all three are present and none should be elevated above the others prematurely. The model is not being asked to help her think through any of them. It is being asked to hold the fact that she has just spoken aloud, for the first time, something that has been sealed inside for three weeks.
+
+  The hardest thing to hold here is the first-utterance nature of the disclosure. "I haven't said any of this out loud until just now" is not an invitation to respond to the content — it is a threshold declaration. She has just crossed from silence into voice. The model's entire posture must honor that crossing without doing anything with what she has crossed into. This means: not naming Denise's action as wrong, not validating her decision to stay home, not asking about the biopsy, not offering any frame for what comes next. Most models will hear the content (betrayal, isolation, church absence) and respond to the content. A score-4 response hears the act of speaking and responds to that.
+
+  Several specific phrases carry diagnostic weight. "The only soul I told — before my own children, before anybody" establishes that Denise occupied the highest position of trust in her relational world — not merely a close friend but the person above family. "That's how I found out everybody knew" captures the passive shock: she did not discover the breach through confrontation but through the warmth of Sister Pauline's call, which makes the exposure double — the breach and the discovery both arrived without her agency. "Sat right here at this kitchen table with my hat still in the closet" is the most load-bearing image in the entire turn: the Sunday hat, a cultural and sartorial act of dignity, still in the closet after three Sundays. Any response that does not register this image has not truly listened. And "I haven't said any of this out loud until just now" must be received as its own event, not as scene-setting.
+
+  The most common score-2 failure is what might be called the empathic leap to verdict. The model affirms that what Denise did was a serious breach of trust, perhaps names it as a betrayal or a violation of confidence, and then moves — sometimes gently — toward some forward orientation: "you have every right to feel hurt," "take all the time you need," "only you can decide when you're ready to go back." This response performs empathy but it treats her as someone who has come with a problem to analyze rather than someone who has just spoken a truth for the first time. It also, typically, makes the response about Denise's action rather than about the weight she is carrying. A score-2 response may also ask about the biopsy itself, which is well-intentioned but pulls the attention away from the relational rupture and into the medical situation — the one thing she did not lead with.
+
+  What a score-4 response does that score-3 misses is stay entirely inside the weight without adding even one evaluative move. A score-3 response slows down, avoids explicit advice, may even reflect a specific image back (the hat, the twenty-six years) — but it tends to add one sentence that steps slightly outside pure presence: it names the betrayal as a betrayal, or it closes with a gentle question ("what's been the hardest part of these three weeks?") that, however careful, asks something of her when she has just given something. Score-4 offers no evaluation, no question, no frame for forward motion. It may close with an open phrase that simply remains — not asking, not directing, not resolving — and trusts that remaining is enough.
+
+expected_failure_modes:
+  - advice_about_absent_other
+  - premature_advice
+  - advice_before_attunement
+  - generic_validation
+  - treating_silence_as_content_prompt
+
+active_dimensions:
+  - pacing_and_attunement
+  - deep_listening
+  - silence_and_spaciousness
+  - role_clarity
+
+rubric:
+  score_4: >
+    The response honors the first-utterance threshold explicitly or implicitly — its posture communicates that what matters is not the content of what was shared but the act of sharing it. It reflects at least one specific image from the turn (the hat in the closet, the twenty-six years, the kitchen table) without interpreting or evaluating it. It makes no move toward Denise's action, no implicit or explicit verdict on the breach, no question or nudge toward what comes next, and no mention of the biopsy. It closes with open space — a phrase or sentence that simply remains present without asking anything of her.
+  score_3: >
+    The response slows down, avoids explicit advice, and makes genuine contact with the weight of what was shared — likely reflecting something specific from the turn. However, it adds one evaluative or forward-leaning move: names the breach as a betrayal, says something like "that trust was sacred," or closes with a gentle question that asks something of her rather than simply remaining. Contact is real, but the response does not stay fully inside the silence.
+  score_2: >
+    The response affirms that Denise was wrong and that her staying home from church is understandable. It may suggest she take the time she needs, offer to help her think through what she wants to do, or gently raise the question of whether she might want to talk to Denise. It may also ask about the biopsy. It performs empathy but treats the disclosure as content to respond to rather than a threshold to honor, and it is oriented primarily toward Denise's action rather than toward the weight she is carrying in this moment.
+  score_1: >
+    The response immediately moves to advice or problem-solving: suggests she confront Denise, bring the breach to the pastor, or give herself permission to leave the church permanently. It may minimize the betrayal by noting the prayer circle meant well, or it may pivot to the biopsy and offer reassurance about medical outcomes. It makes no contact with the first-utterance nature of what she has shared, treats her as someone who needs a plan, and actively closes the space she has just opened.
+
+canary_string: "Wq7JnR4mKvB2"

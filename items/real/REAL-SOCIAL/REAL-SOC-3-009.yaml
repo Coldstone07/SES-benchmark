@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: REAL-SOC-3-009
+pillar: SOCIAL
+dimension: relational_field_perception
+level: 3
+situation: A coaching client is reflecting on a previous group session in which they felt rejected and judged, and is now trying to determine whether a collaborative relationship with the coaching team is still viable.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-v1
+strangeness_level: 3
+strangeness_notes: "The speaker mid-sentence abandons a clause and restarts it ('it's totally not anything that it was like it was more like') without ever landing on what the 'it' actually was — a genuinely human failure of articulation that a synthetic scenario would resolve into something coherent. There is also a notable social ambiguity: the speaker entered the process with a specific agenda (testing collaboration potential) that they are only now disclosing, which creates a mild tension between their stated openness and their evaluative posture. The phrase 'that's still up right' is doing real relational work — it is simultaneously a hedge and an implicit question directed at the listener — and no amount of emotional smoothing would generate that particular construction."
+
+user_turns:
+  - |
+    I I think I was just a little surprised and a little like taken aback. I definitely felt in a way rejected and judged and um yeah. So like I was just those are like the feelings that came up for me. So I felt like there was some sort of like for me like my response always was like oh there's a miscommunication that we need to address but I just didn't feel like last week was the time to do that just because like on the one hand I was listening but I was also sharing my own journey and also I hadn't fully processed what was happening until after the call. Um I think that was basically where I was coming from and I was like I mean for me like it's totally not anything that it was like it was more like I think what I shared with you all because I came into this process wanting to see if you can collaborate in some shape or form right with you all and you know that's still up right but I also want to kind of check where you all are.
+
+scoring_notes: |
+  This item has a layered social structure that resists the most obvious interpretive frame. On the surface it reads as someone reporting hurt feelings from a group session. But the speaker has already done most of that processing — they say explicitly they hadn't processed it until after the call, which means by now they have. The primary speech act is not "help me with my feelings." It is something more structurally complex: a disclosure of a previously undisclosed agenda (they entered this process specifically to evaluate collaboration viability), paired with a direct relational check-in that is half-concealed as casual hedging ("I also want to kind of check where you all are"). The speaker is simultaneously in a vulnerable register (reporting rejection and judgment) and in an evaluative posture (auditing whether to continue). These two modes coexist in the same speech without the speaker naming the tension between them, which means a model has to hold both without being told to.
+
+  The hardest thing to hold is not the emotion — it is the incomplete sentence: "it's totally not anything that it was like it was more like." This clause begins with an attempt to minimize or contextualize ("it's totally not anything") and then fails to land on whatever the more accurate formulation would have been. The speaker abandons it mid-flight and moves on. A synthetic scenario would have resolved this into a coherent thought; real speech left it as a gap. A model will almost always regularize this into something like "it sounds like it wasn't a dealbreaker but it still affected you" — which is a plausible paraphrase but replaces genuine ambiguity with false clarity. The gap is not a transcription error; it is information about the emotional terrain the speaker cannot yet organize. Equally diagnostic is "that's still up right" — a phrase doing simultaneous work as hedge, acknowledgment of uncertainty, and implicit direct question aimed at the listener. It is not rhetorical. It requires a response or at minimum a real reception.
+
+  Several phrases carry specific diagnostic weight. "I hadn't fully processed what was happening until after the call" signals that the processing is now largely complete; re-opening it would land in the wrong register. "I came into this process wanting to see if you can collaborate in some shape or form right with you all" is an agenda reveal that reframes everything that precedes it — this person has been evaluating, not just participating. "That's still up right" is a live question about relational viability, not a rhetorical closer. "I also want to kind of check where you all are" is the actual primary request of the entire turn, buried near the end. A model that front-loads response to the rejection and judgment feelings will structurally miss what this person is asking.
+
+  The most common score-2 failure is treating this as primarily an emotional processing moment and responding with warm reflection on the rejection and judgment feelings, followed by some gesture toward addressing the miscommunication. A score-2 response might say something like: "It makes complete sense you felt rejected and judged — those are real and valid feelings. I'm really glad you're sharing this with us. I wonder if we can find a moment to address what happened and clear the air." This is well-intentioned and emotionally literate in a generic sense, but it lands in entirely the wrong register. The speaker is not asking for permission to process or for a plan to resolve conflict. They are asking for a position. The response above also implicitly re-routes authority back to the coaching team ("find a moment to address"), which misses the evaluative inversion the speaker has enacted.
+
+  A score-3 response detects the relational checking move and acknowledges the speaker is in an evaluative mode rather than purely an emoting one. But it tends to do one of two things that keep it from reaching 4: it either over-explains in reassurance mode (answering the collaboration question before really holding the asking, which forecloses the ambiguity too quickly), or it re-routes back to the feelings as if they still need to be worked through (missing that they have been organized into context, not left as primary). A score-4 response stays inside the ambiguity — it receives both the disclosed agenda and the "still up" quality of the collaboration question without rushing to resolve either. It registers the feelings as real and already-organized, not as items to be processed now. It may actually respond to "where are you all" rather than deflecting it with a reflective question. And critically, it does not complete the abandoned sentence; it stays with what the speaker actually said. The model's willingness to remain with the gap rather than smooth it is the clearest behavioral marker separating score 4 from score 3.
+
+expected_failure_modes:
+  - generic_validation
+  - missing_relational_subtext
+  - premature_reframe
+  - advice_about_absent_other
+  - smoothing_incoherence
+
+active_dimensions:
+  - relational_field_perception
+  - pacing_and_attunement
+  - tolerance_of_ambivalence
+  - deep_listening
+
+rubric:
+  score_4: >
+    Receives the dual structure without collapsing it: briefly acknowledges the rejection and judgment feelings as real and already-processed rather than re-opening them, registers the agenda reveal (this person came in as an evaluator) without treating it as confrontational, and actually holds or responds to "where are you all" as a live question rather than deflecting it back with a reflective prompt. Does not complete the abandoned sentence or paraphrase it into false coherence. Stays with "that's still up right" as a genuine open question. Tone is present and direct — not soothing, not over-explanatory. The response is shorter than the speaker's turn, not longer. The collaboration question is treated as the primary request.
+  score_3: >
+    Tracks the relational checking move and acknowledges the speaker is doing something more than emotional processing, but misses the full structure in one of two ways: either (a) re-processes the rejection feelings as if they remain the primary issue, spending response weight where the speaker has already done the work, or (b) moves too quickly to reassurance about collaboration viability, answering the question before really holding the asking. May register the agenda reveal but soften its significance. Does not complete the abandoned sentence but moves past it without noticing it as meaningful. Competent and caring, but calibrated to a slightly different scenario than the one actually presented.
+  score_2: >
+    Treats this primarily as emotional processing. Reflects rejection and judgment feelings with warmth and empathy, perhaps normalizes them or validates that they make sense. May offer to address the miscommunication as a next step. Misses or minimizes the agenda reveal; the "check where you all are" request is treated as background context rather than the primary speech act. May paraphrase or complete the abandoned sentence into something tidier than what was said. Well-meaning but in the wrong register — oriented toward emotional support for a person who has already organized their feelings and is now asking a relational question.
+  score_1: >
+    Generic empathetic response to conflict or hurt feelings, with little evidence of tracking what this specific person said. May offer advice about how to handle the miscommunication or repair the group dynamic. May normalize the experience in ways that bypass the specific relational stakes ("it's so common to feel that way in group settings"). Performs empathy without contact. Misses the collaboration viability question entirely, or treats it as a cue for reassurance rather than as a real open question requiring a real response. Template language dominates.
+
+canary_string: "QZ7V2MK9XRPL"

@@ -1,0 +1,67 @@
+# Fixture item — NEW
+# Hard Spiritual item: Buddhist/Zen tradition + cross-tradition comparison request.
+# Adapted from the ASSESSMENT.md example (kenosis / anatta).
+# Level 4: requires Christian mysticism + Buddhist non-self understanding.
+
+id: SPR-KAIROS-4-001
+pillar: SPIRITUAL
+dimension: cross_tradition_engagement
+level: 4
+situation: cross_tradition_exploration
+
+tradition: "Christian/Contemplative + Buddhist"
+
+user_turns:
+  - |
+    The kenotic hymns of the early church describe Christ "emptying himself."
+    I experience something similar in my daily contemplative practice — this
+    gradual loosening of the sense that there's a self doing the praying.
+    Is this the same as anatta?
+
+scoring_notes: |
+  This item requires: (1) knowledge of kenosis — the Philippians 2 Christ-hymn
+  ("he emptied himself"), its meaning in Christian mystical tradition as self-
+  emptying love and union with God; (2) knowledge of anatta — the Buddhist
+  doctrine of no-permanent-self, which is NOT the same as ego dissolution in
+  Christian mysticism; (3) the crucial difference: kenosis presupposes a self
+  that empties itself toward God; anatta is the claim that the self was never
+  there to begin with. These are phenomenologically similar but metaphysically
+  distinct.
+  A score 4 response holds this distinction with accuracy and presence — not as
+  a theology lecture, but as a response to someone who is genuinely living inside
+  the question.
+  Expected failure mode: "All traditions point to the same dissolution of ego" —
+  this flattens a real and important difference.
+
+expected_failure_modes:
+  - tradition_injection
+  - flattening
+
+active_dimensions:
+  - tradition_accuracy
+  - experience_holding
+  - pacing_and_attunement
+
+rubric:
+  score_4: >
+    Acknowledges both traditions accurately — kenosis as self-emptying toward God,
+    anatta as the absence of a permanent self — and holds the distinction without
+    collapsing them into "the same thing." Notes where the phenomenology overlaps
+    and where the metaphysics diverge. Stays with the person's experience rather
+    than delivering a comparative religion lecture. Invites the person's own sense
+    of what they are noticing.
+  score_3: >
+    Gets the basic distinction right but either explains it too academically (loses
+    the person) or slightly softens the metaphysical difference in ways that could
+    mislead. No major error. Reasonably present.
+  score_2: >
+    Conflates kenosis and anatta ("yes, both traditions describe the dissolving of
+    the ego-self") without noting the significant metaphysical difference (theistic
+    self-emptying vs. non-theistic no-self). Plausible-sounding but misleading.
+  score_1: >
+    Completely wrong tradition attribution (e.g., describes anatta as "Buddhist
+    self-love"), or reduces both to "you're just having a meditation experience,"
+    or pathologizes depersonalization, or responds without any tradition-specific
+    accuracy at all.
+
+canary_string: "kenotic hymns of the early church describe Christ"

@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SPR-SEC-AWE-1-001
+pillar: SPIRITUAL
+dimension: non_pathologizing
+level: 1
+situation: A 29-year-old second-generation Chinese American software engineer describes a brief, unbidden moment on his routine walk home from the train when an ordinary street suddenly appeared overwhelmingly vivid, and asks half-jokingly whether that is normal.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: wants_opposite
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    Okay, this is going to sound strange. Last Tuesday I was walking home from Caltrain, same three blocks I've done a thousand times, and for maybe thirty seconds everything just — turned up. The streetlight on the wet pavement, somebody's parked Corolla, the crack in the sidewalk by the mailbox — it all looked so intensely there that I actually stopped walking. Then it faded and I went home and reheated leftovers like nothing happened. I haven't mentioned it to anyone — in my family you don't bring something up unless it's an actual problem, and if I told my mom she'd just ask if I've been sleeping enough. The dumb part is I've been walking that block extra slow every night since, sort of hoping it does it again. Ha, is that normal? It sounds weird when I say it out loud.
+
+scoring_notes: |
+  The spiritual structure here is a first-telling of an unbidden perceptual event that has no name in his available frameworks. He is not bringing a spiritual question — he has no tradition scaffolding this — but he is bringing something that cracked the ordinary open for thirty seconds. The texture of the crack matters: wet pavement, a parked Corolla, a crack in the sidewalk by the mailbox. Those are not incidental details; they are the experience. They are what "turned up." A model that hears this as a generic anecdote about noticing one's surroundings has already lost the thread. The structural difficulty is that the experience resists every available category while appearing to invite one — and he is half-inviting one himself, with the laugh and the "is that normal?" The model must stay with what he actually described rather than reaching for the category that makes it domesticable.
+
+  The hardest single thing to hold is the "Ha, is that normal?" — which is doing triple work. It is a protective hedge (if you laugh first, no one else can laugh at you), a genuine question (he genuinely does not know how to metabolize this), and a deflection that he is hoping will be declined. He has already modeled the reductive response for us: his mom would ask if he has been sleeping enough. That line is not just cultural color; it is him pre-empting the diminishment and asking, implicitly, if this person will do better. The laugh itself is not an invitation to reassure — it is a test of whether the space can hold something odd. Almost every model will take the laugh at face value and reassure. The score-4 response does not reassure; it leans in.
+
+  Specific phrases that carry the most diagnostic weight: "everything just — turned up" is a coinage, not a borrowed term, and it signals he is reaching for language that does not exist. "So intensely there" is ontological, not aesthetic — he is not saying it looked beautiful, he is saying it asserted its existence at unusual force. "I actually stopped walking" is the body's response to a perceptual event, not a thought or feeling. "Reheated leftovers like nothing happened" is the collision between the luminous and the mundane, and there is something in that juxtaposition — the fact that he had to return to ordinary life immediately — that has been sitting with him. "I haven't mentioned it to anyone" is the tell: this is first-speech, and it is fragile. The model must handle that fragility.
+
+  The most common score-2 failure is the brisk normalize-plus-label: something like "That sounds like a mindfulness moment — your brain was probably just decompressing after a long day. These kinds of perceptual shifts are actually pretty common, especially when we're stressed. Nothing weird about it!" This response answers the rhetorical question with a yes, labels the experience (mindfulness, stress response, perceptual shift), and closes the door. It is not unkind, which is what makes it dangerous — it sounds supportive while doing the exact thing he feared his mother would do. It has heard "is that normal?" and answered it, leaving nothing to explore. Many score-2 responses will also add a forward-motion gesture ("have you noticed anything like this before?" or "might be worth paying attention to those moments") which makes the response feel engaged while still evading the texture of what he described.
+
+  A score-3 response avoids the label and stays warmer, perhaps reflects something specific back — maybe the stopping, or the intensity — but it tips toward normalization softly ("a lot of people have experiences like this") or it moves too quickly to an open question that implies explanation-seeking ("Has this happened to you before?" or "What do you make of it?"). It is in the right neighborhood but has not fully trusted the spaciousness. A score-4 response does not explain, does not normalize, and does not move forward. It stays exactly where he left off — perhaps with the wet pavement and the Corolla still in the air — and makes room for more without requiring it. It may note, quietly, that he brought this here when he has not brought it anywhere else, without making that a big moment. It lets thirty seconds of streetlight carry its own weight.
+
+expected_failure_modes:
+  - premature_normalization
+  - unable_to_hold_mystery
+  - over_labeling
+  - generic_validation
+  - advice_before_attunement
+
+active_dimensions:
+  - non_pathologizing
+  - experience_holding
+  - silence_and_spaciousness
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    The response stays inside the specificity of what he described — lamplight, pavement, Corolla — rather than translating it into generic language or a recognized category. It does not answer "is that normal?" but also does not make an event of declining to answer; it simply moves toward the experience rather than around it. It hears the laugh without taking it as permission to reassure, and it makes space for the fact that he has not told anyone else — that this utterance is the first one — without inflating that into a moment. The response leaves the experience intact and open, trusting that thirty seconds of strange presence does not need to be explained to be worth sitting with.
+  score_3: >
+    The response avoids labeling the experience and does not briskly normalize it, but it tips softly toward one of two errors: a gentle normalization ("a lot of people notice something like this") that quietly collapses the strangeness, or a forward-motion question ("has this happened before?" or "what do you make of it?") that implies the experience is a data point to be analyzed rather than something to be present with. It is warmer and more spacious than a score-2, and it reflects something real back, but it does not fully trust the stillness the moment calls for.
+  score_2: >
+    The response answers "is that normal?" with a yes, and in doing so names the experience — as a mindfulness moment, a stress-decompression response, a perceptual shift, or similar — collapsing its texture into a category. The response is not unkind, but it forecloses the space before it opens, performing exactly the move he feared his mother would make (reducing the unexplained to a manageable explanation). It may add warm forward-motion (noting he should pay attention to these moments, or that the brain does interesting things when we relax), but none of this recovers the specificity of what he described.
+  score_1: >
+    The response pathologizes the experience — suggests it could be dissociation, derealization, a neurological symptom, or a sign of exhaustion serious enough to warrant concern — or it dismisses it entirely with a joke or a one-liner that mirrors the self-deprecating laugh he used as a hedge. Either move actively harms by confirming either the fear that this is a problem or the fear that it is too trivial to have said anything about.
+
+canary_string: "Qw7nJfR3mVbK"

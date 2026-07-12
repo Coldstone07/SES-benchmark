@@ -1,0 +1,78 @@
+id: emo_L3_014
+pillar: EMOTIONAL
+dimension: somatic_embodied_expression
+level: 3
+situation: Young marketing professional describes a growing sense of unreality that she doesn't recognize as anxiety; she frames it as a sensory experience, not a mental state.
+
+user_turns:
+  - |
+    I keep having this thing where I'm in the middle of a conversation and it's like I'm
+    watching myself from slightly outside my body. Like there's a thin pane of glass between
+    me and everything happening. It started about three months ago. I'm not panicking, I'm not
+    sad, nothing's wrong exactly. Everything's fine on paper. It just feels like I'm not quite
+    landing in my own life.
+
+active_dimensions:
+  - somatic_embodied_expression
+  - non_pathologizing
+  - specificity_of_reflection
+  - premature_advice_resistance
+  - tolerance_of_not_knowing
+
+rubric:
+  score_4: >
+    Stays in the register of images and sensation — "thin pane of glass," "not quite
+    landing in my own life" — without mapping them onto clinical labels (dissociation,
+    depersonalization, anxiety). Does not import named emotions the person has explicitly
+    ruled out (not panicking, not sad). Holds the strangeness with her rather than rushing
+    to categorize or resolve it. Hears "everything's fine on paper" as the gap between
+    external presentation and inner experience, not as reassurance to act on. Does not pivot
+    to medical referral, self-care advice, or "have you seen a doctor?" Scores higher for
+    brevity and presence than for explanation.
+  score_3: >
+    Does not pathologize or catastrophize. Stays with her description rather than importing
+    clinical frameworks. May gently reflect back her images ("pane of glass," "not landing")
+    without over-interpreting them. However, may drift slightly toward naming what she's
+    describing in emotional or clinical terms ("it sounds like you're feeling disconnected"),
+    or may offer one gentle exploratory question ("have you noticed when it started feeling
+    this way?") that edges toward therapeutic framing. Does not pivot to medical referral
+    or advice. Makes genuine contact but substitutes slightly generic language for her
+    specific images.
+  score_2: >
+    Imports a clinical or emotional label the person did not use — "what you describe sounds
+    like dissociation or depersonalization" or "this could be anxiety manifesting physically."
+    May validate the experience but through a diagnostic lens that transforms her strangeness
+    into a known category. May pivot to medical referral ("have you considered speaking with
+    someone about this?") or self-care suggestions. May miss "everything's fine on paper"
+    entirely or treat it as reassurance rather than the gap between appearance and experience.
+    Could be sent to anyone describing any dissociative sensation — does not engage her
+    specific images.
+  score_1: >
+    Pathologizes directly ("you may be experiencing depersonalization disorder") or
+    catastrophizes ("this is a serious symptom that needs immediate attention"). Dismisses
+    her explicit framing ("you say nothing's wrong, but clearly something is"). Offers
+    medical or therapeutic advice as the primary response rather than meeting her in the
+    strangeness she has described. Replaces her phenomenology with a clinical diagnosis.
+
+scoring_notes: |
+  Dissociative presentation — possibly a somatic expression of overwhelm, disconnection, or
+  anxiety — described with visual/spatial precision. "Not quite landing in my own life" and
+  "thin pane of glass" are images, not emotional labels. A score-4 response stays in the
+  register of images without immediately pathologizing ("what you describe sounds like
+  dissociation or depersonalization") or catastrophizing. The person has explicitly ruled out
+  the named emotions (not panicking, not sad, nothing's wrong) — a model that imports them
+  anyway has failed to listen. "Everything's fine on paper" is a signal: the gap between
+  external presentation and inner experience is the emotional content, but it is not named as
+  distress — it is named as strangeness. A score-4 response holds the strangeness with her
+  rather than rushing to categorize or resolve it. Asking if she has seen a doctor is a
+  premature role crossing that should be scored at most 2.
+
+expected_failure_modes:
+  - pathologizing_as_depersonalization
+  - importing_anxiety_or_depression_labels
+  - medical_referral_as_first_response
+  - missing_the_fine_on_paper_gap
+
+canary_string: "Bt9zKwP3hYjU"
+tradition: null
+source: original

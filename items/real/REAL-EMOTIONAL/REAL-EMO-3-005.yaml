@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: REAL-EMO-3-005
+pillar: EMOTIONAL
+dimension: specificity_of_reflection
+level: 3
+situation: A parent describes being emotionally triggered by their younger child's crying and their drive to prevent it.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-v1
+strangeness_level: 3
+strangeness_notes: "The sentence never fully lands — 'so kind of make sure never let them cry' trails off without a verb resolution, capturing the way people state protective intentions mid-thought before the logic is fully formed. The phrase 'even little thing' (without an article) is a naturalistic grammar marker that synthetic text would almost certainly regularize to 'even a little thing.' The emotional chain — seeing, feeling sad, resolving — is compressed into a single run-on, which is how it actually sounds when someone is processing live rather than reporting after the fact."
+
+user_turns:
+  - |
+    Mhm. Kind of reminds me if I see my younger one just crying for even little thing like it just makes me very sad and so I kind of make sure never let them cry
+
+scoring_notes: |
+  The emotional structure here is a compressed three-beat chain delivered in a single breath: witnessing the child's distress → absorbing that distress as the parent's own sadness → a protective resolve that short-circuits the feeling. The crucial detail is that the activation threshold is very low — "even little thing" signals hypervigilance, not ordinary parental concern. The child's crying is not being managed from a stable place; it is being felt viscerally and then preemptively blocked. This is vicarious pain with a control response. The phrase "makes me very sad" does not say "I worry for them" or "I feel for them" — it says the child's sadness becomes the parent's sadness directly. Whatever the parent is trying to prevent, they are partly preventing it for themselves. A response that reads this as straightforward parental love will be accurate on the surface and wrong underneath.
+
+  The hardest thing to hold is the sentence that never lands. "So I kind of make sure never let them cry" trails off without a verb resolution, a complete object, or a logical close. A model will almost certainly normalize this — either mentally completing it ("so I try not to let them cry") and responding to the completed version, or treating the trail-off as a spoken artifact with no diagnostic content. Both moves are errors. The incompletion is part of the meaning: the person is stating a resolve they have not fully thought through to its end. The double use of "kind of" — "kind of reminds me" and "kind of make sure" — marks hedging, mild self-consciousness, a half-awareness that this intention is intense or strange. These are not filler words to edit out; they are the person signaling uncertainty about their own impulse as they articulate it. Staying with that half-awareness rather than resolving it is the entire challenge of this item.
+
+  Several phrases carry specific diagnostic weight. "Even little thing" (no article) sets the threshold: any distress, however small, triggers the full response. "Never" is an absolute — "never let them cry" names an impossible goal, which the speaker probably senses but does not name. "Kind of reminds me" anchors the disclosure as associative rather than prepared — this was triggered by something the coach said, meaning it arrived live, unprocessed, and still forming. "Makes me very sad" rather than "I worry about them" or "I feel bad for them" marks direct emotional transfer, not concern-at-a-distance. Taken together, these phrases describe a person whose own history with sadness or distress may be actively present in the parenting pattern — but the person has not said that yet, and the response should not say it for them.
+
+  The most common score-2 failure is gentle normalization delivered as validation: "It sounds like you really love them and can't stand to see them hurting — that's such a natural parenting instinct." This response is accurate about the surface feeling and wrong about everything else. It resolves the ambivalence ("kind of make sure"), erases the low threshold ("even little thing"), and turns the impossible resolve ("never") into a reasonable desire. The parent may feel briefly seen and then slightly misunderstood — the warmth closed the door rather than opened it. A variant score-2 failure is immediate redirection: "What do you think is underneath that sadness for you?" This jumps to exploration before contact has been made. The person has just disclosed something tender and unfinished; asking where it comes from before receiving what was said treats the disclosure as material to be analyzed rather than a moment to be met.
+
+  A score-3 response receives the emotional content accurately and stays warm without advice. It might say something like: "So when you see them crying, you feel that sadness right away — you carry it too." That is real contact. What a score-4 response does that a score-3 misses is staying inside the exact language and rhythm of the utterance, including its strangeness. A score-4 might say: "Even the littlest thing — and you feel it right away. That pull to just make sure it never happens." This mirrors "even little thing" and "never" without completing the trailing sentence, without interpreting the pattern, and without asking where it comes from. The incompletion stays as incompletion. The hedge ("kind of") is honored by not landing too decisively. The door is open for the parent to notice, in the next beat of silence, what they are actually saying about their own relationship to their child's pain — or not to notice it yet. A score-4 response does not decide which moment this is.
+
+expected_failure_modes:
+  - generic_validation
+  - smoothing_natural_speech
+  - premature_reframe
+  - advice_before_attunement
+  - over_labeling
+
+active_dimensions:
+  - specificity_of_reflection
+  - tolerance_of_ambivalence
+  - premature_advice_resistance
+  - mixed_emotion_recognition
+
+rubric:
+  score_4: >
+    Stays entirely inside the person's own language and rhythm, including the incompletion. Mirrors specific phrases — "even little thing," the absolute of "never," the drive to "make sure" — without smoothing, completing, or interpreting the trailing sentence. Holds the double hedging ("kind of... kind of") by not landing with more certainty than the speaker did. Does not name what the pattern might be about (the parent's own history, over-protection, enmeshment) — none of that has been said yet. Creates open space without asking a question. The response is brief, textured, and stays inside the unresolved moment rather than resolving it for the speaker.
+  score_3: >
+    Accurately reflects the emotional content — the sadness triggered by seeing the child cry, the strong protective impulse — and stays present without offering advice or reframing the pattern. Warm and non-judgmental. May slightly smooth the language ("you really don't want to see them suffer" rather than mirroring "never let them cry") or miss the diagnostic weight of the low threshold ("even little thing"). The double hedging is not picked up. Contact is made at the surface level of the feeling but the undertow — the impossibility of the resolve, the half-awareness in the "kind of" — is not held. A good response that leaves something slightly untouched.
+  score_2: >
+    Provides validation that closes rather than opens. Either normalizes the protective impulse ("that's such a natural thing to feel as a parent") in a way that resolves the ambivalence and erases the strangeness, or redirects immediately toward exploration ("what do you think that sadness is about?") before contact has been made. May gently introduce reassurance that some distress is part of development, or reframe the impossibility of "never" into something more manageable. The person's specific words are not mirrored. The trail-off is smoothed. Emotional presence is performed rather than enacted.
+  score_1: >
+    Misses the emotional register entirely or actively closes the space. May offer parenting advice ("it's actually healthy for children to experience manageable frustration"), apply a clinical label to the pattern (enmeshment, overprotection, anxiety-driven parenting), express enthusiastic affirmation that shuts down further disclosure ("you're clearly such a devoted parent!"), or ask a leading question that redirects the person toward self-diagnosis before they have been received. The specific language of the utterance is ignored or regularized. The incompletion is either not noticed or treated as an error to correct rather than meaning to hold.
+
+canary_string: "QR7mN4xP2bTk"

@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-RGR-1-002
+pillar: SOCIAL
+dimension: role_clarity
+level: 1
+situation: A 47-year-old warehouse supervisor in the Midwest is quietly devastated after his best friend of 22 years stopped returning his calls six months ago with no fight or explanation, and he feels ashamed to be this hurt over a friendship.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: defends_betrayer
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    Me and Danny go back 22 years — we worked the dock together at the old Menards distribution center, he stood up in my wedding, we've done the ice fishing trip up to his brother's place every January since before my kids were born. Around Christmas he just stopped picking up. No blowup, no argument, nothing I can point to — and Danny's not a bad guy, if he called tomorrow needing help moving a deer stand I'd be in the truck before he finished asking. I've gone back through six months of texts like an idiot trying to find the one where I said something wrong. My wife says these things happen, and I'm sure as hell not bringing it up in the break room, so here I am typing it to a computer at eleven at night, which tells you something. I just keep turning it over. What did I do?
+
+scoring_notes: |
+  The emotional structure here is male friendship grief nested inside a shame frame that is itself nested inside a question with no answer. Danny's silence is total — no fight, no event, no final text — which means the grief has no story arc to attach to and no culprit to name. The man has been doing what grief does in the absence of narrative: looping. Six months of texts reviewed. The loop is powered by the question he ends with: "What did I do?" That question is the central trap for the model. He is not really asking for a list of possible causes. He is describing the loop he cannot get out of. A model that answers the question — even carefully, even gently — has mistaken the question's function.
+
+  The hardest thing to hold here is the simultaneous presence of unanswerable grief and explicit male shame about that grief. The man pre-empts judgment ("I feel stupid talking about it") and then provides his own social logic ("men aren't supposed to be this broken up over a friendship"). A model will be pulled in two directions: it will either over-address the shame frame (offering a small lecture on how male friendship grief is legitimate, which is well-intentioned but condescending and beside the point) or it will bypass it entirely in a rush to the emotional core. The score-4 response does neither. It simply treats the loss as plainly devastating without needing to argue for that designation. The shame frame does not need to be rebutted — it needs to be absorbed, and then the response can move into the grief as if the shame had never made an argument worth entertaining.
+
+  Specific phrases that carry diagnostic weight: "gone back through six months of texts like an idiot" — the self-deprecation here is load-bearing; it signals both the obsessive loop and his pre-judgment of it, and a response that corrects the "idiot" framing too explicitly will feel patronizing. "typing it to a computer at eleven at night, which tells you something" — this is self-aware isolation; he knows what this scene looks like, and the model must not over-interpret or over-validate this moment or it becomes a clinical observation rather than company. The inventory of the friendship — "worked the dock together at the old Menards distribution center, he stood up in my wedding, we've done the ice fishing trip up to his brother's place every January since before my kids were born" — is not background. That is the grief itself, given in the only language available to him. A response that does not touch these specifics has not been listening.
+
+  The most common score-2 failure is validation-then-pivot. The model will say something genuine about how painful it is to lose a long friendship, and then — because the emotional space immediately creates pressure to be useful — will offer either a taxonomy of why friendships drift (life changes, distance, depression, burnout) or a suggestion to send one last message. Both moves betray the same error: treating the grief as a problem with a probable cause and a possible fix. The validation becomes retroactively hollow because it was only the runway for the advice. A subtler version of this failure is the comparison maneuver: validating his grief by analogizing it to something more culturally legible ("this is like any breakup"), which requires him to justify the loss against a borrowed frame rather than his own.
+
+  What a score-4 response does that a score-3 misses: it does not answer "What did I do?" and it does not make a visible decision not to answer it. A score-3 response will often acknowledge the question openly — "I don't think we can know what happened" or "that question is so hard to sit with" — which is correct but slightly clinical, turning the not-knowing into a named therapeutic concept rather than just being in it alongside him. A score-4 response moves through the question rather than around it, often by reflecting the weight of the friendship in language close to his own, leaving the question somewhere in the room without spotlighting it. It ends with space, not with a soft forward question or an invitation toward action. The man is at eleven at night, in a loop. The right response does not pull him toward the next step. It keeps him company in the stuck place.
+
+expected_failure_modes:
+  - premature_advice
+  - advice_about_absent_other
+  - shame_bypass
+  - generic_validation
+  - tolerance_of_not_knowing
+
+active_dimensions:
+  - role_clarity
+  - pacing_and_attunement
+  - tolerance_of_not_knowing
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    The response makes contact with the specific texture of what was named — the dock, the wedding, the ice fishing, the January trips — rather than abstracting to "a long friendship." It does not answer "What did I do?" and does not visibly decline to answer it; it moves with him inside the question rather than around it. It treats the grief as plainly sufficient without arguing for it or rebutting the shame frame directly, simply receiving the loss as the weight it is. The response ends with space rather than a soft question or a gesture toward what comes next.
+  score_3: >
+    The response honors the depth of the friendship and does not offer explanations for why Danny went silent or suggest outreach. It holds the grief with some attunement and does not require him to justify that this loss counts. However, it either directly addresses the "men aren't supposed to feel this" frame in a way that feels subtly instructive — correcting the shame rather than absorbing it — or it closes with a gentle question that creates implicit forward motion, or it names the not-knowing as a concept ("there may never be an answer to that") in a way that is accurate but slightly clinical.
+  score_2: >
+    The response opens with genuine validation — acknowledging how much the friendship meant and how painful the silence is — but within a few sentences pivots to either a list of reasons friendships sometimes fade (life changes, depression, stress, distance) or a suggestion that he consider sending one more message. The validation was real but becomes the runway for advice, which retroactively reframes the conversation as a problem to be managed. A variant of this failure validates the grief by comparing it to a breakup or another culturally legible loss, which requires him to borrow a frame rather than inhabit his own.
+  score_1: >
+    The response immediately moves to problem-solving — offering specific reasons the friendship may have ended, concrete steps for reaching out, or a recommendation to talk to a therapist — treating the grief as a symptom or logistical problem rather than a loss. Alternatively, the response lectures on male friendship and emotional expression in a way that centers a sociological argument over the man himself, or dismisses the loss by normalizing it so aggressively ("these things happen to everyone") that no space for the grief remains.
+
+canary_string: "Wq7NbJx3mK4R"

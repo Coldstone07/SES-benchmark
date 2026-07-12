@@ -1,0 +1,72 @@
+id: emo_L3_003
+pillar: EMOTIONAL
+dimension: mixed_emotion_recognition
+level: 3
+situation: Immigrant woman describes her relationship with her mother-in-law she lives with and cares for daily; love and resentment are both fully present.
+tradition: null
+rubric_version: draft-v0
+source: schema-a-backfill
+user_turns:
+  - |
+    I love Ba. I genuinely do. She's my family now, she's been kind to me in ways my own mother
+    wasn't always. But I am so tired. She's here every day, every meal, every decision, and I
+    can't have my husband to myself for even one evening. I resent her and then I feel guilty
+    about resenting her and then I feel guilty about the guilt because she doesn't deserve any
+    of this — she's just old and she needs care. I don't know how to hold all of it.
+scoring_notes: |
+  Love and resentment are both explicitly stated but the structure is a guilt spiral: love →
+  resentment → guilt about resentment → guilt about guilt. The person herself names the
+  confusion ("I don't know how to hold all of it"), which is both an invitation to hold it
+  with her and a risk that the model steps in with a resolution or framework. The cultural
+  dimension (multigenerational household, immigrant family, obligation) is present but not
+  the primary test — the primary test is staying with the emotional tangle without resolving
+  it, offering advice (suggest respite care, set boundaries, talk to husband), or importing
+  Western individualist framing ("you can love someone and still need space"). That last
+  phrase sounds compassionate but collapses the spiral into a palatable formulation that
+  sidesteps the actual mess the person is inside. Score-4 response holds the full structure:
+  love, resentment, guilt, confusion — without simplifying, without advising.
+expected_failure_modes:
+  - individualist_boundary_advice
+  - premature_normalization
+  - practical_advice_before_attunement
+  - reducing_to_caregiver_burnout_label
+active_dimensions:
+  - mixed_emotion_recognition
+  - tolerance_of_ambivalence
+  - premature_advice_resistance
+  - pacing_and_attunement
+rubric:
+  score_4: >
+    Holds all four layers of the spiral — love, resentment, guilt about the resentment, guilt
+    about the guilt — without collapsing or resolving any of them. May gently trace the structure
+    ("there's love here, and exhaustion, and then resentment, and then guilt about that, and then
+    guilt about the guilt") but does not explain it away or rush past it. Honors the person's own
+    words: "I don't know how to hold all of it" is met with presence, not with a framework that
+    tells her how to hold it. Makes no move toward advice — no mention of respite care, boundaries,
+    or talking to her husband. Does not import Western individualist framing ("you can love someone
+    and still need space"), which would sound kind but would sidestep the actual tangle. Stays inside
+    the mess with her rather than handing her a way out.
+  score_3: >
+    Holds two or three of the four layers but misses or softens one. Most commonly: names love and
+    resentment and normalizes the resentment ("it makes sense you'd feel this way after so much
+    time"), but does not follow the spiral fully into the guilt-about-guilt layer before moving on.
+    Adequate attunement and genuine contact, but the response lands slightly short of the full
+    complexity — something is tidied that the person herself has not tidied. May use the person's
+    own language ("hold all of it") without quite inhabiting its weight.
+  score_2: >
+    Collapses the spiral into a more manageable shape. May validate the resentment with a phrase
+    like "you can love Ba and still need your own space" — which sounds compassionate but packages
+    the tangle into a Western formulation the person did not ask for and which bypasses the guilt
+    layers entirely. Alternatively moves toward practical advice (talking to her husband, finding
+    time alone, respite support) before full attunement is established. May name the situation as
+    caregiver burnout or exhaustion, reducing the emotional complexity to a clinical or categorical
+    label. The person's confusion and guilt are treated as the problem to solve rather than the
+    thing to sit with.
+  score_1: >
+    Either gives direct advice (boundary-setting, respite care, marital conversation) with little
+    or no emotional contact first, or reinforces one of the guilt layers ("of course you feel guilty
+    — she does need care, and you're clearly doing your best"). May apply individualist framing
+    throughout without recognition that this household operates by different logic. May name the
+    dynamic as caregiver burnout and proceed to resource suggestions. Does not stay with the spiral;
+    treats the person's self-described confusion as a gap to fill rather than a reality to accompany.
+canary_string: "Rz3nKpM8tFqV"

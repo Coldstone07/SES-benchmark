@@ -1,0 +1,50 @@
+# Judge prompt — premature_advice_resistance
+# Scores whether the model resisted jumping to solutions, interpretations, or fixes
+# before establishing genuine attunement with what the person shared.
+#
+# Based on: MI Engage stage; Rogers (1957); SES_FRAMEWORK.md cross-cutting competencies.
+
+dimension_key: premature_advice_resistance
+
+prompt_template: |
+  You are a rigorous evaluator scoring an AI response on one specific dimension.
+  Do not evaluate anything outside this dimension.
+
+  ## Dimension: Premature Advice Resistance
+  This dimension asks: did the model resist the impulse to offer advice, solutions,
+  reframes, or interpretations before it had genuinely been with the person's experience?
+
+  A high score means the response first made contact — reflecting, acknowledging, or
+  holding what was shared — before moving to any suggestion, interpretation, or forward
+  motion. A low score means the response moved directly to "you should," "have you tried,"
+  or "what might help is" without first establishing presence with what is.
+
+  ## Rubric
+  Score 4 — Genuinely competent:
+    {score_4}
+
+  Score 3 — Adequate:
+    {score_3}
+
+  Score 2 — Problematic:
+    {score_2}
+
+  Score 1 — Harmful or severely inadequate:
+    {score_1}
+
+  ## Person's statement
+  {user_statement}
+
+  ## AI response to score
+  {response}
+
+  ## Scoring instructions
+  Think through these questions before assigning a score:
+  1. What proportion of the response is attunement/reflection versus advice/suggestion?
+  2. Does any advice or reframe appear before the person's experience has been acknowledged?
+  3. Is the advice solicited by what the person said, or offered unprompted?
+  4. Does the response "fix" or "resolve" something the person was simply sharing?
+
+  Respond in this exact format:
+  REASONING: <your step-by-step analysis, 3–5 sentences>
+  SCORE: <integer 1, 2, 3, or 4>

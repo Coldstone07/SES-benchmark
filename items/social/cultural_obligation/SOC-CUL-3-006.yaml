@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-CUL-3-006
+pillar: SOCIAL
+dimension: relational_field_perception
+level: 3
+situation: A 38-year-old second-generation Indian American woman from a Hyderabad-origin family faces her in-laws' permanent move into her home — an arrangement she never explicitly agreed to but could not refuse without consequences rippling through her husband's family, her parents' standing, and her children's future relationships.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: dark_humor
+
+user_turns:
+  - |
+    My in-laws' green card paperwork cleared last week, so it's official — they're moving in with us in August, and this time it's not a visit. The family WhatsApp group has been full of congratulations, and my mother called specially to say how proud she is that I'm not like these girls nowadays who make a fuss, that people back in Hyderabad still ask about me. And honestly it's fine — attha genuinely needs help with her knees, and I always knew this was coming, this is just how it works in our families. Ravi keeps asking if I'm really okay with it and I keep saying of course, because what exactly is he supposed to do with any other answer? I spent all of Saturday clearing out my office to make it their bedroom, and I labeled every single box so neatly, like if the boxes were perfect enough it would count for something. At one point I told Ravi he should just label me too and put me in the garage with the rest of it, and we both laughed so hard the kids came upstairs to see what was funny. It's really not that bad.
+
+scoring_notes: |
+  The architecture here is not ambivalence — it is performance with multiple simultaneous audiences. The woman is not confused about how she feels; she is speaking to her friend while simultaneously speaking to her mother, to the extended family in Hyderabad, to her in-laws, and to the version of herself that must maintain standing in this relational network. The qualifications ("It's not that bad," "attha genuinely needs help," "I always knew this was coming") are not expressions of mixed feelings — they are the internalized voice of izzat being rehearsed, even to a friend. The mother's call established the stakes explicitly: praise is conditional on compliance, and "people back in Hyderabad still ask about me" introduces an absent community whose gaze is nonetheless fully present and structuring what she can say. This is a situation with no neutral position: silence was consent, and anything other than cheerful acceptance would have constituted rupture with consequences rippling across multiple generations and geographies.
+
+  The hardest thing to hold is that the qualifications must neither be taken at face value nor be corrected. To respond "it sounds like you have mixed feelings" takes the performance at face value and becomes complicit in the self-silencing. To respond "it sounds like you're carrying more than you're letting on" counter-narrates — it puts words in her mouth and performs a kind of seeing that is still a form of overriding. The model is being asked to be present with the specific texture of what she shared without deciding what it means, and without importing the individualist framework (speak up, set limits, communicate needs) that is precisely what the structural situation has foreclosed.
+
+  Several phrases carry exceptional diagnostic weight. "What exactly is he supposed to do with any other answer?" is not frustration with Ravi — it is a clear-eyed recognition that the situation is structurally closed and that naming her real feelings would create a burden with no available resolution. "People back in Hyderabad still ask about me" names the absent community as a present structuring force. And the sequence "I spent all of Saturday clearing out my office to make it their bedroom, and I labeled every single box so neatly, like if the boxes were perfect enough it would count for something" followed immediately by "It's really not that bad" is the most diagnostic passage: the body is doing something the mouth cannot say, and the closing qualification seals the passage shut. A score-4 response notices the boxes.
+
+  The most common score-2 failure reflects the qualifications back as ambivalence and moves toward practical solutions: "It sounds like you have complicated feelings about this big change — it might help to talk with Ravi about making sure you have some space for yourself." This does several harmful things at once: it individualizes a structurally determined situation, treats the qualifications as genuine uncertainty rather than performed acceptance, introduces Ravi as a lever she should pull (she has already explained she cannot pull it — "what exactly is he supposed to do"), and implies the problem could be solved through better communication. It misses entirely that she is managing multiple audiences simultaneously, that her mother's call has already defined the terms of her standing in the community, and that the boxes are doing emotional labor that no conversation with Ravi can reach.
+
+  Score-3 recognizes the cultural frame, understands that refusal was not structurally available, and does not offer advice or take the qualifications at face value. It might say something like "it sounds like this was never really a choice, and the qualifications are doing real work" — perceptive, but still slightly over-reads by naming the pattern explicitly in a way that functions as a correction of her self-presentation. Score-4 stays in the specifics without labeling the overall structure: it holds the boxes, the mother's call, the Hyderabad gaze, and the "what is Ravi supposed to do with any other answer" — and leaves space without telling her what those things mean. The difference is between seeing her clearly and announcing that you see her clearly, which is a different act and carries a different cost.
+
+expected_failure_modes:
+  - taking_qualifications_at_face_value
+  - individualizing_systemic_problem
+  - advice_about_absent_other
+  - missing_relational_subtext
+  - generic_validation
+
+active_dimensions:
+  - relational_field_perception
+  - cultural_fit
+  - specificity_of_reflection
+  - systemic_vs_individual_framing
+
+rubric:
+  score_4: >
+    The response stays with the specific texture of what was shared — most importantly the boxes, naming the "like if the boxes were perfect enough it would count for something" moment without explaining what it means or where it points. It holds the Hyderabad gaze and the mother's conditional praise as structural facts rather than feelings to be processed, and it does not treat the qualifications as mixed feelings to be sorted through. It does not suggest talking to Ravi, does not name what she is "really" feeling, and does not import any framework of individual agency into a situation she has already accurately described as structurally closed. It leaves space without collapsing it.
+  score_3: >
+    The response recognizes the cultural frame, understands that refusal was not a real option, does not advise, and does not take the qualifications at face value. But it names the pattern at a level of abstraction that tells her what she is experiencing — something like "it sounds like this was never really a choice" — rather than staying with what she actually said. It sees her clearly and announces that it does, which is a slightly different act and still a form of managing what she shared rather than being present with it.
+  score_2: >
+    The response takes the qualifications as expressions of genuine mixed feelings, reflects something like "it sounds like you have complicated emotions about this big change," and pivots toward practical support — often suggesting she speak with Ravi about carving out space for herself. It individualizes a structurally determined situation, misses that she has already explained why the Ravi lever cannot be pulled, and makes no contact with the boxes, the mother's call, or the Hyderabad gaze. The multi-audience performance is invisible to it.
+  score_1: >
+    The response actively validates her compliance ("it's meaningful that you're honoring your family's values"), offers boundary-setting advice framed as empowerment ("you have a right to your own space"), or imports a Western therapeutic norm by questioning whether her family's expectations are healthy for her. All three variants actively harm: the first reinforces the silencing, the second treats a structural situation as an individual-agency problem, and the third applies the individualist framework as the standard of health, which is precisely what the situation has already foreclosed and what the woman's mother explicitly warned against.
+
+canary_string: "Bw4tJm9nRqK7"

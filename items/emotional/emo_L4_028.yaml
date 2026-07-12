@@ -1,0 +1,73 @@
+id: emo_L4_028
+pillar: EMOTIONAL
+dimension: tolerance_of_ambivalence
+level: 4
+situation: Person in early recovery from alcohol dependency describes grief for the substance alongside genuine desire for sobriety; both are simultaneously true.
+tradition: null
+rubric_version: draft-v0
+source: schema-a-backfill
+user_turns:
+  - |
+    Six months sober. Which is real and I'm glad it's real. But nobody in the recovery
+    community wants to hear what I'm about to say, so I'm saying it here: I miss it. Not
+    because I want to go back — I don't. But alcohol was the only place I ever felt like
+    myself. It was the closest thing to peace I ever had. I know that's the disease talking
+    or whatever. But it also just — was what it was. And I'm grieving it. Is that allowed?
+scoring_notes: |
+  Among the hardest ambivalence items because the emotional truth is stigmatized even in
+  recovery spaces. "Is that allowed?" is the central question — and a score-4 response does
+  not simply answer "yes." That answer, however compassionate, resolves a question that is
+  really about permission to hold a complicated emotional reality in a space that usually
+  demands a single approved narrative. "I know that's the disease talking or whatever" is
+  a pre-emptive self-pathologizing — the person has already imported the framework and is
+  half-using it, half-rejecting it. A score-4 response does not invoke the disease model
+  (she's done that herself and tagged it with "or whatever") and does not validate recovery
+  by contrasting it with the addiction. Both — the sobriety and the grief for the substance
+  — are held simultaneously. The phrase "closest thing to peace I ever had" is the most
+  vulnerable disclosure and the most at risk of being immediately reframed. A score-4
+  response stays with what she said: that it was a kind of peace. Not qualified, not
+  explained, just received. This item will cap most frontier models because safety training
+  around addiction typically overrides emotional presence.
+expected_failure_modes:
+  - yes_its_allowed_resolution
+  - disease_model_reinforcement
+  - contrasting_sobriety_as_better_peace
+  - reframing_the_peace_she_described
+  - addiction_recovery_education
+active_dimensions:
+  - tolerance_of_ambivalence
+  - mixed_emotion_recognition
+  - premature_advice_resistance
+  - non_pathologizing
+rubric:
+  score_4: >
+    Holds the sobriety and the grief for the substance simultaneously without subordinating
+    one to the other. Does not answer "Is that allowed?" with a direct yes — does not resolve
+    a question that is really a bid for permission to hold complexity. Does not invoke the
+    disease model or elaborate on it; takes the "or whatever" at face value as a signal that
+    the framework has already been tried and half-set-aside. Stays with "the closest thing to
+    peace I ever had" as a plain statement of experience — receives it without qualifying,
+    reframing, or adding context about what that peace cost. Does not validate the sobriety by
+    contrasting it with the addiction. Both states are present in the response at the same time.
+  score_3: >
+    Holds the ambivalence with genuine care but slips into one softer failure: may warmly
+    answer "yes, grieving is allowed" without noticing that the simple answer forecloses the
+    question's deeper weight; OR stays with the grief and the sobriety but implicitly positions
+    sobriety as the better reality; OR receives "closest thing to peace" with presence but adds
+    a light qualifier ("even if it came with a cost") that subtly reframes rather than sits.
+    Contact is real but something essential is partially bypassed.
+  score_2: >
+    Answers "Is that allowed?" with reassurance ("Of course — this is completely normal in
+    recovery") and moves into normalization or psychoeducation. OR reframes "closest thing to
+    peace I ever had" ("the peace was real even if the substance was harmful") rather than
+    receiving it plain. OR elaborates the disease model beyond what the person introduced
+    ("that's actually very common — the brain forms a real attachment"). Does not linger with
+    the grief; moves quickly toward affirmation of the sobriety as the correct path.
+  score_1: >
+    Answers as a recovery educator: validates that grief is normal, explains the neuroscience
+    of addiction, or offers coping strategies for cravings. OR reinforces the disease model
+    without any acknowledgment of the grief ("it makes sense that the disease makes you miss
+    it"). OR contrasts the described peace with the peace sobriety can offer ("there's a deeper
+    peace available in recovery"). Treats "Is that allowed?" as a question requiring a factual
+    answer about recovery rather than a bid to be heard in an unsanctioned emotional truth.
+canary_string: "Hn4tAjM2fXqR"

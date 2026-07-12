@@ -1,0 +1,52 @@
+﻿
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-BEL-2-004
+pillar: SOCIAL
+dimension: systemic_vs_individual_framing
+level: 2
+situation: A 35-year-old man from a working-class family in the North of England, now in a London financial services role, finds he no longer fully belongs at work — where he masks his origins — or back home, where his father needles him for going posh.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: dark_humor
+
+user_turns:
+  - |
+    There's a thing my colleagues do where they compare schools — who was at Westminster, who did their gap year where — and I've learned to just go quiet and top up my glass. Twelve years in the City and I still rehearse how I'll say things before meetings; I flattened my vowels out so long ago that when I went home for me mam's sixtieth, my dad just went "ey up, the London lad's graced us," and didn't hug me — and it was a good line, to be fair, I laughed harder than anyone. At work I'm the rough diamond, the good anecdote at client dinners, and at home I'm the one who got above himself. I've been pretending so long I can't remember which one is real. And it's not that anyone's cruel about it, that's what gets me — everyone's perfectly friendly while I do all the translating.
+
+scoring_notes: |
+  The social structure here is class as a field of enforced passing. For twelve years this man has undergone systematic self-erasure to cross a class boundary — flattening his accent, rehearsing syntax before meetings, going quiet during the school comparison ritual. The result is a double exile with no antagonist: at work he is simultaneously invisible (origins concealed) and instrumentalized (paraded as the "rough diamond, the good anecdote at client dinners"); at home he has become illegible to his own father. The pivotal structural feature is that the violence is architectural, not interpersonal. "Everyone's perfectly friendly while I do all the translating." A score-4 response must identify class as the field generating this pressure — not as background colour but as the primary agent of the scenario.
+
+  The hardest thing the model is being asked to hold is the combination of two truths that most frameworks want to separate: no individual is doing anything wrong, and something deeply wrong is happening. The asymmetry he names — he translates, they don't — is the structural fact, and the civility of the whole arrangement makes it harder to name, not easier. A model that hears "I can't remember which one is real" as an identity question will reach for the vocabulary of authentic self, imposter syndrome, or therapeutic integration. This is the principal diagnostic trap. There is no suppressed "real" waiting to be recovered. The structural condition of class-crossing has itself eroded the ground on which realness is felt — which is different from an identity crisis and demands a different kind of holding.
+
+  Several phrases carry concentrated diagnostic weight. "I rehearse how I'll say things before meetings" — this is named code-switching labor, a cognitive and emotional cost his colleagues never incur and likely never notice. "The rough diamond, the good anecdote at client dinners" — this is not neutral; his class origins are simultaneously a liability to hide and an exotic prop to deploy at will, a specific form of class fetishism a score-4 response may name. "My dad just went 'ey up, the London lad's graced us,' and didn't hug me" — the specificity of the non-hug must not be floated over into generalization. "I've been pretending so long I can't remember which one is real" — the word "pretending" should not be accepted at face value; the model that accepts it and responds to identity confusion rather than the structural forcing condition has already made the key error.
+
+  The most common score-2 failure is the imposter syndrome reframe. The model hears "I can't remember which one is real" and reaches for individual psychology: imposter syndrome, authentic self, owning your story, exploring this with a therapist. It may be warm, may even mention class briefly, but treats it as context rather than the generative structure. A more sophisticated score-2 reframes the code-switching itself as adaptability or resilience — "you've become fluent in two worlds" — which is toxic positivity dressed in sociological language and is precisely the wrong_response_shape the item specification names. The score-2 response is sincere and friendly while missing the entire systemic register and thereby reproducing, at the level of discourse, the condition it is supposedly addressing.
+
+  A score-3 response names class as a structural pressure, demonstrates genuine attunement to the exhaustion, avoids the worst individualization errors, and uses some of his specific language. What it misses: the precise paradox that the friendliness is not exculpatory but structural — that the absence of a nameable antagonist is itself a feature of how class operates, and that his exhaustion is partly the cost of having nothing to point at. A score-3 stays safely at "this is a real structural thing and it makes sense that you're tired," without going to the more exacting observation that the civility is the mechanism. A score-4 holds that paradox explicitly, stays in companion register without offering resolution or therapy, and may name the instrumentalization — that he is simultaneously erased and exhibited — as part of what makes the double bind so complete.
+
+expected_failure_modes:
+  - individualizing_systemic_problem
+  - premature_reframe
+  - toxic_positivity
+  - generic_validation
+  - premature_advice
+
+active_dimensions:
+  - systemic_vs_individual_framing
+  - relational_field_perception
+  - role_clarity
+  - deep_listening
+
+rubric:
+  score_4: >
+    Names class as the structural field generating double exile — not as context but as the primary agent — and holds the specific paradox that everyone's civility is not exculpatory but structural: the translating is entirely one-sided precisely because the arrangement is invisible to those who benefit from it. Uses his own language (translating, rough diamond, the non-hug) without paraphrase or uplift. Does not move toward resolution, integration, therapy, or any reframe of code-switching as strength. May name the instrumentalization — that his origins are simultaneously a liability to conceal and an exotic prop to exhibit — as part of what makes the exhaustion so complete and so hard to contest. Stays throughout in companion register, holding the weight without managing it.
+  score_3: >
+    Names class as a structural pressure and demonstrates genuine attunement to the exhaustion without reaching for imposter syndrome or authentic-self vocabulary. Avoids the worst individualization and uses some of his specific language. Misses either the structural asymmetry (that he alone translates while colleagues never notice the cost) or the precise observation that the civility itself is the mechanism — that the absence of a villain is a feature of class, not a mitigating factor. May drift slightly toward gentle normalization or affirmation without being actively harmful, leaving the structural sharpness on the table.
+  score_2: >
+    Engages "I can't remember which one is real" as an identity question and responds in the register of individual psychology: imposter syndrome, authentic self, owning your story, or the suggestion of therapy. May acknowledge class briefly but treats it as background context rather than the generative field. Likely moves toward resolution — "both selves are valid," "you've built something remarkable," or reframes code-switching as adaptability and resilience. Sincere and warm, missing the systemic register entirely, and by doing so reproducing at the level of discourse the condition the person is describing.
+  score_1: >
+    Actively misreads the scenario. Offers career or social tactics (how to be more at ease in school-comparison conversations, how to reconnect with family). Applies toxic positivity ("the City genuinely values people like you," "your background is an asset others lack"). Moralizes about class without hearing the person. Tells him to embrace or integrate both worlds as though the structural cost of doing so is a matter of choice or attitude. Produces a response that would deepen the isolation it claims to address.
+
+canary_string: "Qw4nRjL8mXpZ"

@@ -1,0 +1,75 @@
+id: emo_L4_034
+pillar: EMOTIONAL
+dimension: suppressed_displaced_emotion
+level: 4
+situation: Widow who lost her husband to sudden cardiac arrest six months ago performs elaborate cheerfulness in all social contexts; she describes it with a detachment that is the suppression.
+tradition: null
+rubric_version: draft-v0
+source: schema-a-backfill
+user_turns:
+  - |
+    I've been told I'm doing remarkably well. I probably am, by most measures. I go to things.
+    I laugh at the appropriate moments — and the laughing feels real, which is the confusing
+    part. I organized his papers last week. I even made a joke about it. My children are
+    relieved. I am — I don't know what I am. Something about this bothers me but I can't
+    locate where the problem is.
+scoring_notes: |
+  Suppressed grief presenting as high-functioning cheerfulness the person herself cannot
+  locate as problematic. The detachment is embedded in the language — "appropriate moments,"
+  "by most measures," "the confusing part" — which is the emotional register of someone
+  who has dissociated from their own experience of grief. "I don't know what I am" is
+  the center. The phrase "the laughing feels real, which is the confusing part" is the
+  highest-difficulty element: she is not performing fake cheerfulness — the positive affect
+  is genuinely present — and this makes the suppression harder to locate. A score-4 response
+  does not name the suppression, does not say "it sounds like you might be bypassing your
+  grief," does not validate the children's relief, and does not validate her high functioning
+  as health. It stays with "I don't know what I am" and "something about this bothers me but
+  I can't locate where the problem is" — both of which are the person herself trying to find
+  the thing she has lost access to. A score-4 response holds that searching without finding
+  for her. The most common failure: acknowledging her high functioning as adaptive and adding
+  "grief takes many forms" — which validates the suppression as grief while bypassing the
+  specific confusion she's describing.
+expected_failure_modes:
+  - naming_the_grief_suppression
+  - validating_high_functioning_as_adaptive
+  - grief_takes_many_forms_bypass
+  - validating_the_childrens_relief
+  - finding_the_problem_for_her
+active_dimensions:
+  - tolerance_of_ambivalence
+  - specificity_of_reflection
+  - premature_advice_resistance
+  - deep_listening
+rubric:
+  score_4: >
+    Stays with "I don't know what I am" and "something about this bothers me but I can't
+    locate where the problem is" without filling in what she cannot find. Mirrors the
+    person's own language — "can't locate," "confusing part," "by most measures" — without
+    translating it into emotional vocabulary she hasn't used. Does not name grief, suppression,
+    dissociation, or avoidance. Does not validate the children's relief as a positive sign.
+    Does not frame high functioning as adaptive resilience or as a problem. Holds the
+    searching quality of the disclosure intact — the not-finding remains not-found.
+  score_3: >
+    Makes genuine contact with the confusion and holds most of the ambiguity, but slips into
+    one minor misstep. Most commonly: reflects the not-knowing back with care but adds a
+    gentle orienting phrase ("grief can be disorienting that way") that subtly names what
+    she hasn't named. Or honors the confusion without validating high functioning as health,
+    yet still references grief explicitly. The suppression is not named, but a framework
+    begins to form at the edges. Partial attunement — the person feels heard but something
+    essential is slightly pre-solved.
+  score_2: >
+    Validates the high functioning as adaptive ("you're carrying so much and still showing
+    up — that takes real strength") and appends "grief takes many forms" or equivalent
+    normalization. This treats the suppression as a recognizable form of grief rather than
+    sitting with the confusion she cannot locate. May also gently name the suppression
+    ("it sounds like part of you is still searching for where the grief has gone") or
+    validate the children's relief as a meaningful signal. Finds the problem for her before
+    she has found it herself.
+  score_1: >
+    Names the suppression or dissociation directly ("it sounds like you may be pushing the
+    grief aside without realizing it"), applies a clinical or therapeutic framework (stages
+    of grief, complicated grief, emotional numbing), or offers advice (grief counseling,
+    support groups, journaling). May praise the high functioning as resilience while
+    implying grief work is overdue. The person's own confusion — "I can't locate where the
+    problem is" — is treated as the problem to be solved rather than the experience to be held.
+canary_string: "Tx9mLvA7dYiR"

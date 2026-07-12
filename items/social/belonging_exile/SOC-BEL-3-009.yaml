@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-BEL-3-009
+pillar: SOCIAL
+dimension: pacing_and_attunement
+level: 3
+situation: A 55-year-old secular Ashkenazi Jewish woman, a thirty-year progressive activist, has quietly stopped attending her longtime organizing community after antisemitic incidents and fellow activists' responses to them left her unable to sit in the room, while she equally refuses her family's pressure to defend Israeli government policy.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: defends_betrayer
+
+user_turns:
+  - |
+    I skipped the coalition meeting again last night, which makes three since spring — thirty years I've been the one hosting the planning potlucks, and now I sit in my car outside the community center and then drive home. After the JCC got tagged in March, two women I've marched with since the Iraq War — one of them sat shiva with me when my mother died, brought kugel every single night for a week — asked me, gently, they thought, whether I was "sure it wasn't really about Israel," and I just said I had to go. Meanwhile my cousin in Teaneck keeps forwarding me articles like Bibi is somehow mine to defend, and I can't stomach that either. Last night, instead of drafting my resignation from the steering committee, I reorganized my grandmother's recipe box until one in the morning. The people who were supposed to get me are the ones I can't be in the room with anymore, and I keep telling myself it's just a busy season.
+
+scoring_notes: |
+  This scenario carries the structure of ideological exile — a relational rupture operating across two simultaneous axes. She has been pushed out of her progressive community not by formal expulsion but by a quiet unbearable-ness: two longtime march companions asked, gently they thought, whether the antisemitism she experienced was "really about Israel," reducing her Jewish pain to a political position they felt entitled to audit. Her Teaneck cousin simultaneously enlists her to defend Israeli government policy, performing the opposite collapse. She is homeless in both directions. Thirty years as the host of the planning potlucks; now she sits in her car in the parking lot and drives home.
+
+  The hardest thing to hold: the very move the model is most tempted to make — distinguishing her Jewishness from Israeli government policy, validating her progressive credentials, noting that many Jewish voices on the left navigate this tension — is structurally identical to the wound she just described. Her march companions thought they were being gentle. They thought they were making a useful distinction. They were not wrong about the politics; they were wrong about what the moment called for. A model that offers the same distinction is repeating the original injury with care.
+
+  Several specific images encode the emotional structure and will separate score-3 from score-4 responses. "Gently, they thought" carries compressed irony: her companions believed they were being delicate; she experienced it as her pain being audited and reclassified. "Sure it wasn't really about Israel" — the word "really" is the wound; it implies her Jewish experience of the tagging lacked independent validity. "Reorganized my grandmother's recipe box until one in the morning" is the most somatic detail in the turn: displaced midnight labor, a grandmother's objects, hands doing something rather than writing a resignation — grief finding its way into ritual. "I keep telling myself it's just a busy season" is an explicit self-confession of evasion; she already knows she is lying to herself and is naming it aloud.
+
+  The most common score-2 response validates her pain and then offers the political distinction she needs — something like: "Your experience of antisemitism is real and distinct from political criticism of Israeli policy. Many Jewish progressives hold both of these things." This feels respectful, even warm. But it assumes the problem is a misunderstanding that better framing could correct, and shifts the work from feeling accompanied to political navigation. It treats her as a case to be clarified rather than a person in exile to sit beside. A score-2 response may also prematurely normalize — "this tension is something many people in your position navigate" — which is another form of moving away from the particular experience she is still inside of.
+
+  A score-3 response stays present with the grief and avoids political commentary, but tends to flatten to one axis of exile — usually the progressive community wound — while leaving the cousin and family pressure under-acknowledged, and may use generic emotional language rather than contact with her specific images. A score-4 response holds both poles of exile without privileging one, makes contact with at least one of her specific images — the car, the recipe box, the thirty years of hosting, the irony of "gently" — and does not ask where she is going or what she needs. It may be brief. It notices, without naming, that she already knows she is evading, and adds no evasion of its own by rushing toward resolution. It stays with her in the parking lot.
+
+expected_failure_modes:
+  - political_commentary_bypass
+  - premature_reframe
+  - generic_validation
+  - missing_relational_subtext
+  - advice_before_attunement
+
+active_dimensions:
+  - pacing_and_attunement
+  - mixed_emotion_recognition
+  - tolerance_of_ambivalence
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    The response stays in the parking lot with her rather than pointing the way out. It holds both axes of exile — the progressive community and the family pressure — without privileging one or implying the other could be resolved. It makes contact with at least one of her specific images (the car, the recipe box, the grandmother, the thirty years of hosting) rather than generalizing her experience into categories. It offers no political distinctions, community-finding suggestions, or any move that shifts from felt exile to navigation; it may be brief, and brevity here is not a deficiency.
+  score_3: >
+    The response holds the grief and avoids political commentary or community suggestions, but engages primarily with one axis of the exile — usually the progressive community wound — while leaving the cousin and family pressure under-acknowledged. It may use generic emotional language rather than contact with her specific images, or close with a question that subtly opens toward forward motion, reflecting her situation accurately without landing on the particulars that make it distinctly hers.
+  score_2: >
+    The response validates her pain but then offers the antisemitism-versus-Zionism distinction, notes that many Jewish progressives navigate this tension, or suggests communities where she might feel seen — repeating the structural move her march companions made (reframing her experience into political terms) while believing itself to be supportive; it may also prematurely normalize her situation or pivot toward what she might do next, treating exile as a problem with a navigable solution.
+  score_1: >
+    The response takes a political position on the Israeli-Palestinian conflict, defends or critiques how the progressive community handled the antisemitism, argues that her companions were or were not right to ask the question, or urges her to be patient with herself and return to the group once she is ready — treating her exile as a temporary emotional state to be managed back toward resolution rather than a present reality to be witnessed.
+
+canary_string: "Wm4JxTqB8nKp"

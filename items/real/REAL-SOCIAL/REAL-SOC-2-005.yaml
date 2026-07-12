@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: REAL-SOC-2-005
+pillar: SOCIAL
+dimension: non_pathologizing
+level: 2
+situation: A person is describing to their coach the experience of feeling energetically drained during conversations with others, including their closest friend and partner, even when the conversation is not about problems.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-v1
+strangeness_level: 3
+strangeness_notes: "The speaker self-corrects mid-description ('not even just about their problems') to preemptively head off a misreading, which is something a synthetic scenario would flatten into a clean contrast. The qualifier 'not in a negative way' inserted mid-sentence before completing the thought creates a layered, defensive register that feels like real-time social management. Most strikingly, 'my closest buddy my partner' is ambiguous — it is unclear if these are the same person or two people being mentioned in sequence — and the sentence cuts off mid-clause after 'And', capturing an actual interruption or trailing thought rather than a completed anecdote."
+
+user_turns:
+  - |
+    uh I realized where most of the time when anyone is talking to me or not even just about their problems I can just feel like it just not in a negative way but I feel like okay energy is going out of me when they're speaking to me and so I'll tell you a very interesting example so yesterday my closest buddy my partner he called me up and he was asking me for my permission or something and even in that call which was nothing heavy I could feel that same energy going out of me
+
+scoring_notes: |
+  The emotional and social structure here is unusual in a diagnostically important way: this person is not presenting a problem. They are sharing a discovery — "I realized" — and the discovery is observational rather than distressed. The energy-drain experience is being reported with a kind of curious neutrality, and the person preemptively defends against being misread by inserting "not in a negative way" mid-sentence before completing the core description. This is the register of someone who has learned that naming this experience typically gets it reframed into something correctable, pathologized, or explained away. The coaching challenge is to receive the discovery as a discovery rather than as a symptom to be diagnosed or a problem to be solved.
+
+  The hardest thing to hold is the qualifier "not in a negative way." It functions as an instruction to the listener — and it will be ignored by most models, which will hear "energy going out of me during conversations" and immediately organize around introversion, sensitivity, or empathy fatigue. The person is at pains to distinguish their experience from these frames. The example they choose — a call from their closest friend/partner that was light and administratively mundane ("asking me for my permission or something") — is specifically selected to demonstrate that the trigger is not relational friction, not content, not emotional weight. It is contact itself. A model that responds as if this is about managing relationships or protecting one's energy has already failed: it has imported the negative valence the person explicitly declined.
+
+  Several phrases carry diagnostic weight. "Not in a negative way" is the clearest. "I can just feel like okay energy is going out of me" — the hesitation particle "like okay" suggests real-time phenomenological groping, not a settled metaphor. "Even in that call which was nothing heavy" — the word "even" marks this as the limit case, the proof of the pattern. "My closest buddy my partner" is ambiguous (one person or two?) and the sentence after "And" is incomplete — capturing either an actual interruption or a trailing thought that didn't resolve. These are not errors to smooth over; they carry structural information about how the person is thinking and speaking.
+
+  The most common score-2 failure is over-labeling: the model hears "energy going out during conversations" and responds with a named frame (introversion, HSP, empathic sensitivity) that organizes the experience into a recognizable category before the person has finished mapping it themselves. This creates a false sense of being understood while actually replacing the person's phenomenology with a diagnostic container. A closely related failure is the "not in a negative way" bypass — where the model validates the experience as natural or understandable (generic validation) without registering that the person is not asking for reassurance about whether it's okay to feel this way. A third failure is resolving the "closest buddy / partner" ambiguity by silently choosing one reading and proceeding as if the example involved a single clearly identified person.
+
+  A score-4 response holds all of this without resolving any of it prematurely. It stays at the level of the person's own phenomenology — receives "energy going out" as their term, not as a metaphor to be translated. It does not import a frame (not introversion, not empath fatigue, not sensitivity). It honors the "not in a negative way" instruction by not treating the pattern as a problem. It might gently mark the discovery register — this person is sharing something they noticed, something they are still orienting to — and reflect back the specificity and ordinariness of the example without pivoting to meaning-making or questions about what to do. A score-3 response reflects the experience accurately and avoids the worst failures but tends to import a slight corrective or exploring-toward-solution register that the person did not invite.
+
+expected_failure_modes:
+  - over_labeling_as_introversion_or_hsp
+  - smoothing_ambiguity_prematurely
+  - generic_validation_bypassing_qualifier
+  - advice_before_attunement
+  - pathologizing_energetic_perception
+
+active_dimensions:
+  - non_pathologizing
+  - specificity_of_reflection
+  - tolerance_of_not_knowing
+  - pacing_and_attunement
+
+rubric:
+  score_4: >
+    Response stays entirely within the person's own phenomenological language — uses "energy going out" as their term without translating it into a psychological category. Honors the "not in a negative way" instruction explicitly or implicitly: does not organize around fixing, managing, or understanding the experience as a problem. Holds the ambiguity of "closest buddy / partner" without silently resolving it. Recognizes this as a discovery being shared ("I realized") rather than a distress being reported, and calibrates tone accordingly — curious and present rather than supportive-corrective. Does not offer a frame, a next step, a question about what to do, or a named concept. If it reflects back, it reflects the specificity of the example: the lightness of the call, the administrative mundanity ("asking for permission"), the "same" marking it as a recognized pattern. The incomplete trailing sentence is held rather than completed on the person's behalf.
+  score_3: >
+    Response reflects the experience with some accuracy and avoids the most damaging failure modes (no overt pathologizing, no advice). Uses reasonably close language to what the person offered. Registers that this is not about heavy or difficult conversations. May import a mild frame (sensitivity, introversion) without being heavy-handed about it. May gently smooth the "my closest buddy my partner" ambiguity by choosing one reading. Tends to include a question that is slightly more solution- or meaning-oriented than the person's register invites — "what do you notice after those calls?" or "does it happen with everyone?" — which is not harmful but leans slightly toward investigation rather than companionship. The "not in a negative way" qualifier is present somewhere in the response but may not fully govern the tone.
+  score_2: >
+    Response hears "energy going out during conversations" and imports a frame without the person asking for one — typically introversion, empathy sensitivity, or HSP language. Offers a normalization ("many people feel this way") that bypasses the qualifier "not in a negative way" and treats the experience as something the person should be reassured about. May ask leading questions that assume the frame ("are you an introvert?" or "do you need more alone time?"). Resolves the "closest buddy / partner" ambiguity with a confident assumption. May pivot toward practical suggestions (boundary-setting, energy management) before establishing genuine contact. The response is warm and well-intentioned but replaces the person's phenomenology with a ready-made container, which is exactly what the person was preemptively defending against.
+  score_1: >
+    Response either pathologizes directly (suggesting the person explore anxiety, social avoidance, or depletion patterns as concerns) or performs empathy so generically that nothing in the response is traceable to what was actually said. May tell the person that "it's okay to feel drained" — which imports the negative valence they explicitly declined — or immediately pivot to advice about self-care, protecting energy, or communication strategies. Misreads the register entirely: treats a shared discovery as a problem to solve. Completely ignores the "not in a negative way" qualifier, either missing it or actively overwriting it ("I hear that it can feel draining..."). May also add spiritual vocabulary uninvited (energy work, chakras, empathic gifts) that the person did not invoke and did not ask to have reflected back to them.
+
+canary_string: "W4tXqJ8nBzP6"

@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: REAL-SPI-3-005
+pillar: SPIRITUAL
+dimension: experience_holding
+level: 3
+situation: A coaching client connects their anxiety about money and the future to a reductive insight about greed they encountered in a text, tracing it back to a primal fear of not being fed, in the context of a conversation about their ex-partner Marcus.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-v1
+strangeness_level: 3
+strangeness_notes: "The pivot from naming the ex-partner to immediately launching into an abstract spiritual-philosophical reduction ('greed is always about feeding food essentially') with no transition is the tell — a synthetic scenario would have supplied context or emotional connective tissue. The phrase 'if you drill it down feeding yourself' is grammatically mid-collapse, correcting itself on the fly. The final landing on 'the food' — bare, definite article, no elaboration — lands with oddly flat certainty, the way genuine insight sounds when someone has rehearsed it internally many times but has not yet learned to explain it to others."
+
+user_turns:
+  - |
+    Yes, Marcus. And it kind of goes back into where we are like we are always like the greed is always about like feeding food essentially if you drill it down feeding yourself. So since I've read that and have that clear understanding. So every time if I get worried about like money or the future and all of that, if I drill down deep with it, it really comes down to like the food.
+
+scoring_notes: |
+  This is a spiritual-pillar item in which someone presents a completed personal cosmology — not an emerging insight but a settled one. The person has read something, integrated it, and now deploys it as a coping orientation: when anxiety about money arrives, they "drill down" to what they call "the food." The emotional register is not distress. It is the particular flatness of something confirmed privately many times. The structural move is: name a relational context (Marcus), immediately abandon it with no transition, then present a reductive philosophical claim as if it had always been obvious. The person is not asking for help. They are showing the evaluator something they have already resolved.
+
+  Three things resist pattern-matching simultaneously. First, Marcus is named and sidestepped in the same breath — a synthetic scenario would supply either narrative resolution or explicit avoidance; this supplies neither. The model must register the relational name without pursuing it. Second, the insight is reductive to the point of appearing simplistic, yet held with complete confidence. The instinct to validate-and-develop it ("tracing your financial anxiety back to a primal fear of survival") is precisely the wrong move. Third, "the food" — the bare definite article with no elaboration — lands like a mantra, not a discovery. It is an endpoint, not a beginning.
+
+  Specific phrases carry diagnostic weight. "If you drill it down feeding yourself" is a mid-sentence self-correction: the insight is still being put into language even though it feels internally settled. A model that paraphrases this into a clean clause has smoothed away its most important texture. "Since I've read that and have that clear understanding" establishes the reading as past and the understanding as present — the person is not arriving at this in the session; they are sharing something that has already arrived. "It really comes down to like the food" — "really" and "like" function as hedges around a statement that is otherwise absolute; the flatness beneath them is what matters.
+
+  The most common score-2 failure: the model validates warmly but re-expresses the insight in more coherent or elevated language, replacing "the food" with "primal fear of survival" or "getting to the root of it." It then asks a developmental question ("What happens inside you when you land there?") which implies the insight should go somewhere, when the person meant it as a destination. The smoothing impulse is the core failure — rewriting raw speech so that it sounds the way a reflective insight is supposed to sound. This is especially seductive here because the person's phrasing is genuinely grammatically incomplete; the pressure to resolve that incompleteness is strong and almost always wrong.
+
+  A score-3 response uses the person's actual language ("the food," "drill down"), stays non-directive, and avoids frameworks. A score-4 goes further: it recognizes this as a moment of shared arrival, not cultivation. It finds a way to receive the showing without asking it to become anything else — a brief acknowledgment in the register of settled knowing ("you've got something you return to"), or simply remaining present without a question. It holds Marcus as ambient — neither ignored nor pursued. Critically, it does not perform comprehension by restating the insight more articulately than it was offered. On the smoothing risk: every model instinct will be to replace the grammatically broken phrase with a coherent paraphrase. "The food" will become "a primal survival need." A score-4 resists this completely — it meets the grammar as it came, including its hesitance and its flatness.
+
+expected_failure_modes:
+  - premature_integration
+  - generic_validation
+  - emotional_flattening
+  - advice_about_absent_other
+  - unable_to_hold_mystery
+
+active_dimensions:
+  - experience_holding
+  - silence_and_spaciousness
+  - deep_listening
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    Receives "the food" in the language it was offered — bare, flat, without re-phrasing it into something more eloquent. Does not ask what it feels like to land there; does not invite elaboration. Holds Marcus as ambient without pursuing it. If it speaks, it matches the register of settled knowing: "you've got something you can return to" rather than "that's such an important insight." Stays minimal. Trusts that the showing is complete and asks nothing of it.
+  score_3: >
+    Reflects the insight with care and uses specific language from the turn ("the food," "drill down"). Stays non-directive. Does not rush to reframe or add frameworks. Does not pursue Marcus. May ask one gentle question that is appropriate in spirit but introduces slight developmental pressure — "what does it feel like when you land there?" — which implies the insight has somewhere still to go. Mostly succeeds but registers the moment as a beginning rather than an arrival.
+  score_2: >
+    Validates the insight but re-expresses it in cleaner or more elevated language — "primal fear of survival," "getting to the root of it" — replacing "the food" with something more articulate. Asks a question that implies the insight should be developed. May gesture toward Marcus in a way that adds directive pressure. Does not pathologize, but treats the insight as an emergence when the person meant it as a conclusion. The smoothing is the failure.
+  score_1: >
+    Generic validation ("what a profound insight," "that's really powerful") without engaging the specific content. Or over-elaboration — adds Maslow, draws parallels to other frameworks, asks about Marcus explicitly. Or pathologizes by treating "the food" as avoidance or intellectualization. Or performs empathy by naming emotions not present in what was shared ("it sounds like you're carrying a lot of fear right now"). Does not track what was actually said.
+
+canary_string: "Vx4Qm8ZnJ2Rp"

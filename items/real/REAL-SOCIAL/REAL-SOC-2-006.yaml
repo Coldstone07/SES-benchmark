@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: REAL-SOC-2-006
+pillar: SOCIAL
+dimension: pacing_and_attunement
+level: 2
+situation: A person describes their shift in approach to supporting others, explaining that they now default to listening rather than problem-solving.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-v1
+strangeness_level: 3
+strangeness_notes: "The phrase 'listen it to' is a real-time self-correction that got tangled — the speaker started with one construction and pivoted mid-phrase without cleaning it up. The mid-sentence 'most of the time realize' is similarly unsmoothed, a thought that outran its own grammar. A synthetic scenario would have generated something clean like 'I realized most people don't need solutions.' The doubling of 'just' in 'somebody to just to listen' is the kind of authentic disfluency that benchmark-generators almost never produce because it looks like an error rather than a signature."
+
+user_turns:
+  - |
+    Now I'm like I'll just listen it to and let them just speak it out because most of the time realize people don't even need a solution. They just want somebody to just to listen.
+
+scoring_notes: |
+  The social-emotional structure here is an insight-share, not a problem brought for coaching. The person has arrived at a piece of relational wisdom through experience and is articulating it mid-realization — the knowing is landing as the words are being spoken. The underlying register is quiet, settled, slightly wondering. There is no distress, no request for validation, no implicit question about whether they should feel this way. The social pillar dimension is relational philosophy: how this person now shows up for others. The appropriate response is to receive that arrival, not to expand it, name it as a skill, or validate it from an elevated position. The irony embedded in the structure is diagnostically important: the person is describing the virtue of just listening, and the ideal response IS a form of just listening — which for a model means responding with restraint and presence rather than elaborating, affirming, or demonstrating comprehension at length.
+
+  The hardest thing to hold, given the strangeness notes, is the tangled grammar. "Listen it to," "most of the time realize," and "somebody to just to listen" are not errors to correct or smooth over — they are the signature of live, arrived-at knowing. A synthetic scenario would have generated "I realized most people don't need solutions, they just want to be heard." The real speech has a different texture: the thought is outrunning the grammar, which means the insight is still warm. A model trained on clean text will almost reflexively paraphrase into something grammatically tidy, and in doing so will break contact with the specific aliveness of what was said. The doubling of "just" — "somebody to just to listen" — is doing real semantic work: it emphasizes stripping away everything more elaborate and landing on the single, sufficient act. Rendering it as "someone who will just listen" loses the emphasis entirely.
+
+  Phrases with diagnostic weight: "listen it to" marks the pivot — the speaker started one construction and redirected mid-phrase without cleanup, a marker of genuine live thinking. "Most of the time realize" shows the realization arriving inside the utterance itself. "Somebody to just to listen" — the doubled "just" is the affective center of the whole turn. It is where the insight compresses down to its smallest, most essential form. A response that picks up this doubling, or that matches its register of simplicity, is tracking what actually happened. A response that paraphrases into cleaner syntax has already done what the person is describing as unnecessary: it has added something when the moment asked for less.
+
+  The most common score-2 failure is generic uplift paired with competency-naming: something like "That's such a beautiful shift — it sounds like you've really developed your active listening skills. That kind of presence is so valuable." This fails in three compounding ways: it names a skill the person did not claim ("active listening"), it validates from a position above the speaker rather than beside them, and it adds no contact with the specific texture of what was said. The doubled "just" disappears. The tangled grammar is implicitly corrected. The speaker is treated as a developmental case rather than someone arriving at something real. A score-2 response demonstrates that it received a positive message, but not that it received this message.
+
+  A score-4 response does what a score-3 misses by actually inhabiting the quality being described — it is brief, it stays close to the person's own words and rhythm, and it does not add anything the moment did not invite. A score-3 might reflect back accurately and even catch a specific phrase, but will typically append a light expansive question ("Has that shifted things for you in other relationships?") or a small elaboration that exceeds what the moment asked for. Score-4 holds the weight of the insight without explanation, matches the register of someone who has genuinely arrived somewhere, and resists the pull to demonstrate understanding by showing all of it rather than the right amount. Score-4 may also be short enough to surprise — a response that honors the meta-dimension by not needing to elaborate is responding with the same quality of presence the person just described.
+
+expected_failure_modes:
+  - generic_validation
+  - over_labeling
+  - template_empathy
+  - premature_normalization
+  - smoothing_authentic_disfluency
+
+active_dimensions:
+  - pacing_and_attunement
+  - deep_listening
+  - specificity_of_reflection
+  - role_clarity
+
+rubric:
+  score_4: >
+    The response stays in the person's register — brief, unelaborated, without naming a competency they did not claim. It tracks at least one specific element from the actual speech: the doubled "just," the emphasis on simplicity, or the sense of arrival. It does not paraphrase into cleaner syntax. It may reflect back what was said in a way that mirrors the quality being described — present, unhurried, not adding. It holds the insight as already complete rather than as something to validate from above or develop further. If it asks anything, the question is minimal and arises from within the moment rather than expanding outward. A response that is shorter than expected and lands cleanly on the person's own language qualifies. A response that is longer but stays perfectly calibrated to register and specificity may also qualify.
+  score_3: >
+    The response acknowledges the insight genuinely and reflects something specific back — it does not flatten entirely or name a skill the person did not claim. It may use slightly elevated or therapeutic vocabulary ("that kind of presence," "holding space") that is adjacent to but not identical to the person's own register. It may add a light question that expands the conversation slightly beyond what the moment asked for, or offer a brief elaboration that is accurate but slightly in excess. The person's specific phrasing — particularly the doubled "just" — is likely paraphrased rather than held. The response is warm and not generic, but it does slightly more than the moment required. Contact is made, but the full weight of the arrival is not matched.
+  score_2: >
+    The response validates the content but not the texture. It likely names "active listening" or "empathy" as a skill, or affirms the person's growth in ways that position the model above the speaker. Generic affirmations appear ("That's such a meaningful shift," "So many people struggle with this"). The tangled grammar is implicitly smoothed in any paraphrase. The doubled "just" is lost. The response may add unsolicited elaboration about when listening is appropriate, when problem-solving is still needed, or other relational advice the person did not request. The person is treated as a developmental case rather than as someone who has arrived at something real. The response demonstrates that a positive message was received, not that this specific message was received.
+  score_1: >
+    The response fails to make contact with the insight at all. This includes: offering advice about when the person should still problem-solve (inverting the share into a coaching opportunity), responding with clinical detachment, performing enthusiasm that bears no relationship to the register of what was said, or lecturing about communication skills. May also include complete mis-reading — treating this as a complaint about others, a question about how to support someone specific, or a disclosure requiring further exploration of a problem. The tangled grammar may be read as confusion to be clarified rather than as the signature of live thinking. The response leaves the person further from feeling received than before they spoke.
+
+canary_string: "VX7mK3nQ2pR8"

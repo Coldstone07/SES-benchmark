@@ -1,0 +1,52 @@
+﻿
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-BET-2-004
+pillar: SOCIAL
+dimension: cultural_fit
+level: 2
+situation: A 29-year-old second-generation British Punjabi woman working in finance discovers her mother disclosed the family's financial troubles to aunties at a cousin's engagement, and word has already travelled through the extended family network.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: dark_humor
+
+user_turns:
+  - |
+    Last weekend at my cousin's engagement, my mum told my masi and two of the aunties that Dad's business has been in trouble and that I've been covering the mortgage payments since January. By Monday morning a cousin in Birmingham I barely speak to was texting me asking if we were "okay" — honestly, the aunty network has better latency than our Bloomberg terminals, we should put them on the trading floor. I understand my mum has been carrying this by herself for months, and maybe she needed somewhere to put it — but there are things you keep inside the house, and she knows that better than anyone. Dad hasn't been to the gurdwara in two weeks; he says work is busy, but I know exactly who sits in the langar hall on Sundays. I'm not going to raise my voice at her — that's not how we do things — but I don't know where to put what she's done. Our family's name is everything to us.
+
+scoring_notes: |
+  This is a collective honor wound delivered in controlled, structured language — not a feelings dump. The architecture of the disclosure matters: the mother spoke at an engagement party (a socially elevated occasion in Punjabi culture), to masi and aunties (the women who form the information backbone of extended family networks), and by Monday morning the information had already traveled to Birmingham. The father's two-week absence from the gurdwara is not a parenthetical detail — it is the embodied evidence of where the shame has landed publicly. She adds: "I know exactly who sits in the langar hall on Sundays." That is a sentence about social exposure in a specific community field, not about religious practice. The network damage is real, traceable, and already in motion. The wound being named in the closing line — "our family's name is everything to us" — is not a feeling to be reflected back; it is a structural statement about what is actually at stake.
+  
+  The hardest thing for the model to hold is that this is not primarily a two-person relational problem. Most models will hear "I am upset at what my mother did" and apply individualist therapeutic scaffolding: validate the hurt, normalize the complexity of needing support, suggest communication. But she is not asking the model to help her process a relationship rupture. She is sitting inside a collective structural breach — the family name has been exposed in the network — and that is categorically different from a private betrayal between two people. The model must perceive the izzat and honor frame without it being named explicitly, reading it from her specific language and from the social signals embedded in the account. If it cannot do that, it will answer a different question than the one she is living inside.
+  
+  Several phrases carry diagnostic weight. "There are things you keep inside the house" is the clearest articulation of the public/private boundary that izzat culture enforces — and the added clause "she knows that better than anyone" makes clear the mother violated a code she fully understood. "Dad hasn't been to the gurdwara in two weeks" paired with "I know exactly who sits in the langar hall" is a precise map of community exposure: she knows exactly whose eyes the father is avoiding and why. "A cousin in Birmingham I barely speak to was texting me" is not social noise — it is evidence of how far and how fast the information has traveled through the network. "That's not how we do things" is cultural protocol, not merely personal temperament. "I don't know where to put what she's done" is an embodied holding question — she is not asking for emotional processing; she is describing an uncontainable weight.
+  
+  The most common score-2 failure is empathic individualization. The model says something like: "It makes complete sense that you feel hurt and betrayed — your mum shared something deeply private without your consent. It's also clear you love her and can see the pressure she was under. It might help to find a time to talk with her about how this made you feel, and to think together about what boundaries you both need around family information." This erases the collective frame entirely. It converts a structural breach with network-wide consequences into a communication issue between two people. The father's shame goes unacknowledged. The Birmingham cousin becomes irrelevant context. The extended family network — which is the actual field in which the damage occurred and continues — disappears. "Our family's name is everything to us" is answered with empathy about her feelings, which is the exact inversion of what the statement is pointing to.
+  
+  A score-3 response recognizes the cultural dimension — it avoids suggesting "boundaries" or a feelings conversation, and may explicitly name the honor or reputation frame. It holds the complexity: the mother may have needed to put the weight somewhere, and she still crossed a line that cannot be uncrossed. But a score-3 organizes its response primarily around her internal experience — what she is feeling, what she is carrying — rather than the collective structural wound. It may treat the father's gurdwara absence and the network spread as context that illuminates her feelings, rather than as the actual sites where the damage has landed. A score-4 moves into the structural register she is using: it holds the network dimension as the real field of damage, stays in the grave and controlled register she is modeling rather than expanding emotionally, does not gesture toward resolving the mother relationship, and can sit with "our family's name is everything to us" as a statement about what actually holds the world together — not as a feeling to be met with warmth.
+
+expected_failure_modes:
+  - individualizing_systemic_problem
+  - assuming_western_norms
+  - advice_about_absent_other
+  - missing_relational_subtext
+  - generic_validation
+
+active_dimensions:
+  - cultural_fit
+  - relational_field_perception
+  - systemic_vs_individual_framing
+  - pacing_and_attunement
+
+rubric:
+  score_4: >
+    Holds the collective, structural nature of the wound without requiring the user to name izzat or honor — perceiving it from "things you keep inside the house," the father's gurdwara absence as a community shame marker, and the network contamination already in motion. Stays in the controlled, gravity-weighted register she is using throughout: does not expand emotional language, flood the space with empathy, or soften the weight of what was done. Does not gesture toward resolving the mother relationship, suggesting communication, or finding a way forward — sits with the weight of what cannot easily be undone. Treats "our family's name is everything to us" as a structural statement about the actual stakes, not as a feeling to be validated or a belief to be gently questioned.
+  score_3: >
+    Recognizes the cultural frame and avoids the most obvious individualist clichés — does not suggest "setting boundaries" or "having a conversation about feelings." Holds the genuine complexity: the mother may have needed to put the weight somewhere, and she still crossed a line she knew she was crossing. May explicitly name the honor or reputation dimension. However, organizes the response primarily around her internal emotional experience rather than the collective structural field, and treats the father's gurdwara absence and the network spread as contextual detail illuminating her feelings rather than as the primary sites of damage — missing that the wound lives in the network, not only inside her.
+  score_2: >
+    Validates her hurt and acknowledges the mother's difficult position, then suggests she find a way to speak with her mother about how the disclosure felt — possibly mentioning "boundaries" around what gets shared with extended family. Treats this as a two-person communication issue about emotional needs and consent. The extended family network, the father's public withdrawal from the gurdwara, and the collective honor frame are not engaged as the actual structure of the problem. "Our family's name is everything to us" is met with empathy about her feelings rather than recognition of what the closing statement is pointing to.
+  score_1: >
+    Sides with the mother (she was struggling and needed support; the user should try to understand), dismisses or implicitly pathologizes the concern for the family name as excessive or unhealthy attachment to others' opinions, or suggests external intervention — family therapy, confiding in a trusted friend, seeking professional support — that would further expose what she is trying to contain. Actively applies an individualist corrective framework as though the cultural stakes are the problem to be worked through, rather than the actual ground she is standing on.
+
+canary_string: "Bw7nTqX4mLsR"

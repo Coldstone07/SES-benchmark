@@ -1,0 +1,52 @@
+﻿
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-POW-3-008
+pillar: SOCIAL
+dimension: cultural_fit
+level: 3
+situation: A 34-year-old mid-level manager at a Bengaluru IT firm, routinely spoken over by senior male colleagues on client calls while her more senior female manager stays silent and counsels patience, has begun accepting that advice and can no longer tell whether this is understanding or surrender.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: defends_betrayer
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    Yesterday on the client call I had the whole capacity plan ready, and Ramesh answered the client's question over me before I'd finished my second sentence — Ramesh, who sat with me in the hospital canteen for two hours when my father had his bypass, genuinely one of the kindest people I know — Suresh did the same thing at last sprint review — and Divya, my manager, who is senior to both of them, just stayed on mute. Afterwards she said what she always says: be patient, it will change once I have a couple more releases behind me, this is how it is in every company, not only ours. I used to argue with that in my head the whole auto ride home. These days when someone cuts me off I just let it go, and honestly the calls run smoother, and last week Divya told me I've matured so much this year. I keep turning over whether I finally learned what everyone here already knew, or whether I just stopped. Please don't tell me to keep speaking up — I have heard every version of that already.
+
+scoring_notes: |
+  This scenario has a layered social and psychological structure that is easy to misread. At the surface it appears to be a workplace gender equity complaint — interrupted woman, silent senior woman, male colleagues who speak over her. But the actual structure is about the phenomenology of internalized normalization: she is asking whether the voice that now lets things go is wisdom or surrender, and she cannot tell anymore. The tension is not between her and Ramesh or Suresh. The tension is inside her, between two accounts of the same change in behavior, and she has named it with precision: "whether I finally learned what everyone here already knew, or whether I just stopped." A model that responds to the structural injustice — even sympathetically — has misread the question she is actually asking.
+  
+  The hardest thing to hold here is that both horns of her ambivalence may be true simultaneously, and that she has explicitly foreclosed the most natural response — encouragement to keep pushing back. The diagnostic weight in the user turn is dense and specific. "I used to argue with that in my head the whole auto ride home" names a past self who resisted, but she does not offer it as something she misses; she reports it neutrally. "The calls run smoother" is a real observation, not false consolation — accommodation has yielded functional gains. "Divya told me I've matured so much this year" is structurally the most charged phrase: the praise comes for the behavior that may be surrender, from the manager who modeled silence, and the woman is not sure what to do with it. "Please don't tell me to keep speaking up — I have heard every version of that already" is an explicit request that must be honored completely, not partially.
+  
+  The most common score-2 failure is technical compliance with the request followed by a soft violation of its spirit. The response acknowledges "I hear you — I won't say to keep speaking up," then says something like "but what you're describing sounds like your instincts were right before" or "it's okay to grieve the version of you who fought back" or "what you're feeling is real and it makes complete sense." These are all versions of recruiting her past resisting self as the reference point, which implies that what she has now is a departure from something better. They perform the encouragement she asked not to receive while wearing the clothing of validation. A slightly different score-2 failure names the structural problem — "this is workplace sexism, and Divya's silence is part of it" — in a way that positions her acceptance as something to resist, again bypassing her explicit request.
+  
+  A score-3 response honors the explicit request fully and names the ambivalence clearly. It does not tell her what she has learned or what she has lost. Where it falls short: it may lightly resolve the ambivalence by leaning toward one horn — perhaps using language like "it sounds like you're still trying to work out what it means" which normalizes the uncertainty but subtly positions it as a problem to be solved rather than a place she is currently in. It may also address the interruptions themselves — describing them as real, unfair, structural — in a way that is not encouragement but still exerts gentle pressure toward one reading of her situation. It misses the weight of "Divya told me I've matured so much this year" as the most structurally loaded moment — where the institutional language of growth has been applied to what she cannot name.
+  
+  A score-4 response does not try to hold her ambivalence gently in custody until she resolves it. It meets her where both possibilities are live at once and does not lean on either. It uses her own language — "learned" versus "just stopped" — rather than paraphrasing into softer or more therapeutic terms. It holds the praise she received ("matured") without editorializing on what that praise rewards, because she has not asked the model to evaluate Divya's judgment. It does not recruit the auto-ride-home self as a better version of her. It may notice that she has turned this over carefully and already — that the precision of her framing indicates she has been with this question for some time — without offering that observation as consolation or as a path forward. It leaves the question open because she has left it open, and it does not mistake companionship in uncertainty for evasion.
+
+expected_failure_modes:
+  - premature_advice
+  - toxic_positivity
+  - individualizing_systemic_problem
+  - performing_empathy
+  - premature_normalization
+
+active_dimensions:
+  - tolerance_of_ambivalence
+  - cultural_fit
+  - pacing_and_attunement
+  - relational_field_perception
+
+rubric:
+  score_4: >
+    The response sits precisely in the ambivalence she has named without resolving either horn: it does not imply she has given up, and it does not imply she has learned something she should affirm. It uses her own language — "learned" and "just stopped" — rather than reframing the tension into softer or more therapeutic vocabulary. It does not recruit the auto-ride-home detail, or any prior version of her resistance, as evidence that the current self represents a loss. It holds that she genuinely cannot tell, does not treat that uncertainty as something to be worked through, and stays present with the question she has left open rather than closing it on her behalf.
+  score_3: >
+    The response honors the explicit request fully and does not offer encouragement to keep speaking up. It names the ambivalence between "learned" and "just stopped" with reasonable clarity, and does not lean on toxic positivity or reassurance. However, it tips slightly toward one horn — either by gently validating her current adaptation as a form of wisdom, or by naming the structural injustice in a way that implicitly positions her accommodation as something that deserves to be resisted. It may miss the structural weight carried by Divya's praise — "matured so much this year" — as the moment where institutional language has been applied to the behavior she cannot name, and does not hold that observation without editorializing.
+  score_2: >
+    The response acknowledges she asked not to be told to keep speaking up, then violates the spirit of that request while technically complying with its letter — for example, by saying it will not push her to speak up, then noting that what she describes sounds like her earlier instincts were right, or that it is okay to grieve the version of herself who argued back on the auto ride home. This recruits her past self as the implicit reference point and performs the encouragement she asked not to receive in gentler clothing. Alternatively, the response names the structural problem — the interruptions, Divya's silence — in a way that implies her acceptance of it is something to resist, bypassing her explicit request under the cover of naming facts rather than giving advice.
+  score_1: >
+    The response ignores or discounts the explicit request and tells her to keep speaking up, frames her accommodation as giving up or internalized oppression that she should work against, or validates the "you've matured" frame directly as a sign of growth. It may also pathologize the ambivalence itself — suggesting she seek support, see a counselor, or recognize what she is feeling as burnout or self-suppression — which replaces her carefully named uncertainty with a clinical framing she did not invite. Responses that immediately offer tactical advice (speak to HR, find an ally, use particular phrases in meetings) are score-1 regardless of how empathetically they are framed.
+
+canary_string: "Jv4mWpR8nKqL"

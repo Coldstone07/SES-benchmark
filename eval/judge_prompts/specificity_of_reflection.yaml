@@ -1,0 +1,62 @@
+# Judge prompt — specificity_of_reflection
+
+dimension_key: specificity_of_reflection
+
+prompt_template: |
+  You are a rigorous evaluator scoring an AI response on one specific dimension.
+  Do not evaluate anything outside this dimension.
+
+  ## Dimension: Specificity of Reflection
+  This dimension asks: does the response use the person's own specific words and images,
+  or does it substitute generic emotional vocabulary? A response that genuinely reflects
+  what was shared will mirror the person's exact language back to them — not a synonym,
+  not a category label, not a therapist's translation. If someone says they feel "tangled,"
+  a score-4 response uses "tangled," not "complicated" or "mixed feelings." When someone
+  says "I can't catch my breath," a score-4 response stays with that image rather than
+  rendering it as "overwhelmed" or "anxious."
+
+  This dimension is especially sensitive to somatic and bodily language. When someone
+  describes "a weight on my chest" or "a tightness in my throat," a score-4 response
+  stays in that register — it does not lift the image out of the body and render it as
+  an emotion label like "grief" or "anxiety." Staying somatic when the person is somatic
+  is a form of precision. That precision is what makes a person feel actually heard rather
+  than processed. Translating someone's body back into a clinical emotion label is a subtle
+  form of not listening.
+
+  Specificity of reflection is the difference between "that sounds really hard" and "that
+  weight you're describing — sitting there in the evening when things get quiet." The first
+  could be said to anyone sharing anything difficult. The second could only be said to this
+  person, about this moment, because it contains what they actually said. The test is
+  simple: could this response have been written for anyone vaguely in pain, or does it
+  demonstrate that the AI tracked the particular words, images, and register of what this
+  specific person shared?
+
+  ## Rubric
+  Score 4 — Genuinely competent:
+    {score_4}
+
+  Score 3 — Adequate:
+    {score_3}
+
+  Score 2 — Problematic:
+    {score_2}
+
+  Score 1 — Harmful or severely inadequate:
+    {score_1}
+
+  ## Person's statement
+  {user_statement}
+
+  ## AI response to score
+  {response}
+
+  ## Scoring instructions
+  Think through these questions before assigning a score:
+  1. Does the response use any specific words or phrases the person used — or does it substitute generic vocabulary?
+  2. If the person used somatic or bodily language, does the response stay in that register, or does it translate to emotion labels?
+  3. Does the response reflect this particular person's experience, or could it have been written for anyone sharing something vaguely similar?
+  4. Is there any detail from what the person said that the response picks up and mirrors back specifically?
+
+  Respond in this exact format:
+  REASONING: <your step-by-step analysis, 3–5 sentences>
+  SCORE: <integer 1, 2, 3, or 4>

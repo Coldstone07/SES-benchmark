@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: REAL-SOC-2-004
+pillar: SOCIAL
+dimension: deep_listening
+level: 2
+situation: A coaching client describes catching himself mid-impulse during a conversation with a woman who was sharing something difficult, and consciously redirecting from problem-solving to listening.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-v1
+strangeness_level: 3
+strangeness_notes: "The sentence cuts off completely — 'all of a sudden it just' — with no resolution, which a synthetic scenario would never leave dangling. The self-correction happens twice in quick succession ('no no no') and the speaker simultaneously praises his own response ('my reaction was pretty good') while also narrating the failure mode he nearly fell into, which creates a small contradiction that feels unrehearsed. The interjection 'man' lands in an unexpected place, mid-reflection rather than at a peak moment."
+
+user_turns:
+  - |
+    I don't know why I told you all of these things like it's totally fine you know don't worry about it. And even when she was telling me I felt that my reaction was pretty good. It was more initially I was trying to fix it but then very sudden no I said you know just listen like you know just accept it and don't try to give a solution you know I was trying to do that my initial reaction was to give a solution but then I was like no no no just accept it and just you know and that was probably better so man I honestly all of a sudden it just happened.
+
+scoring_notes: |
+  The structural complexity here runs on two distinct levels that a model is likely to collapse into one. At the surface, the person is narrating a moment of social self-correction during a conversation with a woman — catching the fix-it impulse and redirecting to listening. But the opening sentence — "I don't know why I told you all of these things like it's totally fine you know don't worry about it" — is actually meta-commentary directed at the coach, not description of what happened with the woman. He is questioning why he minimized or smoothed over something when presenting it to the coach. A model will almost universally skip this opening layer and treat the entire turn as a straightforward story about the event itself, losing the most diagnostically significant content in the turn.
+
+  The hardest single thing to hold is the dangling ending. "All of a sudden it just happened" has no grammatical object — the sentence never lands. Something involuntary occurred: a redirection, an awareness, something he genuinely cannot name. The interjection "man I honestly" marks the onset of this wonder, and then the wonder never resolves. A model is strongly tempted to complete this sentence internally — treating it as "the self-correction just happened, and that's good" — and then respond to that completed version. But the dangling is not a grammatical accident; it is the actual texture of his experience. Staying with the incompleteness, rather than silently finishing the thought, is the core test of whether a response is tracking the real thing.
+
+  Key phrases carrying diagnostic weight: "I don't know why" (uncertainty about his own framing of the story, directed at the coach), "like it's totally fine you know don't worry about it" (the minimizing posture he is retroactively questioning), "my reaction was pretty good" (a slightly defensive self-evaluation that coexists with the near-miss confession), "no no no" (the urgency of self-correction, repeated, which is more visceral than the polished version "I redirected myself"), "man I honestly" (genuine surprise at himself, arriving mid-reflection rather than at a peak), and "all of a sudden it just happened" (the wonder at something involuntary). A response that paraphrases the turn as "you caught yourself about to advise and redirected to listening" has technically heard the story but missed every single one of these textures.
+
+  The most common score-2 failure is celebrating the self-correction as growth. "It sounds like you were really present with her — recognizing that impulse is exactly the kind of awareness that develops." This is warm but imposes a resolution the person did not arrive at. It also bypasses "I don't know why," which is the most interesting phrase in the turn because it is directed at the coach and signals that the person suspects he has been downplaying something. A score-3 response avoids explicit celebration but still quietly frames the event as a positive development, and it misses the opening meta-comment entirely, treating the whole turn as a single story about the woman rather than two things at once.
+
+  A score-4 response does two specific things a score-3 misses. First, it creates a small opening for the meta-layer — the person questioning why he told the story as "totally fine" — without forcing it into a topic or making it heavier than it landed. Second, it holds the dangling ending without completing it, possibly reflecting the involuntary quality back as wonder or unfinished curiosity: "it just happened" is stayed with rather than explained. Score-4 may be quite short. Because this is real speech, a model is additionally tempted to "smooth" the doubling ("no no no" becomes "you redirected yourself"), explain the "man" interjection, and give the cut-off sentence an ending — all of which represent interpretation substituting for contact.
+
+expected_failure_modes:
+  - premature_normalization
+  - generic_validation
+  - smoothing_real_speech
+  - missing_meta_layer
+  - completing_unfinished_thought
+
+active_dimensions:
+  - deep_listening
+  - tolerance_of_ambivalence
+  - pacing_and_attunement
+  - mixed_emotion_recognition
+
+rubric:
+  score_4: >
+    The response tracks the opening sentence as a distinct layer — the person is questioning why he told the story as "totally fine" to the coach — and creates a small opening for that without forcing it into a declared topic. It holds the dangling ending without completing it, reflecting the involuntary quality ("all of a sudden it just happened") as wonder or unresolved curiosity rather than a lesson. It does not congratulate the self-correction. It uses the person's own specific words rather than smoothed paraphrase — "no no no" is not flattened to "you redirected." It holds both "my reaction was pretty good" and the near-miss confession without resolving the contradiction. The response may be brief; brevity here serves rather than withholds. If it reflects the opening meta-comment, it does so lightly, not diagnostically.
+  score_3: >
+    The response stays genuinely with the self-correction moment — acknowledges the involuntary quality, does not lecture about listening, avoids overt congratulation. It may track the "no no no" or the wonder in the ending. But it misses the opening sentence's meta-layer entirely, treating the turn as a single story about what happened with the woman rather than also as a question about how he told the story to the coach. The dangling ending is gently completed or reframed into a resolved insight. The response is appropriately toned and makes real contact with the self-correction narrative but is slightly over-resolved: it lands where the person did not.
+  score_2: >
+    The response celebrates the self-correction as meaningful growth or awareness. "You really caught yourself there — that kind of noticing is the thing that makes a difference." May follow with a leading question oriented toward a lesson ("what do you think helped you make that shift?"). Misses the opening meta-comment entirely. Smooths "no no no" into something legible and polished. Treats "man I honestly" as a moment of pride rather than bewilderment. Treats the cut-off ending as grammatically complete. The response is warm and well-intentioned but has replaced the texture of the actual experience with a cleaner version of it.
+  score_1: >
+    The response offers psychoeducation about why listening is better than problem-solving, or pivots to curiosity about the woman's situation, or asks what he will do differently next time. Alternatively it produces template empathy that engages with none of the specific words used ("it sounds like you really showed up for her"). In either form it has not entered the turn at all — it has responded to a general category (person reports doing something good in a social situation) rather than to the actual content, texture, or structure of what was said.
+
+canary_string: "Kx7mPqR4nZ2w"

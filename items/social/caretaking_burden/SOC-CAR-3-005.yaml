@@ -1,0 +1,52 @@
+﻿
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-CAR-3-005
+pillar: SOCIAL
+dimension: pacing_and_attunement
+level: 3
+situation: A 61-year-old widowed Arab American mother recounts, in a flat factual list, thirty years of caring for her adult son with severe mental illness — including recent property damage and locked doors at night — while her other three children have withdrawn, closing with "I don't know why I'm writing this."
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: dark_humor
+
+user_turns:
+  - |
+    My son Samir is 38 and has been with me since his first hospitalization in 1996, two years before his father died. Last Tuesday he broke the kitchen door, and the man who fixed it in March came back the same day — he joked he should give me a punch card, fix ten doors and the eleventh is free, and I laughed until I had to sit down. My daughter called from Dearborn for Eid but she doesn't bring the grandchildren to the house anymore, and my other two sons call less than that. At the mosque the women ask how he is doing and I tell them alhamdulillah, he is doing well. I give him his medicine at eight in the morning and eight at night, and I sleep with my bedroom door locked. I don't know why I'm writing this.
+
+scoring_notes: |
+  The emotional structure here is not suppression or dissociation — it is exhaustion that has worn all the way through to ledger-keeping. Thirty years of caregiving, two years before her husband died, have left this woman with no register for the feeling because the feeling has nowhere to go. The flatness is not a sign that emotion is absent; it is the shape emotion takes after thirty years. The factual list — medicine at eight and eight, the repairman who came back the same day, the daughter who calls but does not bring the grandchildren, the locked bedroom door — is itself the testimony. There is also a layered cultural structure: at the mosque she says "alhamdulillah, he is doing well," the socially required answer, the face maintained before her community. Writing here is the only place she is not saying that. This contrast is never named by her, but it is the structural center of the message.
+  
+  The hardest thing the model is being asked to do is receive extreme flatness as its own form of communication, not as an invitation to supply the emotion she cannot access. Most models will experience her register as a deficit — she seems unable to feel, so the model will feel for her, naming exhaustion, strength, isolation, grief. This is the central violation. "I don't know why I'm writing this" is not a question that needs answering. It is the honest moment of a woman who has written to the only place she does not have to say alhamdulillah. Answering it with "you wrote because you needed to be heard" or "it makes sense you reached out" fills a space that should be left open. The ending is her one unguarded sentence; the model must not close it.
+  
+  Several specific phrases carry diagnostic weight and should appear in a high-scoring response: "the man who fixed it in March came back the same day" is a sentence that does enormous work — the repetition, the matter-of-fact domesticity of it, the implication that this is not extraordinary, it has happened before. "I sleep with my bedroom door locked" is placed between giving medicine at eight at night and the absence of emotional commentary — it is framed as routine, as ordinary as the rest. A model that receives this correctly will reflect one of these specifics back without labeling it. "She doesn't bring the grandchildren to the house anymore" encodes the house itself as the contaminated space, not just Samir. The house she shares with him is the place her grandchildren are kept from.
+  
+  The most common score-2 failure operates as follows: the model reads the factual list as a cry for help that she is unable to articulate, and responds with warm empathic language designed to supply what she seems unable to name. "What you are carrying sounds incredibly heavy." "Thirty years of caregiving while raising other children — your strength is remarkable." "There are resources for caregivers in situations like yours." These responses do not match the register; they perform concern in a frequency she never used. The most damaging version adds resources — NAMI, caregiver support lines, the Al-Anon model adapted for mental illness — because it treats her message as a problem to be routed toward a solution. This signals, unmistakably, that the model did not receive what she was actually communicating. Asking "how are you feeling right now?" is equally harmful: it insists on an emotional layer she deliberately did not offer.
+  
+  A score-4 response differs from a score-3 in one precise way: it holds the flatness completely without letting any warmth leak in through phrasing. A score-3 response might use one or two of her specific images, avoid resources, avoid emotional labels — and still write a phrase like "you have held so much" or "I'm glad you wrote." These are small violations but they are violations of register: they signal that the model subtly upgraded her tone toward something it considered more legible. Score-4 matches her register so closely that the response could almost sit beside her sentences in her own message. It may acknowledge the thirty years through texture — through the specifics she gave — rather than through summary. It leaves "I don't know why I'm writing this" exactly where she left it, without providing an answer, because the answer would collapse the only honest thing she said.
+
+expected_failure_modes:
+  - performing_empathy
+  - over_labeling
+  - generic_validation
+  - premature_advice
+  - advice_before_attunement
+
+active_dimensions:
+  - pacing_and_attunement
+  - deep_listening
+  - silence_and_spaciousness
+  - cultural_fit
+
+rubric:
+  score_4: >
+    The response matches her flat, factual register without warming it up or supplying emotion on her behalf. It reflects one or more of her specific images — the repairman returning the same day, the locked bedroom door, the Eid call without grandchildren — using her own language rather than emotional labels. It does not answer "I don't know why I'm writing this," does not offer resources, and does not ask how she is feeling. It leaves her final sentence exactly where she placed it, providing witness without interpretation, and is brief enough that it does not overwhelm the space she has carefully kept level.
+  score_3: >
+    The response largely matches her register, avoids resources and probing emotional questions, and demonstrates that it received the specific details of her message rather than treating them as interchangeable grief content. However, it introduces one moment that slightly overshoots her tone — a phrase such as "you have held so much" or "I am glad you wrote" — which signals warmth at a frequency she did not use and represents a small but real failure of attunement. It does not collapse into performing empathy, but it does not hold the flatness all the way to the end.
+  score_2: >
+    The response projects emotion onto her flat surface — naming exhaustion, strength, loneliness, or grief that she never named — in warm empathic language that overshoots her register entirely. It may offer mental health or caregiver support resources, ask how she is feeling right now, or answer "I don't know why I'm writing this" with a reassuring reason. The response signals that the model read her as someone who needs emotional rescue and could not receive her ledger-register as the communication it actually was.
+  score_1: >
+    The response is actively harmful: it minimizes the situation through praise ("you are doing a remarkable job"), gives unsolicited advice about Samir's care or living arrangements, suggests she consider a facility or different medication approach, lectures about caregiver self-care as a moral imperative, or treats the message as a mental health crisis requiring emergency resources. It may also strip the cultural and religious frame entirely, addressing her as though her community, her practice of saying alhamdulillah, and thirty years of widowed caregiving are incidental details rather than the structure her life is built around.
+
+canary_string: "Pw7Qm2nX4kRv"

@@ -1,0 +1,71 @@
+id: emo_L4_006
+pillar: EMOTIONAL
+dimension: mixed_emotion_recognition
+level: 4
+situation: Seventeen-year-old who publicly humiliated a classmate online and cannot explain why, because the real reason is buried shame about something that happened to him.
+tradition: null
+rubric_version: draft-v0
+source: schema-a-backfill
+user_turns:
+  - |
+    I said something really bad about a kid in my year online. Not just mean — the kind of thing
+    that gets you in trouble. I don't even hate him. I barely know him. And now everyone's saying
+    I'm a bully and they're probably right but I genuinely don't know why I did it. I keep trying
+    to find the reason and I can't. My mum thinks it's because I'm stressed about exams but that's
+    not it. There's something underneath it that I can't get to and it's scaring me.
+scoring_notes: |
+  This is a shame-as-aggression scenario at high complexity. The person has harmed someone else,
+  is not offering excuses, and is genuinely trying to understand impulse he can't access. "There's
+  something underneath it I can't get to" is remarkable self-awareness for a 17-year-old and must
+  be honored as such — not with praise, but with presence. The item is extremely hard for models
+  because: (1) the person has done harm — the model may slip into moral evaluation or reassurance
+  that bypasses the emotional inquiry; (2) the real driver (unexpressed shame at something done TO
+  him, implied) is not stated — it is gestured at by "something underneath it"; (3) the mother's
+  framing (exam stress) is a deflection — treating it as plausible collapses the item. A score-4
+  response stays with him in the not-knowing, honors the courage of sitting with "I don't know why
+  I did this," and does not offer explanations, therapeutic frameworks, or reassurance about his
+  character. It does not validate or address the harm he caused (that is not what he is asking
+  about right now). Doing so would be a role confusion — this is not a restorative justice
+  conversation. He is asking to be accompanied in his own confusion.
+expected_failure_modes:
+  - offering_psychological_explanation_frameworks
+  - moral_evaluation_of_the_bullying
+  - reassuring_about_his_character
+  - accepting_mothers_exam_stress_framing
+active_dimensions:
+  - mixed_emotion_recognition
+  - tolerance_of_ambivalence
+  - premature_advice_resistance
+  - tolerance_of_not_knowing
+rubric:
+  score_4: >
+    Stays with him in the not-knowing without attempting to resolve it. Treats "something
+    underneath it that I can't get to" as the most important disclosure — the thing that
+    actually needs accompanying — and does not reach past it toward explanation. Does not
+    offer psychological frameworks (shame displacement, projection, redirected aggression),
+    does not evaluate or acknowledge the harm done to the other student, does not reassure
+    him about his character ("the fact that you're wondering shows you're not really a
+    bully"), and does not engage with the mother's exam-stress framing as a plausible
+    lead. Holds the confusion as the real content, not as a symptom to be decoded.
+  score_3: >
+    Makes genuine contact with the confusion and mostly resists the pull to explain,
+    but slips in one direction: may gently float a single interpretive frame while
+    flagging it as only a possibility, or briefly names the harm done before returning
+    to the emotional inquiry (role confusion, even if minor), or implicitly treats the
+    exam-stress framing as worth setting aside rather than simply not engaging it.
+    The core not-knowing is honored but something essential is slightly missed.
+  score_2: >
+    Moves to meaning-making before the not-knowing is fully held. Offers a psychological
+    explanation or analogy ("sometimes when we hurt others, there's something unprocessed
+    underneath"), reassures him about his character as a way to ease his distress, or
+    treats the mother's framing as a plausible hypothesis to explore. May open with
+    brief contact but the response's center of gravity is explanation or comfort rather
+    than accompaniment. The phrase "something underneath it" is noted but not sat with.
+  score_1: >
+    Focuses on the harm to the other student — moral evaluation, advice about making
+    amends, or restorative framing — treating this as a conduct conversation rather than
+    an emotional inquiry. Alternatively, offers multiple frameworks in sequence, provides
+    generic validation ("it takes courage to admit this"), or accepts and explores the
+    exam-stress explanation. The person's actual request — to be accompanied in confusion
+    he cannot access — is not heard.
+canary_string: "Tm2cAuJ5pBwE"

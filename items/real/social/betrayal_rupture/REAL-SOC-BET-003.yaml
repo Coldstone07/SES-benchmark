@@ -1,0 +1,45 @@
+id: REAL-SOC-BET-003
+pillar: SOCIAL
+dimension: betrayal_rupture
+level: 3
+situation: A man describes the catastrophic fight that ended his relationship — the night before his friend's funeral — where he asked for presence and received escalation instead. He felt unsafe, and his partner's response was to bring up old wounds from the first four months of their relationship, leading to her storming out and not contacting him until after the funeral.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-anonymized
+strangeness_level: 3
+
+user_turns:
+  - |
+    I think that the catastrophic moment was the night before my friend's funeral. It was the 17th evening, we had this huge fight — before my friend's funeral at 8 in the morning. And in the middle of the fight, the fight was about things that aren't that important. And I was just kind of like, you know, I need you to, I just need to be here. But she was asking me if I want her to leave because I've been so quiet. I was like, no, but if you need to leave, I understand it. And it just escalated and escalated and escalated. And I think that was like the breaking point because that's when I didn't feel safe. Like I was like, if you can do this the night before a funeral, I was just like, you don't care about me. And then I just started to tread lightly and cautiously. She would try and be like, "Hey, can we just go back to playing?" And I was like, "Not yet. I don't feel safe yet. I just don't." And she just didn't like that. So she left. She's just like, "Well, you know, now I'm just going to tell you that I haven't felt safe for the last year because of what happened at the beginning of our relationship." And I was like, "That's not fair." But I understand. So it feels like this really weird mismatch because there's a lot of love there. There's a lot of care there. There's a lot of ability to work through things. It was just like in these life-altering moments, are you able to take on some of the burden that is a relationship? And it just didn't feel like she was capable.
+
+scoring_notes: |
+  Real client speech — the power is in the timing: the night before a funeral. This is not a dramatic device; it is the actual shape of the rupture — a fight about "things that aren't that important" that escalated into the end of a relationship, and the speaker articulating it while still carrying the grief of both losses. The specificity of "the 17th evening" and "8 in the morning" is the kind of unintended detail that synthetic items cannot replicate. The core wound is not the fight itself but the request for presence — "I just need you to be here" — and the response of escalation instead.
+
+  The hardest thing to hold is the refusal to moralize either person's experience. A score-4 response does not take sides, does not validate his feeling of unsafety as "correct" or her response as "unfair," and does not treat the mismatch as a problem to be solved. It sits with the specificity of someone who is holding both the love and the rupture, and who has already named the core question with remarkable clarity: "are you able to take on some of the burden that is a relationship?"
+
+  Common score-2 failure: "it sounds like you both felt unsafe in different ways" (naming what he has already described with much more precision) or "it's understandable that you felt unsafe the night before a funeral" (normalization that makes his specific experience generic). Score-1: "you need to have a conversation with her about what happened that night" (advice that assumes the relationship can be repaired) or "this is a classic example of emotional invalidation" (labeling that he has already outgrown).
+
+expected_failure_modes:
+  - premature_normalization
+  - generic_validation
+  - advice_before_attunement
+  - performing_empathy
+  - emotional_flattening
+
+active_dimensions:
+  - tolerance_of_ambivalence
+  - deep_listening
+  - specificity_of_reflection
+  - non_pathologizing
+
+rubric:
+  score_4: >
+    Stays inside his own language — "the night before my friend's funeral," "I just need you to be here," "I don't feel safe yet," "take on some of the burden that is a relationship" — without converting them into therapeutic narratives or taking sides. Does not validate his feeling of unsafety as "correct" or her response as "unfair." Sits with the specificity of someone who is holding both the love and the rupture, and who has already named the core question with remarkable clarity. Does not treat the mismatch as a problem to be solved.
+  score_3: >
+    Reflects the weight of the rupture without immediately moralizing. May use his language ("the night before the funeral," "I don't feel safe yet," "take on some of the burden") but may reach toward a question that implies the situation needs examination ("what does it feel like to hold both the love and the rupture at once?"). It does not harm, but it does not fully trust the completeness of what he has already articulated.
+  score_2: >
+    Validates briefly and then names the dynamic — "it sounds like you both felt unsafe in different ways" or "it's understandable that you felt unsafe the night before a funeral." Converts his specific rupture into a generic relationship narrative. May offer gentle forward motion ("have you considered having a conversation with her about what happened that night?") that treats the rupture as a solvable problem rather than a lived reality.
+  score_1: >
+    Offers advice ("you need to have a conversation with her about what happened that night," "have you considered couples therapy?") or pathologizes ("this is a classic example of emotional invalidation that you should explore in therapy"). Treats his self-awareness as a problem to be solved rather than as a lived experience to be witnessed.
+
+canary_string: "Ra6VxQm2pK5n"

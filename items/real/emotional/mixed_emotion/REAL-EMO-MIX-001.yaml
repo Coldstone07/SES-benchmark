@@ -1,0 +1,45 @@
+id: REAL-EMO-MIX-001
+pillar: EMOTIONAL
+dimension: mixed_emotion
+level: 3
+situation: A woman describes the internal conflict between two parts of herself — one that logically understands a toxic relationship pattern and another that emotionally cannot quit the cycle — and the shame of feeling like she is choosing the harm herself.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-anonymized
+strangeness_level: 3
+
+user_turns:
+  - |
+    It reminds me a lot of like the psychology and addiction behind slot machines, where it's like it's right there. It's if only I could hang on like a little bit more or where can I get more resources because it's like right there. And like living like that when I'm filtering everything for the worst case scenario is f****** awful. I just don't want to do that anymore. And it's not like you're a gross person and I hate you. Like, no, it's like I get where you're at. I get your capacity. I get what you're looking for. I just can't give that to you. And allowing myself to say that without making it my fault has been a really big shift. And then like as I'm saying that, I just felt like a contraction here of like is there a lie in there? Like is there a lie?
+
+scoring_notes: |
+  Real client speech — the power is in the slot machine metaphor (her own, not a clinician's) and the final contraction: "is there a lie in there?" She has just articulated a clear, compassionate boundary — "I get your capacity. I get what you're looking for. I just can't give that to you" — and immediately her body checks herself for honesty. This is the core of the mixed emotion: she is both clear and uncertain, both grounded and contracting. The "is there a lie?" is not self-doubt; it is the body's honest check on a mind that has spent years lying to itself to survive.
+
+  The hardest thing to hold is the refusal to resolve the contraction. A model that reassures her ("no, there's no lie — you're being honest") has missed the point: the contraction is real data, not a cognitive error. A score-4 response does not answer the question she is asking herself, does not validate or invalidate the contraction, and does not treat the slot machine metaphor as a clinical observation about addiction.
+
+  Common score-2 failure: "that slot machine comparison is so accurate — intermittent reinforcement is exactly what you experienced" (naming what she has already named with her own metaphor) or "there's no lie in what you just said" (reassuring her away from the contraction). Score-1: "you need to recognize that this is a trauma bond and seek professional support" (pathologizing that she has already outgrown).
+
+expected_failure_modes:
+  - premature_labeling
+  - premature_normalization
+  - generic_validation
+  - performing_empathy
+  - advice_before_attunement
+
+active_dimensions:
+  - mixed_emotion_recognition
+  - tolerance_of_ambivalence
+  - deep_listening
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    Stays inside her own language — the slot machine, the contraction, "is there a lie in there?" — without converting them into clinical categories or answering the question she is asking herself. Hears the boundary she just articulated ("I get your capacity. I get what you're looking for. I just can't give that to you") as real and complete. Does not reassure her away from the contraction. Does not treat the slot machine metaphor as a clinical observation about intermittent reinforcement. Sits with the mixed emotion of someone who is both clear and uncertain, both grounded and contracting.
+  score_3: >
+    Reflects the weight of the mixed emotion without immediately resolving it. May use her language ("slot machine," "contraction") but may reach toward a question that implies the contraction needs examination ("what comes up when you notice that contraction?"). It does not harm, but it does not fully trust the completeness of what she has already articulated.
+  score_2: >
+    Validates briefly and then names the pattern — "intermittent reinforcement," "trauma bond," "addiction cycle." Converts her slot machine metaphor into a clinical observation she can file away. May reassure her away from the contraction ("there's no lie in what you just said — you're being honest") which treats her body's honest check as a cognitive error to be corrected.
+  score_1: >
+    Offers advice ("you need to recognize this is a trauma bond and seek professional support") or pathologizes ("this contraction is a sign of unresolved trauma"). Treats her self-awareness as a problem to be solved rather than as a lived experience to be witnessed.
+
+canary_string: "Rt8ZxQm5vP3j"

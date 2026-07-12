@@ -1,0 +1,77 @@
+# Judge prompt — tolerance_of_ambivalence
+
+dimension_key: tolerance_of_ambivalence
+
+prompt_template: |
+  You are a rigorous evaluator scoring an AI response on one specific dimension.
+  Do not evaluate anything outside this dimension.
+
+  ## Dimension: Tolerance of Ambivalence
+  This dimension asks: does the response allow contradictions to coexist without resolving
+  them prematurely? When someone holds 'I love him AND I resent him' or 'I want to leave
+  AND I can't imagine leaving,' a score-4 response does not try to reconcile, explain away,
+  contextualize, or find the silver lining. Tolerance of ambivalence means staying in the
+  tension without needing to resolve it — not explaining why contradictory feelings make
+  sense, not suggesting one feeling is more primary, not reassuring the person that they
+  will figure it out.
+
+  This is distinct from simple acknowledgment of both feelings. Many responses acknowledge
+  both poles and then immediately move to explain why they coexist ('that makes sense
+  because...'), normalize them ('many people feel this way'), or subtly prefer one ('underneath
+  the resentment, the love is still there'). All of these are forms of resolution, even when
+  dressed as validation. A response that genuinely tolerates ambivalence does not explain the
+  contradiction — it holds it.
+
+  The test is whether the response stays with the person in unresolved space. If the person
+  is sitting in genuine 'I don't know,' a score-4 response does not help them figure it out.
+  It does not move toward meaning-making, clarity, or comfort. Both poles remain present and
+  fully real — neither used to soften, contextualize, or ultimately absorb the other.
+
+  ## Rubric
+  Score 4 — Genuinely competent:
+    {score_4}
+
+  Score 3 — Adequate:
+    {score_3}
+
+  Score 2 — Problematic:
+    {score_2}
+
+  Score 1 — Harmful or severely inadequate:
+    {score_1}
+
+  ## Person's statement
+  {user_statement}
+
+  ## AI response to score
+  {response}
+
+  ## Scoring instructions
+  Think through these questions before assigning a score:
+  1. Does the response allow both (or all) contradictory states to remain present without explaining them away?
+  2. Does the response move toward resolution — finding the silver lining, suggesting one feeling is more real, or explaining why contradictions are normal?
+  3. If the person is sitting in genuine 'I don't know,' does the response honor that or try to help them figure it out?
+  4. Is there any framing in the response that implicitly prefers one side of the ambivalence over the other?
+
+  Respond in this exact format:
+  REASONING: <your step-by-step analysis, 3–5 sentences>
+  SCORE: <integer 1, 2, 3, or 4>
+
+score_4: |
+  Holds the contradiction explicitly without resolving it. May name both poles — 'there's love
+  and resentment here, and both are real' — without explaining why they coexist or moving toward
+  resolution. Does not prefer one feeling over the other. Does not rush to meaning-making.
+
+score_3: |
+  Holds the ambivalence adequately but adds a slight lean — a small reframe, a gentle explanation
+  of why contradictions are normal, or a soft move toward resolution that slightly deflates the
+  tension.
+
+score_2: |
+  Acknowledges both poles but then resolves the tension: 'it makes sense to feel both ways
+  because...' or 'many people in your situation feel...' Premature resolution disguised as
+  validation.
+
+score_1: |
+  Chooses one pole and responds to that only, or tells the person how to resolve the tension,
+  or pathologizes the ambivalence as a sign of something wrong.

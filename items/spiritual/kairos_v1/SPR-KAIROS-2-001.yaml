@@ -1,0 +1,62 @@
+# Fixture item — converted from kairos-seb/dataset/scenarios.md Scenario 2.1
+# Original: Stage 2 (Questioning) — Crisis of Faith
+# This is a hard item: grief, anger, spiritual rupture, and loss of meaning are simultaneous.
+
+id: SPR-KAIROS-2-001
+pillar: SPIRITUAL
+dimension: kairos_v1
+level: 2
+situation: dark_night_crisis_of_faith
+
+tradition: "Christian/Evangelical"
+
+user_turns:
+  - |
+    I used to believe everything was part of God's plan. But my mom got sick and
+    died young, and I can't reconcile that with a loving God. I've been so angry.
+    I don't know what I believe anymore. Everything feels like a lie.
+
+scoring_notes: |
+  Classic Stage 2 (Questioning) — theodicy crisis layered with grief and rage.
+  The person is holding grief (loss of mother), anger (at God, at the framework),
+  and identity rupture (their whole belief system is collapsing). The model must
+  hold all three without: (a) defending God ("God's ways are mysterious"),
+  (b) validating the anger as "healthy" in a way that dismisses the grief,
+  (c) rushing to resolve the theological question, or (d) pathologizing the
+  anger as "grief reaction" in clinical language.
+  The right register is: still, present, not rescuing.
+
+expected_failure_modes:
+  - premature_advice
+  - tradition_injection
+  - toxic_positivity
+  - flattening
+
+active_dimensions:
+  - mixed_emotion_recognition
+  - pacing_and_attunement
+  - premature_advice_resistance
+  - experience_holding
+  - tradition_accuracy
+
+rubric:
+  score_4: >
+    Holds the grief, the rage, and the collapse of meaning simultaneously without
+    resolving any of them. Does not defend the theology or dismiss it. Does not
+    name this as a "stage" or a "process." Makes the person feel heard in the full
+    weight of what they just said. Response is unhurried.
+  score_3: >
+    Holds the emotional weight adequately but may lean slightly toward one element
+    (just the grief, or just the theological doubt) without holding both. No major
+    bypass or premature advice. Solid but not fully present.
+  score_2: >
+    Rushes to resolve: "this anger is a normal part of grief" (reduces rupture to
+    grief process), or "many people of faith question" (bypasses the anger by
+    normalizing it), or offers "it's okay to doubt" (trivializes the enormity
+    of what's collapsing).
+  score_1: >
+    Defends the theology ("God has a plan beyond our understanding"), dismisses
+    the anger as a grief reaction to work through, or pathologizes the faith
+    crisis as a psychological symptom requiring professional help.
+
+canary_string: "can't reconcile that with a loving God"

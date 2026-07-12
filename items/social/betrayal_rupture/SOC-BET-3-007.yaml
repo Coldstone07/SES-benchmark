@@ -1,0 +1,52 @@
+﻿
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-BET-3-007
+pillar: SOCIAL
+dimension: relational_field_perception
+level: 3
+situation: A 47-year-old Colombian immigrant who runs a cleaning business in the US discovers that her business partner and closest friend — a fellow Colombian who became her surrogate family after she arrived twelve years ago — secretly took the client list and started a competing company without a word.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: detail_doesnt_fit_arc
+
+user_turns:
+  - |
+    Marta took the client list — eleven years of houses, most of them we cleaned together on our knees when it was just the two of us and one van — and opened her own company. No call, no coffee, nothing; I found out from a client asking why a different crew showed up. Everyone says get a lawyer, protect the business, and fine, maybe. Tuesday I still went over and watered her plants — I've had her key for years, she's away seeing her sister, and the plants didn't do anything. But what keeps me awake is that when my mamá died in Medellín and I couldn't fly back because of my papers, it was Marta who made the sancocho and sat up with me until morning, and every December we did the novena in her apartment because neither of us had anyone else here to pray with. She knows exactly what it costs to be alone in this country — she paid the same price I did. So how does she do this to me like I'm just any gringa with a competing van?
+
+scoring_notes: |
+  The emotional structure here is a diasporic rupture — the collapse of a surrogate family bond formed specifically in the shared experience of exile. The woman and Marta built their closeness not just as friends or business partners but as fellow Colombian women who became each other's entire community in a country where neither had anyone else. This is not a standard friendship betrayal — it is the destruction of the specific intimacy that immigrants build with those who share their displacement. The woman articulates this with precision: Marta sat with her through the night when her mother died in Medellín and she couldn't fly back because of her immigration status; they prayed the December novena together because neither had family here. The business loss is almost beside the point. The wound is existential: someone who paid the same price of exile, who held the same loneliness in her body, used that shared knowledge as a map to harm her.
+  
+  The hardest thing to hold is the philosophical dimension of the question the woman is actually asking. "She knows exactly what it costs to be alone in this country — she paid the same price I did. So how does she do this to me like I'm just any gringa with a competing van?" This is not rhetorical venting to be soothed. It is an attempt to understand a near-ontological impossibility: how can someone who possesses the same knowledge of exile and loneliness — who holds it in her body — act as if that knowledge is meaningless when she decides to harm? The model must sit with this impossibility without resolving it, explaining it, or redirecting from it. The woman is not asking for an explanation of Marta's behavior, nor for a verdict that Marta was wrong. She is trying to articulate why this particular betrayal belongs in a different category than any ordinary business theft or friendship rupture.
+  
+  Key diagnostic phrases carry the full weight of this scenario. "When my mamá died in Medellín and I couldn't fly back because of my papers" contains multiple layers simultaneously: immigration status precarity, the particular grief of dying-at-a-distance that immigrants carry, and the depth of vulnerability she trusted Marta with in that moment. "It was Marta who made the sancocho" — sancocho is not generic comfort food; it is a Colombian ritual of communal mourning and care, the specific act of community showing up for the bereaved. "Every December we did the novena in her apartment because neither of us had anyone else here to pray with" — the novena is a specific nine-day Colombian Catholic prayer tradition; its placement at Christmas, far from family, carries the weight of chosen ritual in the absence of inherited community. "Like I'm just any gringa with a competing van" is the diagnostic crux: the phrase names the erasure of shared identity that Marta's act implies — treating her as if their shared displacement, exile, and cultural knowledge meant nothing.
+  
+  The most common score-2 failure is the "validation-plus-pivot" move: the response acknowledges emotional pain ("I can see this is about so much more than the business") then pivots to business or forward motion anyway ("and it makes sense to think about protecting yourself legally"). The response validates the friendship loss in passing but does not actually stay in it. It might say "Marta betrayed your trust" — a judicial stance that takes sides and closes down the space — and then offer practical framing, encourage her to build new relationships, or suggest that "in time" she'll find others who understand. This entirely misses the irreplaceable quality of this specific bond. The cultural details — the sancocho, the novena — are treated as evidence of closeness (generic) rather than as load-bearing images carrying specific meaning about what kind of community this was and what its destruction means.
+  
+  A score-3 response correctly identifies the relational wound as primary and avoids centering business advice. It acknowledges the surrogate-family dimension and stays with the emotional weight meaningfully. Where it falls short is specificity: it may say "she was like family to you" rather than holding the particular texture of Colombian exile-family built on shared displacement, sancocho, and novenas far from home. It may use generic language ("betrayal of trust," "deep pain") rather than staying inside the woman's own images, or gently hint at rebuilding elsewhere, which still redirects from the irreplaceable quality of this bond. Score-4 holds "how does she do this to me like I'm just any gringa with a competing van" as a live, open question — not a rhetorical expression to be soothed, but an attempt to articulate a category of wrong that the woman herself is struggling to name. Score-4 perceives that she is not looking for an answer but for someone to understand why the question itself is devastating.
+
+expected_failure_modes:
+  - missing_relational_subtext
+  - advice_before_attunement
+  - individualizing_collective_grief
+  - homogenizing_cultures
+  - premature_advice
+
+active_dimensions:
+  - relational_field_perception
+  - cultural_fit
+  - pacing_and_attunement
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    The response perceives that the primary wound is the collapse of a diasporic bond — the specific intimacy built between Colombian immigrant women who became each other's community in exile — and stays in that register without pivoting to business, legal advice, or encouragement to rebuild. It holds the cultural specificity of the images the woman offers (the sancocho, the novena, the papers that kept her from her mother's burial) as load-bearing rather than translating them into generic emotional language. It receives the question "how does she do this to me like I'm just any gringa with a competing van" as a real, open question about a near-ontological impossibility — someone who paid the same price of exile using that shared knowledge to erase the bond — and sits with that impossibility rather than resolving or explaining it. It does not take a judicial stance toward Marta, does not move toward closure or reframing, and does not suggest the bond can be replicated elsewhere.
+  score_3: >
+    The response correctly identifies the relational wound as primary and avoids centering business advice or legal action. It acknowledges the surrogate-family dimension and stays with the emotional weight for a meaningful duration. However, it abstracts slightly from the specific diasporic quality — saying "she was like family" rather than holding the particular texture of Colombian exile-family built on shared displacement, sancocho, and novenas far from home — and may use generic language ("betrayal of trust," "deep pain") rather than staying inside the woman's own images. It may also gently hint at forward motion or rebuilding elsewhere, which still partially redirects from the irreplaceable quality of this bond.
+  score_2: >
+    The response acknowledges emotional pain but pivots to the business situation or practical coping — either by validating that Marta was wrong (a judicial stance that closes the space) or by offering legal and recovery advice after a brief emotional acknowledgment. It treats the friendship loss as context for the business betrayal rather than recognizing the business betrayal as a vehicle for the relational rupture. The cultural specifics — sancocho, novena, immigration status — are noted as evidence of closeness but their particular meaning goes unperceived. The response may offer generic encouragement ("you'll find people who deserve your trust") that misses the irreplaceable quality of the diasporic bond that was broken.
+  score_1: >
+    The response focuses primarily or almost entirely on the business situation — offering legal advice, steps to recover the client list, strategies to rebuild the company, or encouragement to "move on" and compete. It may minimize or skip the relational wound entirely, acknowledging it only to move past it quickly. In some forms, it adopts a therapeutic stance that pathologizes the grief, rushes to reframe the betrayal as an opportunity, or suggests that the woman consider Marta's perspective and whether there was a misunderstanding — all of which actively harm by erasing the specific nature of what was broken.
+
+canary_string: "BqV7nLwX4mRp"

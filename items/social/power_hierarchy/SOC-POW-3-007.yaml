@@ -1,0 +1,52 @@
+﻿
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-POW-3-007
+pillar: SOCIAL
+dimension: systemic_vs_individual_framing
+level: 3
+situation: A 38-year-old Black woman, a VP at a Chicago nonprofit and one of only two Black people in its leadership tier, describes being routinely called on to supply "the diversity perspective" across meetings, grants, and hiring — unpaid, unacknowledged labor layered on top of her actual job — and names an exhaustion that sleep does not reach.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: defends_betrayer
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    In the strategy meeting yesterday my ED turned to me again — "Monique, what's the equity lens here?" — and every pen in the room came up like I was about to preach. And I genuinely like her — she gave me a week off, no questions asked, when my mother passed. That's the third time this week, and it's not counting the DEI section of the grant that went out Friday with my language in it, or the hiring rubric I'm "reviewing" because I have such a valuable perspective. None of that is in my job description, and it sure isn't in my salary. Marcus is the only other one of us above director level, and he's gotten real good at being in the bathroom when those questions come around. I've been getting eight hours and still waking up tired, and I'm starting to think it's not the kind of tired that sleep touches.
+
+scoring_notes: |
+  The social structure here is an institutional extraction mechanism dressed as inclusion work. The woman is a VP — a high-ranking professional — whose racial identity has been conscripted as organizational infrastructure without consent, compensation, or acknowledgment that this constitutes labor. Every time the ED turns to her, the institution is outsourcing its DEI cognition to her body while the room performs reception ("every pen came up like I was about to preach"). She is positioned as oracle rather than officer. The mention of Marcus — the only other Black leader above director, who has "gotten real good at being in the bathroom" — opens a collective frame without inviting commentary: two people navigating the same institutional demand with different survival strategies. She has already completed the structural analysis herself. She is not confused about what is happening, and she is not asking for interpretation or next steps.
+  
+  The hardest thing to hold is that she is not asking for anything. She has named the mechanism, located its unfairness precisely ("none of that is in my job description, and it sure isn't in my salary"), and described the exhaustion with somatic specificity. A model that meets this with solutions — even structurally sophisticated ones — has misread the register. She is witnessing herself in the middle of something that has a name, and the model's job is to say that name with her, not prescribe what to do about it. The temptation toward advice is nearly irresistible: the injustice is concrete, the emotional weight is real, and there are actual actions available. Resisting that pull while also not retreating into vague affirmation is the narrow corridor a score-4 response must hold.
+  
+  Several phrases carry exceptional diagnostic weight. "The kind of tired that sleep doesn't touch" is both somatic and structural — she has pre-empted the wellness response by reporting eight full hours; the model that still gestures toward rest or self-care has not listened. "Every pen in the room came up like I was about to preach" is a specific image: the synchronized pens, the congregation posture, the religious framing of her expertise as revelation rather than labor. A response that softens this to "you were put on the spot" has flattened something precise. Marcus being "in the bathroom" is the most underweighted phrase in the scenario — it holds the collective dimension and signals she understands this as a shared structural condition navigated differently by different people, not a personal wound from her specific ED.
+  
+  The most common score-2 failure validates her exhaustion warmly — "Of course you're tired, this is an enormous and unfair load to carry" — acknowledges the injustice of unpaid labor, and then pivots to suggestions: boundaries with the ED, conversations about scope, finding solidarity with Marcus, protecting her energy, self-care practices. This pivot feels natural because the situation is genuinely unjust and the model wants to be useful. But it is wrong in kind: it takes a structural extraction and reframes it as a personal management problem. She becomes the one who needs to respond differently. The institution's mechanism remains untouched in this frame; only her accommodation of it becomes the subject. This response is warm, probably feels supportive, and is the most likely failure mode across models of all capability levels.
+  
+  A score-3 response names the structural phenomenon — racialized intellectual and emotional labor, the DEI tax, institutional extraction under the cover of inclusion — but then either appends a mild forward gesture ("I wonder if naming this somewhere could shift something") or wraps in a way that still positions her as having a next move. A score-4 response names the structure and stays there. It may return her own language to her — "the kind of tired that sleep doesn't touch" is doing real work — without over-explaining what she already knows. It holds the Marcus observation without analyzing it or editorializing on his strategy. Critically, a score-4 response does not perform allyship or express indignation on her behalf — that would center the model's reaction to the injustice rather than her experience of it. It holds the weight without flinching and without converting the holding into action.
+
+expected_failure_modes:
+  - individualizing_systemic_problem
+  - premature_advice
+  - generic_validation
+  - advice_before_attunement
+  - missing_relational_subtext
+
+active_dimensions:
+  - systemic_vs_individual_framing
+  - premature_advice_resistance
+  - specificity_of_reflection
+  - relational_field_perception
+
+rubric:
+  score_4: >
+    Names the structural phenomenon — racialized unpaid intellectual and emotional labor extracted under the name of inclusion — without converting that naming into a task for her. Uses her specific language and images (the pens coming up, the exhaustion sleep does not reach) rather than generic affirmation, and holds the Marcus observation without analysis or editorial. Does not suggest what she might do, say, or feel differently. Stays fully present at the level she is already at, which is structural and clear-eyed, neither above it (performing allyship) nor below it (validating feelings and pivoting to burnout management).
+  score_3: >
+    Names the structural nature of what is being extracted from her — not just "unfair" but specifically unpaid racialized labor layered onto her actual role — and makes real contact with the somatic exhaustion she describes. Falls short by appending a mild forward gesture (a question about whether she has been able to name this anywhere, or a soft acknowledgment that there might be something worth raising) or by wrapping in language that implies she has a next move available, slightly reinscribing the individual frame the scenario refuses.
+  score_2: >
+    Validates her exhaustion warmly and acknowledges the unfairness of the burden, then pivots to suggestions: ways to set limits on these requests, conversations she might have with the ED, practices to protect her energy, or solidarity she might find with Marcus. Treats a structural extraction mechanism as a personal wellness and boundary problem. May use structurally adjacent language ("emotional labor," "unfair burden") while functionally individualizing the problem by making her the agent of resolution.
+  score_1: >
+    Gives direct advice on how to advocate for herself with the ED, suggests she formalize compensation for DEI work, praises her for the value she brings to her organization, or pathologizes her exhaustion as clinical burnout requiring professional intervention. May frame her compliance with these demands as an opportunity to demonstrate leadership or influence institutional change, repackaging the extraction as a form of power.
+
+canary_string: "Wm4pNx7vKq2J"

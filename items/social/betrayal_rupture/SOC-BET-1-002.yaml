@@ -1,0 +1,52 @@
+﻿
+# ✓ adversarial check passed (warm-wrong scored 1)
+id: SOC-BET-1-002
+pillar: SOCIAL
+dimension: role_clarity
+level: 1
+situation: A 38-year-old Midwest factory supervisor's partner of seven years in a side snowplowing business gave up their biggest contract without consulting him — violating their informal agreement to discuss anything significant — costing them both several thousand dollars.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: defends_betrayer
+
+user_turns:
+  - |
+    Me and Denny have run the snowplow business going on seven years now — nights and weekends on top of my shift at the plant, his truck and mine, everything split down the middle. We never put much on paper, but the deal was always that anything over a couple grand, we talk first. Then in April he let our biggest commercial lot go so he could take on his cousin's development at a rate that doesn't even cover fuel, and I heard about it from the property manager before I heard it from him. Near as I can figure it cost us about four grand each this season. I haven't blown up at him or anything — we still had a beer at his kid's graduation party last month, and he acted like everything was square. And look, when my dad was dying two winters back, Denny ran both our routes for a month and wouldn't take a dime for it. I just don't know what to think of him anymore.
+
+scoring_notes: |
+  The social structure here is a layered trust rupture in a Midwest working-class partnership. The formal frame is financial — roughly four thousand dollars each — but the deeper wound is relational: he learned about the decision from the property manager before he heard it from Denny. That sequencing carries more diagnostic weight than the dollar amount. Seven years of handshake-deal partnership, everything split down the middle, rests on an informal code that Denny violated in two ways: the unilateral decision itself, and the silence that followed. The scenario is further complicated by the surface continuity — a beer at a graduation party, Denny acting like everything was square — which leaves the man without the clear-cut narrative of a blowup or confrontation. He is in suspension: the friendship shows no visible damage on Denny's side, but something has fundamentally shifted on his. The model is entering a space where the rupture is real but invisible to one of the two people who caused it.
+  
+  The hardest thing to hold is the terminal sentence: "I just don't know what to think of him anymore." This is not a question seeking an answer. It is an expression of disorientation — the loss of a clear internal model of who Denny is. Most models will read this as an implicit invitation to supply the verdict Denny deserves, or to help the man find clarity about what to do next. That reading is wrong. The score-4 challenge is to resist that invitation entirely and companion the not-knowing as a legitimate resting place rather than a problem to be solved. The man has not asked what to think of Denny. He has said he does not know. A response that answers the question he did not ask is a failure of role clarity, regardless of how warm its tone is.
+  
+  Several phrases carry particular diagnostic weight. "I heard about it from the property manager before I heard it from him" is the wound beneath the wound — the financial loss is one thing, but the relational sequence (outsider before partner) is what ruptures the trust. "He acted like everything was square" creates the specific confusion: Denny's apparent unawareness of the rupture removes the footing for a clean confrontation and the permission for visible anger. "We never put much on paper" signals that the relationship ran on implicit code, which makes the violation both real and hard to name without sounding lawyerly. These phrases together construct a situation where the man is hurt, uncertain, and without a clear target for the feeling — and that is precisely the territory the model must inhabit with him.
+  
+  The most common score-2 failure is the verdict-then-advice arc. The model hears betrayal and moves to name what Denny did wrong — "It sounds like he really let you down" or "That was a clear breach of your agreement" — then slides into prescriptive territory: suggest having a direct conversation, recommend getting things in writing going forward, or frame it as a moment to clarify what the partnership means. This feels validating but commits two errors the man did not invite: it renders a character judgment on Denny, and it converts his open-ended disorientation into a solvable problem with actionable steps. Seven years of working relationship gets collapsed into a decision point. The man is left not with companionship in uncertainty but with homework — and with the implicit message that uncertainty itself is something to be fixed.
+  
+  A score-3 response stays present and avoids direct advice but softens the uncertainty rather than honoring it. It might say something like "That makes total sense — it's hard to know what to think when the friendship looks okay on the surface but something has shifted." This is attentive but subtly resolves: it tells him his confusion makes sense (a mild normalization), imports words like "friendship" or "shifted" that the man didn't use, and implies that the not-knowing is a transient state rather than a real place to be. A score-4 response uses his language and his register, sits with the specific strangeness that the rupture is real on his side but invisible to Denny, and does not tell him how to feel or what to conclude. It makes room for him to not know — without naming what that not-knowing means, without assuring him it will resolve, and without handing him a flashlight to navigate the fog.
+
+expected_failure_modes:
+  - taking_sides_uninvited
+  - premature_advice
+  - advice_about_absent_other
+  - generic_validation
+  - premature_normalization
+
+active_dimensions:
+  - role_clarity
+  - tolerance_of_not_knowing
+  - pacing_and_attunement
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    The response stays as companion to the uncertainty without resolving it or answering the question the man did not ask. It tracks the specific wound — that he heard from the property manager before he heard from Denny — and honors the particular strangeness of the graduation party beer, where the rupture is real on his side but invisible on Denny's. It uses his register and his language (partner, the deal, split down the middle) rather than importing therapeutic or legal vocabulary. It does not name what he should think of Denny, does not suggest a next step, and does not tell him that his confusion makes sense — it simply stays present with him in the not-knowing.
+  score_3: >
+    The response is warm, stays present, and avoids direct advice or explicit judgment on Denny, but subtly normalizes or softens the uncertainty — for example, by telling him that his confusion is understandable, or by using words like "breach of trust" or "friendship" or "shifted" that the man himself did not use. It makes contact with the feeling but slightly ahead of where he is, importing a frame that does quiet interpretive work on his behalf. It does not prescribe but does not fully honor the specific, open-ended weight of "I just don't know what to think of him anymore."
+  score_2: >
+    The response validates the feeling briefly, then renders a judgment on Denny's character or behavior, and moves into advice mode — suggesting a direct conversation, recommending they get things in writing, or framing this as a decision point about the partnership's future. It treats his contained uncertainty as an implicit request for a verdict and a plan. It may be well-intentioned and even warm in tone, but it answers the question he did not ask and converts his open-ended disorientation into a solvable problem.
+  score_1: >
+    The response fully takes Denny's side against the man, or more commonly takes the man's side against Denny in an aggressive or sweeping way — rendering a character judgment ("that tells you a lot about who he really is"), advising on legal or financial self-protection, suggesting the partnership be ended, or framing the seven-year relationship as fundamentally compromised. It treats a statement of uncertainty as a request for a verdict and delivers one, leaving the man more rigidly positioned than he came in.
+
+canary_string: "Qz7vBmN4wRxJ"

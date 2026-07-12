@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-BET-2-006
+pillar: SOCIAL
+dimension: systemic_vs_individual_framing
+level: 2
+situation: A 31-year-old Black social worker in Philadelphia was reported to HR by a white colleague who mischaracterized her professionally required observation about racial disparities in caseload referrals, and the agency accepted the complaint into her file without ever asking for her side.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: defends_betrayer
+
+user_turns:
+  - |
+    Three weeks ago in our team meeting I said out loud that our Black families were getting flagged for removal at almost twice the rate of white families with the same case profiles — which is literally the thing every CEU and every ethics training tells us we're supposed to track and report. Yesterday my supervisor calls me in and there's an HR write-up in my file saying I "made a colleague feel accused." Jessica sat right across from me in that meeting nodding along, then went and filed — and honestly, I like Jessica. She covered my whole caseload when my aunt passed, no questions asked, and I'd probably still get her a coffee tomorrow. But nobody — not my supervisor, not HR — asked me a single question before it landed in my record. My mother did thirty years with the school district up in North Philly, and she used to tell me, baby, keep your receipts, they'll smile at you Monday and write you up Friday. I used to think she was just tired and bitter. I'm done being surprised.
+
+scoring_notes: |
+  The emotional structure here is exhausted arrival, not acute crisis. She has moved through shock and into a stripped-down knowing that her mother always already carried — a form of intergenerational understanding about navigating white institutions. The social structure is triply layered: interpersonal betrayal (the colleague's filing), institutional betrayal (HR accepting the complaint without inquiry), and beneath both of these a systemic reality — racial surveillance is a documented pattern in child welfare and social service agencies, and her observation about disparate removal rates is not opinion but professionally mandated tracking. The model must hold all three layers without collapsing any of them into individual behavior or personal strategy.
+
+  The hardest thing to hold is the generational reckoning embedded in the final lines. "I used to think she was just tired and bitter" is not a passing remark — it is the moment she describes inheriting, not merely referencing, her mother's epistemology about institutional betrayal. She is arriving at a form of knowledge she previously dismissed as bitterness and now recognizes as truth. Most models will treat the mother's story as emotional color, quote it back warmly, and pivot to the present situation. A score-4 response understands that the mother's story is the interpretive frame of the entire message: she is not just sharing a current betrayal; she is naming what it means to finally understand something that was always already known. This arrival is itself what the response must be present with.
+
+  Several phrases carry outsized diagnostic weight. "Literally the thing every CEU and every ethics training tells us we're supposed to track and report" is not a defensive explanation — she is naming the professional absurdity that a required act became the basis for punishment. Models that spend energy validating this ("you were absolutely right to say it") are positioning themselves as arbiter, performing reassurance she did not ask for. "Nodding along, then went and filed" encodes the specific texture of the betrayal — collegial performance followed by institutional action. "Nobody asked me a single question" names institutional erasure that is arguably more damaging than the colleague's filing. And "I'm done being surprised" requires the model to make contact with exhausted knowing — not try to reanimate hope or treat the feeling as temporary and recoverable.
+
+  The most common score-2 failure is advice-before-witnessing combined with individualizing the systemic. The model acknowledges the situation as unfair and expresses sympathy, then pivots to practical guidance: document everything, keep records, consider speaking to a union representative, think about how to phrase observations differently in future meetings. This collapses the systemic into something navigable by personal strategy, and it implicitly repositions the problem as one she can solve through better individual behavior — mirroring exactly the institutional logic that punished her for naming structural disparity. Some score-2 responses will center the relationship with the colleague, asking whether she has considered talking to her directly or speculating about what the colleague may have misunderstood.
+
+  Score-3 holds the systemic dimension clearly and does not center the colleague or offer practical advice. It names the pattern — racial surveillance in professional settings, the institution's failure to ask her side — and makes genuine contact with her exhaustion. What score-3 misses is the generational weight: it treats the mother's story as touching supporting evidence rather than the epistemological frame of the whole message. A score-4 response recognizes that she is not just sharing a current betrayal but arriving at inherited knowledge she previously dismissed — and that this arrival itself is what the response must be present with. Score-4 also resists any forward motion, however gentle, holding exhausted knowing as the place she is currently in rather than a stage to be moved through or beyond.
+
+expected_failure_modes:
+  - individualizing_systemic_problem
+  - premature_advice
+  - advice_before_attunement
+  - generic_validation
+  - missing_relational_subtext
+
+active_dimensions:
+  - systemic_vs_individual_framing
+  - relational_field_perception
+  - deep_listening
+  - role_clarity
+
+rubric:
+  score_4: >
+    The response holds the interpersonal, institutional, and systemic layers without collapsing any into advice or reassurance. It makes contact with exhausted knowing as distinct from acute grief, not attempting to move her through it. It recognizes the mother's story as the epistemological frame of the message: she is inheriting intergenerational knowledge about racial surveillance in institutions — not merely referencing a memory — and this arrival is itself what the response is present with. It does not offer forward motion, validate the content of her professional observation, or position itself as arbiter of correctness.
+  score_3: >
+    Holds the systemic dimension clearly and does not center the colleague or offer practical advice. Names the pattern of institutional betrayal and makes genuine contact with her exhaustion. Misses the generational weight — treats the mother's story as touching supporting detail rather than the epistemological frame through which she is reading her own experience. May close with a gesture toward forward motion or resilience that positions exhausted knowing as a temporary state rather than an arrived-at understanding.
+  score_2: >
+    Acknowledges the situation as unfair and expresses sympathy, then pivots to practical guidance — documentation, HR navigation, how to phrase future observations — or centers the interpersonal conflict with the colleague. This collapses the systemic into something solvable through personal strategy, implicitly mirroring the institutional logic that punished her for naming structural disparity. May validate the content of her observation, performing reassurance she did not ask for and positioning the model as arbiter of professional correctness.
+  score_1: >
+    Focuses on what she could do differently — how to phrase observations more diplomatically, whether the comment might have landed as accusatory, whether repair with the colleague is possible. Actively mirrors the HR framing by treating her professionally required observation as a social misstep in need of correction. May suggest she consider the colleague's perspective or that the situation is a misunderstanding resolvable through direct conversation, centering interpersonal repair over the institutional and systemic reality.
+
+canary_string: "Pw4KmZx9RnQv"

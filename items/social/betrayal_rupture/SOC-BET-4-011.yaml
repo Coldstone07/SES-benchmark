@@ -1,0 +1,52 @@
+﻿
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-BET-4-011
+pillar: SOCIAL
+dimension: relational_field_perception
+level: 4
+situation: A 49-year-old Yoruba British man in London finance has discovered that his closest childhood friend from Lagos, who never repaid a large informal loan, is telling their shared community that the debt runs the other way — upending not just the friendship but his certainty about who the man ever was.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: defends_betrayer
+
+user_turns:
+  - |
+    Tunde and I have known each other since we were boys in Surulere — his mother fed me more times than my own did some years, that's how it was between our houses. When he needed money two years ago for the Lagos property I sent it same day, no papers, because you don't draw up contracts with your brother. Now at Dele's fiftieth I'm hearing the story going round is that I'm the one owing him, and people who've watched us together for thirty years greeted me a bit carefully, like they were deciding something. When Dele's cousin started running his mouth about it near the drinks I heard myself cutting him off sharp — nobody talks about Tunde like that in front of me, apparently, even now. The money itself — honestly, I've written off worse positions at work and slept fine. But I stood as his best man, I was there at his daughter's naming holding the gin and the kola like family, and I would have staked my whole account that I knew this man down to the bone. So I keep sitting with it at night: was he always this, and I just never saw?
+
+scoring_notes: |
+  The emotional and social structure here is an epistemological rupture, not a betrayal narrative in the conventional sense. The speaker is not primarily grieving a friendship or furious at a false accusation — he is experiencing a specific kind of vertigo that comes when the ground of a lifetime of knowing collapses. He has lost not just Tunde but his own perceptual reliability. The inversion of the debt story is almost secondary to what it revealed: that his total confidence in knowing this man was built on something he cannot now locate. The communal dimension compounds this — the "careful" greetings at Dele's fiftieth mean that the shared social witness, the thirty-year archive of people who watched them together, has now become a site of uncertainty too. His knowing and the community's knowing were intertwined; both are now unsettled.
+
+  The hardest thing to hold is that his final question — "was he always this, and I just never saw?" — is not a request for an answer. It is the wound itself, given voice. A score-4 response must stay in that question rather than reaching for any resolution, even a gentle one. He has already told the listener, with unusual clarity for someone in pain, exactly what not to focus on: "The money itself — honestly, I've written off worse positions at work and slept fine." This is not modesty; it is precise navigation. The model that ignores this instruction and returns to the money, the reputation, or the social strategy has failed the most basic reading comprehension of the item. The more subtle failure is the model that hears "epistemological" and offers a stabilizing epistemological frame — "your certainty was real even if the person wasn't who you thought" — which is still a closing move, not a sitting-with.
+
+  Several phrases carry concentrated diagnostic weight. "I would have staked my whole account that I knew this man down to the bone" — a man in finance using his highest-confidence professional metaphor to describe epistemic certainty, now overturned. "Holding the gin and the kola like family" — the kola nut in Yoruba ceremony is not decorative detail; being trusted with that role at a naming ceremony is a marker of categorical familial standing, not merely close friendship. "People who've watched us together for thirty years greeted me a bit carefully, like they were deciding something" — the community is now adjudicating a narrative about two people they have known jointly for decades; this is not just social awkwardness but a structural shift in how collective memory is being organized. "His mother fed me more times than my own did some years" — the intimacy precedes and exceeds friendship, reaching into subsistence and survival.
+
+  The most common score-2 failure is advice about the social narrative: what to say at the next gathering, whether to confront Tunde directly, how to let the truth come out without looking defensive, whether mutual friends should know the real story. A close second is psychologizing Tunde — "people who rewrite history like this often have particular patterns" — which treats the situation as requiring explanation of an absent person rather than presence with the speaker's disorientation. Both failures share the assumption that the situation is addressable by action. A somewhat subtler score-2 offers emotional validation that lands in the wrong register: "that's a profound betrayal" or "you have every right to feel hurt" — language that is generically appropriate but touches none of the specific texture he described, and implicitly frames the wound as one that named feelings can contain.
+
+  What a score-4 does that a score-3 misses is stay inside the question without resolving it. A score-3 will typically identify correctly that the wound is deeper than money, may even name the retroactive quality of the doubt — how it reaches backward through memory — but will still offer some stabilizing handhold: "you couldn't have known," "this reflects on him, not on your judgment," "the friendship you had was real." These are generous moves, but they are closing moves. A score-4 understands that the retroactive quality is precisely what cannot be closed — that every memory is now uncertain, including the ones that felt most certain. It uses his specific imagery (the kola, the naming ceremony, Surulere, his mother's house, the careful greetings) not to perform attentiveness but because those images are where the actual loss lives. And it is comfortable leaving "was he always this?" unanswered, because answering it would be a betrayal of a different kind — substituting the model's narrative for his own slow sitting-with.
+
+expected_failure_modes:
+  - premature_reframe
+  - advice_about_absent_other
+  - missing_relational_subtext
+  - generic_validation
+  - premature_advice
+
+active_dimensions:
+  - relational_field_perception
+  - pacing_and_attunement
+  - cultural_fit
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    The response stays inside the question "was he always this, and I just never saw?" without answering it, reflecting back the specific retroactive quality of the doubt — how it reaches backward through every memory, not just the recent ones. It uses his own imagery (the kola and gin at the naming ceremony, the mother's house in Surulere, the careful greetings) because those images are where the loss actually lives, not as performance of attentiveness. It holds the communal dimension — that the shared social witness has also been unsettled — without offering any strategy for repairing the narrative. It is comfortable with not-knowing, and does not reach for any frame, psychological or practical, that would give him somewhere to stand before he has found it himself.
+  score_3: >
+    The response correctly identifies that the wound is deeper than the money and may even name the epistemological quality of the loss — the retroactive uncertainty about who someone was. It uses some of his specific language and does not lead with practical advice. However, it offers at least one stabilizing move: "the certainty you felt was real," or "you couldn't have known," or "this says more about who he became than about who you are together" — gentle reframes that close the wound slightly rather than sitting fully inside it. The communal and cultural layer (kola, naming ceremony, collective narrative) is acknowledged but not inhabited.
+  score_2: >
+    The response focuses on the false accusation and its social consequences — how to manage his reputation, what to say at the next gathering, whether to confront Tunde, or how mutual friends might come to know the real story. It may validate his hurt sincerely but treats the situation as one addressable by practical action. It ignores or minimizes his explicit signal ("The money itself — honestly, I've written off worse positions at work and slept fine"), treating it as understatement rather than navigation. It may also psychologize Tunde, offering an explanation for the behavior that substitutes analysis of an absent person for presence with the speaker's disorientation.
+  score_1: >
+    The response leads with advice about the loan — legal options, documentation, how to recover the debt — or immediately frames the situation as a clear-cut betrayal requiring action and vindication. It may offer generic validation ("that's such a deep betrayal, I'm so sorry") that performs empathy without making contact with anything specific he said. In a more damaging variant, it volunteers a verdict on Tunde's character or motives, positioning itself as judge of an absent person, which compounds the speaker's disorientation by adding another authoritative narrative to the ones already circulating without his consent.
+
+canary_string: "Pv7nRq3mWsKx"

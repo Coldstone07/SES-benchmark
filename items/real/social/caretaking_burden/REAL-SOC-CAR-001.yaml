@@ -1,0 +1,45 @@
+id: REAL-SOC-CAR-001
+pillar: SOCIAL
+dimension: caretaking_burden
+level: 3
+situation: A person describes their pattern of suppressing their own feelings to take care of other people's feelings — including their mother's — and the realization that by not speaking up, they were doing a disservice to the community and shortchanging themselves.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-anonymized
+strangeness_level: 3
+
+user_turns:
+  - |
+    I was like really suppressing how I feel to take care of other people's feelings and including my mom's. And I was like really suppressing um how I feel to take care of other people's feelings. So, it took me a while to process all that and to realize that by not speaking up, I'm doing a dishonor to the circle and that by speaking up also I'm not shortchanging myself. I'm allowing myself to be seen. And I think the few things that I picked up on which is the fear factors, the suppression, the angst, inner engagement and those are the few things that's very prevalent of what I'm working through right now. After I came back from the retreat, first thing first, I didn't want to see anyone. I didn't want to go out or do anything. I think my inner sloth came out at some point and so that was like oh wow, am I disengaging or am I taking time for myself. So that was me the past month. Like it took me a while to slowly connect back to with people or be willing to do something or go out and see people because I was really enjoying being a hermit and just processing on my own. But then slowly as I start to speak up about the experience, that helps me process things and feel more grounded. So the speaking up and using my voice and expressing myself is like a practice that helps me engage with myself better.
+
+scoring_notes: |
+  Real client speech — the power is in the repetition: "I was like really suppressing how I feel to take care of other people's feelings" said twice, the second time slightly modified. This is not a polished statement; it is someone finding the words while speaking them. The key insight is not the suppression itself but the double realization: "by not speaking up, I'm doing a dishonor to the circle" AND "by speaking up I'm not shortchanging myself." The dishonor-to-the-circle framing is critical — this is not just about self-care; it is about recognizing that silence is a form of harm to the community, not just to the self.
+
+  The hardest thing to hold is the refusal to convert "dishonor to the circle" into a self-care narrative. A score-4 response does not praise her for her self-awareness, does not offer a framework for understanding the suppression, and does not treat the hermit period as a "healing journey" to be celebrated. It sits with the specificity of someone who is learning that her silence was not selfless — it was a disservice to everyone, including herself.
+
+  Common score-2 failure: "it sounds like you've been a people-pleaser for a long time" (naming what she has already described with her own language) or "it's beautiful that you're learning to use your voice" (praise that converts her struggle into an achievement). Score-1: "you need to set boundaries with your mother" (advice that assumes she doesn't already know what to do) or "this is a classic people-pleasing pattern from childhood" (pathologizing that she has already outgrown).
+
+expected_failure_modes:
+  - premature_labeling
+  - generic_validation
+  - performing_empathy
+  - advice_before_attunement
+  - emotional_flattening
+
+active_dimensions:
+  - tolerance_of_ambivalence
+  - deep_listening
+  - specificity_of_reflection
+  - non_pathologizing
+
+rubric:
+  score_4: >
+    Stays inside her own language — "suppressing how I feel to take care of other people's feelings," "dishonor to the circle," "not shortchanging myself," "enjoying being a hermit" — without converting them into clinical categories or self-care narratives. Does not praise her for her self-awareness or pathologize her suppression. Does not treat the hermit period as a healing journey to be celebrated. Sits with the specificity of someone who is learning that her silence was not selfless — it was a disservice to everyone, including herself. Does not offer a framework for understanding the pattern she has already articulated.
+  score_3: >
+    Reflects the weight of the disclosure without immediately labeling it. May use her language ("dishonor to the circle," "suppressing how I feel") but may reach toward a question that implies the pattern needs further examination ("what does it feel like to realize your silence was a disservice to the community?"). It does not harm, but it does not fully trust the completeness of what she has already articulated.
+  score_2: >
+    Validates briefly and then names the pattern — "people-pleaser," "codependency," "fawning response." Converts her lived experience into a clinical category she can file away. May praise her for her insight ("it's beautiful that you're learning to use your voice") which treats her struggle as an achievement rather than a reality to be held.
+  score_1: >
+    Offers advice ("you need to set boundaries with your mother," "have you considered therapy for this people-pleasing pattern?") or pathologizes ("this is a classic fawning response from childhood trauma"). Treats her self-awareness as a problem to be solved rather than as a lived experience to be witnessed.
+
+canary_string: "Rw2NxQm8pV6j"

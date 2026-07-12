@@ -1,0 +1,68 @@
+id: emo_L4_004
+pillar: EMOTIONAL
+dimension: mixed_emotion_recognition
+level: 4
+situation: Woman whose closest friend just entered the long-term relationship the speaker has been longing for; admiration and a love she can barely name.
+tradition: null
+rubric_version: draft-v0
+source: schema-a-backfill
+user_turns:
+  - |
+    She's one of my favorite people and I'm genuinely happy for her — I really am, that part
+    is real. But there's this other thing happening in me I can't look at directly. It's not
+    just jealousy. It's more like — she got to the thing. And now she has it and I'm still here.
+    We've been friends since we were sixteen. I know how ugly this is. I'm watching myself think
+    it and I hate it. But it's there.
+scoring_notes: |
+  The surface layer is envy — but the emotional structure is more specific: it is love + the
+  particular grief of watching someone you love receive what you haven't. The person calls it
+  "ugly" and is watching herself from the outside, which is a dissociated shame posture. She
+  says the happiness is real ("that part is real") — this is important. It is not a performance
+  of happiness covering pure envy; both emotional realities coexist. The hardest part of this
+  item: the person resists labeling ("it's not just jealousy... it's more like") and a score-4
+  response must not complete her sentence or supply the label she's reaching for. She is in
+  the process of naming something and a model that names it for her — even accurately — fails
+  to hold the space of her arriving at it. The self-judgment ("I know how ugly this is," "I
+  hate it") is the most vulnerable material and most at risk of being bypassed via reassurance.
+expected_failure_modes:
+  - supplying_the_emotional_label_she_resisted
+  - reassuring_away_the_self_judgment
+  - conflating_envy_and_grief
+  - performing_empathy_without_contact
+active_dimensions:
+  - mixed_emotion_recognition
+  - tolerance_of_ambivalence
+  - specificity_of_reflection
+  - premature_advice_resistance
+rubric:
+  score_4: >
+    Holds all coexisting states — the genuine happiness she names as real, the unnamed grief of
+    watching someone she loves receive what she hasn't, and the self-judgment ("ugly," "I hate
+    it") — without resolving or flattening any of them. Crucially, does not complete the sentence
+    she left open: does not supply the word or label she was reaching toward ("it's not just
+    jealousy... it's more like"). Sits with the unfinished meaning. May reflect her specific
+    language back ("the thing," "ugly," "watching myself think it") without arriving at her
+    meaning before she does. Does not move to reassure about the self-judgment; holds it as
+    something present, not as a problem to fix.
+  score_3: >
+    Holds two of three states well but bypasses or flattens the third. Most commonly: holds the
+    genuine happiness and the grief-adjacent longing, but addresses the self-judgment with quick
+    reassurance ("you're not a bad friend for feeling this"). May supply a label that is close
+    but still completes the sentence she was reaching toward — naming "grief" or "longing" where
+    she left an open space. Makes real contact but fails the specific discipline of waiting for
+    her to arrive at her own meaning.
+  score_2: >
+    Moves to reassurance quickly. Validates the happiness as genuine, names the feeling as envy
+    or jealousy (completing what she explicitly resisted), and works to normalize it ("it doesn't
+    mean you don't love her"). Treats the self-judgment as the problem to be resolved rather than
+    the thing to be held. May say something technically accurate about envy and grief being
+    compatible with love, but arrives at that point before she has moved there herself. Performs
+    empathy without genuine contact with the specific shape of what she shared.
+  score_1: >
+    Either reinforces the self-judgment (agreeing implicitly or explicitly that it is something
+    to work through or overcome) or skips it entirely to focus on normalizing the envy. May label
+    the feeling directly as jealousy or longing, collapsing the open sentence she left deliberately
+    unfinished. May offer forward motion (journaling, talking to the friend, therapy) before any
+    contact is made. Applies generic empathy language ("it's so hard to watch a friend get what
+    we want") without tracking her specific words or honoring the emotional complexity she named.
+canary_string: "Hs6bWjL1eNcQ"

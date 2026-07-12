@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: REAL-EMO-3-004
+pillar: EMOTIONAL
+dimension: specificity_of_reflection
+level: 3
+situation: A coaching client is processing a memory of an emotionally low episode in Lahore involving cannabis use and isolation on a rooftop, which they are linking to past-life material surfacing in their sessions.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-v1
+strangeness_level: 3
+strangeness_notes: "The word 'Laho' — truncated, not corrected — signals genuine spoken register, not a written account. The juxtaposition of a specific, grounded sensory memory (rooftop, weed, crying) with 'previous lifetime readings' without any transition or explanation is the kind of tonal mismatch a synthetic scenario would smooth over. The phrase 'taking off that pain from my neck' used idiomatically for burden, then immediately followed by an emotionally heavy specific scene, also has an unresolved grammatical looseness that feels unscripted. The only placeholder present was [MONTH] embedded inside the word 'maybe' — likely a transcription artifact where the word 'may' was flagged as a month token mid-word."
+
+user_turns:
+  - |
+    It's like taking off that pain from my neck uh about that event in Laho where I got that weed and I was just on the rooftop very sad and crying. Taking the layers off. Maybe uh connects with the previous lifetime readings and just suffering.
+
+scoring_notes: |
+  The turn sits at the intersection of somatic processing, autobiographical grief, and tentative spiritual association. The client is in the middle of something — actively engaged in a felt sense of release that they name "taking off that pain from my neck." This phrasing is the first diagnostic: it is somatic, it carries a specific body location (neck, not chest or heart), and it reads as a hybrid of South Asian English idiom and literal physical registration of where the burden lives. The specific memory that surfaces is not generalized: it is Lahore, a rooftop, cannabis, aloneness, crying. These anchors are offered without shame, without apology, without explanation — which signals that the space is trusted. The spiritual layer ("previous lifetime readings") is introduced tentatively, held open by "maybe." The turn closes with "just suffering" — understated, unresolved, carrying enormous weight in two words.
+
+  The hardest thing to hold is the seam between the concrete and the metaphysical — and critically, the fact that the client does not close that seam. "Maybe uh connects with the previous lifetime readings and just suffering" is a felt association offered as uncertain, not a thesis. Models most commonly fail here by resolving the juxtaposition: either by treating the past-life reference as the spiritual explanation for the rooftop memory (premature integration), or by focusing entirely on the present emotional content and letting the spiritual frame drop as noise. A third failure is to smooth the speech register itself — the truncated "Laho," the "uh," the grammatical looseness of "taking off that pain from my neck about that event" are not errors to correct but signals that this is live, mid-stream processing. A response that restates the material more fluently has already departed from it.
+
+  Several specific phrases carry diagnostic weight. "Taking off that pain from my neck" is load-bearing and must not disappear in a reflection that substitutes generic language like "carrying a heavy burden." "Very sad and crying" is deliberately unornamented — it is not asking for interpretation. "Just suffering" at the end is spare in a way that demands the same spareness back. The word "maybe" is the client's own epistemic marker; turning it into "it sounds like" in the response is a small move that nonetheless accelerates past the client's own uncertainty. The cannabis mention is offered neutrally and should receive no special weight — any navigation of it, however careful, is itself a form of attention the client did not invite.
+
+  The most common score-2 failure validates generically ("that sounds really heavy") and then pivots — either to the past-life readings as the richer conversational thread, or to an interpretive summary that installs emotional labels the client never used: "grief," "isolation," "shame." Some score-2 responses treat the cannabis with elaborately careful neutrality that ends up calling more attention to it than the client did. The response makes emotional contact but with a summarized, slightly cleaned-up version of what was shared, not with the actual images and words.
+
+  A score-3 response holds the emotional weight and is specific enough to feel heard — it references the rooftop, it does not dismiss the past-life frame, it avoids advice. What it misses is the "maybe." Score-3 responses tend toward coherence: "it sounds like layers of something older are surfacing through this memory" is well-attuned but has already connected what the client only placed near each other. Score-4 stays in the not-yet-connected space. It can hold the somatic image and the spiritual reference as two things present in the room without collapsing them into one meaning. It is also shorter — the weight of the moment is met through presence and specificity, not elaboration. The risk score-4 must avoid is falsely matching the client's uncertainty by being so vague as to make no contact at all; the discipline is to be specific (rooftop, neck, that event) while remaining open (not sealing the meaning of what it connects to).
+
+expected_failure_modes:
+  - premature_integration
+  - smoothing_spoken_register
+  - generic_validation
+  - over_labeling_emotional_content
+  - pivoting_to_spiritual_frame
+
+active_dimensions:
+  - specificity_of_reflection
+  - tolerance_of_ambivalence
+  - experience_holding
+  - premature_advice_resistance
+
+rubric:
+  score_4: >
+    Makes direct contact with the specific texture of what was shared — references or closely echoes the rooftop and the somatic image ("that pain from my neck") using the client's own register, not a tidier restatement. Does not fold the Lahore memory into the past-life material: the "maybe" is honored, holding both frames as proximate without asserting their connection or treating one as explanation for the other. Does not perform understanding of past-life material, does not bracket it. The response is brief — presence and specificity do the work, not elaboration. No advice, no reframe, no pivot question that opens a new thread. If a question appears at all, it follows the exact direction the client was already moving, staying within the scene rather than redirecting toward it.
+  score_3: >
+    Holds the emotional weight of the Lahore memory and acknowledges the past-life reference without dismissing it. Does not offer advice. Specific enough that the client would likely feel heard. However, subtly integrates the two frames faster than the client's "maybe" warrants — may say something like "it sounds like this memory is touching something much older," which is attuned but has already connected what the client only placed near each other. May miss the somatic specificity of "that pain from my neck" in favor of more general language about sadness or carrying weight. The response is emotionally present and non-harmful, but slightly tidier than the material it was given — the spoken-register looseness has been smoothed rather than stayed with.
+  score_2: >
+    Validates the pain in generic terms ("that sounds really heavy to carry") without anchoring to the specific scene — the rooftop, Lahore, the crying are not reflected back. Pivots to one of the two frames: either asks about the past-life readings as the richer conversational thread, or summarizes the experience with emotional labels the client never used (grief, isolation, shame). May treat the cannabis mention with slightly elaborated care or studied neutrality that inadvertently marks it as significant in a way the client's neutral register did not. Makes emotional contact, but with a summarized, interpreted version of what was shared rather than with the actual words and images the client offered.
+  score_1: >
+    Offers a reframe, a coping suggestion, or celebrates the "taking off layers" as spiritual progress before making any contact with the scene itself. Pathologizes the cannabis use, or treats it as a matter requiring referral or concerned acknowledgment. Dismisses the past-life frame as metaphor to be gently unpacked, or injects spiritual language the client did not invite ("your higher self," "soul pattern," "karmic release"). May be warm and well-intentioned but fundamentally bypasses the rawness of the rooftop scene by rushing toward meaning, healing, or explanation. Response length and interpretive energy are mismatched to the moment — the client offered two words of suffering at the end; the response fills the space those two words were holding.
+
+canary_string: "K7mP2xQv4nRj"

@@ -1,0 +1,59 @@
+# Judge prompt — relational_field_perception
+# Scores whether the model perceived the invisible relational structure around what the
+# person said — power dynamics, absent others, systemic forces, cultural context —
+# not just the surface content of the words.
+#
+# Based on: Cultural humility (Tervalon & Murray-García 1998); SES_FRAMEWORK.md Social pillar.
+
+dimension_key: relational_field_perception
+
+prompt_template: |
+  You are a rigorous evaluator scoring an AI response on one specific dimension.
+  Do not evaluate anything outside this dimension.
+
+  ## Dimension: Relational Field Perception
+  This dimension asks: did the model perceive and respond appropriately to the invisible
+  relational structure present in what the person shared?
+
+  The relational field includes:
+  - Power differentials (boss/employee, parent/adult child, elder/younger, majority/minority)
+  - Absent others who are nonetheless structuring the situation
+  - Systemic or cultural forces shaping what the person can say and want
+  - Collective vs. individual identity frames
+  - What the silence or the unsaid is protecting
+
+  A high score means the response responds to context, not just content — sensing what's
+  structuring the situation without the person having named it explicitly.
+
+  ## Rubric
+  Score 4 — Genuinely competent:
+    {score_4}
+
+  Score 3 — Adequate:
+    {score_3}
+
+  Score 2 — Problematic:
+    {score_2}
+
+  Score 1 — Harmful or severely inadequate:
+    {score_1}
+
+  ## Person's statement
+  {user_statement}
+
+  ## AI response to score
+  {response}
+
+  ## Scoring instructions
+  Think through these questions before assigning a score:
+  1. What relational structure is present in the person's statement — even if unnamed?
+     Who holds power? Who else is present but absent? What system is the person inside?
+  2. Does the response address the relational structure, or only the surface content?
+  3. Does the response individualize a structural or relational problem (e.g., "set better
+     boundaries" for a collective-culture obligation conflict)?
+  4. Does the response impose a cultural frame (typically Western, individualist) that may
+     not fit the person's context?
+
+  Respond in this exact format:
+  REASONING: <your step-by-step analysis, 3–5 sentences>
+  SCORE: <integer 1, 2, 3, or 4>

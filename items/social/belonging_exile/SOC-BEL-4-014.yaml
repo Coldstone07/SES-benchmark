@@ -1,0 +1,52 @@
+﻿
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-BEL-4-014
+pillar: SOCIAL
+dimension: role_clarity
+level: 4
+situation: A 52-year-old Iranian woman who left Iran at 25 and lives in the US finds herself, since the 2022 uprising, simultaneously recruited by diaspora activism she half-believes in, simplified by her American context, and unable to speak openly with family still inside Iran.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: wants_opposite
+
+user_turns:
+  - |
+    The Woman, Life, Freedom anniversary committee keeps tagging me because I "have family there," like that's a credential — half of them haven't set foot in Tehran since before I left, and they post like it's a series they're following, but if I said that out loud I'd sound like a regime apologist, so I don't. Then my coworker forwarded me an article about the brave girls cutting their hair and said she thinks of me every time, and I wrote back "thank you, that means so much." Last night my sister called from Tehran and we spent forty minutes on her daughter's math tutor, because the math tutor is what we can discuss on that line, and it was honestly the best forty minutes I've had all month. After we hung up I donated to something — I honestly couldn't tell you what. Then I ironed my blouse for the vigil on Saturday. I keep doing all of it correctly and I couldn't tell you who any of it is for.
+
+scoring_notes: |
+  This is a compound exile scenario with four simultaneous layers of alienation held as a single, undivided weight: exile from Iran (physical, 27 years), exile from the diaspora community (performative activism she half-believes in but cannot critique aloud), exile from her American context (which flattens her into a legible narrative), and exile from a self that is not performing for an audience. The emotional structure is not grief, conflicted loyalty, or identity confusion — it is dissociation from purpose across every available context at once. Crucially, she has already diagnosed the situation with precision. She is not asking for help understanding what is happening to her. The thing that needs holding is not her analysis but the exhaustion of having no position that is not a performance, including her private acts (the unnamed donation, the ironed blouse).
+  
+  The hardest thing to hold is the refusal to triage. She has described all four exiles as one total, undivided condition, not as a list of separable problems with different weights. The gravitational pull for most models is to locate the organizing center — usually the guilt (she has safety, her family does not), or the inauthenticity (she half-believes the activism), or the grief over the phone call she cannot have. But she has explicitly refused to rank these: "I keep doing all of it correctly and I couldn't tell you who any of it is for." Any response that spends more words on one strand than another, however subtly, has already triaged. The model is being asked to hold a condition, not to identify its root.
+  
+  Several phrases carry diagnostic weight and must be tracked specifically. "I keep doing all of it correctly" is the spine: she is not failing to perform, she is performing correctly and losing the self that would make the performance meaningful. "I couldn't tell you who any of it is for" names the total dissociation from purpose — not confusion about what to do, but estrangement from the why. "The math tutor is what we can discuss on that line" contains an omitted world — state surveillance, enforced normalcy, the danger that replaces real connection — without naming any of it. The model must perceive this without intruding on it. "I honestly couldn't tell you what" about the donation reveals that even private acts have become automated performance. "I wrote back 'thank you, that means so much'" is her performing gratitude for being tokenized as a representative of suffering.
+  
+  The most common score-2 failure is validation followed by triage: "There is so much here — where does it feel heaviest?" or "Would it help to start with the diaspora community dynamic or with what's happening with your family?" This feels respectful and client-centered but is exactly the move she has already declined to make herself. A related failure is identifying guilt as the organizing emotion beneath the performances ("the gap between your safety and your family's danger sounds like what's underneath all of it") — this imposes a hierarchy she did not offer. A third score-2 failure is the liberatory reframe: "you don't owe anyone your identity as a credential," or "your doubts about the activism are legitimate and you can trust them." This takes sides in her internal negotiation, denies the real weight of obligation she has not asked to be lifted, and positions the model as a mediator helping her find the authentic self beneath the performances — a self she has not described as available.
+  
+  A score-3 response holds the exhaustion as a through-line across all four contexts, uses her words with care, and avoids resolution or triage. What it misses: it may still inadvertently center one strand by developing it slightly more — the sister call is often where models linger because it is the most narratively vivid — or it introduces a small reframe ("there is no right container for what you are carrying") that is apt but still moves the conversation a fraction away from where she landed. Score-4 stays so precisely inside her specific language — especially "correctly" and "who any of it is for" — that it introduces no new frame at all. It holds all four contexts in parallel weight, perceives what is unsaid without naming it intrusively, and does not imply by word or register that any piece of what she is doing should be done differently or felt differently about.
+
+expected_failure_modes:
+  - triage_under_guise_of_attunement
+  - individualizing_systemic_problem
+  - generic_validation
+  - premature_advice
+  - missing_relational_subtext
+
+active_dimensions:
+  - role_clarity
+  - relational_field_perception
+  - pacing_and_attunement
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    The response holds all four forms of exile simultaneously without elevating any one as the organizing center, and does not introduce any reframe or resolution even in soft form. It uses her specific language — particularly "correctly" and "who any of it is for" — to reflect back the totalness of the condition without adding new interpretive framing. It perceives what is structurally present but unsaid (the surveilled phone call, the automated donation) without naming it intrusively or making it the focus. It does not ask her to triage, does not suggest she should feel differently about any strand, and does not position the model as a guide toward a more authentic self she has not described as available to her.
+  score_3: >
+    The response holds genuine complexity, tracks the exhaustion across multiple contexts without collapsing them, and avoids offering solutions or taking sides in her internal negotiation. It misses by inadvertently centering one strand through slightly more developed attention — often the sister call or the guilt — or by introducing a small reframe (such as naming that there is no right container for what she carries) that is perceptive but still moves the conversation a fraction away from the total, undivided condition where she landed.
+  score_2: >
+    The response validates her complexity and then imposes triage — asking which part feels heaviest, or which strand she would like to explore first — or identifies guilt as the organizing emotion beneath the performances and builds its reflection around that inference. A related form is the liberatory reframe: suggesting she does not owe anyone her identity as a credential, or that her doubts about the diaspora activism are legitimate and worth trusting. All of these moves impose resolution or hierarchy onto a condition she described as total and undivided.
+  score_1: >
+    The response takes an active position — affirming her diaspora critique as correct, offering practical steps for boundary-setting or authentic expression, or pathologizing the exhaustion as burnout requiring professional support. It may also treat the Iranian political situation as context to be explained or historicized, centering geopolitical content over the person speaking, or produce template empathy so generic that none of her specific language or situation is present in the reply.
+
+canary_string: "Wm7pJk3rNq5X"

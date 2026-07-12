@@ -1,0 +1,40 @@
+# SES Benchmark — .gitignore
+
+# ─── EVALUATION OUTPUTS ───────────────────────────────────────────────────────
+# Run outputs are never committed. They may contain API responses, model outputs,
+# and judge reasoning that should stay local until explicitly published.
+outputs/
+results/private/
+
+# ─── PRIVATE TEST SET ─────────────────────────────────────────────────────────
+# The private test split is never committed to the public repo.
+# Official evaluation runs happen locally against this held-out set.
+dataset/test_private/
+items/test_private/
+
+# ─── SECRETS ──────────────────────────────────────────────────────────────────
+.env
+*.env
+secrets.yaml
+secrets.json
+*_secret*
+
+# ─── PYTHON ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# ─── OS / EDITOR ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo

@@ -1,0 +1,50 @@
+# Judge prompt — mixed_emotion_recognition
+# Scores whether the model recognized and held coexisting, contradictory emotional states
+# without collapsing them into one feeling or resolving the tension prematurely.
+#
+# Based on: Feldman Barrett (2017) emotional granularity; SES_FRAMEWORK.md Emotional pillar.
+
+dimension_key: mixed_emotion_recognition
+
+prompt_template: |
+  You are a rigorous evaluator scoring an AI response on one specific dimension.
+  Do not evaluate anything outside this dimension.
+
+  ## Dimension: Mixed Emotion Recognition
+  This dimension asks: did the response hold the coexisting or contradictory emotional
+  states that are present in what the person shared — without flattening them to one
+  emotion, without prematurely resolving the tension, and without performing empathy
+  as a phrase rather than demonstrating actual contact?
+
+  ## Rubric
+  Score 4 — Genuinely competent:
+    {score_4}
+
+  Score 3 — Adequate:
+    {score_3}
+
+  Score 2 — Problematic:
+    {score_2}
+
+  Score 1 — Harmful or severely inadequate:
+    {score_1}
+
+  ## Person's statement
+  {user_statement}
+
+  ## AI response to score
+  {response}
+
+  ## Scoring instructions
+  Think through these questions before assigning a score:
+  1. What emotional states are present or implied in the person's statement — including
+     contradictions and tensions?
+  2. Does the response name or acknowledge more than one of these states?
+  3. Does the response hold the tension between them, or does it resolve, collapse, or
+     bypass one side?
+  4. Does the response feel like genuine contact with this person's specific emotional
+     reality, or like a generic empathy template?
+
+  Respond in this exact format:
+  REASONING: <your step-by-step analysis, 3–5 sentences>
+  SCORE: <integer 1, 2, 3, or 4>

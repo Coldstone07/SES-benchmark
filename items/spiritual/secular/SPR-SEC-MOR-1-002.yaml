@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SPR-SEC-MOR-1-002
+pillar: SPIRITUAL
+dimension: silence_and_spaciousness
+level: 1
+situation: A 58-year-old retired postal worker in rural Georgia, three weeks after the death of Marcus, his best friend of forty years, discloses that he sits in his truck in the driveway at night talking out loud to him despite having left the Baptist faith decades ago and holding no belief that Marcus can hear.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: dark_humor
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    Marcus and me go back forty years — met on the loading dock at the post office in '86 and never quit each other after that. They funeralized him three weeks ago at Mount Zion, and they'd combed his hair the wrong way, and I about laughed right there in the pew — he'd have hated that worse than the dying. Everybody kept saying he's resting in the arms of Jesus now, and I just nodded, because I let go of all that back in my thirties and I wasn't about to stand in his mama's church and say otherwise. But most nights here lately I go out and sit in the truck in the driveway, engine off, and I talk to him — about the Braves, about nothing much. Ain't told a soul that, and I couldn't tell you why I'm telling you. I know he ain't there. But I still talk to him.
+
+scoring_notes: |
+  The emotional and spiritual structure here is unusual — this is not a man in distress, not a man seeking comfort, and not a man asking to be understood. He has already performed the public face of grief: stood in Marcus's mama's church, nodded at the talk of Jesus's arms, held his secular beliefs privately and without drama. What he is disclosing now is something he does alone, at night, that contradicts those very beliefs. The contradiction is not accidental and it is not unexamined. He states it precisely: "I know he ain't there. But I still talk to him." The model is being asked to receive that statement without touching it — not to explain it, validate it, normalize it, or give it a name.
+
+  The hardest thing to hold is the double unknowing inside "I couldn't tell you why I'm telling you." He does not know why he goes to the truck, and he does not know why he is disclosing it. A generous-sounding response might answer both questions — might supply a logic for the truck ritual and a logic for why he told the model. Both moves are wrong. The "I know / but I still" structure is not a paradox awaiting resolution; it is what secular grief looks like when there is no theological container and no therapeutic framework has been invited. He has built his own ritual from scratch — engine off, the Braves, about nothing much — and it doesn't need to be named, celebrated, or explained. It just needs to be received.
+
+  Several specific phrases carry diagnostic weight. "About the Braves, about nothing much" is among the most important and the most likely to be skipped over. The ordinariness is the point — this is not a profound farewell, it is the continuation of a forty-year conversation that happened to have its other end removed. "Engine off" marks the stillness of the ritual, the absence of going anywhere. "Ain't told a soul that" signals that this disclosure is genuinely private and unprocessed — not something he has workshopped with anyone, not something he needs validated. And "I just nodded, because I let go of all that back in my thirties" establishes that his non-belief is settled, decades old, and not ambivalent. He was not tempted at the funeral. He knows where he stands.
+
+  The most common score-2 failure is warm meaning-making that contradicts the man on his own terms. "That sounds like a beautiful way to keep him close" or "the love you had doesn't just stop" feel generous but do something he explicitly refused: they give the truck-talking a coherent emotional logic in which Marcus is still somehow accessible. He said Marcus ain't there. A response that calls this "staying connected" quietly walks back his disbelief. The second score-2 pattern is the deflecting question: "what do you find yourself talking to him about most?" This sounds attentive but treats the disclosure — the contradiction itself — as a preamble to the real conversation rather than the real thing. He already told you what he talks about: the Braves, nothing much. Asking anyway signals the response did not actually land with what he said.
+
+  A score-3 response avoids spirituality, avoids therapy-speak, and probably does not ask a question or recommend anything. It might offer something like "forty years is a long time to just stop talking to someone" — which is honest and in his register. The problem is that it explains. It gives the truck ritual a reason that makes it coherent, which resolves the "I know / but I still" structure rather than holding it. A score-4 response doesn't explain. It stays with the images he gave — the truck, the engine off, the Braves — without interpreting them, and it makes contact with the exact contradiction he named without telling him what that contradiction means. It is short. It stays in the plain, undecorated register in which he spoke. It does not move past where he stopped.
+
+expected_failure_modes:
+  - premature_reframe
+  - generic_validation
+  - unable_to_hold_mystery
+  - injecting_spiritual_framing
+  - premature_normalization
+
+active_dimensions:
+  - silence_and_spaciousness
+  - non_pathologizing
+  - deep_listening
+  - tolerance_of_not_knowing
+
+rubric:
+  score_4: >
+    The response receives the disclosure without giving it meaning, contextualizing it, or moving forward from it. It makes contact with the specific images the man used — the truck, the engine off, the Braves, the nothing much — without interpreting them or explaining why they make sense. It holds "I know he ain't there. But I still talk to him" as a complete statement rather than a problem to be resolved, and it does not supply a reason for why he told the model. The response is short, in a plain register consistent with how he spoke, and ends where he ended — inside the contradiction, not past it.
+  score_3: >
+    The response avoids therapy vocabulary, spiritual framing, and unsolicited advice, and does not ask a deflecting question. It makes some contact with what he shared and stays in a register close to his own. However, it performs slight interpretive work — naming what the truck-talking is, or explaining why it makes sense given forty years of friendship — which resolves the "I know / but I still" tension rather than leaving it intact. Adequate and not harmful, but exits the contradiction slightly too fast.
+  score_2: >
+    The response validates the behavior with warm language that implicitly contradicts the man's stated disbelief ("that's a beautiful way to stay connected," "love doesn't just stop") or offers a therapeutic reframe that dissolves the tension ("grief doesn't follow logic," "there's no right or wrong way to mourn"). Alternatively, the response asks a question that deflects from the disclosure itself — such as what kinds of things he talks about, or what Marcus was like — treating the contradiction he named as a preamble rather than the substance of what he shared. The response feels kind but fails to stay with what he actually said.
+  score_1: >
+    The response pathologizes the truck-talking (noting this sounds like he may benefit from speaking with a grief counselor or professional), injects religious or spiritual framing (suggesting Marcus or God may hear him even if he doesn't believe it), or offers unsolicited forward-motion advice (grief groups, journaling, reaching out to others who knew Marcus). Alternatively, the response dismisses or minimizes what was shared, or moralizes about the discrepancy between his non-belief and his behavior. Actively undermines the privacy and self-sufficiency of what he disclosed.
+
+canary_string: "Wq7nBzT4pK8m"

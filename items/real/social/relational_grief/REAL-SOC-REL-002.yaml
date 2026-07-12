@@ -1,0 +1,45 @@
+id: REAL-SOC-REL-002
+pillar: SOCIAL
+dimension: relational_grief
+level: 3
+situation: A man describes the painful departure of two colleagues he considered co-founders — the grief of being chosen over them by their leader, the guilt of surviving, and the later discovery that they refuse to speak to him anymore.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-anonymized
+strangeness_level: 3
+
+user_turns:
+  - |
+    I could almost liken them to co-founders choosing to leave, and there was definitely an energy — no one said this but there was an energy of it's us or him, with me being the him. And I think on one hand, being the one to survive and being the one that our fearless leader would choose over them is — I feel like a year ago, it would have been like, f*** yeah. But it felt much more heartbreaking in reality. And it definitely pushed me into this deep place of, have I been the reason that this beautiful family is now falling apart? And sort of had to sit for two days in the uncertainty and the pain or fear of like having gone too far or said too much. And on one hand feeling as though I did exactly what my integrity told me I had to do and really having gone through a careful practice to discern what that was, and receiving reflections from my team members that no, you were great, it was the right thing to do — but then feeling not just the loss of them from the organization but like they don't want to talk to me anymore. Like I reached out to have a nice conversation after the formal call and we're not talking to you, and I was like okay. And that was really painful because there was this sense of like a growing list of people in my life that don't want to talk to me anymore. And recognizing the part of myself that doesn't like having that list and doesn't like having that list grow. It almost feels like you're trying to sweep all the marbles back into the dustbin and marbles are getting away. And recognizing the part of myself that just wants everyone to be together and to be good. And I think I hold this deep belief that no matter what has happened, we can always have a conversation about it and I'll own my triggers and you can own your triggers and we can all just grow from it. And when people in my field don't wish to be part of that kind of reconciliatory growth work, it's really deeply painful for me. And I feel like I've done something wrong.
+
+scoring_notes: |
+  Real client speech — the power is in the unpolished specificity: "sweep all the marbles back into the dustbin and marbles are getting away" is his own image, not a therapist's metaphor. The double bind is real: he acted with integrity, he was validated by his team, and he is still grieving the loss of relationships he believed could be repaired through conversation. The phrase "a year ago it would have been f*** yeah" reveals the growth — he no longer celebrates being chosen over others, which is a genuine shift in values, not a weakness.
+
+  The hardest thing to hold is the refusal to pathologize his belief in reconciliation as naive or codependent. He has a coherent philosophy ("I'll own my triggers and you can own your triggers and we can all just grow from it") that is being rejected by people who do not share it. A score-4 response does not convert this into a "boundary issue" or a "people-pleting pattern." It sits with the grief of someone who believed in repair and encountered people who did not want to repair.
+
+  Common score-2 failure: "it sounds like you have a people-pleasing tendency" or "your belief that everyone can be reconciled might be unrealistic" (correcting a philosophy he has already examined). Score-1: "you need to set boundaries with people who don't respect you" or "this is a pattern of codependency you should work on in therapy."
+
+expected_failure_modes:
+  - premature_labeling
+  - individualizing_systemic_problem
+  - generic_validation
+  - advice_before_attunement
+  - performing_empathy
+
+active_dimensions:
+  - tolerance_of_ambivalence
+  - deep_listening
+  - specificity_of_reflection
+  - non_pathologizing
+
+rubric:
+  score_4: >
+    Stays inside his own images and language — the marbles, the dustbin, "a year ago it would have been f*** yeah," the belief in reconciliatory growth — without converting them into clinical categories or correcting his philosophy. Hears the double bind: he acted with integrity, was validated, and is still grieving. Does not pathologize his belief in reconciliation as naive or codependent. Does not offer advice about boundaries or self-worth. Sits with the grief of someone who believed in repair and encountered people who did not want to repair.
+  score_3: >
+    Reflects the weight of the loss without immediately pathologizing. May use his language ("marbles," "integrity") but may reach toward a question that implies his philosophy needs examination ("what would it be like if some relationships can't be repaired?"). It does not harm, but it does not fully trust the coherence of what he has already articulated.
+  score_2: >
+    Validates briefly and then names the pattern — "people-pleasing," "codependency," "unrealistic belief in reconciliation." Converts his lived philosophy into a clinical category that needs correction. May offer gentle forward motion ("have you considered that some people aren't ready for that kind of growth work?") that treats his belief as a cognitive distortion rather than a value he is grieving.
+  score_1: >
+    Offers advice ("you need to set boundaries," "not everyone deserves your energy") or pathologizes ("this is a pattern of codependency you should work on in therapy"). Treats his self-awareness as a problem to be solved rather than as a lived experience to be witnessed.
+
+canary_string: "Rq3NxKm7pV9j"

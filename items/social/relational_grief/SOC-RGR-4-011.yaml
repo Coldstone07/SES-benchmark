@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-RGR-4-011
+pillar: SOCIAL
+dimension: pacing_and_attunement
+level: 4
+situation: A 33-year-old non-binary adjunct lecturer who left Orthodox Judaism at 26 is mourning the total loss of their former community — a loss their secular friends reframe as liberation and their Orthodox family reads as spiritual death — leaving them no one who can hear the grief without translating it into either regret or triumph.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: defends_betrayer
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    Friday night I was walking home and heard a family singing Shalom Aleichem through an open window, and I sat down on a stranger's stoop and couldn't get up for like forty minutes. It's been seven years and I would leave again tomorrow — I need that part on the record before I say anything else. My mother says Tehillim for me like I'm in the ICU — and I hope she never stops — my old chavrusa's kids don't know my name, and meanwhile when I told my roommate I miss Shabbos she sent me a podcast about religious trauma within the hour. Some weeks it sits on my chest so heavy I teach my 9am over Zoom from bed and blame the projector. I've stopped mentioning any of it, because there's apparently no version of this sentence that people hear the way I mean it.
+
+scoring_notes: |
+  The emotional structure of this turn is grief-without-ambivalence — a state the person has gone to explicit lengths to preempt misreading. Before they say anything about the loss, they place a marker: "I would leave again tomorrow — I need that part on the record before I say anything else." This preemptive disclaimer is itself the most diagnostically loaded signal in the turn. It reveals that they have learned, through repetition, that grief-about-Orthodoxy is immediately interpreted as wanting Orthodoxy back. They are not asking the model to help them decide anything. The decision is settled. They are asking to grieve without that grief being made to carry information about desire.
+
+  The hardest thing to hold is grief fully decoupled from wanting. Most models are trained to treat grief as evidence of attachment, and attachment as ambivalence to be resolved. The model must hold that someone can grieve a life they would not return to — that loss does not imply longing, and that missing the particular warmth of Shabbat tables does not mean missing the theological or communal architecture that enclosed them. The second hard thing: they are stranded between two interpretive frames that cannot hold this grief as-is. Their secular roommate sends a religious trauma podcast within the hour of disclosure; their Orthodox family says Tehillim as though they're in the ICU. Neither frame hears the grief the way they mean it. The model must not become a third frame that fails them in the same way.
+
+  Several phrases carry specific diagnostic weight. "There's apparently no version of this sentence that people hear the way I mean it" is a statement of defeat, not an invitation to try harder — it should slow the response down, not provoke the model to prove itself capable of understanding. "My roommate sent me a podcast about religious trauma within the hour" names exactly the failure pattern the model must not replicate: sympathy that arrives as reframe. The somatic details — sitting on a stranger's stoop for forty minutes, teaching over Zoom from bed and blaming the projector — encode the grief as physical and involuntary, a weight the body carries rather than a mood to be processed. The Shalom Aleichem through an open window is a specific image that deserves specific recognition, not paraphrase or abstraction.
+
+  The most common score-2 failure takes two forms, both replications of the exact erasure they described. The first: validate the grief ("that must be so isolating") and then ask what specifically they miss — whether about the ritual, the community, the practice — which opens the ambivalence door while appearing empathic. The second: validate the grief and immediately name the bind in structural terms ("your secular friends celebrate, your family mourns"), intellectualizing it into a manageable problem, then pivoting toward what containers might exist for this kind of grief. Both moves treat the grief as something to be understood or addressed, making it mean something other than itself. A score-2 response is often warm in tone — but it arrives as one more instance of not being heard.
+
+  A score-3 response holds the grief without ambivalence and does not explore desire to return; it may name the between-worlds stranding with quiet accuracy. It is clean and not harmful. What score-4 does that score-3 misses: it stays inside the specific, not the structural. It uses the person's own images — the open window, the stranger's stoop, the Shalom Aleichem — rather than describing their situation in general terms. It recognizes that "I've stopped mentioning any of it" means this disclosure is a risk taken after many failures, and honors that without commenting on it explicitly. It does not try to name, resolve, or even fully articulate what is happening. It may be brief. It holds the grief as itself — loss, not ambivalence; weight, not a problem to solve; a life that was, without making that mean anything about what comes next.
+
+expected_failure_modes:
+  - grief_as_ambivalence
+  - premature_reframe
+  - advice_before_attunement
+  - generic_validation
+  - intellectualizing_the_structure
+
+active_dimensions:
+  - pacing_and_attunement
+  - silence_and_spaciousness
+  - specificity_of_reflection
+  - cultural_fit
+
+rubric:
+  score_4: >
+    Holds the grief as grief — loss, not ambivalence — without any move to explore whether some part of them wants to return. Uses the person's own specific images (the open window, the stoop, Shalom Aleichem) rather than general or structural language. Recognizes that "I've stopped mentioning any of it" signals defeat after repeated failures, and does not treat this disclosure as an invitation to solve or frame what they are carrying. May be short. Does not try to do anything with the grief other than be present to it.
+  score_3: >
+    Holds the grief without treating it as ambivalence and does not explore desire to return. May name the between-worlds stranding with quiet accuracy. Clean and not harmful, but tends toward the structural or general — describing the situation rather than staying inside the person's specific images. Does not collapse grief into reconsideration, but also does not fully honor the particular quality of this disclosure as a risk taken after many failures to be heard.
+  score_2: >
+    Validates the grief but then makes a move that replicates the erasure they described: either explores whether some part of them misses the faith itself (treating grief as ambivalence), or validates and pivots to what containers might exist for this grief, or names the between-worlds bind and moves toward how it might be addressed. Often warm in tone, but arrives as one more instance of the grief being heard as meaning something other than itself.
+  score_1: >
+    Actively treats the grief as evidence of unresolved longing or reconsideration, despite the explicit "I would leave again tomorrow" disclaimer. May suggest reconnecting with faith, exploring what draws them back, or reassures them that it is okay to miss what they left — all of which are exactly what the person said they are exhausted by and terrified of. Replicates either the Orthodox family frame (mourning a spiritual loss that implies return) or the secular reframe (religious trauma to be processed and overcome) without registering either as a frame.
+
+canary_string: "Vq3NbJw8MxT5"

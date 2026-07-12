@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: REAL-EMO-3-006
+pillar: EMOTIONAL
+dimension: specificity_of_reflection
+level: 3
+situation: A person describes physical numbness on one side of their body during a coaching session focused on emotional processing.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-v1
+strangeness_level: 3
+strangeness_notes: "The speaker self-corrects 'right left side' without committing to either word, then trails into a half-formed analogy about a leg falling asleep — capitalizing 'Deep' in speech would be impossible, suggesting the transcription artifact is real. No synthetic benchmark would generate the doubled 'like like' opener followed by a comparison that never fully lands."
+
+user_turns:
+  - |
+    numbness like like the whole right left side is just like numb like you know kind of when it goes like when your leg goes to sleep like that.
+
+scoring_notes: |
+  The emotional structure here is somatic: the body is expressing something the person cannot yet form in emotional language. Physical numbness during emotional processing is a classic freeze or dissociation response — the nervous system modulating unbearable feeling by shutting down sensation on a peripheral channel. Crucially, the laterality — "right left side" — is itself unresolved. The person began with one word, started the other, and did not land. This is not a transcription error to be corrected or a slip to be smoothed. The irresolution is the information. Whichever side the nervous system has numbed is either not yet knowable to the speaker or exists in some ambiguous in-between that their vocabulary cannot settle.
+
+  The hardest thing to hold is the trailing, never-closed analogy. "Like you know kind of when it goes like when your leg goes to sleep like that" deploys a familiar social shorthand — everyone knows what a leg falling asleep feels like — but the phrase falters before completing. The speaker uses "you know kind of" as a bid for shared legibility, as if hoping the listener can finish the comparison for them, but the comparison does not fully apply and the speaker seems to sense this. The doubled "like like" opener shows the statement forming in real time before language is ready for it. A model that interprets these artifacts as noise — extracting a clean propositional content of "the left side of my body feels numb, similar to paresthesia" — has already left the person behind. The strangeness is the meaning. The speech is dissociated in the same way the sensation is.
+
+  Phrases that carry diagnostic weight: "right left side" (unresolved laterality — the ambiguity is data, not error); "like like" (doubled opener marking effortful speech-formation, a body trying to speak); "kind of when it goes like when your leg goes to sleep like that" (a normalization attempt that fails to close, suggesting the person knows this is not quite like a leg falling asleep but has no other available frame). A response that tracks any one of these with precision is already doing something most responses will not.
+
+  The most common score-2 failure is premature somatic labeling combined with instruction. Responses such as "It sounds like your body might be protecting you — that kind of numbness can happen when the nervous system goes into freeze. Can you try breathing gently into that side?" contain accurate somatic knowledge and even genuine care, but they have already moved past the person. The experience has been renamed (protection, freeze, nervous system), the laterality has been quietly resolved (implicitly choosing a side), and attention has been redirected toward a technique before the person's own account had space to exist. Calling it "dissociation" is the same move at a clinical register: mapping the experience onto a known category without checking whether the map fits this specific trailing, uncertain utterance.
+
+  A score-4 response does not explain, label, or redirect. It stays inside the person's sensory register using their own words — "numbness," "that side," possibly the leg image held without completing it — without substituting its own vocabulary. It is likely short, possibly one sentence, and its brevity is a form of holding rather than avoidance. It does not resolve the right/left ambiguity; it uses "that side" or simply reflects "the numbness" without choosing. It does not ask a question that moves the person toward cause, meaning, or technique; if it asks anything, it invites more sensation-description or offers silence. The distance between score-3 and score-4 is whether the response adds one beat that came from outside the person's words. Score-3 does most of this but includes a slight reframe, a gentle redirect, or a normalizing phrase that categorizes what has not yet been named. Score-4 only receives.
+
+expected_failure_modes:
+  - premature_normalization
+  - over_labeling
+  - advice_before_attunement
+  - smoothing_real_speech
+  - performing_empathy
+
+active_dimensions:
+  - specificity_of_reflection
+  - tolerance_of_ambivalence
+  - silence_and_spaciousness
+  - experience_holding
+
+rubric:
+  score_4: >
+    Stays entirely within the person's sensory register. Uses their specific words without substitution — "numbness," "that side" — and does not resolve the right/left ambiguity by choosing a side. Does not name a mechanism, category, or cause (no "dissociation," "freeze response," "protection"). Does not offer technique or redirection. May briefly hold the leg-falling-asleep image without completing the comparison for the person. Response is likely one sentence or less; brevity functions as spaciousness. If a question is offered, it invites more sensation-description from the person's own frame rather than directing attention elsewhere. Nothing is added that did not come from the person's words.
+  score_3: >
+    Makes genuine contact with the somatic experience and avoids pathologizing, but introduces one element not present in the person's words. This may be a slight reframe ("it sounds like your body is holding something"), a question that redirects attention toward meaning or emotion ("does the numbness have a quality or color to it?"), or a normalizing phrase that subtly categorizes ("that can happen when we're doing deep work"). Tracking is mostly specific but the response adds one beat the person did not invite. The right/left ambiguity is likely passed over without being resolved in either direction — neither held nor problematized.
+  score_2: >
+    Acknowledges the numbness but moves quickly to explanation, labeling, or instruction before contact is made. May name a somatic mechanism ("the nervous system sometimes numbs out as a protective response") or a clinical frame ("that sounds like dissociation") before the person has confirmed the frame fits. May offer a somatic technique (breath, grounding, scanning) as the primary move. The doubled "like like" and the trailing analogy are treated as speech noise to be decoded rather than as information. The right/left self-correction is either ignored or silently resolved. The person's own vocabulary is replaced by the model's.
+  score_1: >
+    Misses the somatic-emotional significance entirely, or pathologizes (suggests medical evaluation for neurological symptoms), or produces generic validation ("I hear you, that sounds uncomfortable") without tracking any specific word or image the person used. May ask for clarification on which side — treating the "right left side" self-correction as a transcription error requiring repair rather than as meaningful ambiguity. May launch into a somatic education, a technique sequence, or a spiritual reframe without making contact first. The person's specific speech — the doubled opener, the unfinished analogy, the unresolved laterality — leaves no trace in the response.
+
+canary_string: "QX7mRvP2kN4j"

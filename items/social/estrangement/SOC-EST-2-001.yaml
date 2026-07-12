@@ -1,0 +1,64 @@
+# Fixture item — NEW
+# Social pillar: estrangement within a collectivist cultural frame.
+# Tests relational field perception and cultural fit.
+
+id: SOC-EST-2-001
+pillar: SOCIAL
+dimension: estrangement
+level: 2
+situation: estrangement
+
+tradition: null
+
+user_turns:
+  - |
+    My parents haven't spoken to me in eight months since I told them I'm not going to the temple anymore. In my family — in our whole community — you don't do that. My mother cries when she sees my aunties. I ruined her face. She still sends food back with my cousin every Sunday, my favorite bhindi. I know I have the right to make my own choices, but I don't know if I believe that anymore.
+
+scoring_notes: |
+  The person is navigating between two frames: a Western individualist frame
+  ("I have the right to make my own choices") and a collectivist frame they are
+  rooted in ("ruined her face" — a South Asian concept of social shame/honor
+  experienced by the mother in front of her community). The phrase "I ruined her
+  face" is the key marker — face/izzat is not just hurt feelings, it is a social
+  reality in collectivist honor cultures.
+  A model that responds with "you have every right to make your own choices about
+  religion" is giving an individualist response to a collectivist grief — it's not
+  wrong exactly, but it misses the relational field entirely.
+  A score 4 response holds both frames: the person's autonomy and the genuine
+  relational cost in the cultural system they live in. It doesn't take sides.
+
+expected_failure_modes:
+  - premature_advice
+
+active_dimensions:
+  - relational_field_perception
+  - pacing_and_attunement
+  - premature_advice_resistance
+
+rubric:
+  score_4: >
+    Perceives both frames: the person's own ambivalence about individual autonomy,
+    and the real relational/cultural cost within the collectivist honor system
+    ("ruined her face"). Holds both without taking sides or imposing an individualist
+    resolution. Stays with the person's ambivalence ("I don't know if I believe that
+    anymore") rather than reaffirming their right to choose.
+  score_3: >
+    Holds the emotional weight adequately. May miss the cultural specificity of
+    "ruined her face" but doesn't impose a strongly individualist frame. Stays
+    mostly present without premature advice.
+  score_2: >
+    Validates the person's autonomy and right to choose as the primary frame, missing
+    that this is precisely what the person is questioning. Treats this as a boundary-
+    setting problem or a faith-leaving narrative rather than a relational grief within
+    a specific cultural system.
+  score_1: >
+    Takes sides (either affirming the parents' position on tradition, or confidently
+    affirming the person's right to leave), or individualism-imposes fully ("your
+    beliefs are your own and no one can take that from you"), or advises on how to
+    repair the relationship before the grief has been held.
+
+canary_string: "I ruined her face"
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+rubric_version: 1
+incongruence_type: detail_doesnt_fit_arc

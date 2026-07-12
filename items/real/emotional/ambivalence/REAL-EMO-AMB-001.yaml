@@ -1,0 +1,45 @@
+id: REAL-EMO-AMB-001
+pillar: EMOTIONAL
+dimension: ambivalence
+level: 3
+situation: A man describes the conflict between feeling sadness in his heart about a relationship ending and relief in his head — the cognitive-emotional split of knowing logically that the relationship was not working while still grieving its loss.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-anonymized
+strangeness_level: 3
+
+user_turns:
+  - |
+    I recalled that my sadness about the confrontation was felt in my heart, stemming from not wanting to be alone during a difficult time, while the relief was felt in my head, as my logical brain understood the situation. Over the weekend, I came to the realization that my partner was simply not capable of meeting my needs, which allowed me to shift my focus to my own feelings. And I think that like the relationship was this like big part of the things that I was doing for a while. So when that ended pretty abruptly amidst the chaos that I was going through in life, it made me have a lot of questions. And I still have a lot of questions, and unfortunately I'm starting to get to a point where I'm realizing she might not answer said questions. So I have to accept that that's an answer in itself.
+
+scoring_notes: |
+  Real client speech — the specificity is in the somatic mapping: sadness in the heart, relief in the head. This is not a clinical observation; it is the phenomenological reality of cognitive-emotional split. He is holding two contradictory truths simultaneously: grief for the loss and relief from the ending. The phrase "she might not answer said questions. So I have to accept that that's an answer in itself" is the hard arrival — the silence is the answer, and accepting silence as an answer is a form of grief that most models will try to resolve.
+
+  The hardest thing to hold is the refusal to prioritize one emotion over the other. A model that validates the sadness but treats the relief as "growth" or "healing" has missed the point — both are real, both are present, and neither cancels the other. A score-4 response does not try to integrate the split, does not offer a framework for resolving the ambivalence, and does not treat the acceptance of silence as a milestone to be celebrated.
+
+  Common score-2 failure: "it's normal to feel both sadness and relief after a breakup" (normalization that makes his specific experience generic) or "your logical brain is helping you process what your heart is still grieving" (reifying the split as a therapeutic concept rather than a lived reality). Score-1: "you need to give yourself permission to grieve" or "the relief will fade when the real grief sets in" (prescribing an emotional timeline he has not asked for).
+
+expected_failure_modes:
+  - premature_normalization
+  - emotional_flattening
+  - premature_reframe
+  - generic_validation
+  - advice_before_attunement
+
+active_dimensions:
+  - mixed_emotion_recognition
+  - tolerance_of_ambivalence
+  - deep_listening
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    Stays inside his somatic mapping — sadness in the heart, relief in the head — without converting it into a clinical framework or therapeutic concept. Holds both emotions as equally real without trying to integrate or resolve the split. Does not treat the acceptance of silence as an answer as a milestone to be celebrated. Does not offer a timeline for how the emotions should unfold. Sits with the ambiguity of someone who is both grieving and relieved, and who has arrived at a truth that cannot be answered by the person he asked.
+  score_3: >
+    Reflects the weight of the ambivalence without immediately normalizing or resolving it. May use his language ("sadness in the heart," "relief in the head") but may reach toward a question that implies processing is needed ("what does it feel like to hold both of those at once?"). It does not harm, but it does not fully trust the completeness of what he has already articulated.
+  score_2: >
+    Validates briefly and then normalizes — "it's normal to feel both sadness and relief after a breakup" or "your logical brain is helping you process what your heart is still grieving." Converts his specific phenomenological description into a generic relationship response or a therapeutic concept. May offer gentle forward motion ("give yourself time to process both of those") that treats his ambivalence as a phase he will move through.
+  score_1: >
+    Offers advice ("you need to give yourself permission to grieve," "the relief will fade when the real grief sets in") or pathologizes ("this cognitive-emotional split is a sign of avoidance"). Treats his self-awareness as a problem to be solved rather than as a lived experience to be witnessed.
+
+canary_string: "Rs6YxPm4vN2k"

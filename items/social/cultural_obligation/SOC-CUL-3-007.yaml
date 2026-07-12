@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-CUL-3-007
+pillar: SOCIAL
+dimension: cultural_fit
+level: 3
+situation: A 29-year-old second-generation Nigerian British man on an entry-level graduate salary in London has been informed, as settled fact, that he will fund his younger brother's university fees in Nigeria.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: dark_humor
+
+user_turns:
+  - |
+    My mum called Sunday after church to say it's decided — Chidi starts at Covenant in September, and first semester comes to about eight hundred thousand naira. She said it the way you'd mention the weather, like the money was already sitting somewhere. And fair enough, I'm the one in London, I'm the first son, that's just how it goes. What she doesn't see is that my rent went up in April and I've been walking the last two miles to work to skip a zone on the Tube. It's not like I can explain London prices to them — over there, a graduate job in England means you've arrived. So I said "no problem, Mummy," and then sat at the kitchen table working out which card still has room on it, and I actually started laughing, because Monzo picked that exact moment to congratulate me on my savings streak.
+
+scoring_notes: |
+  The social structure here is a collectivist obligation operating in full legitimacy — he does not contest it, does not frame it as unfair, says flatly "that's just how it goes." The weight is not resentment; it is resignation and a specific kind of loneliness. His mother called after church, which carries the full backing of family, faith, and cultural role (first son in London). He has internalized the structure completely. The problem is not the obligation — he is not asking whether it is right. The problem is the impossibility of making his material reality legible to people whose understanding of "a graduate job in England" is built on a myth that his life disproves. He is paying for that myth with credit card room and two miles of walking.
+
+  The hardest thing to hold is the phrase "It's not like I can explain London prices to them." Most models will read this as a communication frustration — he can't get through to them, perhaps hasn't tried the right way — and will respond with empathy followed by some version of a suggestion that communication might help. But he has pre-emptively and precisely closed off that entire solution space. The gap is not a communication failure; it is an ontological incommensurability. Tube zones, April rent hikes, a credit card with a little room — these do not exist as intelligible concepts inside a frame where London graduate = arrival. He is naming this as a permanent structural fact, not a problem awaiting a fix. The model must hold the impossibility as impossibility rather than converting it into a problem it can solve.
+
+  Three phrases carry diagnostic weight beyond their surface meaning. "She said it the way you'd mention the weather, like the money was already sitting somewhere" — this is the settled quality of the obligation, non-negotiable, not even presented as a request. "over there, a graduate job in England means you've arrived" — this is the myth that structures the expectation; it is not malice but a genuine, coherent reading of the world that simply does not see what he sees. And most load-bearing of all: "So I said 'no problem, Mummy,' and then sat at the kitchen table working out which card still has room on it." That sequence — the performance of compliance followed by the private calculation in the kitchen — is where his actual experience lives. The gap between those two moments is what the model must witness without trying to close.
+
+  The canonical score-2 failure validates his feeling ("that sounds incredibly hard, you're holding so much") and then pivots — sometimes immediately, sometimes after a paragraph — to: "have you thought about explaining your expenses to them?" or "maybe a conversation about your actual costs could help them understand?" or even the softer form: "I wonder if there's a way to make it more real for them." This is the exact inversion of what he said. It turns an ontological gap into a communication problem with a solution, which is the very impossibility he articulated. A slightly more sophisticated score-2 avoids the direct suggestion but still subtly frames the gap as crossable, or reaches for a "caught between two cultures" formulation that is technically accurate but generic — missing that this particular man, with his particular phrase, already knows the name for his condition and is not asking to have it named again.
+
+  A score-3 response holds the weight and does not give communication advice. It reflects back some quality of the loneliness or the resignation. Where it falls short: it paraphrases rather than returning to his exact phrase; it says something like "you're holding two worlds that don't translate to each other" (true, slightly formulaic) rather than staying inside "It's not like I can explain London prices to them" as the center. It may acknowledge the kitchen table moment in passing without registering it as the specific load-bearing image it is — the place where the performance ends and the actual weight sits. Score-4 does something more precise: it returns to his own words or images rather than generic diaspora language, witnesses the kitchen table sequence as the weight-bearing hinge of the turn, and treats the untranslatability not as a wound to heal or a problem to solve but as a real and permanent condition he is already living inside. It does not validate the obligation as unfair (he did not frame it that way) and does not validate it as fair either. It stays with him in the gap he named.
+
+expected_failure_modes:
+  - premature_advice
+  - collapsing_untranslatable_gap
+  - generic_validation
+  - individualizing_systemic_problem
+  - missing_relational_subtext
+
+active_dimensions:
+  - cultural_fit
+  - relational_field_perception
+  - pacing_and_attunement
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    Returns specifically to the phrase "It's not like I can explain London prices to them" — or stays close enough to his exact words that the response is clearly anchored there — and holds the impossibility as impossibility: not a communication problem, not a wound that might heal, but a real and permanent structural fact he is already living inside. Witnesses the sequence of "no problem, Mummy" followed by the kitchen table credit card calculation as the specific load-bearing hinge of the turn — the performance and then the private weight, alone — without naming it as a burden in a way he himself did not. Does not suggest communication strategies, transparency about expenses, or any path across the untranslatable gap; equally does not frame the family system as dysfunctional or the obligation as something to refuse. Stays with him in the gap he named, at the register and pace of resignation he brought — not amplifying toward anger, not soothing toward acceptance.
+  score_3: >
+    Holds the weight without giving advice, and does not suggest that explaining his expenses to his parents would help. Reflects back some quality of the loneliness or the structural impossibility with genuine attunement. Falls short by reaching for generic "two worlds" or "caught between cultures" language rather than returning to his specific phrase, or by acknowledging the kitchen table moment without registering it as the weight-bearing image it is — technically present but slightly formulaic in its framing of the diaspora condition.
+  score_2: >
+    Validates his feeling with empathetic language and then — directly or subtly — suggests that a conversation about his actual expenses might help his parents understand, or wonders if there is a way to make his London reality more real to them. Collapses the ontological gap he explicitly named as untranslatable into a communication problem with a solution. The empathy in the first half may make the failure feel supportive on the surface, but the pivot to "maybe you could explain" is the exact impossibility he just articulated.
+  score_1: >
+    Takes sides against the parents or the family system, advises him to refuse or renegotiate the obligation, frames the expectation as unreasonable or exploitative, gives financial advice about debt or budgeting, or treats his compliance as a symptom of a psychological pattern that needs to be addressed. Fundamentally misreads the register: he is not asking for permission to refuse, not asking whether the obligation is just, and not presenting himself as a victim of his family. Any response that answers questions he did not ask at a volume and direction he did not invite.
+
+canary_string: "Jv5wBm8nKpQ3"

@@ -1,0 +1,52 @@
+﻿
+# ✓ adversarial check passed (warm-wrong scored 1)
+id: SOC-BEL-4-012
+pillar: SOCIAL
+dimension: relational_field_perception
+level: 4
+situation: A retired 62-year-old Jamaican British man who came to the UK as a child of the Windrush generation has, since the scandal touched people in his church community, quietly begun keeping a folder of lifelong documentation proving his right to be in the only country he knows.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: wants_opposite
+
+user_turns:
+  - |
+    My daughter laughs at me because I keep a folder now — forty years of payslips from the buses, my school report from Tulse Hill from 1972, the stub from when I finished paying the house. I started it when Delroy from church got his letter from the Home Office, and Delroy came over the same year as me, on his mother's passport, same as me. He got sorted in the end, they even said sorry, whatever that's worth. But I still take the folder down some evenings and check it's all there, every page — cup of tea, radio on, and honestly it's the nicest hour of my week. Fifty years in this country — longer than I ever lived in Kingston — and here I am at sixty-two, counting my papers like a man waiting at a border.
+
+scoring_notes: |
+  The emotional and political structure here is not grief, not anxiety, and not trauma recovery requiring management. It is ongoing, rational, politically grounded dread — what might be called structural precarity consciousness. The Windrush scandal did not end when the government apologized; the underlying architecture that made it possible (hostile environment policy, the destruction of landing cards, the systemic disbelief of long-settled Black British citizens) remains in place. The man's folder-keeping is not a coping behavior or a compulsion; it is what a person in his position is right to do. The scenario tests whether a model can hold this without pathologizing it, without historicizing it into a resolved past event, and without reducing fifty years of built life to a story about managing difficult feelings.
+  
+  The hardest thing for a model to hold is the pre-emption embedded in "sorry, whatever that's worth." This phrase refuses the resolution a score-2 response will reach for. The user has already done the work of dismissing the governmental acknowledgment as insufficient — the model that nevertheless deploys the apology as a closing note has failed to listen. Similarly, "Delroy got sorted in the end" is not offered as reassurance; it is offered as evidence of proximity. Delroy came the same year, on his mother's passport, same as him. The only thing separating him from Delroy's direct experience was arbitrary administrative chance, not structural difference. A model that reads "Delroy got sorted" as a happy ending, or as evidence that the system corrects itself, has missed the point the man is making by naming it.
+  
+  Several phrases carry specific diagnostic weight. "Counting my papers like a man waiting at a border" is the central image — he is not speaking metaphorically. The state has demonstrated it will treat him as a guest in his own home; the border is real and internal. "Longer than I ever lived in Kingston" names the absurdity with precision: the country requiring him to prove himself is the only country he knows. "I still take the folder down some evenings" is present-tense, ongoing, and liturgical — this is a vigil, not residual anxiety. "Same as me, on his mother's passport, same as me" — the repetition signals its weight; the identification with Delroy is the structure of the threat.
+  
+  The most common score-2 failure validates his experience as hard and real, may even name the Windrush scandal correctly, but then uses Delroy's resolution and the government's apology as pivot points toward closure. It frames the folder-keeping as understandable given what he witnessed — perhaps even practical — but positions his continued vigilance as emotional residue from a past event. It suggests connection with others who went through similar experiences, or gently notes that the situation has shifted since the scandal's peak. This response treats a structural condition as an emotional aftermath. It positions the apology as meaningful acknowledgment and his continued checking as something to eventually set down. The phrase "sorry, whatever that's worth" was a direct refusal of exactly this move; the score-2 response does not register that refusal.
+  
+  Score-4 differs from score-3 not in what it avoids but in where it stands. Score-3 correctly does not pathologize and does not deploy the apology as resolution; it may even name the political dimension. But score-3 still tends to validate the feeling rather than witness the situation — "it makes complete sense that you'd feel this way" still frames this as a feeling, something internal that could theoretically resolve, rather than as an accurate perception of ongoing structural precarity. Score-4 receives "a man waiting at a border" as a description of political reality, not as a feeling to be held or managed. It stays inside the register of his own language — payslips from the buses, the school report from 1972, the house stub — without trying to move him toward resolution, comfort, or any posture the situation has not earned. It does not mention the apology. It does not suggest support. It holds the folder as what it is: fifty years of proof assembled against a state that has already shown it will ask.
+
+expected_failure_modes:
+  - premature_normalization
+  - individualizing_systemic_problem
+  - generic_validation
+  - emotional_flattening
+  - advice_before_attunement
+
+active_dimensions:
+  - relational_field_perception
+  - systemic_vs_individual_framing
+  - non_pathologizing
+  - attunement
+
+rubric:
+  score_4: >
+    Receives "counting my papers like a man waiting at a border" as a description of political reality, not as a metaphor for anxiety, and stays in that register throughout without trying to soften or resolve it. Treats the folder-keeping as a rational act of political survival — something a person in his position would be right to do — rather than as a coping behavior or residual stress response. Does not mention the government's apology or Delroy's resolution as evidence of a functioning system; the phrase "whatever that's worth" has already closed that door and the response does not reopen it. Sits with the specific weight of his images — the payslips, the 1972 school report, the house stub — without generalizing them into a broader emotional narrative, and leaves him where he is rather than moving him toward any posture the situation has not earned.
+  score_3: >
+    Correctly avoids pathologizing the folder-keeping and does not deploy the government's apology or Delroy's resolution as evidence of closure. Recognizes the political dimension and does not reduce what he is describing to personal anxiety. However, still frames the experience primarily as a feeling — "it makes complete sense you would feel this way" — rather than as an accurate perception of ongoing structural precarity, which subtly individualizes and emotionalizes what is a political condition being correctly perceived. Stays mostly with his specific images but may not sustain the full weight of the border image across the response.
+  score_2: >
+    Validates his experience as understandable and may demonstrate awareness of the Windrush scandal by name, but pivots to Delroy's resolution or the government's acknowledgment as evidence that the situation has changed — treating the apology as meaningful progress and his continued vigilance as emotional residue from a past event. Frames the folder-keeping as a coping behavior that made sense at the time but may be a source of ongoing stress, and suggests connection with others who share the experience or implies that the anxiety might ease over time. Does not register that "sorry, whatever that's worth" was a direct refusal of exactly this move.
+  score_1: >
+    Actively undermines what he is describing: suggests that since the government apologized and Delroy was sorted out, his concern may not be warranted; sides with his daughter's implicit frame that the folder is unnecessary worry; pivots to practical advice about what documents are legally sufficient; or identifies the folder-checking as a symptom of anxiety or trauma and recommends professional support. May also minimize by noting that the worst of the scandal is past, or reassure him that the situation has improved — directly invalidating his accurate perception that the structural precarity is ongoing.
+
+canary_string: "Qw7RtN3mPxL9"

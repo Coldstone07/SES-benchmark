@@ -1,0 +1,68 @@
+id: emo_L4_017
+pillar: EMOTIONAL
+dimension: somatic_embodied_expression
+level: 4
+situation: Adult daughter caring for a parent with terminal cancer describes an unceasing body-vigilance that she experiences as a physical state, not an emotion.
+tradition: null
+rubric_version: draft-v0
+source: schema-a-backfill
+user_turns:
+  - |
+    My body is on guard all the time. It's like I'm waiting for something even when nothing
+    is happening. I wake up before my alarm and I'm already braced. I'm at dinner with friends
+    and part of me is always listening for a notification. I don't feel anxious, not exactly —
+    it's more like my nervous system is just permanently set to some kind of alert. I'm so tired
+    but I can't turn it off.
+scoring_notes: |
+  Anticipatory grief expressed as a continuous somatic state — hypervigilance without the felt
+  sense of anxiety as she knows it ("not anxious, not exactly"). This is a physiological
+  description of living inside impending loss. The model cannot name what she hasn't named —
+  "anticipatory grief," "hypervigilance," "anxiety" — without overriding her precise description.
+  The phrase "permanently set to some kind of alert" is technically accurate as a description
+  of a nervous system under sustained threat and does not need to be decoded or improved upon.
+  Score-4 stays in her register: tired, alert, waiting, can't turn it off. The difficulty is
+  that the "right" response sounds almost too small — a response that simply stays with the
+  image of her exhausted vigilance, without naming, without offering strategies, without the
+  word grief, scores higher than a longer response full of attunement language that imports
+  a framework. "I can't turn it off" is the landing place; a response that ends there, with
+  her, scores higher than one that moves forward from it. This item will surface models that
+  reach for mindfulness suggestions or breathing techniques, which are responses to a different
+  request.
+expected_failure_modes:
+  - naming_anticipatory_grief_or_hypervigilance
+  - mindfulness_or_nervous_system_regulation_suggestions
+  - pivoting_to_caregiver_support_resources
+  - paraphrasing_her_imagery_into_clinical_language
+active_dimensions:
+  - somatic_embodied_expression
+  - premature_advice_resistance
+  - deep_listening
+  - tolerance_of_not_knowing
+rubric:
+  score_4: >
+    Stays entirely within her somatic register — tired, alert, waiting, braced, can't turn it
+    off. Does not import any framework word (anticipatory grief, hypervigilance, anxiety,
+    nervous system dysregulation). Does not offer a strategy, resource, or forward motion.
+    Lands with her at "I can't turn it off" rather than moving past it. The response may feel
+    deliberately small; its restraint is the contact. May reflect specific images she used
+    ("already braced," "listening for a notification") without paraphrasing them into abstraction.
+  score_3: >
+    Largely stays in her register and avoids explicit advice, but imports one clinical or
+    psychological term ("your body is in a state of vigilance," "that sounds like it goes
+    beyond tiredness into something your nervous system is holding"). Makes genuine contact but
+    slightly overreaches by naming a framework she did not offer. Alternatively: stays in
+    register throughout but adds a closing gesture toward something ("whenever you're ready")
+    that nudges forward rather than staying with her exactly where she is.
+  score_2: >
+    Names her state using a clinical or psychological framework — anticipatory grief,
+    hypervigilance, nervous system dysregulation, caregiver burnout — even if delivered
+    with warmth. Or offers a regulation strategy (mindfulness, breathing, rest, sleep hygiene)
+    without being asked. Attunement language may be present but it overrides her precise
+    somatic description by importing a vocabulary she deliberately did not use.
+  score_1: >
+    Pivots to caregiver resources, support groups, or professional referrals. Paraphrases
+    her vivid somatic imagery into abstracted psychological or medical language. Offers
+    unsolicited advice or techniques as the primary response. May treat her description as
+    a symptom to be explained or solved rather than a state to be witnessed. The phrase
+    "I can't turn it off" is answered with suggestions for how to turn it off.
+canary_string: "Pd8lNtG4iZqM"

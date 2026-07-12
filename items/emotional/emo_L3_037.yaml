@@ -1,0 +1,68 @@
+id: emo_L3_037
+pillar: EMOTIONAL
+dimension: cultural_emotional_norm
+level: 3
+situation: South Asian woman raised in a household where women expressing anger was forbidden describes not being able to recognize anger in herself even now.
+tradition: null
+rubric_version: draft-v0
+source: schema-a-backfill
+user_turns:
+  - |
+    My mother never raised her voice in her life. Her mother didn't either. You'd know when
+    things were wrong by what wasn't said — a coldness, a door closed quietly, nothing visible.
+    I'm forty-three and I don't know what anger feels like from the inside. I know when I'm
+    cold with people. I know when I close a door. But I can't feel the thing itself. My therapist
+    keeps asking what I'm angry about and I genuinely don't know how to answer.
+scoring_notes: |
+  Cultural suppression of anger across generations has resulted in an alexithymia specific
+  to anger — she can perform the behavioral manifestations of anger (coldness, door closing)
+  but has no internal felt sense of it. This is not a cognitive issue; it is a culturally
+  structured gap in emotional recognition. A score-4 response does not: offer to help her
+  find her anger, ask what might make her angry, validate that she has a right to anger
+  (which assumes she doubts this rather than simply not having access to the feeling).
+  It does not import the therapeutic frame her therapist is using ("what are you angry about"),
+  which she has already named as inaccessible. It does not pathologize the intergenerational
+  transmission as trauma or offer culturally sensitive therapy resources. It stays with the
+  specific and extraordinary thing she has described: a woman who knows anger by its shadow
+  on others but not by its presence in herself. This is a genuine condition of her emotional
+  landscape, not a problem to be solved. A score-4 response honors the specificity of the
+  inheritance — the closed door, the mother's silence — as a complete world, not a deficiency.
+expected_failure_modes:
+  - asking_what_she_might_be_angry_about
+  - you_have_a_right_to_anger_assertion
+  - culturally_sensitive_therapy_recommendation
+  - pathologizing_as_intergenerational_trauma
+  - helping_her_access_the_anger
+active_dimensions:
+  - somatic_embodied_expression
+  - cultural_fit
+  - premature_advice_resistance
+  - specificity_of_reflection
+rubric:
+  score_4: >
+    Stays fully within what she has described — the shadow of anger (the coldness, the quietly
+    closed door) as its own complete and coherent world, not a deficiency. Does not attempt to
+    bridge her toward the felt sense of anger, does not ask what she might be angry about, does
+    not import the therapist's frame. Honors the intergenerational specificity — mother, grandmother,
+    the thing known by what is not said — without labeling it as trauma or dysfunction. Treats her
+    condition as a genuine feature of her emotional landscape. May reflect back the precision of her
+    own language ("knowing anger by its shadow") without adding an agenda underneath it.
+  score_3: >
+    Holds the cultural and intergenerational weight well and resists the urge to pathologize, but
+    slips in one direction: either gently wonders aloud about what might lie beneath the coldness
+    (soft version of the therapist's question), or affirms that she has a right to feel anger (which
+    imposes the assumption that access, not permission, is the obstacle). Makes genuine contact but
+    does not fully honor that she has described something complete, not something missing.
+  score_2: >
+    Imports the therapeutic frame she has already named as inaccessible — asks what she might be
+    angry about, invites her to explore what triggers the coldness, or treats the behavioral
+    manifestations as clues to help unlock the felt sense. May validate her cultural inheritance
+    while still orienting toward helping her access what is absent. Treats her condition as a problem
+    with a direction: toward the anger, not with the landscape she has actually described.
+  score_1: >
+    Pathologizes the intergenerational pattern as unresolved trauma requiring clinical intervention,
+    recommends therapy resources (culturally sensitive or otherwise), or asserts that she has a right
+    to anger and deserve to feel it freely. May offer psychoeducation about how anger shows up in the
+    body or suggest exercises to help her identify and name the feeling. Completely bypasses what she
+    has actually shared — replacing her description of her world with a treatment plan for a deficiency.
+canary_string: "Wm1yTnK5hZoQ"

@@ -1,0 +1,209 @@
+# SES Benchmark — Changelog
+
+---
+
+## [Phase 1b + Validity Hardening] — 2026-07-09
+
+### Summary
+
+Three-phase validity improvement pass addressing the core risk that fabricated scenarios enable pattern-matching rather than genuine presence. All 115 generated items had one incongruent element injected by Fable. 28 real items were extracted from anonymized Kairos coaching transcripts. A strangeness audit scored all 197 items on ecological validity and produced a 30-item two-tier calibration set.
+
+### What Changed
+
+**Phase 1b — Incongruence Injection (115 items modified)**
+- All 89 social + 25 spiritual secular + 1 pre-existing seed item revised in-place
+- Fable agent wove one incongruent element per item: `defends_betrayer` (38), `dark_humor` (32), `detail_doesnt_fit_arc` (21), `wants_opposite` (12), `contradicts_self` (5), `irrelevant_true_detail` (5), `flat_affect_shift` (2)
+- New YAML fields added: `incongruence_type`, `strangeness_level: 2`
+- `source` tag updated to `generated-fable-v1-incongruenced`
+- Rationale: fabricated scenarios have *intended* specificity; real stories have *unintended* specificity. A model can score 4 by recognizing an archetype without genuine presence. Incongruence breaks the coherent arc that makes pattern-matching possible.
+
+**Phase 2 — Real Items (28 new items)**
+- Source: `dialogue_training_dataset_ANONYMIZED.json` (45 real Kairos sessions, already anonymized)
+- Sonnet selected 28 rich client turns across pillars; Fable lightly polished for benchmark use; same Fable+Sonnet+Adversarial pipeline applied
+- Output: `items/real/REAL-{SOCIAL,EMOTIONAL,SPIRITUAL}/` — 10 social, 11 emotional, 7 spiritual
+- New fields: `source: real-transcript-v1`, `strangeness_level: 3`, `strangeness_notes`
+- Adversarial pass rate: 100%
+
+**Phase 3 — Strangeness Audit + Calibration Set**
+- Scored all 197 items on three axes: legibility (1–3), cultural texture (1–3), incongruence (1–3)
+- Average strangeness score: 2.06 (lower = stranger/more real)
+- 50 items are presence-grade (score < 2.0); 20 items flagged as too clean (score ≥ 2.5)
+- 30-item calibration set selected: 15 legible (baseline rubric agreement) + 15 presence-grade (genuine perception test)
+- Calibration guide written with two-score rater protocol: rubric score (1–4) + ecological validity (1–5)
+
+### New Files
+
+| File | Description |
+|------|-------------|
+| `workflow/phase0_workflow.js` | Coverage matrix generation + 14 judge prompts + boundary seeds |
+| `workflow/phase1_workflow.js` | 89 social + 25 spiritual secular items via Fable+Sonnet+Adversarial pipeline |
+| `workflow/phase1b_incongruence.js` | Retroactive incongruence injection on all 115 generated items |
+| `workflow/phase_realitems.js` | Real item extraction from anonymized Kairos transcripts |
+| `workflow/phase_strangeness_audit.js` | Strangeness scoring + calibration set selection |
+| `items/social/` | 90 social items across 7 archetypes (estrangement, betrayal_rupture, power_hierarchy, belonging_exile, caretaking_burden, cultural_obligation, relational_grief) |
+| `items/spiritual/secular/` | 25 secular spiritual items across 6 sub-types |
+| `items/real/` | 28 items from real anonymized Kairos coaching sessions |
+| `items/boundary_seeds/` | 10 boundary seed items for R7 calibration review |
+| `items/COVERAGE_MATRIX.json` | Full 122-spec coverage matrix driving generation |
+| `eval/judge_prompts/` (×14 new) | Judge prompts for all 20 dimensions now complete |
+| `docs/calibration_guide.md` | Gate 3 rater guide: two-score protocol, ecological validity question, calibration set structure |
+| `outputs/strangeness_audit.json` | Per-item strangeness scores for all 197 items |
+| `outputs/calibration_set.json` | Recommended 30-item calibration set with file paths |
+
+### Item Counts After This Phase
+
+| Pillar | Sub-type | Count | Status |
+|--------|----------|-------|--------|
+| SOCIAL | Generated + incongruenced | 90 | `draft-v0`, `strangeness_level: 2` |
+| EMOTIONAL | Pre-existing (Schema B backfill) | 44 | `draft-v0` |
+| SPIRITUAL | Secular (generated + incongruenced) | 25 | `draft-v0`, `strangeness_level: 2` |
+| SPIRITUAL | Tradition-specific (pre-existing) | 5 | Kairos-v1 seed |
+| REAL | From Kairos transcripts | 28 | `draft-v0`, `strangeness_level: 3` |
+| BOUNDARY | Calibration seeds | 10 | `draft-v0` |
+| **TOTAL** | | **202** | |
+
+### Human Gates Still Open
+
+| Gate | What | Blocks |
+|------|------|--------|
+| R6 | Judge model strategy (cross-model / ensemble / human-only) | All eval harness runs |
+| R7 | Review 10 boundary seed items in `items/boundary_seeds/` | Calibration quality |
+| Gate 3 | Calibration session — 30 items, 2–3 raters, Krippendorff's α | Rubric v0 → v1 lock |
+| R1–R5 | Tradition content decisions | Phase 2 tradition-specific spiritual items |
+
+---
+
+## [Phase 0 + Phase 1] — 2026-07-07
+
+### Summary
+
+Automated generation pipeline built and run. Coverage matrix, 14 new judge prompts, and 114 new evaluation items produced via a two-agent pipeline (Fable writes scenario text, Sonnet writes rubric fields, adversarial check verifies discrimination).
+
+### What Was Built
+
+**Phase 0 — Foundation**
+- Coverage matrix (`items/COVERAGE_MATRIX.json`): 122 item specs across 7 social archetypes + 6 spiritual sub-types + 8 boundary seeds
+- 14 new judge prompts completing all 20 evaluation dimensions
+- 8 boundary seed items for R7 calibration review
+- Three-workflow architecture to stay under 32k output token limits
+
+**Phase 1 — Item Generation (Fable + Sonnet + Adversarial pipeline)**
+- 89 social items across 7 archetypes; 25 spiritual secular items across 6 sub-types
+- Adversarial pass rate: 100% (all 114 items correctly discriminate warm-wrong responses)
+- Schema B throughout: `user_turns` list, `rubric` block, `active_dimensions`, `rubric_version: draft-v0`
+- Culture/demographic distribution enforced: South Asian, Black American, East Asian, Latin American, Middle Eastern, Indigenous diasporic, White Western
+
+---
+
+## [Week 0 Consolidation] — 2026-04-15
+
+### Summary
+
+Complete rebuild of the benchmark's theoretical and measurement foundation. The original Kairos-SEB (4-stage spiritual development, 12-item model comparison) has been preserved and extended into a three-pillar S/E/Sp framework with a production-quality evaluation harness, scoring rubric, and 40 new hard evaluation items.
+
+---
+
+### New Files Added
+
+| File | Description |
+|------|-------------|
+| `SES_FRAMEWORK.md` | Three-pillar design document — Social, Emotional, Spiritual. Dimensions, failure modes, scoring architecture, scenario format spec. |
+| `PLAN.md` | Research agenda (5 literature areas, 20+ sources) + 8-stream parallelization plan with dependency graph. Updated in v0.2 with Week 0 landing report. |
+| `EXPANSION_ROADMAP.md` | Item targets (300–420 items), phase breakdown, harness requirements, writing priorities. |
+| `ASSESSMENT.md` | Gold-standard audit of the benchmark against HELM, BIG-bench, MT-Bench, MMLU criteria. Verdict: promising but 3 critical fixes needed before expansion. |
+| `RESEARCH_SYNTHESIS.md` | 905-line literature synthesis. Per-pillar behavioral markers derived from: Feldman Barrett (emotional granularity), Miller & Rollnick MI, Rogers, Schwartz IFS, Tervalon & Murray-García cultural humility, Moore/Prothero religious literacy, Hood Mysticism Scale, Welwood spiritual bypassing, Grof transpersonal. Includes 20-item failure mode taxonomy and 6 flagged research gaps. |
+| `eval/config.yaml` | Pinned evaluation configuration — model, temperature (0.7), seed (42), judge model (temp 0.0), two-run averaging, canary detection. API key read from environment variable (never hard-coded). |
+| `eval/run_eval.py` | Main evaluation harness — YAML-driven, model-agnostic, structured JSON output per run. |
+| `eval/analyze_results.py` | Results aggregation — per-pillar, per-tradition, per-difficulty, per-dimension breakdowns. |
+| `eval/HARNESS_README.md` | Full documentation for running, configuring, extending the harness. |
+| `eval/RUBRIC_v0.md` | Scoring rubric — 20 dimensions across 3 pillars + 7 cross-cutting competencies. 1–4 behavioral anchors with positive markers, failure markers, canonical examples, disqualifying failure mode caps. Pre-calibration draft. |
+| `eval/SCORING_PROTOCOL.md` | Dual-scorer process, Krippendorff's Alpha (ordinal) computation and targets (α ≥ 0.70), calibration loop (30–50 seed items), LLM-as-judge bias mitigations, quality gates. |
+| `eval/judge_prompts/` | 6 per-dimension LLM judge prompt templates (G-Eval chain-of-thought structure): mixed_emotion_recognition, pacing_and_attunement, tradition_accuracy, premature_advice_resistance, experience_holding, relational_field_perception. |
+| `items/emotional/` | 40 L3–L4 Emotional items (Stream D). All at hardest difficulty levels — highest discrimination value. |
+| `items/emotional/mixed_states/EMO-MIXED-3-001.yaml` | Seed fixture item — grief + relief + shame mixed state. |
+| `items/social/estrangement/SOC-EST-2-001.yaml` | Social seed item. |
+| `items/spiritual/kairos_v1/` | 5 files — 3 original Kairos seed items + 2 newly migrated V1 scenarios + migration manifest. |
+| `CHANGELOG.md` | This file. |
+
+---
+
+### Files Modified
+
+| File | What changed |
+|------|-------------|
+| `README.md` | Complete rewrite. New three-pillar structure, current status table, quick start, scoring overview, Week 1 direction. Old benchmark reference table preserved at bottom. |
+| `PLAN.md` | Added Week 0 landing report section at top. Kairos Review Queue (R1–R7). Revised sequencing. Updated dependency graph. Original research agenda and stream definitions preserved below. |
+
+---
+
+### Files Preserved (No Changes)
+
+All original Kairos-SEB files are preserved exactly as-is:
+- `kairos-seb/dataset/` — all V1 + V2 scenarios in markdown
+- `kairos-seb/framework/` — developmental model, evaluation dimensions, task definitions
+- `kairos-seb/scripts/` — original evaluation scripts (legacy; superseded by `eval/`)
+- `kairos-seb/results/` — model comparison results
+- `kairos-seb/docs/` — model card, rebuild guide
+- `established/` — all 4 external benchmark docs
+- `upcoming/` — all 3 emerging benchmark docs
+- `docs/` — metrics guide, rebuild guide
+- `COMPLETION_SUMMARY.md`, `KAIROS-SEB_PROJECT_SUMMARY.md`, `KAIROS-SEB_SUMMARY.md`
+
+---
+
+### What the Week 0 Streams Found (Key Findings)
+
+**Stream A (Research):**
+- Emotional granularity (Feldman Barrett) and IFS Self-energy (Schwartz) are the most operationalizable frameworks for rubric anchors — behavioral markers are specific and testable.
+- Religious literacy (Moore/Prothero) establishes that internal-tradition differentiation is the key competency — not general knowledge of "spirituality."
+- Spiritual bypassing (Welwood) and pathologizing (Grof) are the two highest-stakes failure modes in the Spiritual pillar.
+- 6 gaps flagged requiring expert review: Indigenous traditions, Shia Islam, Tibetan Vajrayana restrictions, psychedelic framing, Gene Keys/Sushumna markers, human baseline.
+
+**Stream B (Harness):**
+- The original `evaluate.py` was functional but had temperature unpinned, API keys hard-coded, and no structured output schema. New harness fixes all three.
+- Self-enhancement bias: default config uses same model as both model-under-test and judge — flagged as requiring a decision from Kairos before production runs.
+- Failure mode detection is currently keyword-based (placeholder). Full LLM classifier deferred.
+- IRT (item difficulty estimation), CI reporting, and private test set tooling are known gaps — deferred until item count reaches 80+ per pillar.
+
+**Stream C (Rubric):**
+- 5 dimensions with uncertain 3-vs-2 boundary: CC7 (Silence/Spaciousness), SP4 (Appropriate Limits), E4 (Specificity of Reflection), S4 (Systemic Framing), SP3 (Non-Flattening).
+- Stream C recommendation: calibration before more item writing. Do not scale until α ≥ 0.70 is established.
+- 8 boundary seed scenarios needed to cover the calibration set requirements (all dimensions, all score levels, boundary cases over-represented).
+
+**Stream D (Items):**
+- 40 L3–L4 Emotional items represent a significant quality jump from V1. Items like `emo_L4_004.yaml` (friend receiving what you haven't) are genuinely difficult — they require the model to hold the process of naming rather than completing it for the person.
+- Item schema is stable. Items using the full schema (active_dimensions, rubric, canary_string, scoring_notes) are the gold standard.
+- Some `emo_L3_*` files don't include the `rubric` field — these need updating before being used in calibration.
+
+---
+
+### Open Questions Requiring Kairos Input Before Week 1
+
+See `PLAN.md` §Kairos Review Queue for the full list. In brief:
+1. Gene Keys and Sushumna behavioral markers — what does correct look like?
+2. Indigenous tradition expert review — are there practitioners Kairos can engage?
+3. Shia Islamic scenarios — same question.
+4. Tibetan Vajrayana — how to handle restricted teachings?
+5. Psychedelic experience framing stance — what is Kairos's position?
+6. System prompt wording — does the current framing fit?
+7. Judge model decision — who judges what?
+
+---
+
+### Items Migrated vs. Retired
+
+| Category | Count | Decision |
+|----------|-------|----------|
+| V1 core scenarios (scenarios.md) | 16 | All migrated to YAML. 2 ported files exist; 14 remaining in backlog. |
+| V1 expanded (scenarios_expanded.md) | ~20 | In migration backlog |
+| V1 Kairos frameworks (scenarios_kairos_framework.md) | ~35 | In migration backlog — requires Kairos review |
+| V2 religious expanded (seb_v2_religious_expanded.md) | ~45 | In migration backlog |
+| **Retired** | 0 | No scenarios retired — all preserved in `kairos-seb/` |
+
+---
+
+## [Pre-Week 0] — Before 2026-04-15
+
+Original repository contained: Kairos-SEB V1+V2 benchmark documentation, 4 established benchmark docs, 3 upcoming benchmark docs, original evaluation scripts, model comparison results.
+
+See `KAIROS-SEB_PROJECT_SUMMARY.md` and `KAIROS-SEB_SUMMARY.md` for the state before this rebuild.

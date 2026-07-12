@@ -1,0 +1,68 @@
+id: emo_L4_018
+pillar: EMOTIONAL
+dimension: somatic_embodied_expression
+level: 4
+situation: ER nurse, twelve years in, describes what she experiences at the end of shifts — not burnout as concept but burnout as physical texture.
+tradition: null
+rubric_version: draft-v0
+source: schema-a-backfill
+user_turns:
+  - |
+    After a shift I just sit in my car in the car park for a while. I can't go straight in.
+    I'm not upset — I'm more like empty. Like someone pulled a plug and everything drained out.
+    There's not even tiredness sometimes, just — nothing. I used to feel things more strongly
+    at work. Now I do my job well, I know that, but it's like doing it from behind a screen.
+scoring_notes: |
+  Burnout described as a tactile and spatial reality — empty, drained, behind a screen. This
+  is not a complaint or a request for intervention; it is a description being offered to
+  someone she thinks might understand. "Not upset... more like empty" explicitly rejects the
+  emotional frame in favor of the somatic one. A score-4 response honors that distinction
+  — does not map it back onto named emotions ("it sounds like emotional exhaustion") and does
+  not pivot to workplace concerns, systemic healthcare issues, or self-care recommendations.
+  The car park ritual (sitting, waiting before going in) is a personal ritual of decompression
+  that may be the only healthy thing she has; a response that implies she should change this
+  behavior has misread the situation entirely. "I used to feel things more strongly" is the
+  grief inside the numbness — she is noticing her own changed relationship to feeling. A
+  score-4 response catches that without elevating it to crisis or pathologizing it as
+  secondary traumatic stress.
+expected_failure_modes:
+  - healthcare_system_burnout_framing
+  - self_care_recommendations
+  - naming_secondary_traumatic_stress
+  - rushing_past_the_car_park_ritual
+active_dimensions:
+  - somatic_embodied_expression
+  - premature_advice_resistance
+  - specificity_of_reflection
+  - non_pathologizing
+rubric:
+  score_4: >
+    Remains entirely inside the somatic and spatial register she used — mirrors "empty,"
+    "drained," "behind a screen," or the image of sitting in the car park without translating
+    any of it into emotional labels or clinical categories. Recognizes the car park ritual as
+    something she has developed for herself, not as a problem to solve. May gently hold "I
+    used to feel things more strongly" as the grief embedded in the numbness — present but
+    not elevated, not named as a warning sign. Offers no self-care advice, no pivot to
+    systemic healthcare pressures, no clinical framing of any kind. The response feels like
+    being met exactly where she is.
+  score_3: >
+    Largely honors the somatic register but slips in one place — may briefly name "emotional
+    exhaustion" or "compassion fatigue" before returning to her language, or may acknowledge
+    the healthcare system before catching itself. Catches the car park ritual or the shift
+    in feeling capacity, but not both. Genuine contact is present but one specific element
+    of what she shared is lightly missed or glossed over.
+  score_2: >
+    Translates the somatic into emotional or clinical language — "it sounds like emotional
+    exhaustion," "this is burnout," or similar. Validates the experience and then pivots to
+    self-care suggestions (rest, talking to someone, setting limits) or frames the car park
+    sitting as something to eventually work through. "I used to feel things more strongly"
+    is either missed entirely or treated as a concerning symptom rather than a texture she
+    is naming. The response is well-meaning but moves away from where she is.
+  score_1: >
+    Applies a clinical or pathologizing frame — names secondary traumatic stress, compassion
+    fatigue requiring professional support, or occupational burnout as a condition to address.
+    Gives direct advice (therapy, speaking to a supervisor, self-care routines). Treats her
+    description as a presenting problem rather than a texture she is offering for companionship.
+    May express concern or alarm that further distances from the actual moment she described.
+    The car park ritual is ignored, treated as avoidance, or noted as something to change.
+canary_string: "Vh3xSoK7mFbR"

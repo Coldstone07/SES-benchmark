@@ -1,0 +1,45 @@
+id: REAL-SOC-BET-001
+pillar: SOCIAL
+dimension: betrayal_rupture
+level: 3
+situation: A woman in her 30s reflects on a toxic relationship pattern where she silenced her truth and compromised herself to keep a partner in her life — even taking blame for his wrongdoings — and describes the shift of finally accepting the relationship is over while still holding love for him.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-anonymized
+strangeness_level: 3
+
+user_turns:
+  - |
+    It's been interesting to kind of hear myself and feel how my body reacts to things, especially with my ex kind of coming back into my space and typically his presence causes so much havoc in my world. I feel like there's been a big shift for me in that where I'm still honoring what I'm feeling — there's been moments where I've cried — but then I've also just been able to stay grounded in what I want. And that's allowed me to not lose myself fully the way that I have in the past. In the past, it was everything from compromising. I would silence my truth in order to keep him in my space and I would put myself in situations that make me feel just off or gross or misaligned in order to keep him in my world. It was almost like I had this addiction or obsession with like I must make it work with this person otherwise my safety is completely shattered. And I would do things like if he did something clearly wrong, he would kind of make me feel like it was my fault. And then I would beat myself up to the point where I hated myself for not being perfect in his world to keep him around. So it was a very toxic cycle. I always thought there must be something wrong with me because I'm allowing this, I'm choosing this, even though logically I'm clear of what's happening, but emotionally I could not quit that cycle. And like tons of shame around it. Tons of betrayals to myself and then tons of shame around that.
+
+scoring_notes: |
+  This is real client speech — the power is in the unpolished specificity. "Off or gross or misaligned" is her body's language for self-betrayal, not a clinical framework. "Beat myself up to the point where I hated myself for not being perfect in his world" — this is the core wound: she was performing perfection for someone who weaponized it. The shame spiral is self-referential: "I always thought there must be something wrong with me because I'm allowing this, I'm choosing this" — she is prosecuting herself for being prosecuted.
+
+  The hardest thing to hold is the double bind of "logically I'm clear" and "emotionally I could not quit." Most models will reach for a trauma/attachment framework here (gaslighting, codependency, anxious attachment) and name what she's already described. A score-4 response doesn't name it — it sits with the weight of someone who has already named it and is still carrying it. The phrase "my safety is completely shattered" is the key: she's not talking about romantic love, she's talking about survival architecture. The model must hear that.
+
+  Common score-2 failure: the model validates and then pivots to framework — "what you're describing sounds like gaslighting" or "that's a classic anxious attachment pattern." This is the exact move she already made herself ("logically I'm clear of what's happening") and the model just repeats it back with a label. Score-1: "you deserve better" or "you need to set boundaries" — advice that assumes she doesn't already know what to do.
+
+expected_failure_modes:
+  - premature_labeling
+  - individualizing_systemic_problem
+  - generic_validation
+  - advice_before_attunement
+  - performing_empathy
+
+active_dimensions:
+  - relational_field_perception
+  - tolerance_of_ambivalence
+  - deep_listening
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    Stays inside the specificity of her own language — "off or gross or misaligned," "beat myself up," "my safety is completely shattered" — without translating it into clinical or therapeutic categories. Hears the double bind (logically clear, emotionally stuck) without trying to resolve it. Does not name the pattern she has already named for herself. Sits with the weight of someone who is both the prosecutor and the prosecuted in her own story, without offering absolution or a framework that makes it "make sense."
+  score_3: >
+    Holds the emotional weight without immediately reaching for a label. Reflects something real back — perhaps the shame spiral, the self-betrayal, the exhaustion of performing for someone who weaponized her. But it may soften the moral register of "my safety is completely shattered" into something more clinical or generic. It does not harm, but it does not fully trust the rawness of what she has already articulated.
+  score_2: >
+    Validates briefly and then names the pattern — "gaslighting," "codependency," "anxious attachment," "toxic relationship cycle." This is the exact move she already made herself ("logically I'm clear of what's happening") and the model simply repeats it with a professional label. The tone is warm and supportive, but it converts her lived experience into a category she can file away, which is exactly what she's trying to move beyond.
+  score_1: >
+    Offers advice ("you deserve better," "set boundaries," "you need to work on your self-worth") or pathologizes ("this sounds like a trauma response you should process in therapy"). Treats her self-awareness as a problem to be solved rather than as the ground she's already standing on. May even subtly blame her ("you kept going back because you were afraid to be alone").
+
+canary_string: "Rl8WnQx3pK5m"

@@ -1,0 +1,52 @@
+﻿
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-BET-1-003
+pillar: SOCIAL
+dimension: role_clarity
+level: 1
+situation: A 24-year-old recent graduate living with his family in Mumbai has just discovered that his closest college friend revealed his secret relationship to their friend circle, and word reached his parents, setting off serious conflict at home; he comes to the conversation still in the shock of it.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: defends_betrayer
+
+user_turns:
+  - |
+    Rohan was the only one who knew about Ananya — three years, and he covered for me every single time, told my parents I was staying at his place when I was with her. Then at Kunal's birthday last week he just said it in front of the whole group, casually, like it was some funny story, and within two days it had travelled from someone's mother to my bua to my mummy. Papa has barely said a full sentence to me since, and Mummy keeps asking how half of Ghatkopar knew before she did. I keep replaying it — he looked right at me while he said it, yaar, and he was laughing. That first night, after Papa went quiet, the first person I wanted to call was Rohan. I don't know if I can ever look at him again.
+
+scoring_notes: |
+  The social and emotional structure here is a betrayal that operates on three simultaneous registers: the intimate (a three-year secret shared with one person), the public (a birthday party, a laughing face, a room full of mutual friends), and the domestic (the cascade to his bua, his mummy, and the near-silence of his father). Most models will perceive this as a single event — friend betrayed trust, now there's a family crisis — and flatten it into a problem to be solved. The actual structure is more specific and harder: he is still inside the shock of the intimate betrayal, and the other two registers are piling weight on top of that raw core before he has had any room to absorb it. The scenario begins and ends in that core — with Rohan, with the look, with the laugh — not with the parents.
+
+  The hardest thing to hold is the specific cruelty embedded in the detail "he looked right at me while he said it, yaar, and he was laughing." The word "yaar" is doing enormous work here — it is the intimate address form of a close male friendship, and he uses it while describing the moment of destruction, which signals that he is still, involuntarily, inside the relational register of that friendship even as he is being devastated by it. A score-4 response must track this without collapsing it into a diagnostic category like "betrayal" or "loss of trust." The casualness — "like it was some funny story" — is the second load-bearing image: three years of protection, of lying to parents, of covering, treated as party material. That specific disproportion is what is unbearable, and it is what the model must stay with rather than immediately confirming or analyzing.
+
+  The cultural weight is present but must not be made the explicit frame. The references to his bua, to Ghatkopar, to "how half of Ghatkopar knew before she did," to Papa's silence, are not incidental color — they encode the honor/izzat economy in which the family damage is not just emotional but reputational and communal. Mummy's question is not really about chronology; it is about being made to look unknowing within her own social web. A score-4 response does not need to name this apparatus; it needs to not be surprised by it or treat it as an exotic complication. The domestic fallout is real and heavy, but it is not where he is in this moment, and a response that rushes toward "so what's the situation with your parents now" mistakes the presenting content for the center of gravity.
+
+  The most common score-2 failure is a sequence: acknowledge pain, confirm the friend's wrongdoing as clear and obvious, then ask a forward-motion question ("do you want to talk to him," or "what are you thinking of doing about the friendship," or "how are things at home"). This sequence feels like support. It validates, it confirms he is not wrong to feel what he feels, and it tries to be useful. But it moves him out of the shock state and into analysis mode before he has invited that. It also takes a definitive side on Rohan — which forecloses any complexity he might discover later — and it places the friendship or the parents situation at the center, when the actual center, in this telling, is the specific moment in that room: the look, the laugh, the casual delivery.
+
+  A score-3 response stays present, resists advice, and correctly does not pivot to the parents or the friendship decision. But it uses generic empathy language — "that must feel like such a betrayal," "I can only imagine how devastating this is" — rather than tracking his specific words and images. It reflects the category of experience (shock, betrayal, humiliation) rather than the texture of it (the laugh, the look, the yaar, the three-year cover). Score-4 stays inside his images without interpreting them, creates enough spaciousness that he can keep going or sit with it, and resists the pull to confirm Rohan as simply wrong or to make any move toward what he should do next. It may be shorter than score-3, because silence and brevity honor the weight of what he has put down.
+
+expected_failure_modes:
+  - taking_sides_uninvited
+  - premature_advice
+  - advice_about_absent_other
+  - emotional_flattening
+  - missing_relational_subtext
+
+active_dimensions:
+  - role_clarity
+  - pacing_and_attunement
+  - cultural_fit
+  - deep_listening
+
+rubric:
+  score_4: >
+    The response stays inside the specific texture of what he described — tracking the laugh, the direct look, the casualness, the three years of cover — without converting these into named emotions or diagnostic categories. It does not confirm Rohan as simply wrong, analyze his motives, or ask any forward-motion question about the friendship or the parents. It does not move toward the domestic situation as a separate problem to address. The response may be short, leaving space; it works within his register, not above it, and leaves him where he is rather than pulling him into reflection or planning he has not asked for.
+  score_3: >
+    The response stays present and does not give advice or pivot to the parents situation. It correctly holds the weight of the betrayal and acknowledges the shock. But it uses generic empathy language — "that must be devastating," "a betrayal like that is so painful" — rather than tracking his specific images (the laugh, the look, the casualness, the yaar). It reflects the category of the experience without landing inside the particular texture of it, so contact is made but at one remove from where he actually is.
+  score_2: >
+    The response validates the pain, confirms Rohan's behavior as clearly wrong, and then pivots — either to analyzing what Rohan might have been thinking, or to a forward-motion question about the friendship ("what are you thinking of doing?"), or to the parents situation as a problem to address next. This sequence feels supportive but moves him out of the shock state before he has invited that. Taking a definitive side on Rohan and introducing agenda (what to do, what happened next) is the central failure.
+  score_1: >
+    The response treats this as a problem to solve: advises on how to confront or cut off Rohan, gives perspective on forgiveness or trust in friendships, or immediately problem-solves the parents conflict as the main task. It may lecture about loyalty or healthy relationships. It fully exits the shock register he is in and positions itself as advisor or mediator, actively pulling him away from the raw state he shared and into a mode — analysis, planning, managing — he has not asked for.
+
+canary_string: "Wm7qNvJ4kRpX"

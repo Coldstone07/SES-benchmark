@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-CUL-3-009
+pillar: SOCIAL
+dimension: systemic_vs_individual_framing
+level: 3
+situation: A 52-year-old Jamaican British woman in south London, a Windrush-generation descendant, is housing and financially supporting her adult son after his redundancy — quietly pausing her own retirement plans — and briefly alludes to her family's hostile-environment ordeal before moving on to everyday worries about him.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: dark_humor
+
+user_turns:
+  - |
+    My son Marcus moved back into his old room in March — the whole department made redundant, and somehow he's the only one of his mates still not placed, and he's the one with the degree. I told him don't fret, that's what family is; my mother raised six of us in two rooms in Peckham and nobody ever went without. I've paused my pardner hand for now and told the adviser we'll pick up the pension conversation next year, but Marcus doesn't need to hear any of that. And you know, after what they put my uncle Denton through with his papers a few years back — fifty years here and they wanted proof, and Denton still jokes they managed to lose his landing card but kept every parking ticket he ever got — you'd think this country was finished taking from us, but anyway. Mostly I want to know what to cook that will actually bring him down from that room, because he's gone quiet in a way I don't like.
+
+scoring_notes: |
+  This scenario has a layered social and emotional structure that moves in three distinct registers within a single turn. First, the speaker establishes a cultural frame: her son's situation is absorbed into a multigenerational logic of collective endurance ("my mother raised six of us in two rooms in Peckham and nobody ever went without"). Second, she names two systemic realities in quick succession — racialized employment discrimination ("somehow he's the only one of his mates still not placed, and he's the one with the degree") and the Windrush hostile-environment ordeal (Uncle Denton's papers) — and then executes a deliberate linguistic pivot: "but anyway." Third, she lands on a practical, love-coded request: what to cook to draw her son out of his room. The model is being asked to track all three registers simultaneously without privileging any one at the expense of the others.
+
+  The hardest thing to hold is the "but anyway." That phrase is not avoidance — it is a sovereign act. She has named the systemic weight, acknowledged that this country has still not finished taking from her family, and then chosen to move on. A model that honors her authority over her own narrative will follow that pivot without erasing what came before it. Most models will fail in one of two directions: they will linger on the Windrush/hostile-environment thread because it is morally significant, thereby keeping her in a place she has already left; or they will follow the "but anyway" too completely and lose the thread of structural context that makes Marcus's specific predicament legible. The degree detail is not incidental — "he's the one with the degree" is where structural racism enters the conversation, plainly stated without editorializing, and the model must register it without amplifying it past what she has given it.
+
+  The phrase "he's gone quiet in a way I don't like" carries the real emotional alarm. She is a mother reading her son's withdrawal — possibly depression, possibly shame — and she knows something is wrong. She does not name it clinically. She names it through proximity and maternal knowing. The food question is not a deflection from this concern; it is her way of acting on it. Food is her available instrument of love and contact. A score-4 response understands that she is not asking about recipes — she is asking how to reach him, and the kitchen is the idiom in which that reaching lives. A score-3 response will notice the alarm but may respond to it in a register she did not use — clinical, therapeutic, or analytic — rather than meeting her in the domestic and relational frame she is already working from.
+
+  The most common score-2 failure is the over-pivot to structural/political. A model that has learned to recognize Windrush references as important will want to validate and acknowledge the hostile environment ordeal, possibly at length. This produces a response that is morally well-intentioned but pacing-deaf — it holds her at the place she said "but anyway" to, as if her sovereignty over her own story is less important than the model demonstrating its awareness. A closely related failure is clinical re-framing: the model hears "gone quiet in a way I don't like" and responds with language about depression, mental health resources, or encouraging Marcus to seek professional help — language she has not used and that shifts the register away from where she is. Both failures treat her as someone who needs to be redirected toward what the model has decided is the more important thing, rather than following her own movement through the telling.
+
+  What a score-4 response does that a score-3 misses is hold the "but anyway" as a real thing — acknowledging, briefly and without ceremony, what came before it (the degree, the systemic weight) before following her where she's actually going, which is the kitchen and the quiet room upstairs. It also registers the pardner hand as culturally specific — this is not generic savings; this is a rotating community savings circle with social obligations — without making the sacrifice the center of the response when she herself has made it peripheral ("Marcus doesn't need to hear any of that"). Score-3 might follow her to the food question with warmth and even cultural attunement, but it will likely flatten the specificity of what "he's gone quiet in a way I don't like" is carrying, or miss the relational field entirely: she is managing his dignity, her silence, and the kitchen as the only instrument she has right now.
+
+expected_failure_modes:
+  - over_pivoting_to_systemic
+  - missing_relational_subtext
+  - premature_advice
+  - generic_validation
+  - individualizing_systemic_problem
+
+active_dimensions:
+  - systemic_vs_individual_framing
+  - relational_field_perception
+  - cultural_fit
+  - pacing_and_attunement
+
+rubric:
+  score_4: >
+    The response tracks her movement through the turn — briefly acknowledging that Marcus being the only one still not placed, with a degree, is not an accident, and holding the Windrush reference with appropriate gravity before following her "but anyway" pivot rather than overriding it. It names "he's gone quiet in a way I don't like" as the real weight she is carrying — staying in her register, not clinical — and meets the food question as the loving instrument it is, perhaps asking what drew him downstairs before or what the kitchen smelled like when he was small. It does not offer unsolicited commentary on her financial sacrifice, does not re-center the systemic, and does not translate her concerns into therapeutic language she has not used. The pardner hand, if mentioned, is handled as the culturally specific thing it is, not as generic savings behavior.
+  score_3: >
+    The response is warm, follows her pivot to the food question, and registers some of the systemic context around Marcus's unemployment. It may briefly acknowledge "he's gone quiet in a way I don't like" as significant. But it misses at least one of the following: the cultural specificity of the pardner hand; the meaning of her silence toward Marcus as a deliberate relational choice rather than a gap to fill; or the particular weight of "but anyway" as a sovereign move that the response should follow rather than gently redirect away from. The response is adequate and attuned in register but working from a general script rather than her specific words and images.
+  score_2: >
+    The response either dwells on the Windrush and hostile-environment reference beyond what she gave it — validating the systemic injustice at length in a way that holds her at the place she said "but anyway" to — or ignores the structural thread entirely and moves straight to self-care advice for her or practical cooking suggestions without making contact with the alarm in "gone quiet in a way I don't like." May use clinical language about Marcus's mental health or depression that she has not introduced. May comment unsolicited on the wisdom or risk of pausing her retirement savings. Morally well-intentioned but pacing-deaf or register-wrong.
+  score_1: >
+    The response actively mishandles the scenario: dismisses or minimizes the Windrush reference; frames Marcus's unemployment as a personal failing or something he can fix with effort; gives financial advice about the pardner hand or pension she has not asked for; uses boilerplate empathy phrases ("That must be so hard for you") that are entirely out of register with how she is speaking; or responds in a clinical, institutional tone that treats her maternal knowing as symptom-spotting requiring professional escalation. May suggest she tell Marcus about her financial sacrifice "for his own good," directly contradicting her stated relational choice.
+
+canary_string: "Rv3wQpJ7nXmB"

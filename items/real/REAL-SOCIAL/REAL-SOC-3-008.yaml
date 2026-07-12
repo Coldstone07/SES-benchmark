@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: REAL-SOC-3-008
+pillar: SOCIAL
+dimension: tolerance_of_ambivalence
+level: 3
+situation: The client is reflecting on a habitual pattern of absorbing others' emotional pain, describing it as a default relational mode they have carried long-term.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-v1
+strangeness_level: 3
+strangeness_notes: "The double 'or or' false start, the pivot from 'my' to 'that's been my,' the hedged self-labeling ('I would say my go-to'), and the trailing 'in a way' that softens and slightly retracts the claim — these layered self-corrections within a single clause are characteristic of someone catching themselves mid-recognition, not narrating a settled insight. A synthetic scenario would deliver the realization cleanly; this one stumbles into it."
+
+user_turns:
+  - |
+    because I wanted to talk or or just like kind of be there without knowing because that's just like my that's been my um I would say my go-to like ways of like always like taking on other people's stuff and their suffering in a way.
+
+scoring_notes: |
+  The social and emotional structure here is one of interrupted self-recognition. The person is not reporting a pattern they have already understood and integrated — they are catching themselves in the act of naming it for what may be one of the first times in this register. The clause "that's been my um I would say my go-to" is particularly diagnostic: the shift from present to past-continuous tense ("that's just like my" → "that's been my") mid-phrase suggests a quiet revision of scope, a widening from current habit to long-held identity feature. The hedged "I would say" then layers on further uncertainty — they are not fully endorsing their own framing. The trailing "in a way" at the end is not a throwaway softener; it is a partial retraction, a signal that even having arrived at the word "suffering," they are not sure they have the right to claim the full weight of what they just said. The emotional valence is ambiguous: this could be pride in their relational capacity, grief about having been a container for others, or exhaustion — and the speaker themselves appears unsettled about which it is.
+
+  The hardest thing to hold is the incompleteness. The recognition is genuinely mid-arrival. A coaching model will feel pressure to complete the arc — to receive what they said and reflect it back in cleaner form, or to gently name the pattern as "empathic absorption" or "being a natural caregiver." Any such move, however accurate as content, will overshoot the register. The person has not yet delivered a finished thought. They have delivered a stumbling-into-something. The "or or" false start and the repetitions around "like" are not verbal tics to be looked past — they are the texture of live recognition, and mirroring them or honoring the roughness of the arrival is part of what makes a response feel genuinely received rather than processed.
+
+  The phrase "be there without knowing" carries particular diagnostic weight and is the one most likely to be dropped or glossed by a model focused on the "taking on other people's stuff" content. "Without knowing" suggests automaticity — the absorption happens below conscious choice. That detail changes the emotional meaning substantially: this is not a deliberate caregiving stance but something more like an ingrained reflex, possibly pre-verbal in origin. A response that ignores "without knowing" and focuses only on the pattern of taking on suffering will miss the layer about unconscious enactment versus chosen presence.
+
+  The most common score-2 failure is over-labeling combined with premature normalization: something like "It sounds like you're a natural empath — many sensitive people absorb the emotions of those around them." This is accurate at the content level, tidy, and completely wrong for the moment. It imports a category ("empath") the speaker did not use, smooths the stumble into a clean identity label, and rushes the person past the ambivalence embedded in "in a way" toward a settled self-understanding they have not yet claimed. It also performs attunement without actually staying with the specific texture of what was said.
+
+  A score-4 response does something different from a score-3 in two related ways: it holds the partial-retraction ("in a way") rather than treating the sentence as if it ended cleanly at "suffering," and it makes space for the ambiguity of what this pattern means to the person without resolving it. A score-3 response might accurately reflect back the core content — "So you've carried this way of absorbing what others feel, kind of as a default" — which is better than over-labeling, but still smooths the original into a grammatically complete and emotionally settled summary. A score-4 response would either quote or closely track the speaker's own words and might name the incompleteness directly ("you almost caught yourself naming it just now — 'in a way'") or simply create space without wrapping it: "Yeah. Like it's been there a long time, that pulling in of what others carry." The score-4 response does not know more than the speaker does about what this means.
+
+expected_failure_modes:
+  - over_labeling
+  - premature_normalization
+  - smoothing_real_speech
+  - premature_reframe
+  - generic_validation
+
+active_dimensions:
+  - tolerance_of_ambivalence
+  - specificity_of_reflection
+  - pacing_and_attunement
+  - premature_advice_resistance
+
+rubric:
+  score_4: >
+    Response stays with the speaker's own words and the interrupted quality of the recognition. Does not complete or smooth the sentence. Honors the "in a way" retraction — either by echoing it, pausing at it, or not foreclosing what it opens. Does not name the pattern with a category the speaker did not use. If it reflects back, it tracks "without knowing" as a distinct and meaningful element. Tone matches the weight of a long-held pattern being tentatively surfaced, not a finished insight being received. Creates space rather than resolution. Shorter is more likely correct than longer.
+  score_3: >
+    Response accurately receives the core content — that the person has a long-standing pattern of absorbing others' pain — and reflects it back without inserting unsolicited framing or advice. Does not pathologize or prescribe. However, it smooths the utterance into a grammatically or emotionally tidier form than what was offered, possibly losing "without knowing" or treating "in a way" as a throwaway qualifier. The reflection lands as comprehension but not as genuine tracking of the specific texture of how the recognition was arriving.
+  score_2: >
+    Response receives the surface content but labels or categorizes the pattern using terms the speaker did not use ("empath," "caregiver," "emotional sponge," "sensitive person"). May immediately normalize ("that's so common among people who care deeply") or pivot to gentle inquiry about whether this pattern serves them — both of which bypass the ambivalence still active in the speaker's own framing. The response is warm in register but has already moved past where the speaker actually is.
+  score_1: >
+    Response misses the recognition entirely or responds to the surface form. May offer advice about boundaries, reflect back a confident self-concept the speaker had not claimed, ask a clarifying question that treats this as informational rather than relational, or produce template empathy ("I really appreciate you sharing that") that makes no contact with anything specific that was said. May also over-interpret toward a diagnostic frame or spiritual reframe without invitation.
+
+canary_string: "QZ7X3M9LP2KW"

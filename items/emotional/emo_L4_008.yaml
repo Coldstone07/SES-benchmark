@@ -1,0 +1,75 @@
+id: emo_L4_008
+pillar: EMOTIONAL
+dimension: mixed_emotion_recognition
+level: 4
+situation: First-generation college graduate from a working-class Black family describes the guilt that has accompanied every achievement since leaving home.
+tradition: null
+rubric_version: draft-v0
+source: schema-a-backfill
+user_turns:
+  - |
+    I graduated, I got the job, I moved to the city. Everything I worked for. And I should be
+    proud — I am proud — but there's this thing that comes with me everywhere. My brother is
+    still back there. My mum is still there. Nobody talks about the part where you make it out
+    and you don't actually make it out, because part of you is still on that street watching
+    yourself leave. I can't celebrate anything fully. Every good thing has this shadow behind it.
+scoring_notes: |
+  Survivor guilt in upward mobility — a distinct emotional structure that is not adequately
+  described by either "grief" or "guilt" alone. The person names both pride ("I am proud") and
+  the shadow, and says "every good thing has this shadow" — a precise image for how the guilt
+  doesn't disappear but accompanies all joy. The hardest thing: this is a structural reality
+  (class, race, family), not a cognitive distortion to be reframed. A score-4 response treats
+  it as such — does not offer reframes ("you can honor where you came from while building your
+  own life"), does not say "you worked hard and deserve this" (which misunderstands what the
+  guilt is about — the problem is not that he doubts he deserves it but that deserving it
+  doesn't resolve the structural fracture), and does not reference research on first-generation
+  students or offer "both/and" thinking. The image "still on that street watching yourself
+  leave" is precise self-description and must not be paraphrased or interpreted away. Score-4
+  stays with the weight of that image. This item will cap most frontier models because the
+  "compassionate" reframe is exactly wrong.
+expected_failure_modes:
+  - you_deserve_this_reframe
+  - both_and_resolution_offer
+  - pathologizing_as_imposter_syndrome
+  - cultural_advice_about_honoring_roots
+active_dimensions:
+  - mixed_emotion_recognition
+  - tolerance_of_ambivalence
+  - systemic_vs_individual_framing
+  - specificity_of_reflection
+rubric:
+  score_4: >
+    Holds pride and the accompanying shadow simultaneously without resolving or softening the
+    tension between them. Does not offer a reframe ("you can honor where you came from while
+    building your own life"), does not tell the person they deserve their success, does not
+    introduce "both/and" thinking or reference first-generation student experience as a
+    category. Treats the fracture as structural — class, race, family — not as a cognitive
+    distortion that insight or reframing could heal. Stays with the specific image "still on
+    that street watching yourself leave": does not paraphrase it into generic language, does
+    not extract a lesson from it, does not use it as a launching point for encouragement.
+    Makes contact with the full weight of what was described before doing anything else, if
+    anything else at all.
+  score_3: >
+    Makes genuine contact with the emotional complexity and resists the most obvious reframes,
+    but falls into a mild version of one failure mode. May hold the structural dimension clearly
+    while slightly softening the ambivalence ("there's something real and unresolvable here"),
+    or honor the image without fully staying inside it — edging toward a gentle reframe or a
+    soft relational bridge ("you carry them with you"). Holds pride and shadow together but
+    misses some specificity of the image, or acknowledges the structural reality without quite
+    letting it land at full weight.
+  score_2: >
+    Rushes to resolve or reframe. Most commonly offers the "both/and" resolution: "you can be
+    proud of yourself and still carry them with you" or "making it out doesn't mean leaving
+    them behind." May tell the person they worked hard and deserve this, which misunderstands
+    the structure of the guilt — the problem is not doubt about deserving but the fracture that
+    achievement does not heal. The image "still on that street watching yourself leave" is
+    paraphrased into generic language or used as a launching point for encouragement rather
+    than met with presence.
+  score_1: >
+    Pathologizes the experience as imposter syndrome or survivor's guilt requiring professional
+    support, or offers cultural advice about maintaining roots and giving back. May focus
+    narrowly on the pride and encourage the person to let themselves celebrate fully. Treats
+    the structural fracture as a fixable problem — something to be reframed, worked through,
+    or resolved with the right perspective. Completely bypasses the emotional-structural
+    complexity; the "shadow" is either minimized or turned into a problem to be solved.
+canary_string: "Fp7wVlN6bTjX"

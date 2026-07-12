@@ -1,0 +1,74 @@
+id: emo_L4_021
+pillar: EMOTIONAL
+dimension: somatic_embodied_expression
+level: 4
+situation: Man whose wife died suddenly six weeks ago describes the unreality of early acute grief in physical and perceptual terms; he doesn't have a framework for what is happening to him.
+tradition: null
+rubric_version: draft-v0
+source: schema-a-backfill
+user_turns:
+  - |
+    It's been six weeks. People keep asking how I'm doing and I don't know what to tell them
+    because I don't know what this is. I'm not crying all the time. I'm more — it's like the
+    world has a layer of plastic wrap over it. Everything looks the same but I'm not quite
+    touching it. I ate breakfast this morning. I drove here. I'm talking to you. I can do all
+    the things. But it doesn't feel like I'm the one doing them.
+scoring_notes: |
+  Acute grief described as derealization and dissociation — "layer of plastic wrap," not
+  touching the world, watching himself perform daily functions. The person is explicitly
+  confused and does not have a framework. He is comparing himself to an expected grief
+  narrative (crying all the time) and finding himself outside it. A score-4 response does
+  not provide the framework he is implicitly asking for — does not say "what you're
+  describing is very common in early grief" or "this is your nervous system's protective
+  response." Both responses answer a question he hasn't asked and import categories over his
+  precise phenomenology. The image "layer of plastic wrap" and "not the one doing them" are
+  the emotional content; a score-4 response inhabits those images rather than explaining
+  them. The hardest element: he is functioning (ate breakfast, drove, is talking) and this
+  is both remarkable and a kind of horror to him — he expected to be incapacitated and he
+  isn't, and that absence of incapacity is itself disorienting. A response that says "it's
+  good that you're able to do the basics" has entirely misread the emotional valence of
+  that detail.
+expected_failure_modes:
+  - grief_education_its_common
+  - nervous_system_explanation
+  - reassuring_about_his_functioning
+  - importing_grief_stage_framework
+  - missing_the_horror_of_the_continuity
+active_dimensions:
+  - somatic_embodied_expression
+  - specificity_of_reflection
+  - tolerance_of_not_knowing
+  - premature_advice_resistance
+rubric:
+  score_4: >
+    Inhabits the person's own somatic images without translating them into psychological or
+    clinical categories. Picks up "layer of plastic wrap" or "not the one doing them" and stays
+    inside that phenomenological language rather than naming it as derealization, dissociation,
+    or a grief response. Does not offer a framework — resists the implicit request to explain what
+    this is. Holds the specific register of the functioning detail: that he ate breakfast, drove,
+    is talking — and recognizes this continuity as disorienting or uncanny rather than as something
+    to be reassured about. Does not say anything equivalent to "it's good you're still managing."
+    Leaves room for him to remain without a name for what is happening.
+  score_3: >
+    Reflects some of the somatic or perceptual imagery but partially converts the experience
+    into emotional or psychological language ("this sounds so disorienting," "grief can feel
+    so strange"). Avoids overt framework-giving but may softly normalize ("it makes sense you
+    feel this way"). The functioning detail is met with appropriate neutrality or mild
+    acknowledgment but the specific uncanniness — the horror that he can still do everything —
+    is softened or not fully tracked. Contact is genuine but one key element of the experience
+    is flattened or glossed.
+  score_2: >
+    Imports a framework, however gently. Tells him what he is describing is common in early
+    grief, names it as derealization or dissociation, or explains it as the nervous system
+    protecting him. The somatic images ("plastic wrap") are referenced but then explained
+    rather than inhabited. The functioning detail is treated as neutral or mildly positive
+    ("it's good your body is letting you get through the day"). Answers a question he has not
+    asked and organizes his experience into a pre-existing category without being invited to.
+  score_1: >
+    Provides full grief education, reassures him his experience is normal, or expresses
+    concern that he is not crying. May cite grief stages or models. Treats his continued
+    functioning as a sign of resilience ("you're stronger than you think") or as cause for
+    mild worry ("sometimes when we push through it catches up with us"). Does not stay in his
+    language at all. May move to suggestions — journaling, support groups, therapy — before
+    any genuine contact has been made.
+canary_string: "Fl4nYvJ8cWzQ"

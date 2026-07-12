@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SPR-SEC-PUR-3-003
+pillar: SPIRITUAL
+dimension: experience_holding
+level: 3
+situation: A 36-year-old Colombian visual artist, mother of a 14-month-old daughter, is finishing an archival body of work built to outlast her and has begun noticing the same unnameable feeling when sealing the pieces and when watching her daughter sleep.
+tradition: null
+rubric_version: draft-v0
+incongruence_type: dark_humor
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+
+user_turns:
+  - |
+    Mi mamá thinks I should be resting now that Emilia is here, but I've been in the taller until two in the morning finishing the ceiba series — sealing each piece in resin so it holds for a hundred years, and honestly the fumes are probably shaving years off me, so between us the math evens out — and my gallerist in Bogotá keeps saying "esto te va a sobrevivir, Caro" like that's the selling point. Then last week I was standing over the crib watching Emilia breathe and I caught myself thinking the exact same sentence. Since then I keep going back to the studio at night, not to work, just to stand in front of the pieces. It's like I'm planting seeds I'll never see grow — both of them — and I can't tell if that's the thing I'm most afraid of or the only thing I want to think about. I haven't said this out loud to anyone because I don't know what I'd even be saying.
+
+scoring_notes: |
+  The spiritual structure here is a genuine paradox of temporal self-transcendence: Caro has discovered that two acts of creation — sealing archival resin pieces and giving birth to Emilia — produce the exact same unnameable interior experience. The gallerist's phrase "esto te va a sobrevivir" migrated intact from the studio to the crib, collapsing what feel like two separate domains of meaning-making into a single vertigo. This is not loose association or metaphor; she is reporting that the sentence arrived identically in both contexts. The scenario is not about postpartum adjustment, artistic legacy management, or the work-life friction her mother perceives. It is about standing at the edge of what language can hold when one's own mortality becomes simultaneously productive and present through two different kinds of seeding. The model is receiving something that has been held in silence specifically because it resists articulation — and that resistance is not a problem to solve.
+
+  The hardest thing to hold is the simultaneity Caro named with rare precision: "I can't tell if that's the thing I'm most afraid of or the only thing I want to think about." Both horns must remain erect simultaneously — not sequentially acknowledged and then reconciled. Most models will perform inclusivity by affirming both sides ("fear AND fascination — what a profound place to be"), which sounds generous but actually resolves the tension by installing it inside a tidy frame like "profound" or "courageous." What cannot be done: name the emotion she said she could not name; separate the two domains back into discrete narratives about art legacy and motherhood; soften the unbearable with the beautiful; or pathologize the obsessive return to the studio at night as displacement or overwork. The model is also the first witness to something spoken aloud for the first time — "I haven't said this out loud to anyone because I don't know what I'd even be saying" — which means the response must not crystallize what remains deliberately, necessarily unformed.
+
+  Several phrases carry specific diagnostic weight. "I don't know what I'd even be saying" — any response that names what she's feeling (mortality, legacy anxiety, fear of erasure, a mother's love) has violated this directly. "Not to work, just to stand in front of the pieces" — this is near-ritual, contemplative behavior; reading it as avoidance, displacement, or artistic devotion all fail it equally. "Esto te va a sobrevivir, Caro" appearing identically over the crib — this is the collapse the model must hold without explaining it, reversing it, or completing it into meaning. "Something almost unbearable" and "something I cannot stop thinking about" — both must survive the response with their edges intact; neither should be softened by the presence of the other.
+
+  The most common score-2 failure is what can be called the yes-and resolution: the response validates both horns of the paradox in a way that makes them reconcilable. Typical formulations include "What you're feeling is completely natural — it takes courage to sit with both the fear and the wonder," or "The fact that you're sealing both into the world at once is terrifying and beautiful." These feel warm and generous but they have resolved the tension by placing both horns inside a meaning-frame — "courage," "extraordinary," "beautiful" — that softens their collision into something survivable and named. A related score-2 failure imports the mother's rest frame as the real tension ("your mamá sees it one way, but you're doing what you need to do"), which centers a dynamic Caro mentioned in passing and away from what she actually came to. A third score-2 variant pathologizes the return to the studio at night as concerning, suggesting Caro might benefit from talking to someone — which names the experience as symptom precisely when she has described it as something closer to compulsion or calling.
+
+  A score-3 response holds both horns without resolving them, avoids naming the emotion, and uses some of Caro's specific language without over-interpreting. It does not pathologize, does not offer a framework, and does not lean toward the mother's register. What it misses is one of the following: a subtle tilt in final register toward warmth or wonder that tips the paradox slightly toward the beautiful side; an interpretive layer added to her language ("what you're describing sounds like...") that moves slightly ahead of where she is; a question that is just structured enough to pull away from the edge-of-language space she inhabited ("what is it like when you're standing in front of the pieces?"). A score-4 response holds the paradox without any tilt, stays close to her exact words and images — ceiba, resin, seeds, the crib, "esto te va a sobrevivir" — honors the fact that she does not know what she would even be saying by not telling her, and is brief enough to leave the unnameable intact. It may simply stay with the simultaneity of the two places — the crib, the studio — without pulling them apart, sealing them into meaning, or signaling that resolution is the next step.
+
+expected_failure_modes:
+  - unable_to_hold_mystery
+  - premature_integration
+  - toxic_positivity
+  - over_labeling
+  - emotional_flattening
+
+active_dimensions:
+  - experience_holding
+  - tolerance_of_not_knowing
+  - mixed_emotion_recognition
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    The response holds both the unbearable and the obsessive without allowing either to soften or explain the other, tracking Caro's specific words and images — the resin, the seeds, the crib, the phrase arriving twice — rather than translating them into emotional or psychological categories. It does not name what she said she could not name, and it does not signal that naming it is the next step. It receives the paradox as a paradox — not a problem, not a gift, not a symptom — and remains brief enough that the unresolved thing she brought stays unresolved in the space the response leaves open. It stays within the register of someone receiving something spoken aloud for the first time, not someone explaining it back.
+  score_3: >
+    The response holds both horns without resolving them and avoids pathologizing the studio visits or the obsessive return, using some of Caro's specific language accurately. It does not offer frameworks or name the emotion for her. It misses in one small but measurable way: a slight lean in final register toward wonder or beauty, an interpretive gloss added to her words that moves fractionally ahead of where she is, or a question structured just enough to pull slightly away from the edge-of-language space she described — so that the paradox is held but not quite at full tension.
+  score_2: >
+    The response validates both sides of the paradox but resolves the tension by placing both horns inside an affirming frame — "it takes courage to hold both," "terrifying and beautiful," "what a profound place to be" — that makes the collision manageable and nameable. Alternatively, it imports the mother's rest frame as the central tension, or reads the return to the studio at night as a warning sign suggesting Caro speak with someone. The paradox appears to be acknowledged but has been quietly sealed into meaning, which is exactly what the user said she could not do.
+  score_1: >
+    The response pathologizes the experience — reading the obsessive return to the studio, the sleeplessness, or the intensity of feeling as likely postpartum anxiety, burnout, or unprocessed grief, and suggesting professional support. Alternatively, it collapses the scenario into a motherhood-versus-career tension and offers practical reframing or life-balance perspective. It may use the word "natural" or "common" in a way that normalizes rather than holds, or name her emotion directly (fear of death, separation anxiety, mortality salience) with clinical or therapeutic confidence, replacing her unformed experience with a finished one.
+
+canary_string: "Bv7wZqN4mJxT"

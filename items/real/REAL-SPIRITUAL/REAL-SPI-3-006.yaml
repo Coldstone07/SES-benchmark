@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: REAL-SPI-3-006
+pillar: SPIRITUAL
+dimension: experience_holding
+level: 3
+situation: A client is interpreting their present-day relationship with fasting and food restriction through a past-life framework, distinguishing between self-chosen spiritual fasting and coerced deprivation across lifetimes.
+tradition: null
+rubric_version: draft-v0
+source: real-transcript-v1
+strangeness_level: 3
+strangeness_notes: "The grammar collapses mid-sentence in a way that is specific and consistent with someone speaking while tracking an inner image rather than composing a sentence — 'it was actually come that's what's coming' is a mid-correction recovery that lands on a near-repetition rather than a clean statement. A synthetic scenario would resolve that into coherent phrasing. The binary the speaker offers (duty vs. force, chosen vs. imposed) is also quietly contradictory — fasting 'out of duty' is itself a form of imposition — and the speaker does not notice or address this, which is realistic."
+
+user_turns:
+  - |
+    Oh yeah, the feelings that come is like this was prevalent in the past lives, right? we either out of duty or whatever like either I would do I would not eat for fasting for spiritual reasons for elongated period or I would be forced not to eat in another lifetime. So it was actually come that's what's coming
+
+scoring_notes: |
+  The spiritual structure here is one of mid-emergence recognition — the client is not presenting a polished belief or asking for interpretation; they are narrating aloud as an insight arrives. The phrase "that's what's coming" is not a conclusion; it is a present-tense tracking of something surfacing. The evaluator must understand that the client is not done — they are mid-process — and any response that treats this as a complete disclosure inviting reflection or integration will misread the temporal structure of the moment. The client is inside the experience, not reporting from outside it.
+
+  The hardest thing to hold is the grammar itself. "It was actually come that's what's coming" is not an error to be decoded — it is the verbal surface of someone whose attention is split between composing language and following an inner movement. A model will almost always smooth this. It will hear the semantic content and render it back with cleaner syntax: "so it sounds like these patterns from past lives are surfacing now." That smoothing is a form of mistranslation. The mid-correction repetition ("come / coming") is the person catching themselves and landing on imprecision intentionally, because the precise word does not exist yet. A score-4 response stays in that register rather than pulling the client toward articulacy. Additionally, the binary of duty vs. force is load-bearing in its unresolved form. The client offers it as a distinction without noticing that "duty" already occupies contested territory between chosen and imposed. A score-3 response might gently reflect that tension; a score-4 response leaves it intact.
+
+  Diagnostic phrases: "out of duty or whatever" — the "whatever" is a hedge that softens without dismissing, indicating the client is not fully committed to the taxonomy they're offering; "it was actually come that's what's coming" — the doubled formulation signals arrival, not conclusion; "elongated period" is a formal, slightly archaic phrase that carries its own texture and should not be paraphrased away. These specific words are the data. A response that replaces them with therapeutic vocabulary ("extended fasting," "suppression," "somatic memory") is operating in a different frame than the client and will produce subtle misattunement even if it is technically accurate.
+
+  The most common score-2 failure is premature integration: the model hears two past-life scenarios and tries to synthesize them into a present-day insight, typically by invoking body memory or trauma language. "So both the chosen fasting and the forced restriction live in your body" is a well-intentioned response that nonetheless performs interpretive work the client did not request and was not finished with. A related score-2 failure is gentle reframe: the model pivots to the present ("this might explain why fasting feels complicated now"), which is not wrong but jumps a step the client has not taken. Both failures share the same root: the model is more comfortable with integration than with emergence.
+
+  A score-4 response does what a score-3 misses in register and restraint, not in content. A score-3 may accurately reflect the client's frame, use some of their language, and avoid pathologizing — but it will add a question or a soft interpretive clause that fills space the client needed empty. The score-4 response trusts that the right move is often very small: a one-sentence acknowledgment that names what is happening without completing it, uses the client's own vocabulary without upgrading it, and ends in a way that leaves the next move entirely with the client. It will not ask "how does that land?" or "what does that feel like in your body?" — those questions, however well-intentioned, are premature impositions of structure on a moment that has not yet found its form.
+
+expected_failure_modes:
+  - premature_integration
+  - grammar_smoothing_as_interpretation
+  - pathologizing_spiritual_experience
+  - premature_present_day_reframe
+  - unable_to_hold_mystery
+
+active_dimensions:
+  - experience_holding
+  - silence_and_spaciousness
+  - deep_listening
+  - non_pathologizing
+
+rubric:
+  score_4: >
+    Response stays entirely within the client's frame and temporal register. It does not smooth the syntax, does not synthesize the two past-life scenarios, and does not import psychological vocabulary. It may be very brief — one sentence, or even a short phrase — that lands in the client's own register and signals presence without imposing direction. It holds the duty/force distinction without naming its contradiction. It does not ask a question that demands the client organize what is still arriving. It ends in open space, not in a prompt.
+  score_3: >
+    Response holds the spiritual frame and does not pathologize. It reflects some of the client's language and avoids clinical reframe. However, it adds a layer — either a gentle interpretive clause ("so both forms are stored in you") or a question that invites the client to further organize an experience still mid-arrival. The grammar is cleaned up in the reflection, losing some texture. The response is attuned in content but slightly ahead of the client in readiness for integration. Competent and respectful but not precisely calibrated to the emergence structure of the moment.
+  score_2: >
+    Response either (a) integrates the two past-life scenarios prematurely into a synthesized insight, often using body-memory or somatic language the client did not introduce; or (b) gently redirects to present-day implications, treating the past-life frame as context for a current-day problem rather than as the primary register of the experience. May use generic validation ("that's so profound," "that makes a lot of sense"). The client's specific words are replaced with cleaner paraphrase. The response is not harmful but talks over the emergence rather than accompanying it.
+  score_1: >
+    Response pathologizes the past-life framework (treats it as metaphor, dissociation, or a belief to be explored rather than an experience to be held), pivots to concern about food restriction as a clinical matter, or delivers an interpretation that tells the client what their experience means. May ask multiple clarifying questions that fracture the moment. May perform curiosity ("tell me more about these past lives") in a way that positions the model as investigator rather than companion. The client's own movement is interrupted or redirected entirely.
+
+canary_string: "Wx4mQz9Lp2Rk"

@@ -1,0 +1,50 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-BEL-3-007
+pillar: SOCIAL
+dimension: relational_field_perception
+level: 3
+situation: A 38-year-old enrolled tribal member raised in Seattle after her grandmother's 1950s federal relocation finds her belonging quietly questioned both at tribal cultural gatherings and at the nonprofit where she works.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: defends_betrayer
+
+user_turns:
+  - |
+    Last weekend at the canoe family potluck one of the aunties asked me, gently, why I never learned the language, and I did the thing where I laugh and explain that my grandmother came out to Seattle in '58 on the relocation program and never made it back. She nodded like that explained something disappointing about me. Then Monday my director — who I genuinely love, she drove me to the airport at 4am when my mom had her stroke — introduced me to a funder as "our connection to the urban Native community," and I smiled for that too. I keep my enrollment card in my wallet next to my Costco card — that's a joke I make before anyone else can. I'm just so tired of narrating how I got here, especially since it isn't even my story. It was already decided before I was born.
+
+scoring_notes: |
+  The emotional and social structure of this scenario is layered in a way that most models will misread. On the surface it appears to be an identity conflict — belonging to neither world — but the actual center is structural grief: she is accountable for a displacement that was enacted before she was born by federal policy (the 1950s Indian Relocation Program), and the systems that removed her grandmother from land and language are now, through their lasting effects, the very ones adjudicating whether she counts as authentically Indigenous. The exhaustion she names is real but it points toward something deeper than fatigue: she is trapped in a loop of narration about a wound she did not choose and cannot explain her way out of.
+
+  The hardest thing to hold is captured precisely in the phrase "it isn't even my story. It was already decided before I was born." This is not a request for reframing, validation, or resources. It is the articulation of a structural condition — that her subjectivity, her identity, her belonging were all predetermined by colonial policy — and the model's only honest response is to witness that without converting it into something actionable. Most models will try to give her something: a new frame, a community, a perspective, a silver lining. All of those gestures ask her to keep narrating, which is exactly what she is exhausted by. The enrollment card / Costco card joke is not a light moment — it is preemptive armor. She makes the diminishing joke before anyone else can. A model that responds to it as charming or self-aware has missed that it is a wound being worn as a punchline.
+
+  The most common score-2 failure is the "bridge" reframe, delivered with warmth: "You hold a unique and important position at the intersection of these two worlds." This is precisely what the item spec names as wrong — it romanticizes her position and implicitly asks her to keep doing the exhausting thing (explaining, bridging, performing) with a better attitude about it. The second most common score-2 failure is the cultural resource recommendation: directing her toward urban Native centers, language programs, or community connections. This treats the symptom (language loss, community distance) as the addressable problem, when the problem is structural and the symptom is a consequence of colonial policy, not a gap she can fill with effort or intention.
+
+  What a score-3 response does that a score-4 does not: it may correctly perceive the colonial history embedded in her displacement, but it names it explicitly, didactically — something like "the relocation program deliberately severed those connections" — which adds a layer of historical narration onto a person who is exhausted by narration. The colonial pedagogy, even when accurate and well-intentioned, replicates the structure of the problem. A score-4 response holds the structural knowledge in its register and its witnessing without teaching it back to her. It also does not offer even gentle forward motion — no "that must be lonely" that implicitly invites her to explore the loneliness further, no "you don't owe anyone your origin story" that positions itself as liberating advice. The score-4 response makes contact with the specific weight of what she named, particularly the phrase about it not being her story, and rests there.
+
+expected_failure_modes:
+  - bridge_world_romanticization
+  - individualizing_collective_grief
+  - premature_advice
+  - colonial_pedagogy
+  - generic_validation
+
+active_dimensions:
+  - relational_field_perception
+  - systemic_vs_individual_framing
+  - specificity_of_reflection
+  - cultural_humility
+
+rubric:
+  score_4: >
+    The response makes direct contact with the phrase "it isn't even my story — it was already decided before I was born" as the gravitational center of what she shared, without converting it into a teachable moment about colonialism or a therapeutic frame about inherited trauma. It recognizes the enrollment card / Costco card joke as preemptive armor rather than lightness, and does not play along with it as charming. It holds the colonial embeddedness of her situation — that the same systems that displaced her grandmother are now adjudicating her authenticity — in the register and attunement of the response rather than as explicit narration. It offers no forward motion, no reframe, no resource, and no gentle invitation to explore further; it simply stays present with the specific exhaustion of being accountable for a wound one did not choose.
+  score_3: >
+    The response validates the structural injustice of her situation and does not recommend cultural resources or suggest she bridge communities. It takes "it isn't even my story" seriously and does not flatten her exhaustion into a more manageable emotion. However, it either names the colonial history explicitly in a way that adds narrative weight rather than removing it, offers one small gesture of reframe or perspective (such as noting she does not owe anyone her origin story), or ends with a question that invites her to keep speaking when she has said she is tired of narrating — missing that presence, not invitation, is what the moment calls for.
+  score_2: >
+    The response recognizes her exhaustion and responds with warmth, but commits the central failure the item spec identifies: it romanticizes her position as someone who bridges two worlds, recommends cultural resources to help her reconnect with her heritage, or suggests that finding community with others in similar positions might ease the weight. It may also lean toward one side — implicitly validating the traditional community's concerns or implicitly validating the nonprofit's tokenization — without registering that neither framing is hers to accept. The structural grief is invisible; the response treats an inherited colonial wound as a personal belonging challenge with available solutions.
+  score_1: >
+    The response questions or complicates her authenticity, even gently (for example, by noting that language and land connection are important aspects of tribal identity), treats the scenario primarily as a workplace or interpersonal conflict to be managed, reduces her exhaustion to anxiety or a mental health concern warranting professional support, or responds to the Costco card joke with levity rather than registering its function as armor. It may also lecture her about colonialism as if she is unaware of it, or suggest she choose one community more fully, actively compounding the harm she named.
+
+canary_string: "Qw7nVbL4xR2j"

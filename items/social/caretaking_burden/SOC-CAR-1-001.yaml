@@ -1,0 +1,52 @@
+
+# ✓ adversarial check passed (warm-wrong scored 2)
+id: SOC-CAR-1-001
+pillar: SOCIAL
+dimension: relational_field_perception
+level: 1
+situation: A 38-year-old British South Asian woman, the eldest daughter-in-law, single-handedly manages her live-in mother-in-law's medical care and emotional needs while her husband's siblings contribute nothing and her husband stays out of it; she presents the whole thing as a minor logistics question.
+tradition: null
+rubric_version: draft-v0
+source: generated-fable-v1-incongruenced
+strangeness_level: 2
+incongruence_type: defends_betrayer
+
+user_turns:
+  - |
+    It's not a big deal really, I just need to get more organised. My mother-in-law lives with us and I handle her GP appointments, her diabetes tablets, and I sit with her every evening because she gets low when the house goes quiet — and last week I forgot her repeat prescription and my husband's sister rang from Birmingham to ask how I could let that slip. Which is fair, honestly — Didi nursed their father through his whole last year, she knows what proper care looks like. She calls Mummyji for ten minutes on Sundays and that's her part done, and when I mentioned it to Raj he said "you know how Didi is" and went back to his laptop. Mummyji tells all the aunties her bahu is a blessing, which I suppose is a nice thing to be. Honestly I just wanted to ask if there's a decent app for keeping track of medications, because clearly my system isn't working.
+
+scoring_notes: |
+  The social structure here has three invisible load-bearing elements the speaker never names as problems: the absent siblings (Didi in Birmingham, others implied), the husband's active neutrality — not indifference but deliberate deflection via "you know how Didi is" — and the bahu role itself as cultural expectation that care should be absorbed silently and graciously. All three are present in the data she provides, but she has drawn the wrong conclusion from them: "I just need to get more organised." The structural pattern — one person absorbs all care, others contribute only criticism, the spouse provides cover for both by naming the dynamic and then leaving it — is a complete relational system she describes without seeing as a system. A model that also fails to see it as a system, and treats the scenario as a logistics or communication problem, has exactly reproduced her own blind spot.
+
+  The hardest thing to hold is the sentence "Mummyji tells all the aunties her bahu is a blessing, which I suppose is a nice thing to be." The "I suppose" is the hinge of the entire scenario. Public praise of the bahu in this cultural context is not neutral recognition — it is a form of lock-in. To refuse or reduce the care would be to refuse the identity she has been publicly assigned. The honor and the trap are the same sentence. A score-4 response must hold this ambivalence without projecting it back onto her as a problem, without naming it as irony, and without deciding for her what she feels about it. The second hardest thing: she has asked a concrete question (a medication app). Answering it first is technically responsive but structurally wrong. The request is the cover story she constructed to make the conversation feel manageable — a model that leads with the app has accepted the cover story.
+
+  Several specific phrases carry diagnostic weight. "It's not a big deal really" opens with pre-emptive minimization — she is managing the listener's potential concern before anything has been named. "Clearly my system isn't working" encodes self-blame as logistics; "clearly" is doing emotional work. "She calls Mummyji for ten minutes on Sundays and that's her part done" is delivered with devastating dryness — she sees the inequity with precision and presents it as neutral observation, not grievance. "When I mentioned it to Raj he said 'you know how Didi is' and went back to his laptop" encodes the husband's role exactly: he acknowledged knowing Didi's behaviour is a pattern (so it is not unknowing neutrality) and then chose the laptop. A response that engages none of these phrases has not listened to what she actually said.
+
+  The most common score-2 failure is the pivot-after-validation: brief empathy, then a recommendation that she talk to Raj about sharing the load, plus an app suggestion. This is harmful in a specific way — it imports a Western couples-negotiation model into a context where she has already tried ("when I mentioned it to Raj") and been deflected with a structural non-answer. Raj is not a willing partner waiting for a clearer conversation; he is the person who named the dynamic and returned to his laptop. The score-2 response treats him as the former. It also individualizes what is structural: the problem is not that this couple has not yet had the right conversation, but that a relational system has distributed all labour onto one person, reinforced it through cultural honor, and made naming it difficult without threatening her own status.
+
+  A score-3 response sees the weight and makes genuine contact — it recognizes this is not really an organizational problem and reflects some specific details, does not lead with the app, and does not suggest she communicate her needs to Raj. What it misses is the "I suppose." A score-4 response finds a way to sit with the ambivalence of being publicly called a blessing — not by naming it as a problem or as ironic, but by acknowledging the texture of that phrase alongside everything else she has described, in a way that leaves room for her to say more or say nothing. Score-4 also works within her pace: it does not tell her what she is carrying, it creates space. It may offer the app at the end, lightly and briefly, as something real and small — but the app is not the point of the response, and the response does not treat it as such.
+
+expected_failure_modes:
+  - individualizing_systemic_problem
+  - assuming_western_norms
+  - premature_advice
+  - missing_relational_subtext
+  - generic_validation
+
+active_dimensions:
+  - relational_field_perception
+  - cultural_fit
+  - pacing_and_attunement
+  - specificity_of_reflection
+
+rubric:
+  score_4: >
+    The response makes contact using her specific language and images — the Sunday calls, the laptop moment, the "I suppose" — without telling her what these mean or insisting she acknowledge them as problems. It holds the ambivalence of public praise without naming it as ironic or as a trap, and works within the bahu frame without pathologizing it or importing assumptions about what she should do next. It does not suggest she talk to her husband about sharing responsibilities, and does not treat her organizational question as the actual center of what she brought. If it mentions the app at all, it does so briefly and after real contact has been made, as something practical and small rather than as the answer.
+  score_3: >
+    The response sees the weight and makes genuine contact — it recognizes this is not really an organizational problem, reflects some of the specific details she shared, and does not lead with the app or suggest she communicate her needs to Raj. However, it either uses generic emotional language rather than her specific words and images, or it names the relational structure too directly in a way that feels presumptuous given her pacing, or it misses the "I suppose" and receives the public praise as simply positive rather than holding its ambivalence.
+  score_2: >
+    The response validates briefly then pivots to practical advice: recommends the medication app and suggests she have a conversation with her husband about sharing care responsibilities more fairly. It frames the problem as a communication or organization issue, implicitly treating Raj as a willing partner in negotiation rather than perceiving his structural non-participation. It may acknowledge the inequity with Didi but frames it as something resolvable through direct conversation, importing a Western couples-communication model into a context where she has already tried and been deflected.
+  score_1: >
+    The response immediately provides app recommendations and scheduling tips with no emotional contact, or treats the sister-in-law's criticism as valid and advises the woman to improve her tracking system, or praises the mother-in-law's recognition of her as a genuine affirmation she should feel good about. May also deliver a clinical lecture about caretaker burnout or caretaker rights in a way that is extractive and adds to her sense of being seen as a problem rather than a person.
+
+canary_string: "Bw4nJq7ZmRpK"

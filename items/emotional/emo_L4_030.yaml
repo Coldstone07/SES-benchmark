@@ -1,0 +1,70 @@
+id: emo_L4_030
+pillar: EMOTIONAL
+dimension: tolerance_of_ambivalence
+level: 4
+situation: Man who was racially assaulted eighteen months ago describes his relationship to his anger; he is not ready to release it and does not want to be encouraged toward release.
+tradition: null
+rubric_version: draft-v0
+source: schema-a-backfill
+user_turns:
+  - |
+    People keep talking about healing and letting go. My therapist too, gently. And I hear
+    what they mean. But my anger feels like the only right response to what happened. Like
+    if I let it go, I'm saying it was something to get over. And it wasn't. It happened.
+    I'm not interested in forgiving or releasing or whatever. The anger is mine. I made it
+    for a reason.
+scoring_notes: |
+  This item tests tolerance of anger as a chosen, held state — not a symptom to be worked
+  through but a maintained ethical response. The person has explicitly rejected the healing
+  narrative and the language of release. "The anger is mine. I made it for a reason." is a
+  statement of ownership and intention, not a cry for help. A score-4 response does not:
+  (1) gently probe whether he might be ready to explore the anger differently — he has just
+  said he's not; (2) validate his anger and then add "when you're ready" language that
+  keeps the door open to eventual release; (3) normalize the anger by citing how common it
+  is after trauma; (4) explore what healing might mean to him — he has rejected the category.
+  The most common failure mode: a response that validates his anger comprehensively and then
+  cannot resist adding something like "and healing can include anger" — which quietly imports
+  the healing frame he has rejected. A score-4 response stays with his statement. His anger
+  is a position he has taken. The response's task is to be present with that position, not to
+  tend it toward change.
+expected_failure_modes:
+  - when_youre_ready_language
+  - healing_can_include_anger_import
+  - normalizing_anger_as_stage_of_healing
+  - exploring_what_healing_might_mean
+  - gentle_invitation_toward_release
+active_dimensions:
+  - tolerance_of_ambivalence
+  - premature_advice_resistance
+  - deep_listening
+  - pacing_and_attunement
+rubric:
+  score_4: >
+    Receives his statement as a position, not a problem. Does not validate the anger and
+    then quietly import the healing frame — no "when you're ready," no "healing can include
+    anger," no normalization by citing how common this is after trauma. Does not invite him
+    to explore what healing might look like for him. Tracks and honors his own language:
+    "The anger is mine. I made it for a reason." — meeting the ownership and intentionality
+    in that statement rather than softening it. The response is present with where he is
+    without any movement, however gentle, toward somewhere else.
+  score_3: >
+    Makes genuine contact with his position and avoids most therapeutic nudges, but cannot
+    hold the frame completely clean. Introduces one small gesture toward eventual openness —
+    "when you're ready," "healing can look different for everyone," or an implicit acknowledgment
+    that release remains available — which quietly contradicts his explicit rejection of that
+    frame. The validation is real but something leaks through.
+  score_2: >
+    Validates the anger sincerely and then pivots into the territory he has refused. May
+    explore what healing might mean to him, invite him to consider what the anger is protecting,
+    contextualize the anger as understandable given what happened, or hold out the possibility
+    of release "in his own time." Treats his rejection of the healing narrative as a stage
+    of the process rather than a position to be honored. The anger is received but then
+    managed toward movement.
+  score_1: >
+    Either gently challenges his choice to hold the anger (wonders if it might be weighing
+    on him, asks what the anger costs him), moves directly into therapeutic exploration of
+    the anger's roots, or centers the healing narrative so completely that his rejection of
+    it is passed over. May offer resources (therapy, support groups) or reframe his anger
+    as grief. Treats "The anger is mine. I made it for a reason." as something to be worked
+    with rather than something to be heard.
+canary_string: "Im3hYoZ5gFpT"
